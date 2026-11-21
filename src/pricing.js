@@ -1,0 +1,1 @@
+export function discount(keys){if(!Number.isSafeInteger(keys)||keys<0) throw new Error("Invalid key count");return keys>=50?25:keys>=30?20:keys>=15?15:keys>=5?10:keys>=1?5:0} export function mintPrice(base,keys){return BigInt(base)*BigInt(100-discount(keys))/100n}
