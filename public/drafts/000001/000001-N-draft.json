@@ -25,5 +25,6 @@
   "color_mood": "Glacial Turquoise",
   "art_status": "experimental_draft",
   "terrain_guided": true,
-  "art_version": "2.0"
+  "art_version": "3.0",
+  "surface_model": "sculpted coastline dome blended with DEM"
 }
