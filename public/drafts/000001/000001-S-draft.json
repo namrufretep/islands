@@ -35,11 +35,12 @@
   "lighting": {
     "screen_direction": "upper_left",
     "elevation_degrees": 45,
-    "shared_surface": true
+    "shared_surface": true,
+    "gradient_space": "screen_fixed"
   },
-  "art_version": "3.5",
+  "art_version": "3.6",
   "artwork_extent_px": 1740.8,
   "artwork_meters_per_pixel": 5.6256345989314225,
   "artwork_print_scale_denominator": 66444.50313698531,
-  "surface_model": "DEM-led sculpted relief with softened coastal bevel"
+  "surface_model": "DEM-led sculpted relief with screen-fixed tonal gradients"
 }
