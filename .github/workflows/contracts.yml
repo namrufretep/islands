@@ -1,0 +1,16 @@
+name: Contract tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - run: forge install OpenZeppelin/openzeppelin-contracts@v5.2.0 foundry-rs/forge-std@v1.9.6 --no-git
+      - run: forge test -vvv
