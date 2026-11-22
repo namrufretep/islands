@@ -1,0 +1,28 @@
+{
+  "id": "000001",
+  "status": "verified_coastline",
+  "source": "https://publicdata.npolar.no/kartdata/NP_B20_SHP.zip",
+  "source_sha256": "e7410ff789f8d20cbf7c68b0eb911780d49ed5afd88d3847a3c940909feec76c",
+  "layer": "B20_Land_f.shp",
+  "area_km2": 49.2657979396817,
+  "projection": "+proj=aeqd +lat_0=-54.42 +lon_0=3.36 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4918.363352519278,
+    -3651.29094211314,
+    4874.74135730054,
+    3709.923043759969
+  ],
+  "meters_per_pixel": 6.375719212122278,
+  "print_scale_denominator": 75303.77022191668,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "svg_sha256": "02d893fc055bfb8bb92392c10907a0c18d14a1e79561d7821e9bbd74985bc717",
+  "verification": "Automated land layer, topology, reference point and area checks; visual review pending",
+  "attribution": "Norwegian Polar Institute, B20 Kartdata; verify license before release",
+  "edition": "N",
+  "orientation_degrees": 0,
+  "color_mood": "Glacial Turquoise",
+  "art_status": "experimental_draft",
+  "terrain_guided": false
+}
