@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - 'scripts/import_sicily.py'
+      - 'scripts/import_sicily_terrain.py'
+      - 'scripts/review_sicily.py'
+      - 'scripts/render_sicily.py'
       - '.github/workflows/sicily-preview.yml'
 permissions:
   contents: write
@@ -18,15 +21,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1 rasterio==1.4.3 numpy==2.2.3 scipy scikit-image pillow cairosvg
       - run: python scripts/import_sicily.py
+      - run: python scripts/import_sicily_terrain.py
+      - run: python scripts/review_sicily.py
+      - run: python scripts/render_sicily.py data/gis/000002/coastline/000002-candidate-00.svg review-output/sicily-coastline.json public/drafts/000002
       - name: Publish unverified candidate to preview
         run: |
           mkdir -p public/drafts/000002
           cp data/gis/000002/coastline/000002-candidate-00.svg public/drafts/000002/coastline-candidate.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/gis/000002/coastline public/drafts/000002/coastline-candidate.svg
+          git add data/gis/000002 review-output/sicily-coastline.json public/drafts/000002
           if ! git diff --cached --quiet; then
             git commit -m "Generate Sicily geographic coastline preview candidate"
             git pull --rebase origin main
