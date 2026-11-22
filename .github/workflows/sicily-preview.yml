@@ -6,14 +6,14 @@ on:
       - 'scripts/import_sicily.py'
       - 'scripts/import_sicily_terrain.py'
       - 'scripts/review_sicily.py'
-      - 'scripts/render_sicily.py'
+      - 'scripts/render_island.py'
       - '.github/workflows/sicily-preview.yml'
 permissions:
   contents: write
 jobs:
   coastline:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,7 +25,7 @@ jobs:
       - run: python scripts/import_sicily.py
       - run: python scripts/import_sicily_terrain.py
       - run: python scripts/review_sicily.py
-      - run: python scripts/render_sicily.py data/gis/000002/coastline/000002-candidate-00.svg review-output/sicily-coastline.json public/drafts/000002
+      - run: python scripts/render_island.py data/gis/000002/coastline/000002-candidate-00.svg review-output/sicily-coastline.json public/drafts/000002 --palette sicily
       - name: Publish unverified candidate to preview
         run: |
           mkdir -p public/drafts/000002
