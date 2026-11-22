@@ -56,6 +56,9 @@ for idx,ring in enumerate(rings):
         pts.append(((mx-t[2])/t[0]-.5,(my-t[5])/t[4]-.5))
     draw.polygon(pts,fill=1 if idx==0 else 0)
 land=np.array(mask_img,dtype=bool)
+if land.sum()<1000:
+    raise RuntimeError(f'Coastline rasterization produced only {land.sum()} land pixels')
+print(f'Land mask: {land.sum():,} / {land.size:,} pixels')
 coast_distance=gaussian_filter(distance_transform_edt(land),max(1,2/scale))
 dist=gaussian_filter(coast_distance,max(1,5/scale))
 dist/=max(dist.max(),1)
@@ -88,6 +91,8 @@ for edition,angle in [('N',0),('S',180)]:
     fraction=(position-lo)[...,None]
     rgb=colors[lo]*(1-fraction)+colors[lo+1]*fraction
     rgba=np.concatenate([np.clip(rgb,0,255).astype(np.uint8),(land.astype(np.uint8)*255)[...,None]],axis=2)
+    if np.ptp(rgb[land])<3:
+        raise RuntimeError('Relief color field is nearly uniform: terrain rendering failed')
     rgba_img=Image.fromarray(rgba,'RGBA')
     if angle==180: rgba_img=rgba_img.rotate(180)
     buf=io.BytesIO()
@@ -106,8 +111,8 @@ for edition,angle in [('N',0),('S',180)]:
     svg=f'''<svg data-art-version="3.8" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
 <defs><radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="{background}"/>
-<g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{tonal_image}</g>
-<path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="{palette[0]}" stroke-width="8" stroke-linejoin="round"/></g>
+<g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><path d={d} transform="rotate({angle} 1024 1024)" fill="{palette[1]}"/>{tonal_image}</g>
+<path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="{palette[0]}" stroke-width="3" stroke-linejoin="round"/></g>
 </svg>'''
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
