@@ -1,0 +1,34 @@
+name: Sicily coastline preview
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_sicily.py'
+      - '.github/workflows/sicily-preview.yml'
+permissions:
+  contents: write
+jobs:
+  coastline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1
+      - run: python scripts/import_sicily.py
+      - name: Publish unverified candidate to preview
+        run: |
+          mkdir -p public/drafts/000002
+          cp data/gis/000002/coastline/000002-candidate-00.svg public/drafts/000002/coastline-candidate.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gis/000002/coastline public/drafts/000002/coastline-candidate.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate Sicily geographic coastline preview candidate"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
