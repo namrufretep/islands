@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/import_island.py'
+      - 'scripts/import_terrain.py'
       - '.github/workflows/island-gis.yml'
 permissions:
   contents: read
@@ -22,4 +23,19 @@ jobs:
         with:
           name: bouvet-coastline-candidates
           path: gis-output/
+          if-no-files-found: error
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install rasterio==1.4.3 numpy==2.2.3
+      - run: python scripts/import_terrain.py --url https://publicdata.npolar.no/kartdata/NP_B0_DTM20.zip --lat -54.42 --lon 3.36 --output terrain-output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bouvet-terrain-candidates
+          path: terrain-output/
           if-no-files-found: error
