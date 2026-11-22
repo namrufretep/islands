@@ -22,9 +22,16 @@
   "attribution": "Norwegian Polar Institute, B20 Kartdata; verify license before release",
   "edition": "S",
   "orientation_degrees": 180,
-  "color_mood": "Glacial Turquoise",
+  "color_mood": "Volcanic Ash",
+  "background": "#e2ddd3",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
   "art_status": "experimental_draft",
   "terrain_guided": true,
-  "art_version": "3.1",
+  "art_version": "3.2",
   "surface_model": "sculpted coastline dome blended with DEM"
 }

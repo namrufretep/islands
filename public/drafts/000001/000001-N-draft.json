@@ -23,8 +23,15 @@
   "edition": "N",
   "orientation_degrees": 0,
   "color_mood": "Glacial Turquoise",
+  "background": "#11232c",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
   "art_status": "experimental_draft",
   "terrain_guided": true,
-  "art_version": "3.1",
+  "art_version": "3.2",
   "surface_model": "sculpted coastline dome blended with DEM"
 }
