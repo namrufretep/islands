@@ -1,4 +1,4 @@
-name: Sicily coastline preview
+name: Sicily artwork build
 on:
   workflow_dispatch:
   push:
@@ -9,32 +9,84 @@ on:
       - 'scripts/render_island.py'
       - '.github/workflows/sicily-preview.yml'
 permissions:
-  contents: write
+  contents: read
 jobs:
   coastline:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1
+      - run: python scripts/import_sicily.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sicily-coastline
+          path: data/gis/000002/coastline/
+          if-no-files-found: error
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install rasterio==1.4.3 numpy==2.2.3
+      - run: python scripts/import_sicily_terrain.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sicily-terrain
+          path: data/gis/000002/terrain/
+          if-no-files-found: error
+  render:
+    needs: [coastline, terrain]
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: sicily-coastline
+          path: data/gis/000002/coastline
+      - uses: actions/download-artifact@v4
+        with:
+          name: sicily-terrain
+          path: data/gis/000002/terrain
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1 rasterio==1.4.3 numpy==2.2.3 scipy scikit-image pillow cairosvg
-      - run: python scripts/import_sicily.py
-      - run: python scripts/import_sicily_terrain.py
+      - run: pip install shapely==2.0.7 pyproj==3.7.1 numpy==2.2.3 cairosvg pillow scipy scikit-image
       - run: python scripts/review_sicily.py
       - run: python scripts/render_island.py data/gis/000002/coastline/000002-candidate-00.svg review-output/sicily-coastline.json public/drafts/000002 --palette sicily
-      - name: Publish unverified candidate to preview
+      - name: Check both finished artworks
         run: |
-          mkdir -p public/drafts/000002
+          test -s public/drafts/000002/000002-N-draft.svg
+          test -s public/drafts/000002/000002-S-draft.svg
+          test -s public/drafts/000002/000002-N-draft.png
+          test -s public/drafts/000002/000002-S-draft.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sicily-soft-stone-north-south
+          path: |
+            public/drafts/000002/*-draft.svg
+            public/drafts/000002/*-draft.png
+            public/drafts/000002/*-draft.json
+          if-no-files-found: error
+      - name: Publish both editions
+        run: |
           cp data/gis/000002/coastline/000002-candidate-00.svg public/drafts/000002/coastline-candidate.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/gis/000002 review-output/sicily-coastline.json public/drafts/000002
+          git add public/drafts/000002 review-output/sicily-coastline.json
           if ! git diff --cached --quiet; then
-            git commit -m "Generate Sicily geographic coastline preview candidate"
+            git commit -m "Publish Sicily Soft Stone artwork editions"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
