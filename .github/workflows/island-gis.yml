@@ -39,3 +39,29 @@ jobs:
           name: bouvet-terrain-candidates
           path: terrain-output/
           if-no-files-found: error
+  persist:
+    needs: [bouvet, terrain]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: bouvet-coastline-candidates
+          path: data/gis/000001/coastline
+      - uses: actions/download-artifact@v4
+        with:
+          name: bouvet-terrain-candidates
+          path: data/gis/000001/terrain
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gis/000001
+          if ! git diff --cached --quiet; then
+            git commit -m "Persist unverified Bouvet GIS candidates"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
