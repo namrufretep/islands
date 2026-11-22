@@ -1,0 +1,18 @@
+{
+  "miniapp": {
+    "version": "1",
+    "name": "ISLANDS",
+    "homeUrl": "https://islands-kappa.vercel.app",
+    "iconUrl": "https://islands-kappa.vercel.app/icon.png",
+    "splashImageUrl": "https://islands-kappa.vercel.app/icon.png",
+    "splashBackgroundColor": "#080d13",
+    "subtitle": "Collect the world",
+    "description": "Collect unique digital islands inspired by real geography.",
+    "primaryCategory": "art-creativity",
+    "tags": [
+      "art",
+      "collectibles",
+      "geography"
+    ]
+  }
+}
