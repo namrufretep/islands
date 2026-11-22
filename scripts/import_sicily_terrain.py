@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import rasterio
 from rasterio.merge import merge
-from rasterio.warp import calculate_default_transform,reproject,Resampling
+from rasterio.warp import calculate_default_transform,reproject,Resampling,transform_bounds
 from rasterio.transform import array_bounds
 
 out=Path("data/gis/000002/terrain")
@@ -29,11 +29,13 @@ with tempfile.TemporaryDirectory() as tmp:
             datasets.append(rasterio.open(file))
     mosaic,transform=merge(datasets)
     src_crs=datasets[0].crs
-    bounds=array_bounds(mosaic.shape[1],mosaic.shape[2],transform)
+    # Tile grid covers much more than Sicily: clip output to requested bounds.
+    bounds=transform_bounds('EPSG:4326',src_crs,west,south,east,north,densify_pts=21)
     crs="+proj=aeqd +lat_0=37.6 +lon_0=14.0 +datum=WGS84 +units=m +no_defs"
     # 180m terrain resolution keeps rendering practical while retaining Etna's mass.
     dest_transform,w,h=calculate_default_transform(src_crs,crs,mosaic.shape[2],mosaic.shape[1],*bounds,resolution=180)
-    if w*h>6000000: raise ValueError("Unexpected terrain extent")
+    print(f"Clipped Sicily DEM dimensions: {w} x {h} ({w*h:,} pixels)")
+    if w*h>6000000: raise ValueError(f"Unexpected terrain extent: {w} x {h}")
     elevation=np.full((h,w),np.nan,dtype="float32")
     reproject(source=mosaic[0],destination=elevation,src_transform=transform,src_crs=src_crs,src_nodata=datasets[0].nodata,dst_transform=dest_transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear)
     for ds in datasets: ds.close()
