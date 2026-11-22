@@ -1,0 +1,25 @@
+name: Island GIS import
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_island.py'
+      - '.github/workflows/island-gis.yml'
+permissions:
+  contents: read
+jobs:
+  bouvet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1
+      - run: python scripts/import_island.py --url https://publicdata.npolar.no/kartdata/NP_B20_SHP.zip --lat -54.42 --lon 3.36 --id 000001 --output gis-output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bouvet-coastline-candidates
+          path: gis-output/
+          if-no-files-found: error
