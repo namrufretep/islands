@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vite": "^6.1.0",
-    "@farcaster/miniapp-sdk": "^0.2.0"
+    "@farcaster/miniapp-sdk": "^0.2.0",
+    "leaflet": "^1.9.4"
   }
 }
