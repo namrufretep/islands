@@ -4,7 +4,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 import cairosvg
 from PIL import Image, ImageDraw
-import io
+import io, base64
 import numpy as np
 from scipy.ndimage import gaussian_filter, distance_transform_edt, label
 from skimage.measure import find_contours, approximate_polygon
@@ -67,38 +67,37 @@ for edition,angle in [('N',0),('S',180)]:
     light=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(sx+sy)/math.sqrt(2))/normal
     light=gaussian_filter(light,9)
     light=np.clip(.15+.85*light,0,1)
-    shapes=[]
-    def smooth_path(coords):
-        # Rounded vector joins: midpoint quadratic curves retain broad sculptural facets.
-        pts=coords[:-1] if coords[0]==coords[-1] else coords
-        if len(pts)<3: return ''
-        mid=lambda a,b: ((a[0]+b[0])/2,(a[1]+b[1])/2)
-        fmt=lambda a:f'{a[0]:.2f},{a[1]:.2f}'
-        return 'M '+fmt(mid(pts[-1],pts[0]))+' '+' '.join('Q '+fmt(v)+' '+fmt(mid(v,pts[(k+1)%len(pts)])) for k,v in enumerate(pts))+' Z'
-    for idx,(level,color) in enumerate(zip([.35,.59,.79],palette[1:])):
-        region=(light>level)&land
-        labels,n=label(region)
-        sizes=np.bincount(labels.ravel())
-        keep=sizes>=220
-        keep[0]=False
-        mask=np.pad(keep[labels],1,constant_values=False)
-        curves=[]
-        for contour in find_contours(mask.astype(float),.5):
-            if len(contour)<85: continue
-            pts=approximate_polygon(contour,tolerance=2.8)
-            if len(pts)<4: continue
-            coords=[point(r-1,c-1) for r,c in pts]
-            curves.append(smooth_path(coords))
-        shapes.append(f'<path d="{" ".join(curves)}" fill="url(#shade{idx})" fill-rule="evenodd" transform="rotate({angle} 1024 1024)"/>')
-    gradients="".join(f'<linearGradient id="shade{k}" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2048" y2="2048"><stop stop-color="{palette[k+1]}"/><stop offset="1" stop-color="{palette[k]}" stop-opacity=".32"/></linearGradient>' for k in range(3))
-    svg=f'''<svg data-art-version="3.6" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
-<defs>{gradients}<radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
+    # Continuous tonal field; eliminate hard polygon thresholds.
+    normalized=np.clip((light-.17)/.73,0,1)
+    colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
+    position=normalized*3
+    lo=np.minimum(np.floor(position).astype(int),2)
+    fraction=(position-lo)[...,None]
+    rgb=colors[lo]*(1-fraction)+colors[lo+1]*fraction
+    rgba=np.concatenate([np.clip(rgb,0,255).astype(np.uint8),(land.astype(np.uint8)*255)[...,None]],axis=2)
+    rgba_img=Image.fromarray(rgba,'RGBA')
+    if angle==180: rgba_img=rgba_img.rotate(180)
+    buf=io.BytesIO()
+    rgba_img.save(buf,format='PNG')
+    embedded=base64.b64encode(buf.getvalue()).decode('ascii')
+    xleft,ytop=point(0,0)
+    xright,ybottom=point(h-1,w-1)
+    image_x=min(xleft,xright)-abs(t[0]/mpp)/2
+    image_y=min(ytop,ybottom)-abs(t[4]/mpp)/2
+    image_width=abs(xright-xleft)+abs(t[0]/mpp)
+    image_height=abs(ybottom-ytop)+abs(t[4]/mpp)
+    if angle==180:
+        image_x=2048-image_x-image_width
+        image_y=2048-image_y-image_height
+    tonal_image=f'<image x="{image_x:.3f}" y="{image_y:.3f}" width="{image_width:.3f}" height="{image_height:.3f}" preserveAspectRatio="none" href="data:image/png;base64,{embedded}"/>'
+    svg=f'''<svg data-art-version="3.7" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+<defs><radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="{background}"/>
-<g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{''.join(shapes)}</g>
+<g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{tonal_image}</g>
 <path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="{palette[0]}" stroke-width="8" stroke-linejoin="round"/></g>
 </svg>'''
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'screen_fixed'},'art_version':'3.6','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'DEM-led sculpted relief with screen-fixed tonal gradients'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':'3.7','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'DEM-led sculpted relief with screen-fixed tonal gradients'},indent=2))
