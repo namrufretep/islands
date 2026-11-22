@@ -32,6 +32,9 @@
   ],
   "art_status": "experimental_draft",
   "terrain_guided": true,
-  "art_version": "3.2",
+  "art_version": "3.3",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.6256345989314225,
+  "artwork_print_scale_denominator": 66444.50313698531,
   "surface_model": "sculpted coastline dome blended with DEM"
 }
