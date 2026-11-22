@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/import_island.py'
       - 'scripts/import_terrain.py'
+      - 'scripts/review_bouvet.py'
+      - 'scripts/render_island.py'
       - '.github/workflows/island-gis.yml'
 permissions:
   contents: read
@@ -62,6 +64,19 @@ jobs:
           git add data/gis/000001
           if ! git diff --cached --quiet; then
             git commit -m "Persist unverified Bouvet GIS candidates"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install shapely==2.0.7 pyproj==3.7.1 numpy==2.2.3 cairosvg pillow
+      - run: python scripts/review_bouvet.py
+      - run: python scripts/render_island.py data/gis/000001/coastline/000001-candidate-00.svg review-output/coastline.json public/drafts/000001
+      - run: |
+          git add review-output public/drafts/000001
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate geography-locked Bouvet artwork drafts"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
