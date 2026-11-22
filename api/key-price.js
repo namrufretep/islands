@@ -1,0 +1,5 @@
+const TOKEN='0xb0ca1e094a1779018b194ac6151ece8d6f05db07';
+export default async function handler(req,res){
+if(req.method!=='GET')return res.status(405).end();
+try{const r=await fetch('https://api.dexscreener.com/token-pairs/v1/base/'+TOKEN,{signal:AbortSignal.timeout(10000)});if(!r.ok)throw Error();const pairs=await r.json();const valid=pairs.filter(p=>p.chainId==='base'&&p.baseToken?.address?.toLowerCase()===TOKEN&&Number(p.priceUsd)>0&&Number.isFinite(Number(p.priceUsd))&&Number(p.liquidity?.usd)>=1000).sort((a,b)=>Number(b.liquidity.usd)-Number(a.liquidity.usd));if(!valid.length)throw Error();const p=valid[0];res.setHeader('Cache-Control','public, s-maxage=60');return res.json({token:TOKEN,priceUsd:p.priceUsd,liquidityUsd:p.liquidity.usd,asOf:new Date().toISOString(),source:'DexScreener'});}catch{return res.status(503).json({error:'Reliable KEY quote unavailable'});}
+}
