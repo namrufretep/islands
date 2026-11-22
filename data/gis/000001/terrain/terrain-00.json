@@ -1,0 +1,22 @@
+{
+  "status": "unverified_terrain",
+  "source": "https://publicdata.npolar.no/kartdata/NP_B0_DTM20.zip",
+  "source_sha256": "0825b9fef01d00017304b092d1eaf6116e4762840848614c5ef45943db7efb12",
+  "layer": "B0_DTM20.tif",
+  "crs": "+proj=aeqd +lat_0=-54.42 +lon_0=3.36 +datum=WGS84 +units=m +no_defs",
+  "transform": [
+    20.0,
+    0.0,
+    -6167.574279802041,
+    0.0,
+    -20.0,
+    4512.564095508914
+  ],
+  "shape": [
+    452,
+    606
+  ],
+  "min_m": 0.0,
+  "max_m": 757.9911499023438,
+  "resolution_m": 20
+}
