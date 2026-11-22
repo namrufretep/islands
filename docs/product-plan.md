@@ -14,4 +14,4 @@ OpenSea creator earnings: 10% (1000 basis points), ERC-2981. Recipient: creator-
 
 
 ## In-app secondary transactions
-Required creator fee on in-app resales: 10% of actual sale consideration, paid to 0xfc5708cb64604dcf6f62de5d63a051ed577e10c1. Direct NFT-for-NFT swaps also require a creator fee; proposed basis is 10% of the undiscounted 500000 KEY mint price (50000 KEY per swap total), pending confirmation of fee basis and payer. CHEERS equivalent requires verified pricing. Settlement must be atomic, enforce fees in contract, and avoid double charging royalties. No deployed contract or active settlement yet.
+Required creator fee on in-app resales: 10% of actual sale consideration, paid to 0xfc5708cb64604dcf6f62de5d63a051ed577e10c1. Direct NFT-for-NFT swaps also require a creator fee; approved basis is 10% of the undiscounted 500000 KEY mint price (50000 KEY per swap total), split equally: each participant pays 25000 KEY. Both payments and NFT transfers must settle atomically. CHEERS equivalent requires verified pricing. Settlement must be atomic, enforce fees in contract, and avoid double charging royalties. No deployed contract or active settlement yet.
