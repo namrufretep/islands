@@ -53,7 +53,8 @@ for idx,ring in enumerate(rings):
         pts.append(((mx-t[2])/t[0]-.5,(my-t[5])/t[4]-.5))
     draw.polygon(pts,fill=1 if idx==0 else 0)
 land=np.array(mask_img,dtype=bool)
-dist=gaussian_filter(distance_transform_edt(land),5)
+coast_distance=gaussian_filter(distance_transform_edt(land),2)
+dist=gaussian_filter(coast_distance,5)
 dist/=max(dist.max(),1)
 relief=gaussian_filter(z,13)
 relief/=max(relief[land].max(),1)
@@ -68,7 +69,14 @@ for edition,angle in [('N',0),('S',180)]:
     light=gaussian_filter(light,9)
     light=np.clip(.15+.85*light,0,1)
     # Continuous tonal field; eliminate hard polygon thresholds.
-    normalized=np.clip((light-.17)/.73,0,1)
+    # Soft Stone: narrow sculpted coastal bevel, without a second overlay or hard edge.
+    # A fixed upper-left light interacts with the inward coast-distance gradient.
+    edge_north,edge_east=np.gradient(coast_distance,20)
+    edge_direction=(edge_east+edge_north)/math.sqrt(2)
+    edge_sign=1 if edition=='N' else -1
+    coastal_bevel=np.exp(-coast_distance/9.0)
+    soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
+    normalized=np.clip((soft_stone_light-.17)/.73,0,1)
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
     position=normalized*3
     lo=np.minimum(np.floor(position).astype(int),2)
@@ -90,7 +98,7 @@ for edition,angle in [('N',0),('S',180)]:
         image_x=2048-image_x-image_width
         image_y=2048-image_y-image_height
     tonal_image=f'<image x="{image_x:.3f}" y="{image_y:.3f}" width="{image_width:.3f}" height="{image_height:.3f}" preserveAspectRatio="none" href="data:image/png;base64,{embedded}"/>'
-    svg=f'''<svg data-art-version="3.7" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+    svg=f'''<svg data-art-version="3.8" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
 <defs><radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="{background}"/>
 <g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{tonal_image}</g>
@@ -100,4 +108,4 @@ for edition,angle in [('N',0),('S',180)]:
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':'3.7','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'DEM-led sculpted relief with screen-fixed tonal gradients'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':'3.8','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'Soft Stone: continuous DEM relief with directional coastal bevel','style_variant':'A – Soft Stone'},indent=2))
