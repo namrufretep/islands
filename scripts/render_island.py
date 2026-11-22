@@ -59,8 +59,9 @@ relief=gaussian_filter(z,22)
 relief/=max(relief[land].max(),1)
 surface=gaussian_filter((1-np.exp(-dist*7))*land,5)*680+relief*190
 sy,sx=np.gradient(surface,20)
-palette=['#205e68','#438e94','#78bfc0','#aed9d5']
+palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#11232c','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
 for edition,angle in [('N',0),('S',180)]:
+    palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
     normal=np.sqrt(1+sx*sx+sy*sy)
     light=(.78+sign*(.46*sx+.42*sy))/normal
@@ -84,14 +85,14 @@ for edition,angle in [('N',0),('S',180)]:
             curves.append(smooth_path(coords))
         shapes.append(f'<path d="{" ".join(curves)}" fill="url(#shade{idx})" fill-rule="evenodd" transform="rotate({angle} 1024 1024)"/>')
     gradients="".join(f'<linearGradient id="shade{k}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{palette[k+1]}"/><stop offset="1" stop-color="{palette[k]}" stop-opacity=".85"/></linearGradient>' for k in range(3))
-    svg=f'''<svg data-art-version="3.1" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+    svg=f'''<svg data-art-version="3.2" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
 <defs>{gradients}<radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
-<rect width="2048" height="2048" fill="url(#bg)"/>
-<g clip-path="url(#coast)"><rect width="2048" height="2048" fill="#205e68"/>{''.join(shapes)}</g>
-<path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="#080b0d" stroke-width="13" stroke-linejoin="round"/>
+<rect width="2048" height="2048" fill="{background}"/>
+<g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{''.join(shapes)}</g>
+<path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="{palette[0]}" stroke-width="13" stroke-linejoin="round"/>
 </svg>'''
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':'Glacial Turquoise','art_status':'experimental_draft','terrain_guided':True,'art_version':'3.1','surface_model':'sculpted coastline dome blended with DEM'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'art_version':'3.2','surface_model':'sculpted coastline dome blended with DEM'},indent=2))
