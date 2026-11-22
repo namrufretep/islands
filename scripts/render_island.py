@@ -65,7 +65,7 @@ for edition,angle in [('N',0),('S',180)]:
     sign=1 if edition=='N' else -1
     normal=np.sqrt(1+sx*sx+sy*sy)
     light=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(sx+sy)/math.sqrt(2))/normal
-    light=gaussian_filter(light,6)
+    light=gaussian_filter(light,9)
     light=np.clip(.15+.85*light,0,1)
     shapes=[]
     def smooth_path(coords):
@@ -90,8 +90,8 @@ for edition,angle in [('N',0),('S',180)]:
             coords=[point(r-1,c-1) for r,c in pts]
             curves.append(smooth_path(coords))
         shapes.append(f'<path d="{" ".join(curves)}" fill="url(#shade{idx})" fill-rule="evenodd" transform="rotate({angle} 1024 1024)"/>')
-    gradients="".join(f'<linearGradient id="shade{k}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{palette[k+1]}"/><stop offset="1" stop-color="{palette[k]}" stop-opacity=".45"/></linearGradient>' for k in range(3))
-    svg=f'''<svg data-art-version="3.5" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+    gradients="".join(f'<linearGradient id="shade{k}" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2048" y2="2048"><stop stop-color="{palette[k+1]}"/><stop offset="1" stop-color="{palette[k]}" stop-opacity=".32"/></linearGradient>' for k in range(3))
+    svg=f'''<svg data-art-version="3.6" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
 <defs>{gradients}<radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="{background}"/>
 <g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><rect width="2048" height="2048" fill="{palette[0]}"/>{''.join(shapes)}</g>
@@ -101,4 +101,4 @@ for edition,angle in [('N',0),('S',180)]:
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True},'art_version':'3.5','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'DEM-led sculpted relief with softened coastal bevel'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'screen_fixed'},'art_version':'3.6','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'DEM-led sculpted relief with screen-fixed tonal gradients'},indent=2))
