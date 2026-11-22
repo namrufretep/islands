@@ -1,0 +1,23 @@
+{
+  "id": "000002",
+  "name": "Sicily",
+  "status": "verified_coastline",
+  "source": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "source_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "layer": "ne_10m_land",
+  "area_km2": 25628.154681138207,
+  "projection": "+proj=aeqd +lat_0=37.6 +lon_0=14.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -138533.0522337298,
+    -104317.79407297805,
+    144517.80929052283,
+    79083.96701293618
+  ],
+  "meters_per_pixel": 184.2779046381853,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "Natural Earth coastline, Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "3714bed4c695e6d17e5355bf8f6d2c41cfd044badac2ee6801f843b229be69fc",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending"
+}
