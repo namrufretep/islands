@@ -59,7 +59,7 @@ relief=gaussian_filter(z,22)
 relief/=max(relief[land].max(),1)
 surface=gaussian_filter((1-np.exp(-dist*7))*land,5)*680+relief*190
 sy,sx=np.gradient(surface,20)
-palette=['#103b45','#205e68','#36969b','#78c5c1','#b5ded4','#eef5e8']
+palette=['#205e68','#438e94','#78bfc0','#aed9d5']
 for edition,angle in [('N',0),('S',180)]:
     sign=1 if edition=='N' else -1
     normal=np.sqrt(1+sx*sx+sy*sy)
@@ -73,7 +73,7 @@ for edition,angle in [('N',0),('S',180)]:
         mid=lambda a,b: ((a[0]+b[0])/2,(a[1]+b[1])/2)
         fmt=lambda a:f'{a[0]:.2f},{a[1]:.2f}'
         return 'M '+fmt(mid(pts[-1],pts[0]))+' '+' '.join('Q '+fmt(v)+' '+fmt(mid(v,pts[(k+1)%len(pts)])) for k,v in enumerate(pts))+' Z'
-    for level,color in zip([.22,.43,.63,.80,.89],palette[1:]):
+    for idx,(level,color) in enumerate(zip([.35,.64,.86],palette[1:])):
         mask=np.pad(light>level,1,constant_values=False)
         curves=[]
         for contour in find_contours(mask.astype(float),.5):
@@ -82,15 +82,16 @@ for edition,angle in [('N',0),('S',180)]:
             if len(pts)<4: continue
             coords=[point(r-1,c-1) for r,c in pts]
             curves.append(smooth_path(coords))
-        shapes.append(f'<path d="{" ".join(curves)}" fill="{color}" fill-rule="evenodd" transform="rotate({angle} 1024 1024)"/>')
-    svg=f'''<svg data-art-version="3.0" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
-<defs><radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
+        shapes.append(f'<path d="{" ".join(curves)}" fill="url(#shade{idx})" fill-rule="evenodd" transform="rotate({angle} 1024 1024)"/>')
+    gradients="".join(f'<linearGradient id="shade{k}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{palette[k+1]}"/><stop offset="1" stop-color="{palette[k]}" stop-opacity=".85"/></linearGradient>' for k in range(3))
+    svg=f'''<svg data-art-version="3.1" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+<defs>{gradients}<radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="url(#bg)"/>
-<g clip-path="url(#coast)"><rect width="2048" height="2048" fill="#103b45"/>{''.join(shapes)}</g>
+<g clip-path="url(#coast)"><rect width="2048" height="2048" fill="#205e68"/>{''.join(shapes)}</g>
 <path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="#080b0d" stroke-width="13" stroke-linejoin="round"/>
 </svg>'''
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':'Glacial Turquoise','art_status':'experimental_draft','terrain_guided':True,'art_version':'3.0','surface_model':'sculpted coastline dome blended with DEM'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':'Glacial Turquoise','art_status':'experimental_draft','terrain_guided':True,'art_version':'3.1','surface_model':'sculpted coastline dome blended with DEM'},indent=2))
