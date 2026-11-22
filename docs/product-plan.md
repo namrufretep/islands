@@ -10,4 +10,4 @@
 
 
 ## Approved secondary-market royalty
-OpenSea creator earnings: 10% (1000 basis points), ERC-2981. Recipient: creator's Farcaster wallet; exact recipient address must be confirmed before deployment. OpenSea enforcement compatibility must be verified before contract deployment. This is a product requirement, not an active on-chain royalty.
+OpenSea creator earnings: 10% (1000 basis points), ERC-2981. Recipient: creator-confirmed Farcaster wallet on Base: 0xfc5708cb64604dcf6f62de5d63a051ed577e10c1. OpenSea enforcement compatibility must be verified before contract deployment. This is a product requirement, not an active on-chain royalty.
