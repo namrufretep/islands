@@ -38,9 +38,10 @@
     "shared_surface": true,
     "gradient_space": "continuous_terrain_raster"
   },
-  "art_version": "3.7",
+  "art_version": "3.8",
   "artwork_extent_px": 1740.8,
   "artwork_meters_per_pixel": 5.6256345989314225,
   "artwork_print_scale_denominator": 66444.50313698531,
-  "surface_model": "DEM-led sculpted relief with screen-fixed tonal gradients"
+  "surface_model": "Soft Stone: continuous DEM relief with directional coastal bevel",
+  "style_variant": "A \u2013 Soft Stone"
 }
