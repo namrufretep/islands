@@ -24,5 +24,6 @@
   "orientation_degrees": 0,
   "color_mood": "Glacial Turquoise",
   "art_status": "experimental_draft",
-  "terrain_guided": false
+  "terrain_guided": true,
+  "art_version": "2.0"
 }
