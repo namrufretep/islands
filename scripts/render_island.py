@@ -13,6 +13,7 @@ p=argparse.ArgumentParser()
 p.add_argument('coastline',type=Path)
 p.add_argument('metadata',type=Path)
 p.add_argument('output',type=Path)
+p.add_argument('--palette',choices=['bouvet','sicily'],default='bouvet')
 a=p.parse_args()
 meta=json.loads(a.metadata.read_text())
 if meta.get('status')!='verified_coastline':
@@ -31,8 +32,10 @@ assert tm['crs']==cm['projection']
 z=np.load(terrain_dir/'terrain-00.npz')['elevation'].astype(float)
 valid=np.isfinite(z)
 z=z[tuple(distance_transform_edt(~valid,return_distances=False,return_indices=True))]
-z=gaussian_filter(z,8)
-gy,gx=np.gradient(z,20)
+resolution=float(tm.get('resolution_m',abs(tm['transform'][0])))
+scale=resolution/20.0
+z=gaussian_filter(z,max(1,8/scale))
+gy,gx=np.gradient(z,resolution)
 x0,y0,x1,y1=cm['bounds_m']
 mpp=cm['meters_per_pixel']
 t=tm['transform']
@@ -53,28 +56,30 @@ for idx,ring in enumerate(rings):
         pts.append(((mx-t[2])/t[0]-.5,(my-t[5])/t[4]-.5))
     draw.polygon(pts,fill=1 if idx==0 else 0)
 land=np.array(mask_img,dtype=bool)
-coast_distance=gaussian_filter(distance_transform_edt(land),2)
-dist=gaussian_filter(coast_distance,5)
+coast_distance=gaussian_filter(distance_transform_edt(land),max(1,2/scale))
+dist=gaussian_filter(coast_distance,max(1,5/scale))
 dist/=max(dist.max(),1)
-relief=gaussian_filter(z,13)
+relief=gaussian_filter(z,max(1,13/scale))
 relief/=max(relief[land].max(),1)
-surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),7)
-sy,sx=np.gradient(surface,20)
+surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),max(1,7/scale))
+sy,sx=np.gradient(surface,resolution)
 palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#cedbdb','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
+if a.palette=='sicily':
+    palettes={'N':(['#65564a','#a58c71','#d2baa0','#f0e3cd'],'#e7e4d9','Mediterranean Limestone'),'S':(['#483c3c','#80564b','#bc8065','#e2b89a'],'#ddd3ca','Volcanic Terracotta')}
 for edition,angle in [('N',0),('S',180)]:
     palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
     normal=np.sqrt(1+sx*sx+sy*sy)
     light=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(sx+sy)/math.sqrt(2))/normal
-    light=gaussian_filter(light,9)
+    light=gaussian_filter(light,max(1,9/scale))
     light=np.clip(.15+.85*light,0,1)
     # Continuous tonal field; eliminate hard polygon thresholds.
     # Soft Stone: narrow sculpted coastal bevel, without a second overlay or hard edge.
     # A fixed upper-left light interacts with the inward coast-distance gradient.
-    edge_north,edge_east=np.gradient(coast_distance,20)
+    edge_north,edge_east=np.gradient(coast_distance,resolution)
     edge_direction=(edge_east+edge_north)/math.sqrt(2)
     edge_sign=1 if edition=='N' else -1
-    coastal_bevel=np.exp(-coast_distance/9.0)
+    coastal_bevel=np.exp(-coast_distance/max(1,9/scale))
     soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
     normalized=np.clip((soft_stone_light-.17)/.73,0,1)
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
