@@ -154,9 +154,17 @@ for edition,angle in [('N',0),('S',180)]:
     for variant,(base_bg,inner_bg,outer_bg,coast_width) in studies.items():
         # Original terrain shading remains the source; modify only artistic tone.
         if variant=='A':
-            # Gallery lighting: broad chiaroscuro with gentle local contrast.
-            variant_tone=np.clip(0.12+0.78*normalized,0,1)
-            variant_tone=gaussian_filter(variant_tone,7)
+            # Bouvet-style light field: use the shared sculpted terrain surface
+            # and directional light rather than Sicily's flattened elevation wash.
+            # Normalize on land only; preserve nuanced shadows and highlights.
+            bouvet_light=gaussian_filter(light + 0.055*edge_sign*
+                edge_direction*np.exp(-coast_distance/12),12)
+            low,high=np.percentile(bouvet_light[land],[4,96])
+            if high-low<0.015:
+                raise RuntimeError('Gallery study lacks directional light variation')
+            bouvet_tone=np.clip((bouvet_light-low)/(high-low),0,1)
+            # Blend broad light with finer natural transitions; no hard 3D facets.
+            variant_tone=0.08+0.84*gaussian_filter(bouvet_tone,6)
         else:
             # Atmospheric mineral: fine overlapping tonal washes, airy midtones.
             fine=gaussian_filter(normalized,4)
