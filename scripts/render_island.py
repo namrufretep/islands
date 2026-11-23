@@ -33,8 +33,9 @@ z=np.load(terrain_dir/'terrain-00.npz')['elevation'].astype(float)
 valid=np.isfinite(z)
 z=z[tuple(distance_transform_edt(~valid,return_distances=False,return_indices=True))]
 resolution=float(tm.get('resolution_m',abs(tm['transform'][0])))
-scale=resolution/20.0
-z=gaussian_filter(z,max(1,8/scale))
+# Match Bouvet's *visual* smoothing in artwork space, not its 20 m DEM cells.
+# Both islands are normalized to the same 1536px geographic footprint.
+z=gaussian_filter(z,8)
 gy,gx=np.gradient(z,resolution)
 x0,y0,x1,y1=cm['bounds_m']
 mpp=cm['meters_per_pixel']
@@ -59,13 +60,13 @@ land=np.array(mask_img,dtype=bool)
 if land.sum()<1000:
     raise RuntimeError(f'Coastline rasterization produced only {land.sum()} land pixels')
 print(f'Land mask: {land.sum():,} / {land.size:,} pixels')
-coast_distance=gaussian_filter(distance_transform_edt(land),max(1,2/scale))
-dist=gaussian_filter(coast_distance,max(1,5/scale))
+coast_distance=gaussian_filter(distance_transform_edt(land),2)
+dist=gaussian_filter(coast_distance,5)
 dist/=max(dist.max(),1)
-relief=gaussian_filter(z,max(1,13/scale))
+relief=gaussian_filter(z,13)
 relief/=max(relief[land].max(),1)
-surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),max(1,7/scale))
-sy,sx=np.gradient(surface,resolution)
+surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),7)
+sy,sx=np.gradient(surface,20)
 palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#cedbdb','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
 if a.palette=='sicily':
     palettes={'N':(['#65564a','#a58c71','#d2baa0','#f0e3cd'],'#e7e4d9','Mediterranean Limestone'),'S':(['#483c3c','#80564b','#bc8065','#e2b89a'],'#ddd3ca','Volcanic Terracotta')}
@@ -74,12 +75,12 @@ for edition,angle in [('N',0),('S',180)]:
     sign=1 if edition=='N' else -1
     normal=np.sqrt(1+sx*sx+sy*sy)
     light=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(sx+sy)/math.sqrt(2))/normal
-    light=gaussian_filter(light,max(1,9/scale))
+    light=gaussian_filter(light,9)
     light=np.clip(.15+.85*light,0,1)
     # Continuous tonal field; eliminate hard polygon thresholds.
     # Soft Stone: narrow sculpted coastal bevel, without a second overlay or hard edge.
     # A fixed upper-left light interacts with the inward coast-distance gradient.
-    edge_north,edge_east=np.gradient(coast_distance,resolution)
+    edge_north,edge_east=np.gradient(coast_distance,20)
     edge_direction=(edge_east+edge_north)/math.sqrt(2)
     edge_sign=1 if edition=='N' else -1
     coastal_bevel=np.exp(-coast_distance/max(1,9/scale))
