@@ -142,6 +142,32 @@ for edition,angle in [('N',0),('S',180)]:
 <g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><path d={d} transform="rotate({angle} 1024 1024)" fill="{palette[1]}"/>{tonal_image}</g>
 <path d={d} transform="rotate({angle} 1024 1024)" fill="none" stroke="{palette[0]}" stroke-width="3" stroke-linejoin="round"/></g>
 </svg>'''
+    # Two optional art-direction studies. Keep the verified silhouette and
+    # the original continuous terrain image unchanged.
+    # A: dark gallery; C: atmospheric mineral, with a soft nonuniform field.
+    studies={
+        'A': ('#111923','#26313a','#101820',palette[0],7),
+        'C': ('#b8b1a5','#d3c7b7','#8f9997',palette[0],6),
+    }
+    for variant,(base_bg,inner_bg,outer_bg,coast_color,coast_width) in studies.items():
+        gradient=(f'<defs><radialGradient id="studio-background" cx="36%" cy="28%" r="83%">'
+                  f'<stop offset="0" stop-color="{inner_bg}"/>'
+                  f'<stop offset="0.62" stop-color="{base_bg}"/>'
+                  f'<stop offset="1" stop-color="{outer_bg}"/>'
+                  f'</radialGradient></defs>')
+        artwork=svg.replace('<rect width="2048" height="2048" fill="'+background+'"/>',
+                            gradient+'<rect width="2048" height="2048" fill="url(#studio-background)"/>')
+        artwork=artwork.replace('stroke-width="3" stroke-linejoin="round"',
+                                f'stroke-width="{coast_width}" stroke-linejoin="round"')
+        variant_stem=a.output/(meta['id']+'-'+edition+'-'+variant+'-study')
+        variant_stem.with_suffix('.svg').write_text(artwork)
+        variant_stem.with_suffix('.json').write_text(json.dumps({
+            'id':meta['id'],'edition':edition,'variant':variant,
+            'status':'experimental_style_study','palette':palette,
+            'background_direction':'Dark Gallery' if variant=='A' else 'Atmospheric Stone',
+            'coastline_stroke_px':coast_width,
+            'source':'same geography-locked Soft Stone artwork; only background and coastline changed'
+        },indent=2))
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
