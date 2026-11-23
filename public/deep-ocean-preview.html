@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ISLANDS — Deep Ocean · Design Study</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#07131d;color:#e9f3f4;font:14px system-ui,-apple-system,sans-serif}
+header{height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 16px;background:#0b2030;border-bottom:1px solid #2d5260}
+header strong{letter-spacing:.12em;font-size:14px}header small{display:block;color:#a4c1c9;font-size:10px;margin-top:3px}
+.actions{display:flex;gap:8px;align-items:center}button,a.action{background:#193848;color:#d8eff0;border:1px solid #527c86;border-radius:8px;padding:10px 12px;text-decoration:none;font-size:12px;cursor:pointer}
+button[aria-pressed=true]{background:#78c7c7;color:#0b2030;font-weight:700}main{height:calc(100dvh - 64px)}iframe{display:block;border:0;width:100%;height:100%;background:#0b2030}
+@media(min-width:850px){main{display:grid;place-items:center;padding:18px}iframe{width:min(100%,760px);border:1px solid #375969;border-radius:16px;box-shadow:0 15px 55px #0007}}
+@media(max-width:540px){header{padding:8px;height:67px}header strong{font-size:12px}header small{font-size:9px}.actions{gap:4px}button,a.action{font-size:11px;padding:8px}main{height:calc(100dvh - 67px)}}
+</style></head><body>
+<header><div><strong>◈ ISLANDS · DEEP OCEAN</strong><small>LIVE DESIGN STUDY · ORIGINAL APP UNCHANGED</small></div><div class="actions"><button id="ocean" aria-pressed="true">Deep Ocean</button><button id="original" aria-pressed="false">Original</button><a class="action" href="/" target="_blank" rel="noopener">Open App ↗</a></div></header>
+<main><iframe id="app" src="/" title="ISLANDS actual app with selectable Deep Ocean theme"></iframe></main>
+<script>
+const frame=document.getElementById('app');
+let selected='ocean';
+const css=`
+:root{background:#0b2030!important;color:#f1f6f5!important}
+body{background:radial-gradient(ellipse at 35% -5%,#1b4555 0%,#0b2030 52%,#071722 100%)!important;color:#f1f6f5!important}
+.brand{color:#f1f6f5!important}.brand small,small,.tiers,.editionstatus,.atlasrow small,.indexrow small{color:#9db5bd!important}
+p,#status,.maplegend{color:#b3cbd0!important}
+.eyebrow,.tag,.selected,.link,.pricecard em,a,nav button.active,.gallerysymbol,.empty,.mintpreview summary{color:#78c7c7!important}
+.panel,.pricecard,.empty,.mintmode,.galleryempty,.galleryedition{background:#193848!important;border-color:#365b68!important}
+.mintmode.active{background:#24515a!important;border-color:#78c7c7!important}
+.primary{background:#78c7c7!important;color:#08212b!important}
+.outline,.tag,.panel input:not([type=range]),#atlasSearch,#atlasFilter,#indexSearch,#indexSort,.mintselection select{border-color:#426c78!important}
+.panel input:not([type=range]),#atlasSearch,#atlasFilter,#indexSearch,#indexSort,.mintselection select{background:#0d2938!important;color:#f1f6f5!important}
+nav{background:#0b2030!important;border-color:#365b68!important}nav button{color:#9db5bd!important}nav button.active{border-top-color:#78c7c7!important}
+header,.atlasfacts,.atlasrow,.indexrow,.rotationControls,.mintinventory,.galleryhead{border-color:#365b68!important}
+#worldMap{border-color:#426c78!important;background:#163748!important}
+#worldMap .leaflet-tile-pane{filter:grayscale(.75) invert(.88) hue-rotate(165deg) saturate(.8)!important}
+.art,.mintvisual{background:radial-gradient(ellipse at 35% 25%,#285b67,#0b2030 72%)!important;border-color:#426c78!important}
+.mystery-island{background:#173d4b!important;color:#78c7c7!important}
+button:focus-visible,input:focus-visible{outline-color:#78c7c7!important}
+`;
+function apply(){try{const doc=frame.contentDocument;if(!doc)return;let style=doc.getElementById('islands-deep-ocean-study');if(selected==='ocean'){if(!style){style=doc.createElement('style');style.id='islands-deep-ocean-study';style.textContent=css;doc.head.append(style)}}else style?.remove()}catch(e){document.querySelector('header small').textContent='Preview unavailable — open app instead'}}
+function choose(theme){selected=theme;document.getElementById('ocean').setAttribute('aria-pressed',theme==='ocean');document.getElementById('original').setAttribute('aria-pressed',theme==='original');apply()}
+document.getElementById('ocean').onclick=()=>choose('ocean');
+document.getElementById('original').onclick=()=>choose('original');
+frame.addEventListener('load',apply);
+</script></body></html>
