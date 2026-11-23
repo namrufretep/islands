@@ -1,0 +1,15 @@
+{
+  "id": "000001",
+  "edition": "N",
+  "variant": "A",
+  "status": "experimental_style_study",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "background_direction": "Dark Gallery",
+  "coastline_stroke_px": 7,
+  "source": "same geography-locked Soft Stone artwork; only background and coastline changed"
+}
