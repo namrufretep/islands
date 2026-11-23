@@ -66,7 +66,7 @@ dist/=max(dist.max(),1)
 relief=gaussian_filter(z,13)
 relief/=max(relief[land].max(),1)
 surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),7)
-sy,sx=np.gradient(surface,20)
+sy,sx=np.gradient(surface,resolution)
 palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#cedbdb','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
 if a.palette=='sicily':
     palettes={'N':(['#65564a','#a58c71','#d2baa0','#f0e3cd'],'#e7e4d9','Mediterranean Limestone'),'S':(['#483c3c','#80564b','#bc8065','#e2b89a'],'#ddd3ca','Volcanic Terracotta')}
@@ -80,12 +80,18 @@ for edition,angle in [('N',0),('S',180)]:
     # Continuous tonal field; eliminate hard polygon thresholds.
     # Soft Stone: narrow sculpted coastal bevel, without a second overlay or hard edge.
     # A fixed upper-left light interacts with the inward coast-distance gradient.
-    edge_north,edge_east=np.gradient(coast_distance,20)
+    edge_north,edge_east=np.gradient(coast_distance,resolution)
     edge_direction=(edge_east+edge_north)/math.sqrt(2)
     edge_sign=1 if edition=='N' else -1
-    coastal_bevel=np.exp(-coast_distance/max(1,9/scale))
+    coastal_bevel=np.exp(-coast_distance/9)
     soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
-    normalized=np.clip((soft_stone_light-.17)/.73,0,1)
+    # Normalize the sculptural light across each island's actual land pixels.
+    # Retain Sicily's original palette, while restoring Bouvet-like tonal depth.
+    shade_low,shade_high=np.percentile(soft_stone_light[land],[3,97])
+    if shade_high-shade_low<0.025:
+        raise RuntimeError('Insufficient relief contrast for Soft Stone artwork')
+    normalized=np.clip((soft_stone_light-shade_low)/(shade_high-shade_low),0,1)
+    normalized=normalized*normalized*(3-2*normalized)
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
     position=normalized*3
     lo=np.minimum(np.floor(position).astype(int),2)
