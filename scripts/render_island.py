@@ -145,11 +145,39 @@ for edition,angle in [('N',0),('S',180)]:
     # Two optional art-direction studies. Keep the verified silhouette and
     # the original continuous terrain image unchanged.
     # A: dark gallery; C: atmospheric mineral, with a soft nonuniform field.
+    # Two genuinely different art directions, including separate tonal artwork
+    # (not merely a background recolor). Coastline and DEM stay identical.
     studies={
-        'A': ('#111923','#26313a','#101820',palette[0],7),
-        'C': ('#b8b1a5','#d3c7b7','#8f9997',palette[0],6),
+        'A': ('#111923','#34434b','#080e16',7),
+        'C': ('#b6b2a8','#e1d6c3','#81949a',6),
     }
-    for variant,(base_bg,inner_bg,outer_bg,coast_color,coast_width) in studies.items():
+    for variant,(base_bg,inner_bg,outer_bg,coast_width) in studies.items():
+        # Original terrain shading remains the source; modify only artistic tone.
+        if variant=='A':
+            # Gallery lighting: broad chiaroscuro with gentle local contrast.
+            variant_tone=np.clip(0.12+0.78*normalized,0,1)
+            variant_tone=gaussian_filter(variant_tone,7)
+        else:
+            # Atmospheric mineral: fine overlapping tonal washes, airy midtones.
+            fine=gaussian_filter(normalized,4)
+            broadwash=gaussian_filter(normalized,30)
+            variant_tone=np.clip(0.20+0.54*broadwash+0.17*(fine-broadwash),0,1)
+            variant_tone=gaussian_filter(variant_tone,6)
+        variant_position=variant_tone*3
+        variant_lo=np.minimum(np.floor(variant_position).astype(int),2)
+        variant_frac=(variant_position-variant_lo)[...,None]
+        variant_rgb=colors[variant_lo]*(1-variant_frac)+colors[variant_lo+1]*variant_frac
+        if variant=='A':
+            # Slightly deepen the shadow without introducing sharp 3D facets.
+            variant_rgb=np.clip(variant_rgb*0.96,0,255)
+        variant_rgba=np.concatenate([variant_rgb.astype(np.uint8),
+                        (land.astype(np.uint8)*255)[...,None]],axis=2)
+        variant_img=Image.fromarray(variant_rgba,'RGBA')
+        if angle==180: variant_img=variant_img.rotate(180)
+        variant_buf=io.BytesIO()
+        variant_img.save(variant_buf,format='PNG')
+        variant_embedded=base64.b64encode(variant_buf.getvalue()).decode('ascii')
+        variant_image=tonal_image.replace(embedded,variant_embedded)
         gradient=(f'<defs><radialGradient id="studio-background" cx="36%" cy="28%" r="83%">'
                   f'<stop offset="0" stop-color="{inner_bg}"/>'
                   f'<stop offset="0.62" stop-color="{base_bg}"/>'
@@ -157,6 +185,7 @@ for edition,angle in [('N',0),('S',180)]:
                   f'</radialGradient></defs>')
         artwork=svg.replace('<rect width="2048" height="2048" fill="'+background+'"/>',
                             gradient+'<rect width="2048" height="2048" fill="url(#studio-background)"/>')
+        artwork=artwork.replace(tonal_image,variant_image)
         artwork=artwork.replace('stroke-width="3" stroke-linejoin="round"',
                                 f'stroke-width="{coast_width}" stroke-linejoin="round"')
         variant_stem=a.output/(meta['id']+'-'+edition+'-'+variant+'-study')
@@ -166,7 +195,7 @@ for edition,angle in [('N',0),('S',180)]:
             'status':'experimental_style_study','palette':palette,
             'background_direction':'Dark Gallery' if variant=='A' else 'Atmospheric Stone',
             'coastline_stroke_px':coast_width,
-            'source':'same geography-locked Soft Stone artwork; only background and coastline changed'
+            'source':'verified coastline and DEM; independent art-direction tonal field'
         },indent=2))
     stem=a.output/(meta['id']+'-'+edition+'-draft')
     stem.with_suffix('.svg').write_text(svg)
