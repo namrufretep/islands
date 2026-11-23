@@ -202,3 +202,8 @@ main{padding-bottom:calc(210px + env(safe-area-inset-bottom))!important}
  nav button{flex-direction:column!important;gap:3px!important;min-height:62px!important;font-size:11px!important}
  main{padding-bottom:120px!important}
 }
+
+/* Geographic metadata beneath each registered island */
+.island-geography{display:grid;gap:5px;margin:12px 0 8px;padding:10px 12px;border-left:3px solid #092b1c;background:#f84b35cc}
+.island-geography span{display:block;font:900 clamp(12px,2.8vw,15px)/1.35 "Courier New",Courier,monospace!important;color:#082818!important;letter-spacing:.015em!important;overflow-wrap:anywhere}
+.atlasrow>div:first-child{min-width:0}
