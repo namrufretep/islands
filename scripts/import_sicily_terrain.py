@@ -14,12 +14,9 @@ out.mkdir(parents=True,exist_ok=True)
 # Sicily geographic extent with a safety margin.
 west,south,east,north=12.3,35.3,15.9,38.5
 zoom=8
-# GeoTIFF tiles are 512px and indexed using their parent tile coordinates.
-# For a zoom-8 GeoTIFF, x/y must be calculated on the zoom-7 grid.
-tile_zoom=zoom-1
 def tile(lon,lat):
     lat=math.radians(lat)
-    return int((lon+180)/360*(2**tile_zoom)),int((1-math.asinh(math.tan(lat))/math.pi)/2*(2**zoom))
+    return int((lon+180)/360*(2**zoom)),int((1-math.asinh(math.tan(lat))/math.pi)/2*(2**zoom))
 x0,y0=tile(west,north)
 x1,y1=tile(east,south)
 with tempfile.TemporaryDirectory() as tmp:
