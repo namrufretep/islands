@@ -1,6 +1,7 @@
 import {discount,mintPrice} from './pricing.js';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
+import './impossible-atlas.css';
 import L from 'leaflet';
 import {sdk} from '@farcaster/miniapp-sdk';
 let miniApp=false;
@@ -24,6 +25,27 @@ root.innerHTML=`<main><header><div class="brand">◈ ISLANDS<small>COLLECT THE W
 <article class="panel"><h2>Project status &amp; builder grant</h2><p>The World Atlas, directory, preview gallery and key lookup are under active development. A proposed builder grant would support verified staking discounts, onchain minting, owner tipping and a stronger art review workflow. A grant has not been awarded.</p></article>
 </section>
 </main><nav aria-label="Main navigation"><button data-page="atlas" class="active"><b>◎</b>Atlas</button><button data-page="discover"><b>◇</b>Mint</button><button data-page="gallery"><b>▧</b>Gallery</button><button data-page="collection"><b>◈</b>My Islands</button><button data-page="trade"><b>⇄</b>Trade</button><button data-page="keys"><b>⚿</b>Keys</button><button data-page="cheers"><b>✧</b>Cheers</button><button data-page="index"><b>≡</b>Index</button><button data-page="faq"><b>?</b>FAQ</button></nav>`;
+/* Cartographic backgrounds: stable, decorative variations for each app section. */
+const islandContours=[
+"M10 35Q18 11 33 20L44 8 56 18 67 14 88 32 80 49 90 64 72 80 55 70 42 86 25 71 14 61Z",
+"M9 28L23 12 39 22 56 10 75 20 92 43 77 52 84 72 61 82 46 68 25 78 13 57Z",
+"M14 12Q32 8 44 28L66 13 85 30 77 51 91 69 72 86 52 75 30 83 13 63 23 41Z",
+"M16 20L38 12 47 27 71 9 89 27 75 45 91 58 73 82 49 73 34 87 12 65 22 44Z",
+"M10 42L24 18 39 13 51 29 69 16 87 35 75 58 88 72 63 82 43 70 28 85 12 63Z"
+];
+["atlas","discover","gallery","collection","trade","keys","cheers","index","faq"].forEach((id,i)=>{
+ const page=document.getElementById(id);if(!page)return;
+ const layer=document.createElement("div");layer.className="cartographic-island-field";layer.setAttribute("aria-hidden","true");
+ let shapes="";
+ for(let j=0;j<5;j++){
+  const path=islandContours[(i*3+j*2)%islandContours.length];
+  const x=(i*37+j*109)%420-60,y=50+j*215+((i*43+j*17)%80),size=115+((i+j*3)%4)*35,rotation=(i*29+j*47)%120-60;
+  shapes+='<g transform="translate('+x+' '+y+') rotate('+rotation+' '+size/2+' '+size/2+') scale('+(size/100)+')"><path d="'+path+'" fill="#0b492b" fill-opacity=".16" stroke="#0b492b" stroke-opacity=".45" stroke-width=".9"/><path d="'+path+'" fill="none" stroke="#0b492b" stroke-opacity=".5" stroke-width=".35" transform="translate(50 50) scale(.75) translate(-50 -50)"/></g>';
+ }
+ layer.innerHTML='<svg viewBox="0 0 440 1400" preserveAspectRatio="xMidYMin slice" aria-hidden="true">'+shapes+'</svg>';
+ page.prepend(layer);
+});
+
 const $=id=>document.getElementById(id);
 // Only verified published editions belong here. No placeholder NFTs.
 const publishedEditions=[];
