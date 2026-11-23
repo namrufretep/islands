@@ -71,6 +71,7 @@ jobs:
           test -s public/drafts/000002/000002-S-draft.svg
           test -s public/drafts/000002/000002-N-draft.png
           test -s public/drafts/000002/000002-S-draft.png
+          for v in A C; do for e in N S; do test -s public/drafts/000002/000002-$e-$v-study.svg; done; done
       - uses: actions/upload-artifact@v4
         with:
           name: sicily-soft-stone-north-south
@@ -78,6 +79,8 @@ jobs:
             public/drafts/000002/*-draft.svg
             public/drafts/000002/*-draft.png
             public/drafts/000002/*-draft.json
+            public/drafts/000002/*-study.svg
+            public/drafts/000002/*-study.json
           if-no-files-found: error
       - name: Publish both editions
         run: |
