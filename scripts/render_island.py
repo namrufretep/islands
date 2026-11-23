@@ -86,22 +86,22 @@ for edition,angle in [('N',0),('S',180)]:
     coastal_bevel=np.exp(-coast_distance/9)
     soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
     if a.palette=='sicily':
-        # Sicily: painterly stone shading, not a raised 3D terrain mesh.
-        # Large and medium-scale tonal variations follow real elevation;
-        # slope light is only a soft accent. Preserve geographic shape.
-        broad=gaussian_filter(z,28)
-        middle=gaussian_filter(z,10)
-        broad_low,broad_high=np.percentile(broad[land],[3,97])
-        broad_tone=np.clip((broad-broad_low)/max(broad_high-broad_low,1),0,1)
-        detail=middle-broad
-        detail_span=max(np.percentile(np.abs(detail[land]),95),1)
-        detail_tone=np.clip(detail/detail_span,-1,1)
-        soft_stone_light=(0.60*broad_tone
-                          +0.17*detail_tone
-                          +0.23*gaussian_filter(light,16))
-        # Coast is a delicate tonal transition, never a sculpted rim.
-        soft_stone_light+=0.018*edge_sign*edge_direction*np.exp(-coast_distance/14)
-        soft_stone_light=gaussian_filter(soft_stone_light,4)
+        # Bouvet-inspired tonal sculpture: a continuous, softly blended
+        # elevation wash, not a high-contrast 3D slope or isolated bright peaks.
+        # Only the shading is changed; geography and palettes are preserved.
+        broad=gaussian_filter(z,42)
+        medium=gaussian_filter(z,24)
+        wide_low,wide_high=np.percentile(broad[land],[5,95])
+        wide=np.clip((broad-wide_low)/max(wide_high-wide_low,1),0,1)
+        mid_low,mid_high=np.percentile(medium[land],[5,95])
+        mid=np.clip((medium-mid_low)/max(mid_high-mid_low,1),0,1)
+        # Reduce isolated high-altitude highlights, expand midtone occupancy.
+        wide=0.5+0.56*(wide-0.5)
+        mid=0.5+0.52*(mid-0.5)
+        soft_stone_light=(0.68*wide+0.25*mid
+                          +0.07*gaussian_filter(light,25))
+        soft_stone_light+=0.006*edge_sign*edge_direction*np.exp(-coast_distance/18)
+        soft_stone_light=gaussian_filter(soft_stone_light,9)
     # Normalize the sculptural light across each island's actual land pixels.
     # Retain Sicily's original palette, while restoring Bouvet-like tonal depth.
     shade_low,shade_high=np.percentile(soft_stone_light[land],[3,97])
@@ -109,6 +109,10 @@ for edition,angle in [('N',0),('S',180)]:
         raise RuntimeError('Insufficient relief contrast for Soft Stone artwork')
     normalized=np.clip((soft_stone_light-shade_low)/(shade_high-shade_low),0,1)
     normalized=normalized*normalized*(3-2*normalized)
+    if a.palette=='sicily':
+        # Keep broad intermediate tones; avoid near-black/near-white hotspots.
+        normalized=0.17+0.66*normalized
+        normalized=gaussian_filter(normalized,5)
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
     position=normalized*3
     lo=np.minimum(np.floor(position).astype(int),2)
