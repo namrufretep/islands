@@ -1,0 +1,47 @@
+{
+  "id": "000004",
+  "name": "Madagascar",
+  "status": "verified_coastline",
+  "source": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "source_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "layer": "ne_10m_land",
+  "area_km2": 592484.1627615261,
+  "projection": "+proj=aeqd +lat_0=-19.0 +lon_0=47.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -389502.865599251,
+    -731767.0389791261,
+    376525.8462085526,
+    779425.1052924386
+  ],
+  "meters_per_pixel": 983.8490522601331,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "Natural Earth coastline, Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "1e98ae3df388c07b88b54a4b82166b152e6125ce1a2ab12564247b7b3687a046",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "S",
+  "orientation_degrees": 180,
+  "color_mood": "Imperial Lapis",
+  "background": "#d5b56e",
+  "palette": [
+    "#172344",
+    "#354f91",
+    "#6989d0",
+    "#b9d1ef"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.3",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 868.1021049354116,
+  "artwork_print_scale_denominator": 10253174.467741081,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
