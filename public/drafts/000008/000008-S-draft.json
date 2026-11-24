@@ -1,0 +1,47 @@
+{
+  "id": "000008",
+  "name": "Manhattan",
+  "status": "verified_coastline",
+  "source": "https://overpass-api.de/api/interpreter",
+  "source_sha256": "a0b307f5a4e97562e4a8ac754ebfc0832430119f23ed07cb32020cb0fe9e02cc",
+  "layer": "OSM coastline ways",
+  "area_km2": 54.53904810397902,
+  "projection": "+proj=aeqd +lat_0=40.78 +lon_0=-73.97 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4169.540815810315,
+    -8907.424736164123,
+    5020.92535582886,
+    10842.839351379707
+  ],
+  "meters_per_pixel": 12.858244848661347,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "OpenStreetMap coastline (ODbL), Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "317650ab122f879dfa6090af6a10ea00636f7438d7aa4b26e1e340a6ce657f6c",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "S",
+  "orientation_degrees": 180,
+  "color_mood": "Art Deco Bronze",
+  "background": "#304b40",
+  "palette": [
+    "#493329",
+    "#91613f",
+    "#c99861",
+    "#eed7ae"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.3",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.34551016058354,
+  "artwork_print_scale_denominator": 134002.08851082923,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
