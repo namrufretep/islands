@@ -18,7 +18,7 @@ p.add_argument('--expanded-tones',action='store_true')
 p.add_argument('--chromatic-tones',action='store_true')
 a=p.parse_args()
 if a.chromatic_tones and (a.palette not in ('sulawesi','isle_of_man') or not a.expanded_tones): p.error('Chromatic study requires Sulawesi expanded tones')
-if a.expanded_tones and a.palette!='sulawesi': p.error('Expanded tones require a supported palette')
+if a.expanded_tones and a.palette not in ('sulawesi','isle_of_man'): p.error('Expanded tones require a supported palette')
 meta=json.loads(a.metadata.read_text())
 if meta.get('status')!='verified_coastline':
     raise SystemExit('Coastline must be reviewed and approved before rendering.')
