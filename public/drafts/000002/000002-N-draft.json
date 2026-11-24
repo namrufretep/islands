@@ -26,8 +26,8 @@
   "background": "#e7e4d9",
   "palette": [
     "#65564a",
-    "#a58c71",
-    "#d2baa0",
+    "#a08059",
+    "#c8a67e",
     "#f0e3cd"
   ],
   "art_status": "experimental_draft",
@@ -38,10 +38,10 @@
     "shared_surface": true,
     "gradient_space": "continuous_terrain_raster"
   },
-  "art_version": "4.2",
+  "art_version": "4.3",
   "artwork_extent_px": 1740.8,
   "artwork_meters_per_pixel": 162.59815115133998,
   "artwork_print_scale_denominator": 1920450.6041496848,
-  "surface_model": "Soft Stone: convex mineral sculpture with enhanced interior elevation modulation",
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
   "style_variant": "A \u2013 Soft Stone"
 }
