@@ -8,7 +8,17 @@ out.mkdir(parents=True,exist_ok=True)
 url="https://overpass-api.de/api/interpreter"
 query='[out:json][timeout:90];(way["place"="island"]["name"="Mainau"](47.69,9.17,47.72,9.22);relation["place"="island"]["name"="Mainau"](47.69,9.17,47.72,9.22);way["natural"="coastline"](47.69,9.17,47.72,9.22););out geom;'
 req=urllib.request.Request(url,data=urllib.parse.urlencode({"data":query}).encode(),headers={"User-Agent":"ISLANDS geographic artwork research"})
-with urllib.request.urlopen(req,timeout=120) as response: archive=response.read(10000000)
+for endpoint in ("https://overpass.kumi.systems/api/interpreter","https://overpass-api.de/api/interpreter","https://overpass.private.coffee/api/interpreter"):
+    try:
+        req=urllib.request.Request(endpoint+"?"+urllib.parse.urlencode({"data":query}),headers={"User-Agent":"ISLANDS geographic artwork research"})
+        with urllib.request.urlopen(req,timeout=90) as response: archive=response.read(10000000)
+        json.loads(archive)
+        url=endpoint
+        break
+    except Exception as exc:
+        print(endpoint,exc)
+else:
+    raise RuntimeError("All OSM endpoints unavailable")
 from shapely.ops import polygonize,unary_union
 from shapely.geometry import LineString
 lines=[]
