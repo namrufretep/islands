@@ -10,7 +10,6 @@ from shapely.ops import transform, unary_union
 
 base=Path("data/gis/000012")
 subprocess.run([sys.executable,"scripts/import_tierra_del_fuego.py"],check=True)
-subprocess.run([sys.executable,"scripts/review_tierra_del_fuego.py"],check=True)
 cm=json.loads((base/"coastline/000012-candidate-00.json").read_text())
 geographic_island=shape(json.loads((base/"coastline/000012-candidate-00.geojson").read_text()))
 project=Transformer.from_crs(4326,cm["projection"],always_xy=True).transform
@@ -22,6 +21,7 @@ old="west,south,east,north=-71.0,-55.2,-65.0,-52.3"
 assert terrain_code.count(old)==1
 terrain_code=terrain_code.replace(old,f"west,south,east,north={west-.25},{south-.25},{east+.25},{north+.25}")
 exec(compile(terrain_code,"whole_island_terrain","exec"),{"__name__":"__main__"})
+subprocess.run([sys.executable,"scripts/review_tierra_del_fuego.py"],check=True)
 tm=json.loads((base/"terrain/terrain-00.json").read_text())
 tr=tm["transform"];h,w=tm["shape"]
 terrain_bounds=(tr[2],tr[5]+h*tr[4],tr[2]+w*tr[0],tr[5])
