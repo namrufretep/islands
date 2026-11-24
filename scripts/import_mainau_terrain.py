@@ -13,7 +13,7 @@ out=Path("data/gis/000007/terrain")
 out.mkdir(parents=True,exist_ok=True)
 # Mainau geographic extent with a safety margin.
 west,south,east,north=9.185,47.698,9.207,47.713
-zoom=13
+zoom=14
 def tile(lon,lat):
     lat=math.radians(lat)
     return int((lon+180)/360*(2**zoom)),int((1-math.asinh(math.tan(lat))/math.pi)/2*(2**zoom))
@@ -27,7 +27,7 @@ with tempfile.TemporaryDirectory() as tmp:
             file=Path(tmp)/f"{x}-{y}.tif"
             with urllib.request.urlopen(url,timeout=90) as response: file.write_bytes(response.read(15_000_001))
             datasets.append(rasterio.open(file))
-    mosaic,transform=merge(datasets)
+    mosaic,transform=merge(datasets,nodata=np.nan,dtype='float32')
     src_crs=datasets[0].crs
     # Tile grid covers much more than Mainau: clip output to requested bounds.
     bounds=transform_bounds('EPSG:4326',src_crs,west,south,east,north,densify_pts=21)
@@ -37,8 +37,9 @@ with tempfile.TemporaryDirectory() as tmp:
     print(f"Clipped Mainau DEM dimensions: {w} x {h} ({w*h:,} pixels)")
     if w*h>6000000: raise ValueError(f"Unexpected terrain extent: {w} x {h}")
     elevation=np.full((h,w),np.nan,dtype="float32")
-    reproject(source=mosaic[0],destination=elevation,src_transform=transform,src_crs=src_crs,src_nodata=datasets[0].nodata,dst_transform=dest_transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear)
+    reproject(source=mosaic[0],destination=elevation,src_transform=transform,src_crs=src_crs,src_nodata=np.nan,dst_transform=dest_transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear)
     for ds in datasets: ds.close()
+    print("DEM range:",np.nanmin(elevation),np.nanmax(elevation))
     if not np.isfinite(elevation).any() or np.nanmax(elevation)<410: raise ValueError("Mainau highlands elevation not captured")
     np.savez_compressed(out/"terrain-00.npz",elevation=elevation)
     (out/"terrain-00.json").write_text(json.dumps(dict(status="unverified_terrain",source="Mapzen terrain tiles / AWS elevation-tiles-prod",attribution="Mapzen terrain data (sources vary); review original source licenses before release",crs=crs,transform=list(dest_transform)[:6],shape=[h,w],min_m=float(np.nanmin(elevation)),max_m=float(np.nanmax(elevation)),resolution_m=3),indent=2))
