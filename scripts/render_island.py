@@ -35,7 +35,7 @@ z=z[tuple(distance_transform_edt(~valid,return_distances=False,return_indices=Tr
 resolution=float(tm.get('resolution_m',abs(tm['transform'][0])))
 # Match Bouvet's *visual* smoothing in artwork space, not its 20 m DEM cells.
 # Both islands are normalized to the same 1536px geographic footprint.
-z=gaussian_filter(z,8)
+z=gaussian_filter(z,0.8 if a.palette=='sicily' else 8)
 gy,gx=np.gradient(z,resolution)
 x0,y0,x1,y1=cm['bounds_m']
 mpp=cm['meters_per_pixel']
@@ -70,6 +70,7 @@ sy,sx=np.gradient(surface,resolution)
 palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#cedbdb','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
 if a.palette=='sicily':
     palettes={'N':(['#65564a','#a58c71','#d2baa0','#f0e3cd'],'#e7e4d9','Mediterranean Limestone'),'S':(['#483c3c','#80564b','#bc8065','#e2b89a'],'#ddd3ca','Volcanic Terracotta')}
+version='3.9' if a.palette=='sicily' else '3.8'
 for edition,angle in [('N',0),('S',180)]:
     palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
@@ -86,22 +87,20 @@ for edition,angle in [('N',0),('S',180)]:
     coastal_bevel=np.exp(-coast_distance/9)
     soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
     if a.palette=='sicily':
-        # Bouvet-inspired tonal sculpture: a continuous, softly blended
-        # elevation wash, not a high-contrast 3D slope or isolated bright peaks.
-        # Only the shading is changed; geography and palettes are preserved.
-        broad=gaussian_filter(z,42)
-        medium=gaussian_filter(z,24)
-        wide_low,wide_high=np.percentile(broad[land],[5,95])
-        wide=np.clip((broad-wide_low)/max(wide_high-wide_low,1),0,1)
-        mid_low,mid_high=np.percentile(medium[land],[5,95])
-        mid=np.clip((medium-mid_low)/max(mid_high-mid_low,1),0,1)
-        # Reduce isolated high-altitude highlights, expand midtone occupancy.
-        wide=0.5+0.56*(wide-0.5)
-        mid=0.5+0.52*(mid-0.5)
-        soft_stone_light=(0.68*wide+0.25*mid
-                          +0.07*gaussian_filter(light,25))
-        soft_stone_light+=0.006*edge_sign*edge_direction*np.exp(-coast_distance/18)
-        soft_stone_light=gaussian_filter(soft_stone_light,9)
+        # v3.9: retain real terrain detail and directional mineral relief.
+        sigma=max(0.8, mpp/resolution*0.65)
+        fine=gaussian_filter(z,sigma)
+        medium=gaussian_filter(z,sigma*3)
+        low,high=np.percentile(fine[land],[3,99])
+        elevation=np.clip((fine-low)/max(high-low,1),0,1)
+        dy,dx=np.gradient(fine,resolution)
+        exaggeration=5.0
+        dx*=exaggeration
+        dy*=exaggeration
+        hill=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(dx+dy)/math.sqrt(2))/np.sqrt(1+dx*dx+dy*dy)
+        detail=np.clip((fine-medium)/max(np.std((fine-medium)[land])*4,1),-.5,.5)
+        soft_stone_light=.48*elevation+.42*hill+.10*detail
+        soft_stone_light+=.045*edge_sign*edge_direction*np.exp(-coast_distance/3)
     # Normalize the sculptural light across each island's actual land pixels.
     # Retain Sicily's original palette, while restoring Bouvet-like tonal depth.
     shade_low,shade_high=np.percentile(soft_stone_light[land],[3,97])
@@ -112,7 +111,7 @@ for edition,angle in [('N',0),('S',180)]:
     if a.palette=='sicily':
         # Keep broad intermediate tones; avoid near-black/near-white hotspots.
         normalized=0.17+0.66*normalized
-        normalized=gaussian_filter(normalized,5)
+        normalized=gaussian_filter(normalized,.65)
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
     position=normalized*3
     lo=np.minimum(np.floor(position).astype(int),2)
@@ -136,7 +135,7 @@ for edition,angle in [('N',0),('S',180)]:
         image_x=2048-image_x-image_width
         image_y=2048-image_y-image_height
     tonal_image=f'<image x="{image_x:.3f}" y="{image_y:.3f}" width="{image_width:.3f}" height="{image_height:.3f}" preserveAspectRatio="none" href="data:image/png;base64,{embedded}"/>'
-    svg=f'''<svg data-art-version="3.8" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+    svg=f'''<svg data-art-version="{version}" xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
 <defs><radialGradient id="bg"><stop stop-color="#173b48"/><stop offset="1" stop-color="#07131e"/></radialGradient><clipPath id="coast"><path d={d} clip-rule="evenodd" transform="rotate({angle} 1024 1024)"/></clipPath></defs>
 <rect width="2048" height="2048" fill="{background}"/>
 <g transform="translate(1024 1024) scale(1.13333333333333) translate(-1024 -1024)"><g clip-path="url(#coast)"><path d={d} transform="rotate({angle} 1024 1024)" fill="{palette[1]}"/>{tonal_image}</g>
@@ -209,4 +208,4 @@ for edition,angle in [('N',0),('S',180)]:
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':'3.8','artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'Soft Stone: continuous DEM relief with directional coastal bevel','style_variant':'A – Soft Stone'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':version,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'Soft Stone: directional multiscale DEM mineral relief' if a.palette=='sicily' else 'Soft Stone: continuous DEM relief with directional coastal bevel','style_variant':'A – Soft Stone'},indent=2))
