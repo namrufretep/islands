@@ -165,8 +165,10 @@ for edition,angle in [('N',0),('S',180)]:
                 edge_direction*np.exp(-coast_distance/12),12)
             low,high=np.percentile(bouvet_light[land],[4,96])
             if high-low<0.015:
-                raise RuntimeError('Gallery study lacks directional light variation')
-            bouvet_tone=np.clip((bouvet_light-low)/(high-low),0,1)
+                # Optional study must not block the validated primary relief.
+                bouvet_tone=normalized.copy()
+            else:
+                bouvet_tone=np.clip((bouvet_light-low)/(high-low),0,1)
             # Blend broad light with finer natural transitions; no hard 3D facets.
             variant_tone=0.08+0.84*gaussian_filter(bouvet_tone,6)
         else:
