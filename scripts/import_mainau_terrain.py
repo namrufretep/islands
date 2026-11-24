@@ -13,7 +13,7 @@ out=Path("data/gis/000007/terrain")
 out.mkdir(parents=True,exist_ok=True)
 # Mainau geographic extent with a safety margin.
 west,south,east,north=9.185,47.698,9.207,47.713
-zoom=15
+zoom=13
 def tile(lon,lat):
     lat=math.radians(lat)
     return int((lon+180)/360*(2**zoom)),int((1-math.asinh(math.tan(lat))/math.pi)/2*(2**zoom))
@@ -33,7 +33,7 @@ with tempfile.TemporaryDirectory() as tmp:
     bounds=transform_bounds('EPSG:4326',src_crs,west,south,east,north,densify_pts=21)
     crs="+proj=aeqd +lat_0=47.705 +lon_0=9.195 +datum=WGS84 +units=m +no_defs"
     # 180m terrain resolution keeps rendering practical while retaining Mainau highlands's mass.
-    dest_transform,w,h=calculate_default_transform(src_crs,crs,mosaic.shape[2],mosaic.shape[1],*bounds,resolution=2)
+    dest_transform,w,h=calculate_default_transform(src_crs,crs,mosaic.shape[2],mosaic.shape[1],*bounds,resolution=3)
     print(f"Clipped Mainau DEM dimensions: {w} x {h} ({w*h:,} pixels)")
     if w*h>6000000: raise ValueError(f"Unexpected terrain extent: {w} x {h}")
     elevation=np.full((h,w),np.nan,dtype="float32")
@@ -41,5 +41,5 @@ with tempfile.TemporaryDirectory() as tmp:
     for ds in datasets: ds.close()
     if not np.isfinite(elevation).any() or np.nanmax(elevation)<410: raise ValueError("Mainau highlands elevation not captured")
     np.savez_compressed(out/"terrain-00.npz",elevation=elevation)
-    (out/"terrain-00.json").write_text(json.dumps(dict(status="unverified_terrain",source="Mapzen terrain tiles / AWS elevation-tiles-prod",attribution="Mapzen terrain data (sources vary); review original source licenses before release",crs=crs,transform=list(dest_transform)[:6],shape=[h,w],min_m=float(np.nanmin(elevation)),max_m=float(np.nanmax(elevation)),resolution_m=2),indent=2))
+    (out/"terrain-00.json").write_text(json.dumps(dict(status="unverified_terrain",source="Mapzen terrain tiles / AWS elevation-tiles-prod",attribution="Mapzen terrain data (sources vary); review original source licenses before release",crs=crs,transform=list(dest_transform)[:6],shape=[h,w],min_m=float(np.nanmin(elevation)),max_m=float(np.nanmax(elevation)),resolution_m=3),indent=2))
     print("Mainau terrain:",h,w,"max",float(np.nanmax(elevation)))
