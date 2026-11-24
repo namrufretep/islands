@@ -1,0 +1,47 @@
+{
+  "id": "000009",
+  "name": "Grande Terre",
+  "status": "verified_coastline",
+  "source": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "source_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "layer": "ne_10m_land",
+  "area_km2": 16544.163483066528,
+  "projection": "+proj=aeqd +lat_0=-21.3 +lon_0=165.3 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -137417.76150952245,
+    -122180.36243399656,
+    178805.87137026692,
+    134187.57091234825
+  ],
+  "meters_per_pixel": 205.87476098944617,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "Natural Earth coastline, Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "8b6d98d00ae6935433c9cb9fddc5007b5fdbde383a711f1e2cab5315eaea59da",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "N",
+  "orientation_degrees": 0,
+  "color_mood": "Pacific Coral",
+  "background": "#367b80",
+  "palette": [
+    "#733e36",
+    "#bd6d59",
+    "#e5a28a",
+    "#f6d5bf"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.3",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 181.65420087304074,
+  "artwork_print_scale_denominator": 2145522.057555599,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
