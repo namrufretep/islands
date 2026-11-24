@@ -18,48 +18,34 @@ project=Transformer.from_crs(4326,cm["projection"],always_xy=True).transform
 island=transform(project,geographic_island)
 lake_url="https://www.openstreetmap.org/copyright"
 west,south,east,north=geographic_island.bounds
-bbox=f"({south-.02},{west-.02},{north+.02},{east+.02})"
-query='[out:json][timeout:90];(way["natural"="water"]["water"!="river"]["water"!="canal"]'+bbox+';relation["natural"="water"]["water"!="river"]["water"!="canal"]'+bbox+';);out geom;'
-water_response=None
-for endpoint in ["https://overpass-api.de/api/interpreter","https://overpass.kumi.systems/api/interpreter"]:
+records=[];geometries=[];water_sources=[]
+import time
+for requested in ["Lago Fagnano","Lago Yehuin","Lago Chepelmut","Lago Blanco","Lago Deseado","Lago Escondido","Lago Acigami","Lago Lynch"]:
+    params={"q":requested,"format":"jsonv2","polygon_geojson":1,"limit":3,
+            "viewbox":f"{west},{north},{east},{south}","bounded":1}
+    url="https://nominatim.openstreetmap.org/search?"+urllib.parse.urlencode(params)
+    req=urllib.request.Request(url,headers={"User-Agent":"IslandsArtworkReview/1.0 (https://github.com/namrufretep/islands)"})
     try:
-        req=urllib.request.Request(endpoint,data=urllib.parse.urlencode({"data":query}).encode(),headers={"User-Agent":"IslandsArtworkReview/1.0"})
-        with urllib.request.urlopen(req,timeout=100) as response:
-            candidate=response.read(50000001)
-        parsed=json.loads(candidate)
-        if "elements" not in parsed: raise ValueError("No water elements returned")
-        water_response=parsed;lake_bytes=candidate
-        break
+        with urllib.request.urlopen(req,timeout=25) as response:
+            data=response.read(15000001)
+        features=json.loads(data)
+        print("LAKE_LOOKUP",requested,len(features),flush=True)
+        for feature in features:
+            geom=shape(feature.get("geojson",{"type":"GeometryCollection","geometries":[]}))
+            if geom.geom_type not in ("Polygon","MultiPolygon"): continue
+            projected=transform(project,make_valid(geom))
+            clipped=projected.intersection(island)
+            if clipped.is_empty or clipped.area<1e6 or clipped.area/max(projected.area,1)<.9: continue
+            source_id=f'{feature["osm_type"]}/{feature["osm_id"]}'
+            if any(item["source_id"]==source_id for item in records): continue
+            geometries.append(clipped)
+            records.append({"name":requested,"area_km2":clipped.area/1e6,"source_id":source_id})
+            water_sources.append(feature)
+            break
     except Exception as error:
-        print("WATER_SOURCE_RETRY",type(error).__name__,str(error),flush=True)
-if water_response is None: raise RuntimeError("Detailed water source unavailable")
-print("DETAILED_WATER_ELEMENTS",len(water_response["elements"]),flush=True)
-records=[];geometries=[]
-for element in water_response["elements"]:
-    geom=None
-    if element["type"]=="way" and len(element.get("geometry",[]))>=4:
-        coords=[(p["lon"],p["lat"]) for p in element["geometry"]]
-        if coords[0]!=coords[-1]: continue
-        geom=make_valid(Polygon(coords))
-    elif element["type"]=="relation":
-        outer=[];inner=[]
-        for member in element.get("members",[]):
-            coords=[(p["lon"],p["lat"]) for p in member.get("geometry",[]) if "lon" in p]
-            if len(coords)<2: continue
-            (inner if member.get("role")=="inner" else outer).append(LineString(coords))
-        if not outer: continue
-        geom=unary_union(list(polygonize(unary_union(outer))))
-        if inner:
-            geom=geom.difference(unary_union(list(polygonize(unary_union(inner)))))
-        geom=make_valid(geom)
-    if geom is None or geom.is_empty: continue
-    projected=transform(project,geom)
-    clipped=projected.intersection(island)
-    if clipped.is_empty or clipped.area<1e6 or clipped.area/max(projected.area,1)<.9: continue
-    tags=element.get("tags",{})
-    name=tags.get("name") or tags.get("name:es") or "Unnamed"
-    geometries.append(clipped)
-    records.append({"name":name,"area_km2":clipped.area/1e6,"source_id":f'{element["type"]}/{element["id"]}'})
+        print("LAKE_LOOKUP_FAILED",requested,type(error).__name__,str(error),flush=True)
+    time.sleep(1.1)
+lake_bytes=json.dumps(water_sources).encode()
 water=unary_union(geometries)
 # Independent checks for the three prominent lakes identified by CONAE/IGN.
 checks={}
@@ -142,7 +128,9 @@ for edition in ["N","S"]:
         assert all(abs(d-300)<1 for d in im.info["dpi"])
         rgb=np.array(im.convert("RGB"));bg=rgb[0,0]
         for geom in geometries:
+            if geom.area<15e6: continue
             p=geom.representative_point()
+            if p.distance(geom.boundary)<2*mpp: continue
             px=1024+(p.x-(x0+x1)/2)/mpp*85/75
             py=1024-(p.y-(y0+y1)/2)/mpp*85/75
             if edition=="S": px,py=2048-px,2048-py
