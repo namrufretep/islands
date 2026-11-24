@@ -1,0 +1,47 @@
+{
+  "id": "000011",
+  "name": "Isle of Man",
+  "status": "verified_coastline",
+  "source": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "source_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "layer": "ne_10m_land",
+  "area_km2": 574.8173931680751,
+  "projection": "+proj=aeqd +lat_0=54.23 +lon_0=-4.55 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -15723.962677630128,
+    -19259.757714826414,
+    15504.619591115623,
+    21054.479573313096
+  ],
+  "meters_per_pixel": 26.246248234465828,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "Natural Earth coastline, Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "2dbbffb0187558db14e2695de7e6fbafb9c64fca0f9a2abd0fcc9d6498f3d90e",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "N",
+  "orientation_degrees": 0,
+  "color_mood": "Celtic Malachite",
+  "background": "#c8a0a5",
+  "palette": [
+    "#163e35",
+    "#307b65",
+    "#75b99b",
+    "#d4ead3"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.4",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 23.15845432452867,
+  "artwork_print_scale_denominator": 273525.0510771103,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
