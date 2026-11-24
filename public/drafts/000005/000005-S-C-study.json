@@ -1,0 +1,15 @@
+{
+  "id": "000005",
+  "edition": "S",
+  "variant": "C",
+  "status": "experimental_style_study",
+  "palette": [
+    "#663722",
+    "#a66132",
+    "#dc9e50",
+    "#f8dca0"
+  ],
+  "background_direction": "Atmospheric Stone",
+  "coastline_stroke_px": 6,
+  "source": "verified coastline and DEM; independent art-direction tonal field"
+}
