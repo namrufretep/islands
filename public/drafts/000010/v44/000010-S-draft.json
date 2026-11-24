@@ -1,0 +1,47 @@
+{
+  "id": "000010",
+  "name": "Sulawesi",
+  "status": "verified_coastline",
+  "source": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "source_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "layer": "ne_10m_land",
+  "area_km2": 170046.13000482527,
+  "projection": "+proj=aeqd +lat_0=-2.0 +lon_0=120.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -138175.80367008472,
+    -409568.04244113946,
+    584500.8573777316,
+    413683.49810301774
+  ],
+  "meters_per_pixel": 535.971055041769,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "Natural Earth coastline, Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "dd8aa074b9824f58adf3e4139cbf8ec1af09367db170504abb00dd7db72f9942",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "S",
+  "orientation_degrees": 180,
+  "color_mood": "Golden Saffron",
+  "background": "#513749",
+  "palette": [
+    "#80501d",
+    "#bd8629",
+    "#e5b74e",
+    "#f9e5a4"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.4",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 472.9156368015609,
+  "artwork_print_scale_denominator": 5585617.75749875,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
