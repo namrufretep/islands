@@ -1,0 +1,94 @@
+name: Grande Terre artwork build
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/import_grande_terre.py'
+      - 'scripts/import_grande_terre_terrain.py'
+      - 'scripts/review_grande_terre.py'
+      - '.github/workflows/grande_terre-preview.yml'
+permissions:
+  contents: read
+jobs:
+  coastline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1
+      - run: python scripts/import_grande_terre.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grande_terre-coastline
+          path: data/gis/000009/coastline/
+          if-no-files-found: error
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install rasterio==1.4.3 numpy==2.2.3
+      - run: python scripts/import_grande_terre_terrain.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grande_terre-terrain
+          path: data/gis/000009/terrain/
+          if-no-files-found: error
+  render:
+    needs: [coastline, terrain]
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: grande_terre-coastline
+          path: data/gis/000009/coastline
+      - uses: actions/download-artifact@v4
+        with:
+          name: grande_terre-terrain
+          path: data/gis/000009/terrain
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install shapely==2.0.7 pyproj==3.7.1 numpy==2.2.3 cairosvg pillow scipy scikit-image
+      - run: python scripts/review_grande_terre.py
+      - run: python scripts/render_island.py data/gis/000009/coastline/000009-candidate-00.svg review-output/grande_terre-coastline.json public/drafts/000009 --palette grande_terre
+      - name: Check both finished artworks
+        run: |
+          test -s public/drafts/000009/000009-N-draft.svg
+          test -s public/drafts/000009/000009-S-draft.svg
+          test -s public/drafts/000009/000009-N-draft.png
+          test -s public/drafts/000009/000009-S-draft.png
+          for v in A C; do for e in N S; do test -s public/drafts/000009/000009-$e-$v-study.svg; done; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grande_terre-soft-stone-north-south
+          path: |
+            public/drafts/000009/*-draft.svg
+            public/drafts/000009/*-draft.png
+            public/drafts/000009/*-draft.json
+            public/drafts/000009/*-study.svg
+            public/drafts/000009/*-study.json
+          if-no-files-found: error
+      - name: Publish both editions
+        run: |
+          cp data/gis/000009/coastline/000009-candidate-00.svg public/drafts/000009/coastline-candidate.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/drafts/000009 review-output/grande_terre-coastline.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Grande Terre Soft Stone artwork editions"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
