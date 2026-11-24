@@ -2,10 +2,27 @@
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ISLANDS Art Studio · Bouvetøya × Sizilien</title>
 <style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#101a22;color:#ecf0ed;font:15px system-ui,-apple-system,sans-serif}main{max-width:1400px;margin:auto;padding:22px}h1{font-size:clamp(23px,3vw,38px);margin:12px 0 6px}p{color:#aebec2;line-height:1.5}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}.toolbar button{border:1px solid #6c9298;background:#20333c;color:#fff;border-radius:9px;padding:12px 20px;cursor:pointer;font-size:15px}.toolbar button[aria-pressed=true]{background:#547d80}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.tile{background:#192932;border:1px solid #324850;border-radius:15px;padding:14px}.tile h2{font-size:17px;margin:4px 0 5px}.tile small{color:#9eb4b7}.tile img{display:block;width:100%;aspect-ratio:1;object-fit:contain;border-radius:9px;margin-top:12px;background:#dedbd4}.note{font-size:13px;color:#b1c4c5}a{color:#a4d7d8}@media(max-width:700px){main{padding:13px}.grid{gap:10px}.tile{padding:8px}.tile h2{font-size:14px}.tile small{font-size:11px}}
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#101a22;color:#ecf0ed;font:15px system-ui,-apple-system,sans-serif}main{max-width:1400px;margin:auto;padding:22px}h1{font-size:clamp(23px,3vw,38px);margin:12px 0 6px}p{color:#aebec2;line-height:1.5}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}.toolbar button{border:1px solid #6c9298;background:#20333c;color:#fff;border-radius:9px;padding:12px 20px;cursor:pointer;font-size:15px}.toolbar button[aria-pressed=true]{background:#547d80}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.tile{background:#192932;border:1px solid #324850;border-radius:15px;padding:14px}.tile h2{font-size:17px;margin:4px 0 5px}.tile small{color:#9eb4b7;display:block;min-height:3em}.tile img{display:block;width:100%;aspect-ratio:1;object-fit:contain;border-radius:9px;margin-top:12px;background:#dedbd4}.note{font-size:13px;color:#b1c4c5}a{color:#a4d7d8}@media(max-width:700px){main{padding:13px}.grid{gap:10px}.tile{padding:8px}.tile h2{font-size:14px}.tile small{font-size:11px}}
 </style></head><body><main><small>ISLANDS / ART STUDIO / STYLE COMPARISON</small><h1>Bouvetøya × Sizilien</h1><p>Direkter Vergleich der plastischen Gestaltung. Beide Inseln behalten ihre eigenen Farbpaletten. Wähle dieselbe Ausrichtung für einen fairen Vergleich der Schattierungen.</p>
 <div class="toolbar"><button id="north" aria-pressed="true" onclick="setEdition('N')">North-Up</button><button id="south" aria-pressed="false" onclick="setEdition('S')">South-Up</button><span id="caption">Glacial Turquoise × Mediterranean Limestone</span></div>
-<div class="grid"><article class="tile"><h2>#000001 · Bouvetøya</h2><small>Stilreferenz · Soft Stone v3.8</small><img id="bouvet" src="../000001/000001-N-draft.svg" alt="Bouvetøya North-Up"></article><article class="tile"><h2>#000002 · Sizilien</h2><small>Aktueller Entwurf · Soft Stone v3.8</small><img id="sicily" src="./000002-N-draft.svg" alt="Sizilien North-Up"></article></div>
+<div class="grid"><article class="tile"><h2>#000001 · Bouvetøya</h2><small id="bouvetVersion">Stilreferenz · Version wird geladen</small><img id="bouvet" src="../000001/000001-N-draft.svg" alt="Bouvetøya North-Up"></article><article class="tile"><h2>#000002 · Sizilien</h2><small id="sicilyVersion">Aktueller Entwurf · Version wird geladen</small><img id="sicily" src="./000002-N-draft.svg" alt="Sizilien North-Up"></article></div>
 <p class="note">Vergleiche insbesondere die feinen Abstufungen, die Küstenplastik und den Übergang von Flachland zu Gebirge. Entwürfe sind noch nicht für den NFT-Verkauf freigegeben.</p><p><a href="./index.html">Sizilien Art Studio</a> · <a href="../000001/index.html">Bouvetøya Art Studio</a></p>
-<script>function setEdition(e){document.getElementById('north').setAttribute('aria-pressed',e==='N');document.getElementById('south').setAttribute('aria-pressed',e==='S');document.getElementById('bouvet').src='../000001/000001-'+e+'-draft.svg';document.getElementById('sicily').src='./000002-'+e+'-draft.svg';document.getElementById('bouvet').alt='Bouvetøya '+e;document.getElementById('sicily').alt='Sizilien '+e;document.getElementById('caption').textContent=e==='N'?'Glacial Turquoise × Mediterranean Limestone':'Volcanic Ash × Volcanic Terracotta'}</script>
+<script>
+let generation=0;
+async function setEdition(e){
+ const g=++generation;
+ document.getElementById('north').setAttribute('aria-pressed',e==='N');
+ document.getElementById('south').setAttribute('aria-pressed',e==='S');
+ const stamp=Date.now();
+ await Promise.all([['bouvet','../000001/000001-','Stilreferenz'],['sicily','./000002-','Aktueller Entwurf']].map(async ([id,base,label])=>{
+ const stem=base+e+'-draft';
+ const img=document.getElementById(id),version=document.getElementById(id+'Version');
+ version.textContent=label+' · Version wird geladen';
+ img.src=stem+'.svg?v='+stamp;
+ try{const response=await fetch(stem+'.json?v='+stamp,{cache:'no-store'});if(!response.ok)throw Error(response.status);const m=await response.json();if(g!==generation)return;version.textContent=label+' · '+(m.art_version==='4.0'?'Abstract Mineral':'Soft Stone')+' v'+(m.art_version||'unbekannt');}catch(err){if(g===generation)version.textContent=label+' · Version nicht abrufbar';}
+ }));
+ if(g===generation)document.getElementById('caption').textContent=e==='N'?'Glacial Turquoise × Mediterranean Limestone':'Volcanic Ash × Volcanic Terracotta';
+}
+setEdition('N');
+</script>
 </main></body></html>
