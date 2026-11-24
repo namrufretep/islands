@@ -6,7 +6,7 @@ Proposed implementation schema, pending metadata migration and geographic review
 Island ID; Artwork ID; Island; Country (sovereign jurisdiction, multiple values where applicable; disputed claims explicitly qualified); Region (geographic region, not continent); Island Type (Ocean Island, Sea Island, Lake Island, River Island, Estuarine Island, other as needed); Water Type (Saltwater, Freshwater, Brackish Water, Mixed, as verified); Ocean (optional, geographically applicable); Water Body (named immediate surrounding water, multiple where applicable); Area (km², numeric main-island area from source geometry); Scale (artwork print scale at 300 dpi); Largest Settlement (verified, omit if unknown; Uninhabited only when verified).
 
 ## Artistic traits
-Orientation (North-Up/South-Up); Color Palette (individual named palette); Color Family (controlled broad color category); Background (individual named background); Background Family (controlled broad color category).
+Orientation (North-Up/South-Up); Color Palette (individual named palette); Color Family (controlled broad color category); Background (individual named background).
 
 Soft Stone is the collection-wide artistic identity, not an NFT attribute. Keep the surface model in technical metadata only.
 
