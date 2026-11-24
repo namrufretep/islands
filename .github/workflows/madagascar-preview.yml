@@ -6,6 +6,7 @@ on:
       - 'scripts/import_madagascar.py'
       - 'scripts/import_madagascar_terrain.py'
       - 'scripts/review_madagascar.py'
+      - 'scripts/render_island.py'
       - '.github/workflows/madagascar-preview.yml'
 permissions:
   contents: read
