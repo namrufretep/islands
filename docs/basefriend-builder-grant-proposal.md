@@ -18,7 +18,10 @@ The app is designed to make BaseFriend Creator Keys useful beyond a portfolio sc
 - BaseFriend market discovery and wallet holdings lookup
 - Proposed Creator Key discount simulator, up to 25%
 - Prototype $KEY pricing and market quote display
-- Draft art studio with geography-based Bouvetøya and Sicily studies
+- Twenty geography-based artwork previews across ten islands, including Sulawesi v4.5
+- Compact searchable island directory with individual North-Up and South-Up pages
+- Worldwide named-island import pipeline (GeoNames; coverage not exhaustive)
+- Reservation and outbid interface previews
 - FAQ describing roadmap and non-live functionality
 
 ## What the grant would fund
@@ -28,13 +31,16 @@ The app is designed to make BaseFriend Creator Keys useful beyond a portfolio sc
 4. **Discovery and collection:** a reliable published-edition registry, searchable gallery and user collection view.
 5. **Art quality and accessibility:** reproducible geographic render pipeline, preview checks, mobile accessibility and FAQ.
 
+## Community-directed island production
+Collectors will reserve uncreated island orientations from 750,000 $KEY, with exact 50,000 $KEY outbid steps. One active holder per orientation; displaced holders receive full refunds. The winning bid is the entire mint price. Escrow, settlement, cancellation and security review are required before launch. CHEERS support is planned subject to a fair conversion policy.
+
 ## Why BaseFriend
 ISLANDS offers a clear use case for staking Creator Keys and for the $KEY / $CHEERS ecosystem: collectors have a reason to discover creator markets, stake keys, return to the app, collect artworks and celebrate owners.
 
 ## Milestones (proposed, subject to scope and funding)
 - **M1 — Reliable foundations:** finalize artwork review and edition registry; publish documented release status.
 - **M2 — Keyholder integration:** verified stake lookups, discount logic and integration tests.
-- **M3 — Collecting on Base:** mint flow, supply accounting, payment and contract security review.
+- **M3 — Collecting on Base:** mint flow, supply accounting, payment, reservation escrow and contract security review.
 - **M4 — Community engagement:** verified-owner $CHEERS appreciation and public activity metrics.
 
 ## Success measures
