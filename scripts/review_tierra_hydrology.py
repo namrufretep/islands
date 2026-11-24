@@ -6,6 +6,7 @@ import numpy as np
 from PIL import Image
 from pyproj import Transformer
 from shapely.geometry import Point, shape, mapping
+from shapely.validation import make_valid
 from shapely.ops import transform, unary_union
 
 base=Path("data/gis/000012")
@@ -14,6 +15,32 @@ cm=json.loads((base/"coastline/000012-candidate-00.json").read_text())
 geographic_island=shape(json.loads((base/"coastline/000012-candidate-00.geojson").read_text()))
 project=Transformer.from_crs(4326,cm["projection"],always_xy=True).transform
 island=transform(project,geographic_island)
+lake_url="https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_lakes.zip"
+with urllib.request.urlopen(lake_url,timeout=90) as r:
+    lake_bytes=r.read(50000001)
+assert len(lake_bytes)<50000000
+with tempfile.TemporaryDirectory() as tmp:
+    path=Path(tmp)/"lakes.zip";path.write_bytes(lake_bytes)
+    lakes=gpd.read_file("zip://"+str(path),bbox=geographic_island.bounds).to_crs(cm["projection"])
+print("LAKE_INPUT",len(lakes),str(lakes.crs),lakes.total_bounds.tolist(),flush=True)
+records=[];geometries=[]
+for _,row in lakes.iterrows():
+    if row.geometry is None or row.geometry.is_empty: continue
+    geom=make_valid(row.geometry)
+    clipped=geom.intersection(island)
+    print("LAKE_CANDIDATE",str(row.get("name","")),geom.bounds,clipped.area/1e6,flush=True)
+    if clipped.is_empty or clipped.area<1e6: continue
+    name=next((str(row[k]) for k in ["name","name_en","name_es"] if k in row and row[k] is not None and str(row[k])!="nan"),"Unnamed")
+    geometries.append(clipped)
+    records.append({"name":name,"area_km2":clipped.area/1e6,"source_id":str(row.get("ne_id",""))})
+water=unary_union(geometries)
+# Independent checks for the three prominent lakes identified by CONAE/IGN.
+checks={}
+for name,lon,lat in [("Fagnano",-68.0,-54.56),("Yehuin",-67.7153,-54.4119),("Chepelmut",-67.5933,-54.395)]:
+    checks[name]=bool(water.buffer(2500).covers(transform(project,Point(lon,lat))))
+print("INLAND_WATER_REPORT",json.dumps({"lakes":records,"reference_checks":checks}),flush=True)
+assert checks["Fagnano"],"Fagnano is missing from the water geometry"
+assert checks["Yehuin"] and checks["Chepelmut"],"Major northern lakes missing; finer data required"
 # Derive full source bounds from the island, with no administrative clipping.
 west,south,east,north=geographic_island.bounds
 terrain_code=Path("scripts/import_tierra_del_fuego_terrain.py").read_text()
@@ -28,29 +55,6 @@ terrain_bounds=(tr[2],tr[5]+h*tr[4],tr[2]+w*tr[0],tr[5])
 x0,y0,x1,y1=cm["bounds_m"]; tx0,ty0,tx1,ty1=terrain_bounds
 assert tx0<x0 and ty0<y0 and tx1>x1 and ty1>y1, "Incomplete island DEM"
 
-lake_url="https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_lakes.zip"
-with urllib.request.urlopen(lake_url,timeout=90) as r:
-    lake_bytes=r.read(50000001)
-assert len(lake_bytes)<50000000
-with tempfile.TemporaryDirectory() as tmp:
-    path=Path(tmp)/"lakes.zip";path.write_bytes(lake_bytes)
-    lakes=gpd.read_file("zip://"+str(path),bbox=geographic_island.bounds).to_crs(cm["projection"])
-records=[];geometries=[]
-for _,row in lakes.iterrows():
-    if row.geometry is None or row.geometry.is_empty or not row.geometry.is_valid: continue
-    clipped=row.geometry.intersection(island)
-    if clipped.is_empty or clipped.area<1e6: continue
-    name=next((str(row[k]) for k in ["name","name_en","name_es"] if k in row and row[k] is not None and str(row[k])!="nan"),"Unnamed")
-    geometries.append(clipped)
-    records.append({"name":name,"area_km2":clipped.area/1e6,"source_id":str(row.get("ne_id",""))})
-water=unary_union(geometries)
-# Independent checks for the three prominent lakes identified by CONAE/IGN.
-checks={}
-for name,lon,lat in [("Fagnano",-68.0,-54.56),("Yehuin",-67.7153,-54.4119),("Chepelmut",-67.5933,-54.395)]:
-    checks[name]=bool(water.buffer(2500).covers(transform(project,Point(lon,lat))))
-print("INLAND_WATER_REPORT",json.dumps({"lakes":records,"reference_checks":checks}),flush=True)
-assert checks["Fagnano"],"Fagnano is missing from the water geometry"
-assert checks["Yehuin"] and checks["Chepelmut"],"Major northern lakes missing; finer data required"
 land_geometry=island.difference(water)
 x0,y0,x1,y1=cm["bounds_m"];mpp=cm["meters_per_pixel"]
 def ring(coords):
