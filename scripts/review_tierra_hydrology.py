@@ -5,9 +5,10 @@ import geopandas as gpd
 import numpy as np
 from PIL import Image
 from pyproj import Transformer
-from shapely.geometry import Point, shape, mapping
+from shapely.geometry import Point, Polygon, LineString, shape, mapping
 from shapely.validation import make_valid
-from shapely.ops import transform, unary_union
+from shapely.ops import transform, unary_union, polygonize
+import urllib.parse
 
 base=Path("data/gis/000012")
 subprocess.run([sys.executable,"scripts/import_tierra_del_fuego.py"],check=True)
@@ -15,27 +16,50 @@ cm=json.loads((base/"coastline/000012-candidate-00.json").read_text())
 geographic_island=shape(json.loads((base/"coastline/000012-candidate-00.geojson").read_text()))
 project=Transformer.from_crs(4326,cm["projection"],always_xy=True).transform
 island=transform(project,geographic_island)
-lake_url="https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_lakes.zip"
-with urllib.request.urlopen(lake_url,timeout=90) as r:
-    lake_bytes=r.read(50000001)
-assert len(lake_bytes)<50000000
-with tempfile.TemporaryDirectory() as tmp:
-    path=Path(tmp)/"lakes.zip";path.write_bytes(lake_bytes)
-    lakes=gpd.read_file("zip://"+str(path))
-    print("GLOBAL_LAKE_SOURCE",len(lakes),str(lakes.crs),lakes.total_bounds.tolist(),flush=True)
-    lakes=lakes.to_crs(cm["projection"])
-    lakes=lakes[lakes.intersects(island)]
-print("LAKE_INPUT",len(lakes),str(lakes.crs),lakes.total_bounds.tolist(),flush=True)
+lake_url="https://www.openstreetmap.org/copyright"
+west,south,east,north=geographic_island.bounds
+bbox=f"({south-.02},{west-.02},{north+.02},{east+.02})"
+query='[out:json][timeout:90];(way["natural"="water"]["water"!="river"]["water"!="canal"]'+bbox+';relation["natural"="water"]["water"!="river"]["water"!="canal"]'+bbox+';);out geom;'
+water_response=None
+for endpoint in ["https://overpass-api.de/api/interpreter","https://overpass.kumi.systems/api/interpreter"]:
+    try:
+        req=urllib.request.Request(endpoint,data=urllib.parse.urlencode({"data":query}).encode(),headers={"User-Agent":"IslandsArtworkReview/1.0"})
+        with urllib.request.urlopen(req,timeout=100) as response:
+            candidate=response.read(50000001)
+        parsed=json.loads(candidate)
+        if "elements" not in parsed: raise ValueError("No water elements returned")
+        water_response=parsed;lake_bytes=candidate
+        break
+    except Exception as error:
+        print("WATER_SOURCE_RETRY",type(error).__name__,str(error),flush=True)
+if water_response is None: raise RuntimeError("Detailed water source unavailable")
+print("DETAILED_WATER_ELEMENTS",len(water_response["elements"]),flush=True)
 records=[];geometries=[]
-for _,row in lakes.iterrows():
-    if row.geometry is None or row.geometry.is_empty: continue
-    geom=make_valid(row.geometry)
-    clipped=geom.intersection(island)
-    print("LAKE_CANDIDATE",str(row.get("name","")),geom.bounds,clipped.area/1e6,flush=True)
-    if clipped.is_empty or clipped.area<1e6: continue
-    name=next((str(row[k]) for k in ["name","name_en","name_es"] if k in row and row[k] is not None and str(row[k])!="nan"),"Unnamed")
+for element in water_response["elements"]:
+    geom=None
+    if element["type"]=="way" and len(element.get("geometry",[]))>=4:
+        coords=[(p["lon"],p["lat"]) for p in element["geometry"]]
+        if coords[0]!=coords[-1]: continue
+        geom=make_valid(Polygon(coords))
+    elif element["type"]=="relation":
+        outer=[];inner=[]
+        for member in element.get("members",[]):
+            coords=[(p["lon"],p["lat"]) for p in member.get("geometry",[]) if "lon" in p]
+            if len(coords)<2: continue
+            (inner if member.get("role")=="inner" else outer).append(LineString(coords))
+        if not outer: continue
+        geom=unary_union(list(polygonize(unary_union(outer))))
+        if inner:
+            geom=geom.difference(unary_union(list(polygonize(unary_union(inner)))))
+        geom=make_valid(geom)
+    if geom is None or geom.is_empty: continue
+    projected=transform(project,geom)
+    clipped=projected.intersection(island)
+    if clipped.is_empty or clipped.area<1e6 or clipped.area/max(projected.area,1)<.9: continue
+    tags=element.get("tags",{})
+    name=tags.get("name") or tags.get("name:es") or "Unnamed"
     geometries.append(clipped)
-    records.append({"name":name,"area_km2":clipped.area/1e6,"source_id":str(row.get("ne_id",""))})
+    records.append({"name":name,"area_km2":clipped.area/1e6,"source_id":f'{element["type"]}/{element["id"]}'})
 water=unary_union(geometries)
 # Independent checks for the three prominent lakes identified by CONAE/IGN.
 checks={}
@@ -69,13 +93,13 @@ for poly in ([water] if water.geom_type=="Polygon" else water.geoms):
     lake_rings.extend(ring(r.coords) for r in poly.interiors)
 lake_path=" ".join(lake_rings)
 out=Path("output/000012");out.mkdir(parents=True,exist_ok=True)
-report={"island_id":"000012","source":lake_url,"source_sha256":hashlib.sha256(lake_bytes).hexdigest(),
+report={"island_id":"000012","source":lake_url,"attribution":"© OpenStreetMap contributors, ODbL","source_sha256":hashlib.sha256(lake_bytes).hexdigest(),
         "lakes":records,"reference_checks":checks,"terrain_bounds":terrain_bounds,
         "coastline_bounds":cm["bounds_m"],"political_boundaries":False,
         "terrain_smoothing":"land-weighted; sea bathymetry excluded; 32 artwork pixels"}
 (out/"hydrology-review.json").write_text(json.dumps(report,indent=2))
 (out/"inland-water.geojson").write_text(json.dumps({"type":"FeatureCollection","features":[
-    {"type":"Feature","properties":{"source":"Natural Earth 10m lakes"},"geometry":mapping(water)}],
+    {"type":"Feature","properties":{"source":"OpenStreetMap inland water, ODbL"},"geometry":mapping(water)}],
     "crs":{"type":"name","properties":{"name":cm["projection"]}}}))
 
 code=Path("scripts/render_island.py").read_text()
