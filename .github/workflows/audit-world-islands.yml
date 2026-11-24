@@ -1,0 +1,22 @@
+name: Audit world island duplicates
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/audit_world_islands.py
+      - .github/workflows/audit-world-islands.yml
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/audit_world_islands.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/world-island-audit.json
+          git diff --cached --quiet || git commit -m "Publish island duplicate audit"
+          git pull --rebase
+          git push
