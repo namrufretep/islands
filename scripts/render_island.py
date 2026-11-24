@@ -14,7 +14,9 @@ p.add_argument('coastline',type=Path)
 p.add_argument('metadata',type=Path)
 p.add_argument('output',type=Path)
 p.add_argument('--palette',choices=['bouvet','sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre','sulawesi'],default='bouvet')
+p.add_argument('--expanded-tones',action='store_true')
 a=p.parse_args()
+if a.expanded_tones and a.palette!='sulawesi': p.error('Expanded tones are a Sulawesi-only study')
 meta=json.loads(a.metadata.read_text())
 if meta.get('status')!='verified_coastline':
     raise SystemExit('Coastline must be reviewed and approved before rendering.')
@@ -87,6 +89,7 @@ if a.palette=='grande_terre':
 if a.palette=='sulawesi':
     palettes={'N':(['#24264e','#4d509a','#8587cc','#c7c9ef'],'#d9a36b','Tropical Indigo'),'S':(['#80501d','#bd8629','#e5b74e','#f9e5a4'],'#513749','Golden Saffron')}
 version='4.3' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre','sulawesi') else '3.8'
+if a.expanded_tones: version='4.4'
 for edition,angle in [('N',0),('S',180)]:
     palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
@@ -129,6 +132,13 @@ for edition,angle in [('N',0),('S',180)]:
         # Keep broad intermediate tones; avoid near-black/near-white hotspots.
         normalized=0.10+0.80*(0.55*normalized+0.45*np.clip((soft_stone_light-shade_low)/(shade_high-shade_low),0,1))
         normalized=gaussian_filter(normalized,max(.8,mpp/resolution*1.1))
+    if a.expanded_tones:
+        # Expand the existing smooth field, preserving the underlying sculpture.
+        before=np.percentile(normalized[land],[1,10,50,90,99])
+        low,high=np.percentile(normalized[land],[2,98])
+        normalized=np.clip((normalized-low)/max(high-low,1e-6),0,1)
+        after=np.percentile(normalized[land],[1,10,50,90,99])
+        print(f'{edition} tonal percentiles before={before.tolist()} after={after.tolist()}')
     colors=np.array([[int(c[i:i+2],16) for i in (1,3,5)] for c in palette],dtype=float)
     position=normalized*3
     lo=np.minimum(np.floor(position).astype(int),2)
