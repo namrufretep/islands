@@ -1,0 +1,22 @@
+name: World island registry
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/import_world_islands.py
+      - .github/workflows/world-island-index.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/import_world_islands.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/world-islands.json
+          git diff --cached --quiet || git commit -m "Import GeoNames island directory"
+          git pull --rebase
+          git push
