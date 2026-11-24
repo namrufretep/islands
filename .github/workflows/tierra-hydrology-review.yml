@@ -1,0 +1,36 @@
+name: Tierra del Fuego hydrology artwork review
+on:
+  push:
+    branches: ['artwork/tierra-000012-hydrology']
+    paths:
+      - 'scripts/review_tierra_hydrology.py'
+      - '.github/workflows/tierra-hydrology-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  artwork:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1 rasterio==1.4.3 numpy==2.2.3 cairosvg pillow scipy scikit-image
+      - run: python scripts/review_tierra_hydrology.py
+      - name: Save artwork review independently of the app
+        run: |
+          mkdir -p public/drafts/000012/hydrology
+          cp output/000012/*-draft.png output/000012/*-draft.svg output/000012/*-draft.json output/000012/hydrology-review.json output/000012/inland-water.geojson public/drafts/000012/hydrology/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/drafts/000012/hydrology
+          git diff --cached --quiet || git commit -m "Review Tierra del Fuego with inland lakes and complete western relief"
+          git push origin HEAD:artwork/tierra-000012-hydrology
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tierra-del-fuego-hydrology-review
+          path: output/000012/
+          if-no-files-found: warn
