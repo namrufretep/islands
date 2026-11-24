@@ -207,3 +207,5 @@ main{padding-bottom:calc(210px + env(safe-area-inset-bottom))!important}
 .island-geography{display:grid;gap:5px;margin:12px 0 8px;padding:10px 12px;border-left:3px solid #092b1c;background:#f84b35cc}
 .island-geography span{display:block;font:900 clamp(12px,2.8vw,15px)/1.35 "Courier New",Courier,monospace!important;color:#082818!important;letter-spacing:.015em!important;overflow-wrap:anywhere}
 .atlasrow>div:first-child{min-width:0}
+
+#islandDetail .panel img{display:block;max-width:600px;margin:12px auto} #indexList .index-list-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:left;border:0;border-bottom:1px solid currentColor;border-radius:0;background:transparent;color:inherit;padding:12px 0;margin:0;font:inherit} #indexList .index-list-entry span{font-size:.75em;white-space:nowrap} #indexList .index-list-entry strong{overflow-wrap:anywhere} #indexList .index-list-entry:hover{text-decoration:underline}
