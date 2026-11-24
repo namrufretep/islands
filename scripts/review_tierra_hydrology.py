@@ -21,7 +21,10 @@ with urllib.request.urlopen(lake_url,timeout=90) as r:
 assert len(lake_bytes)<50000000
 with tempfile.TemporaryDirectory() as tmp:
     path=Path(tmp)/"lakes.zip";path.write_bytes(lake_bytes)
-    lakes=gpd.read_file("zip://"+str(path),bbox=geographic_island.bounds).to_crs(cm["projection"])
+    lakes=gpd.read_file("zip://"+str(path))
+    print("GLOBAL_LAKE_SOURCE",len(lakes),str(lakes.crs),lakes.total_bounds.tolist(),flush=True)
+    lakes=lakes.to_crs(cm["projection"])
+    lakes=lakes[lakes.intersects(island)]
 print("LAKE_INPUT",len(lakes),str(lakes.crs),lakes.total_bounds.tolist(),flush=True)
 records=[];geometries=[]
 for _,row in lakes.iterrows():
