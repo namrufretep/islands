@@ -63,6 +63,13 @@ jobs:
           python-version: '3.12'
       - run: pip install shapely==2.0.7 pyproj==3.7.1 numpy==2.2.3 cairosvg pillow scipy scikit-image
       - run: python scripts/review_tierra_del_fuego.py
+      - name: Preserve previous color editions
+        run: |
+          mkdir -p public/drafts/000012/original
+          for f in public/drafts/000012/*-draft.* public/drafts/000012/*-study.*; do
+            test -e "$f" || continue
+            test -e "public/drafts/000012/original/$(basename "$f")" || cp "$f" public/drafts/000012/original/
+          done
       - run: python scripts/render_island.py data/gis/000012/coastline/000012-candidate-00.svg review-output/tierra_del_fuego-coastline.json public/drafts/000012 --palette tierra_del_fuego --expanded-tones
       - name: Check both finished artworks
         run: |
@@ -71,6 +78,28 @@ jobs:
           test -s public/drafts/000012/000012-N-draft.png
           test -s public/drafts/000012/000012-S-draft.png
           for v in A C; do for e in N S; do test -s public/drafts/000012/000012-$e-$v-study.svg; done; done
+      - name: Validate new palettes and finished PNGs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          expected = {
+              'N': ('Fuegian Jasper', '#112c30', ['#58302c','#a85b45','#d3a16c','#f4dfb5']),
+              'S': ('Smoky Rhodonite', '#202835', ['#3c263c','#865b77','#c897aa','#f3ded7']),
+          }
+          for edition, (name, bg, palette) in expected.items():
+              stem = Path('public/drafts/000012') / f'000012-{edition}-draft'
+              meta = json.loads(stem.with_suffix('.json').read_text())
+              assert meta['id'] == '000012'
+              assert meta['color_mood'] == name
+              assert meta['background'] == bg and meta['palette'] == palette
+              with Image.open(stem.with_suffix('.png')) as im:
+                  assert im.size == (2048, 2048)
+                  assert all(abs(d - 300) < 1 for d in im.info['dpi'])
+                  assert im.convert('RGB').getpixel((0, 0)) == tuple(bytes.fromhex(bg[1:]))
+              print(edition, name, '2048x2048 / 300 dpi / background verified')
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: tierra_del_fuego-soft-stone-north-south
