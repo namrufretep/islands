@@ -13,7 +13,7 @@ p=argparse.ArgumentParser()
 p.add_argument('coastline',type=Path)
 p.add_argument('metadata',type=Path)
 p.add_argument('output',type=Path)
-p.add_argument('--palette',choices=['bouvet','sicily','iceland','madagascar','greenland','socotra','mainau','manhattan'],default='bouvet')
+p.add_argument('--palette',choices=['bouvet','sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre'],default='bouvet')
 a=p.parse_args()
 meta=json.loads(a.metadata.read_text())
 if meta.get('status')!='verified_coastline':
@@ -35,7 +35,7 @@ z=z[tuple(distance_transform_edt(~valid,return_distances=False,return_indices=Tr
 resolution=float(tm.get('resolution_m',abs(tm['transform'][0])))
 # Match Bouvet's *visual* smoothing in artwork space, not its 20 m DEM cells.
 # Both islands are normalized to the same 1536px geographic footprint.
-z=gaussian_filter(z,0.8 if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan') else 8)
+z=gaussian_filter(z,0.8 if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre') else 8)
 gy,gx=np.gradient(z,resolution)
 x0,y0,x1,y1=cm['bounds_m']
 mpp=cm['meters_per_pixel']
@@ -68,7 +68,7 @@ relief/=max(relief[land].max(),1)
 surface=gaussian_filter((1-np.exp(-dist*5))*land*(350+relief*1050),7)
 sy,sx=np.gradient(surface,resolution)
 palettes={'N':(['#205e68','#438e94','#78bfc0','#c1e1df'],'#cedbdb','Glacial Turquoise'),'S':(['#493c39','#786052','#a48166','#d9be9b'],'#e2ddd3','Volcanic Ash')}
-if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan'):
+if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre'):
     palettes={'N':(['#65564a','#a08059','#c8a67e','#f0e3cd'],'#e7e4d9','Mediterranean Limestone'),'S':(['#483c3c','#80564b','#bc8065','#e2b89a'],'#ddd3ca','Volcanic Terracotta')}
 if a.palette=='iceland':
     palettes={'N':(['#30263f','#65547f','#a394c3','#e2d9ef'],'#ccd9cf','Arctic Amethyst'),'S':(['#382b29','#85523c','#c38a55','#e9c697'],'#243b49','Volcanic Copper')}
@@ -82,7 +82,9 @@ if a.palette=='mainau':
     palettes={'N':(['#593052','#99578c','#ce92bf','#f3d4e7'],'#d8d5ad','Orchid Quartz'),'S':(['#455128','#859343','#c2ce70','#edf0b7'],'#676581','Spring Peridot')}
 if a.palette=='manhattan':
     palettes={'N':(['#293944','#536c7c','#92a9b7','#dce5e8'],'#c8a46f','Metropolitan Steel'),'S':(['#493329','#91613f','#c99861','#eed7ae'],'#304b40','Art Deco Bronze')}
-version='4.3' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan') else '3.8'
+if a.palette=='grande_terre':
+    palettes={'N':(['#733e36','#bd6d59','#e5a28a','#f6d5bf'],'#367b80','Pacific Coral'),'S':(['#263f37','#527f68','#8fb89b','#d5e3c9'],'#b99ab5','Nickel Green')}
+version='4.3' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre') else '3.8'
 for edition,angle in [('N',0),('S',180)]:
     palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
@@ -98,7 +100,7 @@ for edition,angle in [('N',0),('S',180)]:
     edge_sign=1 if edition=='N' else -1
     coastal_bevel=np.exp(-coast_distance/9)
     soft_stone_light=light+0.105*edge_sign*edge_direction*coastal_bevel
-    if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan'):
+    if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre'):
         # v4.3: Bouvet-inspired convex sculpture in normalized artwork space.
         # Construct a broad rounded body, modulated by abstract elevation.
         px_per_cell=resolution/mpp
@@ -121,7 +123,7 @@ for edition,angle in [('N',0),('S',180)]:
         raise RuntimeError('Insufficient relief contrast for Soft Stone artwork')
     normalized=np.clip((soft_stone_light-shade_low)/(shade_high-shade_low),0,1)
     normalized=normalized*normalized*(3-2*normalized)
-    if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan'):
+    if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre'):
         # Keep broad intermediate tones; avoid near-black/near-white hotspots.
         normalized=0.10+0.80*(0.55*normalized+0.45*np.clip((soft_stone_light-shade_low)/(shade_high-shade_low),0,1))
         normalized=gaussian_filter(normalized,max(.8,mpp/resolution*1.1))
@@ -223,4 +225,4 @@ for edition,angle in [('N',0),('S',180)]:
     stem.with_suffix('.svg').write_text(svg)
     image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode())))
     image.save(stem.with_suffix('.png'),dpi=(300,300))
-    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':version,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan') else 'Soft Stone: continuous DEM relief with directional coastal bevel','style_variant':'A – Soft Stone'},indent=2))
+    stem.with_suffix('.json').write_text(json.dumps({**meta,'edition':edition,'orientation_degrees':angle,'color_mood':mood,'background':background,'palette':palette,'art_status':'experimental_draft','terrain_guided':True,'lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True,'gradient_space':'continuous_terrain_raster'},'art_version':version,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':mpp*75/85,'artwork_print_scale_denominator':mpp*75/85*300/0.0254,'surface_model':'Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre') else 'Soft Stone: continuous DEM relief with directional coastal bevel','style_variant':'A – Soft Stone'},indent=2))
