@@ -1,0 +1,15 @@
+{
+  "id": "000010",
+  "edition": "S",
+  "variant": "A",
+  "status": "experimental_style_study",
+  "palette": [
+    "#80501d",
+    "#bd8629",
+    "#e5b74e",
+    "#f9e5a4"
+  ],
+  "background_direction": "Dark Gallery",
+  "coastline_stroke_px": 7,
+  "source": "verified coastline and DEM; independent art-direction tonal field"
+}
