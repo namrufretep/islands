@@ -22,7 +22,10 @@ for w in root.findall("way"):
         if len(pts)>1 and all(p is not None for p in pts): lines.append(LineString(pts))
 candidates=[p for p in polygonize(unary_union(lines)) if p.covers(Point(9.195,47.705)) and 0.3<abs(Geod(ellps="WGS84").geometry_area_perimeter(p)[0])/1e6<0.7]
 if len(candidates)!=1: raise ValueError("Mainau island boundary not uniquely verified")
-island=candidates[0]
+# Preserve external shoreline; internal cutouts require independent verification.
+island=Polygon(candidates[0].exterior)
+assert island.is_valid
+assert 0.3<abs(Geod(ellps="WGS84").geometry_area_perimeter(island)[0])/1e6<0.7
 crs="+proj=aeqd +lat_0=47.705 +lon_0=9.195 +datum=WGS84 +units=m +no_defs"
 projected=gpd.GeoSeries([island],crs=4326).to_crs(crs).iloc[0]
 x0,y0,x1,y1=projected.bounds
