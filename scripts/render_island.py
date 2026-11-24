@@ -15,7 +15,9 @@ p.add_argument('metadata',type=Path)
 p.add_argument('output',type=Path)
 p.add_argument('--palette',choices=['bouvet','sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre','sulawesi'],default='bouvet')
 p.add_argument('--expanded-tones',action='store_true')
+p.add_argument('--chromatic-tones',action='store_true')
 a=p.parse_args()
+if a.chromatic_tones and (a.palette!='sulawesi' or not a.expanded_tones): p.error('Chromatic study requires Sulawesi expanded tones')
 if a.expanded_tones and a.palette!='sulawesi': p.error('Expanded tones are a Sulawesi-only study')
 meta=json.loads(a.metadata.read_text())
 if meta.get('status')!='verified_coastline':
@@ -90,6 +92,9 @@ if a.palette=='sulawesi':
     palettes={'N':(['#24264e','#4d509a','#8587cc','#c7c9ef'],'#d9a36b','Tropical Indigo'),'S':(['#80501d','#bd8629','#e5b74e','#f9e5a4'],'#513749','Golden Saffron')}
 version='4.3' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre','sulawesi') else '3.8'
 if a.expanded_tones: version='4.4'
+if a.chromatic_tones:
+    version='4.5'
+    palettes={'N':(['#24264e','#454a91','#8584c8','#c9dce9'],'#d9a36b','Tropical Indigo'),'S':(['#80501d','#b97b38','#e5bc52','#f8edbd'],'#513749','Golden Saffron')}
 for edition,angle in [('N',0),('S',180)]:
     palette,background,mood=palettes[edition]
     sign=1 if edition=='N' else -1
