@@ -20,7 +20,7 @@ lake_url="https://www.openstreetmap.org/copyright"
 west,south,east,north=geographic_island.bounds
 records=[];geometries=[];water_sources=[]
 import time
-for requested in ["Lago Fagnano","Lago Yehuin","Lago Chepelmut","Lago Blanco","Lago Deseado","Lago Escondido","Lago Acigami","Lago Lynch"]:
+for requested in ["Lago Fagnano","Lago Yehuin","Lago Chepelmut","Lago Blanco","Lago Deseado","Lago Escondido","Lago Acigami","Lago Roca","Lago Lynch","Lago Mercedes","Lago Yakush"]:
     params={"q":requested,"format":"jsonv2","polygon_geojson":1,"limit":3,
             "viewbox":f"{west},{north},{east},{south}","bounded":1}
     url="https://nominatim.openstreetmap.org/search?"+urllib.parse.urlencode(params)
@@ -31,6 +31,7 @@ for requested in ["Lago Fagnano","Lago Yehuin","Lago Chepelmut","Lago Blanco","L
         features=json.loads(data)
         print("LAKE_LOOKUP",requested,len(features),flush=True)
         for feature in features:
+            if feature.get("category",feature.get("class"))!="natural" or feature.get("type")!="water": continue
             geom=shape(feature.get("geojson",{"type":"GeometryCollection","geometries":[]}))
             if geom.geom_type not in ("Polygon","MultiPolygon"): continue
             projected=transform(project,make_valid(geom))
@@ -111,6 +112,14 @@ old_outline='<path d={d} transform="rotate({angle} 1024 1024)" fill="none"'
 assert code.count(old_outline)==1
 code=code.replace(old_outline,'<path d={coast_outline_d} transform="rotate({angle} 1024 1024)" fill="none"')
 code=code.replace("if a.expanded_tones: version='4.4'","if a.expanded_tones: version='4.4-hydrology'")
+# Explicit vector water fill avoids renderer differences in even-odd clip-path handling.
+from xml.sax.saxutils import quoteattr
+code=code.replace("coast_outline_d=quoteattr(coast_path)",
+                  "coast_outline_d=quoteattr(coast_path)\nlake_d=quoteattr(_lake_path)")
+assert code.count("{tonal_image}</g>")==1
+code=code.replace("{tonal_image}</g>",
+    '{tonal_image}</g><path d={lake_d} transform="rotate({angle} 1024 1024)" fill="{background}" fill-rule="evenodd" stroke="none"/>')
+
 # Execute a precise data renderer; no generated coastline or manually painted lakes.
 sys.argv=["render_island.py",str(base/"coastline/000012-candidate-00.svg"),
           "review-output/tierra_del_fuego-coastline.json",str(out),"--palette","tierra_del_fuego","--expanded-tones"]
@@ -135,7 +144,7 @@ for edition in ["N","S"]:
             py=1024-(p.y-(y0+y1)/2)/mpp*85/75
             if edition=="S": px,py=2048-px,2048-py
             patch=rgb[max(0,round(py)-2):round(py)+3,max(0,round(px)-2):round(px)+3]
-            assert np.any(np.all(patch==bg,axis=2)), "Lake missing in finished image"
+            assert np.any(np.all(patch==bg,axis=2)), f"Lake missing in {edition} at {px},{py}; area {geom.area/1e6}"
         print(edition,"all inland-water checks passed",flush=True)
 # Retain source and metadata needed to reproduce the review without another app build.
 for name in ["terrain-00.npz","terrain-00.json"]:
