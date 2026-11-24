@@ -1,0 +1,47 @@
+{
+  "id": "000007",
+  "name": "Mainau",
+  "status": "verified_coastline",
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=9.183,47.697,9.209,47.714",
+  "source_sha256": "51f266de1d0e1bc5c38cc22fb2215ead29076d1a1e2a73cbcc9f56efd518a80b",
+  "layer": "OSM map API water boundaries and island polygons",
+  "area_km2": 0.4344353128053616,
+  "projection": "+proj=aeqd +lat_0=47.705 +lon_0=9.195 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -560.5251596491104,
+    -285.77583393173364,
+    532.269563751039,
+    350.37615159439565
+  ],
+  "meters_per_pixel": 0.7114548980469723,
+  "canvas_px": 2048,
+  "island_extent_px": 1536,
+  "dpi_target": 300,
+  "attribution": "OpenStreetMap coastline (ODbL), Mapzen/AWS terrain; confirm data licensing before NFT release",
+  "svg_sha256": "8644ee2157ad2aed7b43f1166ad258dda02bcc26c1ce989f0ce4dfd14a9fec84",
+  "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
+  "edition": "N",
+  "orientation_degrees": 0,
+  "color_mood": "Orchid Quartz",
+  "background": "#d8d5ad",
+  "palette": [
+    "#593052",
+    "#99578c",
+    "#ce92bf",
+    "#f3d4e7"
+  ],
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true,
+    "gradient_space": "continuous_terrain_raster"
+  },
+  "art_version": "4.3",
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 0.627754321806152,
+  "artwork_print_scale_denominator": 7414.421123694709,
+  "surface_model": "Soft Stone: convex mineral sculpture with continuous broad volumes and balanced midtones",
+  "style_variant": "A \u2013 Soft Stone"
+}
