@@ -93,7 +93,7 @@ if a.palette=='sulawesi':
 if a.palette=='isle_of_man':
     palettes={'N':(['#163e35','#307b65','#75b99b','#d4ead3'],'#c8a0a5','Celtic Malachite'),'S':(['#391d39','#83384d','#c66b77','#f3c5ad'],'#b3c9ce','Royal Garnet')}
 if a.palette=='tierra_del_fuego':
-    palettes={'N':(['#692b26','#b95830','#e89a4e','#ffe0a3'],'#182b39','Patagonian Fire'),'S':(['#19465b','#378d9c','#83c9bb','#e0f4cf'],'#302039','Southern Aurora')}
+    palettes={'N':(['#58302c','#a85b45','#d3a16c','#f4dfb5'],'#112c30','Fuegian Jasper'),'S':(['#3c263c','#865b77','#c897aa','#f3ded7'],'#202835','Smoky Rhodonite')}
 version='4.3' if a.palette in ('sicily','iceland','madagascar','greenland','socotra','mainau','manhattan','grande_terre','sulawesi','isle_of_man','tierra_del_fuego') else '3.8'
 if a.expanded_tones: version='4.4'
 if a.chromatic_tones:
