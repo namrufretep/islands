@@ -22,13 +22,13 @@
   "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
   "edition": "S",
   "orientation_degrees": 180,
-  "color_mood": "Southern Aurora",
-  "background": "#302039",
+  "color_mood": "Smoky Rhodonite",
+  "background": "#202835",
   "palette": [
-    "#19465b",
-    "#378d9c",
-    "#83c9bb",
-    "#e0f4cf"
+    "#3c263c",
+    "#865b77",
+    "#c897aa",
+    "#f3ded7"
   ],
   "art_status": "experimental_draft",
   "terrain_guided": true,

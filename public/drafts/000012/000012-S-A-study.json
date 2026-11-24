@@ -4,10 +4,10 @@
   "variant": "A",
   "status": "experimental_style_study",
   "palette": [
-    "#19465b",
-    "#378d9c",
-    "#83c9bb",
-    "#e0f4cf"
+    "#3c263c",
+    "#865b77",
+    "#c897aa",
+    "#f3ded7"
   ],
   "background_direction": "Dark Gallery",
   "coastline_stroke_px": 7,

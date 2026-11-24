@@ -4,10 +4,10 @@
   "variant": "C",
   "status": "experimental_style_study",
   "palette": [
-    "#692b26",
-    "#b95830",
-    "#e89a4e",
-    "#ffe0a3"
+    "#58302c",
+    "#a85b45",
+    "#d3a16c",
+    "#f4dfb5"
   ],
   "background_direction": "Atmospheric Stone",
   "coastline_stroke_px": 6,

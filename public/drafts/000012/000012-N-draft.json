@@ -22,13 +22,13 @@
   "verification": "Automated source geometry, area and reference-point checks; human visual review pending",
   "edition": "N",
   "orientation_degrees": 0,
-  "color_mood": "Patagonian Fire",
-  "background": "#182b39",
+  "color_mood": "Fuegian Jasper",
+  "background": "#112c30",
   "palette": [
-    "#692b26",
-    "#b95830",
-    "#e89a4e",
-    "#ffe0a3"
+    "#58302c",
+    "#a85b45",
+    "#d3a16c",
+    "#f4dfb5"
   ],
   "art_status": "experimental_draft",
   "terrain_guided": true,
