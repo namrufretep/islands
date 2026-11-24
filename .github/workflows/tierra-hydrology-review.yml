@@ -1,4 +1,4 @@
-name: Tierra del Fuego hydrology artwork review
+name: Tierra del Fuego lakes and relief review
 on:
   push:
     branches: ['artwork/tierra-000012-hydrology']
@@ -18,6 +18,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install geopandas==1.0.1 shapely==2.0.7 pyproj==3.7.1 rasterio==1.4.3 numpy==2.2.3 cairosvg pillow scipy scikit-image
+      - run: python -m py_compile scripts/review_tierra_hydrology.py
       - run: python scripts/review_tierra_hydrology.py
       - name: Save artwork review independently of the app
         run: |
