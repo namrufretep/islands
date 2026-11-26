@@ -12,7 +12,7 @@ areas. This batch contains ten lake islands and three river islands. Existing
 GeoNames aliases are excluded by their explicit source IDs to prevent duplicate
 index entries; neighboring islands and unrelated islands with the same name remain.
 
-Only island detail views offer Share on X; gallery cards offer View island. Both actions use the same bold Courier typeface as the artwork cards. Sharing opens the X composer with
+Only island detail views offer Share on X and Share on Farcaster; gallery cards offer View island. All actions use the same bold Courier typeface as the artwork cards. X sharing opens the composer with
 editable text and the chosen edition's `/share/000051-N.html` URL. Publishing is
 performed by the visitor. No X credentials, account authorization or API access
 are required by ISLANDS.
@@ -46,3 +46,22 @@ verified chain snapshots, keeping the original minter separate from the current
 holder, and returns Not verified for missing data on a released collection. It
 does not fetch ownership data itself. A verified onchain reader and released
 collection configuration must be connected before enabling production minting.
+
+## Farcaster sharing and compact traits
+
+Each edition detail offers Share on Farcaster. Inside a Farcaster Mini App it
+opens the native `sdk.actions.composeCast` composer with the edition name,
+orientation, palette and a single edition-specific share-page embed. Cancellation
+does not open another composer. If the native action errors, the Farcaster web
+composer is offered via `openUrl`; a regular browser uses the same composer URL
+directly. The visitor chooses whether to publish.
+
+All 150 share pages now expose `fc:miniapp` and legacy `fc:frame` metadata. Their
+1200x800 PNG preview centers the full square original without cropping it, and
+the launch action points to the exact N/S edition in the app. Generated preview
+images are build output. The automated checks verify composer text/encoding,
+per-edition launch URLs and image dimensions. Native client rendering and
+publication require a real Farcaster session and have not been verified here.
+
+Trait label/value pairs remain in two columns; the vertical row gap is reduced
+from 14px to 5px, while long values can wrap.

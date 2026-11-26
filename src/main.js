@@ -1,5 +1,5 @@
 import {discount,mintPrice} from './pricing.js';
-import {editionUrl,xShareUrl} from './sharing.js';
+import {editionUrl,xShareUrl,farcasterShareUrl,farcasterShareOptions} from './sharing.js';
 import {createArtworkViewer} from './image-viewer.js';
 import {editionStatus} from './edition-status.js';
 import 'leaflet/dist/leaflet.css';
@@ -132,7 +132,7 @@ function openIsland(r,selectedEdition=null){
  const title=document.createElement('h1');title.textContent=r[0];const geo=document.createElement('p');geo.textContent=r[1]+' · '+r[2];out.append(title,geo,islandDetails(r[0]));
  for(const e of ['N','S']){const cell=document.createElement('article');cell.className='panel';if(id){cell.id='edition-'+id+'-'+e;cell.tabIndex=-1;cell.classList.toggle('selected-edition',selectedEdition===id+'-'+e)}const heading=document.createElement('h2');heading.textContent=e==='N'?'North-Up':'South-Up';cell.append(heading);
  cell.append(editionRecord(Boolean(id)));
- if(id){const img=document.createElement('img');img.src=previewEditions.find(x=>x.id===id+'-'+e).image;img.alt=r[0]+' '+heading.textContent;img.style.width='100%';cell.append(img);const actions=document.createElement('div');actions.className='artwork-actions';actions.append(shareLink(previewEditions.find(x=>x.id===id+'-'+e)));cell.append(actions);const offer=document.createElement('button');offer.disabled=true;offer.textContent='Make an offer · unavailable until collected';cell.append(offer);
+ if(id){const img=document.createElement('img');img.src=previewEditions.find(x=>x.id===id+'-'+e).image;img.alt=r[0]+' '+heading.textContent;img.style.width='100%';cell.append(img);const actions=document.createElement('div');actions.className='artwork-actions';actions.append(shareLink(previewEditions.find(x=>x.id===id+'-'+e)),farcasterShareLink(previewEditions.find(x=>x.id===id+'-'+e)));cell.append(actions);const offer=document.createElement('button');offer.disabled=true;offer.textContent='Make an offer · unavailable until collected';cell.append(offer);
  fetch(previewEditions.find(x=>x.id===id+'-'+e).image.replace(/\.png$/,'.json')).then(res=>{if(!res.ok)throw Error();return res.json()}).then(m=>{const t=draftTraits[r[0]],j=e==='N'?0:1;const attributes={'Island ID':id,'Artwork ID':id+'-'+e,'Island':r[0],'Country':r[1],'Region':t[0],'Island Type':t[1],'Water Type':t[2],'Ocean':t[3],'Water Body':t[4],'Largest Settlement':t[9]??null,'Area':m.area_km2==null?null:Number(m.area_km2).toLocaleString('en-US',{maximumFractionDigits:3})+' km²','Scale':m.artwork_print_scale_denominator?'1:'+Math.round(m.artwork_print_scale_denominator).toLocaleString('en-US'):null,'Orientation':heading.textContent,'Color Palette':m.color_mood,'Color Family':t[5+j],'Background':t[7+j]};const dl=document.createElement('dl');dl.className='edition-traits';for(const [k,v] of Object.entries(attributes)){if(v==null)continue;const dt=document.createElement('dt');dt.textContent=k;const dd=document.createElement('dd');dd.textContent=v;dl.append(dt,dd)}cell.append(dl);const note=document.createElement('small');note.textContent='Draft traits · geographic and licensing review pending';cell.append(note)}).catch(()=>{const note=document.createElement('p');note.textContent='Artwork metadata unavailable';cell.append(note)});}
 
  else{const button=document.createElement('button');button.disabled=true;button.textContent='Reserve · 750,000 $KEY';cell.append(button);const note=document.createElement('p');note.textContent='Outbid step: 50,000 $KEY · one active holder · payments coming soon';cell.append(note);}
@@ -161,6 +161,18 @@ if(requestedEdition){if(!openEdition(requestedEdition)){show('gallery');$('statu
 
 function shareLink(edition){
  const link=document.createElement('a');link.href=xShareUrl(edition,location.origin);link.target='_blank';link.rel='noopener noreferrer';link.className='artwork-link share-on-x';link.textContent='Share on X ↗';link.setAttribute('aria-label','Share '+edition.name+' '+edition.orientation+' on X');return link;
+}
+function farcasterShareLink(edition){
+ const link=document.createElement('a');link.href=farcasterShareUrl(edition,location.origin);link.target='_blank';link.rel='noopener noreferrer';link.className='artwork-link share-on-farcaster';link.textContent='Share on Farcaster ↗';link.setAttribute('aria-label','Share '+edition.name+' '+edition.orientation+' on Farcaster');
+ let opening=false;
+ link.onclick=async event=>{
+  if(!miniApp||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();if(opening)return;opening=true;link.setAttribute('aria-busy','true');
+  try{await sdk.actions.composeCast(farcasterShareOptions(edition,location.origin));}
+  catch{try{await sdk.actions.openUrl(link.href);}catch{$('status').textContent='Could not open Farcaster sharing. Please try again.';}}
+  finally{opening=false;link.removeAttribute('aria-busy');}
+ };
+ return link;
 }
 function editionRecord(artworkExists){
  const state=editionStatus({artworkExists,collectionReleased});
