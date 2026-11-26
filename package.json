@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
+    "predev": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
     "dev": "vite",
-    "prebuild": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
+    "prebuild": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
     "build": "vite build",
-    "pretest": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
+    "pretest": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
     "test": "node --test"
   },
   "dependencies": {

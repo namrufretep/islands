@@ -56,5 +56,9 @@
   "coastline_override": "000056-samosir-coastline.geojson",
   "coastline_source": "https://www.openstreetmap.org/relation/13202530",
   "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
-  "water_geometry_override": "000056-samosir-water.geojson"
+  "water_geometry_override": "000056-samosir-water.geojson",
+  "water_colors": {
+    "N": "#718e83",
+    "S": "#3b263d"
+  }
 }

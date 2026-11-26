@@ -19,6 +19,22 @@ contract IslandsTest is Test {
         vm.expectRevert();
         collection.issue(alice,1,"ipfs://duplicate");
     }
+    function testCollectionMetadata() public {
+        assertEq(collection.contractURI(),"https://islands-kappa.vercel.app/nft/collection.json");
+        collection.setContractURI("ipfs://collection-metadata");
+        assertEq(collection.contractURI(),"ipfs://collection-metadata");
+        vm.expectRevert();
+        collection.setContractURI("");
+        vm.prank(alice);
+        vm.expectRevert();
+        collection.setContractURI("ipfs://unauthorized");
+    }
+    function testMarketplaceInterfaces() public view {
+        assertTrue(collection.supportsInterface(0x80ac58cd));
+        assertTrue(collection.supportsInterface(0x5b5e139f));
+        assertTrue(collection.supportsInterface(0x2a55205a));
+        assertEq(collection.CREATOR_FEE_BPS(),1000);
+    }
     function testUnauthorizedIssue() public {
         vm.prank(alice);
         vm.expectRevert();

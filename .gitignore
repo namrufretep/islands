@@ -143,6 +143,7 @@ dist
 # Vite files
 public/share/
 public/thumbnails/
+public/nft/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
