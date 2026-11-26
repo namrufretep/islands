@@ -3,10 +3,11 @@ export function sharePagePath(id) {
   return `/share/${id}.html`;
 }
 
-export function editionUrl(id, origin) {
+export function editionUrl(id, origin, {fromIndex=false}={}) {
   sharePagePath(id);
   const url = new URL('/', origin);
   url.searchParams.set('edition', id);
+  if(fromIndex)url.searchParams.set('view','index');
   return url.href;
 }
 

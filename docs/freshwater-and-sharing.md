@@ -65,3 +65,27 @@ publication require a real Farcaster session and have not been verified here.
 
 Trait label/value pairs remain in two columns; the vertical row gap is reduced
 from 14px to 5px, while long values can wrap.
+
+## Alphabetical index and discovery view
+
+The index now has All, A–Z and # initial filters. Leading quotes/apostrophes are
+ignored for grouping and sorting; accented Latin initials map to their base
+letter, and # contains numbers and other scripts. The selected initial combines
+with the existing text, country/region sorting and artwork-availability filters.
+Changing the initial resets the visible-result limit; returning from an island
+retains the current in-memory index filters. GeoNames duplicate filtering now
+uses a precomputed name lookup rather than repeatedly normalizing the entire
+curated registry for every world entry.
+
+Opening a detail from the index uses `?edition=000057-N&view=index`. Before a
+verified mint, both edition panels show geographic data and a question mark.
+Original images, color palettes/background names and artwork-revealing social
+share links are omitted from that view, including after reloading its URL.
+Unverified mint state stays concealed. A verified Minted state can reveal it
+when the chain reader is connected; there is currently no deployed collection
+or live ownership reader. Missing artwork has its own not-created placeholder.
+
+This is an index presentation rule, not private asset storage. The gallery,
+existing preview URLs, static share cards and original artwork files remain
+public previews. A collection-wide secret pre-mint reveal would additionally
+need changes to those routes, metadata and asset hosting before a release.
