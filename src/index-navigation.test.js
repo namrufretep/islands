@@ -36,3 +36,18 @@ test('index discovery context survives a reload of an edition link',()=>{
  assert.equal(url.searchParams.get('view'),'index');assert.equal(url.searchParams.get('edition'),'000057-S');
  assert.equal(new URL(editionUrl('000057-S',url.origin)).searchParams.has('view'),false);
 });
+test('existing artwork stays first in A–Z, Z–A, country and initial filters',()=>{
+ const rows=[['Alpha','Zambia'],['Zebra','Austria'],['Zulu','Zambia'],['Amber','Austria'],['Aster','Brazil']];
+ const exists=r=>['Alpha','Zulu','Amber'].includes(r[0]);
+ const names=options=>selectIndexRows(rows,options,exists).map(r=>r[0]);
+ assert.deepEqual(names({sort:0}),['Alpha','Amber','Zulu','Aster','Zebra']);
+ assert.deepEqual(names({sort:3}),['Zulu','Amber','Alpha','Zebra','Aster']);
+ assert.deepEqual(names({sort:1}),['Amber','Alpha','Zulu','Zebra','Aster']);
+ assert.deepEqual(names({sort:4}),['Zulu','Alpha','Amber','Aster','Zebra']);
+ assert.deepEqual(names({sort:3,letter:'A'}),['Amber','Alpha','Aster']);
+ assert.deepEqual(names({sort:0,status:'Not existing'}),['Aster','Zebra']);
+});
+test('verified administrator session can preview concealed index artwork',()=>{
+ assert.equal(revealIndexArtwork({fromIndex:true,mint:'Not minted',administrator:true}),true);
+ assert.equal(revealIndexArtwork({fromIndex:true,mint:'Not minted',administrator:false}),false);
+});

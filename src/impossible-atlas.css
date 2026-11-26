@@ -244,3 +244,14 @@ body .page .index-alphabet button.is-active{background:#082818!important;color:#
 .artwork-mystery{display:grid;place-items:center;gap:6px;min-height:150px;margin:18px 0;padding:18px;border:1px dashed #28553a;background:#f94f3c;color:#082818;text-align:center}
 .artwork-mystery strong{font:900 90px/1 "Courier New",Courier,monospace}
 .artwork-mystery p{margin:0}
+/* Wallet-verified creator controls and compact geographic disambiguation. */
+.header-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+.header-actions button{font-family:'Courier New',monospace!important;font-weight:900!important;font-size:clamp(11px,2.6vw,15px)!important;padding:9px 11px!important}
+.header-actions [hidden]{display:none!important}
+.administrator-preview #adminPreview{background:var(--ink,#003b26)!important;color:var(--paper,#ff634f)!important}
+.admin-preview-note{font-family:'Courier New',monospace;font-weight:900;border:1px dashed currentColor;padding:10px}
+.index-location{display:block;font-size:.72em;line-height:1.4;font-weight:700;margin-top:5px;overflow-wrap:anywhere}
+.island-geography.edition-traits{display:grid!important;line-height:1.4!important;padding:14px!important;gap:5px 12px!important}
+.island-geography dd{overflow-wrap:anywhere;min-width:0}
+.galleryedition .artwork-mystery{width:100%;aspect-ratio:1;margin:0;min-height:0;box-sizing:border-box}
+.galleryedition .artwork-mystery strong{font-size:clamp(45px,12vw,100px)}

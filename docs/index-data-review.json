@@ -1,0 +1,583 @@
+{
+  "source_records_checked": 166980,
+  "duplicate_source_ids": [],
+  "confirmed_duplicate_groups": [
+    {
+      "canonical": "geonames:660770",
+      "shorelineId": "1:7068",
+      "members": [
+        "geonames:660770",
+        "geonames:10059771"
+      ]
+    },
+    {
+      "canonical": "geonames:2609827",
+      "shorelineId": "1:20035",
+      "members": [
+        "geonames:2609827",
+        "geonames:2609844"
+      ]
+    },
+    {
+      "canonical": "geonames:3162011",
+      "shorelineId": "1:44300",
+      "members": [
+        "geonames:3162011",
+        "geonames:9063741"
+      ]
+    },
+    {
+      "canonical": "geonames:1722393",
+      "shorelineId": "1:51778",
+      "members": [
+        "geonames:1722393",
+        "geonames:1966371"
+      ]
+    },
+    {
+      "canonical": "geonames:3548302",
+      "shorelineId": "1:11832",
+      "members": [
+        "geonames:3548302",
+        "geonames:3548303"
+      ]
+    },
+    {
+      "canonical": "geonames:660424",
+      "shorelineId": "1:24576",
+      "members": [
+        "geonames:660424",
+        "geonames:843249"
+      ]
+    },
+    {
+      "canonical": "geonames:1282362",
+      "shorelineId": "1:20227",
+      "members": [
+        "geonames:1282362",
+        "geonames:10175051"
+      ]
+    },
+    {
+      "canonical": "geonames:1862285",
+      "shorelineId": "1:20989",
+      "members": [
+        "geonames:1862285",
+        "geonames:1893492"
+      ]
+    },
+    {
+      "canonical": "geonames:1901545",
+      "shorelineId": "1:128",
+      "members": [
+        "geonames:1901545",
+        "geonames:7056899"
+      ]
+    },
+    {
+      "canonical": "geonames:659826",
+      "shorelineId": "1:34942",
+      "members": [
+        "geonames:659826",
+        "geonames:10084628"
+      ]
+    },
+    {
+      "canonical": "geonames:659131",
+      "shorelineId": "1:19913",
+      "members": [
+        "geonames:659131",
+        "geonames:659143"
+      ]
+    },
+    {
+      "canonical": "geonames:1282291",
+      "shorelineId": "1:13288",
+      "members": [
+        "geonames:1282291",
+        "geonames:10176570"
+      ]
+    },
+    {
+      "canonical": "geonames:269918",
+      "shorelineId": "1:53138",
+      "members": [
+        "geonames:269918",
+        "geonames:6275830"
+      ]
+    },
+    {
+      "canonical": "geonames:3458174",
+      "shorelineId": "1:32788",
+      "members": [
+        "geonames:3458174",
+        "geonames:3477413"
+      ]
+    },
+    {
+      "canonical": "geonames:3466166",
+      "shorelineId": "1:12690",
+      "members": [
+        "geonames:3466166",
+        "geonames:3480593"
+      ]
+    },
+    {
+      "canonical": "geonames:3828893",
+      "shorelineId": "3:187748",
+      "members": [
+        "geonames:3828893",
+        "geonames:7523675"
+      ]
+    },
+    {
+      "canonical": "geonames:4017360",
+      "shorelineId": "1:6480",
+      "members": [
+        "geonames:4017360",
+        "geonames:9016019"
+      ]
+    },
+    {
+      "canonical": "geonames:656510",
+      "shorelineId": "1:56316",
+      "members": [
+        "geonames:656510",
+        "geonames:854221"
+      ]
+    },
+    {
+      "canonical": "geonames:854636",
+      "shorelineId": "1:76097",
+      "members": [
+        "geonames:854636",
+        "geonames:10070485"
+      ]
+    },
+    {
+      "canonical": "geonames:841918",
+      "shorelineId": "1:100083",
+      "members": [
+        "geonames:841918",
+        "geonames:10069956"
+      ]
+    },
+    {
+      "canonical": "geonames:641754",
+      "shorelineId": "1:70218",
+      "members": [
+        "geonames:641754",
+        "geonames:7645062"
+      ]
+    },
+    {
+      "canonical": "geonames:634768",
+      "shorelineId": "1:25651",
+      "members": [
+        "geonames:634768",
+        "geonames:12298535"
+      ]
+    },
+    {
+      "canonical": "geonames:1846091",
+      "shorelineId": "1:672",
+      "members": [
+        "geonames:1846091",
+        "geonames:1846306"
+      ]
+    },
+    {
+      "canonical": "geonames:655021",
+      "shorelineId": "1:94282",
+      "members": [
+        "geonames:655021",
+        "geonames:10058259"
+      ]
+    },
+    {
+      "canonical": "geonames:650758",
+      "shorelineId": "1:28299",
+      "members": [
+        "geonames:650758",
+        "geonames:10094237"
+      ]
+    },
+    {
+      "canonical": "geonames:848798",
+      "shorelineId": "1:97293",
+      "members": [
+        "geonames:848798",
+        "geonames:10071496"
+      ]
+    },
+    {
+      "canonical": "geonames:1282152",
+      "shorelineId": "1:14449",
+      "members": [
+        "geonames:1282152",
+        "geonames:10176627"
+      ]
+    },
+    {
+      "canonical": "geonames:649860",
+      "shorelineId": "1:47403",
+      "members": [
+        "geonames:649860",
+        "geonames:841920"
+      ]
+    },
+    {
+      "canonical": "geonames:649791",
+      "shorelineId": "1:61736",
+      "members": [
+        "geonames:649791",
+        "geonames:845758"
+      ]
+    },
+    {
+      "canonical": "geonames:2698411",
+      "shorelineId": "1:18623",
+      "members": [
+        "geonames:2698411",
+        "geonames:3327608"
+      ]
+    },
+    {
+      "canonical": "geonames:1874821",
+      "shorelineId": "1:71774",
+      "members": [
+        "geonames:1874821",
+        "geonames:6274344"
+      ]
+    },
+    {
+      "canonical": "geonames:2698184",
+      "shorelineId": "1:28207",
+      "members": [
+        "geonames:2698184",
+        "geonames:3327564"
+      ]
+    },
+    {
+      "canonical": "geonames:654803",
+      "shorelineId": "1:16888",
+      "members": [
+        "geonames:654803",
+        "geonames:10071710"
+      ]
+    },
+    {
+      "canonical": "geonames:648785",
+      "shorelineId": "1:33622",
+      "members": [
+        "geonames:648785",
+        "geonames:10069460"
+      ]
+    },
+    {
+      "canonical": "geonames:844587",
+      "shorelineId": "1:31926",
+      "members": [
+        "geonames:844587",
+        "geonames:11238726"
+      ]
+    },
+    {
+      "canonical": "geonames:853973",
+      "shorelineId": "1:48996",
+      "members": [
+        "geonames:853973",
+        "geonames:10070737"
+      ]
+    },
+    {
+      "canonical": "geonames:647911",
+      "shorelineId": "1:27473",
+      "members": [
+        "geonames:647911",
+        "geonames:10059492"
+      ]
+    },
+    {
+      "canonical": "geonames:854234",
+      "shorelineId": "1:27984",
+      "members": [
+        "geonames:854234",
+        "geonames:10071146"
+      ]
+    },
+    {
+      "canonical": "geonames:849946",
+      "shorelineId": "1:57233",
+      "members": [
+        "geonames:849946",
+        "geonames:849953"
+      ]
+    },
+    {
+      "canonical": "geonames:854645",
+      "shorelineId": "1:130273",
+      "members": [
+        "geonames:854645",
+        "geonames:10070462"
+      ]
+    },
+    {
+      "canonical": "geonames:3146084",
+      "shorelineId": "1:34293",
+      "members": [
+        "geonames:3146084",
+        "geonames:3146097"
+      ]
+    },
+    {
+      "canonical": "geonames:854222",
+      "shorelineId": "1:105808",
+      "members": [
+        "geonames:854222",
+        "geonames:10071137"
+      ]
+    },
+    {
+      "canonical": "geonames:841747",
+      "shorelineId": "1:144665",
+      "members": [
+        "geonames:841747",
+        "geonames:10069885"
+      ]
+    },
+    {
+      "canonical": "geonames:658513",
+      "shorelineId": "1:4516",
+      "members": [
+        "geonames:658513",
+        "geonames:848374"
+      ]
+    },
+    {
+      "canonical": "geonames:644333",
+      "shorelineId": "1:13061",
+      "members": [
+        "geonames:644333",
+        "geonames:10070729"
+      ]
+    },
+    {
+      "canonical": "geonames:3186235",
+      "shorelineId": "1:6010",
+      "members": [
+        "geonames:3186235",
+        "geonames:3192519"
+      ]
+    },
+    {
+      "canonical": "geonames:2063853",
+      "shorelineId": "1:42940",
+      "members": [
+        "geonames:2063853",
+        "geonames:8178740"
+      ]
+    },
+    {
+      "canonical": "geonames:854646",
+      "shorelineId": "1:139195",
+      "members": [
+        "geonames:854646",
+        "geonames:10070461"
+      ]
+    },
+    {
+      "canonical": "geonames:1649816",
+      "shorelineId": "1:152668",
+      "members": [
+        "geonames:1649816",
+        "geonames:6964866"
+      ]
+    },
+    {
+      "canonical": "geonames:2151979",
+      "shorelineId": "1:73521",
+      "members": [
+        "geonames:2151979",
+        "geonames:8180065"
+      ]
+    },
+    {
+      "canonical": "geonames:638857",
+      "shorelineId": "1:5950",
+      "members": [
+        "geonames:638857",
+        "geonames:638885"
+      ]
+    },
+    {
+      "canonical": "geonames:10071149",
+      "shorelineId": "1:163696",
+      "members": [
+        "geonames:10071149",
+        "geonames:12360788"
+      ]
+    },
+    {
+      "canonical": "geonames:848407",
+      "shorelineId": "1:121368",
+      "members": [
+        "geonames:848407",
+        "geonames:10070956"
+      ]
+    },
+    {
+      "canonical": "geonames:848403",
+      "shorelineId": "1:58439",
+      "members": [
+        "geonames:848403",
+        "geonames:10073087"
+      ]
+    },
+    {
+      "canonical": "geonames:848110",
+      "shorelineId": "1:66055",
+      "members": [
+        "geonames:848110",
+        "geonames:10073035"
+      ]
+    },
+    {
+      "canonical": "geonames:854557",
+      "shorelineId": "1:53598",
+      "members": [
+        "geonames:854557",
+        "geonames:10070378"
+      ]
+    },
+    {
+      "canonical": "geonames:634350",
+      "shorelineId": "1:120876",
+      "members": [
+        "geonames:634350",
+        "geonames:847089"
+      ]
+    },
+    {
+      "canonical": "geonames:634349",
+      "shorelineId": "1:91600",
+      "members": [
+        "geonames:634349",
+        "geonames:846495"
+      ]
+    },
+    {
+      "canonical": "geonames:848762",
+      "shorelineId": "1:81365",
+      "members": [
+        "geonames:848762",
+        "geonames:10071417"
+      ]
+    },
+    {
+      "canonical": "geonames:841993",
+      "shorelineId": "1:87162",
+      "members": [
+        "geonames:841993",
+        "geonames:10070003"
+      ]
+    },
+    {
+      "canonical": "geonames:1916834",
+      "shorelineId": "1:101396",
+      "members": [
+        "geonames:1916834",
+        "geonames:6193891"
+      ]
+    },
+    {
+      "canonical": "geonames:2101446",
+      "shorelineId": "1:48236",
+      "members": [
+        "geonames:2101446",
+        "geonames:8180005"
+      ]
+    },
+    {
+      "canonical": "geonames:652597",
+      "shorelineId": "1:82638",
+      "members": [
+        "geonames:652597",
+        "geonames:843533"
+      ]
+    },
+    {
+      "canonical": "geonames:844318",
+      "shorelineId": "1:142244",
+      "members": [
+        "geonames:844318",
+        "geonames:10061425"
+      ]
+    },
+    {
+      "canonical": "geonames:635984",
+      "shorelineId": "1:32714",
+      "members": [
+        "geonames:635984",
+        "geonames:10074517"
+      ]
+    },
+    {
+      "canonical": "geonames:3019013",
+      "shorelineId": "1:124973",
+      "members": [
+        "geonames:3019013",
+        "geonames:3227086"
+      ]
+    },
+    {
+      "canonical": "geonames:12368012",
+      "shorelineId": "1:62271",
+      "members": [
+        "geonames:12368012",
+        "geonames:12379189"
+      ]
+    },
+    {
+      "canonical": "geonames:848372",
+      "shorelineId": "1:103794",
+      "members": [
+        "geonames:848372",
+        "geonames:10073086"
+      ]
+    },
+    {
+      "canonical": "geonames:843131",
+      "shorelineId": "1:104686",
+      "members": [
+        "geonames:843131",
+        "geonames:10074305"
+      ]
+    },
+    {
+      "canonical": "geonames:1873429",
+      "shorelineId": "1:71774",
+      "members": [
+        "geonames:1873429",
+        "geonames:6274343"
+      ]
+    }
+  ],
+  "suppressed_close_same_polygon_records": 70,
+  "same_name_groups_retained_for_disambiguation": 15352,
+  "missing_country_codes": 44,
+  "unique_shoreline_point_matches": 46758,
+  "approximate_areas_published": 31818,
+  "area_withheld_ambiguous_named_subfeatures": 14879,
+  "area_unresolved_no_unique_match": 120222,
+  "curated_registry_entries_checked": 83,
+  "curated_entries_with_areas": 82,
+  "curated_alias_ids": 49,
+  "area_method": "GSHHG 2.3.7; point-in-polygon match; approximate; not a survey",
+  "limitations": [
+    "Gazetteer points and 2017 shorelines can be imprecise or outdated.",
+    "No area is inferred for mainland matches, unmatched points or competing names in one shoreline polygon.",
+    "Country gaps and settlements are not invented. Same names at different locations remain separate.",
+    "All original GeoNames records and IDs are retained in the source registry."
+  ]
+}
