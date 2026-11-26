@@ -140,6 +140,10 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
+# Foundry local build artifacts
+/cache/
+/out/
+
 # Vite files
 public/share/
 public/thumbnails/

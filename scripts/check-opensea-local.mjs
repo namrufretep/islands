@@ -28,6 +28,7 @@ try{
  const buyerAddress=await buyer.getAddress();
  const deployed=await new ContractFactory(artifact.abi,artifact.evm.bytecode.object,deployer).deploy();await deployed.waitForDeployment();
  const collection=deployed.connect(owner);
+ assert.equal(await collection.keyMintEnabled(),false);
  assert.notEqual((await deployer.getAddress()).toLowerCase(),creator);
  assert.equal((await collection.owner()).toLowerCase(),creator);
  await assert.rejects(()=>deployed.issue.staticCall(buyerAddress,9000n,'ipfs://deployer'));
@@ -74,7 +75,7 @@ try{
  assert.ok(updated.logs.some(log=>{try{return collection.interface.parseLog(log)?.name==='ContractURIUpdated'}catch{return false}}));
  checks.push('Only the owner can change collection metadata; empty URI is rejected and update event emitted');
  const names=new Set(artifact.abi.filter(x=>x.type==='function').map(x=>x.name));
- const report={network:'Local Ganache, chain ID 1337',compiler:solc.version(),public_network_transactions:0,local_checks:checks,local_checks_passed:checks.length,creator_fee_basis_points:1000,creator_fee_recipient:creator,creator_fee_enforcement_compatible:['getTransferValidator','getTransferValidationFunction','setTransferValidator'].every(name=>names.has(name)),public_paid_mint_implemented:names.has('mint')||names.has('publicMint'),opensea_indexing_verified:false,opensea_collection_settings_verified:false,release_ready:false,blockers:['No deployed collection address is configured in this project.','Public paid mint and its verified inventory/payment path are not implemented.','A real minted token must still be checked on OpenSea for image, traits and collection association.','OpenSea Studio must still confirm 10% creator earnings and the intended recipient.','The current ERC-721/2981 draft has no creator-token transfer validator; OpenSea fee enforcement is not prepared.']};
+ const report={network:'Local Ganache, chain ID 1337',compiler:solc.version(),public_network_transactions:0,local_checks:checks,local_checks_passed:checks.length,creator_fee_basis_points:1000,creator_fee_recipient:creator,creator_fee_enforcement_compatible:['getTransferValidator','getTransferValidationFunction','setTransferValidator'].every(name=>names.has(name)),direct_key_mint_implemented:names.has('mintWithKey'),key_mint_enabled_on_local_deployment:await collection.keyMintEnabled(),public_paid_mint_live:false,opensea_indexing_verified:false,opensea_collection_settings_verified:false,release_ready:false,blockers:['No deployed collection address is configured in this project.','Direct KEY settlement is implemented in the draft; released production inventory, verified KEY token, wallet UI, discounts and blind/regional mint paths are not complete.','A real minted token must still be checked on OpenSea for image, traits and collection association.','OpenSea Studio must still confirm 10% creator earnings and the intended recipient.','The current ERC-721/2981 draft has no creator-token transfer validator; OpenSea fee enforcement is not prepared.']};
  const output=process.argv[2];if(output)writeFileSync(output,JSON.stringify(report,null,2)+'\n');
  console.log(JSON.stringify(report,null,2));
 }finally{await rpc.disconnect()}
