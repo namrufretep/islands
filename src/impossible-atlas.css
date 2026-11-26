@@ -255,3 +255,14 @@ body .page .index-alphabet button.is-active{background:#082818!important;color:#
 .island-geography dd{overflow-wrap:anywhere;min-width:0}
 .galleryedition .artwork-mystery{width:100%;aspect-ratio:1;margin:0;min-height:0;box-sizing:border-box}
 .galleryedition .artwork-mystery strong{font-size:clamp(45px,12vw,100px)}
+.wallet-dialog{width:min(540px,calc(100vw - 28px));max-height:calc(100dvh - 40px);overflow:auto;padding:22px;border:2px solid #103321;background:#ff634f;color:#092b1c;font-family:'Courier New',monospace;font-weight:700}
+.wallet-dialog::backdrop{background:#091b13c7}
+.wallet-dialog-heading{display:flex;justify-content:space-between;align-items:start;gap:12px}
+.wallet-dialog h2{font:900 clamp(22px,5vw,30px)/1.15 'Courier New',monospace;letter-spacing:0}
+.wallet-dialog p,.wallet-dialog a{color:#092b1c;font:700 15px/1.5 'Courier New',monospace}
+.wallet-dialog button{color:#092b1c;border:1px solid currentColor;border-radius:0;font:900 15px/1.4 'Courier New',monospace;padding:12px;background:transparent}
+.wallet-dialog>button,.wallet-dialog>a{display:block;width:100%;margin:12px 0;text-align:left}
+.wallet-dialog [hidden]{display:none!important}
+#walletMessage:empty{display:none}
+#walletMessage{border-left:3px solid currentColor;padding:8px 12px}
+#worldMap{height:clamp(340px,58dvh,620px)}

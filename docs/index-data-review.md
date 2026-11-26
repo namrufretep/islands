@@ -7,8 +7,9 @@ ordering. Leading apostrophes and accents do not create separate letter groups.
 
 ## Wallet-bound administrator preview
 
-Connect the creator wallet `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1`.
-The header then offers **Administrator view**. Activation requests a personal
+The header always offers **Administrator** as a sign-in entry. Connect the
+creator wallet `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1` through the Farcaster
+wallet dialog; only that wallet can request administrator verification. Activation requests a personal
 message signature scoped to the current origin, nonce and a thirty-minute
 expiry. It requests no transaction, token approval or transfer. The signature
 must verify for the creator address; a typed address in the Keys lookup field
@@ -18,8 +19,9 @@ Viem's public-client verifier on Base.
 The session stays in memory. Switching accounts or chains, disconnecting,
 expiry, reload, or choosing **Exit administrator view** removes the preview.
 The creator sees all 150 North/South artwork previews, including those not
-minted. Public gallery and island pages show a question mark for unreleased
-artwork and omit palette and background traits from their visible details.
+minted. The public Gallery contains only verified minted artworks, with an
+empty state before the first mint. Public island pages show a question mark
+for unreleased artwork and omit palette and background traits.
 
 This is a wallet-verified interface preference, **not private file storage**.
 Previously published originals, thumbnails, metadata and crawler share images
