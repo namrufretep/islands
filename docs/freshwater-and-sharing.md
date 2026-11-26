@@ -12,7 +12,7 @@ areas. This batch contains ten lake islands and three river islands. Existing
 GeoNames aliases are excluded by their explicit source IDs to prevent duplicate
 index entries; neighboring islands and unrelated islands with the same name remain.
 
-Gallery cards and island details offer Share on X. This opens the X composer with
+Only island detail views offer Share on X; gallery cards offer View island. Both actions use the same bold Courier typeface as the artwork cards. Sharing opens the X composer with
 editable text and the chosen edition's `/share/000051-N.html` URL. Publishing is
 performed by the visitor. No X credentials, account authorization or API access
 are required by ISLANDS.
@@ -31,3 +31,18 @@ are build output and are excluded from git.
 
 No mint inventory, public mint function, KEY payment or staking eligibility was
 activated by this gallery update. All artwork remains clearly marked as previews.
+
+## Artwork and NFT status
+
+The index keeps its name-and-status list: Exists / Not existing refers to the
+artwork, independently of mint status. Gallery cards show Exists · Not minted for
+the current unreleased previews. Each North-Up/South-Up detail has a separate
+record for Artwork, Mint, Minted by and Owned by. Country / territory remains in
+the geography section so it cannot be confused with NFT ownership.
+
+The collection is explicitly unreleased. No minter or current owner is invented;
+those fields display an em dash until issuance. `edition-status.js` can format
+verified chain snapshots, keeping the original minter separate from the current
+holder, and returns Not verified for missing data on a released collection. It
+does not fetch ownership data itself. A verified onchain reader and released
+collection configuration must be connected before enabling production minting.

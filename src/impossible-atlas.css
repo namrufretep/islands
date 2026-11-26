@@ -209,3 +209,21 @@ main{padding-bottom:calc(210px + env(safe-area-inset-bottom))!important}
 .atlasrow>div:first-child{min-width:0}
 
 #islandDetail .panel img{display:block;max-width:600px;margin:12px auto} #indexList .index-list-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:left;border:0;border-bottom:1px solid currentColor;border-radius:0;background:transparent;color:inherit;padding:12px 0;margin:0;font:inherit} #indexList .index-list-entry span{font-size:.75em;white-space:nowrap} #indexList .index-list-entry strong{overflow-wrap:anywhere} #indexList .index-list-entry:hover{text-decoration:underline}
+
+/* Card actions and ownership records share the atlas typeface. */
+body .page .artwork-link,
+body .page .edition-record,
+body .page .edition-record dt,
+body .page .edition-record dd{
+ font-family:"Courier New",Courier,monospace!important;
+ font-style:normal!important;
+ font-weight:900!important;
+ letter-spacing:.045em!important;
+ color:#082818!important;
+ font-size:clamp(14px,3.3vw,18px)!important;
+ line-height:1.45!important;
+}
+.edition-status-summary{margin:12px 0 0;padding:8px 0;border-top:1px solid currentColor;font-size:clamp(12px,2.7vw,15px)!important;line-height:1.4!important;overflow-wrap:anywhere}
+.edition-record{display:grid;grid-template-columns:auto minmax(0,1fr);gap:7px 18px;margin:16px 0;padding:12px 0;border-block:1px solid currentColor}
+.edition-record dt,.edition-record dd{margin:0;overflow-wrap:anywhere}
+.artwork-link:focus-visible{outline:2px solid currentColor;outline-offset:4px}
