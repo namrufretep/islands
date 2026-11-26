@@ -14,6 +14,7 @@ Status: metadata prepared; local contract checks pass; live mint and OpenSea set
 ## Remaining before a release
 
 1. Configure and verify an actual collection contract address and chain. There is no deployed collection address configured in this project; paid mint and inventory/payment verification are not implemented.
+   The approved primary KEY payout is 100% of the amount actually paid, after any verified discount, directly to `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1`. `MINT_PROCEEDS_RECIPIENT` exposes this policy; it is not an implemented KEY transfer. Implement and test atomic payment plus NFT delivery before enabling paid minting. The secondary 10% royalty does not reduce the primary mint payout.
 2. Finalize the actual release inventory and on-chain token ID to artwork URI mapping. The metadata manifest is explicitly unreleased and does not define allocation.
 3. Mint an authorized token on the target network and inspect its actual OpenSea asset page: correct contract/collection, owner, image, North/South orientation, name, traits and external link. The existence of public metadata URLs alone is insufficient proof of indexing.
 4. In OpenSea Studio, the collection owner must confirm 10% Creator Earnings and the recipient address. This account setting has not been inspected or signed here.

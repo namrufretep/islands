@@ -6,6 +6,10 @@ pragma solidity ^0.8.24;
 library IslandsFees {
     address internal constant KEY = address(bytes20(hex"b0ca1e094a1779018b194ac6151ece8d6f05db07"));
     address internal constant CREATOR = address(bytes20(hex"fc5708cb64604dcf6f62de5d63a051ed577e10c1"));
+    // Primary mint: the creator receives the entire amount actually paid.
+    // A payment implementation must use this recipient; this policy alone
+    // does not collect KEY or enable public minting.
+    address internal constant MINT_PROCEEDS_RECIPIENT = CREATOR;
     uint256 internal constant MINT_KEY = 500000;
     uint256 internal constant SWAP_KEY_PER_PARTICIPANT = 25000;
     uint256 internal constant ROYALTY_BPS = 1000;

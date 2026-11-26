@@ -14,7 +14,7 @@ const solc=require('solc'),ganache=require('ganache');
 const {BrowserProvider,ContractFactory,ZeroAddress}=require('ethers');
 const compilerInput={language:'Solidity',sources:{'contracts/Islands.sol':{content:readFileSync(`${root}contracts/Islands.sol`,'utf8')}},settings:{outputSelection:{'*':{'*':['abi','evm.bytecode.object']}}}};
 const compiled=JSON.parse(solc.compile(JSON.stringify(compilerInput),{import:path=>{
- try{return {contents:readFileSync(resolve(dependencies,'node_modules',path),'utf8')}}catch{return {error:'Missing dependency '+path}}
+ try{return {contents:readFileSync(path.startsWith('contracts/')?resolve(root,path):resolve(dependencies,'node_modules',path),'utf8')}}catch{return {error:'Missing dependency '+path}}
 }}));
 const errors=(compiled.errors||[]).filter(e=>e.severity==='error');assert.deepEqual(errors,[]);
 const artifact=compiled.contracts['contracts/Islands.sol'].Islands;
