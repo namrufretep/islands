@@ -18,13 +18,22 @@ const compiled=JSON.parse(solc.compile(JSON.stringify(compilerInput),{import:pat
 }}));
 const errors=(compiled.errors||[]).filter(e=>e.severity==='error');assert.deepEqual(errors,[]);
 const artifact=compiled.contracts['contracts/Islands.sol'].Islands;
-const rpc=ganache.provider({chain:{chainId:1337},wallet:{totalAccounts:3},logging:{quiet:true}});
+const creator='0xfc5708cb64604dcf6f62de5d63a051ed577e10c1';
+// Local-only impersonation; no creator private key or public RPC is used.
+const rpc=ganache.provider({chain:{chainId:1337},wallet:{totalAccounts:3,unlockedAccounts:[creator]},logging:{quiet:true}});
 const checks=[];
 try{
- const provider=new BrowserProvider(rpc),owner=await provider.getSigner(0),buyer=await provider.getSigner(1);
+ await rpc.request({method:'evm_setAccountBalance',params:[creator,'0x56BC75E2D63100000']});
+ const provider=new BrowserProvider(rpc),deployer=await provider.getSigner(0),owner=await provider.getSigner(creator),buyer=await provider.getSigner(1),nextBuyer=await provider.getSigner(2);
  const buyerAddress=await buyer.getAddress();
- const collection=await new ContractFactory(artifact.abi,artifact.evm.bytecode.object,owner).deploy(await owner.getAddress());await collection.waitForDeployment();
- const creator='0xfc5708cb64604dcf6f62de5d63a051ed577e10c1';
+ const deployed=await new ContractFactory(artifact.abi,artifact.evm.bytecode.object,deployer).deploy();await deployed.waitForDeployment();
+ const collection=deployed.connect(owner);
+ assert.notEqual((await deployer.getAddress()).toLowerCase(),creator);
+ assert.equal((await collection.owner()).toLowerCase(),creator);
+ await assert.rejects(()=>deployed.issue.staticCall(buyerAddress,9000n,'ipfs://deployer'));
+ await assert.rejects(()=>deployed.setContractURI.staticCall('ipfs://deployer'));
+ await assert.rejects(()=>deployed.transferOwnership.staticCall(deployer.address));
+ checks.push('Confirmed creator is the initial collection owner even when another wallet deploys; deployer has no owner privileges');
  for(const id of ['0x80ac58cd','0x5b5e139f','0x2a55205a'])assert.equal(await collection.supportsInterface(id),true);
  checks.push('ERC-721, metadata and ERC-2981 interfaces are advertised');
  assert.equal(await collection.CREATOR_FEE_BPS(),1000n);
@@ -48,6 +57,12 @@ try{
   assert.ok(metadata.name.includes(artworkId));assert.ok(metadata.image.startsWith('https://'));
  }
  checks.push('Local N/S issuance emits Transfer from zero and returns the intended owner and JSON URI');
+ await (await collection.connect(buyer).transferFrom(buyerAddress,await nextBuyer.getAddress(),9002n)).wait();
+ assert.equal(await collection.ownerOf(9002n),await nextBuyer.getAddress());
+ assert.equal((await collection.owner()).toLowerCase(),creator);
+ const [royaltyAfterTransfer,feeAfterTransfer]=await collection.royaltyInfo(9002n,10000n);
+ assert.equal(royaltyAfterTransfer.toLowerCase(),creator);assert.equal(feeAfterTransfer,1000n);
+ checks.push('An NFT transfer changes its holder without changing collection ownership or the 10% creator recipient');
  await assert.rejects(()=>collection.connect(buyer).issue.staticCall(buyerAddress,9003n,'ipfs://unauthorized'));
  await assert.rejects(()=>collection.issue.staticCall(buyerAddress,9001n,'ipfs://duplicate'));
  await assert.rejects(()=>collection.tokenURI(9999n));

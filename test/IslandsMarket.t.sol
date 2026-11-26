@@ -20,10 +20,12 @@ contract IslandsMarketTest is Test {
         MockKey template=new MockKey();
         vm.etch(KEY,address(template).code);
         key=MockKey(KEY);
-        nft=new Islands(address(this));
+        nft=new Islands();
         market=new IslandsMarket(address(nft));
+        vm.startPrank(CREATOR);
         nft.issue(alice,1,"ipfs://one");
         nft.issue(bob,2,"ipfs://two");
+        vm.stopPrank();
         key.mint(alice,1000000 ether);
         key.mint(bob,2000000 ether);
         vm.startPrank(alice);

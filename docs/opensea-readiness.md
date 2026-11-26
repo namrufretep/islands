@@ -7,8 +7,9 @@ Status: metadata prepared; local contract checks pass; live mint and OpenSea set
 - All 150 gallery editions have standard JSON at `/nft/<artwork-id>.json`, including absolute original image URL, name, description, attributes and an external island link. Image hashes are calculated from the actual PNG bytes.
 - `/nft/collection.json` describes the collection and declares preferred creator earnings of 1,000 basis points (10%) to `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1`. These legacy JSON royalty fields do not prove an OpenSea Studio setting.
 - The draft contract advertises ERC-721, metadata and ERC-2981, returns 10% from `royaltyInfo`, and exposes collection metadata through `contractURI`. Only the owner may update it; updates emit `ContractURIUpdated`.
+- The creator confirmed `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1` as initial collection owner and creator-fee recipient. The constructor now assigns ownership directly to this address, independently of the deployment sender. A local deployment from a different wallet verified the intended owner and rejected administration by the deployer. Individual NFT transfers leave collection ownership and the royalty recipient unchanged.
 - A local Ganache deployment with Solidity 0.8.24 exercised issuance of two Samosir orientations to a buyer, ownership, tokenURI, mint Transfer events, royalty rounding, metadata update access and duplicate/nonexistent token rejection. Local token IDs 9001/9002 are test values, not release allocations.
-- 13 application tests and production build pass. The six local EVM check groups pass. Local checks are not an audit of a production paid mint.
+- 13 application tests and production build passed for the preceding metadata release. All eight current local EVM check groups pass. Local checks are not an audit of a production paid mint.
 
 ## Remaining before a release
 

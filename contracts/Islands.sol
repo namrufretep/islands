@@ -12,7 +12,8 @@ contract Islands is ERC721, ERC2981, Ownable {
     string private collectionMetadataURI = "https://islands-kappa.vercel.app/nft/collection.json";
     event ContractURIUpdated();
     mapping(uint256 => string) private metadata;
-    constructor(address initialOwner) ERC721("ISLANDS", "ISLANDS") Ownable(initialOwner) {
+    // The deployment sender cannot accidentally become the collection owner.
+    constructor() ERC721("ISLANDS", "ISLANDS") Ownable(CREATOR) {
         _setDefaultRoyalty(CREATOR, CREATOR_FEE_BPS);
     }
     function contractURI() external view returns (string memory) {

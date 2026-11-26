@@ -12,6 +12,9 @@
 ## Approved secondary-market royalty
 OpenSea creator earnings: 10% (1000 basis points), ERC-2981. Recipient: creator-confirmed Farcaster wallet on Base: 0xfc5708cb64604dcf6f62de5d63a051ed577e10c1. OpenSea enforcement compatibility must be verified before contract deployment. This is a product requirement, not an active on-chain royalty.
 
+## Approved collection ownership (2026-11-26)
+The creator confirmed `0xfc5708cb64604dcf6f62de5d63a051ed577e10c1` as both initial collection owner and 10% creator-fee recipient, including the intended OpenSea creator identity. The draft constructor sets `Ownable(CREATOR)` without accepting an arbitrary initial owner. A deployment wallet receives no collection administration privileges unless it is that creator wallet. Ownership remains transferable by the current owner under Ownable; individual NFT transfers do not change it. Verify the actual deployed `owner()`, OpenSea creator attribution and royalty settings with a real mint before a public release. No deployment or OpenSea indexing has occurred as part of this confirmation.
+
 
 ## In-app secondary transactions
 Required creator fee on in-app resales: 10% of actual sale consideration, paid to 0xfc5708cb64604dcf6f62de5d63a051ed577e10c1. Direct NFT-for-NFT swaps also require a creator fee; approved basis is 10% of the undiscounted 500000 KEY mint price (50000 KEY per swap total), split equally: each participant pays 25000 KEY. Both payments and NFT transfers must settle atomically. CHEERS equivalent requires verified pricing. Settlement must be atomic, enforce fees in contract, and avoid double charging royalties. No deployed contract or active settlement yet.
