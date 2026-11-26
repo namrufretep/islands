@@ -1,0 +1,108 @@
+{
+  "id": "000074",
+  "name": "Kiwayu",
+  "slug": "kiwayu",
+  "country_code": "KE",
+  "country": "Kenya",
+  "region": "Lamu Archipelago",
+  "reference": [
+    41.27821,
+    -2.00202
+  ],
+  "expected_area_km2": 8,
+  "source_id": "geonames:190898",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#165457",
+        "#2f8c88",
+        "#72beb0",
+        "#c5e0c7"
+      ],
+      "#d06e54",
+      "Lagoon Jade"
+    ],
+    "S": [
+      [
+        "#453463",
+        "#775a9c",
+        "#ad91c7",
+        "#decce7"
+      ],
+      "#d9e7b0",
+      "Violet Fluorite"
+    ]
+  },
+  "background_names": {
+    "N": "Terracotta Glow",
+    "S": "Celadon Light"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/20030144",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 661,
+  "area_km2": 4.374304563098059,
+  "gshhg_area_km2": 8.369097320092026,
+  "gshhg_overlap_fraction": 0.3956497338042195,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3.0,
+  "max_land_elevation_m": 39.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2517/2070.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2517/2071.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2518/2070.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2518/2071.tif"
+  ],
+  "resolution_m": 16.88651113797447,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/20030144",
+  "projection": "+proj=aeqd +lat_0=-2.00202 +lon_0=41.27821 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3060.670326993155,
+    -3661.3838829285082,
+    3255.8821355565346,
+    3687.625764317981
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.221627784493617,
+  "artwork_print_scale_denominator": 49861.74548614509,
+  "color_mood": "Violet Fluorite",
+  "background": "#d9e7b0",
+  "background_name": "Celadon Light",
+  "color_family": "Purple",
+  "palette": [
+    "#453463",
+    "#775a9c",
+    "#ad91c7",
+    "#decce7"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "f850008efbc8de3e9143684c48a3c74d6e27b8f2f8e113e1ae27f2ce064e3099",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

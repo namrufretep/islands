@@ -1,0 +1,58 @@
+{
+  "id": "000071",
+  "name": "Inhaca",
+  "slug": "inhaca",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Maputo Bay",
+  "reference": [
+    32.94482,
+    -26.01707
+  ],
+  "expected_area_km2": 52,
+  "source_id": "geonames:1045187",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5e182e",
+        "#9a2b45",
+        "#cf5970",
+        "#f3a6aa"
+      ],
+      "#b5dfd8",
+      "Ruby Jasper"
+    ],
+    "S": [
+      [
+        "#b1a76c",
+        "#d6cd93",
+        "#eae4b7",
+        "#faf6d8"
+      ],
+      "#efefdc",
+      "Pale Lemon Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Seafoam Light",
+    "S": "Shell White"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/3344657",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1128,
+  "area_km2": 40.78828472576415,
+  "gshhg_area_km2": 47.02561420965501,
+  "gshhg_overlap_fraction": 0.8298555990996237,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "000075",
+  "name": "Buvuma",
+  "slug": "buvuma",
+  "country_code": "UG",
+  "country": "Uganda",
+  "region": "Lake Victoria",
+  "reference": [
+    33.27333,
+    0.22444
+  ],
+  "expected_area_km2": 217,
+  "source_id": "geonames:233918",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Victoria",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#84271a",
+        "#bd4c2a",
+        "#e48146",
+        "#f8bb77"
+      ],
+      "#103936",
+      "Carnelian Glow"
+    ],
+    "S": [
+      [
+        "#687887",
+        "#9eafbb",
+        "#cdd9db",
+        "#edf1e5"
+      ],
+      "#b63d74",
+      "Arctic Silver"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Mangrove",
+    "S": "Raspberry"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Gray"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 225,
+  "area_km2": 216.66392614339253,
+  "gshhg_area_km2": 216.66392614339253,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

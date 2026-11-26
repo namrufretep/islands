@@ -1,0 +1,121 @@
+{
+  "id": "000068",
+  "name": "Orango",
+  "slug": "orango",
+  "country_code": "GW",
+  "country": "Guinea-Bissau",
+  "region": "Bijagós Archipelago",
+  "reference": [
+    -16.13823,
+    11.10531
+  ],
+  "expected_area_km2": 270,
+  "source_id": "geonames:2371046",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#a59a76",
+        "#c9be97",
+        "#e4d9b7",
+        "#f5edce"
+      ],
+      "#d9d5c7",
+      "Chalk Ochre"
+    ],
+    "S": [
+      [
+        "#173e2e",
+        "#2e6345",
+        "#619064",
+        "#a4ba8c"
+      ],
+      "#4d2a27",
+      "Forest Bloodstone"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Travertine",
+    "S": "Smoked Copper"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Green"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/11070406",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 6343,
+  "area_km2": 237.86748142368637,
+  "gshhg_area_km2": 249.43070625865278,
+  "gshhg_overlap_fraction": 0.9104190317853664,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/4106713",
+    "https://www.openstreetmap.org/way/4106715",
+    "https://www.openstreetmap.org/way/4145418",
+    "https://www.openstreetmap.org/way/558351300",
+    "https://www.openstreetmap.org/way/1089672260",
+    "https://www.openstreetmap.org/relation/16085005",
+    "https://www.openstreetmap.org/relation/16085006",
+    "https://www.openstreetmap.org/relation/16085007",
+    "https://www.openstreetmap.org/relation/16085010",
+    "https://www.openstreetmap.org/relation/16091638"
+  ],
+  "water_count": 10,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -11.622751235961914,
+  "max_land_elevation_m": 80.08666229248047,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/960.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/961.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/960.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/961.tif"
+  ],
+  "resolution_m": 52.29309350837662,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/relation/11070406",
+  "projection": "+proj=aeqd +lat_0=11.10531 +lon_0=-16.13823 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -11924.398394108277,
+    -9214.585694713762,
+    10833.555900737227,
+    11257.374814380695
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 13.073273377094155,
+  "artwork_print_scale_denominator": 154408.74067434043,
+  "color_mood": "Forest Bloodstone",
+  "background": "#4d2a27",
+  "background_name": "Smoked Copper",
+  "color_family": "Green",
+  "palette": [
+    "#173e2e",
+    "#2e6345",
+    "#619064",
+    "#a4ba8c"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "a0b0c96fbbbe983882a51992abb918916daf2c3f38a7abe9aeb7471fa723c293",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

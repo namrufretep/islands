@@ -1,0 +1,118 @@
+{
+  "id": "000073",
+  "name": "Anjouan",
+  "slug": "anjouan",
+  "country_code": "KM",
+  "country": "Comoros",
+  "region": "Comoros Archipelago",
+  "reference": [
+    44.4421,
+    -12.21999
+  ],
+  "expected_area_km2": 424,
+  "source_id": "geonames:922000",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#8b7959",
+        "#b6a481",
+        "#ddccab",
+        "#f4e8d0"
+      ],
+      "#3d1828",
+      "Warm Limestone"
+    ],
+    "S": [
+      [
+        "#7a3522",
+        "#b7613c",
+        "#dd9565",
+        "#f3c49a"
+      ],
+      "#555f91",
+      "Electric Copper"
+    ]
+  },
+  "background_names": {
+    "N": "Burgundy Depth",
+    "S": "Slate Violet"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Orange"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 780,
+  "area_km2": 437.4290461252833,
+  "gshhg_area_km2": 437.4290461252833,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/246365927"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -222.86920166015625,
+  "max_land_elevation_m": 1577.9317626953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1092.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1093.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1094.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1095.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1092.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1093.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1094.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1095.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1092.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1093.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1094.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1095.tif"
+  ],
+  "resolution_m": 84.60897551423047,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-12.21999 +lon_0=44.4421 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -26034.517601746473,
+    -18027.858621617714,
+    10787.308542046625,
+    17188.459018438258
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 21.152243878557616,
+  "artwork_print_scale_denominator": 249829.65210894824,
+  "color_mood": "Electric Copper",
+  "background": "#555f91",
+  "background_name": "Slate Violet",
+  "color_family": "Orange",
+  "palette": [
+    "#7a3522",
+    "#b7613c",
+    "#dd9565",
+    "#f3c49a"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "3b42e3c05c9eab2faa90541cee69b6acd5cb6c76da6dd1e023440553b6d13af7",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

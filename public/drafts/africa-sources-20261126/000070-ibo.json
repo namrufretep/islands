@@ -1,0 +1,58 @@
+{
+  "id": "000070",
+  "name": "Ibo",
+  "slug": "ibo",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Quirimbas Archipelago",
+  "reference": [
+    40.60092,
+    -12.33967
+  ],
+  "expected_area_km2": 10,
+  "source_id": "geonames:1045382",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5c4d15",
+        "#9f8529",
+        "#d3b650",
+        "#eedb95"
+      ],
+      "#722c60",
+      "Citrine Bronze"
+    ],
+    "S": [
+      [
+        "#24676c",
+        "#519799",
+        "#91c4bf",
+        "#d1e5d8"
+      ],
+      "#e3c1c5",
+      "Marine Glass"
+    ]
+  },
+  "background_names": {
+    "N": "Mulberry",
+    "S": "Rose Chalk"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/16218828",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 348,
+  "area_km2": 8.37639549014292,
+  "gshhg_area_km2": 27.786747425911827,
+  "gshhg_overlap_fraction": 0.21443761024623084,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

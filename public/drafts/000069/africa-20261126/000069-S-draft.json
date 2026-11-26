@@ -1,0 +1,108 @@
+{
+  "id": "000069",
+  "name": "Caravela",
+  "slug": "caravela",
+  "country_code": "GW",
+  "country": "Guinea-Bissau",
+  "region": "Bijagós Archipelago",
+  "reference": [
+    -16.33333,
+    11.53333
+  ],
+  "expected_area_km2": 128,
+  "source_id": "geonames:2373627",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#753448",
+        "#a95871",
+        "#d58b9f",
+        "#f1c5cc"
+      ],
+      "#13213c",
+      "Rose Tourmaline"
+    ],
+    "S": [
+      [
+        "#6b3822",
+        "#a0643d",
+        "#ca9364",
+        "#ebc79a"
+      ],
+      "#b0d4e2",
+      "Cinnamon Agate"
+    ]
+  },
+  "background_names": {
+    "N": "Sapphire Ink",
+    "S": "Powder Blue"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Brown"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 356,
+  "area_km2": 128.267769531269,
+  "gshhg_area_km2": 128.267769531269,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -2.747992515563965,
+  "max_land_elevation_m": 47.49638748168945,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/930/957.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/930/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/957.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/958.tif"
+  ],
+  "resolution_m": 44.50490935915257,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=11.53333 +lon_0=-16.33333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9506.17480740073,
+    -5026.488609189942,
+    9862.361745702467,
+    6776.369650214918
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.126227339788143,
+  "artwork_print_scale_denominator": 131412.13393450563,
+  "color_mood": "Cinnamon Agate",
+  "background": "#b0d4e2",
+  "background_name": "Powder Blue",
+  "color_family": "Brown",
+  "palette": [
+    "#6b3822",
+    "#a0643d",
+    "#ca9364",
+    "#ebc79a"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "93e4cfeae85a5336f0a291e36d4d14f11120964f5def4a8361d995558c8d27e9",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

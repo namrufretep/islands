@@ -1,0 +1,106 @@
+{
+  "id": "000066",
+  "name": "Rolas",
+  "slug": "rolas",
+  "country_code": "ST",
+  "country": "São Tomé and Príncipe",
+  "region": "Gulf of Guinea",
+  "reference": [
+    6.52236,
+    -0.00584
+  ],
+  "expected_area_km2": 3,
+  "source_id": "geonames:11204907",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#102862",
+        "#204da1",
+        "#4d82cc",
+        "#a1c3eb"
+      ],
+      "#ccdf4f",
+      "Cobalt Spinel"
+    ],
+    "S": [
+      [
+        "#874234",
+        "#bd6b53",
+        "#e49c7d",
+        "#f6d1ac"
+      ],
+      "#f2e3cb",
+      "Coral Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Chartreuse",
+    "S": "Vanilla Sand"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/146849673",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 207,
+  "area_km2": 2.0157590214520034,
+  "gshhg_area_km2": 2.892834741966277,
+  "gshhg_overlap_fraction": 0.6504512099540602,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 1.0,
+  "max_land_elevation_m": 99.99903869628906,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2122/2047.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2122/2048.tif"
+  ],
+  "resolution_m": 4.563475575865634,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/146849673",
+  "projection": "+proj=aeqd +lat_0=-0.00584 +lon_0=6.52236 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1199.033355063015,
+    -893.6170714101372,
+    774.9617645022241,
+    1092.4074992065864
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.1408688939664084,
+  "artwork_print_scale_denominator": 13474.829456296162,
+  "color_mood": "Coral Calcite",
+  "background": "#f2e3cb",
+  "background_name": "Vanilla Sand",
+  "color_family": "Orange",
+  "palette": [
+    "#874234",
+    "#bd6b53",
+    "#e49c7d",
+    "#f6d1ac"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "82664e8fcfab8b22b839567ebfafbdb944765a25b3a8391b3dcd30f2107f682f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,105 @@
+{
+  "id": "000071",
+  "name": "Inhaca",
+  "slug": "inhaca",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Maputo Bay",
+  "reference": [
+    32.94482,
+    -26.01707
+  ],
+  "expected_area_km2": 52,
+  "source_id": "geonames:1045187",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5e182e",
+        "#9a2b45",
+        "#cf5970",
+        "#f3a6aa"
+      ],
+      "#b5dfd8",
+      "Ruby Jasper"
+    ],
+    "S": [
+      [
+        "#b1a76c",
+        "#d6cd93",
+        "#eae4b7",
+        "#faf6d8"
+      ],
+      "#efefdc",
+      "Pale Lemon Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Seafoam Light",
+    "S": "Shell White"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/3344657",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1128,
+  "area_km2": 40.78828472576415,
+  "gshhg_area_km2": 47.02561420965501,
+  "gshhg_overlap_fraction": 0.8298555990996237,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -31.84368324279785,
+  "max_land_elevation_m": 111.62398529052734,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1211/1177.tif"
+  ],
+  "resolution_m": 27.850896412398143,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/relation/3344657",
+  "projection": "+proj=aeqd +lat_0=-26.01707 +lon_0=32.94482 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4880.568224521596,
+    -6917.711518699596,
+    4892.363086404421,
+    5202.998599976076
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.962724103099536,
+  "artwork_print_scale_denominator": 82236.89885550633,
+  "color_mood": "Ruby Jasper",
+  "background": "#b5dfd8",
+  "background_name": "Seafoam Light",
+  "color_family": "Red",
+  "palette": [
+    "#5e182e",
+    "#9a2b45",
+    "#cf5970",
+    "#f3a6aa"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "9a79823c14a8767512179c78522c108fd66b80bf3472365aa23ac0b66167d70b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,116 @@
+{
+  "id": "000064",
+  "name": "Annobón",
+  "slug": "annobon",
+  "country_code": "GQ",
+  "country": "Equatorial Guinea",
+  "region": "Gulf of Guinea",
+  "reference": [
+    5.62249,
+    -1.43129
+  ],
+  "expected_area_km2": 17,
+  "source_id": "geonames:2310306",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6a3d14",
+        "#ab741c",
+        "#dda63e",
+        "#f5d28a"
+      ],
+      "#2859af",
+      "Saffron Feldspar"
+    ],
+    "S": [
+      [
+        "#102526",
+        "#203c3b",
+        "#3c5652",
+        "#6d7c6b"
+      ],
+      "#172322",
+      "Ink Obsidian"
+    ]
+  },
+  "background_names": {
+    "N": "Cobalt Current",
+    "S": "Olive Charcoal"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/8159080",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1645,
+  "area_km2": 20.456931709502108,
+  "gshhg_area_km2": 15.538083637301181,
+  "gshhg_overlap_fraction": 0.4783428129142346,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/14374428",
+    "https://www.openstreetmap.org/way/283542708",
+    "https://www.openstreetmap.org/way/1095486283",
+    "https://www.openstreetmap.org/way/1110335731",
+    "https://www.openstreetmap.org/way/1110335732",
+    "https://www.openstreetmap.org/way/1110335735",
+    "https://www.openstreetmap.org/way/1110335736"
+  ],
+  "water_count": 7,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -17.01898956298828,
+  "max_land_elevation_m": 591.9953002929688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2111/2063.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2111/2064.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2112/2063.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2112/2064.tif"
+  ],
+  "resolution_m": 17.171952870108196,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/relation/8159080",
+  "projection": "+proj=aeqd +lat_0=-1.43129 +lon_0=5.62249 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -636.6774293581908,
+    -4066.9196101612874,
+    3701.2983017851684,
+    3406.3142789097997
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.292988217527049,
+  "artwork_print_scale_denominator": 50704.58524638247,
+  "color_mood": "Ink Obsidian",
+  "background": "#172322",
+  "background_name": "Olive Charcoal",
+  "color_family": "Turquoise",
+  "palette": [
+    "#102526",
+    "#203c3b",
+    "#3c5652",
+    "#6d7c6b"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "1e4093cd453d602961d008fc9cdacfbf3e617be50ca7c70b1bd2c42279aa69a7",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "000064",
+    "name": "Annobón",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -17.01898956298828,
+    "max_land_elevation_m": 591.9953002929688,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2111/2063.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2111/2064.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2112/2063.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2112/2064.tif"
+    ],
+    "resolution_m": 17.171952870108196
+  },
+  {
+    "id": "000065",
+    "name": "Príncipe",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -15.008747100830078,
+    "max_land_elevation_m": 930.647216796875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1065/1014.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1065/1015.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1066/1014.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1066/1015.tif"
+    ],
+    "resolution_m": 42.675226548545496
+  },
+  {
+    "id": "000066",
+    "name": "Rolas",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": 1.0,
+    "max_land_elevation_m": 99.99903869628906,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2122/2047.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2122/2048.tif"
+    ],
+    "resolution_m": 4.563475575865634
+  },
+  {
+    "id": "000067",
+    "name": "Rubane",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -1.9971390962600708,
+    "max_land_elevation_m": 42.73537826538086,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1867/1917.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1867/1918.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1868/1917.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1868/1918.tif"
+    ],
+    "resolution_m": 19.282731690644127
+  },
+  {
+    "id": "000068",
+    "name": "Orango",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -11.622751235961914,
+    "max_land_elevation_m": 80.08666229248047,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/959.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/960.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/961.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/959.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/960.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/932/961.tif"
+    ],
+    "resolution_m": 52.29309350837662
+  },
+  {
+    "id": "000069",
+    "name": "Caravela",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -2.747992515563965,
+    "max_land_elevation_m": 47.49638748168945,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/930/957.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/930/958.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/957.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/931/958.tif"
+    ],
+    "resolution_m": 44.50490935915257
+  },
+  {
+    "id": "000070",
+    "name": "Ibo",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": 0.22735954821109772,
+    "max_land_elevation_m": 17.767732620239258,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2509/2189.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2510/2189.tif"
+    ],
+    "resolution_m": 9.522755491240916
+  },
+  {
+    "id": "000071",
+    "name": "Inhaca",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -31.84368324279785,
+    "max_land_elevation_m": 111.62398529052734,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1211/1177.tif"
+    ],
+    "resolution_m": 27.850896412398143
+  },
+  {
+    "id": "000072",
+    "name": "Mohéli",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -52.75796127319336,
+    "max_land_elevation_m": 789.6275634765625,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1093.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1094.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1095.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1093.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1094.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1095.tif"
+    ],
+    "resolution_m": 62.91197049033596
+  },
+  {
+    "id": "000073",
+    "name": "Anjouan",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -222.86920166015625,
+    "max_land_elevation_m": 1577.9317626953125,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1092.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1093.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1094.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1275/1095.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1092.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1093.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1094.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1276/1095.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1092.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1093.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1094.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1277/1095.tif"
+    ],
+    "resolution_m": 84.60897551423047
+  },
+  {
+    "id": "000074",
+    "name": "Kiwayu",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -3.0,
+    "max_land_elevation_m": 39.0,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2517/2070.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2517/2071.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2518/2070.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2518/2071.tif"
+    ],
+    "resolution_m": 16.88651113797447
+  },
+  {
+    "id": "000075",
+    "name": "Buvuma",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": 1057.5477294921875,
+    "max_land_elevation_m": 1356.72216796875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1212/1022.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1212/1023.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1213/1022.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1213/1023.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1214/1022.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1214/1023.tif"
+    ],
+    "resolution_m": 57.44957295888154
+  }
+]

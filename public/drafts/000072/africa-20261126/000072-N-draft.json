@@ -1,0 +1,112 @@
+{
+  "id": "000072",
+  "name": "Mohéli",
+  "slug": "moheli",
+  "country_code": "KM",
+  "country": "Comoros",
+  "region": "Comoros Archipelago",
+  "reference": [
+    43.74378,
+    -12.32441
+  ],
+  "expected_area_km2": 211,
+  "source_id": "geonames:921779",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#303365",
+        "#5a62a0",
+        "#909acb",
+        "#cbd6e8"
+      ],
+      "#d4b33f",
+      "Periwinkle Iolite"
+    ],
+    "S": [
+      [
+        "#183c31",
+        "#366b51",
+        "#74a273",
+        "#bdd0a1"
+      ],
+      "#f3bd83",
+      "Forest Malachite"
+    ]
+  },
+  "background_names": {
+    "N": "Mustard Gold",
+    "S": "Apricot Light"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 563,
+  "area_km2": 214.65976079982258,
+  "gshhg_area_km2": 214.65976079982258,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/relation/10045621"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -52.75796127319336,
+  "max_land_elevation_m": 789.6275634765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1093.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1094.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1272/1095.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1093.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1094.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1273/1095.tif"
+  ],
+  "resolution_m": 62.91197049033596,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-12.32441 +lon_0=43.74378 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13332.997516217265,
+    -7031.690046390967,
+    14046.292041176943,
+    9105.881875929525
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 15.72799262258399,
+  "artwork_print_scale_denominator": 185763.6923927243,
+  "color_mood": "Periwinkle Iolite",
+  "background": "#d4b33f",
+  "background_name": "Mustard Gold",
+  "color_family": "Blue",
+  "palette": [
+    "#303365",
+    "#5a62a0",
+    "#909acb",
+    "#cbd6e8"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "e29d0cc6840947ba26907a9021221493b81d8cf5c2f3324d95babf8475623242",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

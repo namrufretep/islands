@@ -1,0 +1,66 @@
+{
+  "id": "000064",
+  "name": "Annobón",
+  "slug": "annobon",
+  "country_code": "GQ",
+  "country": "Equatorial Guinea",
+  "region": "Gulf of Guinea",
+  "reference": [
+    5.62249,
+    -1.43129
+  ],
+  "expected_area_km2": 17,
+  "source_id": "geonames:2310306",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6a3d14",
+        "#ab741c",
+        "#dda63e",
+        "#f5d28a"
+      ],
+      "#2859af",
+      "Saffron Feldspar"
+    ],
+    "S": [
+      [
+        "#102526",
+        "#203c3b",
+        "#3c5652",
+        "#6d7c6b"
+      ],
+      "#172322",
+      "Ink Obsidian"
+    ]
+  },
+  "background_names": {
+    "N": "Cobalt Current",
+    "S": "Olive Charcoal"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/8159080",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1645,
+  "area_km2": 20.456931709502108,
+  "gshhg_area_km2": 15.538083637301181,
+  "gshhg_overlap_fraction": 0.4783428129142346,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/14374428",
+    "https://www.openstreetmap.org/way/283542708",
+    "https://www.openstreetmap.org/way/1095486283",
+    "https://www.openstreetmap.org/way/1110335731",
+    "https://www.openstreetmap.org/way/1110335732",
+    "https://www.openstreetmap.org/way/1110335735",
+    "https://www.openstreetmap.org/way/1110335736"
+  ],
+  "water_count": 7,
+  "reference_checked": true,
+  "political_boundaries": false
+}

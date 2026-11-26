@@ -1,0 +1,58 @@
+{
+  "id": "000067",
+  "name": "Rubane",
+  "slug": "rubane",
+  "country_code": "GW",
+  "country": "Guinea-Bissau",
+  "region": "Bijagós Archipelago",
+  "reference": [
+    -15.81667,
+    11.33333
+  ],
+  "expected_area_km2": 25,
+  "source_id": "geonames:2370286",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a163f",
+        "#6c2d6e",
+        "#a35d9a",
+        "#dba5c4"
+      ],
+      "#ef953e",
+      "Aubergine Mica"
+    ],
+    "S": [
+      [
+        "#54645a",
+        "#8c9e8d",
+        "#bccbb9",
+        "#e5ead7"
+      ],
+      "#374630",
+      "Silver Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Tangerine",
+    "S": "Moss Night"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Gray"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 132,
+  "area_km2": 25.310900463755964,
+  "gshhg_area_km2": 25.310900463755964,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

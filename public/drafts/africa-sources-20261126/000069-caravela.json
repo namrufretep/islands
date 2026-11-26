@@ -1,0 +1,58 @@
+{
+  "id": "000069",
+  "name": "Caravela",
+  "slug": "caravela",
+  "country_code": "GW",
+  "country": "Guinea-Bissau",
+  "region": "Bijagós Archipelago",
+  "reference": [
+    -16.33333,
+    11.53333
+  ],
+  "expected_area_km2": 128,
+  "source_id": "geonames:2373627",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#753448",
+        "#a95871",
+        "#d58b9f",
+        "#f1c5cc"
+      ],
+      "#13213c",
+      "Rose Tourmaline"
+    ],
+    "S": [
+      [
+        "#6b3822",
+        "#a0643d",
+        "#ca9364",
+        "#ebc79a"
+      ],
+      "#b0d4e2",
+      "Cinnamon Agate"
+    ]
+  },
+  "background_names": {
+    "N": "Sapphire Ink",
+    "S": "Powder Blue"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Brown"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 356,
+  "area_km2": 128.267769531269,
+  "gshhg_area_km2": 128.267769531269,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

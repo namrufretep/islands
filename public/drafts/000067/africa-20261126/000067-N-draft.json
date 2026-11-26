@@ -1,0 +1,108 @@
+{
+  "id": "000067",
+  "name": "Rubane",
+  "slug": "rubane",
+  "country_code": "GW",
+  "country": "Guinea-Bissau",
+  "region": "Bijagós Archipelago",
+  "reference": [
+    -15.81667,
+    11.33333
+  ],
+  "expected_area_km2": 25,
+  "source_id": "geonames:2370286",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a163f",
+        "#6c2d6e",
+        "#a35d9a",
+        "#dba5c4"
+      ],
+      "#ef953e",
+      "Aubergine Mica"
+    ],
+    "S": [
+      [
+        "#54645a",
+        "#8c9e8d",
+        "#bccbb9",
+        "#e5ead7"
+      ],
+      "#374630",
+      "Silver Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Tangerine",
+    "S": "Moss Night"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Gray"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 132,
+  "area_km2": 25.310900463755964,
+  "gshhg_area_km2": 25.310900463755964,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1.9971390962600708,
+  "max_land_elevation_m": 42.73537826538086,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1867/1917.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1867/1918.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1868/1917.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1868/1918.tif"
+  ],
+  "resolution_m": 19.282731690644127,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=11.33333 +lon_0=-15.81667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1597.8197546474776,
+    -3551.692102103321,
+    4590.658304318841,
+    4840.152729665003
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.820682922661032,
+  "artwork_print_scale_denominator": 56937.19987394919,
+  "color_mood": "Aubergine Mica",
+  "background": "#ef953e",
+  "background_name": "Tangerine",
+  "color_family": "Purple",
+  "palette": [
+    "#3a163f",
+    "#6c2d6e",
+    "#a35d9a",
+    "#dba5c4"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "533ce97a33b202bf642a6ea66d359d6f6eacf9c9516fa721c087a145ca218916",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

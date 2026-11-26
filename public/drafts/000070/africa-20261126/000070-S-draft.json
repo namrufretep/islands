@@ -1,0 +1,106 @@
+{
+  "id": "000070",
+  "name": "Ibo",
+  "slug": "ibo",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Quirimbas Archipelago",
+  "reference": [
+    40.60092,
+    -12.33967
+  ],
+  "expected_area_km2": 10,
+  "source_id": "geonames:1045382",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean / Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5c4d15",
+        "#9f8529",
+        "#d3b650",
+        "#eedb95"
+      ],
+      "#722c60",
+      "Citrine Bronze"
+    ],
+    "S": [
+      [
+        "#24676c",
+        "#519799",
+        "#91c4bf",
+        "#d1e5d8"
+      ],
+      "#e3c1c5",
+      "Marine Glass"
+    ]
+  },
+  "background_names": {
+    "N": "Mulberry",
+    "S": "Rose Chalk"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/16218828",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 348,
+  "area_km2": 8.37639549014292,
+  "gshhg_area_km2": 27.786747425911827,
+  "gshhg_overlap_fraction": 0.21443761024623084,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 0.22735954821109772,
+  "max_land_elevation_m": 17.767732620239258,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2509/2189.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2510/2189.tif"
+  ],
+  "resolution_m": 9.522755491240916,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/16218828",
+  "projection": "+proj=aeqd +lat_0=-12.33967 +lon_0=40.60092 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2161.0067287333786,
+    -2644.4050133228798,
+    1983.2964610546674,
+    1484.5197777012702
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.380688872810229,
+  "artwork_print_scale_denominator": 28118.372513506645,
+  "color_mood": "Marine Glass",
+  "background": "#e3c1c5",
+  "background_name": "Rose Chalk",
+  "color_family": "Turquoise",
+  "palette": [
+    "#24676c",
+    "#519799",
+    "#91c4bf",
+    "#d1e5d8"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "0c22cb7ab4e429fdac05cc7f5cb90cb5e7db9b8213ec005ae0c13b27fcefd1f3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

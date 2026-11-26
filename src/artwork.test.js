@@ -28,7 +28,7 @@ test('latest approved islands each appear once as a pair in the gallery',()=>{
  }
 });
 test('approved batch through Rapa Nui is complete and uses reviewed assets',()=>{
- assert.equal(editions.length,126);
+ assert.equal(editions.length,150);
  for(let n=15;n<=25;n++){
   const id=String(n).padStart(6,'0'),pair=editions.filter(x=>x.islandId===id);
   assert.equal(pair.length,2);
@@ -60,11 +60,31 @@ test('freshwater collection preserves each island type and 26 distinct backgroun
 test('freshwater aliases collapse into their curated island without hiding nearby islands',()=>{
  const aliases=value('curatedGeoNamesIds');
  const global=JSON.parse(readFileSync(new URL('../public/data/world-islands.json',import.meta.url)));
- assert.equal(new Set(aliases).size,14);
+ assert.equal(new Set(aliases).size,26);
  for(const id of aliases){
   const item=global.find(x=>x.sourceId===id);assert.ok(item,id);
   assert.ok(registry.some(r=>Number(ids[r[0]])>=51&&Math.abs(r[3]-item.latitude)<.3&&Math.abs(r[4]-item.longitude)<.3),id);
  }
  assert.ok(aliases.includes('geonames:3470986'));
  for(const id of ['geonames:12966122','geonames:3406525','geonames:3470985','geonames:930473'])assert.ok(!aliases.includes(id));
+});
+
+test('African collection has twelve complete pairs, distinct backgrounds and complete land terrain',()=>{
+ const backgrounds=new Set(),collection=editions.filter(e=>e.collection==='African Islands');
+ assert.equal(collection.length,24);
+ for(let n=64;n<=75;n++){
+  const id=String(n).padStart(6,'0'),pair=collection.filter(e=>e.islandId===id);assert.equal(pair.length,2);
+  const hashes=[];
+  for(const edition of pair){
+   const metadata=JSON.parse(readFileSync(new URL('../public'+edition.image.replace(/\.png$/,'.json'),import.meta.url)));
+   assert.ok(metadata.land_coverage_fraction>=.995);
+   assert.equal(metadata.political_boundaries,false);assert.equal(metadata.dpi_target,300);
+   assert.equal(metadata.orientation_degrees,edition.id.endsWith('-N')?0:180);
+   assert.equal(metadata.water_type,n===75?'Freshwater':'Saltwater');
+   if([64,72,73].includes(n))assert.ok(metadata.water_count>0,id+' crater lake');
+   backgrounds.add(metadata.background);hashes.push(metadata.artwork_sha256);
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+ }
+ assert.equal(backgrounds.size,24);
 });

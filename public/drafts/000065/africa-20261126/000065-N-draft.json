@@ -1,0 +1,108 @@
+{
+  "id": "000065",
+  "name": "Príncipe",
+  "slug": "principe",
+  "country_code": "ST",
+  "country": "São Tomé and Príncipe",
+  "region": "Gulf of Guinea",
+  "reference": [
+    7.39637,
+    1.61735
+  ],
+  "expected_area_km2": 139,
+  "source_id": "geonames:2410877",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1b5743",
+        "#438d6b",
+        "#83be91",
+        "#d0e5bc"
+      ],
+      "#b3294a",
+      "Mint Chrysoprase"
+    ],
+    "S": [
+      [
+        "#a9a49a",
+        "#cdc9bc",
+        "#e7e3d4",
+        "#faf5e8"
+      ],
+      "#eadaca",
+      "Porcelain Opal"
+    ]
+  },
+  "background_names": {
+    "N": "Hibiscus Red",
+    "S": "Peach Powder"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "White"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/9377729",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 3956,
+  "area_km2": 138.85980480075273,
+  "gshhg_area_km2": 119.52377402722875,
+  "gshhg_overlap_fraction": 0.826582934646396,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -15.008747100830078,
+  "max_land_elevation_m": 930.647216796875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1065/1014.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1065/1015.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1066/1014.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1066/1015.tif"
+  ],
+  "resolution_m": 42.675226548545496,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/relation/9377729",
+  "projection": "+proj=aeqd +lat_0=1.61735 +lon_0=7.39637 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7621.958245944723,
+    -10061.693346899763,
+    7344.615494182025,
+    8510.565247027236
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.668806637136374,
+  "artwork_print_scale_denominator": 126009.52721027214,
+  "color_mood": "Mint Chrysoprase",
+  "background": "#b3294a",
+  "background_name": "Hibiscus Red",
+  "color_family": "Green",
+  "palette": [
+    "#1b5743",
+    "#438d6b",
+    "#83be91",
+    "#d0e5bc"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "6754c709351c1c9b93cc147a59eaddfea1b6e9406f44667e9aa2ad9e65117cff",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

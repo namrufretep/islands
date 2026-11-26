@@ -1,0 +1,110 @@
+{
+  "id": "000075",
+  "name": "Buvuma",
+  "slug": "buvuma",
+  "country_code": "UG",
+  "country": "Uganda",
+  "region": "Lake Victoria",
+  "reference": [
+    33.27333,
+    0.22444
+  ],
+  "expected_area_km2": 217,
+  "source_id": "geonames:233918",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Victoria",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#84271a",
+        "#bd4c2a",
+        "#e48146",
+        "#f8bb77"
+      ],
+      "#103936",
+      "Carnelian Glow"
+    ],
+    "S": [
+      [
+        "#687887",
+        "#9eafbb",
+        "#cdd9db",
+        "#edf1e5"
+      ],
+      "#b63d74",
+      "Arctic Silver"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Mangrove",
+    "S": "Raspberry"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Gray"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 225,
+  "area_km2": 216.66392614339253,
+  "gshhg_area_km2": 216.66392614339253,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 1057.5477294921875,
+  "max_land_elevation_m": 1356.72216796875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1212/1022.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1212/1023.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1213/1022.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1213/1023.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1214/1022.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1214/1023.tif"
+  ],
+  "resolution_m": 57.44957295888154,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=0.22444 +lon_0=33.27333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7637.369312497667,
+    -16432.103015199067,
+    13729.676199249458,
+    8569.951136506177
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 14.362393239720385,
+  "artwork_print_scale_denominator": 169634.56582346914,
+  "color_mood": "Carnelian Glow",
+  "background": "#103936",
+  "background_name": "Deep Mangrove",
+  "color_family": "Orange",
+  "palette": [
+    "#84271a",
+    "#bd4c2a",
+    "#e48146",
+    "#f8bb77"
+  ],
+  "art_version": "4.4-africa",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "22e73bce87bcef4fd4eb497a572c47d50cc6d6432c395ec976aca58d8d8843f4",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

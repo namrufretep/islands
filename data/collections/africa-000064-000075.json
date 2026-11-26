@@ -1,0 +1,578 @@
+[
+  {
+    "id": "000064",
+    "name": "Annobón",
+    "slug": "annobon",
+    "country_code": "GQ",
+    "country": "Equatorial Guinea",
+    "region": "Gulf of Guinea",
+    "reference": [
+      5.62249,
+      -1.43129
+    ],
+    "expected_area_km2": 17,
+    "source_id": "geonames:2310306",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Guinea / South Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#6a3d14",
+          "#ab741c",
+          "#dda63e",
+          "#f5d28a"
+        ],
+        "#2859af",
+        "Saffron Feldspar"
+      ],
+      "S": [
+        [
+          "#102526",
+          "#203c3b",
+          "#3c5652",
+          "#6d7c6b"
+        ],
+        "#172322",
+        "Ink Obsidian"
+      ]
+    },
+    "background_names": {
+      "N": "Cobalt Current",
+      "S": "Olive Charcoal"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Turquoise"
+    }
+  },
+  {
+    "id": "000065",
+    "name": "Príncipe",
+    "slug": "principe",
+    "country_code": "ST",
+    "country": "São Tomé and Príncipe",
+    "region": "Gulf of Guinea",
+    "reference": [
+      7.39637,
+      1.61735
+    ],
+    "expected_area_km2": 139,
+    "source_id": "geonames:2410877",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Guinea / South Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#1b5743",
+          "#438d6b",
+          "#83be91",
+          "#d0e5bc"
+        ],
+        "#b3294a",
+        "Mint Chrysoprase"
+      ],
+      "S": [
+        [
+          "#a9a49a",
+          "#cdc9bc",
+          "#e7e3d4",
+          "#faf5e8"
+        ],
+        "#eadaca",
+        "Porcelain Opal"
+      ]
+    },
+    "background_names": {
+      "N": "Hibiscus Red",
+      "S": "Peach Powder"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "White"
+    }
+  },
+  {
+    "id": "000066",
+    "name": "Rolas",
+    "slug": "rolas",
+    "country_code": "ST",
+    "country": "São Tomé and Príncipe",
+    "region": "Gulf of Guinea",
+    "reference": [
+      6.52236,
+      -0.00584
+    ],
+    "expected_area_km2": 3,
+    "source_id": "geonames:11204907",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Guinea / South Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#102862",
+          "#204da1",
+          "#4d82cc",
+          "#a1c3eb"
+        ],
+        "#ccdf4f",
+        "Cobalt Spinel"
+      ],
+      "S": [
+        [
+          "#874234",
+          "#bd6b53",
+          "#e49c7d",
+          "#f6d1ac"
+        ],
+        "#f2e3cb",
+        "Coral Calcite"
+      ]
+    },
+    "background_names": {
+      "N": "Chartreuse",
+      "S": "Vanilla Sand"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Orange"
+    }
+  },
+  {
+    "id": "000067",
+    "name": "Rubane",
+    "slug": "rubane",
+    "country_code": "GW",
+    "country": "Guinea-Bissau",
+    "region": "Bijagós Archipelago",
+    "reference": [
+      -15.81667,
+      11.33333
+    ],
+    "expected_area_km2": 25,
+    "source_id": "geonames:2370286",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3a163f",
+          "#6c2d6e",
+          "#a35d9a",
+          "#dba5c4"
+        ],
+        "#ef953e",
+        "Aubergine Mica"
+      ],
+      "S": [
+        [
+          "#54645a",
+          "#8c9e8d",
+          "#bccbb9",
+          "#e5ead7"
+        ],
+        "#374630",
+        "Silver Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Tangerine",
+      "S": "Moss Night"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Gray"
+    }
+  },
+  {
+    "id": "000068",
+    "name": "Orango",
+    "slug": "orango",
+    "country_code": "GW",
+    "country": "Guinea-Bissau",
+    "region": "Bijagós Archipelago",
+    "reference": [
+      -16.13823,
+      11.10531
+    ],
+    "expected_area_km2": 270,
+    "source_id": "geonames:2371046",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#a59a76",
+          "#c9be97",
+          "#e4d9b7",
+          "#f5edce"
+        ],
+        "#d9d5c7",
+        "Chalk Ochre"
+      ],
+      "S": [
+        [
+          "#173e2e",
+          "#2e6345",
+          "#619064",
+          "#a4ba8c"
+        ],
+        "#4d2a27",
+        "Forest Bloodstone"
+      ]
+    },
+    "background_names": {
+      "N": "Pale Travertine",
+      "S": "Smoked Copper"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Green"
+    }
+  },
+  {
+    "id": "000069",
+    "name": "Caravela",
+    "slug": "caravela",
+    "country_code": "GW",
+    "country": "Guinea-Bissau",
+    "region": "Bijagós Archipelago",
+    "reference": [
+      -16.33333,
+      11.53333
+    ],
+    "expected_area_km2": 128,
+    "source_id": "geonames:2373627",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#753448",
+          "#a95871",
+          "#d58b9f",
+          "#f1c5cc"
+        ],
+        "#13213c",
+        "Rose Tourmaline"
+      ],
+      "S": [
+        [
+          "#6b3822",
+          "#a0643d",
+          "#ca9364",
+          "#ebc79a"
+        ],
+        "#b0d4e2",
+        "Cinnamon Agate"
+      ]
+    },
+    "background_names": {
+      "N": "Sapphire Ink",
+      "S": "Powder Blue"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Brown"
+    }
+  },
+  {
+    "id": "000070",
+    "name": "Ibo",
+    "slug": "ibo",
+    "country_code": "MZ",
+    "country": "Mozambique",
+    "region": "Quirimbas Archipelago",
+    "reference": [
+      40.60092,
+      -12.33967
+    ],
+    "expected_area_km2": 10,
+    "source_id": "geonames:1045382",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean / Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5c4d15",
+          "#9f8529",
+          "#d3b650",
+          "#eedb95"
+        ],
+        "#722c60",
+        "Citrine Bronze"
+      ],
+      "S": [
+        [
+          "#24676c",
+          "#519799",
+          "#91c4bf",
+          "#d1e5d8"
+        ],
+        "#e3c1c5",
+        "Marine Glass"
+      ]
+    },
+    "background_names": {
+      "N": "Mulberry",
+      "S": "Rose Chalk"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Turquoise"
+    }
+  },
+  {
+    "id": "000071",
+    "name": "Inhaca",
+    "slug": "inhaca",
+    "country_code": "MZ",
+    "country": "Mozambique",
+    "region": "Maputo Bay",
+    "reference": [
+      32.94482,
+      -26.01707
+    ],
+    "expected_area_km2": 52,
+    "source_id": "geonames:1045187",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean / Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5e182e",
+          "#9a2b45",
+          "#cf5970",
+          "#f3a6aa"
+        ],
+        "#b5dfd8",
+        "Ruby Jasper"
+      ],
+      "S": [
+        [
+          "#b1a76c",
+          "#d6cd93",
+          "#eae4b7",
+          "#faf6d8"
+        ],
+        "#efefdc",
+        "Pale Lemon Quartz"
+      ]
+    },
+    "background_names": {
+      "N": "Seafoam Light",
+      "S": "Shell White"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Yellow"
+    }
+  },
+  {
+    "id": "000072",
+    "name": "Mohéli",
+    "slug": "moheli",
+    "country_code": "KM",
+    "country": "Comoros",
+    "region": "Comoros Archipelago",
+    "reference": [
+      43.74378,
+      -12.32441
+    ],
+    "expected_area_km2": 211,
+    "source_id": "geonames:921779",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean / Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#303365",
+          "#5a62a0",
+          "#909acb",
+          "#cbd6e8"
+        ],
+        "#d4b33f",
+        "Periwinkle Iolite"
+      ],
+      "S": [
+        [
+          "#183c31",
+          "#366b51",
+          "#74a273",
+          "#bdd0a1"
+        ],
+        "#f3bd83",
+        "Forest Malachite"
+      ]
+    },
+    "background_names": {
+      "N": "Mustard Gold",
+      "S": "Apricot Light"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Green"
+    }
+  },
+  {
+    "id": "000073",
+    "name": "Anjouan",
+    "slug": "anjouan",
+    "country_code": "KM",
+    "country": "Comoros",
+    "region": "Comoros Archipelago",
+    "reference": [
+      44.4421,
+      -12.21999
+    ],
+    "expected_area_km2": 424,
+    "source_id": "geonames:922000",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean / Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#8b7959",
+          "#b6a481",
+          "#ddccab",
+          "#f4e8d0"
+        ],
+        "#3d1828",
+        "Warm Limestone"
+      ],
+      "S": [
+        [
+          "#7a3522",
+          "#b7613c",
+          "#dd9565",
+          "#f3c49a"
+        ],
+        "#555f91",
+        "Electric Copper"
+      ]
+    },
+    "background_names": {
+      "N": "Burgundy Depth",
+      "S": "Slate Violet"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Orange"
+    }
+  },
+  {
+    "id": "000074",
+    "name": "Kiwayu",
+    "slug": "kiwayu",
+    "country_code": "KE",
+    "country": "Kenya",
+    "region": "Lamu Archipelago",
+    "reference": [
+      41.27821,
+      -2.00202
+    ],
+    "expected_area_km2": 8,
+    "source_id": "geonames:190898",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#165457",
+          "#2f8c88",
+          "#72beb0",
+          "#c5e0c7"
+        ],
+        "#d06e54",
+        "Lagoon Jade"
+      ],
+      "S": [
+        [
+          "#453463",
+          "#775a9c",
+          "#ad91c7",
+          "#decce7"
+        ],
+        "#d9e7b0",
+        "Violet Fluorite"
+      ]
+    },
+    "background_names": {
+      "N": "Terracotta Glow",
+      "S": "Celadon Light"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Purple"
+    }
+  },
+  {
+    "id": "000075",
+    "name": "Buvuma",
+    "slug": "buvuma",
+    "country_code": "UG",
+    "country": "Uganda",
+    "region": "Lake Victoria",
+    "reference": [
+      33.27333,
+      0.22444
+    ],
+    "expected_area_km2": 217,
+    "source_id": "geonames:233918",
+    "island_type": "Lake Island",
+    "water_type": "Freshwater",
+    "water_body": "Lake Victoria",
+    "ocean": null,
+    "palettes": {
+      "N": [
+        [
+          "#84271a",
+          "#bd4c2a",
+          "#e48146",
+          "#f8bb77"
+        ],
+        "#103936",
+        "Carnelian Glow"
+      ],
+      "S": [
+        [
+          "#687887",
+          "#9eafbb",
+          "#cdd9db",
+          "#edf1e5"
+        ],
+        "#b63d74",
+        "Arctic Silver"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Mangrove",
+      "S": "Raspberry"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Gray"
+    }
+  }
+]

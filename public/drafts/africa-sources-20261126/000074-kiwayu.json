@@ -1,0 +1,58 @@
+{
+  "id": "000074",
+  "name": "Kiwayu",
+  "slug": "kiwayu",
+  "country_code": "KE",
+  "country": "Kenya",
+  "region": "Lamu Archipelago",
+  "reference": [
+    41.27821,
+    -2.00202
+  ],
+  "expected_area_km2": 8,
+  "source_id": "geonames:190898",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#165457",
+        "#2f8c88",
+        "#72beb0",
+        "#c5e0c7"
+      ],
+      "#d06e54",
+      "Lagoon Jade"
+    ],
+    "S": [
+      [
+        "#453463",
+        "#775a9c",
+        "#ad91c7",
+        "#decce7"
+      ],
+      "#d9e7b0",
+      "Violet Fluorite"
+    ]
+  },
+  "background_names": {
+    "N": "Terracotta Glow",
+    "S": "Celadon Light"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/20030144",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 661,
+  "area_km2": 4.374304563098059,
+  "gshhg_area_km2": 8.369097320092026,
+  "gshhg_overlap_fraction": 0.3956497338042195,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

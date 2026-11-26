@@ -1,0 +1,58 @@
+{
+  "id": "000066",
+  "name": "Rolas",
+  "slug": "rolas",
+  "country_code": "ST",
+  "country": "São Tomé and Príncipe",
+  "region": "Gulf of Guinea",
+  "reference": [
+    6.52236,
+    -0.00584
+  ],
+  "expected_area_km2": 3,
+  "source_id": "geonames:11204907",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#102862",
+        "#204da1",
+        "#4d82cc",
+        "#a1c3eb"
+      ],
+      "#ccdf4f",
+      "Cobalt Spinel"
+    ],
+    "S": [
+      [
+        "#874234",
+        "#bd6b53",
+        "#e49c7d",
+        "#f6d1ac"
+      ],
+      "#f2e3cb",
+      "Coral Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Chartreuse",
+    "S": "Vanilla Sand"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "coastline_source": "https://www.openstreetmap.org/way/146849673",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 207,
+  "area_km2": 2.0157590214520034,
+  "gshhg_area_km2": 2.892834741966277,
+  "gshhg_overlap_fraction": 0.6504512099540602,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

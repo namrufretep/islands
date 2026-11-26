@@ -1,0 +1,58 @@
+{
+  "id": "000065",
+  "name": "Príncipe",
+  "slug": "principe",
+  "country_code": "ST",
+  "country": "São Tomé and Príncipe",
+  "region": "Gulf of Guinea",
+  "reference": [
+    7.39637,
+    1.61735
+  ],
+  "expected_area_km2": 139,
+  "source_id": "geonames:2410877",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea / South Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1b5743",
+        "#438d6b",
+        "#83be91",
+        "#d0e5bc"
+      ],
+      "#b3294a",
+      "Mint Chrysoprase"
+    ],
+    "S": [
+      [
+        "#a9a49a",
+        "#cdc9bc",
+        "#e7e3d4",
+        "#faf5e8"
+      ],
+      "#eadaca",
+      "Porcelain Opal"
+    ]
+  },
+  "background_names": {
+    "N": "Hibiscus Red",
+    "S": "Peach Powder"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "White"
+  },
+  "coastline_source": "https://www.openstreetmap.org/relation/9377729",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 3956,
+  "area_km2": 138.85980480075273,
+  "gshhg_area_km2": 119.52377402722875,
+  "gshhg_overlap_fraction": 0.826582934646396,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}
