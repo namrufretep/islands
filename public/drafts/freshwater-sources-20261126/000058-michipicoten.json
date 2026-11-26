@@ -1,0 +1,60 @@
+{
+  "id": "000058",
+  "name": "Michipicoten Island",
+  "slug": "michipicoten",
+  "reference": [
+    -85.82,
+    47.73
+  ],
+  "country": "Canada",
+  "region": "Lake Superior",
+  "water_body": "Lake Superior",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "No permanent settlement",
+  "expected_area_km2": 184,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#1a3230",
+        "#294e45",
+        "#527561",
+        "#889b76"
+      ],
+      "#243c27",
+      "Forest Basalt"
+    ],
+    "S": [
+      [
+        "#4d284c",
+        "#7c4370",
+        "#b172a1",
+        "#e0acc7"
+      ],
+      "#e6bd2b",
+      "Heather Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Bottle Olive",
+    "S": "Canary Yellow"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Purple"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000058-michipicoten-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000058-michipicoten-water.geojson"
+}

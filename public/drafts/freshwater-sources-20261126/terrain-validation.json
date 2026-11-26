@@ -1,0 +1,106 @@
+[
+  {
+    "id": "000051",
+    "name": "Olkhon",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Baikal"
+  },
+  {
+    "id": "000052",
+    "name": "Ukerewe",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Victoria"
+  },
+  {
+    "id": "000053",
+    "name": "Idjwi",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Kivu"
+  },
+  {
+    "id": "000054",
+    "name": "Likoma",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Malawi"
+  },
+  {
+    "id": "000055",
+    "name": "Zapatera",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Nicaragua"
+  },
+  {
+    "id": "000056",
+    "name": "Samosir",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Toba"
+  },
+  {
+    "id": "000057",
+    "name": "Isle Royale",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Superior"
+  },
+  {
+    "id": "000058",
+    "name": "Michipicoten Island",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Superior"
+  },
+  {
+    "id": "000059",
+    "name": "René-Levasseur Island",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Manicouagan Reservoir"
+  },
+  {
+    "id": "000060",
+    "name": "Valaam",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "Lake Island",
+    "water_body": "Lake Ladoga"
+  },
+  {
+    "id": "000061",
+    "name": "Bananal",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "River Island",
+    "water_body": "Araguaia / Javaés Rivers"
+  },
+  {
+    "id": "000062",
+    "name": "Don Khon",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "River Island",
+    "water_body": "Mekong River"
+  },
+  {
+    "id": "000063",
+    "name": "Khortytsia",
+    "terrain_coverage": "complete",
+    "outline_valid": true,
+    "island_type": "River Island",
+    "water_body": "Dnipro River"
+  }
+]

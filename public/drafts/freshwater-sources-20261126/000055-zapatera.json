@@ -1,0 +1,60 @@
+{
+  "id": "000055",
+  "name": "Zapatera",
+  "slug": "zapatera",
+  "reference": [
+    -85.82,
+    11.72
+  ],
+  "country": "Nicaragua",
+  "region": "Lake Nicaragua",
+  "water_body": "Lake Nicaragua",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": null,
+  "expected_area_km2": 52,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 50,
+  "terrain_zoom": 10,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#173d4b",
+        "#21637a",
+        "#4b9bad",
+        "#94ccd1"
+      ],
+      "#f1cd45",
+      "Peacock Blue"
+    ],
+    "S": [
+      [
+        "#5d2539",
+        "#94334b",
+        "#c85663",
+        "#ec9a91"
+      ],
+      "#a5c39a",
+      "Carmine Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron",
+    "S": "Pear Leaf"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000055-zapatera-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000055-zapatera-water.geojson"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "000053",
+  "name": "Idjwi",
+  "slug": "idjwi",
+  "reference": [
+    29.05,
+    -2.15
+  ],
+  "country": "Democratic Republic of the Congo",
+  "region": "Lake Kivu",
+  "water_body": "Lake Kivu",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": null,
+  "expected_area_km2": 285,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#69521b",
+        "#b48d29",
+        "#e8c44b",
+        "#f9e79a"
+      ],
+      "#a3d7e5",
+      "Lemon Ochre"
+    ],
+    "S": [
+      [
+        "#2c2445",
+        "#4a3969",
+        "#715793",
+        "#aa8cb8"
+      ],
+      "#eeba86",
+      "Aubergine Stone"
+    ]
+  },
+  "background_names": {
+    "N": "Ice Blue",
+    "S": "Apricot"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000053-idjwi-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000053-idjwi-water.geojson"
+}

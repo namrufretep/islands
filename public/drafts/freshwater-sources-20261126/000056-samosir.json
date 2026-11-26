@@ -1,0 +1,60 @@
+{
+  "id": "000056",
+  "name": "Samosir",
+  "slug": "samosir",
+  "reference": [
+    98.82,
+    2.58
+  ],
+  "country": "Indonesia",
+  "region": "Lake Toba",
+  "water_body": "Lake Toba",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Pangururan",
+  "expected_area_km2": 630,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#839b89",
+        "#b2c7aa",
+        "#dce6c7",
+        "#f7f3df"
+      ],
+      "#e0ead4",
+      "Celadon Chalk"
+    ],
+    "S": [
+      [
+        "#503d33",
+        "#806453",
+        "#b89a7d",
+        "#e5ccb0"
+      ],
+      "#3b263d",
+      "Smoky Sandstone"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Celery",
+    "S": "Mulberry Night"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Brown"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000056-samosir-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/relation/13202530",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000056-samosir-water.geojson"
+}

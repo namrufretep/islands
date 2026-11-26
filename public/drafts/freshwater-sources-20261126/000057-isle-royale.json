@@ -1,0 +1,60 @@
+{
+  "id": "000057",
+  "name": "Isle Royale",
+  "slug": "isle-royale",
+  "reference": [
+    -88.85,
+    48.0
+  ],
+  "country": "United States",
+  "region": "Lake Superior",
+  "water_body": "Lake Superior",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "No permanent settlement",
+  "expected_area_km2": 535,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#2b294b",
+        "#4e4a83",
+        "#8179b3",
+        "#b8a9d6"
+      ],
+      "#f29630",
+      "Amethyst Slate"
+    ],
+    "S": [
+      [
+        "#7d6045",
+        "#ac8c65",
+        "#d8ba8a",
+        "#f0dbb2"
+      ],
+      "#5a9da4",
+      "Desert Limestone"
+    ]
+  },
+  "background_names": {
+    "N": "Tangerine",
+    "S": "Lagoon Blue"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Brown"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000057-isle-royale-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000057-isle-royale-water.geojson"
+}

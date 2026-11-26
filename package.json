@@ -4,8 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "node scripts/build-share-pages.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/build-share-pages.mjs",
     "build": "vite build",
+    "pretest": "node scripts/build-share-pages.mjs",
     "test": "node --test"
   },
   "dependencies": {

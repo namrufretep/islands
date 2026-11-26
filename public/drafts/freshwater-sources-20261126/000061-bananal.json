@@ -1,0 +1,60 @@
+{
+  "id": "000061",
+  "name": "Bananal",
+  "slug": "bananal",
+  "reference": [
+    -50.15,
+    -11.3
+  ],
+  "country": "Brazil",
+  "region": "Araguaia / Javaés Rivers",
+  "water_body": "Araguaia / Javaés Rivers",
+  "island_type": "River Island",
+  "water_type": "Freshwater",
+  "largest_settlement": null,
+  "expected_area_km2": 19162,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 250,
+  "terrain_zoom": 8,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#718089",
+        "#a3b4bc",
+        "#d3dde0",
+        "#f5f2e9"
+      ],
+      "#dfe5e7",
+      "Porcelain Fog"
+    ],
+    "S": [
+      [
+        "#592d1e",
+        "#8d4c29",
+        "#c47e3b",
+        "#edbc6d"
+      ],
+      "#8b79ba",
+      "Honey Onyx"
+    ]
+  },
+  "background_names": {
+    "N": "Pearl Gray",
+    "S": "Iris Violet"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Orange"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000061-bananal-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/relation/9969444",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000061-bananal-water.geojson"
+}

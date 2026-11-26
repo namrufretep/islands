@@ -1,0 +1,60 @@
+{
+  "id": "000062",
+  "name": "Don Khon",
+  "slug": "don-khon",
+  "reference": [
+    105.93,
+    13.95
+  ],
+  "country": "Laos",
+  "region": "Si Phan Don",
+  "water_body": "Mekong River",
+  "island_type": "River Island",
+  "water_type": "Freshwater",
+  "largest_settlement": null,
+  "expected_area_km2": 9,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 35,
+  "terrain_zoom": 10,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#5b4020",
+        "#997331",
+        "#cfab52",
+        "#eeda94"
+      ],
+      "#c96d45",
+      "Golden Travertine"
+    ],
+    "S": [
+      [
+        "#2d2637",
+        "#46364c",
+        "#70516a",
+        "#a57d8e"
+      ],
+      "#382b35",
+      "Mulberry Basalt"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Orange",
+    "S": "Smoked Berry"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000062-don-khon-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/relation/17880507",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000062-don-khon-water.geojson"
+}

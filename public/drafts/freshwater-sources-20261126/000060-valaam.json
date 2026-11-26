@@ -1,0 +1,60 @@
+{
+  "id": "000060",
+  "name": "Valaam",
+  "slug": "valaam",
+  "reference": [
+    30.95920617684845,
+    61.37778435
+  ],
+  "country": "Russia",
+  "region": "Lake Ladoga",
+  "water_body": "Lake Ladoga",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Valaam",
+  "expected_area_km2": 28,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 50,
+  "terrain_zoom": 10,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#683849",
+        "#9d626f",
+        "#cd9da1",
+        "#ead2c3"
+      ],
+      "#b9dfdd",
+      "Rose Granite"
+    ],
+    "S": [
+      [
+        "#0e485a",
+        "#176e85",
+        "#3e9db1",
+        "#83c9ce"
+      ],
+      "#ef7392",
+      "Petroleum Agate"
+    ]
+  },
+  "background_names": {
+    "N": "Glacier Cyan",
+    "S": "Watermelon"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Blue"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000060-valaam-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/relation/6994846",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000060-valaam-water.geojson"
+}

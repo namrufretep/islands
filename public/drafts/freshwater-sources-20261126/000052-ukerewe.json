@@ -1,0 +1,60 @@
+{
+  "id": "000052",
+  "name": "Ukerewe",
+  "slug": "ukerewe",
+  "reference": [
+    33.05,
+    -2.0
+  ],
+  "country": "Tanzania",
+  "region": "Lake Victoria",
+  "water_body": "Lake Victoria",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Nansio",
+  "expected_area_km2": 530,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#62234b",
+        "#9f3e75",
+        "#d97faa",
+        "#f2c3cf"
+      ],
+      "#e8e3bc",
+      "Rhodonite"
+    ],
+    "S": [
+      [
+        "#1d5042",
+        "#387c5b",
+        "#77b36c",
+        "#b4d796"
+      ],
+      "#e682a2",
+      "Jade Apple"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Butter",
+    "S": "Candy Rose"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Green"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000052-ukerewe-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000052-ukerewe-water.geojson"
+}

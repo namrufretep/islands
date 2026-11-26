@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"records": [], "source": "https://www.openstreetmap.org/relation/17880507; https://www.soest.hawaii.edu/wessel/gshhg/", "attribution": "\u00a9 OpenStreetMap contributors, ODbL, physical place=island outline; GSHHG L4 lake geometry"}, "geometry": {"type": "GeometryCollection", "geometries": []}}]}

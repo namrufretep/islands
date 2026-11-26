@@ -1,0 +1,60 @@
+{
+  "id": "000063",
+  "name": "Khortytsia",
+  "slug": "khortytsia",
+  "reference": [
+    35.08,
+    47.82
+  ],
+  "country": "Ukraine",
+  "region": "Dnipro River",
+  "water_body": "Dnipro River",
+  "island_type": "River Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Zaporizhzhia (island district)",
+  "expected_area_km2": 23.5,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 50,
+  "terrain_zoom": 10,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#1f4445",
+        "#397574",
+        "#73aaa3",
+        "#b8d4bd"
+      ],
+      "#e5b591",
+      "Malachite Mist"
+    ],
+    "S": [
+      [
+        "#61533e",
+        "#99886c",
+        "#cab99b",
+        "#efe2c7"
+      ],
+      "#315bb0",
+      "Warm Chalk"
+    ]
+  },
+  "background_names": {
+    "N": "Melon Cream",
+    "S": "Cobalt Blue"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "White"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000063-khortytsia-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/relation/6176459",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000063-khortytsia-water.geojson"
+}

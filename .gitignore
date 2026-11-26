@@ -141,6 +141,7 @@ dist
 !.yarn/versions
 
 # Vite files
+public/share/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/

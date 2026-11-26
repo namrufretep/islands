@@ -1,0 +1,60 @@
+{
+  "id": "000059",
+  "name": "René-Levasseur Island",
+  "slug": "rene-levasseur",
+  "reference": [
+    -68.7,
+    51.4
+  ],
+  "country": "Canada",
+  "region": "Manicouagan Reservoir",
+  "water_body": "Manicouagan Reservoir",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "No permanent settlement",
+  "expected_area_km2": 2020,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 250,
+  "terrain_zoom": 8,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#333438",
+        "#63646b",
+        "#a6a5a9",
+        "#e7e3df"
+      ],
+      "#d2f05a",
+      "Graphite Silver"
+    ],
+    "S": [
+      [
+        "#5d1f1f",
+        "#913333",
+        "#c25949",
+        "#e59c7c"
+      ],
+      "#edb5ad",
+      "Oxide Clay"
+    ]
+  },
+  "background_names": {
+    "N": "Acid Lime",
+    "S": "Shell Pink"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Red"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000059-rene-levasseur-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000059-rene-levasseur-water.geojson"
+}

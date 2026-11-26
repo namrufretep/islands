@@ -1,0 +1,60 @@
+{
+  "id": "000051",
+  "name": "Olkhon",
+  "slug": "olkhon",
+  "reference": [
+    107.35,
+    53.15
+  ],
+  "country": "Russia",
+  "region": "Lake Baikal",
+  "water_body": "Lake Baikal",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Khuzhir",
+  "expected_area_km2": 730,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 125,
+  "terrain_zoom": 9,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#7b2221",
+        "#b84132",
+        "#dc6344",
+        "#f1a382"
+      ],
+      "#c1acd9",
+      "Vermilion Clay"
+    ],
+    "S": [
+      [
+        "#30331c",
+        "#626c27",
+        "#a3b64d",
+        "#d6df8f"
+      ],
+      "#f27f57",
+      "Citron Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Lilac Air",
+    "S": "Papaya"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "GSHHG/L3",
+  "coastline_override": "000051-olkhon-coastline.geojson",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_attribution": "GSHHG 2.3.7 full-resolution L3 islands in lakes, Wessel and Smith, LGPL-3.0-or-later",
+  "water_geometry_override": "000051-olkhon-water.geojson"
+}

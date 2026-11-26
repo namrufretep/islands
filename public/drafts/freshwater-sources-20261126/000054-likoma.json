@@ -1,0 +1,60 @@
+{
+  "id": "000054",
+  "name": "Likoma",
+  "slug": "likoma",
+  "reference": [
+    34.73162613568276,
+    -12.0657337
+  ],
+  "country": "Malawi",
+  "region": "Lake Malawi",
+  "water_body": "Lake Malawi",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "largest_settlement": "Likoma",
+  "expected_area_km2": 18,
+  "geography_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "lake_queries": [],
+  "minimum_lakes": 0,
+  "lake_min_area_km2": 0.025,
+  "minimum_peak_m": -1,
+  "terrain_resolution_m": 50,
+  "terrain_zoom": 10,
+  "relief_finish": "bouvet_wash",
+  "palettes": {
+    "N": [
+      [
+        "#4d2317",
+        "#873c21",
+        "#bd6c35",
+        "#e2a85e"
+      ],
+      "#729e4b",
+      "Copper Earth"
+    ],
+    "S": [
+      [
+        "#85999b",
+        "#b1c9cb",
+        "#d9e4df",
+        "#f5f0df"
+      ],
+      "#ef5b2f",
+      "Chalk Opal"
+    ]
+  },
+  "background_names": {
+    "N": "Grass Green",
+    "S": "Signal Orange"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "White"
+  },
+  "coastline_kind": "physical_inland_island",
+  "coastline_feature_type": "OSM/place=island",
+  "coastline_override": "000054-likoma-coastline.geojson",
+  "coastline_source": "https://www.openstreetmap.org/way/8035996",
+  "coastline_attribution": "© OpenStreetMap contributors, ODbL, physical place=island outline",
+  "water_geometry_override": "000054-likoma-water.geojson"
+}
