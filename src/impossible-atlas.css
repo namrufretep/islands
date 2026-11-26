@@ -3,8 +3,8 @@
 :root{color-scheme:light!important}
 html{background:#f01d0d!important}
 body{position:relative;background:#f01d0d!important;color:#103521!important;isolation:isolate}
-body::before{content:"";position:fixed;inset:-85vmax;z-index:-1;pointer-events:none;transform:rotate(-30deg);transform-origin:center;background-image:linear-gradient(to right,#ffe0c48c 1px,transparent 1px),linear-gradient(to bottom,#ffe0c48c 1px,transparent 1px),linear-gradient(to right,#ffe0c44a 1px,transparent 1px),linear-gradient(to bottom,#ffe0c44a 1px,transparent 1px);background-size:168px 168px,168px 168px,42px 42px,42px 42px;opacity:.65}
-body::after{content:"";position:fixed;inset:-80vmax;z-index:-1;pointer-events:none;transform:rotate(-30deg);background:repeating-linear-gradient(0deg,transparent 0 166px,#ffe0c44a 167px 168px),repeating-linear-gradient(90deg,transparent 0 166px,#ffe0c44a 167px 168px);mask-image:radial-gradient(ellipse,black 35%,transparent 78%);opacity:.6}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:repeating-linear-gradient(60deg,#ffe0c48c 0 1px,transparent 1px 168px),repeating-linear-gradient(150deg,#ffe0c48c 0 1px,transparent 1px 168px),repeating-linear-gradient(60deg,#ffe0c44a 0 1px,transparent 1px 42px),repeating-linear-gradient(150deg,#ffe0c44a 0 1px,transparent 1px 42px);opacity:.65}
+body::after{content:none}
 main{max-width:850px!important}
 header{background:transparent!important;border-bottom:1px solid #235137!important;padding:15px 0!important;margin:0 0 18px!important}
 .brand{font:italic 700 clamp(32px,7vw,49px)/1 Georgia,"Times New Roman",serif!important;letter-spacing:-.07em!important;color:#133c28!important}
@@ -92,7 +92,7 @@ header{background:#fa1b0b!important}
 /* Studio: island outlines are decorative background on EVERY page, never buttons */
 #atlas .concept-hero,.impossible-nav{display:none!important}
 .page{position:relative!important;isolation:isolate!important}
-.page>.cartographic-island-field{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.page>.cartographic-island-field{position:absolute;inset:0 0 auto;max-height:1400px;height:100%;z-index:-1;overflow:hidden;pointer-events:none}
 .page>.cartographic-island-field svg{width:100%;height:100%;min-height:900px;display:block}
 .page>*:not(.cartographic-island-field){position:relative}
 .page .cartographic-island-field{opacity:.75}
@@ -158,7 +158,7 @@ body .page .primary,body .page .primary *{color:#ffe4cd!important}
 
 /* Production ISLANDS: per-page cartographic island illustrations */
 .page{position:relative!important;isolation:isolate!important}
-.cartographic-island-field{position:absolute!important;inset:0!important;z-index:-1!important;overflow:hidden!important;pointer-events:none!important}
+.cartographic-island-field{position:absolute!important;inset:0 0 auto!important;height:min(100%,1400px)!important;max-height:1400px!important;z-index:-1!important;overflow:hidden!important;pointer-events:none!important}
 .cartographic-island-field svg{width:100%;height:100%;min-height:720px;display:block}
 .page>*:not(.cartographic-island-field){position:relative}
 #atlas .concept-hero,.impossible-nav{display:none!important}

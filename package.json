@@ -4,16 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "node scripts/build-share-pages.mjs",
+    "predev": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
     "dev": "vite",
-    "prebuild": "node scripts/build-share-pages.mjs",
+    "prebuild": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
     "build": "vite build",
-    "pretest": "node scripts/build-share-pages.mjs",
+    "pretest": "node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs",
     "test": "node --test"
   },
   "dependencies": {
-    "vite": "^6.1.0",
     "@farcaster/miniapp-sdk": "^0.2.0",
-    "leaflet": "^1.9.4"
+    "leaflet": "^1.9.4",
+    "vite": "^6.1.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
   }
 }
