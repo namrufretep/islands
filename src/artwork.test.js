@@ -27,3 +27,11 @@ test('latest approved islands each appear once as a pair in the gallery',()=>{
   for(const edition of pair)assert.ok(edition.image.includes('/v20261126/'));
  }
 });
+test('approved batch through Rapa Nui is complete and uses reviewed assets',()=>{
+ assert.equal(editions.length,50);
+ for(let n=15;n<=25;n++){
+  const id=String(n).padStart(6,'0'),pair=editions.filter(x=>x.islandId===id);
+  assert.equal(pair.length,2);
+  for(const e of pair)assert.ok(e.image.includes('/geography-20261126/'));
+ }
+});
