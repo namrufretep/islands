@@ -1,4 +1,9 @@
 {
+  "accountAssociation": {
+    "header": "eyJmaWQiOjY0OTM2MCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEZmYmI1YmE0NzhFNTFkZDRjMWJiZGZiMTREZDkxMjVDNUQ4YTQ3YmQifQ",
+    "payload": "eyJkb21haW4iOiJpc2xhbmRzLWthcHBhLnZlcmNlbC5hcHAifQ",
+    "signature": "THvrTXirkBu2eueRSflmvdEtskyNnWBSadyzke4e1x0xUbd7jMA8lXWW1dvzMpxJLz2hLs/cJMgCa1L92HZj9Bw="
+  },
   "miniapp": {
     "version": "1",
     "name": "ISLANDS",
