@@ -7,6 +7,9 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      FOUNDRY_OPTIMIZER: 'true'
+      FOUNDRY_OPTIMIZER_RUNS: '200'
     steps:
       - uses: actions/checkout@v4
       - uses: foundry-rs/foundry-toolchain@v1

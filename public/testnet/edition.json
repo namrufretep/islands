@@ -1,0 +1,20 @@
+{
+  "name": "ISLANDS TEST ONLY · Test Edition 1",
+  "description": "Test NFT on Base Sepolia. This is not an edition from the real ISLANDS collection and does not consume any real island artwork.",
+  "image": "https://islands-kappa.vercel.app/testnet/test-only.svg",
+  "external_url": "https://islands-kappa.vercel.app/testnet/",
+  "attributes": [
+    {
+      "trait_type": "Network",
+      "value": "Base Sepolia"
+    },
+    {
+      "trait_type": "Purpose",
+      "value": "Test only"
+    },
+    {
+      "trait_type": "Real collection edition",
+      "value": "No"
+    }
+  ]
+}

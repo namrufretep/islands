@@ -1,0 +1,42 @@
+name: Build testnet suite
+on:
+  push:
+    paths:
+      - 'contracts/**'
+      - 'test/IslandsTestnet.t.sol'
+      - 'scripts/export-testnet-artifacts.py'
+      - '.github/workflows/testnet-suite.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      FOUNDRY_OPTIMIZER: 'true'
+      FOUNDRY_OPTIMIZER_RUNS: '200'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - run: forge install OpenZeppelin/openzeppelin-contracts@v5.2.0 foundry-rs/forge-std@v1.9.6 --no-git
+      - run: forge test -vvv
+      - run: forge build
+      - run: python3 scripts/export-testnet-artifacts.py
+      - name: Export checked bundle for publishing
+        run: |
+          python3 - <<'PY'
+          import base64
+          from pathlib import Path
+          text=base64.b64encode(Path('public/testnet/artifacts.json').read_bytes()).decode()
+          for i in range(0,len(text),1800):
+              print('TN_BUNDLE_CHUNK:'+str(i//1800)+':'+text[i:i+1800])
+          print('TN_BUNDLE_END:'+str((len(text)+1799)//1800))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: checked-testnet-suite
+          path: public/testnet/artifacts.json

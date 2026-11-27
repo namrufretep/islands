@@ -1,0 +1,6 @@
+{
+  "name": "ISLANDS TEST ONLY",
+  "description": "Separate Base Sepolia test collection. Test tokens have no value; no original island edition is minted.",
+  "image": "https://islands-kappa.vercel.app/testnet/test-only.svg",
+  "external_link": "https://islands-kappa.vercel.app/testnet/"
+}
