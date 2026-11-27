@@ -266,3 +266,17 @@ body .page .index-alphabet button.is-active{background:#082818!important;color:#
 #walletMessage:empty{display:none}
 #walletMessage{border-left:3px solid currentColor;padding:8px 12px}
 #worldMap{height:clamp(340px,58dvh,620px)}
+/* Readable wallet holdings, with bounded cards on narrow screens. */
+.key-holdings{display:grid;gap:12px;margin:16px 0}
+.key-holding{min-width:0;border:1px solid currentColor;padding:14px;background:rgba(255,255,255,.08)}
+.key-identity{display:flex;gap:12px;align-items:center;min-width:0}
+.key-identity img{flex:0 0 44px;border-radius:50%;object-fit:cover}
+.key-identity>div{min-width:0}
+body .page .key-identity h3{font-size:18px!important;line-height:1.3!important;margin:0;overflow-wrap:anywhere}
+body .page .key-identity p{font-size:13px!important;line-height:1.4!important;margin:3px 0;overflow-wrap:anywhere}
+.key-counts{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 12px;line-height:1.4!important;margin:14px 0}
+body .page .key-counts dt,body .page .key-counts dd{font-size:14px!important;line-height:1.4!important;margin:0;min-width:0;overflow-wrap:anywhere}
+.key-counts dd{text-align:right;font-weight:900}
+.key-summary{border-block:1px solid currentColor;padding:12px 0}
+body .page .key-wallet{font-size:12px!important;line-height:1.4!important;overflow-wrap:anywhere}
+#positions,#results{min-width:0}

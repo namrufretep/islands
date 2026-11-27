@@ -1,3 +1,4 @@
+import {createKeyPortfolio,renderCreatorMarkets} from './key-portfolio.js';
 import {resolveFarcasterProvider,requestWalletAccounts,farcasterLaunchUrl,walletError,withTimeout} from './wallet-connection.js';
 import {galleryInventory,hasVerifiedMint} from './gallery-inventory.js';
 import {createAdminPreview} from './admin-preview.js';
@@ -291,8 +292,8 @@ function render(){const k=Number($('keysRange').value);$('price').textContent=k+
 $('paykey').onclick=()=>{$('paykey').classList.add('selected');$('paycheers').classList.remove('selected');$('paymentnote').textContent='Stake Creator Keys to unlock up to 25% off. Your verified discount is not yet available.'};
 $('paycheers').onclick=()=>{$('paycheers').classList.add('selected');$('paykey').classList.remove('selected');$('paymentnote').textContent='CHEERS quote unavailable. The displayed 500,000 KEY is the reference price, not a CHEERS quote.'};
 function setConnectedWallet(provider,accounts){
- detachWalletUI();connectedProvider=provider;adminPreview.bind(provider,accounts);
- const update=next=>{$('connect').textContent=next?.[0]?next[0].slice(0,6)+'…'+next[0].slice(-4):'Connect wallet';$('status').textContent=next?.[0]?'Wallet account changed.':'Wallet disconnected.'};
+ detachWalletUI();keyPortfolio.clear();connectedProvider=provider;adminPreview.bind(provider,accounts);
+ const update=next=>{keyPortfolio.clear();$('wallet').value=next?.[0]||'';$('connect').textContent=next?.[0]?next[0].slice(0,6)+'…'+next[0].slice(-4):'Connect wallet';$('status').textContent=next?.[0]?'Wallet account changed.':'Wallet disconnected.'};
  const disconnected=()=>{connectedProvider=null;update([])};provider.on?.('accountsChanged',update);provider.on?.('disconnect',disconnected);detachWalletUI=()=>{provider.removeListener?.('accountsChanged',update);provider.removeListener?.('disconnect',disconnected)};
  $('wallet').value=accounts[0]||'';$('connect').textContent=accounts[0]?accounts[0].slice(0,6)+'…'+accounts[0].slice(-4):'Connect wallet';
  $('status').textContent=accounts[0]?'Wallet connected. No transaction requested.':'Wallet disconnected.';
@@ -313,9 +314,14 @@ async function connectWallet(source){
 $('connect').onclick=()=>openWalletDialog();
 $('walletFarcaster').onclick=()=>connectWallet('farcaster');$('walletBrowser').onclick=()=>connectWallet('browser');
 async function read(button,out,url,format){button.disabled=true;out.textContent='Loading…';try{const r=await fetch(url);if(!r.ok)throw Error();const p=await r.json();out.replaceChildren();format(p.data,out)}catch{out.textContent='Data unavailable. Try again later.'}finally{button.disabled=false}}
-function raw(data,out){const pre=document.createElement('pre');pre.textContent=JSON.stringify(data,null,2);out.append(pre)}
-$('holdings').onclick=()=>{const w=$('wallet').value.trim();if(!/^0x[a-fA-F0-9]{40}$/.test(w)){$('positions').textContent='Enter a valid Base wallet address.';return}read($('holdings'),$('positions'),'/api/wallet?wallet='+encodeURIComponent(w),raw)};
-$('load').onclick=()=>read($('load'),$('results'),'/api/markets?q='+encodeURIComponent($('search').value),(data,out)=>{for(const item of data?.items??[])raw(item,out);if(!out.children.length)out.textContent='No markets found.'});
+const keyPortfolio=createKeyPortfolio($('positions'),{onBusy:busy=>{$('holdings').disabled=busy;},fetchPage:async(wallet,cursor)=>{
+ const query=new URLSearchParams({wallet});if(cursor)query.set('cursor',cursor);
+ const response=await fetch('/api/wallet?'+query);if(!response.ok)throw Error('Holdings unavailable');
+ const payload=await response.json();return payload.data;
+}});
+$('holdings').onclick=()=>keyPortfolio.load($('wallet').value.trim());
+$('wallet').oninput=()=>keyPortfolio.clear();
+$('load').onclick=()=>read($('load'),$('results'),'/api/markets?q='+encodeURIComponent($('search').value),renderCreatorMarkets);
 let keyQuote=null;function displayUsd(){const fmt=n=>n.toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:4});$('usdquote').textContent=keyQuote===null?'KEY market quote unavailable':'≈ '+fmt(500000*keyQuote)+' USD equivalent · KEY reference price';$('discountusd').textContent=keyQuote===null?'USD estimate unavailable':'≈ '+fmt(Number(mintPrice('500000',Number($('keysRange').value)))*keyQuote)+' USD equivalent · simulated discount';} $('keysRange').addEventListener('input',displayUsd);async function refreshQuote(){try{const r=await fetch('/api/key-price');if(!r.ok)throw Error();const q=await r.json();if(q.token!=='0xb0ca1e094a1779018b194ac6151ece8d6f05db07'||!Number.isFinite(Number(q.priceUsd))||Number(q.priceUsd)<=0)throw Error();keyQuote=Number(q.priceUsd);}catch{keyQuote=null}displayUsd()}refreshQuote();setInterval(refreshQuote,60000);
 
 async function initFarcaster(){
