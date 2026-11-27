@@ -1,0 +1,68 @@
+{
+  "id": "000126",
+  "letter": "Z",
+  "name": "Zakynthos",
+  "slug": "zakynthos",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "reference": [
+    20.76749,
+    37.78845
+  ],
+  "source_id": "geonames:251279",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Ionian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#ae9c3d",
+        "#cbc66c",
+        "#dddfa4",
+        "#f0f3dd"
+      ],
+      "#dfebdb",
+      "Lagoon Chalcedony"
+    ],
+    "S": [
+      [
+        "#136c36",
+        "#21ba6d",
+        "#67e4b2",
+        "#bef4e3"
+      ],
+      "#561a61",
+      "Coral Amethyst"
+    ]
+  },
+  "background_names": {
+    "N": "Lagoon Porcelain",
+    "S": "Turquoise Velvet"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": "Zakynthos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 951,
+  "area_km2": 416.12461276583866,
+  "gshhg_area_km2": 416.12461276583866,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zakynthos",
+    "country": "GR",
+    "lon": 20.89555,
+    "lat": 37.78022,
+    "population": 11541,
+    "source": "https://www.geonames.org/251280"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

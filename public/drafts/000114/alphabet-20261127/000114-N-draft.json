@@ -1,0 +1,118 @@
+{
+  "id": "000114",
+  "letter": "N",
+  "name": "Nisyros",
+  "slug": "nisyros",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.16819,
+    36.5905
+  ],
+  "source_id": "geonames:256378",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#3d87ae",
+        "#6ca1cb",
+        "#a4bfdf",
+        "#dde5f3"
+      ],
+      "#dfdbeb",
+      "Cinnabar Carnelian"
+    ],
+    "S": [
+      [
+        "#63136c",
+        "#b921ba",
+        "#e467d9",
+        "#f4bee9"
+      ],
+      "#48611a",
+      "Orchid Azurite"
+    ]
+  },
+  "background_names": {
+    "N": "Cinnabar Porcelain",
+    "S": "Violet Velvet"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Mandráki",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 163,
+  "area_km2": 42.441959839260015,
+  "gshhg_area_km2": 42.441959839260015,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Mandráki",
+    "country": "GR",
+    "lon": 27.13333,
+    "lat": 36.61139,
+    "population": 682,
+    "source": "https://www.geonames.org/257804"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -122.30742645263672,
+  "max_land_elevation_m": 685.776611328125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2356/1599.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2356/1600.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2357/1599.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2357/1600.tif"
+  ],
+  "resolution_m": 19.023108994735754,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.5905 +lon_0=27.16819 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4052.229728413415,
+    -3711.031571593027,
+    4226.627306095585,
+    3501.7795363569094
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.7557772486839385,
+  "artwork_print_scale_denominator": 56170.597425400854,
+  "color_mood": "Cinnabar Carnelian",
+  "background": "#dfdbeb",
+  "background_name": "Cinnabar Porcelain",
+  "color_family": "Blue",
+  "palette": [
+    "#3d87ae",
+    "#6ca1cb",
+    "#a4bfdf",
+    "#dde5f3"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "47a395f90f266c1410d819f1ee6c502c237cf186faac264fc9a47c9a993860c3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

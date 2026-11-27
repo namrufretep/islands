@@ -1,0 +1,68 @@
+{
+  "id": "000119",
+  "letter": "S",
+  "name": "Saaremaa",
+  "slug": "saaremaa",
+  "country_code": "EE",
+  "country": "Estonia",
+  "region": "West Estonian Archipelago",
+  "reference": [
+    22.49639,
+    58.41333
+  ],
+  "source_id": "geonames:588878",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0a5244",
+        "#139a8d",
+        "#2ee5e5",
+        "#89e6f0"
+      ],
+      "#da3e5a",
+      "Plum Garnet"
+    ],
+    "S": [
+      [
+        "#1d0b3c",
+        "#3c146b",
+        "#6b20a7",
+        "#a643db"
+      ],
+      "#280d29",
+      "Ultramarine Aragonite"
+    ]
+  },
+  "background_names": {
+    "N": "Jade Field",
+    "S": "Plum Night"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": "Kuressaare",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3693,
+  "area_km2": 2694.2957575245673,
+  "gshhg_area_km2": 2694.2957575245673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kuressaare",
+    "country": "EE",
+    "lon": 22.49217,
+    "lat": 58.25382,
+    "population": 12698,
+    "source": "https://www.geonames.org/590939"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

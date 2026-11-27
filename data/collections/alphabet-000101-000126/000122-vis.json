@@ -1,0 +1,68 @@
+{
+  "id": "000122",
+  "letter": "V",
+  "name": "Vis",
+  "slug": "vis",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    16.15167,
+    43.045
+  ],
+  "source_id": "geonames:3187683",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#3d61ae",
+        "#6c81cb",
+        "#a4acdf",
+        "#dddef3"
+      ],
+      "#e4dbeb",
+      "Orchid Kunzite"
+    ],
+    "S": [
+      [
+        "#6c1358",
+        "#ba2188",
+        "#e467af",
+        "#f4bed7"
+      ],
+      "#31611a",
+      "Jade Apatite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Porcelain",
+    "S": "Aubergine Velvet"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Vis",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 518,
+  "area_km2": 94.32928236135902,
+  "gshhg_area_km2": 94.32928236135902,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Vis",
+    "country": "HR",
+    "lon": 16.18306,
+    "lat": 43.06194,
+    "population": 1582,
+    "source": "https://www.geonames.org/3187685"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

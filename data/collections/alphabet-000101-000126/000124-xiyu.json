@@ -1,0 +1,61 @@
+{
+  "id": "000124",
+  "letter": "X",
+  "name": "Xiyu",
+  "slug": "xiyu",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Penghu Archipelago",
+  "reference": [
+    119.5125,
+    23.60583
+  ],
+  "source_id": "geonames:1674568",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#136c2a",
+        "#21ba58",
+        "#67e4a1",
+        "#bef4dc"
+      ],
+      "#4c1a61",
+      "Magenta Lepidolite"
+    ],
+    "S": [
+      [
+        "#3d52ae",
+        "#6c74cb",
+        "#a5a4df",
+        "#dfddf3"
+      ],
+      "#e6dbeb",
+      "Ochre Tourmaline"
+    ]
+  },
+  "background_names": {
+    "N": "Indigo Velvet",
+    "S": "Magenta Porcelain"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 207,
+  "area_km2": 20.08990294251066,
+  "gshhg_area_km2": 20.08990294251066,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

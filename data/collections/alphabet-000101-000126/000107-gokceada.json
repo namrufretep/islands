@@ -1,0 +1,68 @@
+{
+  "id": "000107",
+  "letter": "G",
+  "name": "Gökçeada",
+  "slug": "gokceada",
+  "country_code": "TR",
+  "country": "Türkiye",
+  "region": "North Aegean",
+  "reference": [
+    25.83333,
+    40.16667
+  ],
+  "source_id": "geonames:746835",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#520a3c",
+        "#9a1364",
+        "#e52e8a",
+        "#f089b2"
+      ],
+      "#3eda70",
+      "Cobalt Kyanite"
+    ],
+    "S": [
+      [
+        "#3c350b",
+        "#6b6714",
+        "#a0a720",
+        "#c4db43"
+      ],
+      "#1c290d",
+      "Indigo Aquamarine"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Field",
+    "S": "Cobalt Night"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Gökçeada",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 544,
+  "area_km2": 290.5625822534084,
+  "gshhg_area_km2": 290.5625822534084,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Gökçeada",
+    "country": "TR",
+    "lon": 25.90902,
+    "lat": 40.20107,
+    "population": 7822,
+    "source": "https://www.geonames.org/745260"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

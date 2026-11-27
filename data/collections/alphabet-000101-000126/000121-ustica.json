@@ -1,0 +1,68 @@
+{
+  "id": "000121",
+  "letter": "U",
+  "name": "Ustica",
+  "slug": "ustica",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Tyrrhenian Sea",
+  "reference": [
+    13.17512,
+    38.70479
+  ],
+  "source_id": "geonames:2522817",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#293c0b",
+        "#416b14",
+        "#58a720",
+        "#72db43"
+      ],
+      "#0d290d",
+      "Amber Calcite"
+    ],
+    "S": [
+      [
+        "#0a524d",
+        "#13959a",
+        "#2ecce5",
+        "#89d8f0"
+      ],
+      "#da3e46",
+      "Carmine Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Amber Night",
+    "S": "Ochre Field"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Ustica",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 88,
+  "area_km2": 9.148046479329423,
+  "gshhg_area_km2": 9.148046479329423,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ustica",
+    "country": "IT",
+    "lon": 13.19293,
+    "lat": 38.70985,
+    "population": 819,
+    "source": "https://www.geonames.org/2522818"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

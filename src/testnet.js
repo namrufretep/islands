@@ -13,7 +13,7 @@ root.innerHTML=`<main class="testnet-page">
 <section class="page">
 <p class="testnet-banner">TEST ONLY · Network 84532 · No real island edition</p>
 <h1>Test your first mint</h1>
-<p>This separate environment uses free test KEY and a clearly marked test NFT. It does not mint or reserve any of the 100 original islands.</p>
+<p>This separate environment uses free test KEY and a clearly marked test NFT. It does not mint or reserve any original island.</p>
 <article class="panel"><h2>1 · Connect on Base Sepolia</h2>
 <p>Choose a wallet that supports the Base Sepolia test network. Wallet confirmations are required for every transaction.</p>
 <div class="testnet-buttons"><button id="browserConnect" class="outline">Connect browser wallet</button><button id="farcasterConnect" class="outline">Connect Farcaster wallet</button></div>

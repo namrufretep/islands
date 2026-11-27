@@ -1,0 +1,123 @@
+{
+  "id": "000126",
+  "letter": "Z",
+  "name": "Zakynthos",
+  "slug": "zakynthos",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "reference": [
+    20.76749,
+    37.78845
+  ],
+  "source_id": "geonames:251279",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Ionian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#ae9c3d",
+        "#cbc66c",
+        "#dddfa4",
+        "#f0f3dd"
+      ],
+      "#dfebdb",
+      "Lagoon Chalcedony"
+    ],
+    "S": [
+      [
+        "#136c36",
+        "#21ba6d",
+        "#67e4b2",
+        "#bef4e3"
+      ],
+      "#561a61",
+      "Coral Amethyst"
+    ]
+  },
+  "background_names": {
+    "N": "Lagoon Porcelain",
+    "S": "Turquoise Velvet"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": "Zakynthos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 951,
+  "area_km2": 416.12461276583866,
+  "gshhg_area_km2": 416.12461276583866,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zakynthos",
+    "country": "GR",
+    "lon": 20.89555,
+    "lat": 37.78022,
+    "population": 11541,
+    "source": "https://www.geonames.org/251280"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -72.49525451660156,
+  "max_land_elevation_m": 741.7422485351562,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/792.tif"
+  ],
+  "resolution_m": 76.26499747780879,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=37.78845 +lon_0=20.76749 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13164.317888899242,
+    -16061.73151569111,
+    20026.20901344314,
+    16314.582522873885
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 19.066249369452198,
+  "artwork_print_scale_denominator": 225191.9216864433,
+  "color_mood": "Coral Amethyst",
+  "background": "#561a61",
+  "background_name": "Turquoise Velvet",
+  "color_family": "Green",
+  "palette": [
+    "#136c36",
+    "#21ba6d",
+    "#67e4b2",
+    "#bef4e3"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a5f090981b96341cb2e37f6652d0148f19c3f9fadde262f82b7564ad2b83f44c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

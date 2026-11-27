@@ -1,0 +1,123 @@
+{
+  "id": "000109",
+  "letter": "I",
+  "name": "Isabela (Galápagos)",
+  "slug": "isabela--galapagos",
+  "country_code": "EC",
+  "country": "Ecuador",
+  "region": "Galápagos Islands",
+  "reference": [
+    -91.02528,
+    -0.59286
+  ],
+  "source_id": "geonames:3655571",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0b113c",
+        "#14166b",
+        "#2b20a7",
+        "#5f43db"
+      ],
+      "#1b0d29",
+      "Petrol Apatite"
+    ],
+    "S": [
+      [
+        "#520a33",
+        "#9a1352",
+        "#e52e71",
+        "#f089a4"
+      ],
+      "#3eda85",
+      "Turquoise Kunzite"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Night",
+    "S": "Azure Field"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Puerto Villamil",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2887,
+  "area_km2": 4717.422064642997,
+  "gshhg_area_km2": 4717.422064642997,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Puerto Villamil",
+    "country": "EC",
+    "lon": -90.96654,
+    "lat": -0.95542,
+    "population": 2200,
+    "source": "https://www.geonames.org/3652694"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -86.7516098022461,
+  "max_land_elevation_m": 1681.1092529296875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/255.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/256.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/255.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/256.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/255.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/256.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/257.tif"
+  ],
+  "resolution_m": 309.6840054308855,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-0.59286 +lon_0=-91.02528 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -63468.463013397406,
+    -50784.81243829726,
+    27166.057149360844,
+    83989.66672522413
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 77.42100135772138,
+  "artwork_print_scale_denominator": 914421.275878599,
+  "color_mood": "Turquoise Kunzite",
+  "background": "#3eda85",
+  "background_name": "Azure Field",
+  "color_family": "Pink",
+  "palette": [
+    "#520a33",
+    "#9a1352",
+    "#e52e71",
+    "#f089a4"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ad9a946750ca1964fcd1edcb75629a1ee62472ed20daaa8a517b599d7e67b6bc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

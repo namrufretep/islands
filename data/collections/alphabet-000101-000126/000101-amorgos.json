@@ -1,0 +1,71 @@
+{
+  "id": "000101",
+  "letter": "A",
+  "name": "Amorgos",
+  "slug": "amorgos",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    25.89831,
+    36.84677
+  ],
+  "source_id": "geonames:265141",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#0b213c",
+        "#14336b",
+        "#2042a7",
+        "#4359db"
+      ],
+      "#110d29",
+      "Ultramarine Azurite"
+    ],
+    "S": [
+      [
+        "#520a4b",
+        "#9a137f",
+        "#e52eae",
+        "#f089c7"
+      ],
+      "#3eda50",
+      "Petrol Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Ultramarine Night",
+    "S": "Malachite Field"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Amorgós",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 662,
+  "area_km2": 130.9453419763169,
+  "gshhg_area_km2": 130.9453419763169,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/305822309"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Amorgós",
+    "country": "GR",
+    "lon": 25.89821,
+    "lat": 36.83175,
+    "population": 397,
+    "source": "https://www.geonames.org/265142"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive."
+}

@@ -1,0 +1,118 @@
+{
+  "id": "000125",
+  "letter": "Y",
+  "name": "Yoron",
+  "slug": "yoron",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Amami Islands",
+  "reference": [
+    128.43256,
+    27.04078
+  ],
+  "source_id": "geonames:1848228",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#260b3c",
+        "#4d146b",
+        "#8620a7",
+        "#c543db"
+      ],
+      "#290d24",
+      "Vermilion Sunstone"
+    ],
+    "S": [
+      [
+        "#52110a",
+        "#9a2f13",
+        "#e5662e",
+        "#f0b389"
+      ],
+      "#3ec8da",
+      "Cobalt Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Vermilion Night",
+    "S": "Saffron Field"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Chabana",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 116,
+  "area_km2": 22.139299357774288,
+  "gshhg_area_km2": 22.139299357774288,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Chabana",
+    "country": "JP",
+    "lon": 128.4182,
+    "lat": 27.04873,
+    "population": 5115,
+    "source": "https://www.geonames.org/1864655"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -115.31272888183594,
+  "max_land_elevation_m": 117.17501068115234,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3508/1727.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3508/1728.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3509/1727.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3509/1728.tif"
+  ],
+  "resolution_m": 14.660974911355915,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=27.04078 +lon_0=128.43256 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3778.7467813751687,
+    -2354.7610453886855,
+    2601.7095000469244,
+    3191.501511295402
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.6652437278389787,
+  "artwork_print_scale_denominator": 43290.28025006668,
+  "color_mood": "Cobalt Serpentine",
+  "background": "#3ec8da",
+  "background_name": "Saffron Field",
+  "color_family": "Red",
+  "palette": [
+    "#52110a",
+    "#9a2f13",
+    "#e5662e",
+    "#f0b389"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "983c7d32595f9c533558a040cef9f8b4b4bd14b7f84f627390a107445f3a657e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

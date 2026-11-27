@@ -1,0 +1,118 @@
+{
+  "id": "000122",
+  "letter": "V",
+  "name": "Vis",
+  "slug": "vis",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    16.15167,
+    43.045
+  ],
+  "source_id": "geonames:3187683",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#3d61ae",
+        "#6c81cb",
+        "#a4acdf",
+        "#dddef3"
+      ],
+      "#e4dbeb",
+      "Orchid Kunzite"
+    ],
+    "S": [
+      [
+        "#6c1358",
+        "#ba2188",
+        "#e467af",
+        "#f4bed7"
+      ],
+      "#31611a",
+      "Jade Apatite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Porcelain",
+    "S": "Aubergine Velvet"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Vis",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 518,
+  "area_km2": 94.32928236135902,
+  "gshhg_area_km2": 94.32928236135902,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Vis",
+    "country": "HR",
+    "lon": 16.18306,
+    "lat": 43.06194,
+    "population": 1582,
+    "source": "https://www.geonames.org/3187685"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -7.033305644989014,
+  "max_land_elevation_m": 573.0967407226562,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1115/751.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1115/752.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1116/751.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1116/752.tif"
+  ],
+  "resolution_m": 39.30898605404075,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=43.045 +lon_0=16.15167 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8316.62450969806,
+    -4583.595624654055,
+    8790.646221020474,
+    4215.673775929984
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.827246513510188,
+  "artwork_print_scale_denominator": 116069.84071075024,
+  "color_mood": "Jade Apatite",
+  "background": "#31611a",
+  "background_name": "Aubergine Velvet",
+  "color_family": "Pink",
+  "palette": [
+    "#6c1358",
+    "#ba2188",
+    "#e467af",
+    "#f4bed7"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ebe53a7df380a75a9a02a5c4e67c2165d70302a21bde75d1369dbad9e4320669",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

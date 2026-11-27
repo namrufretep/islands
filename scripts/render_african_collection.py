@@ -18,8 +18,8 @@ from shapely.geometry import shape,mapping
 from shapely.ops import transform as shape_transform
 from pyproj import Transformer
 
-p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');a=p.parse_args()
-source=Path('public/drafts/africa-sources-20261126')
+p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');p.add_argument('--source',type=Path,default=Path('public/drafts/africa-sources-20261126'));p.add_argument('--edition-dir',default='africa-20261126');a=p.parse_args()
+source=a.source
 configs=json.loads((source/'geography-validation.json').read_text())
 a.cache.mkdir(parents=True,exist_ok=True)
 def hexrgb(text):return np.array([int(text[i:i+2],16) for i in (1,3,5)],dtype=np.float32)
@@ -42,7 +42,7 @@ validations=[]
 for c in configs:
  if a.id and c['id']!=a.id:continue
  prefix=c['id']+'-'+c['slug']
- existing_dir=Path('public/drafts')/c['id']/'africa-20261126'
+ existing_dir=Path('public/drafts')/c['id']/a.edition_dir
  existing=[]
  if a.resume:
   for e in ['N','S']:
@@ -65,6 +65,9 @@ for c in configs:
  west,south,east,north=transform_bounds(crs,'EPSG:4326',*bounds,densify_pts=21)
  tx0,ty0=tile(west,north,zoom);tx1,ty1=tile(east,south,zoom)
  items=[(zoom,x,y) for x in range(tx0,tx1+1) for y in range(ty0,ty1+1)]
+ while len(items)>20 and zoom>5:
+  zoom-=1;tx0,ty0=tile(west,north,zoom);tx1,ty1=tile(east,south,zoom)
+  items=[(zoom,x,y) for x in range(tx0,tx1+1) for y in range(ty0,ty1+1)]
  if len(items)>20:raise RuntimeError('Unexpected terrain extent')
  with ThreadPoolExecutor(max_workers=3) as pool:tiles=list(pool.map(fetch_tile,items))
  datasets=[rasterio.open(path) for path,_ in tiles]
@@ -84,7 +87,7 @@ for c in configs:
  # Rasterize the exact physical silhouette independently at final resolution.
  alpha=Image.fromarray(rasterize([(coast,255)],out_shape=(2048,2048),transform=from_bounds(*bounds,2048,2048),dtype='uint8'))
  water_mask=Image.fromarray(rasterize([(water,255)],out_shape=(2048,2048),transform=from_bounds(*bounds,2048,2048),dtype='uint8')) if not water.is_empty else None
- out=Path('public/drafts')/c['id']/'africa-20261126';out.mkdir(parents=True,exist_ok=True)
+ out=Path('public/drafts')/c['id']/a.edition_dir;out.mkdir(parents=True,exist_ok=True)
  validation=dict(id=c['id'],name=c['name'],land_coverage_fraction=coverage,min_land_elevation_m=float(terrain[land].min()),max_land_elevation_m=float(terrain[land].max()),terrain_tiles=[url for _,url in tiles],resolution_m=resolution)
  validations.append(validation)
  for edition,angle,sign in [('N',0,1),('S',180,-1)]:
@@ -111,7 +114,7 @@ for c in configs:
   if current_water:
    surface=Image.new('RGBA',(2048,2048),tuple(np.clip(hexrgb(background)*.96,0,255).astype('uint8'))+(255,));surface.putalpha(current_water);canvas.alpha_composite(surface)
   stem=out/(c['id']+'-'+edition+'-draft');png=stem.with_suffix('.png');canvas.convert('RGB').save(png,dpi=(300,300),optimize=True)
-  metadata={**c,**validation,'id':c['id'],'edition':edition,'orientation_degrees':angle,'status':'verified_coastline','source':c['coastline_source'],'projection':crs,'bounds_m':[x0,y0,x1,y1],'canvas_px':2048,'dpi_target':300,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':full/2048,'artwork_print_scale_denominator':full/2048*300/.0254,'color_mood':mood,'background':background,'background_name':c['background_names'][edition],'color_family':c['color_families'][edition],'palette':palette,'art_version':'4.4-africa','art_status':'experimental_draft','terrain_guided':True,'whole_island_terrain':True,'surface_finish':'bouvet_wash','surface_model':'Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation','lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True},'political_boundaries':False,'attribution':'© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles','artwork_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'geography_note':'Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.'}
+  metadata={**c,**validation,'id':c['id'],'edition':edition,'orientation_degrees':angle,'status':'verified_coastline','source':c['coastline_source'],'projection':crs,'bounds_m':[x0,y0,x1,y1],'canvas_px':2048,'dpi_target':300,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':full/2048,'artwork_print_scale_denominator':full/2048*300/.0254,'color_mood':mood,'background':background,'background_name':c['background_names'][edition],'color_family':c['color_families'][edition],'palette':palette,'art_version':'4.5-alphabet' if a.edition_dir.startswith('alphabet') else '4.4-africa','art_status':'experimental_draft','terrain_guided':True,'whole_island_terrain':True,'surface_finish':'bouvet_wash','surface_model':'Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation','lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True},'political_boundaries':False,'attribution':('GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles'+('; © OpenStreetMap contributors, ODbL' if any('openstreetmap.org' in url for url in c.get('water_sources',[])) else '')) if a.edition_dir.startswith('alphabet') else '© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles','artwork_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'geography_note':'Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.'}
   stem.with_suffix('.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
   print(c['id'],c['name'],edition,'rendered',png.stat().st_size,'bytes',flush=True)
  del canvas,art,alpha,terrain,mosaic

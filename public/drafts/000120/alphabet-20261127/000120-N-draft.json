@@ -1,0 +1,126 @@
+{
+  "id": "000120",
+  "letter": "T",
+  "name": "Tanna",
+  "slug": "tanna",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Tafea Province",
+  "reference": [
+    169.38569,
+    -19.5293
+  ],
+  "source_id": "geonames:2134687",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6c1364",
+        "#ba219d",
+        "#e467bf",
+        "#f4bede"
+      ],
+      "#3a611a",
+      "Azure Aquamarine"
+    ],
+    "S": [
+      [
+        "#ae863d",
+        "#cbb36c",
+        "#dfd6a4",
+        "#f3f2dd"
+      ],
+      "#e2ebdb",
+      "Copper Kyanite"
+    ]
+  },
+  "background_names": {
+    "N": "Fuchsia Velvet",
+    "S": "Azure Porcelain"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Isangel",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 793,
+  "area_km2": 564.9917202161776,
+  "gshhg_area_km2": 564.9917202161776,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Isangel",
+    "country": "VU",
+    "lon": 169.28167,
+    "lat": -19.54167,
+    "population": 1437,
+    "source": "https://www.geonames.org/2136825"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -89.38765716552734,
+  "max_land_elevation_m": 1061.1103515625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1137.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1138.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1137.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1138.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1137.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1138.tif"
+  ],
+  "resolution_m": 86.70246692379195,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-19.5293 +lon_0=169.38569 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -19551.623458380633,
+    -13687.57299575638,
+    10464.576095269225,
+    24045.34060947787
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 21.675616730947986,
+  "artwork_print_scale_denominator": 256011.22123166913,
+  "color_mood": "Azure Aquamarine",
+  "background": "#3a611a",
+  "background_name": "Fuchsia Velvet",
+  "color_family": "Pink",
+  "palette": [
+    "#6c1364",
+    "#ba219d",
+    "#e467bf",
+    "#f4bede"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "3ca8b71ecfcb925d68e656a4d93f4048c54657a6d4fa373306bbda33e58a57e6",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

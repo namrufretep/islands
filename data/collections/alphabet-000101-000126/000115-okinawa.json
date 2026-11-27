@@ -1,0 +1,68 @@
+{
+  "id": "000115",
+  "letter": "O",
+  "name": "Okinawa",
+  "slug": "okinawa",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Ryukyu Islands",
+  "reference": [
+    127.94581,
+    26.50687
+  ],
+  "source_id": "geonames:1854346",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#520a24",
+        "#9a1337",
+        "#e52e4c",
+        "#f08990"
+      ],
+      "#3edaa4",
+      "Indigo Labradorite"
+    ],
+    "S": [
+      [
+        "#333c0b",
+        "#526b14",
+        "#73a720",
+        "#91db43"
+      ],
+      "#12290d",
+      "Emerald Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Lagoon Field",
+    "S": "Indigo Night"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Naha",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2800,
+  "area_km2": 1201.3855132293609,
+  "gshhg_area_km2": 1201.3855132293609,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Naha",
+    "country": "JP",
+    "lon": 127.67851,
+    "lat": 26.213,
+    "population": 317625,
+    "source": "https://www.geonames.org/1856035"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

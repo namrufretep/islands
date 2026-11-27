@@ -1,0 +1,539 @@
+[
+  {
+    "id": "000101",
+    "name": "Amorgos",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -360.83221435546875,
+    "max_land_elevation_m": 1277.2469482421875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/797.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/798.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/799.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/797.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/798.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/799.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/797.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/798.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/799.tif"
+    ],
+    "resolution_m": 71.22624255153053
+  },
+  {
+    "id": "000102",
+    "name": "Bazaruto",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -5.661018371582031,
+    "max_land_elevation_m": 110.59244537353516,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1149.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1150.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1151.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1149.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1150.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1151.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1149.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1150.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1151.tif"
+    ],
+    "resolution_m": 72.31301953307361
+  },
+  {
+    "id": "000103",
+    "name": "Chiloé",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -194.0613250732422,
+    "max_land_elevation_m": 801.7808837890625,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/74/160.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/74/161.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/74/162.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/75/160.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/75/161.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/75/162.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/76/160.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/76/161.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/76/162.tif"
+    ],
+    "resolution_m": 428.8323170553588
+  },
+  {
+    "id": "000104",
+    "name": "Dominica",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -316.2864685058594,
+    "max_land_elevation_m": 1410.0936279296875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/933.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/934.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/935.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/936.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/933.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/934.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/935.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/936.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/933.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/934.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/935.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/936.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/933.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/934.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/935.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/936.tif"
+    ],
+    "resolution_m": 110.19249400515598
+  },
+  {
+    "id": "000105",
+    "name": "Efate",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -303.3251647949219,
+    "max_land_elevation_m": 638.2002563476562,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1124.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1125.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1126.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1127.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1124.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1125.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1126.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1127.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1124.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1125.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1126.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1127.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1124.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1125.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1126.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1127.tif"
+    ],
+    "resolution_m": 106.63983315871499
+  },
+  {
+    "id": "000106",
+    "name": "Fårö",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -11.790119171142578,
+    "max_land_elevation_m": 28.564237594604492,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/616.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/617.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/618.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/616.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/617.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/618.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/616.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/617.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/618.tif"
+    ],
+    "resolution_m": 42.875388368839474
+  },
+  {
+    "id": "000107",
+    "name": "Gökçeada",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -4.482686519622803,
+    "max_land_elevation_m": 663.3279418945312,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/773.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/774.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/775.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/773.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/774.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/775.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/773.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/774.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/775.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/773.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/774.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/775.tif"
+    ],
+    "resolution_m": 68.2079566292713
+  },
+  {
+    "id": "000108",
+    "name": "Hiva Oa",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -286.0698547363281,
+    "max_land_elevation_m": 1240.0426025390625,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1078.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1079.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1080.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1081.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1078.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1079.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1080.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1081.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1078.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1079.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1080.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1081.tif"
+    ],
+    "resolution_m": 92.25929553073506
+  },
+  {
+    "id": "000109",
+    "name": "Isabela (Galápagos)",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -86.7516098022461,
+    "max_land_elevation_m": 1681.1092529296875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/255.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/256.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/125/257.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/255.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/256.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/126/257.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/255.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/256.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/127/257.tif"
+    ],
+    "resolution_m": 309.6840054308855
+  },
+  {
+    "id": "000110",
+    "name": "Jeju",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -12.67936897277832,
+    "max_land_elevation_m": 1893.9849853515625,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/409.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/410.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/411.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/412.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/409.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/410.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/411.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/412.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/409.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/410.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/411.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/412.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/409.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/410.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/411.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/412.tif"
+    ],
+    "resolution_m": 167.85602186373308
+  },
+  {
+    "id": "000111",
+    "name": "Ko Lanta Yai",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -204.9082489013672,
+    "max_land_elevation_m": 489.016845703125,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1586/980.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1586/981.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1587/980.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1587/981.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1588/980.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1588/981.tif"
+    ],
+    "resolution_m": 55.90616712612976
+  },
+  {
+    "id": "000112",
+    "name": "Lampedusa",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -9.583736419677734,
+    "max_land_elevation_m": 126.96025085449219,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/1614.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/1615.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/1616.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/1614.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/1615.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/1616.tif"
+    ],
+    "resolution_m": 23.27744814608085
+  },
+  {
+    "id": "000113",
+    "name": "Montserrat",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -154.93826293945312,
+    "max_land_elevation_m": 894.789794921875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/669/926.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/669/927.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/670/926.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/670/927.tif"
+    ],
+    "resolution_m": 38.15053866251749
+  },
+  {
+    "id": "000114",
+    "name": "Nisyros",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -122.30742645263672,
+    "max_land_elevation_m": 685.776611328125,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2356/1599.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2356/1600.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2357/1599.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2357/1600.tif"
+    ],
+    "resolution_m": 19.023108994735754
+  },
+  {
+    "id": "000115",
+    "name": "Okinawa",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -215.13465881347656,
+    "max_land_elevation_m": 488.3081359863281,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/435.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/435.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/435.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/435.tif"
+    ],
+    "resolution_m": 204.34424489395852
+  },
+  {
+    "id": "000116",
+    "name": "Pico",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -178.69378662109375,
+    "max_land_elevation_m": 2268.3701171875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/784.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/785.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/786.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/787.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/788.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/784.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/785.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/786.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/787.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/788.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/784.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/785.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/786.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/787.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/788.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/784.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/785.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/786.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/787.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/788.tif"
+    ],
+    "resolution_m": 103.31375602985331
+  },
+  {
+    "id": "000117",
+    "name": "Qeshm",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -40.349849700927734,
+    "max_land_elevation_m": 351.83612060546875,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/434.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/434.tif"
+    ],
+    "resolution_m": 233.1394703903495
+  },
+  {
+    "id": "000118",
+    "name": "Rottnest",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -14.780900001525879,
+    "max_land_elevation_m": 46.13454818725586,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3361/2431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3361/2432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3361/2433.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3362/2431.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3362/2432.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3362/2433.tif"
+    ],
+    "resolution_m": 22.607660504648997
+  },
+  {
+    "id": "000119",
+    "name": "Saaremaa",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -36.981624603271484,
+    "max_land_elevation_m": 60.469566345214844,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/152.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/153.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/154.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/152.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/153.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/154.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/152.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/153.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/154.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/152.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/153.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/154.tif"
+    ],
+    "resolution_m": 201.4083993493697
+  },
+  {
+    "id": "000120",
+    "name": "Tanna",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -89.38765716552734,
+    "max_land_elevation_m": 1061.1103515625,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1135.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1136.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1137.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1138.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1135.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1136.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1137.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1138.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1135.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1136.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1137.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1988/1138.tif"
+    ],
+    "resolution_m": 86.70246692379195
+  },
+  {
+    "id": "000121",
+    "name": "Ustica",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -215.21524047851562,
+    "max_land_elevation_m": 244.0,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2197/1569.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2197/1570.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2198/1569.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2198/1570.tif"
+    ],
+    "resolution_m": 10.176738908533043
+  },
+  {
+    "id": "000122",
+    "name": "Vis",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -7.033305644989014,
+    "max_land_elevation_m": 573.0967407226562,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1115/751.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1115/752.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1116/751.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1116/752.tif"
+    ],
+    "resolution_m": 39.30898605404075
+  },
+  {
+    "id": "000123",
+    "name": "Waigeo",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -101.83599853515625,
+    "max_land_elevation_m": 943.5276489257812,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/510.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/511.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/512.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/513.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/514.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/510.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/511.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/512.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/513.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/514.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/510.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/511.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/512.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/513.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/514.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/510.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/511.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/512.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/513.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/514.tif"
+    ],
+    "resolution_m": 289.2594550598563
+  },
+  {
+    "id": "000124",
+    "name": "Xiyu",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -9.003561973571777,
+    "max_land_elevation_m": 61.6834831237793,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1770.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1771.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1770.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1771.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1772.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1770.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1771.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1772.tif"
+    ],
+    "resolution_m": 23.1138117583302
+  },
+  {
+    "id": "000125",
+    "name": "Yoron",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -115.31272888183594,
+    "max_land_elevation_m": 117.17501068115234,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3508/1727.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3508/1728.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3509/1727.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3509/1728.tif"
+    ],
+    "resolution_m": 14.660974911355915
+  },
+  {
+    "id": "000126",
+    "name": "Zakynthos",
+    "land_coverage_fraction": 1.0,
+    "min_land_elevation_m": -72.49525451660156,
+    "max_land_elevation_m": 741.7422485351562,
+    "terrain_tiles": [
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/790.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/791.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1141/792.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/790.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/791.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1142/792.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/790.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/791.tif",
+      "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1143/792.tif"
+    ],
+    "resolution_m": 76.26499747780879
+  }
+]

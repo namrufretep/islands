@@ -1,0 +1,68 @@
+{
+  "id": "000117",
+  "letter": "Q",
+  "name": "Qeshm",
+  "slug": "qeshm",
+  "country_code": "IR",
+  "country": "Iran",
+  "region": "Strait of Hormuz",
+  "reference": [
+    55.6183,
+    26.6952
+  ],
+  "source_id": "geonames:119373",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Persian Gulf",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#160b3c",
+        "#30146b",
+        "#5820a7",
+        "#9243db"
+      ],
+      "#240d29",
+      "Turquoise Amazonite"
+    ],
+    "S": [
+      [
+        "#520a1b",
+        "#9a1325",
+        "#e52e34",
+        "#f09089"
+      ],
+      "#3edab9",
+      "Vermilion Chrysoprase"
+    ]
+  },
+  "background_names": {
+    "N": "Turquoise Night",
+    "S": "Copper Field"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Qeshm",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2069,
+  "area_km2": 1460.814286719739,
+  "gshhg_area_km2": 1460.814286719739,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Qeshm",
+    "country": "IR",
+    "lon": 56.2691,
+    "lat": 26.9492,
+    "population": 25000,
+    "source": "https://www.geonames.org/119374"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

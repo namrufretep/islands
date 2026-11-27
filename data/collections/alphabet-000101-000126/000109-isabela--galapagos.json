@@ -1,0 +1,68 @@
+{
+  "id": "000109",
+  "letter": "I",
+  "name": "Isabela (Galápagos)",
+  "slug": "isabela--galapagos",
+  "country_code": "EC",
+  "country": "Ecuador",
+  "region": "Galápagos Islands",
+  "reference": [
+    -91.02528,
+    -0.59286
+  ],
+  "source_id": "geonames:3655571",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0b113c",
+        "#14166b",
+        "#2b20a7",
+        "#5f43db"
+      ],
+      "#1b0d29",
+      "Petrol Apatite"
+    ],
+    "S": [
+      [
+        "#520a33",
+        "#9a1352",
+        "#e52e71",
+        "#f089a4"
+      ],
+      "#3eda85",
+      "Turquoise Kunzite"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Night",
+    "S": "Azure Field"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Puerto Villamil",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2887,
+  "area_km2": 4717.422064642997,
+  "gshhg_area_km2": 4717.422064642997,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Puerto Villamil",
+    "country": "EC",
+    "lon": -90.96654,
+    "lat": -0.95542,
+    "population": 2200,
+    "source": "https://www.geonames.org/3652694"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

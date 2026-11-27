@@ -1,0 +1,68 @@
+{
+  "id": "000104",
+  "letter": "D",
+  "name": "Dominica",
+  "slug": "dominica",
+  "country_code": "DM",
+  "country": "Dominica",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.34216,
+    15.43713
+  ],
+  "source_id": "geonames:3575831",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#39136c",
+        "#7221ba",
+        "#b567e4",
+        "#e5bef4"
+      ],
+      "#61581a",
+      "Jade Chrysoprase"
+    ],
+    "S": [
+      [
+        "#ae3d40",
+        "#cb736c",
+        "#dfafa4",
+        "#f3e3dd"
+      ],
+      "#ebe9db",
+      "Malachite Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Amber Velvet",
+    "S": "Jade Porcelain"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Roseau",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 802,
+  "area_km2": 761.7460181090815,
+  "gshhg_area_km2": 761.7460181090815,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Roseau",
+    "country": "DM",
+    "lon": -61.38808,
+    "lat": 15.30174,
+    "population": 16571,
+    "source": "https://www.geonames.org/3575635"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

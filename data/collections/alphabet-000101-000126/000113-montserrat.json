@@ -1,0 +1,68 @@
+{
+  "id": "000113",
+  "letter": "M",
+  "name": "Montserrat",
+  "slug": "montserrat",
+  "country_code": "MS",
+  "country": "Montserrat",
+  "region": "Lesser Antilles",
+  "reference": [
+    -62.18983,
+    16.7404
+  ],
+  "source_id": "geonames:3578098",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393c0b",
+        "#5e6b14",
+        "#85a720",
+        "#a5db43"
+      ],
+      "#16290d",
+      "Aubergine Amethyst"
+    ],
+    "S": [
+      [
+        "#0a5235",
+        "#139a72",
+        "#2ee5c1",
+        "#89f0e6"
+      ],
+      "#da3e7a",
+      "Amber Chalcedony"
+    ]
+  },
+  "background_names": {
+    "N": "Aubergine Night",
+    "S": "Magenta Field"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Brades",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 243,
+  "area_km2": 100.07231895910526,
+  "gshhg_area_km2": 100.07231895910526,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Brades",
+    "country": "MS",
+    "lon": -62.21058,
+    "lat": 16.79183,
+    "population": 1000,
+    "source": "https://www.geonames.org/7266440"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

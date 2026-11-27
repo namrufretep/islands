@@ -1,0 +1,118 @@
+{
+  "id": "000113",
+  "letter": "M",
+  "name": "Montserrat",
+  "slug": "montserrat",
+  "country_code": "MS",
+  "country": "Montserrat",
+  "region": "Lesser Antilles",
+  "reference": [
+    -62.18983,
+    16.7404
+  ],
+  "source_id": "geonames:3578098",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393c0b",
+        "#5e6b14",
+        "#85a720",
+        "#a5db43"
+      ],
+      "#16290d",
+      "Aubergine Amethyst"
+    ],
+    "S": [
+      [
+        "#0a5235",
+        "#139a72",
+        "#2ee5c1",
+        "#89f0e6"
+      ],
+      "#da3e7a",
+      "Amber Chalcedony"
+    ]
+  },
+  "background_names": {
+    "N": "Aubergine Night",
+    "S": "Magenta Field"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Brades",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 243,
+  "area_km2": 100.07231895910526,
+  "gshhg_area_km2": 100.07231895910526,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Brades",
+    "country": "MS",
+    "lon": -62.21058,
+    "lat": 16.79183,
+    "population": 1000,
+    "source": "https://www.geonames.org/7266440"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -154.93826293945312,
+  "max_land_elevation_m": 894.789794921875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/669/926.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/669/927.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/670/926.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/670/927.tif"
+  ],
+  "resolution_m": 38.15053866251749,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=16.7404 +lon_0=-62.18983 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5844.930914572257,
+    -7292.866436260105,
+    4550.231779619587,
+    9310.247989667507
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.537634665629373,
+  "artwork_print_scale_denominator": 112649.2283342052,
+  "color_mood": "Amber Chalcedony",
+  "background": "#da3e7a",
+  "background_name": "Magenta Field",
+  "color_family": "Turquoise",
+  "palette": [
+    "#0a5235",
+    "#139a72",
+    "#2ee5c1",
+    "#89f0e6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a9cccc191b353445804989d339e97fa3fac42ff701dda7fc33133a6ff67bbce5",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,73 @@
+{
+  "id": "000102",
+  "letter": "B",
+  "name": "Bazaruto",
+  "slug": "bazaruto",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Bazaruto Archipelago",
+  "reference": [
+    35.46778,
+    -21.66278
+  ],
+  "source_id": "geonames:1052387",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae3d4f",
+        "#cb6c71",
+        "#dfa7a4",
+        "#f3e0dd"
+      ],
+      "#ebe7db",
+      "Copper Jasper"
+    ],
+    "S": [
+      [
+        "#496c13",
+        "#6fba21",
+        "#9ae467",
+        "#cef4be"
+      ],
+      "#1a2561",
+      "Saffron Labradorite"
+    ]
+  },
+  "background_names": {
+    "N": "Copper Porcelain",
+    "S": "Plum Velvet"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 301,
+  "area_km2": 103.56873897207963,
+  "gshhg_area_km2": 103.56873897207963,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/654013820",
+    "https://www.openstreetmap.org/way/654390599",
+    "https://www.openstreetmap.org/way/654390601",
+    "https://www.openstreetmap.org/way/654390603",
+    "https://www.openstreetmap.org/way/654390622",
+    "https://www.openstreetmap.org/way/654568571",
+    "https://www.openstreetmap.org/way/654568572",
+    "https://www.openstreetmap.org/way/654568573",
+    "https://www.openstreetmap.org/way/654832534",
+    "https://www.openstreetmap.org/way/654832544"
+  ],
+  "water_count": 10,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive."
+}

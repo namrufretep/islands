@@ -1,0 +1,128 @@
+{
+  "id": "000102",
+  "letter": "B",
+  "name": "Bazaruto",
+  "slug": "bazaruto",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Bazaruto Archipelago",
+  "reference": [
+    35.46778,
+    -21.66278
+  ],
+  "source_id": "geonames:1052387",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae3d4f",
+        "#cb6c71",
+        "#dfa7a4",
+        "#f3e0dd"
+      ],
+      "#ebe7db",
+      "Copper Jasper"
+    ],
+    "S": [
+      [
+        "#496c13",
+        "#6fba21",
+        "#9ae467",
+        "#cef4be"
+      ],
+      "#1a2561",
+      "Saffron Labradorite"
+    ]
+  },
+  "background_names": {
+    "N": "Copper Porcelain",
+    "S": "Plum Velvet"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 301,
+  "area_km2": 103.56873897207963,
+  "gshhg_area_km2": 103.56873897207963,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/654013820",
+    "https://www.openstreetmap.org/way/654390599",
+    "https://www.openstreetmap.org/way/654390601",
+    "https://www.openstreetmap.org/way/654390603",
+    "https://www.openstreetmap.org/way/654390622",
+    "https://www.openstreetmap.org/way/654568571",
+    "https://www.openstreetmap.org/way/654568572",
+    "https://www.openstreetmap.org/way/654568573",
+    "https://www.openstreetmap.org/way/654832534",
+    "https://www.openstreetmap.org/way/654832544"
+  ],
+  "water_count": 10,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -5.661018371582031,
+  "max_land_elevation_m": 110.59244537353516,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1150.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1224/1151.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1150.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1225/1151.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1150.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1226/1151.tif"
+  ],
+  "resolution_m": 72.31301953307361,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-21.66278 +lon_0=35.46778 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4296.76936255424,
+    -14689.486104502084,
+    3121.1641420448773,
+    16781.13999629155
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 18.078254883268404,
+  "artwork_print_scale_denominator": 213522.69547167406,
+  "color_mood": "Saffron Labradorite",
+  "background": "#1a2561",
+  "background_name": "Plum Velvet",
+  "color_family": "Yellow",
+  "palette": [
+    "#496c13",
+    "#6fba21",
+    "#9ae467",
+    "#cef4be"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles; © OpenStreetMap contributors, ODbL",
+  "artwork_sha256": "ea5595c59bd45f02bdde6ff0ea9ec54132075e8e187e2bee36096b1f94ff7ee0",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

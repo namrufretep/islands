@@ -1,0 +1,116 @@
+{
+  "id": "000124",
+  "letter": "X",
+  "name": "Xiyu",
+  "slug": "xiyu",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Penghu Archipelago",
+  "reference": [
+    119.5125,
+    23.60583
+  ],
+  "source_id": "geonames:1674568",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#136c2a",
+        "#21ba58",
+        "#67e4a1",
+        "#bef4dc"
+      ],
+      "#4c1a61",
+      "Magenta Lepidolite"
+    ],
+    "S": [
+      [
+        "#3d52ae",
+        "#6c74cb",
+        "#a5a4df",
+        "#dfddf3"
+      ],
+      "#e6dbeb",
+      "Ochre Tourmaline"
+    ]
+  },
+  "background_names": {
+    "N": "Indigo Velvet",
+    "S": "Magenta Porcelain"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 207,
+  "area_km2": 20.08990294251066,
+  "gshhg_area_km2": 20.08990294251066,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -9.003561973571777,
+  "max_land_elevation_m": 61.6834831237793,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1771.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3406/1772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1771.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3407/1772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1771.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1772.tif"
+  ],
+  "resolution_m": 23.1138117583302,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=23.60583 +lon_0=119.5125 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5317.302011786744,
+    -5031.829591777481,
+    2341.0412223470057,
+    5027.301285447822
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.77845293958255,
+  "artwork_print_scale_denominator": 68249.44416829784,
+  "color_mood": "Magenta Lepidolite",
+  "background": "#4c1a61",
+  "background_name": "Indigo Velvet",
+  "color_family": "Green",
+  "palette": [
+    "#136c2a",
+    "#21ba58",
+    "#67e4a1",
+    "#bef4dc"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "4cd613db5f48be01023224ba883c81195ae80efe9f745c1e43970ecff7cc11e3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

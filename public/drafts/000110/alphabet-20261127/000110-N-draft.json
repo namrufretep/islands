@@ -1,0 +1,130 @@
+{
+  "id": "000110",
+  "letter": "J",
+  "name": "Jeju",
+  "slug": "jeju",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Jeju Strait",
+  "reference": [
+    126.54611,
+    33.40167
+  ],
+  "source_id": "geonames:1846264",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Korea Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae513d",
+        "#cb866c",
+        "#dfbba4",
+        "#f3e8dd"
+      ],
+      "#eaebdb",
+      "Saffron Heliodor"
+    ],
+    "S": [
+      [
+        "#2c6c13",
+        "#3cba21",
+        "#71e467",
+        "#bef4bf"
+      ],
+      "#261a61",
+      "Rose Jadeite"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Porcelain",
+    "S": "Ultramarine Velvet"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Green"
+  },
+  "largest_settlement": "Jeju City",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1522,
+  "area_km2": 1843.9713744271926,
+  "gshhg_area_km2": 1843.9713744271926,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Jeju City",
+    "country": "KR",
+    "lon": 126.52194,
+    "lat": 33.50972,
+    "population": 488844,
+    "source": "https://www.geonames.org/1846266"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -12.67936897277832,
+  "max_land_elevation_m": 1893.9849853515625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/409.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/410.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/411.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/412.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/409.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/410.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/411.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/871/412.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/409.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/410.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/411.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/872/412.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/409.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/410.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/411.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/873/412.tif"
+  ],
+  "resolution_m": 167.85602186373308,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=33.40167 +lon_0=126.54611 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -35847.88171044044,
+    -22934.095432412203,
+    37203.05900465619,
+    18367.38167894588
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 41.96400546593327,
+  "artwork_print_scale_denominator": 495637.85983385757,
+  "color_mood": "Saffron Heliodor",
+  "background": "#eaebdb",
+  "background_name": "Saffron Porcelain",
+  "color_family": "Red",
+  "palette": [
+    "#ae513d",
+    "#cb866c",
+    "#dfbba4",
+    "#f3e8dd"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "03ad5e42c2af8828ace673704ea91492a7b7d5fa11c806ebacf8364f7048e128",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

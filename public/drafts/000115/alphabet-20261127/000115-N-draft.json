@@ -1,0 +1,130 @@
+{
+  "id": "000115",
+  "letter": "O",
+  "name": "Okinawa",
+  "slug": "okinawa",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Ryukyu Islands",
+  "reference": [
+    127.94581,
+    26.50687
+  ],
+  "source_id": "geonames:1854346",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#520a24",
+        "#9a1337",
+        "#e52e4c",
+        "#f08990"
+      ],
+      "#3edaa4",
+      "Indigo Labradorite"
+    ],
+    "S": [
+      [
+        "#333c0b",
+        "#526b14",
+        "#73a720",
+        "#91db43"
+      ],
+      "#12290d",
+      "Emerald Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Lagoon Field",
+    "S": "Indigo Night"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Naha",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2800,
+  "area_km2": 1201.3855132293609,
+  "gshhg_area_km2": 1201.3855132293609,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Naha",
+    "country": "JP",
+    "lon": 127.67851,
+    "lat": 26.213,
+    "population": 317625,
+    "source": "https://www.geonames.org/1856035"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -215.13465881347656,
+  "max_land_elevation_m": 488.3081359863281,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/874/435.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/875/435.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/876/435.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/877/435.tif"
+  ],
+  "resolution_m": 204.34424489395852,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=26.50687 +lon_0=127.94581 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -30943.1375384331,
+    -47959.19620178524,
+    38093.261031346,
+    40971.41917606551
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 51.08606122348963,
+  "artwork_print_scale_denominator": 603378.6758679878,
+  "color_mood": "Indigo Labradorite",
+  "background": "#3edaa4",
+  "background_name": "Lagoon Field",
+  "color_family": "Red",
+  "palette": [
+    "#520a24",
+    "#9a1337",
+    "#e52e4c",
+    "#f08990"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "aa16e3281f23165170cfedc5e5483c831c40686ce7d1b7f39f41692331dd49a3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

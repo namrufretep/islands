@@ -1,0 +1,134 @@
+{
+  "id": "000117",
+  "letter": "Q",
+  "name": "Qeshm",
+  "slug": "qeshm",
+  "country_code": "IR",
+  "country": "Iran",
+  "region": "Strait of Hormuz",
+  "reference": [
+    55.6183,
+    26.6952
+  ],
+  "source_id": "geonames:119373",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Persian Gulf",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#160b3c",
+        "#30146b",
+        "#5820a7",
+        "#9243db"
+      ],
+      "#240d29",
+      "Turquoise Amazonite"
+    ],
+    "S": [
+      [
+        "#520a1b",
+        "#9a1325",
+        "#e52e34",
+        "#f09089"
+      ],
+      "#3edab9",
+      "Vermilion Chrysoprase"
+    ]
+  },
+  "background_names": {
+    "N": "Turquoise Night",
+    "S": "Copper Field"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Qeshm",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2069,
+  "area_km2": 1460.814286719739,
+  "gshhg_area_km2": 1460.814286719739,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Qeshm",
+    "country": "IR",
+    "lon": 56.2691,
+    "lat": 26.9492,
+    "population": 25000,
+    "source": "https://www.geonames.org/119374"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -40.349849700927734,
+  "max_land_elevation_m": 351.83612060546875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/431.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/668/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/431.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/669/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/431.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/670/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/431.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/671/434.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/431.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/432.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/433.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/672/434.tif"
+  ],
+  "resolution_m": 233.1394703903495,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=26.6952 +lon_0=55.6183 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -35550.75100305461,
+    -17388.6884364924,
+    65911.54651082549,
+    33760.469921791926
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 58.28486759758737,
+  "artwork_print_scale_denominator": 688403.9480030005,
+  "color_mood": "Turquoise Amazonite",
+  "background": "#240d29",
+  "background_name": "Turquoise Night",
+  "color_family": "Purple",
+  "palette": [
+    "#160b3c",
+    "#30146b",
+    "#5820a7",
+    "#9243db"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "fcddfc191e990d5581b7cf938a0363d187c3f20a27a51b7ed6b3bfd34b109cca",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

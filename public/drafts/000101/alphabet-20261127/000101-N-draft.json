@@ -1,0 +1,126 @@
+{
+  "id": "000101",
+  "letter": "A",
+  "name": "Amorgos",
+  "slug": "amorgos",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    25.89831,
+    36.84677
+  ],
+  "source_id": "geonames:265141",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#0b213c",
+        "#14336b",
+        "#2042a7",
+        "#4359db"
+      ],
+      "#110d29",
+      "Ultramarine Azurite"
+    ],
+    "S": [
+      [
+        "#520a4b",
+        "#9a137f",
+        "#e52eae",
+        "#f089c7"
+      ],
+      "#3eda50",
+      "Petrol Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Ultramarine Night",
+    "S": "Malachite Field"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Amorgós",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 662,
+  "area_km2": 130.9453419763169,
+  "gshhg_area_km2": 130.9453419763169,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/305822309"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Amorgós",
+    "country": "GR",
+    "lon": 25.89821,
+    "lat": 36.83175,
+    "population": 397,
+    "source": "https://www.geonames.org/265142"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -360.83221435546875,
+  "max_land_elevation_m": 1277.2469482421875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/799.tif"
+  ],
+  "resolution_m": 71.22624255153053,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.84677 +lon_0=25.89831 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14020.873956257785,
+    -9119.480606806977,
+    16976.7868021683,
+    10123.402027331691
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 17.806560637882633,
+  "artwork_print_scale_denominator": 210313.70832144844,
+  "color_mood": "Ultramarine Azurite",
+  "background": "#110d29",
+  "background_name": "Ultramarine Night",
+  "color_family": "Blue",
+  "palette": [
+    "#0b213c",
+    "#14336b",
+    "#2042a7",
+    "#4359db"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles; © OpenStreetMap contributors, ODbL",
+  "artwork_sha256": "f12397b41d9dfecf8eb947847a5517cc5d3d442fe74b69b074362eeff7f52cec",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

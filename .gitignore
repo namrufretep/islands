@@ -172,3 +172,6 @@ public/app-preview.png
 lib/
 public/launch/index.html
 public/launch/release-plan.json
+
+# Optional raw OSM query caches; captured water geometry is tracked
+/data/collections/alphabet-000101-000126/osm-water/

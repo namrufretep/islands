@@ -1,0 +1,61 @@
+{
+  "id": "000106",
+  "letter": "F",
+  "name": "Fårö",
+  "slug": "faro",
+  "country_code": "SE",
+  "country": "Sweden",
+  "region": "Gotland Archipelago",
+  "reference": [
+    19.1629,
+    57.95167
+  ],
+  "source_id": "geonames:2715292",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3dadae",
+        "#6cc1cb",
+        "#a4d3df",
+        "#ddecf3"
+      ],
+      "#dbddeb",
+      "Ochre Aragonite"
+    ],
+    "S": [
+      [
+        "#45136c",
+        "#8621ba",
+        "#c667e4",
+        "#ecbef4"
+      ],
+      "#60611a",
+      "Cinnabar Garnet"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Porcelain",
+    "S": "Emerald Velvet"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 410,
+  "area_km2": 118.00257436760732,
+  "gshhg_area_km2": 118.00257436760732,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "000110",
+  "letter": "J",
+  "name": "Jeju",
+  "slug": "jeju",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Jeju Strait",
+  "reference": [
+    126.54611,
+    33.40167
+  ],
+  "source_id": "geonames:1846264",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Korea Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae513d",
+        "#cb866c",
+        "#dfbba4",
+        "#f3e8dd"
+      ],
+      "#eaebdb",
+      "Saffron Heliodor"
+    ],
+    "S": [
+      [
+        "#2c6c13",
+        "#3cba21",
+        "#71e467",
+        "#bef4bf"
+      ],
+      "#261a61",
+      "Rose Jadeite"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Porcelain",
+    "S": "Ultramarine Velvet"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Green"
+  },
+  "largest_settlement": "Jeju City",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1522,
+  "area_km2": 1843.9713744271926,
+  "gshhg_area_km2": 1843.9713744271926,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Jeju City",
+    "country": "KR",
+    "lon": 126.52194,
+    "lat": 33.50972,
+    "population": 488844,
+    "source": "https://www.geonames.org/1846266"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

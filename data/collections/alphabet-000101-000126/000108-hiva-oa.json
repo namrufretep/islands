@@ -1,0 +1,68 @@
+{
+  "id": "000108",
+  "letter": "H",
+  "name": "Hiva Oa",
+  "slug": "hiva-oa",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Marquesas Islands",
+  "reference": [
+    -138.99941,
+    -9.76529
+  ],
+  "source_id": "geonames:4019996",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#376c13",
+        "#50ba21",
+        "#81e467",
+        "#c4f4be"
+      ],
+      "#1d1a61",
+      "Coral Rhodonite"
+    ],
+    "S": [
+      [
+        "#3d9eae",
+        "#6cb4cb",
+        "#a4cbdf",
+        "#dde9f3"
+      ],
+      "#dcdbeb",
+      "Lime Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Vermilion Velvet",
+    "S": "Coral Porcelain"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Atuona",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 794,
+  "area_km2": 326.99333628424614,
+  "gshhg_area_km2": 326.99333628424614,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Atuona",
+    "country": "PF",
+    "lon": -139.04202,
+    "lat": -9.80342,
+    "population": 1762,
+    "source": "https://www.geonames.org/4020109"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

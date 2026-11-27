@@ -1,0 +1,126 @@
+{
+  "id": "000108",
+  "letter": "H",
+  "name": "Hiva Oa",
+  "slug": "hiva-oa",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Marquesas Islands",
+  "reference": [
+    -138.99941,
+    -9.76529
+  ],
+  "source_id": "geonames:4019996",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#376c13",
+        "#50ba21",
+        "#81e467",
+        "#c4f4be"
+      ],
+      "#1d1a61",
+      "Coral Rhodonite"
+    ],
+    "S": [
+      [
+        "#3d9eae",
+        "#6cb4cb",
+        "#a4cbdf",
+        "#dde9f3"
+      ],
+      "#dcdbeb",
+      "Lime Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Vermilion Velvet",
+    "S": "Coral Porcelain"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Atuona",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 794,
+  "area_km2": 326.99333628424614,
+  "gshhg_area_km2": 326.99333628424614,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Atuona",
+    "country": "PF",
+    "lon": -139.04202,
+    "lat": -9.80342,
+    "population": 1762,
+    "source": "https://www.geonames.org/4020109"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -286.0698547363281,
+  "max_land_elevation_m": 1240.0426025390625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1078.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1079.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1080.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/232/1081.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1078.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1079.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1080.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/233/1081.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1078.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1079.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1080.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/234/1081.tif"
+  ],
+  "resolution_m": 92.25929553073506,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-9.76529 +lon_0=-138.99941 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -18414.477040589656,
+    -10706.445286312952,
+    21736.768374386247,
+    7636.234082565193
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 23.064823882683765,
+  "artwork_print_scale_denominator": 272419.1797167374,
+  "color_mood": "Coral Rhodonite",
+  "background": "#1d1a61",
+  "background_name": "Vermilion Velvet",
+  "color_family": "Yellow",
+  "palette": [
+    "#376c13",
+    "#50ba21",
+    "#81e467",
+    "#c4f4be"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "50e37cb783995992d16c6c653c07d1492e3e7d2d724a994fbc6d6c0c24753165",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

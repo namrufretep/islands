@@ -1,0 +1,130 @@
+{
+  "id": "000105",
+  "letter": "E",
+  "name": "Efate",
+  "slug": "efate",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Shefa Province",
+  "reference": [
+    168.39415,
+    -17.67899
+  ],
+  "source_id": "geonames:2137141",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c2e0b",
+        "#6b5b14",
+        "#a79c20",
+        "#d8db43"
+      ],
+      "#1f290d",
+      "Violet Fluorite"
+    ],
+    "S": [
+      [
+        "#0a521d",
+        "#139a45",
+        "#2ee584",
+        "#89f0c4"
+      ],
+      "#da3eae",
+      "Aubergine Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Violet Night",
+    "S": "Lime Field"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": "Port-Vila",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1022,
+  "area_km2": 901.8162810373356,
+  "gshhg_area_km2": 901.8162810373356,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Port-Vila",
+    "country": "VU",
+    "lon": 168.31366,
+    "lat": -17.73648,
+    "population": 35901,
+    "source": "https://www.geonames.org/2135171"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -303.3251647949219,
+  "max_land_elevation_m": 638.2002563476562,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1124.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1125.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1126.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1127.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1124.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1125.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1126.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1981/1127.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1124.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1125.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1126.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1982/1127.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1124.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1125.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1126.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1983/1127.tif"
+  ],
+  "resolution_m": 106.63983315871499,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-17.67899 +lon_0=168.39415 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -25853.681232252286,
+    -16947.06754352584,
+    20555.974158420482,
+    16718.034503736762
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 26.659958289678748,
+  "artwork_print_scale_denominator": 314881.39712219,
+  "color_mood": "Violet Fluorite",
+  "background": "#1f290d",
+  "background_name": "Violet Night",
+  "color_family": "Orange",
+  "palette": [
+    "#3c2e0b",
+    "#6b5b14",
+    "#a79c20",
+    "#d8db43"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "10d9928a5beae19b381a4dded4dd6fb035032065858c0e5c20cb942caf016274",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

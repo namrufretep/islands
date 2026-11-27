@@ -1,0 +1,126 @@
+{
+  "id": "000119",
+  "letter": "S",
+  "name": "Saaremaa",
+  "slug": "saaremaa",
+  "country_code": "EE",
+  "country": "Estonia",
+  "region": "West Estonian Archipelago",
+  "reference": [
+    22.49639,
+    58.41333
+  ],
+  "source_id": "geonames:588878",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0a5244",
+        "#139a8d",
+        "#2ee5e5",
+        "#89e6f0"
+      ],
+      "#da3e5a",
+      "Plum Garnet"
+    ],
+    "S": [
+      [
+        "#1d0b3c",
+        "#3c146b",
+        "#6b20a7",
+        "#a643db"
+      ],
+      "#280d29",
+      "Ultramarine Aragonite"
+    ]
+  },
+  "background_names": {
+    "N": "Jade Field",
+    "S": "Plum Night"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": "Kuressaare",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3693,
+  "area_km2": 2694.2957575245673,
+  "gshhg_area_km2": 2694.2957575245673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kuressaare",
+    "country": "EE",
+    "lon": 22.49217,
+    "lat": 58.25382,
+    "population": 12698,
+    "source": "https://www.geonames.org/590939"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -36.981624603271484,
+  "max_land_elevation_m": 60.469566345214844,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/152.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/153.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/286/154.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/152.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/153.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/287/154.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/152.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/153.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/154.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/152.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/153.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/154.tif"
+  ],
+  "resolution_m": 201.4083993493697,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=58.41333 +lon_0=22.49639 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -39226.56609663017,
+    -56947.99800348492,
+    48426.369300215505,
+    25014.325805572887
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 50.35209983734242,
+  "artwork_print_scale_denominator": 594709.8405985326,
+  "color_mood": "Plum Garnet",
+  "background": "#da3e5a",
+  "background_name": "Jade Field",
+  "color_family": "Turquoise",
+  "palette": [
+    "#0a5244",
+    "#139a8d",
+    "#2ee5e5",
+    "#89e6f0"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "281e80baf4160fe35782c622916bb08e4df14d077eef34766e4afc42b969d408",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

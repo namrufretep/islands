@@ -1,0 +1,118 @@
+{
+  "id": "000121",
+  "letter": "U",
+  "name": "Ustica",
+  "slug": "ustica",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Tyrrhenian Sea",
+  "reference": [
+    13.17512,
+    38.70479
+  ],
+  "source_id": "geonames:2522817",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#293c0b",
+        "#416b14",
+        "#58a720",
+        "#72db43"
+      ],
+      "#0d290d",
+      "Amber Calcite"
+    ],
+    "S": [
+      [
+        "#0a524d",
+        "#13959a",
+        "#2ecce5",
+        "#89d8f0"
+      ],
+      "#da3e46",
+      "Carmine Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Amber Night",
+    "S": "Ochre Field"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Ustica",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 88,
+  "area_km2": 9.148046479329423,
+  "gshhg_area_km2": 9.148046479329423,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ustica",
+    "country": "IT",
+    "lon": 13.19293,
+    "lat": 38.70985,
+    "population": 819,
+    "source": "https://www.geonames.org/2522818"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -215.21524047851562,
+  "max_land_elevation_m": 244.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2197/1569.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2197/1570.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2198/1569.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2198/1570.tif"
+  ],
+  "resolution_m": 10.176738908533043,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.70479 +lon_0=13.17512 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2081.3237342279645,
+    -1595.5426613328555,
+    2347.5930387656153,
+    1827.2402739045579
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.5441847271332607,
+  "artwork_print_scale_denominator": 30049.42591102277,
+  "color_mood": "Amber Calcite",
+  "background": "#0d290d",
+  "background_name": "Amber Night",
+  "color_family": "Yellow",
+  "palette": [
+    "#293c0b",
+    "#416b14",
+    "#58a720",
+    "#72db43"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f29a5fe24fdf1485194b4303c0681cfb215717a70bbf63c3e24c1e4711236590",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

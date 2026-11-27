@@ -1,0 +1,130 @@
+{
+  "id": "000107",
+  "letter": "G",
+  "name": "Gökçeada",
+  "slug": "gokceada",
+  "country_code": "TR",
+  "country": "Türkiye",
+  "region": "North Aegean",
+  "reference": [
+    25.83333,
+    40.16667
+  ],
+  "source_id": "geonames:746835",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#520a3c",
+        "#9a1364",
+        "#e52e8a",
+        "#f089b2"
+      ],
+      "#3eda70",
+      "Cobalt Kyanite"
+    ],
+    "S": [
+      [
+        "#3c350b",
+        "#6b6714",
+        "#a0a720",
+        "#c4db43"
+      ],
+      "#1c290d",
+      "Indigo Aquamarine"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Field",
+    "S": "Cobalt Night"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Gökçeada",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 544,
+  "area_km2": 290.5625822534084,
+  "gshhg_area_km2": 290.5625822534084,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Gökçeada",
+    "country": "TR",
+    "lon": 25.90902,
+    "lat": 40.20107,
+    "population": 7822,
+    "source": "https://www.geonames.org/745260"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -4.482686519622803,
+  "max_land_elevation_m": 663.3279418945312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/773.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/774.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/775.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/773.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/774.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/775.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/773.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/774.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/775.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/772.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/773.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/774.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/775.tif"
+  ],
+  "resolution_m": 68.2079566292713,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.16667 +lon_0=25.83333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14388.685284465151,
+    -8650.784103514965,
+    15295.417440593714,
+    8285.42773446046
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 17.051989157317823,
+  "artwork_print_scale_denominator": 201401.44673997432,
+  "color_mood": "Cobalt Kyanite",
+  "background": "#3eda70",
+  "background_name": "Rose Field",
+  "color_family": "Pink",
+  "palette": [
+    "#520a3c",
+    "#9a1364",
+    "#e52e8a",
+    "#f089b2"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "375cd55207d34715552674e36ecc3077ba257c49cf0016f160412d2523e4abe0",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

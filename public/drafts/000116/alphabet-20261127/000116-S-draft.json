@@ -1,0 +1,134 @@
+{
+  "id": "000116",
+  "letter": "P",
+  "name": "Pico",
+  "slug": "pico",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Central Group",
+  "reference": [
+    -28.35091,
+    38.47644
+  ],
+  "source_id": "geonames:3372803",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1a6c13",
+        "#21ba25",
+        "#67e477",
+        "#bef4ca"
+      ],
+      "#341a61",
+      "Lime Peridot"
+    ],
+    "S": [
+      [
+        "#3d78ae",
+        "#6c94cb",
+        "#a4b7df",
+        "#dde2f3"
+      ],
+      "#e1dbeb",
+      "Magenta Spinel"
+    ]
+  },
+  "background_names": {
+    "N": "Cobalt Velvet",
+    "S": "Lime Porcelain"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Madalena",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 700,
+  "area_km2": 456.22987253309174,
+  "gshhg_area_km2": 456.22987253309174,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Madalena",
+    "country": "PT",
+    "lon": -28.5266,
+    "lat": 38.53642,
+    "population": 6136,
+    "source": "https://www.geonames.org/3372908"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -178.69378662109375,
+  "max_land_elevation_m": 2268.3701171875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/786.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/787.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/861/788.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/786.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/787.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/862/788.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/786.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/787.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/863/788.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/786.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/787.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/864/788.tif"
+  ],
+  "resolution_m": 103.31375602985331,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.47644 +lon_0=-28.35091 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -16970.906218121992,
+    -10471.74737976224,
+    27991.24040607017,
+    9506.070135667409
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 25.828439007463327,
+  "artwork_print_scale_denominator": 305060.30323775584,
+  "color_mood": "Magenta Spinel",
+  "background": "#e1dbeb",
+  "background_name": "Lime Porcelain",
+  "color_family": "Blue",
+  "palette": [
+    "#3d78ae",
+    "#6c94cb",
+    "#a4b7df",
+    "#dde2f3"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "fef52a5f71de52de16c95029a5b997d57e82153b73eafa6fd9bfbd3e965987ab",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

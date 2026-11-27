@@ -1,0 +1,116 @@
+{
+  "id": "000106",
+  "letter": "F",
+  "name": "Fårö",
+  "slug": "faro",
+  "country_code": "SE",
+  "country": "Sweden",
+  "region": "Gotland Archipelago",
+  "reference": [
+    19.1629,
+    57.95167
+  ],
+  "source_id": "geonames:2715292",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3dadae",
+        "#6cc1cb",
+        "#a4d3df",
+        "#ddecf3"
+      ],
+      "#dbddeb",
+      "Ochre Aragonite"
+    ],
+    "S": [
+      [
+        "#45136c",
+        "#8621ba",
+        "#c667e4",
+        "#ecbef4"
+      ],
+      "#60611a",
+      "Cinnabar Garnet"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Porcelain",
+    "S": "Emerald Velvet"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 410,
+  "area_km2": 118.00257436760732,
+  "gshhg_area_km2": 118.00257436760732,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -11.790119171142578,
+  "max_land_elevation_m": 28.564237594604492,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/616.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/617.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1132/618.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/616.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/617.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1133/618.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/616.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/617.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1134/618.tif"
+  ],
+  "resolution_m": 42.875388368839474,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=57.95167 +lon_0=19.1629 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7141.759730875118,
+    -12393.487225247329,
+    11517.60928724382,
+    5339.482275490162
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.718847092209868,
+  "artwork_print_scale_denominator": 126600.55620720318,
+  "color_mood": "Cinnabar Garnet",
+  "background": "#60611a",
+  "background_name": "Emerald Velvet",
+  "color_family": "Purple",
+  "palette": [
+    "#45136c",
+    "#8621ba",
+    "#c667e4",
+    "#ecbef4"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e7b35a0cbb51c41cd00d23025a52a6d14b535c97f5694dd2480d134a382bf937",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

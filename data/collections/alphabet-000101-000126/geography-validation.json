@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "000101",
+    "letter": "A",
+    "name": "Amorgos",
+    "slug": "amorgos",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      25.89831,
+      36.84677
+    ],
+    "source_id": "geonames:265141",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#0b213c",
+          "#14336b",
+          "#2042a7",
+          "#4359db"
+        ],
+        "#110d29",
+        "Ultramarine Azurite"
+      ],
+      "S": [
+        [
+          "#520a4b",
+          "#9a137f",
+          "#e52eae",
+          "#f089c7"
+        ],
+        "#3eda50",
+        "Petrol Carnelian"
+      ]
+    },
+    "background_names": {
+      "N": "Ultramarine Night",
+      "S": "Malachite Field"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Amorgós",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 662,
+    "area_km2": 130.9453419763169,
+    "gshhg_area_km2": 130.9453419763169,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [
+      "https://www.openstreetmap.org/way/305822309"
+    ],
+    "water_count": 1,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Amorgós",
+      "country": "GR",
+      "lon": 25.89821,
+      "lat": 36.83175,
+      "population": 397,
+      "source": "https://www.geonames.org/265142"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive."
+  },
+  {
+    "id": "000102",
+    "letter": "B",
+    "name": "Bazaruto",
+    "slug": "bazaruto",
+    "country_code": "MZ",
+    "country": "Mozambique",
+    "region": "Bazaruto Archipelago",
+    "reference": [
+      35.46778,
+      -21.66278
+    ],
+    "source_id": "geonames:1052387",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ae3d4f",
+          "#cb6c71",
+          "#dfa7a4",
+          "#f3e0dd"
+        ],
+        "#ebe7db",
+        "Copper Jasper"
+      ],
+      "S": [
+        [
+          "#496c13",
+          "#6fba21",
+          "#9ae467",
+          "#cef4be"
+        ],
+        "#1a2561",
+        "Saffron Labradorite"
+      ]
+    },
+    "background_names": {
+      "N": "Copper Porcelain",
+      "S": "Plum Velvet"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Yellow"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 301,
+    "area_km2": 103.56873897207963,
+    "gshhg_area_km2": 103.56873897207963,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [
+      "https://www.openstreetmap.org/way/654013820",
+      "https://www.openstreetmap.org/way/654390599",
+      "https://www.openstreetmap.org/way/654390601",
+      "https://www.openstreetmap.org/way/654390603",
+      "https://www.openstreetmap.org/way/654390622",
+      "https://www.openstreetmap.org/way/654568571",
+      "https://www.openstreetmap.org/way/654568572",
+      "https://www.openstreetmap.org/way/654568573",
+      "https://www.openstreetmap.org/way/654832534",
+      "https://www.openstreetmap.org/way/654832544"
+    ],
+    "water_count": 10,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive."
+  },
+  {
+    "id": "000103",
+    "letter": "C",
+    "name": "Chiloé",
+    "slug": "chiloe",
+    "country_code": "CL",
+    "country": "Chile",
+    "region": "Chiloé Archipelago",
+    "reference": [
+      -73.94676,
+      -42.55798
+    ],
+    "source_id": "geonames:3895071",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0a5214",
+          "#139a33",
+          "#2ee56b",
+          "#89f0b6"
+        ],
+        "#da3ec3",
+        "Carmine Spinel"
+      ],
+      "S": [
+        [
+          "#0b1b3c",
+          "#14276b",
+          "#2030a7",
+          "#4345db"
+        ],
+        "#150d29",
+        "Fuchsia Peridot"
+      ]
+    },
+    "background_names": {
+      "N": "Cinnabar Field",
+      "S": "Carmine Night"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Castro",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 6105,
+    "area_km2": 8806.947503390951,
+    "gshhg_area_km2": 8806.947503390951,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [
+      "https://www.openstreetmap.org/way/13247703",
+      "https://www.openstreetmap.org/way/13248209",
+      "https://www.openstreetmap.org/way/13248560",
+      "https://www.openstreetmap.org/way/24962539",
+      "https://www.openstreetmap.org/way/24962568",
+      "https://www.openstreetmap.org/way/43648626",
+      "https://www.openstreetmap.org/way/86291444",
+      "https://www.openstreetmap.org/way/86291450",
+      "https://www.openstreetmap.org/way/86323177",
+      "https://www.openstreetmap.org/way/86323237",
+      "https://www.openstreetmap.org/way/86324018",
+      "https://www.openstreetmap.org/way/101133459",
+      "https://www.openstreetmap.org/way/137365004",
+      "https://www.openstreetmap.org/way/137365480",
+      "https://www.openstreetmap.org/way/137365935",
+      "https://www.openstreetmap.org/way/137366043",
+      "https://www.openstreetmap.org/way/137483171",
+      "https://www.openstreetmap.org/way/137483172",
+      "https://www.openstreetmap.org/way/137483829",
+      "https://www.openstreetmap.org/way/137483830",
+      "https://www.openstreetmap.org/way/137484630",
+      "https://www.openstreetmap.org/way/137484690",
+      "https://www.openstreetmap.org/way/137484762",
+      "https://www.openstreetmap.org/way/137484904",
+      "https://www.openstreetmap.org/way/137484905",
+      "https://www.openstreetmap.org/way/137484907",
+      "https://www.openstreetmap.org/way/137486070",
+      "https://www.openstreetmap.org/way/139562847",
+      "https://www.openstreetmap.org/way/140618221",
+      "https://www.openstreetmap.org/way/140622822",
+      "https://www.openstreetmap.org/way/140628268",
+      "https://www.openstreetmap.org/way/140628276",
+      "https://www.openstreetmap.org/way/140628669",
+      "https://www.openstreetmap.org/way/141454993",
+      "https://www.openstreetmap.org/way/141454995",
+      "https://www.openstreetmap.org/way/144176964",
+      "https://www.openstreetmap.org/way/145785944",
+      "https://www.openstreetmap.org/way/151305014",
+      "https://www.openstreetmap.org/way/152935729",
+      "https://www.openstreetmap.org/way/152935732",
+      "https://www.openstreetmap.org/way/208927639",
+      "https://www.openstreetmap.org/way/208927644",
+      "https://www.openstreetmap.org/way/225053959",
+      "https://www.openstreetmap.org/way/229291251",
+      "https://www.openstreetmap.org/way/229291320",
+      "https://www.openstreetmap.org/way/229434607",
+      "https://www.openstreetmap.org/way/229449161",
+      "https://www.openstreetmap.org/way/229592664",
+      "https://www.openstreetmap.org/way/261682566",
+      "https://www.openstreetmap.org/way/261752020",
+      "https://www.openstreetmap.org/way/261969186",
+      "https://www.openstreetmap.org/way/261969187",
+      "https://www.openstreetmap.org/way/262146175",
+      "https://www.openstreetmap.org/way/262146176",
+      "https://www.openstreetmap.org/way/262564878",
+      "https://www.openstreetmap.org/way/270445783",
+      "https://www.openstreetmap.org/way/270445784",
+      "https://www.openstreetmap.org/way/270445785",
+      "https://www.openstreetmap.org/way/270447210",
+      "https://www.openstreetmap.org/way/270447212",
+      "https://www.openstreetmap.org/way/270447214",
+      "https://www.openstreetmap.org/way/270452881",
+      "https://www.openstreetmap.org/way/270452882",
+      "https://www.openstreetmap.org/way/270452883",
+      "https://www.openstreetmap.org/way/270452886",
+      "https://www.openstreetmap.org/way/270461872",
+      "https://www.openstreetmap.org/way/270466156",
+      "https://www.openstreetmap.org/way/270468226",
+      "https://www.openstreetmap.org/way/270468229",
+      "https://www.openstreetmap.org/way/270468231",
+      "https://www.openstreetmap.org/way/270468234",
+      "https://www.openstreetmap.org/way/270468236",
+      "https://www.openstreetmap.org/way/270468242",
+      "https://www.openstreetmap.org/way/270468243",
+      "https://www.openstreetmap.org/way/270468245",
+      "https://www.openstreetmap.org/way/270468247",
+      "https://www.openstreetmap.org/way/270468249",
+      "https://www.openstreetmap.org/way/270468251",
+      "https://www.openstreetmap.org/way/270468254",
+      "https://www.openstreetmap.org/way/270468256",
+      "https://www.openstreetmap.org/way/270468258",
+      "https://www.openstreetmap.org/way/270468260",
+      "https://www.openstreetmap.org/way/270468264",
+      "https://www.openstreetmap.org/way/270468265",
+      "https://www.openstreetmap.org/way/282166058",
+      "https://www.openstreetmap.org/way/291715542",
+      "https://www.openstreetmap.org/way/291715692",
+      "https://www.openstreetmap.org/way/291716426",
+      "https://www.openstreetmap.org/way/293606609",
+      "https://www.openstreetmap.org/way/299165691",
+      "https://www.openstreetmap.org/way/299688301",
+      "https://www.openstreetmap.org/way/299689066",
+      "https://www.openstreetmap.org/way/302936965",
+      "https://www.openstreetmap.org/way/304123640",
+      "https://www.openstreetmap.org/way/313411769",
+      "https://www.openstreetmap.org/way/316898550",
+      "https://www.openstreetmap.org/way/316899070",
+      "https://www.openstreetmap.org/way/316899071",
+      "https://www.openstreetmap.org/way/316900955",
+      "https://www.openstreetmap.org/way/317073263",
+      "https://www.openstreetmap.org/way/317073264",
+      "https://www.openstreetmap.org/way/317073265",
+      "https://www.openstreetmap.org/way/317073266",
+      "https://www.openstreetmap.org/way/317082027",
+      "https://www.openstreetmap.org/way/317522921",
+      "https://www.openstreetmap.org/way/317841816",
+      "https://www.openstreetmap.org/way/317841817",
+      "https://www.openstreetmap.org/way/317845990",
+      "https://www.openstreetmap.org/way/317845991",
+      "https://www.openstreetmap.org/way/317932002",
+      "https://www.openstreetmap.org/way/317932003",
+      "https://www.openstreetmap.org/way/318027173",
+      "https://www.openstreetmap.org/way/318270241",
+      "https://www.openstreetmap.org/way/318305999",
+      "https://www.openstreetmap.org/way/318307115",
+      "https://www.openstreetmap.org/way/318320826",
+      "https://www.openstreetmap.org/way/318320829",
+      "https://www.openstreetmap.org/way/318320831",
+      "https://www.openstreetmap.org/way/318633012",
+      "https://www.openstreetmap.org/way/320127317",
+      "https://www.openstreetmap.org/way/320127318",
+      "https://www.openstreetmap.org/way/320127319",
+      "https://www.openstreetmap.org/way/320127320",
+      "https://www.openstreetmap.org/way/320132553",
+      "https://www.openstreetmap.org/way/320132554",
+      "https://www.openstreetmap.org/way/320135159",
+      "https://www.openstreetmap.org/way/320135160",
+      "https://www.openstreetmap.org/way/320135161",
+      "https://www.openstreetmap.org/way/322978744",
+      "https://www.openstreetmap.org/way/322992201",
+      "https://www.openstreetmap.org/way/322992202",
+      "https://www.openstreetmap.org/way/322992203",
+      "https://www.openstreetmap.org/way/322992519",
+      "https://www.openstreetmap.org/way/322994214",
+      "https://www.openstreetmap.org/way/326424389",
+      "https://www.openstreetmap.org/way/329554120",
+      "https://www.openstreetmap.org/way/336755066",
+      "https://www.openstreetmap.org/way/338218576",
+      "https://www.openstreetmap.org/way/338222189",
+      "https://www.openstreetmap.org/way/338222190",
+      "https://www.openstreetmap.org/way/338425995",
+      "https://www.openstreetmap.org/way/338425996",
+      "https://www.openstreetmap.org/way/338425999",
+      "https://www.openstreetmap.org/way/338690543",
+      "https://www.openstreetmap.org/way/339258117",
+      "https://www.openstreetmap.org/way/344534449",
+      "https://www.openstreetmap.org/way/400414973",
+      "https://www.openstreetmap.org/way/400422656",
+      "https://www.openstreetmap.org/way/400422660",
+      "https://www.openstreetmap.org/way/442246801",
+      "https://www.openstreetmap.org/way/442246802",
+      "https://www.openstreetmap.org/way/442333629",
+      "https://www.openstreetmap.org/way/442333631",
+      "https://www.openstreetmap.org/way/446945901",
+      "https://www.openstreetmap.org/way/447025560",
+      "https://www.openstreetmap.org/way/447035887",
+      "https://www.openstreetmap.org/way/461971332",
+      "https://www.openstreetmap.org/way/490549823",
+      "https://www.openstreetmap.org/way/501469862",
+      "https://www.openstreetmap.org/way/530118200",
+      "https://www.openstreetmap.org/way/530889112",
+      "https://www.openstreetmap.org/way/551970131",
+      "https://www.openstreetmap.org/way/553793085",
+      "https://www.openstreetmap.org/way/558342639",
+      "https://www.openstreetmap.org/way/563164537",
+      "https://www.openstreetmap.org/way/563392143",
+      "https://www.openstreetmap.org/way/563392144",
+      "https://www.openstreetmap.org/way/563392145",
+      "https://www.openstreetmap.org/way/588158628",
+      "https://www.openstreetmap.org/way/700141816",
+      "https://www.openstreetmap.org/way/700141817",
+      "https://www.openstreetmap.org/way/700148028",
+      "https://www.openstreetmap.org/way/700148031",
+      "https://www.openstreetmap.org/way/705491734",
+      "https://www.openstreetmap.org/way/709781146",
+      "https://www.openstreetmap.org/way/709789175",
+      "https://www.openstreetmap.org/way/709789180",
+      "https://www.openstreetmap.org/way/755434899",
+      "https://www.openstreetmap.org/way/755434900",
+      "https://www.openstreetmap.org/way/755434901",
+      "https://www.openstreetmap.org/way/755434902",
+      "https://www.openstreetmap.org/way/755434903",
+      "https://www.openstreetmap.org/way/755434904",
+      "https://www.openstreetmap.org/way/755434905",
+      "https://www.openstreetmap.org/way/755434906",
+      "https://www.openstreetmap.org/way/755434907",
+      "https://www.openstreetmap.org/way/755434914",
+      "https://www.openstreetmap.org/way/755434919",
+      "https://www.openstreetmap.org/way/755434920",
+      "https://www.openstreetmap.org/way/755434921",
+      "https://www.openstreetmap.org/way/755434922",
+      "https://www.openstreetmap.org/way/755434923",
+      "https://www.openstreetmap.org/way/755434924",
+      "https://www.openstreetmap.org/way/755434925",
+      "https://www.openstreetmap.org/way/755434926",
+      "https://www.openstreetmap.org/way/772783705",
+      "https://www.openstreetmap.org/way/807928416",
+      "https://www.openstreetmap.org/way/807928422",
+      "https://www.openstreetmap.org/way/814750183",
+      "https://www.openstreetmap.org/way/814750201",
+      "https://www.openstreetmap.org/way/814750202",
+      "https://www.openstreetmap.org/way/814750218",
+      "https://www.openstreetmap.org/way/814750219",
+      "https://www.openstreetmap.org/way/814750220",
+      "https://www.openstreetmap.org/way/814750221",
+      "https://www.openstreetmap.org/way/814750222",
+      "https://www.openstreetmap.org/way/814750223",
+      "https://www.openstreetmap.org/way/814750224",
+      "https://www.openstreetmap.org/way/814750225",
+      "https://www.openstreetmap.org/way/814750226",
+      "https://www.openstreetmap.org/way/814750227",
+      "https://www.openstreetmap.org/way/814750228",
+      "https://www.openstreetmap.org/way/814750233",
+      "https://www.openstreetmap.org/way/814825939",
+      "https://www.openstreetmap.org/way/814825940",
+      "https://www.openstreetmap.org/way/814825949",
+      "https://www.openstreetmap.org/way/838573487",
+      "https://www.openstreetmap.org/way/855459477",
+      "https://www.openstreetmap.org/way/855459478",
+      "https://www.openstreetmap.org/way/855459479",
+      "https://www.openstreetmap.org/way/860702930",
+      "https://www.openstreetmap.org/way/902162283",
+      "https://www.openstreetmap.org/way/915890950",
+      "https://www.openstreetmap.org/way/970438047",
+      "https://www.openstreetmap.org/way/982778912",
+      "https://www.openstreetmap.org/way/982778914",
+      "https://www.openstreetmap.org/way/987801696",
+      "https://www.openstreetmap.org/way/987801700",
+      "https://www.openstreetmap.org/way/1031833419",
+      "https://www.openstreetmap.org/way/1040076999",
+      "https://www.openstreetmap.org/way/1040095467",
+      "https://www.openstreetmap.org/way/1040667414",
+      "https://www.openstreetmap.org/way/1040667419",
+      "https://www.openstreetmap.org/way/1040667423",
+      "https://www.openstreetmap.org/way/1040667424",
+      "https://www.openstreetmap.org/way/1040667425",
+      "https://www.openstreetmap.org/way/1040884103",
+      "https://www.openstreetmap.org/way/1040884104",
+      "https://www.openstreetmap.org/way/1041278870",
+      "https://www.openstreetmap.org/way/1041287797",
+      "https://www.openstreetmap.org/way/1106126934",
+      "https://www.openstreetmap.org/way/1106126935",
+      "https://www.openstreetmap.org/way/1106126936",
+      "https://www.openstreetmap.org/way/1106126945",
+      "https://www.openstreetmap.org/way/1106126946",
+      "https://www.openstreetmap.org/way/1106126947",
+      "https://www.openstreetmap.org/way/1106126948",
+      "https://www.openstreetmap.org/way/1106126949",
+      "https://www.openstreetmap.org/way/1106126950",
+      "https://www.openstreetmap.org/way/1106126951",
+      "https://www.openstreetmap.org/way/1106126953",
+      "https://www.openstreetmap.org/way/1106126954",
+      "https://www.openstreetmap.org/way/1106126955",
+      "https://www.openstreetmap.org/way/1106126956",
+      "https://www.openstreetmap.org/way/1106129054",
+      "https://www.openstreetmap.org/way/1149862724",
+      "https://www.openstreetmap.org/way/1164563679",
+      "https://www.openstreetmap.org/way/1164563680",
+      "https://www.openstreetmap.org/way/1185618414",
+      "https://www.openstreetmap.org/way/1185627191",
+      "https://www.openstreetmap.org/way/1228346025",
+      "https://www.openstreetmap.org/way/1241456263",
+      "https://www.openstreetmap.org/way/1241456271",
+      "https://www.openstreetmap.org/way/1241456273",
+      "https://www.openstreetmap.org/way/1241456280",
+      "https://www.openstreetmap.org/way/1247467462",
+      "https://www.openstreetmap.org/way/1254981931",
+      "https://www.openstreetmap.org/way/1256660012",
+      "https://www.openstreetmap.org/way/1256660013",
+      "https://www.openstreetmap.org/way/1266175463",
+      "https://www.openstreetmap.org/way/1327138573",
+      "https://www.openstreetmap.org/way/1327138755",
+      "https://www.openstreetmap.org/way/1327602894",
+      "https://www.openstreetmap.org/way/1327696896",
+      "https://www.openstreetmap.org/way/1327696898",
+      "https://www.openstreetmap.org/way/1352110935",
+      "https://www.openstreetmap.org/way/1378597705",
+      "https://www.openstreetmap.org/way/1380359408",
+      "https://www.openstreetmap.org/way/1443518031",
+      "https://www.openstreetmap.org/way/1443518032",
+      "https://www.openstreetmap.org/way/1566670121",
+      "https://www.openstreetmap.org/way/1575665403",
+      "https://www.openstreetmap.org/way/1575665404",
+      "https://www.openstreetmap.org/way/1575665405",
+      "https://www.openstreetmap.org/way/1575665406",
+      "https://www.openstreetmap.org/way/1575665407",
+      "https://www.openstreetmap.org/way/1575665410",
+      "https://www.openstreetmap.org/way/1582304498",
+      "https://www.openstreetmap.org/way/1582304500",
+      "https://www.openstreetmap.org/relation/4140203",
+      "https://www.openstreetmap.org/relation/4737787",
+      "https://www.openstreetmap.org/relation/4737898",
+      "https://www.openstreetmap.org/relation/5398457",
+      "https://www.openstreetmap.org/relation/5451557",
+      "https://www.openstreetmap.org/relation/10409300",
+      "https://www.openstreetmap.org/relation/10409301",
+      "https://www.openstreetmap.org/relation/11651137",
+      "https://www.openstreetmap.org/relation/18133972",
+      "https://www.openstreetmap.org/relation/18133973",
+      "https://www.openstreetmap.org/relation/18194777",
+      "https://www.openstreetmap.org/relation/21898461"
+    ],
+    "water_count": 288,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Castro",
+      "country": "CL",
+      "lon": -73.77319,
+      "lat": -42.4721,
+      "population": 41667,
+      "source": "https://www.geonames.org/3896218"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "Mapped inland waters from GSHHG and a dated OpenStreetMap query; not exhaustive."
+  },
+  {
+    "id": "000104",
+    "letter": "D",
+    "name": "Dominica",
+    "slug": "dominica",
+    "country_code": "DM",
+    "country": "Dominica",
+    "region": "Lesser Antilles",
+    "reference": [
+      -61.34216,
+      15.43713
+    ],
+    "source_id": "geonames:3575831",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#39136c",
+          "#7221ba",
+          "#b567e4",
+          "#e5bef4"
+        ],
+        "#61581a",
+        "Jade Chrysoprase"
+      ],
+      "S": [
+        [
+          "#ae3d40",
+          "#cb736c",
+          "#dfafa4",
+          "#f3e3dd"
+        ],
+        "#ebe9db",
+        "Malachite Amazonite"
+      ]
+    },
+    "background_names": {
+      "N": "Amber Velvet",
+      "S": "Jade Porcelain"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Red"
+    },
+    "largest_settlement": "Roseau",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 802,
+    "area_km2": 761.7460181090815,
+    "gshhg_area_km2": 761.7460181090815,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Roseau",
+      "country": "DM",
+      "lon": -61.38808,
+      "lat": 15.30174,
+      "population": 16571,
+      "source": "https://www.geonames.org/3575635"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000105",
+    "letter": "E",
+    "name": "Efate",
+    "slug": "efate",
+    "country_code": "VU",
+    "country": "Vanuatu",
+    "region": "Shefa Province",
+    "reference": [
+      168.39415,
+      -17.67899
+    ],
+    "source_id": "geonames:2137141",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Coral Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3c2e0b",
+          "#6b5b14",
+          "#a79c20",
+          "#d8db43"
+        ],
+        "#1f290d",
+        "Violet Fluorite"
+      ],
+      "S": [
+        [
+          "#0a521d",
+          "#139a45",
+          "#2ee584",
+          "#89f0c4"
+        ],
+        "#da3eae",
+        "Aubergine Quartz"
+      ]
+    },
+    "background_names": {
+      "N": "Violet Night",
+      "S": "Lime Field"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Green"
+    },
+    "largest_settlement": "Port-Vila",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1022,
+    "area_km2": 901.8162810373356,
+    "gshhg_area_km2": 901.8162810373356,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Port-Vila",
+      "country": "VU",
+      "lon": 168.31366,
+      "lat": -17.73648,
+      "population": 35901,
+      "source": "https://www.geonames.org/2135171"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000106",
+    "letter": "F",
+    "name": "Fårö",
+    "slug": "faro",
+    "country_code": "SE",
+    "country": "Sweden",
+    "region": "Gotland Archipelago",
+    "reference": [
+      19.1629,
+      57.95167
+    ],
+    "source_id": "geonames:2715292",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Baltic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3dadae",
+          "#6cc1cb",
+          "#a4d3df",
+          "#ddecf3"
+        ],
+        "#dbddeb",
+        "Ochre Aragonite"
+      ],
+      "S": [
+        [
+          "#45136c",
+          "#8621ba",
+          "#c667e4",
+          "#ecbef4"
+        ],
+        "#60611a",
+        "Cinnabar Garnet"
+      ]
+    },
+    "background_names": {
+      "N": "Ochre Porcelain",
+      "S": "Emerald Velvet"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Purple"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 410,
+    "area_km2": 118.00257436760732,
+    "gshhg_area_km2": 118.00257436760732,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000107",
+    "letter": "G",
+    "name": "Gökçeada",
+    "slug": "gokceada",
+    "country_code": "TR",
+    "country": "Türkiye",
+    "region": "North Aegean",
+    "reference": [
+      25.83333,
+      40.16667
+    ],
+    "source_id": "geonames:746835",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#520a3c",
+          "#9a1364",
+          "#e52e8a",
+          "#f089b2"
+        ],
+        "#3eda70",
+        "Cobalt Kyanite"
+      ],
+      "S": [
+        [
+          "#3c350b",
+          "#6b6714",
+          "#a0a720",
+          "#c4db43"
+        ],
+        "#1c290d",
+        "Indigo Aquamarine"
+      ]
+    },
+    "background_names": {
+      "N": "Rose Field",
+      "S": "Cobalt Night"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Orange"
+    },
+    "largest_settlement": "Gökçeada",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 544,
+    "area_km2": 290.5625822534084,
+    "gshhg_area_km2": 290.5625822534084,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Gökçeada",
+      "country": "TR",
+      "lon": 25.90902,
+      "lat": 40.20107,
+      "population": 7822,
+      "source": "https://www.geonames.org/745260"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000108",
+    "letter": "H",
+    "name": "Hiva Oa",
+    "slug": "hiva-oa",
+    "country_code": "PF",
+    "country": "French Polynesia",
+    "region": "Marquesas Islands",
+    "reference": [
+      -138.99941,
+      -9.76529
+    ],
+    "source_id": "geonames:4019996",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#376c13",
+          "#50ba21",
+          "#81e467",
+          "#c4f4be"
+        ],
+        "#1d1a61",
+        "Coral Rhodonite"
+      ],
+      "S": [
+        [
+          "#3d9eae",
+          "#6cb4cb",
+          "#a4cbdf",
+          "#dde9f3"
+        ],
+        "#dcdbeb",
+        "Lime Calcite"
+      ]
+    },
+    "background_names": {
+      "N": "Vermilion Velvet",
+      "S": "Coral Porcelain"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Turquoise"
+    },
+    "largest_settlement": "Atuona",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 794,
+    "area_km2": 326.99333628424614,
+    "gshhg_area_km2": 326.99333628424614,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Atuona",
+      "country": "PF",
+      "lon": -139.04202,
+      "lat": -9.80342,
+      "population": 1762,
+      "source": "https://www.geonames.org/4020109"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000109",
+    "letter": "I",
+    "name": "Isabela (Galápagos)",
+    "slug": "isabela--galapagos",
+    "country_code": "EC",
+    "country": "Ecuador",
+    "region": "Galápagos Islands",
+    "reference": [
+      -91.02528,
+      -0.59286
+    ],
+    "source_id": "geonames:3655571",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0b113c",
+          "#14166b",
+          "#2b20a7",
+          "#5f43db"
+        ],
+        "#1b0d29",
+        "Petrol Apatite"
+      ],
+      "S": [
+        [
+          "#520a33",
+          "#9a1352",
+          "#e52e71",
+          "#f089a4"
+        ],
+        "#3eda85",
+        "Turquoise Kunzite"
+      ]
+    },
+    "background_names": {
+      "N": "Petrol Night",
+      "S": "Azure Field"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Puerto Villamil",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 2887,
+    "area_km2": 4717.422064642997,
+    "gshhg_area_km2": 4717.422064642997,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Puerto Villamil",
+      "country": "EC",
+      "lon": -90.96654,
+      "lat": -0.95542,
+      "population": 2200,
+      "source": "https://www.geonames.org/3652694"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000110",
+    "letter": "J",
+    "name": "Jeju",
+    "slug": "jeju",
+    "country_code": "KR",
+    "country": "South Korea",
+    "region": "Jeju Strait",
+    "reference": [
+      126.54611,
+      33.40167
+    ],
+    "source_id": "geonames:1846264",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Korea Strait",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ae513d",
+          "#cb866c",
+          "#dfbba4",
+          "#f3e8dd"
+        ],
+        "#eaebdb",
+        "Saffron Heliodor"
+      ],
+      "S": [
+        [
+          "#2c6c13",
+          "#3cba21",
+          "#71e467",
+          "#bef4bf"
+        ],
+        "#261a61",
+        "Rose Jadeite"
+      ]
+    },
+    "background_names": {
+      "N": "Saffron Porcelain",
+      "S": "Ultramarine Velvet"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Green"
+    },
+    "largest_settlement": "Jeju City",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1522,
+    "area_km2": 1843.9713744271926,
+    "gshhg_area_km2": 1843.9713744271926,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Jeju City",
+      "country": "KR",
+      "lon": 126.52194,
+      "lat": 33.50972,
+      "population": 488844,
+      "source": "https://www.geonames.org/1846266"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000111",
+    "letter": "K",
+    "name": "Ko Lanta Yai",
+    "slug": "ko-lanta-yai",
+    "country_code": "TH",
+    "country": "Thailand",
+    "region": "Krabi",
+    "reference": [
+      99.05654,
+      7.56593
+    ],
+    "source_id": "geonames:1152414",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Andaman Sea",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0a522c",
+          "#139a60",
+          "#2ee5a8",
+          "#89f0d8"
+        ],
+        "#da3e8f",
+        "Fuchsia Tourmaline"
+      ],
+      "S": [
+        [
+          "#0c0b3c",
+          "#1f146b",
+          "#3d20a7",
+          "#7343db"
+        ],
+        "#1f0d29",
+        "Plum Lepidolite"
+      ]
+    },
+    "background_names": {
+      "N": "Orchid Field",
+      "S": "Fuchsia Night"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Purple"
+    },
+    "largest_settlement": "Saladan",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 477,
+    "area_km2": 156.5724154078071,
+    "gshhg_area_km2": 156.5724154078071,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Saladan",
+      "country": "TH",
+      "lon": 99.03651,
+      "lat": 7.61342,
+      "population": 7946,
+      "source": "https://www.geonames.org/6691842"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000112",
+    "letter": "L",
+    "name": "Lampedusa",
+    "slug": "lampedusa",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Pelagie Islands",
+    "reference": [
+      12.58333,
+      35.51667
+    ],
+    "source_id": "geonames:2524458",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#57136c",
+          "#a521ba",
+          "#df67e4",
+          "#f4bef0"
+        ],
+        "#52611a",
+        "Malachite Serpentine"
+      ],
+      "S": [
+        [
+          "#ae603d",
+          "#cb936c",
+          "#dfc2a4",
+          "#f3eadd"
+        ],
+        "#e8ebdb",
+        "Azure Sunstone"
+      ]
+    },
+    "background_names": {
+      "N": "Carmine Velvet",
+      "S": "Malachite Porcelain"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Orange"
+    },
+    "largest_settlement": "Lampedusa",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 200,
+    "area_km2": 18.844582043952496,
+    "gshhg_area_km2": 18.844582043952496,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Lampedusa",
+      "country": "IT",
+      "lon": 12.60964,
+      "lat": 35.50142,
+      "population": 4065,
+      "source": "https://www.geonames.org/2524459"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000113",
+    "letter": "M",
+    "name": "Montserrat",
+    "slug": "montserrat",
+    "country_code": "MS",
+    "country": "Montserrat",
+    "region": "Lesser Antilles",
+    "reference": [
+      -62.18983,
+      16.7404
+    ],
+    "source_id": "geonames:3578098",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#393c0b",
+          "#5e6b14",
+          "#85a720",
+          "#a5db43"
+        ],
+        "#16290d",
+        "Aubergine Amethyst"
+      ],
+      "S": [
+        [
+          "#0a5235",
+          "#139a72",
+          "#2ee5c1",
+          "#89f0e6"
+        ],
+        "#da3e7a",
+        "Amber Chalcedony"
+      ]
+    },
+    "background_names": {
+      "N": "Aubergine Night",
+      "S": "Magenta Field"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Turquoise"
+    },
+    "largest_settlement": "Brades",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 243,
+    "area_km2": 100.07231895910526,
+    "gshhg_area_km2": 100.07231895910526,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Brades",
+      "country": "MS",
+      "lon": -62.21058,
+      "lat": 16.79183,
+      "population": 1000,
+      "source": "https://www.geonames.org/7266440"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000114",
+    "letter": "N",
+    "name": "Nisyros",
+    "slug": "nisyros",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Dodecanese",
+    "reference": [
+      27.16819,
+      36.5905
+    ],
+    "source_id": "geonames:256378",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#3d87ae",
+          "#6ca1cb",
+          "#a4bfdf",
+          "#dde5f3"
+        ],
+        "#dfdbeb",
+        "Cinnabar Carnelian"
+      ],
+      "S": [
+        [
+          "#63136c",
+          "#b921ba",
+          "#e467d9",
+          "#f4bee9"
+        ],
+        "#48611a",
+        "Orchid Azurite"
+      ]
+    },
+    "background_names": {
+      "N": "Cinnabar Porcelain",
+      "S": "Violet Velvet"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Mandráki",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 163,
+    "area_km2": 42.441959839260015,
+    "gshhg_area_km2": 42.441959839260015,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Mandráki",
+      "country": "GR",
+      "lon": 27.13333,
+      "lat": 36.61139,
+      "population": 682,
+      "source": "https://www.geonames.org/257804"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000115",
+    "letter": "O",
+    "name": "Okinawa",
+    "slug": "okinawa",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Ryukyu Islands",
+    "reference": [
+      127.94581,
+      26.50687
+    ],
+    "source_id": "geonames:1854346",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#520a24",
+          "#9a1337",
+          "#e52e4c",
+          "#f08990"
+        ],
+        "#3edaa4",
+        "Indigo Labradorite"
+      ],
+      "S": [
+        [
+          "#333c0b",
+          "#526b14",
+          "#73a720",
+          "#91db43"
+        ],
+        "#12290d",
+        "Emerald Jasper"
+      ]
+    },
+    "background_names": {
+      "N": "Lagoon Field",
+      "S": "Indigo Night"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Yellow"
+    },
+    "largest_settlement": "Naha",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 2800,
+    "area_km2": 1201.3855132293609,
+    "gshhg_area_km2": 1201.3855132293609,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Naha",
+      "country": "JP",
+      "lon": 127.67851,
+      "lat": 26.213,
+      "population": 317625,
+      "source": "https://www.geonames.org/1856035"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000116",
+    "letter": "P",
+    "name": "Pico",
+    "slug": "pico",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores · Central Group",
+    "reference": [
+      -28.35091,
+      38.47644
+    ],
+    "source_id": "geonames:3372803",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#1a6c13",
+          "#21ba25",
+          "#67e477",
+          "#bef4ca"
+        ],
+        "#341a61",
+        "Lime Peridot"
+      ],
+      "S": [
+        [
+          "#3d78ae",
+          "#6c94cb",
+          "#a4b7df",
+          "#dde2f3"
+        ],
+        "#e1dbeb",
+        "Magenta Spinel"
+      ]
+    },
+    "background_names": {
+      "N": "Cobalt Velvet",
+      "S": "Lime Porcelain"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Madalena",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 700,
+    "area_km2": 456.22987253309174,
+    "gshhg_area_km2": 456.22987253309174,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Madalena",
+      "country": "PT",
+      "lon": -28.5266,
+      "lat": 38.53642,
+      "population": 6136,
+      "source": "https://www.geonames.org/3372908"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000117",
+    "letter": "Q",
+    "name": "Qeshm",
+    "slug": "qeshm",
+    "country_code": "IR",
+    "country": "Iran",
+    "region": "Strait of Hormuz",
+    "reference": [
+      55.6183,
+      26.6952
+    ],
+    "source_id": "geonames:119373",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Persian Gulf",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#160b3c",
+          "#30146b",
+          "#5820a7",
+          "#9243db"
+        ],
+        "#240d29",
+        "Turquoise Amazonite"
+      ],
+      "S": [
+        [
+          "#520a1b",
+          "#9a1325",
+          "#e52e34",
+          "#f09089"
+        ],
+        "#3edab9",
+        "Vermilion Chrysoprase"
+      ]
+    },
+    "background_names": {
+      "N": "Turquoise Night",
+      "S": "Copper Field"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Red"
+    },
+    "largest_settlement": "Qeshm",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 2069,
+    "area_km2": 1460.814286719739,
+    "gshhg_area_km2": 1460.814286719739,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Qeshm",
+      "country": "IR",
+      "lon": 56.2691,
+      "lat": 26.9492,
+      "population": 25000,
+      "source": "https://www.geonames.org/119374"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000118",
+    "letter": "R",
+    "name": "Rottnest",
+    "slug": "rottnest",
+    "country_code": "AU",
+    "country": "Australia",
+    "region": "Western Australia",
+    "reference": [
+      115.5125,
+      -32.00528
+    ],
+    "source_id": "geonames:2062194",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ae763d",
+          "#cba66c",
+          "#dfcea4",
+          "#f3efdd"
+        ],
+        "#e4ebdb",
+        "Rose Quartz"
+      ],
+      "S": [
+        [
+          "#136c19",
+          "#21ba3a",
+          "#67e488",
+          "#bef4d1"
+        ],
+        "#3e1a61",
+        "Lagoon Fluorite"
+      ]
+    },
+    "background_names": {
+      "N": "Rose Porcelain",
+      "S": "Petrol Velvet"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Green"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 191,
+    "area_km2": 19.53475221460607,
+    "gshhg_area_km2": 19.53475221460607,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000119",
+    "letter": "S",
+    "name": "Saaremaa",
+    "slug": "saaremaa",
+    "country_code": "EE",
+    "country": "Estonia",
+    "region": "West Estonian Archipelago",
+    "reference": [
+      22.49639,
+      58.41333
+    ],
+    "source_id": "geonames:588878",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Baltic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0a5244",
+          "#139a8d",
+          "#2ee5e5",
+          "#89e6f0"
+        ],
+        "#da3e5a",
+        "Plum Garnet"
+      ],
+      "S": [
+        [
+          "#1d0b3c",
+          "#3c146b",
+          "#6b20a7",
+          "#a643db"
+        ],
+        "#280d29",
+        "Ultramarine Aragonite"
+      ]
+    },
+    "background_names": {
+      "N": "Jade Field",
+      "S": "Plum Night"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Purple"
+    },
+    "largest_settlement": "Kuressaare",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 3693,
+    "area_km2": 2694.2957575245673,
+    "gshhg_area_km2": 2694.2957575245673,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Kuressaare",
+      "country": "EE",
+      "lon": 22.49217,
+      "lat": 58.25382,
+      "population": 12698,
+      "source": "https://www.geonames.org/590939"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000120",
+    "letter": "T",
+    "name": "Tanna",
+    "slug": "tanna",
+    "country_code": "VU",
+    "country": "Vanuatu",
+    "region": "Tafea Province",
+    "reference": [
+      169.38569,
+      -19.5293
+    ],
+    "source_id": "geonames:2134687",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Coral Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#6c1364",
+          "#ba219d",
+          "#e467bf",
+          "#f4bede"
+        ],
+        "#3a611a",
+        "Azure Aquamarine"
+      ],
+      "S": [
+        [
+          "#ae863d",
+          "#cbb36c",
+          "#dfd6a4",
+          "#f3f2dd"
+        ],
+        "#e2ebdb",
+        "Copper Kyanite"
+      ]
+    },
+    "background_names": {
+      "N": "Fuchsia Velvet",
+      "S": "Azure Porcelain"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Orange"
+    },
+    "largest_settlement": "Isangel",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 793,
+    "area_km2": 564.9917202161776,
+    "gshhg_area_km2": 564.9917202161776,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Isangel",
+      "country": "VU",
+      "lon": 169.28167,
+      "lat": -19.54167,
+      "population": 1437,
+      "source": "https://www.geonames.org/2136825"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000121",
+    "letter": "U",
+    "name": "Ustica",
+    "slug": "ustica",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Tyrrhenian Sea",
+    "reference": [
+      13.17512,
+      38.70479
+    ],
+    "source_id": "geonames:2522817",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#293c0b",
+          "#416b14",
+          "#58a720",
+          "#72db43"
+        ],
+        "#0d290d",
+        "Amber Calcite"
+      ],
+      "S": [
+        [
+          "#0a524d",
+          "#13959a",
+          "#2ecce5",
+          "#89d8f0"
+        ],
+        "#da3e46",
+        "Carmine Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Amber Night",
+      "S": "Ochre Field"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Turquoise"
+    },
+    "largest_settlement": "Ustica",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 88,
+    "area_km2": 9.148046479329423,
+    "gshhg_area_km2": 9.148046479329423,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Ustica",
+      "country": "IT",
+      "lon": 13.19293,
+      "lat": 38.70985,
+      "population": 819,
+      "source": "https://www.geonames.org/2522818"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000122",
+    "letter": "V",
+    "name": "Vis",
+    "slug": "vis",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Dalmatian Islands",
+    "reference": [
+      16.15167,
+      43.045
+    ],
+    "source_id": "geonames:3187683",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#3d61ae",
+          "#6c81cb",
+          "#a4acdf",
+          "#dddef3"
+        ],
+        "#e4dbeb",
+        "Orchid Kunzite"
+      ],
+      "S": [
+        [
+          "#6c1358",
+          "#ba2188",
+          "#e467af",
+          "#f4bed7"
+        ],
+        "#31611a",
+        "Jade Apatite"
+      ]
+    },
+    "background_names": {
+      "N": "Orchid Porcelain",
+      "S": "Aubergine Velvet"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Vis",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 518,
+    "area_km2": 94.32928236135902,
+    "gshhg_area_km2": 94.32928236135902,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Vis",
+      "country": "HR",
+      "lon": 16.18306,
+      "lat": 43.06194,
+      "population": 1582,
+      "source": "https://www.geonames.org/3187685"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000123",
+    "letter": "W",
+    "name": "Waigeo",
+    "slug": "waigeo",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Raja Ampat",
+    "reference": [
+      130.8248,
+      -0.1723
+    ],
+    "source_id": "geonames:1622356",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Halmahera Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#520a0c",
+          "#9a1c13",
+          "#e54d2e",
+          "#f0a589"
+        ],
+        "#3edad8",
+        "Emerald Jadeite"
+      ],
+      "S": [
+        [
+          "#233c0b",
+          "#356b14",
+          "#46a720",
+          "#5edb43"
+        ],
+        "#0d2911",
+        "Violet Heliodor"
+      ]
+    },
+    "background_names": {
+      "N": "Coral Field",
+      "S": "Emerald Night"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Yellow"
+    },
+    "largest_settlement": "Waisai",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 5474,
+    "area_km2": 3123.2074182903407,
+    "gshhg_area_km2": 3123.2074182903407,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Waisai",
+      "country": "ID",
+      "lon": 130.5072,
+      "lat": -0.2379,
+      "population": 22541,
+      "source": "https://www.geonames.org/1622293"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000124",
+    "letter": "X",
+    "name": "Xiyu",
+    "slug": "xiyu",
+    "country_code": "TW",
+    "country": "Taiwan",
+    "region": "Penghu Archipelago",
+    "reference": [
+      119.5125,
+      23.60583
+    ],
+    "source_id": "geonames:1674568",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Taiwan Strait",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#136c2a",
+          "#21ba58",
+          "#67e4a1",
+          "#bef4dc"
+        ],
+        "#4c1a61",
+        "Magenta Lepidolite"
+      ],
+      "S": [
+        [
+          "#3d52ae",
+          "#6c74cb",
+          "#a5a4df",
+          "#dfddf3"
+        ],
+        "#e6dbeb",
+        "Ochre Tourmaline"
+      ]
+    },
+    "background_names": {
+      "N": "Indigo Velvet",
+      "S": "Magenta Porcelain"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 207,
+    "area_km2": 20.08990294251066,
+    "gshhg_area_km2": 20.08990294251066,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000125",
+    "letter": "Y",
+    "name": "Yoron",
+    "slug": "yoron",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Amami Islands",
+    "reference": [
+      128.43256,
+      27.04078
+    ],
+    "source_id": "geonames:1848228",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#260b3c",
+          "#4d146b",
+          "#8620a7",
+          "#c543db"
+        ],
+        "#290d24",
+        "Vermilion Sunstone"
+      ],
+      "S": [
+        [
+          "#52110a",
+          "#9a2f13",
+          "#e5662e",
+          "#f0b389"
+        ],
+        "#3ec8da",
+        "Cobalt Serpentine"
+      ]
+    },
+    "background_names": {
+      "N": "Vermilion Night",
+      "S": "Saffron Field"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Red"
+    },
+    "largest_settlement": "Chabana",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 116,
+    "area_km2": 22.139299357774288,
+    "gshhg_area_km2": 22.139299357774288,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Chabana",
+      "country": "JP",
+      "lon": 128.4182,
+      "lat": 27.04873,
+      "population": 5115,
+      "source": "https://www.geonames.org/1864655"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000126",
+    "letter": "Z",
+    "name": "Zakynthos",
+    "slug": "zakynthos",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Ionian Islands",
+    "reference": [
+      20.76749,
+      37.78845
+    ],
+    "source_id": "geonames:251279",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Ionian Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#ae9c3d",
+          "#cbc66c",
+          "#dddfa4",
+          "#f0f3dd"
+        ],
+        "#dfebdb",
+        "Lagoon Chalcedony"
+      ],
+      "S": [
+        [
+          "#136c36",
+          "#21ba6d",
+          "#67e4b2",
+          "#bef4e3"
+        ],
+        "#561a61",
+        "Coral Amethyst"
+      ]
+    },
+    "background_names": {
+      "N": "Lagoon Porcelain",
+      "S": "Turquoise Velvet"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Green"
+    },
+    "largest_settlement": "Zakynthos",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 951,
+    "area_km2": 416.12461276583866,
+    "gshhg_area_km2": 416.12461276583866,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Zakynthos",
+      "country": "GR",
+      "lon": 20.89555,
+      "lat": 37.78022,
+      "population": 11541,
+      "source": "https://www.geonames.org/251280"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  }
+]

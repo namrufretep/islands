@@ -1,0 +1,68 @@
+{
+  "id": "000116",
+  "letter": "P",
+  "name": "Pico",
+  "slug": "pico",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Central Group",
+  "reference": [
+    -28.35091,
+    38.47644
+  ],
+  "source_id": "geonames:3372803",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1a6c13",
+        "#21ba25",
+        "#67e477",
+        "#bef4ca"
+      ],
+      "#341a61",
+      "Lime Peridot"
+    ],
+    "S": [
+      [
+        "#3d78ae",
+        "#6c94cb",
+        "#a4b7df",
+        "#dde2f3"
+      ],
+      "#e1dbeb",
+      "Magenta Spinel"
+    ]
+  },
+  "background_names": {
+    "N": "Cobalt Velvet",
+    "S": "Lime Porcelain"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Madalena",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 700,
+  "area_km2": 456.22987253309174,
+  "gshhg_area_km2": 456.22987253309174,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Madalena",
+    "country": "PT",
+    "lon": -28.5266,
+    "lat": 38.53642,
+    "population": 6136,
+    "source": "https://www.geonames.org/3372908"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,134 @@
+{
+  "id": "000123",
+  "letter": "W",
+  "name": "Waigeo",
+  "slug": "waigeo",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Raja Ampat",
+  "reference": [
+    130.8248,
+    -0.1723
+  ],
+  "source_id": "geonames:1622356",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Halmahera Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#520a0c",
+        "#9a1c13",
+        "#e54d2e",
+        "#f0a589"
+      ],
+      "#3edad8",
+      "Emerald Jadeite"
+    ],
+    "S": [
+      [
+        "#233c0b",
+        "#356b14",
+        "#46a720",
+        "#5edb43"
+      ],
+      "#0d2911",
+      "Violet Heliodor"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Field",
+    "S": "Emerald Night"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Waisai",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5474,
+  "area_km2": 3123.2074182903407,
+  "gshhg_area_km2": 3123.2074182903407,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Waisai",
+    "country": "ID",
+    "lon": 130.5072,
+    "lat": -0.2379,
+    "population": 22541,
+    "source": "https://www.geonames.org/1622293"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -101.83599853515625,
+  "max_land_elevation_m": 943.5276489257812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/510.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/511.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/512.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/513.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/882/514.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/510.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/511.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/512.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/513.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/883/514.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/510.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/511.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/512.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/513.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/884/514.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/510.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/511.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/512.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/513.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/885/514.tif"
+  ],
+  "resolution_m": 289.2594550598563,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-0.1723 +lon_0=130.8248 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -68673.75802343467,
+    -30847.825853372935,
+    57211.9568186148,
+    18176.531628108987
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 72.31486376496407,
+  "artwork_print_scale_denominator": 854112.5641531191,
+  "color_mood": "Emerald Jadeite",
+  "background": "#3edad8",
+  "background_name": "Coral Field",
+  "color_family": "Red",
+  "palette": [
+    "#520a0c",
+    "#9a1c13",
+    "#e54d2e",
+    "#f0a589"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5ac0500651ce95a72df89cccb414798834213fb656cd75579029c42ce8259667",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

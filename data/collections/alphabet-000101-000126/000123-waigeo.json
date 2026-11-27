@@ -1,0 +1,68 @@
+{
+  "id": "000123",
+  "letter": "W",
+  "name": "Waigeo",
+  "slug": "waigeo",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Raja Ampat",
+  "reference": [
+    130.8248,
+    -0.1723
+  ],
+  "source_id": "geonames:1622356",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Halmahera Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#520a0c",
+        "#9a1c13",
+        "#e54d2e",
+        "#f0a589"
+      ],
+      "#3edad8",
+      "Emerald Jadeite"
+    ],
+    "S": [
+      [
+        "#233c0b",
+        "#356b14",
+        "#46a720",
+        "#5edb43"
+      ],
+      "#0d2911",
+      "Violet Heliodor"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Field",
+    "S": "Emerald Night"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Waisai",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5474,
+  "area_km2": 3123.2074182903407,
+  "gshhg_area_km2": 3123.2074182903407,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Waisai",
+    "country": "ID",
+    "lon": 130.5072,
+    "lat": -0.2379,
+    "population": 22541,
+    "source": "https://www.geonames.org/1622293"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

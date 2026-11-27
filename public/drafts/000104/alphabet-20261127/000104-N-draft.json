@@ -1,0 +1,130 @@
+{
+  "id": "000104",
+  "letter": "D",
+  "name": "Dominica",
+  "slug": "dominica",
+  "country_code": "DM",
+  "country": "Dominica",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.34216,
+    15.43713
+  ],
+  "source_id": "geonames:3575831",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#39136c",
+        "#7221ba",
+        "#b567e4",
+        "#e5bef4"
+      ],
+      "#61581a",
+      "Jade Chrysoprase"
+    ],
+    "S": [
+      [
+        "#ae3d40",
+        "#cb736c",
+        "#dfafa4",
+        "#f3e3dd"
+      ],
+      "#ebe9db",
+      "Malachite Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Amber Velvet",
+    "S": "Jade Porcelain"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Roseau",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 802,
+  "area_km2": 761.7460181090815,
+  "gshhg_area_km2": 761.7460181090815,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Roseau",
+    "country": "DM",
+    "lon": -61.38808,
+    "lat": 15.30174,
+    "population": 16571,
+    "source": "https://www.geonames.org/3575635"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -316.2864685058594,
+  "max_land_elevation_m": 1410.0936279296875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/933.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/934.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/935.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/673/936.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/933.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/934.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/935.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/936.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/933.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/934.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/935.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/936.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/933.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/934.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/935.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/936.tif"
+  ],
+  "resolution_m": 110.19249400515598,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=15.43713 +lon_0=-61.34216 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -15722.698051508083,
+    -25734.662235707896,
+    9944.370960241948,
+    22221.11115533599
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 27.548123501288995,
+  "artwork_print_scale_denominator": 325371.5374167991,
+  "color_mood": "Jade Chrysoprase",
+  "background": "#61581a",
+  "background_name": "Amber Velvet",
+  "color_family": "Purple",
+  "palette": [
+    "#39136c",
+    "#7221ba",
+    "#b567e4",
+    "#e5bef4"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f153249b09e23b1373b39395354eb4a6acc585cc086095f6010ca73da8b7ad00",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

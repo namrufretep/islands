@@ -1,0 +1,68 @@
+{
+  "id": "000112",
+  "letter": "L",
+  "name": "Lampedusa",
+  "slug": "lampedusa",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Pelagie Islands",
+  "reference": [
+    12.58333,
+    35.51667
+  ],
+  "source_id": "geonames:2524458",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#57136c",
+        "#a521ba",
+        "#df67e4",
+        "#f4bef0"
+      ],
+      "#52611a",
+      "Malachite Serpentine"
+    ],
+    "S": [
+      [
+        "#ae603d",
+        "#cb936c",
+        "#dfc2a4",
+        "#f3eadd"
+      ],
+      "#e8ebdb",
+      "Azure Sunstone"
+    ]
+  },
+  "background_names": {
+    "N": "Carmine Velvet",
+    "S": "Malachite Porcelain"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Lampedusa",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 200,
+  "area_km2": 18.844582043952496,
+  "gshhg_area_km2": 18.844582043952496,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Lampedusa",
+    "country": "IT",
+    "lon": 12.60964,
+    "lat": 35.50142,
+    "population": 4065,
+    "source": "https://www.geonames.org/2524459"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "000105",
+  "letter": "E",
+  "name": "Efate",
+  "slug": "efate",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Shefa Province",
+  "reference": [
+    168.39415,
+    -17.67899
+  ],
+  "source_id": "geonames:2137141",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c2e0b",
+        "#6b5b14",
+        "#a79c20",
+        "#d8db43"
+      ],
+      "#1f290d",
+      "Violet Fluorite"
+    ],
+    "S": [
+      [
+        "#0a521d",
+        "#139a45",
+        "#2ee584",
+        "#89f0c4"
+      ],
+      "#da3eae",
+      "Aubergine Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Violet Night",
+    "S": "Lime Field"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": "Port-Vila",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1022,
+  "area_km2": 901.8162810373356,
+  "gshhg_area_km2": 901.8162810373356,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Port-Vila",
+    "country": "VU",
+    "lon": 168.31366,
+    "lat": -17.73648,
+    "population": 35901,
+    "source": "https://www.geonames.org/2135171"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

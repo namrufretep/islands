@@ -1,0 +1,61 @@
+{
+  "id": "000118",
+  "letter": "R",
+  "name": "Rottnest",
+  "slug": "rottnest",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "Western Australia",
+  "reference": [
+    115.5125,
+    -32.00528
+  ],
+  "source_id": "geonames:2062194",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae763d",
+        "#cba66c",
+        "#dfcea4",
+        "#f3efdd"
+      ],
+      "#e4ebdb",
+      "Rose Quartz"
+    ],
+    "S": [
+      [
+        "#136c19",
+        "#21ba3a",
+        "#67e488",
+        "#bef4d1"
+      ],
+      "#3e1a61",
+      "Lagoon Fluorite"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Porcelain",
+    "S": "Petrol Velvet"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 191,
+  "area_km2": 19.53475221460607,
+  "gshhg_area_km2": 19.53475221460607,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

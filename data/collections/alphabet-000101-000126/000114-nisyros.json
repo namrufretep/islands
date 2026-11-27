@@ -1,0 +1,68 @@
+{
+  "id": "000114",
+  "letter": "N",
+  "name": "Nisyros",
+  "slug": "nisyros",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.16819,
+    36.5905
+  ],
+  "source_id": "geonames:256378",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#3d87ae",
+        "#6ca1cb",
+        "#a4bfdf",
+        "#dde5f3"
+      ],
+      "#dfdbeb",
+      "Cinnabar Carnelian"
+    ],
+    "S": [
+      [
+        "#63136c",
+        "#b921ba",
+        "#e467d9",
+        "#f4bee9"
+      ],
+      "#48611a",
+      "Orchid Azurite"
+    ]
+  },
+  "background_names": {
+    "N": "Cinnabar Porcelain",
+    "S": "Violet Velvet"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Mandráki",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 163,
+  "area_km2": 42.441959839260015,
+  "gshhg_area_km2": 42.441959839260015,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Mandráki",
+    "country": "GR",
+    "lon": 27.13333,
+    "lat": 36.61139,
+    "population": 682,
+    "source": "https://www.geonames.org/257804"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

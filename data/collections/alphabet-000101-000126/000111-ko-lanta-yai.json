@@ -1,0 +1,68 @@
+{
+  "id": "000111",
+  "letter": "K",
+  "name": "Ko Lanta Yai",
+  "slug": "ko-lanta-yai",
+  "country_code": "TH",
+  "country": "Thailand",
+  "region": "Krabi",
+  "reference": [
+    99.05654,
+    7.56593
+  ],
+  "source_id": "geonames:1152414",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Andaman Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0a522c",
+        "#139a60",
+        "#2ee5a8",
+        "#89f0d8"
+      ],
+      "#da3e8f",
+      "Fuchsia Tourmaline"
+    ],
+    "S": [
+      [
+        "#0c0b3c",
+        "#1f146b",
+        "#3d20a7",
+        "#7343db"
+      ],
+      "#1f0d29",
+      "Plum Lepidolite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Field",
+    "S": "Fuchsia Night"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Purple"
+  },
+  "largest_settlement": "Saladan",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 477,
+  "area_km2": 156.5724154078071,
+  "gshhg_area_km2": 156.5724154078071,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Saladan",
+    "country": "TH",
+    "lon": 99.03651,
+    "lat": 7.61342,
+    "population": 7946,
+    "source": "https://www.geonames.org/6691842"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}
