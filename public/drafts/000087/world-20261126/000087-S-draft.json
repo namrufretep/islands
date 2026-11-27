@@ -1,0 +1,111 @@
+{
+  "id": "000087",
+  "name": "Mocha",
+  "slug": "mocha",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Biobío Coast",
+  "reference": [
+    -73.91229,
+    -38.3716
+  ],
+  "expected_area_km2": 49,
+  "source_id": "geonames:3879665",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#372c36",
+        "#5b4d58",
+        "#7f6f7b",
+        "#a08d9a"
+      ],
+      "#211d23",
+      "Ash Obsidian"
+    ],
+    "S": [
+      [
+        "#5e4737",
+        "#8d735d",
+        "#bda185",
+        "#e8c9a8"
+      ],
+      "#d4c7b6",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Smoked Aubergine",
+    "S": "Oyster Stone"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/11457056",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 557,
+  "area_km2": 48.590693392146015,
+  "gshhg_area_km2": 52.33753284892394,
+  "gshhg_overlap_fraction": 0.8929677674026146,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3.828631639480591,
+  "max_land_elevation_m": 391.166259765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1206/2520.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1206/2521.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1206/2522.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1207/2520.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1207/2521.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1207/2522.tif"
+  ],
+  "resolution_m": 26.14036159829577,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/11457056",
+  "projection": "+proj=aeqd +lat_0=-38.3716 +lon_0=-73.91229 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4250.459657527303,
+    -5069.197875676424,
+    3999.8259969854453,
+    6307.087491901895
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.535090399573942,
+  "artwork_print_scale_denominator": 77186.107081582,
+  "color_mood": "Warm Travertine",
+  "background": "#d4c7b6",
+  "background_name": "Oyster Stone",
+  "color_family": "Brown",
+  "palette": [
+    "#5e4737",
+    "#8d735d",
+    "#bda185",
+    "#e8c9a8"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "90c710a45df3af155a9ac8ad1a597347ebe8b6a2697e6a0af20afde759c5b37c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

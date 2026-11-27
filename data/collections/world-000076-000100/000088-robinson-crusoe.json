@@ -1,0 +1,59 @@
+{
+  "id": "000088",
+  "name": "Robinson Crusoe",
+  "slug": "robinson-crusoe",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Juan Fernández Archipelago",
+  "reference": [
+    -78.8566,
+    -33.63949
+  ],
+  "expected_area_km2": 48,
+  "source_id": "geonames:3873018",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263c60",
+        "#51658c",
+        "#7d8fb8",
+        "#a4b5e0"
+      ],
+      "#c9a45e",
+      "Ocean Tanzanite"
+    ],
+    "S": [
+      [
+        "#743e2e",
+        "#9e684a",
+        "#ca9467",
+        "#f0ba80"
+      ],
+      "#634568",
+      "Coral Sunstone"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Ochre",
+    "S": "Grape Slate"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": "San Juan Bautista",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 412,
+  "area_km2": 52.053588089714005,
+  "gshhg_area_km2": 52.053588089714005,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

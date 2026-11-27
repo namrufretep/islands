@@ -1,0 +1,114 @@
+{
+  "id": "000078",
+  "name": "Graciosa",
+  "slug": "graciosa",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Central Group",
+  "reference": [
+    -28.01188,
+    39.05412
+  ],
+  "expected_area_km2": 61,
+  "source_id": "geonames:3373008",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#663e21",
+        "#92693e",
+        "#be965c",
+        "#e6bd77"
+      ],
+      "#61496a",
+      "Honey Aragonite"
+    ],
+    "S": [
+      [
+        "#253b4a",
+        "#526a77",
+        "#809aa6",
+        "#a9c4cf"
+      ],
+      "#132e3a",
+      "Deep Aquamarine"
+    ]
+  },
+  "background_names": {
+    "N": "Heather Smoke",
+    "S": "Petrol Night"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 200,
+  "area_km2": 63.38658146208236,
+  "gshhg_area_km2": 63.38658146208236,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -79.44276428222656,
+  "max_land_elevation_m": 397.4305114746094,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1728/1563.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1728/1564.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1728/1565.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1729/1563.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1729/1564.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1729/1565.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1730/1563.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1730/1564.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1730/1565.tif"
+  ],
+  "resolution_m": 24.860945005541293,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=39.05412 +lon_0=-28.01188 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5498.812682386645,
+    -5134.873882390313,
+    5320.670584024927,
+    4862.365759340074
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.215236251385323,
+  "artwork_print_scale_denominator": 73408.30218171641,
+  "color_mood": "Honey Aragonite",
+  "background": "#61496a",
+  "background_name": "Heather Smoke",
+  "color_family": "Orange",
+  "palette": [
+    "#663e21",
+    "#92693e",
+    "#be965c",
+    "#e6bd77"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "ffc5843d89186664d5c07c64a6d044a1688904e09e4afc115c3d7dbed0011647",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

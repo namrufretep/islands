@@ -1,0 +1,59 @@
+{
+  "id": "000095",
+  "name": "Silhouette",
+  "slug": "silhouette",
+  "country_code": "SC",
+  "country": "Seychelles",
+  "region": "Inner Seychelles",
+  "reference": [
+    55.23333,
+    -4.48333
+  ],
+  "expected_area_km2": 20,
+  "source_id": "geonames:241163",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#654721",
+        "#937040",
+        "#c29b60",
+        "#ecc17c"
+      ],
+      "#5b6c92",
+      "Gold Tigers Eye"
+    ],
+    "S": [
+      [
+        "#4a315a",
+        "#745481",
+        "#a078a9",
+        "#c798cc"
+      ],
+      "#d5b9a9",
+      "Lilac Kunzite"
+    ]
+  },
+  "background_names": {
+    "N": "Denim Slate",
+    "S": "Rose Limestone"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/23564990",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1026,
+  "area_km2": 19.972281905246675,
+  "gshhg_area_km2": 20.34049218291254,
+  "gshhg_overlap_fraction": 0.9130281934535052,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

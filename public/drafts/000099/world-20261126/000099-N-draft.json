@@ -1,0 +1,109 @@
+{
+  "id": "000099",
+  "name": "Brava",
+  "slug": "brava",
+  "country_code": "CV",
+  "country": "Cabo Verde",
+  "region": "Sotavento Islands",
+  "reference": [
+    -24.70525,
+    14.84873
+  ],
+  "expected_area_km2": 67,
+  "source_id": "geonames:3374831",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5f364f",
+        "#895e7a",
+        "#b588a5",
+        "#dbadcc"
+      ],
+      "#2a4548",
+      "Bougainvillea Spinel"
+    ],
+    "S": [
+      [
+        "#394b2d",
+        "#687954",
+        "#98a87d",
+        "#c2d2a1"
+      ],
+      "#d4b89a",
+      "Pistachio Jadeite"
+    ]
+  },
+  "background_names": {
+    "N": "Mangrove Shade",
+    "S": "Wheat Travertine"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/9884525",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1170,
+  "area_km2": 62.477499394631714,
+  "gshhg_area_km2": 64.78385636830927,
+  "gshhg_overlap_fraction": 0.7887441698513694,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -85.54496765136719,
+  "max_land_elevation_m": 966.3195190429688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1766/1876.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1766/1877.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1767/1876.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1767/1877.tif"
+  ],
+  "resolution_m": 24.73848040752029,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/9884525",
+  "projection": "+proj=aeqd +lat_0=14.84873 +lon_0=-24.70525 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4710.988257906699,
+    -5036.060847833166,
+    4376.639686442167,
+    5730.125825519663
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.184620101880072,
+  "artwork_print_scale_denominator": 73046.69411669378,
+  "color_mood": "Bougainvillea Spinel",
+  "background": "#2a4548",
+  "background_name": "Mangrove Shade",
+  "color_family": "Pink",
+  "palette": [
+    "#5f364f",
+    "#895e7a",
+    "#b588a5",
+    "#dbadcc"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "20e3d44f8b702ba663237e0c6b8fe799cbe5ae1247680ee368d3a7889d45efdf",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "000099",
+  "name": "Brava",
+  "slug": "brava",
+  "country_code": "CV",
+  "country": "Cabo Verde",
+  "region": "Sotavento Islands",
+  "reference": [
+    -24.70525,
+    14.84873
+  ],
+  "expected_area_km2": 67,
+  "source_id": "geonames:3374831",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5f364f",
+        "#895e7a",
+        "#b588a5",
+        "#dbadcc"
+      ],
+      "#2a4548",
+      "Bougainvillea Spinel"
+    ],
+    "S": [
+      [
+        "#394b2d",
+        "#687954",
+        "#98a87d",
+        "#c2d2a1"
+      ],
+      "#d4b89a",
+      "Pistachio Jadeite"
+    ]
+  },
+  "background_names": {
+    "N": "Mangrove Shade",
+    "S": "Wheat Travertine"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/9884525",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1170,
+  "area_km2": 62.477499394631714,
+  "gshhg_area_km2": 64.78385636830927,
+  "gshhg_overlap_fraction": 0.7887441698513694,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

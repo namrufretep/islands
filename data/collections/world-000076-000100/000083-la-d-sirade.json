@@ -1,0 +1,59 @@
+{
+  "id": "000083",
+  "name": "La Désirade",
+  "slug": "la-d-sirade",
+  "country_code": "GP",
+  "country": "France · Guadeloupe",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.05194,
+    16.31838
+  ],
+  "expected_area_km2": 21,
+  "source_id": "geonames:3579050",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d3a5f",
+        "#7b668b",
+        "#ab94b7",
+        "#d5bcdf"
+      ],
+      "#365955",
+      "Orchid Fluorite"
+    ],
+    "S": [
+      [
+        "#56332d",
+        "#805448",
+        "#ac7764",
+        "#d3957c"
+      ],
+      "#d7d3a6",
+      "Cinnamon Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Pine Patina",
+    "S": "Parchment Lime"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 155,
+  "area_km2": 21.844668421592505,
+  "gshhg_area_km2": 21.844668421592505,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

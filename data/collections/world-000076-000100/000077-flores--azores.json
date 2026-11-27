@@ -1,0 +1,77 @@
+{
+  "id": "000077",
+  "name": "Flores (Azores)",
+  "slug": "flores--azores",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Western Group",
+  "reference": [
+    -31.20426,
+    39.44494
+  ],
+  "expected_area_km2": 143,
+  "source_id": "geonames:3373059",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#51324e",
+        "#805c78",
+        "#b188a4",
+        "#dcaecb"
+      ],
+      "#7f341f",
+      "Heather Spinel"
+    ],
+    "S": [
+      [
+        "#515b2c",
+        "#848953",
+        "#b9b77c",
+        "#e8e1a0"
+      ],
+      "#d8d9e2",
+      "Lichen Citrine"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Sienna",
+    "S": "Blue Porcelain"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 338,
+  "area_km2": 144.39262155762358,
+  "gshhg_area_km2": 144.39262155762358,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/133243629",
+    "https://www.openstreetmap.org/way/133243631",
+    "https://www.openstreetmap.org/way/173692735",
+    "https://www.openstreetmap.org/way/173692762",
+    "https://www.openstreetmap.org/way/173692773",
+    "https://www.openstreetmap.org/way/173755386",
+    "https://www.openstreetmap.org/way/275541001",
+    "https://www.openstreetmap.org/way/275608405",
+    "https://www.openstreetmap.org/way/275608406",
+    "https://www.openstreetmap.org/way/332523212",
+    "https://www.openstreetmap.org/way/378126448",
+    "https://www.openstreetmap.org/way/710574453",
+    "https://www.openstreetmap.org/way/1071193743",
+    "https://www.openstreetmap.org/way/1080234552",
+    "https://www.openstreetmap.org/way/1288344564",
+    "https://www.openstreetmap.org/way/1442192552",
+    "https://www.openstreetmap.org/relation/8284065"
+  ],
+  "water_count": 17,
+  "reference_checked": true,
+  "political_boundaries": false
+}

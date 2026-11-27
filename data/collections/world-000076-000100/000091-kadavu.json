@@ -1,0 +1,59 @@
+{
+  "id": "000091",
+  "name": "Kadavu",
+  "slug": "kadavu",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Kadavu Group",
+  "reference": [
+    178.19725,
+    -19.0181
+  ],
+  "expected_area_km2": 411,
+  "source_id": "geonames:8617785",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a5660",
+        "#648389",
+        "#90b0b3",
+        "#b6d9d9"
+      ],
+      "#de9c95",
+      "Lagoon Amazonite"
+    ],
+    "S": [
+      [
+        "#593b5a",
+        "#7e5e80",
+        "#a483a8",
+        "#c5a3cb"
+      ],
+      "#38283d",
+      "Amethyst Dusk"
+    ]
+  },
+  "background_names": {
+    "N": "Blush Coral",
+    "S": "Dark Heather"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1603,
+  "area_km2": 452.656202113964,
+  "gshhg_area_km2": 452.656202113964,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

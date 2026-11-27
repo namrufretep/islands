@@ -1,0 +1,111 @@
+{
+  "id": "000083",
+  "name": "La Désirade",
+  "slug": "la-d-sirade",
+  "country_code": "GP",
+  "country": "France · Guadeloupe",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.05194,
+    16.31838
+  ],
+  "expected_area_km2": 21,
+  "source_id": "geonames:3579050",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d3a5f",
+        "#7b668b",
+        "#ab94b7",
+        "#d5bcdf"
+      ],
+      "#365955",
+      "Orchid Fluorite"
+    ],
+    "S": [
+      [
+        "#56332d",
+        "#805448",
+        "#ac7764",
+        "#d3957c"
+      ],
+      "#d7d3a6",
+      "Cinnamon Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Pine Patina",
+    "S": "Parchment Lime"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 155,
+  "area_km2": 21.844668421592505,
+  "gshhg_area_km2": 21.844668421592505,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -25.931344985961914,
+  "max_land_elevation_m": 282.12213134765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1352/1859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1352/1860.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1353/1859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1353/1860.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1354/1859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1354/1860.tif"
+  ],
+  "resolution_m": 24.364236073751847,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=16.31838 +lon_0=-61.05194 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4741.63886488818,
+    -2734.3539308862087,
+    5861.676674408624,
+    3908.440537513615
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.091059018437962,
+  "artwork_print_scale_denominator": 71941.64195005468,
+  "color_mood": "Orchid Fluorite",
+  "background": "#365955",
+  "background_name": "Pine Patina",
+  "color_family": "Purple",
+  "palette": [
+    "#4d3a5f",
+    "#7b668b",
+    "#ab94b7",
+    "#d5bcdf"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "f619b647b26d21d58ee8a4edbe76949726bf0d02f8ecdbe2a2d551be18cf18c4",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

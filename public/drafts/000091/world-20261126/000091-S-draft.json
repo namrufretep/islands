@@ -1,0 +1,125 @@
+{
+  "id": "000091",
+  "name": "Kadavu",
+  "slug": "kadavu",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Kadavu Group",
+  "reference": [
+    178.19725,
+    -19.0181
+  ],
+  "expected_area_km2": 411,
+  "source_id": "geonames:8617785",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a5660",
+        "#648389",
+        "#90b0b3",
+        "#b6d9d9"
+      ],
+      "#de9c95",
+      "Lagoon Amazonite"
+    ],
+    "S": [
+      [
+        "#593b5a",
+        "#7e5e80",
+        "#a483a8",
+        "#c5a3cb"
+      ],
+      "#38283d",
+      "Amethyst Dusk"
+    ]
+  },
+  "background_names": {
+    "N": "Blush Coral",
+    "S": "Dark Heather"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1603,
+  "area_km2": 452.656202113964,
+  "gshhg_area_km2": 452.656202113964,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3685.92431640625,
+  "max_land_elevation_m": 792.3372192382812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2036/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2036/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2036/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2036/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2036/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2037/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2037/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2037/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2037/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2037/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2038/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2038/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2038/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2038/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2038/1136.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2039/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2039/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2039/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2039/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2039/1136.tif"
+  ],
+  "resolution_m": 129.599210516608,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-19.0181 +lon_0=178.19725 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -25091.702948384092,
+    -16411.27673872466,
+    31309.8734684437,
+    9518.54910294908
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 32.399802629152,
+  "artwork_print_scale_denominator": 382674.8342025827,
+  "color_mood": "Amethyst Dusk",
+  "background": "#38283d",
+  "background_name": "Dark Heather",
+  "color_family": "Purple",
+  "palette": [
+    "#593b5a",
+    "#7e5e80",
+    "#a483a8",
+    "#c5a3cb"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "96fe1fe751a95fa873af7bdd96377ceec4fc6ddeba58ec3076229eb298532a00",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

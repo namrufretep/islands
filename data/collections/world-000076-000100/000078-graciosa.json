@@ -1,0 +1,59 @@
+{
+  "id": "000078",
+  "name": "Graciosa",
+  "slug": "graciosa",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Central Group",
+  "reference": [
+    -28.01188,
+    39.05412
+  ],
+  "expected_area_km2": 61,
+  "source_id": "geonames:3373008",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#663e21",
+        "#92693e",
+        "#be965c",
+        "#e6bd77"
+      ],
+      "#61496a",
+      "Honey Aragonite"
+    ],
+    "S": [
+      [
+        "#253b4a",
+        "#526a77",
+        "#809aa6",
+        "#a9c4cf"
+      ],
+      "#132e3a",
+      "Deep Aquamarine"
+    ]
+  },
+  "background_names": {
+    "N": "Heather Smoke",
+    "S": "Petrol Night"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 200,
+  "area_km2": 63.38658146208236,
+  "gshhg_area_km2": 63.38658146208236,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

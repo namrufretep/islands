@@ -1,0 +1,59 @@
+{
+  "id": "000089",
+  "name": "Manitoulin Island",
+  "slug": "manitoulin-island",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Lake Huron · Great Lakes",
+  "reference": [
+    -82.33313,
+    45.83337
+  ],
+  "expected_area_km2": 2766,
+  "source_id": "geonames:6065218",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Huron",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#364a30",
+        "#647756",
+        "#93a57d",
+        "#bdcea0"
+      ],
+      "#d5d9b7",
+      "Lakeshore Jade"
+    ],
+    "S": [
+      [
+        "#453752",
+        "#6c5d7c",
+        "#9584a8",
+        "#b9a7cf"
+      ],
+      "#56837e",
+      "Lavender Charoite"
+    ]
+  },
+  "background_names": {
+    "N": "Pistachio Chalk",
+    "S": "Weathered Copper"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 873,
+  "area_km2": 2822.0493609916794,
+  "gshhg_area_km2": 2822.0493609916794,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 3,
+  "reference_checked": true,
+  "political_boundaries": false
+}

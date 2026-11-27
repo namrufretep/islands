@@ -1,0 +1,106 @@
+{
+  "id": "000096",
+  "name": "La Digue",
+  "slug": "la-digue",
+  "country_code": "SC",
+  "country": "Seychelles",
+  "region": "Inner Seychelles",
+  "reference": [
+    55.83621,
+    -4.35942
+  ],
+  "expected_area_km2": 10,
+  "source_id": "geonames:241310",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d4b3b",
+        "#52765f",
+        "#79a283",
+        "#9bc9a4"
+      ],
+      "#d2b445",
+      "Palm Aventurine"
+    ],
+    "S": [
+      [
+        "#654a39",
+        "#906f55",
+        "#bc9571",
+        "#e3b78a"
+      ],
+      "#273f49",
+      "Copper Sandstone"
+    ]
+  },
+  "background_names": {
+    "N": "Golden Mustard",
+    "S": "Deep Fjord"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/26752661",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1714,
+  "area_km2": 9.990228347729651,
+  "gshhg_area_km2": 10.933630083726737,
+  "gshhg_overlap_fraction": 0.8752147729365553,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1.8161026239395142,
+  "max_land_elevation_m": 332.4570617675781,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2683/2097.tif"
+  ],
+  "resolution_m": 11.89433366606865,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/26752661",
+  "projection": "+proj=aeqd +lat_0=-4.35942 +lon_0=55.83621 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1317.092774301142,
+    -2663.8900125804057,
+    2252.7867303730754,
+    2512.523998892671
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.9735834165171626,
+  "artwork_print_scale_denominator": 35121.06397461216,
+  "color_mood": "Palm Aventurine",
+  "background": "#d2b445",
+  "background_name": "Golden Mustard",
+  "color_family": "Green",
+  "palette": [
+    "#2d4b3b",
+    "#52765f",
+    "#79a283",
+    "#9bc9a4"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "904bc38b73bcf52b3dc20285190ee85ae77db260fa2a8f25d1a26cb4f3e1fa12",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "000082",
+  "name": "Gigha",
+  "slug": "gigha",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides · Kintyre",
+  "reference": [
+    -5.75319,
+    55.6851
+  ],
+  "expected_area_km2": 14,
+  "source_id": "geonames:2648678",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#514c48",
+        "#817c75",
+        "#b3ada3",
+        "#dfd8cc"
+      ],
+      "#e3ded6",
+      "Shell Moonstone"
+    ],
+    "S": [
+      [
+        "#264e45",
+        "#4d7765",
+        "#76a287",
+        "#9ac8a4"
+      ],
+      "#903c50",
+      "Fern Nephrite"
+    ]
+  },
+  "background_names": {
+    "N": "Linen Mist",
+    "S": "Dried Hibiscus"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 184,
+  "area_km2": 15.657837858153481,
+  "gshhg_area_km2": 15.657837858153481,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -6.2001237869262695,
+  "max_land_elevation_m": 82.9732894897461,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1981/1280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1981/1281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1981/1282.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1982/1280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1982/1281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1982/1282.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1983/1280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1983/1281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1983/1282.tif"
+  ],
+  "resolution_m": 21.5328687508759,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=55.6851 +lon_0=-5.75319 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1534.890826352785,
+    -4510.906722494612,
+    2558.736827475012,
+    4860.197757886579
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.383217187718975,
+  "artwork_print_scale_denominator": 63581.305366759545,
+  "color_mood": "Shell Moonstone",
+  "background": "#e3ded6",
+  "background_name": "Linen Mist",
+  "color_family": "White",
+  "palette": [
+    "#514c48",
+    "#817c75",
+    "#b3ada3",
+    "#dfd8cc"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "627ca2e2c4bdae15f75282d713f82ae4d2d97208e2279807ab409d0a137a25d8",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

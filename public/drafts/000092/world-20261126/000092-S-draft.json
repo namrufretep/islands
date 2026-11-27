@@ -1,0 +1,111 @@
+{
+  "id": "000092",
+  "name": "Rarotonga",
+  "slug": "rarotonga",
+  "country_code": "CK",
+  "country": "Cook Islands",
+  "region": "Southern Cook Islands",
+  "reference": [
+    -159.78035,
+    -21.23509
+  ],
+  "expected_area_km2": 67,
+  "source_id": "geonames:4035552",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#73512f",
+        "#9d7d55",
+        "#c9aa7c",
+        "#efd29e"
+      ],
+      "#e3d8c2",
+      "Vanilla Amber"
+    ],
+    "S": [
+      [
+        "#2f4b48",
+        "#5b796f",
+        "#87a897",
+        "#afd2bb"
+      ],
+      "#425d55",
+      "Rainforest Chrysoprase"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Dune",
+    "S": "Jade Shade"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/22384968",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 503,
+  "area_km2": 67.48819796839815,
+  "gshhg_area_km2": 70.863348935484,
+  "gshhg_overlap_fraction": 0.9136556188259688,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -138.25181579589844,
+  "max_land_elevation_m": 551.3803100585938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/229/2294.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/229/2295.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/229/2296.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/230/2294.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/230/2295.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/230/2296.tif"
+  ],
+  "resolution_m": 25.49655681621857,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/22384968",
+  "projection": "+proj=aeqd +lat_0=-21.23509 +lon_0=-159.78035 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5290.548067972232,
+    -4190.290291839432,
+    5805.553458446088,
+    4030.6768975401833
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.374139204054642,
+  "artwork_print_scale_denominator": 75285.1087093068,
+  "color_mood": "Rainforest Chrysoprase",
+  "background": "#425d55",
+  "background_name": "Jade Shade",
+  "color_family": "Green",
+  "palette": [
+    "#2f4b48",
+    "#5b796f",
+    "#87a897",
+    "#afd2bb"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "1a3aac3624fa4a309098cd94cf95320deddd1837aa32c9966fca8f8850678beb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

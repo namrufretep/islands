@@ -1,0 +1,118 @@
+{
+  "id": "000079",
+  "name": "Corvo",
+  "slug": "corvo",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores · Western Group",
+  "reference": [
+    -31.1053,
+    39.70184
+  ],
+  "expected_area_km2": 17.5,
+  "source_id": "geonames:3373167",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#304a49",
+        "#677f7a",
+        "#9fb6ac",
+        "#d1e6d9"
+      ],
+      "#d7e6df",
+      "Glacier Serpentine"
+    ],
+    "S": [
+      [
+        "#673d56",
+        "#96667c",
+        "#c790a3",
+        "#f2b6c5"
+      ],
+      "#d3a144",
+      "Rose Tourmaline"
+    ]
+  },
+  "background_names": {
+    "N": "Celadon Fog",
+    "S": "Marigold Clay"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Pink"
+  },
+  "largest_settlement": "Vila do Corvo",
+  "coastline_source": "https://www.openstreetmap.org/way/173773479",
+  "coastline_feature_type": "OpenStreetMap natural=coastline segments",
+  "coastline_points": 1828,
+  "area_km2": 17.144402073934497,
+  "gshhg_area_km2": 17.6369018565791,
+  "gshhg_overlap_fraction": 0.89518095256738,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/173773483",
+    "https://www.openstreetmap.org/way/273679556",
+    "https://www.openstreetmap.org/way/356067591",
+    "https://www.openstreetmap.org/way/588461440",
+    "https://www.openstreetmap.org/way/1011495541",
+    "https://www.openstreetmap.org/way/1011556207",
+    "https://www.openstreetmap.org/way/1011556210",
+    "https://www.openstreetmap.org/relation/5305819"
+  ],
+  "water_count": 8,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -24.03359031677246,
+  "max_land_elevation_m": 690.9923706054688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1693/1554.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1693/1555.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1694/1554.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1694/1555.tif"
+  ],
+  "resolution_m": 14.530539311837737,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/173773479",
+  "projection": "+proj=aeqd +lat_0=39.70184 +lon_0=-31.1053 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1990.9515391400198,
+    -3620.782753746933,
+    1977.1394624471986,
+    2702.90795476485
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.6326348279594343,
+  "artwork_print_scale_denominator": 42905.13576330041,
+  "color_mood": "Rose Tourmaline",
+  "background": "#d3a144",
+  "background_name": "Marigold Clay",
+  "color_family": "Pink",
+  "palette": [
+    "#673d56",
+    "#96667c",
+    "#c790a3",
+    "#f2b6c5"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "dc169b7cd21142a6ef8510c6681228c6aa6d3be45845f34f5cbb84552c592ec4",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

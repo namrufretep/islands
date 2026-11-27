@@ -1,0 +1,59 @@
+{
+  "id": "000085",
+  "name": "Carriacou",
+  "slug": "carriacou",
+  "country_code": "GD",
+  "country": "Grenada",
+  "region": "Grenadines",
+  "reference": [
+    -61.45426,
+    12.47329
+  ],
+  "expected_area_km2": 34,
+  "source_id": "geonames:3580384",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5d2f50",
+        "#885175",
+        "#b5739b",
+        "#dc92bc"
+      ],
+      "#e3c7a5",
+      "Berry Lepidolite"
+    ],
+    "S": [
+      [
+        "#364b55",
+        "#5a717a",
+        "#8099a1",
+        "#a1bcc3"
+      ],
+      "#283944",
+      "Smoky Blue Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Sandy Almond",
+    "S": "Night Estuary"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Gray"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 229,
+  "area_km2": 35.14990148915437,
+  "gshhg_area_km2": 35.14990148915437,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

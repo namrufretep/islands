@@ -1,0 +1,59 @@
+{
+  "id": "000094",
+  "name": "Rodrigues",
+  "slug": "rodrigues",
+  "country_code": "MU",
+  "country": "Mauritius",
+  "region": "Mascarene Islands",
+  "reference": [
+    63.41667,
+    -19.7
+  ],
+  "expected_area_km2": 108,
+  "source_id": "geonames:1545749",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4e493d",
+        "#7d7666",
+        "#ada490",
+        "#d8cdb6"
+      ],
+      "#e2d9cb",
+      "Fossil Dolomite"
+    ],
+    "S": [
+      [
+        "#27454b",
+        "#466c72",
+        "#66949b",
+        "#82b7bf"
+      ],
+      "#4f364d",
+      "Storm Apatite"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Fossil",
+    "S": "Purple Peat"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Turquoise"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 572,
+  "area_km2": 112.7933487289536,
+  "gshhg_area_km2": 112.7933487289536,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

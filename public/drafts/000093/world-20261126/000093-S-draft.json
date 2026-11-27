@@ -1,0 +1,114 @@
+{
+  "id": "000093",
+  "name": "Niue",
+  "slug": "niue",
+  "country_code": "NU",
+  "country": "Niue",
+  "region": "South Pacific",
+  "reference": [
+    -169.85814,
+    -19.04148
+  ],
+  "expected_area_km2": 260,
+  "source_id": "geonames:4036231",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b4658",
+        "#6a7484",
+        "#9aa2b2",
+        "#c5ccda"
+      ],
+      "#cb675d",
+      "Pale Kyanite"
+    ],
+    "S": [
+      [
+        "#653a42",
+        "#905f67",
+        "#bd868d",
+        "#e4a8ae"
+      ],
+      "#c1cfc0",
+      "Guava Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Coral",
+    "S": "Moss Chalk"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 340,
+  "area_km2": 266.3469091656238,
+  "gshhg_area_km2": 266.3469091656238,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -804.57373046875,
+  "max_land_elevation_m": 219.2527618408203,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/56/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/56/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/56/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/57/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/57/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/57/1135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/58/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/58/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/58/1135.tif"
+  ],
+  "resolution_m": 52.163157944728965,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-19.04148 +lon_0=-169.85814 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9977.666143679244,
+    -12713.669400432278,
+    8353.305664507387,
+    9987.736937113767
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 13.040789486182241,
+  "artwork_print_scale_denominator": 154025.0726714438,
+  "color_mood": "Guava Rhodonite",
+  "background": "#c1cfc0",
+  "background_name": "Moss Chalk",
+  "color_family": "Red",
+  "palette": [
+    "#653a42",
+    "#905f67",
+    "#bd868d",
+    "#e4a8ae"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "ad0ecc3c3a6fad90b6636dec038a9e18306d2115d0ea0d9ca3b5f6e1663a78b6",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

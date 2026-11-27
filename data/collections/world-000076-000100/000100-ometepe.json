@@ -1,0 +1,70 @@
+{
+  "id": "000100",
+  "name": "Ometepe",
+  "slug": "ometepe",
+  "country_code": "NI",
+  "country": "Nicaragua",
+  "region": "Lake Nicaragua",
+  "reference": [
+    -85.55447,
+    11.49105
+  ],
+  "expected_area_km2": 276,
+  "source_id": "geonames:3617424",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Nicaragua",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#364354",
+        "#647283",
+        "#93a2b3",
+        "#bdccdd"
+      ],
+      "#dcded8",
+      "Lake Chalcedony"
+    ],
+    "S": [
+      [
+        "#64452e",
+        "#937251",
+        "#c3a074",
+        "#edc994"
+      ],
+      "#5c3962",
+      "Volcanic Honey Opal"
+    ]
+  },
+  "background_names": {
+    "N": "Cloud Chalk",
+    "S": "Night Iris"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 277,
+  "area_km2": 268.3244866754894,
+  "gshhg_area_km2": 268.3244866754894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/135654152",
+    "https://www.openstreetmap.org/way/382961679",
+    "https://www.openstreetmap.org/way/395702874",
+    "https://www.openstreetmap.org/way/395872169",
+    "https://www.openstreetmap.org/way/395915701",
+    "https://www.openstreetmap.org/way/395915712",
+    "https://www.openstreetmap.org/way/395915736",
+    "https://www.openstreetmap.org/way/395915748",
+    "https://www.openstreetmap.org/relation/18542159",
+    "https://www.openstreetmap.org/relation/18542434"
+  ],
+  "water_count": 10,
+  "reference_checked": true,
+  "political_boundaries": false
+}

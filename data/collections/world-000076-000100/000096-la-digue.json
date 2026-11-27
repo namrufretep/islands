@@ -1,0 +1,59 @@
+{
+  "id": "000096",
+  "name": "La Digue",
+  "slug": "la-digue",
+  "country_code": "SC",
+  "country": "Seychelles",
+  "region": "Inner Seychelles",
+  "reference": [
+    55.83621,
+    -4.35942
+  ],
+  "expected_area_km2": 10,
+  "source_id": "geonames:241310",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d4b3b",
+        "#52765f",
+        "#79a283",
+        "#9bc9a4"
+      ],
+      "#d2b445",
+      "Palm Aventurine"
+    ],
+    "S": [
+      [
+        "#654a39",
+        "#906f55",
+        "#bc9571",
+        "#e3b78a"
+      ],
+      "#273f49",
+      "Copper Sandstone"
+    ]
+  },
+  "background_names": {
+    "N": "Golden Mustard",
+    "S": "Deep Fjord"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/26752661",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1714,
+  "area_km2": 9.990228347729651,
+  "gshhg_area_km2": 10.933630083726737,
+  "gshhg_overlap_fraction": 0.8752147729365553,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

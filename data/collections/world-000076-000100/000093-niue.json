@@ -1,0 +1,59 @@
+{
+  "id": "000093",
+  "name": "Niue",
+  "slug": "niue",
+  "country_code": "NU",
+  "country": "Niue",
+  "region": "South Pacific",
+  "reference": [
+    -169.85814,
+    -19.04148
+  ],
+  "expected_area_km2": 260,
+  "source_id": "geonames:4036231",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b4658",
+        "#6a7484",
+        "#9aa2b2",
+        "#c5ccda"
+      ],
+      "#cb675d",
+      "Pale Kyanite"
+    ],
+    "S": [
+      [
+        "#653a42",
+        "#905f67",
+        "#bd868d",
+        "#e4a8ae"
+      ],
+      "#c1cfc0",
+      "Guava Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Coral",
+    "S": "Moss Chalk"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 340,
+  "area_km2": 266.3469091656238,
+  "gshhg_area_km2": 266.3469091656238,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

@@ -1,0 +1,114 @@
+{
+  "id": "000097",
+  "name": "Nosy Be",
+  "slug": "nosy-be",
+  "country_code": "MG",
+  "country": "Madagascar",
+  "region": "Northwest Madagascar",
+  "reference": [
+    48.25899,
+    -13.31421
+  ],
+  "expected_area_km2": 320,
+  "source_id": "geonames:1058090",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3d3549",
+        "#686076",
+        "#948ba3",
+        "#bbb2cc"
+      ],
+      "#c3c4d0",
+      "Volcanic Moonstone"
+    ],
+    "S": [
+      [
+        "#713e2b",
+        "#9b6548",
+        "#c78d66",
+        "#edb181"
+      ],
+      "#3f3037",
+      "Ember Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Lavender Haze",
+    "S": "Black Cherry Ash"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Orange"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 676,
+  "area_km2": 288.21516217247427,
+  "gshhg_area_km2": 288.21516217247427,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -150.35113525390625,
+  "max_land_elevation_m": 429.9815673828125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1297/1099.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1297/1100.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1297/1101.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1298/1099.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1298/1100.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1298/1101.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1299/1099.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1299/1100.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1299/1101.tif"
+  ],
+  "resolution_m": 57.61624066046219,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-13.31421 +lon_0=48.25899 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9334.085211259064,
+    -12211.849382452341,
+    10985.095358267943,
+    12862.738552980803
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 14.404060165115547,
+  "artwork_print_scale_denominator": 170126.69486356946,
+  "color_mood": "Ember Carnelian",
+  "background": "#3f3037",
+  "background_name": "Black Cherry Ash",
+  "color_family": "Orange",
+  "palette": [
+    "#713e2b",
+    "#9b6548",
+    "#c78d66",
+    "#edb181"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "5a994e1d92f7fca324fd757b6ba1ddd0eb064f85cff97bf363d10c30e2f905ef",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

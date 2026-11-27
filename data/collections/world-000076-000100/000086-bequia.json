@@ -1,0 +1,59 @@
+{
+  "id": "000086",
+  "name": "Bequia",
+  "slug": "bequia",
+  "country_code": "VC",
+  "country": "Saint Vincent and the Grenadines",
+  "region": "Grenadines",
+  "reference": [
+    -61.2293,
+    13.00966
+  ],
+  "expected_area_km2": 18,
+  "source_id": "geonames:3577956",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6b4f2b",
+        "#947b4c",
+        "#bfa96f",
+        "#e5d18d"
+      ],
+      "#b9d1c3",
+      "Bronze Calcite"
+    ],
+    "S": [
+      [
+        "#364f38",
+        "#607e59",
+        "#8cae7c",
+        "#b3d99a"
+      ],
+      "#cc5c3c",
+      "Jungle Epidote"
+    ]
+  },
+  "background_names": {
+    "N": "Mint Vapor",
+    "S": "Red Terracotta"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 196,
+  "area_km2": 18.646260086181584,
+  "gshhg_area_km2": 18.646260086181584,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

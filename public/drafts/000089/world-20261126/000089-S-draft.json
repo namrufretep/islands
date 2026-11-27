@@ -1,0 +1,121 @@
+{
+  "id": "000089",
+  "name": "Manitoulin Island",
+  "slug": "manitoulin-island",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Lake Huron · Great Lakes",
+  "reference": [
+    -82.33313,
+    45.83337
+  ],
+  "expected_area_km2": 2766,
+  "source_id": "geonames:6065218",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Huron",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#364a30",
+        "#647756",
+        "#93a57d",
+        "#bdcea0"
+      ],
+      "#d5d9b7",
+      "Lakeshore Jade"
+    ],
+    "S": [
+      [
+        "#453752",
+        "#6c5d7c",
+        "#9584a8",
+        "#b9a7cf"
+      ],
+      "#56837e",
+      "Lavender Charoite"
+    ]
+  },
+  "background_names": {
+    "N": "Pistachio Chalk",
+    "S": "Weathered Copper"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 873,
+  "area_km2": 2822.0493609916794,
+  "gshhg_area_km2": 2822.0493609916794,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 3,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 128.8083038330078,
+  "max_land_elevation_m": 352.6927490234375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/137/181.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/137/182.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/137/183.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/137/184.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/138/181.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/138/182.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/138/183.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/138/184.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/139/181.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/139/182.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/139/183.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/139/184.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/140/181.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/140/182.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/140/183.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/140/184.tif"
+  ],
+  "resolution_m": 293.66155261211514,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=45.83337 +lon_0=-82.33313 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -69814.02610823778,
+    -34659.96146799198,
+    57987.48158855473,
+    17933.257464216094
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 73.41538815302879,
+  "artwork_print_scale_denominator": 867110.8836971904,
+  "color_mood": "Lavender Charoite",
+  "background": "#56837e",
+  "background_name": "Weathered Copper",
+  "color_family": "Purple",
+  "palette": [
+    "#453752",
+    "#6c5d7c",
+    "#9584a8",
+    "#b9a7cf"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "f58bd825c92d44c6a64c918ab67d8e079ddfa8ed06025fd14338b6835408b390",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

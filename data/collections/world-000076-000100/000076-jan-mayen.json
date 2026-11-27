@@ -1,0 +1,59 @@
+{
+  "id": "000076",
+  "name": "Jan Mayen",
+  "slug": "jan-mayen",
+  "country_code": "SJ",
+  "country": "Norway",
+  "region": "Greenland Sea",
+  "reference": [
+    -8.5,
+    70.98333
+  ],
+  "expected_area_km2": 377,
+  "source_id": "geonames:3041963",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Greenland Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c4c61",
+        "#797c80",
+        "#b8ada0",
+        "#f0d8bd"
+      ],
+      "#231d32",
+      "Polar Dumortierite"
+    ],
+    "S": [
+      [
+        "#283631",
+        "#58665b",
+        "#899786",
+        "#b4c3ac"
+      ],
+      "#d1dbca",
+      "Moss Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Apricot Chalk",
+    "S": "Pale Sage"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5643,
+  "area_km2": 377.10048174714416,
+  "gshhg_area_km2": 377.10048174714416,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 22,
+  "reference_checked": true,
+  "political_boundaries": false
+}

@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "000076",
+    "name": "Jan Mayen",
+    "slug": "jan-mayen",
+    "country_code": "SJ",
+    "country": "Norway",
+    "region": "Greenland Sea",
+    "reference": [
+      -8.5,
+      70.98333
+    ],
+    "expected_area_km2": 377,
+    "source_id": "geonames:3041963",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Greenland Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3c4c61",
+          "#797c80",
+          "#b8ada0",
+          "#f0d8bd"
+        ],
+        "#231d32",
+        "Polar Dumortierite"
+      ],
+      "S": [
+        [
+          "#283631",
+          "#58665b",
+          "#899786",
+          "#b4c3ac"
+        ],
+        "#d1dbca",
+        "Moss Serpentine"
+      ]
+    },
+    "background_names": {
+      "N": "Apricot Chalk",
+      "S": "Pale Sage"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000077",
+    "name": "Flores (Azores)",
+    "slug": "flores--azores",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores · Western Group",
+    "reference": [
+      -31.20426,
+      39.44494
+    ],
+    "expected_area_km2": 143,
+    "source_id": "geonames:3373059",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#51324e",
+          "#805c78",
+          "#b188a4",
+          "#dcaecb"
+        ],
+        "#7f341f",
+        "Heather Spinel"
+      ],
+      "S": [
+        [
+          "#515b2c",
+          "#848953",
+          "#b9b77c",
+          "#e8e1a0"
+        ],
+        "#d8d9e2",
+        "Lichen Citrine"
+      ]
+    },
+    "background_names": {
+      "N": "Burnt Sienna",
+      "S": "Blue Porcelain"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Yellow"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000078",
+    "name": "Graciosa",
+    "slug": "graciosa",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores · Central Group",
+    "reference": [
+      -28.01188,
+      39.05412
+    ],
+    "expected_area_km2": 61,
+    "source_id": "geonames:3373008",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#663e21",
+          "#92693e",
+          "#be965c",
+          "#e6bd77"
+        ],
+        "#61496a",
+        "Honey Aragonite"
+      ],
+      "S": [
+        [
+          "#253b4a",
+          "#526a77",
+          "#809aa6",
+          "#a9c4cf"
+        ],
+        "#132e3a",
+        "Deep Aquamarine"
+      ]
+    },
+    "background_names": {
+      "N": "Heather Smoke",
+      "S": "Petrol Night"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000079",
+    "name": "Corvo",
+    "slug": "corvo",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores · Western Group",
+    "reference": [
+      -31.1053,
+      39.70184
+    ],
+    "expected_area_km2": 17.5,
+    "source_id": "geonames:3373167",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#304a49",
+          "#677f7a",
+          "#9fb6ac",
+          "#d1e6d9"
+        ],
+        "#d7e6df",
+        "Glacier Serpentine"
+      ],
+      "S": [
+        [
+          "#673d56",
+          "#96667c",
+          "#c790a3",
+          "#f2b6c5"
+        ],
+        "#d3a144",
+        "Rose Tourmaline"
+      ]
+    },
+    "background_names": {
+      "N": "Celadon Fog",
+      "S": "Marigold Clay"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Pink"
+    },
+    "largest_settlement": "Vila do Corvo"
+  },
+  {
+    "id": "000080",
+    "name": "Eigg",
+    "slug": "eigg",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Inner Hebrides · Small Isles",
+    "reference": [
+      -6.16667,
+      56.9
+    ],
+    "expected_area_km2": 31,
+    "source_id": "geonames:2650165",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#494431",
+          "#756d50",
+          "#a19770",
+          "#c9bc8c"
+        ],
+        "#9fb8c7",
+        "Peat Jasper"
+      ],
+      "S": [
+        [
+          "#4f2937",
+          "#754051",
+          "#9c576b",
+          "#bf6c83"
+        ],
+        "#331d29",
+        "Bramble Garnet"
+      ]
+    },
+    "background_names": {
+      "N": "Silver Sky",
+      "S": "Black Plum"
+    },
+    "color_families": {
+      "N": "Brown",
+      "S": "Red"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000081",
+    "name": "Rùm",
+    "slug": "r-m",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Inner Hebrides · Small Isles",
+    "reference": [
+      -6.33333,
+      57.0
+    ],
+    "expected_area_km2": 105,
+    "source_id": "geonames:2639423",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#393b64",
+          "#66678e",
+          "#9494ba",
+          "#bdbce0"
+        ],
+        "#c8d26d",
+        "Dusk Iolite"
+      ],
+      "S": [
+        [
+          "#684929",
+          "#96774b",
+          "#c5a56f",
+          "#efcf8e"
+        ],
+        "#1b4e4d",
+        "Brass Feldspar"
+      ]
+    },
+    "background_names": {
+      "N": "Lime Pollen",
+      "S": "Deep Tide"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Yellow"
+    },
+    "largest_settlement": "Kinloch"
+  },
+  {
+    "id": "000082",
+    "name": "Gigha",
+    "slug": "gigha",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Inner Hebrides · Kintyre",
+    "reference": [
+      -5.75319,
+      55.6851
+    ],
+    "expected_area_km2": 14,
+    "source_id": "geonames:2648678",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#514c48",
+          "#817c75",
+          "#b3ada3",
+          "#dfd8cc"
+        ],
+        "#e3ded6",
+        "Shell Moonstone"
+      ],
+      "S": [
+        [
+          "#264e45",
+          "#4d7765",
+          "#76a287",
+          "#9ac8a4"
+        ],
+        "#903c50",
+        "Fern Nephrite"
+      ]
+    },
+    "background_names": {
+      "N": "Linen Mist",
+      "S": "Dried Hibiscus"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000083",
+    "name": "La Désirade",
+    "slug": "la-d-sirade",
+    "country_code": "GP",
+    "country": "France · Guadeloupe",
+    "region": "Lesser Antilles",
+    "reference": [
+      -61.05194,
+      16.31838
+    ],
+    "expected_area_km2": 21,
+    "source_id": "geonames:3579050",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea / Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4d3a5f",
+          "#7b668b",
+          "#ab94b7",
+          "#d5bcdf"
+        ],
+        "#365955",
+        "Orchid Fluorite"
+      ],
+      "S": [
+        [
+          "#56332d",
+          "#805448",
+          "#ac7764",
+          "#d3957c"
+        ],
+        "#d7d3a6",
+        "Cinnamon Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Pine Patina",
+      "S": "Parchment Lime"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Brown"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000084",
+    "name": "Marie-Galante",
+    "slug": "marie-galante",
+    "country_code": "GP",
+    "country": "France · Guadeloupe",
+    "region": "Lesser Antilles",
+    "reference": [
+      -61.2705,
+      15.9359
+    ],
+    "expected_area_km2": 158,
+    "source_id": "geonames:3578858",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea / Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2d445e",
+          "#58718c",
+          "#83a0ba",
+          "#aac9e4"
+        ],
+        "#e17f54",
+        "Harbor Sodalite"
+      ],
+      "S": [
+        [
+          "#565c36",
+          "#84895b",
+          "#b4b781",
+          "#dee0a3"
+        ],
+        "#454b6e",
+        "Olive Vesuvianite"
+      ]
+    },
+    "background_names": {
+      "N": "Papaya Dust",
+      "S": "Atlantic Ink"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000085",
+    "name": "Carriacou",
+    "slug": "carriacou",
+    "country_code": "GD",
+    "country": "Grenada",
+    "region": "Grenadines",
+    "reference": [
+      -61.45426,
+      12.47329
+    ],
+    "expected_area_km2": 34,
+    "source_id": "geonames:3580384",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea / Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5d2f50",
+          "#885175",
+          "#b5739b",
+          "#dc92bc"
+        ],
+        "#e3c7a5",
+        "Berry Lepidolite"
+      ],
+      "S": [
+        [
+          "#364b55",
+          "#5a717a",
+          "#8099a1",
+          "#a1bcc3"
+        ],
+        "#283944",
+        "Smoky Blue Quartz"
+      ]
+    },
+    "background_names": {
+      "N": "Sandy Almond",
+      "S": "Night Estuary"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Gray"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000086",
+    "name": "Bequia",
+    "slug": "bequia",
+    "country_code": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "region": "Grenadines",
+    "reference": [
+      -61.2293,
+      13.00966
+    ],
+    "expected_area_km2": 18,
+    "source_id": "geonames:3577956",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea / Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#6b4f2b",
+          "#947b4c",
+          "#bfa96f",
+          "#e5d18d"
+        ],
+        "#b9d1c3",
+        "Bronze Calcite"
+      ],
+      "S": [
+        [
+          "#364f38",
+          "#607e59",
+          "#8cae7c",
+          "#b3d99a"
+        ],
+        "#cc5c3c",
+        "Jungle Epidote"
+      ]
+    },
+    "background_names": {
+      "N": "Mint Vapor",
+      "S": "Red Terracotta"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000087",
+    "name": "Mocha",
+    "slug": "mocha",
+    "country_code": "CL",
+    "country": "Chile",
+    "region": "Biobío Coast",
+    "reference": [
+      -73.91229,
+      -38.3716
+    ],
+    "expected_area_km2": 49,
+    "source_id": "geonames:3879665",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#372c36",
+          "#5b4d58",
+          "#7f6f7b",
+          "#a08d9a"
+        ],
+        "#211d23",
+        "Ash Obsidian"
+      ],
+      "S": [
+        [
+          "#5e4737",
+          "#8d735d",
+          "#bda185",
+          "#e8c9a8"
+        ],
+        "#d4c7b6",
+        "Warm Travertine"
+      ]
+    },
+    "background_names": {
+      "N": "Smoked Aubergine",
+      "S": "Oyster Stone"
+    },
+    "color_families": {
+      "N": "Gray",
+      "S": "Brown"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000088",
+    "name": "Robinson Crusoe",
+    "slug": "robinson-crusoe",
+    "country_code": "CL",
+    "country": "Chile",
+    "region": "Juan Fernández Archipelago",
+    "reference": [
+      -78.8566,
+      -33.63949
+    ],
+    "expected_area_km2": 48,
+    "source_id": "geonames:3873018",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#263c60",
+          "#51658c",
+          "#7d8fb8",
+          "#a4b5e0"
+        ],
+        "#c9a45e",
+        "Ocean Tanzanite"
+      ],
+      "S": [
+        [
+          "#743e2e",
+          "#9e684a",
+          "#ca9467",
+          "#f0ba80"
+        ],
+        "#634568",
+        "Coral Sunstone"
+      ]
+    },
+    "background_names": {
+      "N": "Pale Ochre",
+      "S": "Grape Slate"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Orange"
+    },
+    "largest_settlement": "San Juan Bautista"
+  },
+  {
+    "id": "000089",
+    "name": "Manitoulin Island",
+    "slug": "manitoulin-island",
+    "country_code": "CA",
+    "country": "Canada",
+    "region": "Lake Huron · Great Lakes",
+    "reference": [
+      -82.33313,
+      45.83337
+    ],
+    "expected_area_km2": 2766,
+    "source_id": "geonames:6065218",
+    "island_type": "Lake Island",
+    "water_type": "Freshwater",
+    "water_body": "Lake Huron",
+    "ocean": null,
+    "palettes": {
+      "N": [
+        [
+          "#364a30",
+          "#647756",
+          "#93a57d",
+          "#bdcea0"
+        ],
+        "#d5d9b7",
+        "Lakeshore Jade"
+      ],
+      "S": [
+        [
+          "#453752",
+          "#6c5d7c",
+          "#9584a8",
+          "#b9a7cf"
+        ],
+        "#56837e",
+        "Lavender Charoite"
+      ]
+    },
+    "background_names": {
+      "N": "Pistachio Chalk",
+      "S": "Weathered Copper"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000090",
+    "name": "Vanua Balavu",
+    "slug": "vanua-balavu",
+    "country_code": "FJ",
+    "country": "Fiji",
+    "region": "Lau Archipelago",
+    "reference": [
+      -178.9464,
+      -17.23011
+    ],
+    "expected_area_km2": 57,
+    "source_id": "geonames:4035843",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5b3a33",
+          "#865b4f",
+          "#b27c6b",
+          "#d99a84"
+        ],
+        "#26596c",
+        "Island Rhodochrosite"
+      ],
+      "S": [
+        [
+          "#534c27",
+          "#807744",
+          "#afa362",
+          "#d8ca7c"
+        ],
+        "#302d3d",
+        "Bamboo Heliodor"
+      ]
+    },
+    "background_names": {
+      "N": "Blue Lagoon Slate",
+      "S": "Mulberry Graphite"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Yellow"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000091",
+    "name": "Kadavu",
+    "slug": "kadavu",
+    "country_code": "FJ",
+    "country": "Fiji",
+    "region": "Kadavu Group",
+    "reference": [
+      178.19725,
+      -19.0181
+    ],
+    "expected_area_km2": 411,
+    "source_id": "geonames:8617785",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3a5660",
+          "#648389",
+          "#90b0b3",
+          "#b6d9d9"
+        ],
+        "#de9c95",
+        "Lagoon Amazonite"
+      ],
+      "S": [
+        [
+          "#593b5a",
+          "#7e5e80",
+          "#a483a8",
+          "#c5a3cb"
+        ],
+        "#38283d",
+        "Amethyst Dusk"
+      ]
+    },
+    "background_names": {
+      "N": "Blush Coral",
+      "S": "Dark Heather"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000092",
+    "name": "Rarotonga",
+    "slug": "rarotonga",
+    "country_code": "CK",
+    "country": "Cook Islands",
+    "region": "Southern Cook Islands",
+    "reference": [
+      -159.78035,
+      -21.23509
+    ],
+    "expected_area_km2": 67,
+    "source_id": "geonames:4035552",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#73512f",
+          "#9d7d55",
+          "#c9aa7c",
+          "#efd29e"
+        ],
+        "#e3d8c2",
+        "Vanilla Amber"
+      ],
+      "S": [
+        [
+          "#2f4b48",
+          "#5b796f",
+          "#87a897",
+          "#afd2bb"
+        ],
+        "#425d55",
+        "Rainforest Chrysoprase"
+      ]
+    },
+    "background_names": {
+      "N": "Ivory Dune",
+      "S": "Jade Shade"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000093",
+    "name": "Niue",
+    "slug": "niue",
+    "country_code": "NU",
+    "country": "Niue",
+    "region": "South Pacific",
+    "reference": [
+      -169.85814,
+      -19.04148
+    ],
+    "expected_area_km2": 260,
+    "source_id": "geonames:4036231",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3b4658",
+          "#6a7484",
+          "#9aa2b2",
+          "#c5ccda"
+        ],
+        "#cb675d",
+        "Pale Kyanite"
+      ],
+      "S": [
+        [
+          "#653a42",
+          "#905f67",
+          "#bd868d",
+          "#e4a8ae"
+        ],
+        "#c1cfc0",
+        "Guava Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Clay Coral",
+      "S": "Moss Chalk"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Red"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000094",
+    "name": "Rodrigues",
+    "slug": "rodrigues",
+    "country_code": "MU",
+    "country": "Mauritius",
+    "region": "Mascarene Islands",
+    "reference": [
+      63.41667,
+      -19.7
+    ],
+    "expected_area_km2": 108,
+    "source_id": "geonames:1545749",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4e493d",
+          "#7d7666",
+          "#ada490",
+          "#d8cdb6"
+        ],
+        "#e2d9cb",
+        "Fossil Dolomite"
+      ],
+      "S": [
+        [
+          "#27454b",
+          "#466c72",
+          "#66949b",
+          "#82b7bf"
+        ],
+        "#4f364d",
+        "Storm Apatite"
+      ]
+    },
+    "background_names": {
+      "N": "Pale Fossil",
+      "S": "Purple Peat"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Turquoise"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000095",
+    "name": "Silhouette",
+    "slug": "silhouette",
+    "country_code": "SC",
+    "country": "Seychelles",
+    "region": "Inner Seychelles",
+    "reference": [
+      55.23333,
+      -4.48333
+    ],
+    "expected_area_km2": 20,
+    "source_id": "geonames:241163",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#654721",
+          "#937040",
+          "#c29b60",
+          "#ecc17c"
+        ],
+        "#5b6c92",
+        "Gold Tigers Eye"
+      ],
+      "S": [
+        [
+          "#4a315a",
+          "#745481",
+          "#a078a9",
+          "#c798cc"
+        ],
+        "#d5b9a9",
+        "Lilac Kunzite"
+      ]
+    },
+    "background_names": {
+      "N": "Denim Slate",
+      "S": "Rose Limestone"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000096",
+    "name": "La Digue",
+    "slug": "la-digue",
+    "country_code": "SC",
+    "country": "Seychelles",
+    "region": "Inner Seychelles",
+    "reference": [
+      55.83621,
+      -4.35942
+    ],
+    "expected_area_km2": 10,
+    "source_id": "geonames:241310",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2d4b3b",
+          "#52765f",
+          "#79a283",
+          "#9bc9a4"
+        ],
+        "#d2b445",
+        "Palm Aventurine"
+      ],
+      "S": [
+        [
+          "#654a39",
+          "#906f55",
+          "#bc9571",
+          "#e3b78a"
+        ],
+        "#273f49",
+        "Copper Sandstone"
+      ]
+    },
+    "background_names": {
+      "N": "Golden Mustard",
+      "S": "Deep Fjord"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Brown"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000097",
+    "name": "Nosy Be",
+    "slug": "nosy-be",
+    "country_code": "MG",
+    "country": "Madagascar",
+    "region": "Northwest Madagascar",
+    "reference": [
+      48.25899,
+      -13.31421
+    ],
+    "expected_area_km2": 320,
+    "source_id": "geonames:1058090",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3d3549",
+          "#686076",
+          "#948ba3",
+          "#bbb2cc"
+        ],
+        "#c3c4d0",
+        "Volcanic Moonstone"
+      ],
+      "S": [
+        [
+          "#713e2b",
+          "#9b6548",
+          "#c78d66",
+          "#edb181"
+        ],
+        "#3f3037",
+        "Ember Carnelian"
+      ]
+    },
+    "background_names": {
+      "N": "Lavender Haze",
+      "S": "Black Cherry Ash"
+    },
+    "color_families": {
+      "N": "Gray",
+      "S": "Orange"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000098",
+    "name": "Fogo",
+    "slug": "fogo",
+    "country_code": "CV",
+    "country": "Cabo Verde",
+    "region": "Sotavento Islands",
+    "reference": [
+      -24.39445,
+      14.94138
+    ],
+    "expected_area_km2": 476,
+    "source_id": "geonames:3374613",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#314b53",
+          "#5f797e",
+          "#8fa7ab",
+          "#b9d1d2"
+        ],
+        "#c59bba",
+        "Mist Larimar"
+      ],
+      "S": [
+        [
+          "#5d4d25",
+          "#8c7c4f",
+          "#bdad7a",
+          "#e8d8a0"
+        ],
+        "#a3b59b",
+        "Sulfur Feldspar"
+      ]
+    },
+    "background_names": {
+      "N": "Orchid Dust",
+      "S": "Eucalyptus Clay"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Yellow"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000099",
+    "name": "Brava",
+    "slug": "brava",
+    "country_code": "CV",
+    "country": "Cabo Verde",
+    "region": "Sotavento Islands",
+    "reference": [
+      -24.70525,
+      14.84873
+    ],
+    "expected_area_km2": 67,
+    "source_id": "geonames:3374831",
+    "island_type": "Ocean Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5f364f",
+          "#895e7a",
+          "#b588a5",
+          "#dbadcc"
+        ],
+        "#2a4548",
+        "Bougainvillea Spinel"
+      ],
+      "S": [
+        [
+          "#394b2d",
+          "#687954",
+          "#98a87d",
+          "#c2d2a1"
+        ],
+        "#d4b89a",
+        "Pistachio Jadeite"
+      ]
+    },
+    "background_names": {
+      "N": "Mangrove Shade",
+      "S": "Wheat Travertine"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000100",
+    "name": "Ometepe",
+    "slug": "ometepe",
+    "country_code": "NI",
+    "country": "Nicaragua",
+    "region": "Lake Nicaragua",
+    "reference": [
+      -85.55447,
+      11.49105
+    ],
+    "expected_area_km2": 276,
+    "source_id": "geonames:3617424",
+    "island_type": "Lake Island",
+    "water_type": "Freshwater",
+    "water_body": "Lake Nicaragua",
+    "ocean": null,
+    "palettes": {
+      "N": [
+        [
+          "#364354",
+          "#647283",
+          "#93a2b3",
+          "#bdccdd"
+        ],
+        "#dcded8",
+        "Lake Chalcedony"
+      ],
+      "S": [
+        [
+          "#64452e",
+          "#937251",
+          "#c3a074",
+          "#edc994"
+        ],
+        "#5c3962",
+        "Volcanic Honey Opal"
+      ]
+    },
+    "background_names": {
+      "N": "Cloud Chalk",
+      "S": "Night Iris"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Orange"
+    },
+    "largest_settlement": null
+  }
+]

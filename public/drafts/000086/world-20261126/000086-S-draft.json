@@ -1,0 +1,109 @@
+{
+  "id": "000086",
+  "name": "Bequia",
+  "slug": "bequia",
+  "country_code": "VC",
+  "country": "Saint Vincent and the Grenadines",
+  "region": "Grenadines",
+  "reference": [
+    -61.2293,
+    13.00966
+  ],
+  "expected_area_km2": 18,
+  "source_id": "geonames:3577956",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6b4f2b",
+        "#947b4c",
+        "#bfa96f",
+        "#e5d18d"
+      ],
+      "#b9d1c3",
+      "Bronze Calcite"
+    ],
+    "S": [
+      [
+        "#364f38",
+        "#607e59",
+        "#8cae7c",
+        "#b3d99a"
+      ],
+      "#cc5c3c",
+      "Jungle Epidote"
+    ]
+  },
+  "background_names": {
+    "N": "Mint Vapor",
+    "S": "Red Terracotta"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 196,
+  "area_km2": 18.646260086181584,
+  "gshhg_area_km2": 18.646260086181584,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -17.0,
+  "max_land_elevation_m": 266.44415283203125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1350/1898.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1350/1899.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1351/1898.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1351/1899.tif"
+  ],
+  "resolution_m": 20.994325385596134,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=13.00966 +lon_0=-61.2293 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6546.212526380943,
+    -3247.361271966181,
+    2590.5178814304945,
+    4048.0717019906137
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.248581346399034,
+  "artwork_print_scale_denominator": 61991.118264555516,
+  "color_mood": "Jungle Epidote",
+  "background": "#cc5c3c",
+  "background_name": "Red Terracotta",
+  "color_family": "Green",
+  "palette": [
+    "#364f38",
+    "#607e59",
+    "#8cae7c",
+    "#b3d99a"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "23b9f3aa99df1ca53107292236a3545010a74cd1a1c83384f4fa40c60c664af1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

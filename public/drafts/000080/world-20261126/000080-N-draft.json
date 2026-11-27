@@ -1,0 +1,111 @@
+{
+  "id": "000080",
+  "name": "Eigg",
+  "slug": "eigg",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides · Small Isles",
+  "reference": [
+    -6.16667,
+    56.9
+  ],
+  "expected_area_km2": 31,
+  "source_id": "geonames:2650165",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#494431",
+        "#756d50",
+        "#a19770",
+        "#c9bc8c"
+      ],
+      "#9fb8c7",
+      "Peat Jasper"
+    ],
+    "S": [
+      [
+        "#4f2937",
+        "#754051",
+        "#9c576b",
+        "#bf6c83"
+      ],
+      "#331d29",
+      "Bramble Garnet"
+    ]
+  },
+  "background_names": {
+    "N": "Silver Sky",
+    "S": "Black Plum"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 118,
+  "area_km2": 30.45254323564673,
+  "gshhg_area_km2": 30.45254323564673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -2.880146026611328,
+  "max_land_elevation_m": 335.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1977/1255.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1977/1256.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1977/1257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1978/1255.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1978/1256.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1978/1257.tif"
+  ],
+  "resolution_m": 18.551874225896277,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=56.9 +lon_0=-6.16667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2595.2516856016227,
+    -3204.6445582271863,
+    3195.071981048054,
+    4869.131104882873
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.637968556474069,
+  "artwork_print_scale_denominator": 54779.156178827594,
+  "color_mood": "Peat Jasper",
+  "background": "#9fb8c7",
+  "background_name": "Silver Sky",
+  "color_family": "Brown",
+  "palette": [
+    "#494431",
+    "#756d50",
+    "#a19770",
+    "#c9bc8c"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "1a73be300ba4b1bddbfc757fc8d161b6532fd8e7e21dc4f6d1e0ff1dca9f5e53",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

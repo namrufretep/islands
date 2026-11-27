@@ -1,0 +1,59 @@
+{
+  "id": "000084",
+  "name": "Marie-Galante",
+  "slug": "marie-galante",
+  "country_code": "GP",
+  "country": "France · Guadeloupe",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.2705,
+    15.9359
+  ],
+  "expected_area_km2": 158,
+  "source_id": "geonames:3578858",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d445e",
+        "#58718c",
+        "#83a0ba",
+        "#aac9e4"
+      ],
+      "#e17f54",
+      "Harbor Sodalite"
+    ],
+    "S": [
+      [
+        "#565c36",
+        "#84895b",
+        "#b4b781",
+        "#dee0a3"
+      ],
+      "#454b6e",
+      "Olive Vesuvianite"
+    ]
+  },
+  "background_names": {
+    "N": "Papaya Dust",
+    "S": "Atlantic Ink"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 292,
+  "area_km2": 162.6629150440557,
+  "gshhg_area_km2": 162.6629150440557,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

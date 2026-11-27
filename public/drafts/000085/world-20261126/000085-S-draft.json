@@ -1,0 +1,109 @@
+{
+  "id": "000085",
+  "name": "Carriacou",
+  "slug": "carriacou",
+  "country_code": "GD",
+  "country": "Grenada",
+  "region": "Grenadines",
+  "reference": [
+    -61.45426,
+    12.47329
+  ],
+  "expected_area_km2": 34,
+  "source_id": "geonames:3580384",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5d2f50",
+        "#885175",
+        "#b5739b",
+        "#dc92bc"
+      ],
+      "#e3c7a5",
+      "Berry Lepidolite"
+    ],
+    "S": [
+      [
+        "#364b55",
+        "#5a717a",
+        "#8099a1",
+        "#a1bcc3"
+      ],
+      "#283944",
+      "Smoky Blue Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Sandy Almond",
+    "S": "Night Estuary"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Gray"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 229,
+  "area_km2": 35.14990148915437,
+  "gshhg_area_km2": 35.14990148915437,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -5.0,
+  "max_land_elevation_m": 290.6249694824219,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1348/1904.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1348/1905.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1349/1904.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1349/1905.tif"
+  ],
+  "resolution_m": 24.16152076446443,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=12.47329 +lon_0=-61.45426 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5480.53439895379,
+    -4478.068464413919,
+    3400.9821443987144,
+    6037.025372281
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.040380191116108,
+  "artwork_print_scale_denominator": 71343.0731234186,
+  "color_mood": "Smoky Blue Quartz",
+  "background": "#283944",
+  "background_name": "Night Estuary",
+  "color_family": "Gray",
+  "palette": [
+    "#364b55",
+    "#5a717a",
+    "#8099a1",
+    "#a1bcc3"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "4f0c070c8da527a3bf266ebb2a0f79b35e9320bf4dd1d8e9ac16dd40b4ac6533",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

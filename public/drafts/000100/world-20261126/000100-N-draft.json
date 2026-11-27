@@ -1,0 +1,125 @@
+{
+  "id": "000100",
+  "name": "Ometepe",
+  "slug": "ometepe",
+  "country_code": "NI",
+  "country": "Nicaragua",
+  "region": "Lake Nicaragua",
+  "reference": [
+    -85.55447,
+    11.49105
+  ],
+  "expected_area_km2": 276,
+  "source_id": "geonames:3617424",
+  "island_type": "Lake Island",
+  "water_type": "Freshwater",
+  "water_body": "Lake Nicaragua",
+  "ocean": null,
+  "palettes": {
+    "N": [
+      [
+        "#364354",
+        "#647283",
+        "#93a2b3",
+        "#bdccdd"
+      ],
+      "#dcded8",
+      "Lake Chalcedony"
+    ],
+    "S": [
+      [
+        "#64452e",
+        "#937251",
+        "#c3a074",
+        "#edc994"
+      ],
+      "#5c3962",
+      "Volcanic Honey Opal"
+    ]
+  },
+  "background_names": {
+    "N": "Cloud Chalk",
+    "S": "Night Iris"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L3",
+  "coastline_points": 277,
+  "area_km2": 268.3244866754894,
+  "gshhg_area_km2": 268.3244866754894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "https://www.openstreetmap.org/way/135654152",
+    "https://www.openstreetmap.org/way/382961679",
+    "https://www.openstreetmap.org/way/395702874",
+    "https://www.openstreetmap.org/way/395872169",
+    "https://www.openstreetmap.org/way/395915701",
+    "https://www.openstreetmap.org/way/395915712",
+    "https://www.openstreetmap.org/way/395915736",
+    "https://www.openstreetmap.org/way/395915748",
+    "https://www.openstreetmap.org/relation/18542159",
+    "https://www.openstreetmap.org/relation/18542434"
+  ],
+  "water_count": 10,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 28.471384048461914,
+  "max_land_elevation_m": 1600.9705810546875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/536/957.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/536/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/536/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/537/957.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/537/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/537/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/538/957.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/538/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/538/959.tif"
+  ],
+  "resolution_m": 65.1151188973739,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=11.49105 +lon_0=-85.55447 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -16967.98711292197,
+    -10255.60246300982,
+    11370.112631215154,
+    10762.267275587279
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.278779724343476,
+  "artwork_print_scale_denominator": 192269.05186232453,
+  "color_mood": "Lake Chalcedony",
+  "background": "#dcded8",
+  "background_name": "Cloud Chalk",
+  "color_family": "Blue",
+  "palette": [
+    "#364354",
+    "#647283",
+    "#93a2b3",
+    "#bdccdd"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "9b480f967eda51b92542ec5cc7368869507b2cf779cb3d8d8bfe16674a44db3d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,111 @@
+{
+  "id": "000098",
+  "name": "Fogo",
+  "slug": "fogo",
+  "country_code": "CV",
+  "country": "Cabo Verde",
+  "region": "Sotavento Islands",
+  "reference": [
+    -24.39445,
+    14.94138
+  ],
+  "expected_area_km2": 476,
+  "source_id": "geonames:3374613",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#314b53",
+        "#5f797e",
+        "#8fa7ab",
+        "#b9d1d2"
+      ],
+      "#c59bba",
+      "Mist Larimar"
+    ],
+    "S": [
+      [
+        "#5d4d25",
+        "#8c7c4f",
+        "#bdad7a",
+        "#e8d8a0"
+      ],
+      "#a3b59b",
+      "Sulfur Feldspar"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Dust",
+    "S": "Eucalyptus Clay"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 407,
+  "area_km2": 477.85345036551354,
+  "gshhg_area_km2": 477.85345036551354,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -370.2655334472656,
+  "max_land_elevation_m": 2781.199951171875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/884/937.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/884/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/885/937.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/885/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/886/937.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/886/938.tif"
+  ],
+  "resolution_m": 61.23099806639192,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=14.94138 +lon_0=-24.39445 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13014.984322043041,
+    -14585.980713240177,
+    11281.665636506721,
+    12061.749645253585
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 15.30774951659798,
+  "artwork_print_scale_denominator": 180800.19114092103,
+  "color_mood": "Mist Larimar",
+  "background": "#c59bba",
+  "background_name": "Orchid Dust",
+  "color_family": "Blue",
+  "palette": [
+    "#314b53",
+    "#5f797e",
+    "#8fa7ab",
+    "#b9d1d2"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "df9b870e8a84a1b9a5d0f11a9a1e8ec51dce0b9f54d435b2ae8e5f887ff685b5",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

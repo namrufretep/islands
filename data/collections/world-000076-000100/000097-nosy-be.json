@@ -1,0 +1,59 @@
+{
+  "id": "000097",
+  "name": "Nosy Be",
+  "slug": "nosy-be",
+  "country_code": "MG",
+  "country": "Madagascar",
+  "region": "Northwest Madagascar",
+  "reference": [
+    48.25899,
+    -13.31421
+  ],
+  "expected_area_km2": 320,
+  "source_id": "geonames:1058090",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3d3549",
+        "#686076",
+        "#948ba3",
+        "#bbb2cc"
+      ],
+      "#c3c4d0",
+      "Volcanic Moonstone"
+    ],
+    "S": [
+      [
+        "#713e2b",
+        "#9b6548",
+        "#c78d66",
+        "#edb181"
+      ],
+      "#3f3037",
+      "Ember Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Lavender Haze",
+    "S": "Black Cherry Ash"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Orange"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 676,
+  "area_km2": 288.21516217247427,
+  "gshhg_area_km2": 288.21516217247427,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

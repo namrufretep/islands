@@ -1,0 +1,109 @@
+{
+  "id": "000084",
+  "name": "Marie-Galante",
+  "slug": "marie-galante",
+  "country_code": "GP",
+  "country": "France · Guadeloupe",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.2705,
+    15.9359
+  ],
+  "expected_area_km2": 158,
+  "source_id": "geonames:3578858",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea / Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d445e",
+        "#58718c",
+        "#83a0ba",
+        "#aac9e4"
+      ],
+      "#e17f54",
+      "Harbor Sodalite"
+    ],
+    "S": [
+      [
+        "#565c36",
+        "#84895b",
+        "#b4b781",
+        "#dee0a3"
+      ],
+      "#454b6e",
+      "Olive Vesuvianite"
+    ]
+  },
+  "background_names": {
+    "N": "Papaya Dust",
+    "S": "Atlantic Ink"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 292,
+  "area_km2": 162.6629150440557,
+  "gshhg_area_km2": 162.6629150440557,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -595.6354370117188,
+  "max_land_elevation_m": 379.82757568359375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/931.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/674/932.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/931.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/932.tif"
+  ],
+  "resolution_m": 35.82374612633817,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=15.9359 +lon_0=-61.2705 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6765.861867991608,
+    -7249.283730476741,
+    8491.557923266735,
+    8341.21058370563
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.955936531584543,
+  "artwork_print_scale_denominator": 105778.77793210091,
+  "color_mood": "Olive Vesuvianite",
+  "background": "#454b6e",
+  "background_name": "Atlantic Ink",
+  "color_family": "Green",
+  "palette": [
+    "#565c36",
+    "#84895b",
+    "#b4b781",
+    "#dee0a3"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "1ec8bf7112c5b86315de36b5f6601598ab44dabf497fe4f0c80ec6a3fdaed198",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

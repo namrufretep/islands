@@ -1,0 +1,114 @@
+{
+  "id": "000076",
+  "name": "Jan Mayen",
+  "slug": "jan-mayen",
+  "country_code": "SJ",
+  "country": "Norway",
+  "region": "Greenland Sea",
+  "reference": [
+    -8.5,
+    70.98333
+  ],
+  "expected_area_km2": 377,
+  "source_id": "geonames:3041963",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Greenland Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c4c61",
+        "#797c80",
+        "#b8ada0",
+        "#f0d8bd"
+      ],
+      "#231d32",
+      "Polar Dumortierite"
+    ],
+    "S": [
+      [
+        "#283631",
+        "#58665b",
+        "#899786",
+        "#b4c3ac"
+      ],
+      "#d1dbca",
+      "Moss Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Apricot Chalk",
+    "S": "Pale Sage"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5643,
+  "area_km2": 377.10048174714416,
+  "gshhg_area_km2": 377.10048174714416,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 22,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -79.57658386230469,
+  "max_land_elevation_m": 2201.478759765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/242/109.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/242/110.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/242/111.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/243/109.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/243/110.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/243/111.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/244/109.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/244/110.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/244/111.tif"
+  ],
+  "resolution_m": 95.94615605803806,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=70.98333 +lon_0=-8.5 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -21139.96334410327,
+    -17479.90041197813,
+    20615.80377235489,
+    19841.207667205566
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 23.986539014509514,
+  "artwork_print_scale_denominator": 283305.5789115297,
+  "color_mood": "Moss Serpentine",
+  "background": "#d1dbca",
+  "background_name": "Pale Sage",
+  "color_family": "Green",
+  "palette": [
+    "#283631",
+    "#58665b",
+    "#899786",
+    "#b4c3ac"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "270789ad708b104bf5596ab33c3939cd510c6648e79f95adf70d5ab561c37a22",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

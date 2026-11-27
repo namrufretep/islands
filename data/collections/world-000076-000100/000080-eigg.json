@@ -1,0 +1,59 @@
+{
+  "id": "000080",
+  "name": "Eigg",
+  "slug": "eigg",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides · Small Isles",
+  "reference": [
+    -6.16667,
+    56.9
+  ],
+  "expected_area_km2": 31,
+  "source_id": "geonames:2650165",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#494431",
+        "#756d50",
+        "#a19770",
+        "#c9bc8c"
+      ],
+      "#9fb8c7",
+      "Peat Jasper"
+    ],
+    "S": [
+      [
+        "#4f2937",
+        "#754051",
+        "#9c576b",
+        "#bf6c83"
+      ],
+      "#331d29",
+      "Bramble Garnet"
+    ]
+  },
+  "background_names": {
+    "N": "Silver Sky",
+    "S": "Black Plum"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 118,
+  "area_km2": 30.45254323564673,
+  "gshhg_area_km2": 30.45254323564673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

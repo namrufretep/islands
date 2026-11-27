@@ -1,0 +1,59 @@
+{
+  "id": "000092",
+  "name": "Rarotonga",
+  "slug": "rarotonga",
+  "country_code": "CK",
+  "country": "Cook Islands",
+  "region": "Southern Cook Islands",
+  "reference": [
+    -159.78035,
+    -21.23509
+  ],
+  "expected_area_km2": 67,
+  "source_id": "geonames:4035552",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#73512f",
+        "#9d7d55",
+        "#c9aa7c",
+        "#efd29e"
+      ],
+      "#e3d8c2",
+      "Vanilla Amber"
+    ],
+    "S": [
+      [
+        "#2f4b48",
+        "#5b796f",
+        "#87a897",
+        "#afd2bb"
+      ],
+      "#425d55",
+      "Rainforest Chrysoprase"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Dune",
+    "S": "Jade Shade"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/22384968",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 503,
+  "area_km2": 67.48819796839815,
+  "gshhg_area_km2": 70.863348935484,
+  "gshhg_overlap_fraction": 0.9136556188259688,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

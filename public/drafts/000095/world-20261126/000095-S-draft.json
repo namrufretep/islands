@@ -1,0 +1,107 @@
+{
+  "id": "000095",
+  "name": "Silhouette",
+  "slug": "silhouette",
+  "country_code": "SC",
+  "country": "Seychelles",
+  "region": "Inner Seychelles",
+  "reference": [
+    55.23333,
+    -4.48333
+  ],
+  "expected_area_km2": 20,
+  "source_id": "geonames:241163",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#654721",
+        "#937040",
+        "#c29b60",
+        "#ecc17c"
+      ],
+      "#5b6c92",
+      "Gold Tigers Eye"
+    ],
+    "S": [
+      [
+        "#4a315a",
+        "#745481",
+        "#a078a9",
+        "#c798cc"
+      ],
+      "#d5b9a9",
+      "Lilac Kunzite"
+    ]
+  },
+  "background_names": {
+    "N": "Denim Slate",
+    "S": "Rose Limestone"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.openstreetmap.org/way/23564990",
+  "coastline_feature_type": "OpenStreetMap physical place=island outline",
+  "coastline_points": 1026,
+  "area_km2": 19.972281905246675,
+  "gshhg_area_km2": 20.34049218291254,
+  "gshhg_overlap_fraction": 0.9130281934535052,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -7.93794584274292,
+  "max_land_elevation_m": 737.5845336914062,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2676/2098.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2676/2099.tif"
+  ],
+  "resolution_m": 13.027778445689254,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.openstreetmap.org/way/23564990",
+  "projection": "+proj=aeqd +lat_0=-4.48333 +lon_0=55.23333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3156.3650294284425,
+    -3382.2129060179072,
+    2513.3241501355205,
+    2158.430114235468
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.2569446114223135,
+  "artwork_print_scale_denominator": 38467.849741208425,
+  "color_mood": "Lilac Kunzite",
+  "background": "#d5b9a9",
+  "background_name": "Rose Limestone",
+  "color_family": "Purple",
+  "palette": [
+    "#4a315a",
+    "#745481",
+    "#a078a9",
+    "#c798cc"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "5457f80284b6801cb94745e0286d458127b290dc52fc73faa10c7e45f6ab1f9c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

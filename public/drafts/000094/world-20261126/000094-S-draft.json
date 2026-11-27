@@ -1,0 +1,111 @@
+{
+  "id": "000094",
+  "name": "Rodrigues",
+  "slug": "rodrigues",
+  "country_code": "MU",
+  "country": "Mauritius",
+  "region": "Mascarene Islands",
+  "reference": [
+    63.41667,
+    -19.7
+  ],
+  "expected_area_km2": 108,
+  "source_id": "geonames:1545749",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4e493d",
+        "#7d7666",
+        "#ada490",
+        "#d8cdb6"
+      ],
+      "#e2d9cb",
+      "Fossil Dolomite"
+    ],
+    "S": [
+      [
+        "#27454b",
+        "#466c72",
+        "#66949b",
+        "#82b7bf"
+      ],
+      "#4f364d",
+      "Storm Apatite"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Fossil",
+    "S": "Purple Peat"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Turquoise"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 572,
+  "area_km2": 112.7933487289536,
+  "gshhg_area_km2": 112.7933487289536,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -12.049273490905762,
+  "max_land_elevation_m": 385.21142578125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1384/1137.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1384/1138.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1384/1139.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1385/1137.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1385/1138.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1385/1139.tif"
+  ],
+  "resolution_m": 41.55117748116192,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-19.7 +lon_0=63.41667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9128.412627239022,
+    -7706.521780285981,
+    8954.659812562644,
+    4104.6868623606115
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.38779437029048,
+  "artwork_print_scale_denominator": 122690.48468847024,
+  "color_mood": "Storm Apatite",
+  "background": "#4f364d",
+  "background_name": "Purple Peat",
+  "color_family": "Turquoise",
+  "palette": [
+    "#27454b",
+    "#466c72",
+    "#66949b",
+    "#82b7bf"
+  ],
+  "art_version": "4.5-world-20261126",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles",
+  "artwork_sha256": "9426d2561f9969b83c49277dc9be52c3f05b92b62786b65016a3d58c1d8bde67",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

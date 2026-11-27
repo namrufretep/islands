@@ -1,0 +1,59 @@
+{
+  "id": "000082",
+  "name": "Gigha",
+  "slug": "gigha",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides · Kintyre",
+  "reference": [
+    -5.75319,
+    55.6851
+  ],
+  "expected_area_km2": 14,
+  "source_id": "geonames:2648678",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#514c48",
+        "#817c75",
+        "#b3ada3",
+        "#dfd8cc"
+      ],
+      "#e3ded6",
+      "Shell Moonstone"
+    ],
+    "S": [
+      [
+        "#264e45",
+        "#4d7765",
+        "#76a287",
+        "#9ac8a4"
+      ],
+      "#903c50",
+      "Fern Nephrite"
+    ]
+  },
+  "background_names": {
+    "N": "Linen Mist",
+    "S": "Dried Hibiscus"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 184,
+  "area_km2": 15.657837858153481,
+  "gshhg_area_km2": 15.657837858153481,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}

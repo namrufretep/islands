@@ -1,0 +1,59 @@
+{
+  "id": "000098",
+  "name": "Fogo",
+  "slug": "fogo",
+  "country_code": "CV",
+  "country": "Cabo Verde",
+  "region": "Sotavento Islands",
+  "reference": [
+    -24.39445,
+    14.94138
+  ],
+  "expected_area_km2": 476,
+  "source_id": "geonames:3374613",
+  "island_type": "Ocean Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#314b53",
+        "#5f797e",
+        "#8fa7ab",
+        "#b9d1d2"
+      ],
+      "#c59bba",
+      "Mist Larimar"
+    ],
+    "S": [
+      [
+        "#5d4d25",
+        "#8c7c4f",
+        "#bdad7a",
+        "#e8d8a0"
+      ],
+      "#a3b59b",
+      "Sulfur Feldspar"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Dust",
+    "S": "Eucalyptus Clay"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 407,
+  "area_km2": 477.85345036551354,
+  "gshhg_area_km2": 477.85345036551354,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false
+}
