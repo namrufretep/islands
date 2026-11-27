@@ -58,7 +58,9 @@ function buttons(){
 function link(parent,label,url){const a=document.createElement('a');a.textContent=label;a.href=url;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);}
 function logTransaction(label,hash){
  const list=$('transactions');if(!list.dataset.hasEntries){list.replaceChildren();list.dataset.hasEntries='true';}
- const row=document.createElement('li');link(row,label+' ↗',TEST_EXPLORER+'/tx/'+hash);list.prepend(row);
+ let row=[...list.children].find(item=>item.dataset.transactionHash===hash);
+ if(!row){row=document.createElement('li');row.dataset.transactionHash=hash;list.prepend(row);}
+ row.replaceChildren();link(row,label+' ↗',TEST_EXPLORER+'/tx/'+hash);
 }
 function resetConnection(){
  generation++;detach();detach=()=>{};account=null;suite=null;walletClient=null;provider=null;gas=0n;available=false;owner=null;allowance=balance=0n;
@@ -79,6 +81,7 @@ async function run(action){
  finally{busy=false;buttons();}
 }
 async function receipt(hash,label){
+ if(!validTransactionHash(hash))throw Error('Wallet returned an invalid transaction reference.');
  logTransaction(label+' · pending',hash);status('Waiting for confirmation on Base Sepolia…');
  const result=await publicClient.waitForTransactionReceipt({hash,confirmations:1,timeout:120000});
  if(result.status!=='success')throw Error('The test transaction reverted. No mint success is being recorded.');
