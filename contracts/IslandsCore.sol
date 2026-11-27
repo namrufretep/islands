@@ -45,6 +45,8 @@ abstract contract IslandsCore is ERC721, ERC2981, Ownable, ReentrancyGuard {
         emit KeyMintEnabled(enabled);
     }
     function setMintOffer(uint256 tokenId,string calldata uri,uint256 price) external onlyOwner {
+        _validateEdition(tokenId,uri);
+        _validateMintPrice(price);
         require(tokenId != 0 && bytes(uri).length != 0 && price != 0,"Invalid mint offer");
         require(_ownerOf(tokenId) == address(0),"Already minted");
         mintOffers[tokenId] = MintOffer(price,uri);
@@ -63,24 +65,31 @@ abstract contract IslandsCore is ERC721, ERC2981, Ownable, ReentrancyGuard {
         MintOffer memory offer = mintOffers[tokenId];
         require(offer.price != 0 && _ownerOf(tokenId) == address(0),"Edition unavailable");
         require(offer.price == expectedPrice && keccak256(bytes(offer.metadataURI)) == expectedMetadataHash,"Mint offer changed");
+        _settleMint(tokenId,recipient,offer.metadataURI,offer.price);
+    }
+    /// @dev Additional mint routes share the exact same atomic settlement.
+    function _settleMint(uint256 tokenId,address recipient,string memory uri,uint256 price) internal {
         delete mintOffers[tokenId];
         IERC20 key = IERC20(KEY);
         uint256 payoutBefore = key.balanceOf(MINT_PROCEEDS_RECIPIENT);
         uint256 payerBefore = key.balanceOf(msg.sender);
-        key.safeTransferFrom(msg.sender,MINT_PROCEEDS_RECIPIENT,offer.price);
+        key.safeTransferFrom(msg.sender,MINT_PROCEEDS_RECIPIENT,price);
         // Reject transfer fees or unexpected debits; the creator receives the full price.
-        require(key.balanceOf(MINT_PROCEEDS_RECIPIENT) == payoutBefore + offer.price,"Incomplete mint payout");
-        require(key.balanceOf(msg.sender) + offer.price == payerBefore,"Unexpected mint debit");
-        metadata[tokenId] = offer.metadataURI;
+        require(key.balanceOf(MINT_PROCEEDS_RECIPIENT) == payoutBefore + price,"Incomplete mint payout");
+        require(key.balanceOf(msg.sender) + price == payerBefore,"Unexpected mint debit");
+        metadata[tokenId] = uri;
         _safeMint(recipient,tokenId);
-        emit MintedWithKey(tokenId,msg.sender,recipient,offer.price,MINT_PROCEEDS_RECIPIENT);
+        emit MintedWithKey(tokenId,msg.sender,recipient,price,MINT_PROCEEDS_RECIPIENT);
     }
     function issue(address recipient, uint256 islandId, string calldata uri) external onlyOwner nonReentrant {
         require(islandId != 0 && bytes(uri).length != 0, "Invalid island");
+        _validateEdition(islandId,uri);
         delete mintOffers[islandId];
         metadata[islandId] = uri;
         _safeMint(recipient, islandId);
     }
+    function _validateEdition(uint256,string memory) internal view virtual {}
+    function _validateMintPrice(uint256) internal pure virtual {}
     function tokenURI(uint256 islandId) public view override returns (string memory) {
         _requireOwned(islandId);
         return metadata[islandId];

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-27T22:14:16.902Z",
+  "chain_id": 8453,
+  "block_number": 63136388,
+  "key_address": "0xb0ca1e094a1779018b194ac6151ece8d6f05db07",
+  "key_symbol": "KEY ",
+  "key_decimals": 18,
+  "key_code_sha256": "de24eafdaa96bf9450651033c1382046da9d0b9c22df304cc01a0ff495b804fb",
+  "deployment_simulation": "success",
+  "deployment_gas_units": "3478962",
+  "transaction_sent": false,
+  "collection_deployed": false,
+  "public_mint_open": false,
+  "limitations": [
+    "RPC simulation is not an audit or wallet-security classification",
+    "KEY token implementation, admin controls and transfer behavior require separate review",
+    "Staking verification service and blind/regional selection remain unconnected",
+    "No real KEY payment or OpenSea indexing tested"
+  ]
+}

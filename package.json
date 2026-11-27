@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
+    "predev": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs && node scripts/build-mainnet-release.mjs",
     "dev": "vite",
-    "prebuild": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
+    "prebuild": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs && node scripts/build-mainnet-release.mjs",
     "build": "vite build",
-    "pretest": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs",
-    "test": "node --test"
+    "pretest": "node scripts/build-app-assets.mjs && node scripts/build-thumbnails.mjs && node scripts/build-share-pages.mjs && node scripts/build-nft-metadata.mjs && node scripts/build-mainnet-release.mjs",
+    "test": "node --test src/*.test.js"
   },
   "dependencies": {
     "@farcaster/miniapp-sdk": "^0.2.0",

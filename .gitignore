@@ -167,3 +167,8 @@ vite.config.ts.timestamp-*
 # Generated app identity assets
 public/icon.png
 public/app-preview.png
+
+# Installed Solidity dependencies and generated release review
+lib/
+public/launch/index.html
+public/launch/release-plan.json

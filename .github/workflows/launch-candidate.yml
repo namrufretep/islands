@@ -1,0 +1,43 @@
+name: Check launch candidate
+on:
+  push:
+    paths:
+      - 'contracts/**'
+      - 'test/**'
+      - 'scripts/*launch*'
+      - 'scripts/*mainnet*'
+      - 'src/launch-*'
+      - '.github/workflows/launch-candidate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      FOUNDRY_OPTIMIZER: 'true'
+      FOUNDRY_OPTIMIZER_RUNS: '200'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - run: forge install OpenZeppelin/openzeppelin-contracts@v5.2.0 foundry-rs/forge-std@v1.9.6 --no-git
+      - run: forge test -vvv
+      - run: forge test --match-contract IslandsLaunchForkTest -vvv
+        env:
+          ISLANDS_BASE_FORK_URL: https://mainnet.base.org
+      - run: python3 scripts/export-launch-artifacts.py
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: node scripts/check-mainnet-release.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: islands-mainnet-preparation
+          path: public/launch/
