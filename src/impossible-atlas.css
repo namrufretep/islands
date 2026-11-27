@@ -280,3 +280,14 @@ body .page .key-counts dt,body .page .key-counts dd{font-size:14px!important;lin
 .key-summary{border-block:1px solid currentColor;padding:12px 0}
 body .page .key-wallet{font-size:12px!important;line-height:1.4!important;overflow-wrap:anywhere}
 #positions,#results{min-width:0}
+/* Three distinct community rankings in one compact mobile table. */
+.leaderboard-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+.leaderboard-stats>div{border:1px solid currentColor;padding:12px;min-width:0}
+body .page .leaderboard-stats dt{font-size:12px!important;line-height:1.4!important}
+body .page .leaderboard-stats dd{font-size:22px!important;font-weight:900;margin:5px 0 0;overflow-wrap:anywhere}
+.leaderboard-scroll{max-width:100%;overflow-x:auto}
+.leaderboard-table{width:100%;border-collapse:collapse;margin:16px 0}
+body .page .leaderboard-table th,body .page .leaderboard-table td{font-size:13px!important;line-height:1.4!important;padding:10px 6px;text-align:left;border-bottom:1px solid currentColor;overflow-wrap:anywhere}
+.leaderboard-table caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+body .page .leaderboard-island{font:inherit!important;text-align:left;background:none;border:0;padding:0;text-decoration:underline;min-width:0}
+body .page .leaderboard-explanation,body .page .leaderboard-empty{font-size:14px!important;line-height:1.5!important}
