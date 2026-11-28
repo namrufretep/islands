@@ -1,0 +1,71 @@
+{
+  "id": "000179",
+  "letter": "A",
+  "name": "Arran",
+  "slug": "arran",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Firth of Clyde",
+  "reference": [
+    -5.25,
+    55.6
+  ],
+  "source_id": "geonames:2657023",
+  "source_name": "Isle of Arran",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Firth of Clyde",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#cad9d9",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#182f36",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Glacial Mist North",
+    "S": "Deep Petrol South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": "Isle of Arran",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 457,
+  "area_km2": 437.31803592659816,
+  "gshhg_area_km2": 437.31803592659816,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Isle of Arran",
+    "country": "GB",
+    "lon": -5.21233,
+    "lat": 55.58145,
+    "population": 5058,
+    "source": "https://www.geonames.org/8299836"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

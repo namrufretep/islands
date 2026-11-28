@@ -1,0 +1,64 @@
+{
+  "id": "000195",
+  "letter": "Q",
+  "name": "Quinchao",
+  "slug": "quinchao",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Chiloé Archipelago",
+  "reference": [
+    -73.51465,
+    -42.46913
+  ],
+  "source_id": "geonames:3874040",
+  "source_name": "Isla Quinchao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Ancud",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#d1dccb",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#334d4b",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Lichen North",
+    "S": "Forest Shadow South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 683,
+  "area_km2": 130.7054853967447,
+  "gshhg_area_km2": 130.7054853967447,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

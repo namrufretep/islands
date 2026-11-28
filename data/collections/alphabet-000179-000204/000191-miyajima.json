@@ -1,0 +1,72 @@
+{
+  "id": "000191",
+  "letter": "M",
+  "name": "Miyajima",
+  "slug": "miyajima",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Hiroshima Bay",
+  "reference": [
+    132.30398,
+    34.27252
+  ],
+  "source_id": "geonames:1861253",
+  "source_name": "Itsuku Shima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Seto Inland Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#273d37",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#e6e0d7",
+      "Fossil Ivory"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Moss North",
+    "S": "Warm Porcelain South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "White"
+  },
+  "largest_settlement": "Miyajima",
+  "name_evidence": "https://www.japan.travel/en/destinations/chugoku/hiroshima/miyajima/",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 193,
+  "area_km2": 31.875269341048323,
+  "gshhg_area_km2": 31.875269341048323,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Miyajima",
+    "country": "JP",
+    "lon": 132.32186,
+    "lat": 34.29907,
+    "population": 2018,
+    "source": "https://www.geonames.org/1856798"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

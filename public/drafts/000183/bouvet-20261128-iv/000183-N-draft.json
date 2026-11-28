@@ -1,0 +1,133 @@
+{
+  "id": "000183",
+  "letter": "E",
+  "name": "Espiritu Santo",
+  "slug": "espiritu-santo",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Vanuatu",
+  "reference": [
+    166.92232,
+    -15.3274
+  ],
+  "source_id": "geonames:2137067",
+  "source_name": "Espiritu Santo",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#33313c",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#283850",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Graphite Violet North",
+    "S": "Blue Night South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": "Luganville",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2636,
+  "area_km2": 4055.5787647137004,
+  "gshhg_area_km2": 4055.5787647137004,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Luganville",
+    "country": "VU",
+    "lon": 167.16235,
+    "lat": -15.51989,
+    "population": 13397,
+    "source": "https://www.geonames.org/2136150"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -594.475830078125,
+  "max_land_elevation_m": 1746.11669921875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/492/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/492/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/492/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/493/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/493/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/493/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/494/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/494/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/494/278.tif"
+  ],
+  "resolution_m": 264.80489839991293,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-15.3274 +lon_0=166.92232 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -43076.839933568415,
+    -38792.5000713216,
+    34848.83390076572,
+    76450.5917123205
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 66.20122459997823,
+  "artwork_print_scale_denominator": 781904.227558798,
+  "color_mood": "Blue Grey Marble",
+  "background": "#33313c",
+  "background_name": "Graphite Violet North",
+  "color_family": "Blue",
+  "palette": [
+    "#31445d",
+    "#667e9e",
+    "#a2b6cb",
+    "#d9e1e5"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d06ed3698f7d1a3d9fd2de2d605a13f3bf70a4e2b85acf3dc0fe14c2819c3427",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

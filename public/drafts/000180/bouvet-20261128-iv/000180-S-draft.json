@@ -1,0 +1,140 @@
+{
+  "id": "000180",
+  "letter": "B",
+  "name": "Brač",
+  "slug": "brac",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    16.63722,
+    43.32
+  ],
+  "source_id": "geonames:3203594",
+  "source_name": "Otok Brač",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#d9c991",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#dbc7b2",
+      "Glacial Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Faded Ochre North",
+    "S": "Travertine Sand South"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Supetar",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1055,
+  "area_km2": 404.13723177231776,
+  "gshhg_area_km2": 404.13723177231776,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Supetar",
+    "country": "HR",
+    "lon": 16.55083,
+    "lat": 43.38417,
+    "population": 3415,
+    "source": "https://www.geonames.org/3189492"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -0.4012502431869507,
+  "max_land_elevation_m": 771.80859375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1117/748.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1117/749.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1117/750.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1117/751.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1118/748.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1118/749.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1118/750.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1118/751.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1119/748.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1119/749.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1119/750.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1119/751.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1120/748.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1120/749.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1120/750.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1120/751.tif"
+  ],
+  "resolution_m": 91.96119864144832,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=43.32 +lon_0=16.63722 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -18740.005617016184,
+    -7178.170543403044,
+    21281.508031742127,
+    8213.610945963359
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 22.99029966036208,
+  "artwork_print_scale_denominator": 271538.97236648126,
+  "color_mood": "Glacial Turquoise",
+  "background": "#dbc7b2",
+  "background_name": "Travertine Sand South",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "341a0bc74c9457130f7fcb2393f1ba99e8921d908165fbab7dd46ea3d89e1e38",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

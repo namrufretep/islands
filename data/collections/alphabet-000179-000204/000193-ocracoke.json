@@ -1,0 +1,71 @@
+{
+  "id": "000193",
+  "letter": "O",
+  "name": "Ocracoke",
+  "slug": "ocracoke",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Outer Banks",
+  "reference": [
+    -75.90517,
+    35.13212
+  ],
+  "source_id": "geonames:4483144",
+  "source_name": "Ocracoke Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#b89a74",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#473546",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Old Sandstone North",
+    "S": "Smoked Plum South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Ocracoke",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 493,
+  "area_km2": 31.85465988108527,
+  "gshhg_area_km2": 31.85465988108527,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ocracoke",
+    "country": "US",
+    "lon": -75.98101,
+    "lat": 35.11462,
+    "population": 948,
+    "source": "https://www.geonames.org/4483142"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

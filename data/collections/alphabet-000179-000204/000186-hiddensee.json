@@ -1,0 +1,71 @@
+{
+  "id": "000186",
+  "letter": "H",
+  "name": "Hiddensee",
+  "slug": "hiddensee",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "DE",
+  "country": "Germany",
+  "region": "Baltic Sea",
+  "reference": [
+    13.10123,
+    54.54063
+  ],
+  "source_id": "geonames:2904885",
+  "source_name": "Hiddensee",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#e4ded5",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#a2a78f",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Porcelain North",
+    "S": "Sage Dust South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Hiddensee",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 240,
+  "area_km2": 20.249050171664976,
+  "gshhg_area_km2": 20.249050171664976,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Hiddensee",
+    "country": "DE",
+    "lon": 13.10411,
+    "lat": 54.56689,
+    "population": 1094,
+    "source": "https://www.geonames.org/3209281"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

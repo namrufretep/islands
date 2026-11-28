@@ -1,0 +1,65 @@
+{
+  "id": "000202",
+  "letter": "X",
+  "name": "Xiaoliuqiu",
+  "slug": "xiaoliuqiu",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Pingtung",
+  "reference": [
+    120.37151,
+    22.34045
+  ],
+  "source_id": "geonames:1672751",
+  "source_name": "Liuqiu Yu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#61554b",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d2bfcd",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Soft Umber North",
+    "S": "Orchid Dust South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "name_evidence": "https://www.dbnsa.gov.tw/en/attraction/AttractionAreaPage?a=142",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 79,
+  "area_km2": 7.971450811794672,
+  "gshhg_area_km2": 7.971450811794672,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

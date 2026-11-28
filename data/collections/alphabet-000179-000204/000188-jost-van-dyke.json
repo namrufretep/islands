@@ -1,0 +1,64 @@
+{
+  "id": "000188",
+  "letter": "J",
+  "name": "Jost Van Dyke",
+  "slug": "jost-van-dyke",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "VG",
+  "country": "British Virgin Islands",
+  "region": "Virgin Islands",
+  "reference": [
+    -64.74372,
+    18.44859
+  ],
+  "source_id": "geonames:3577566",
+  "source_name": "Jost Van Dyke Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#453344",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#35333e",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Smoked Plum North",
+    "S": "Graphite Violet South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Yellow"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 111,
+  "area_km2": 9.41910233018196,
+  "gshhg_area_km2": 9.41910233018196,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

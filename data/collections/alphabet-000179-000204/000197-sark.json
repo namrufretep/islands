@@ -1,0 +1,71 @@
+{
+  "id": "000197",
+  "letter": "S",
+  "name": "Sark",
+  "slug": "sark",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.35889,
+    49.43306
+  ],
+  "source_id": "geonames:3042282",
+  "source_name": "Sark",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#d0bdcb",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#a06d63",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Dust North",
+    "S": "Mineral Rose South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Pink"
+  },
+  "largest_settlement": "Sark",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 114,
+  "area_km2": 6.252312771219656,
+  "gshhg_area_km2": 6.252312771219656,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sark",
+    "country": "GG",
+    "lon": -2.35622,
+    "lat": 49.43331,
+    "population": 600,
+    "source": "https://www.geonames.org/6696201"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

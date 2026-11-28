@@ -1,0 +1,71 @@
+{
+  "id": "000204",
+  "letter": "Z",
+  "name": "Zanzibar (Unguja)",
+  "slug": "zanzibar-unguja",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TZ",
+  "country": "Tanzania",
+  "region": "Zanzibar Archipelago",
+  "reference": [
+    39.3417,
+    -6.15557
+  ],
+  "source_id": "geonames:148726",
+  "source_name": "Zanzibar Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#26364e",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#eadfc3",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Night North",
+    "S": "Ivory Light South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Zanzibar",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1828,
+  "area_km2": 1571.714779418156,
+  "gshhg_area_km2": 1571.714779418156,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zanzibar",
+    "country": "TZ",
+    "lon": 39.19793,
+    "lat": -6.16394,
+    "population": 709809,
+    "source": "https://www.geonames.org/148730"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

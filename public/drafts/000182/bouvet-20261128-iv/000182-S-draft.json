@@ -1,0 +1,137 @@
+{
+  "id": "000182",
+  "letter": "D",
+  "name": "Dønna",
+  "slug": "donna",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Helgeland",
+  "reference": [
+    12.58333,
+    66.1
+  ],
+  "source_id": "geonames:3159095",
+  "source_name": "Dønna",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#222f3a",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#a2b1b2",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Midnight Slate North",
+    "S": "Silver Fog South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 960,
+  "area_km2": 146.9776330480177,
+  "gshhg_area_km2": 146.9776330480177,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -0.4312303960323334,
+  "max_land_elevation_m": 832.8381958007812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1093/515.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1093/516.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1093/517.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1093/518.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1093/519.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1094/515.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1094/516.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1094/517.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1094/518.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1094/519.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1095/515.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1095/516.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1095/517.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1095/518.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1095/519.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1096/515.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1096/516.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1096/517.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1096/518.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1096/519.tif"
+  ],
+  "resolution_m": 55.04374329290238,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=66.1 +lon_0=12.58333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12515.87779200358,
+    -9594.975608717838,
+    3731.1064659646504,
+    14360.061472353276
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 13.760935823225594,
+  "artwork_print_scale_denominator": 162530.73806959364,
+  "color_mood": "Warm Travertine",
+  "background": "#a2b1b2",
+  "background_name": "Silver Fog South",
+  "color_family": "Brown",
+  "palette": [
+    "#574335",
+    "#987754",
+    "#c9aa7d",
+    "#ead8b6"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ddaabcdb9ed715e458c2178f1581d5ec898ffbdcb7afd880de7285fb1c7fca0e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

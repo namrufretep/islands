@@ -1,0 +1,74 @@
+{
+  "id": "000200",
+  "letter": "V",
+  "name": "Viti Levu",
+  "slug": "viti-levu",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Fiji",
+  "reference": [
+    178.0,
+    -18.0
+  ],
+  "source_id": "geonames:2196625",
+  "source_name": "Viti Levu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#162d34",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#d3decd",
+      "Blue Grey Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Petrol North",
+    "S": "Pale Lichen South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Blue"
+  },
+  "largest_settlement": "Nasinu",
+  "source_aliases": [
+    "geonames:9881353"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4773,
+  "area_km2": 10724.064654989837,
+  "gshhg_area_km2": 10724.064654989837,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Nasinu",
+    "country": "FJ",
+    "lon": 178.51313,
+    "lat": -18.07051,
+    "population": 92043,
+    "source": "https://www.geonames.org/8740209"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

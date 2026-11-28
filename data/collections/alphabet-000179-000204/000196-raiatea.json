@@ -1,0 +1,71 @@
+{
+  "id": "000196",
+  "letter": "R",
+  "name": "Raiatea",
+  "slug": "raiatea",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Society Islands",
+  "reference": [
+    -151.43814,
+    -16.82566
+  ],
+  "source_id": "geonames:4033744",
+  "source_name": "Raiatea",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#1b272d",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#293f39",
+      "Glacial Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide North",
+    "S": "Deep Moss South"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Uturoa",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 637,
+  "area_km2": 172.15647658329036,
+  "gshhg_area_km2": 172.15647658329036,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Uturoa",
+    "country": "PF",
+    "lon": -151.44256,
+    "lat": -16.73022,
+    "population": 3668,
+    "source": "https://www.geonames.org/4033205"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

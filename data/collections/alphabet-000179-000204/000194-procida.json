@@ -1,0 +1,71 @@
+{
+  "id": "000194",
+  "letter": "P",
+  "name": "Procida",
+  "slug": "procida",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Bay of Naples",
+  "reference": [
+    14.01802,
+    40.76122
+  ],
+  "source_id": "geonames:3169805",
+  "source_name": "Isola di Procida",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#c59170",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#2a4d57",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Sand North",
+    "S": "Nordic Teal South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Blue"
+  },
+  "largest_settlement": "Procida",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 127,
+  "area_km2": 4.750601688631978,
+  "gshhg_area_km2": 4.750601688631978,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Procida",
+    "country": "IT",
+    "lon": 14.01457,
+    "lat": 40.75636,
+    "population": 10228,
+    "source": "https://www.geonames.org/3169807"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

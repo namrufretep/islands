@@ -1,0 +1,121 @@
+{
+  "id": "000189",
+  "letter": "K",
+  "name": "Ko Samui",
+  "slug": "ko-samui",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TH",
+  "country": "Thailand",
+  "region": "Gulf of Thailand",
+  "reference": [
+    99.99357,
+    9.50376
+  ],
+  "source_id": "geonames:1606595",
+  "source_name": "Ko Samui Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Thailand",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#284b55",
+      "Quiet Malachite"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#5b3145",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Nordic Teal North",
+    "S": "Garnet Shadow South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 401,
+  "area_km2": 240.097594893515,
+  "gshhg_area_km2": 240.097594893515,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -21.3482666015625,
+  "max_land_elevation_m": 626.0709228515625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1592/969.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1592/970.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1593/969.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1593/970.tif"
+  ],
+  "resolution_m": 47.22399694692802,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=9.50376 +lon_0=99.99357 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8579.75587653341,
+    -10788.02911365823,
+    10906.439062548649,
+    9763.854357644843
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.805999236732005,
+  "artwork_print_scale_denominator": 139440.93586691344,
+  "color_mood": "Quiet Malachite",
+  "background": "#284b55",
+  "background_name": "Nordic Teal North",
+  "color_family": "Green",
+  "palette": [
+    "#2c4b41",
+    "#568371",
+    "#94b6a0",
+    "#d0dfc7"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e7b22e18216bee096ec197a5d41a6700e408fd6bba4e612a7744870bfade6fda",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

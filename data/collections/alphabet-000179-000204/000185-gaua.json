@@ -1,0 +1,66 @@
+{
+  "id": "000185",
+  "letter": "G",
+  "name": "Gaua",
+  "slug": "gaua",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Banks Islands",
+  "reference": [
+    167.5,
+    -14.28333
+  ],
+  "source_id": "geonames:2136974",
+  "source_name": "Gaua Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#e8dfcf",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#dbcb93",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Fossil Chalk North",
+    "S": "Faded Ochre South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 474,
+  "area_km2": 343.08864537228345,
+  "gshhg_area_km2": 343.08864537228345,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

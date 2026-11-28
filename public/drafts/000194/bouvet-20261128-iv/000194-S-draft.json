@@ -1,0 +1,125 @@
+{
+  "id": "000194",
+  "letter": "P",
+  "name": "Procida",
+  "slug": "procida",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Bay of Naples",
+  "reference": [
+    14.01802,
+    40.76122
+  ],
+  "source_id": "geonames:3169805",
+  "source_name": "Isola di Procida",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#c59170",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#2a4d57",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Sand North",
+    "S": "Nordic Teal South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Blue"
+  },
+  "largest_settlement": "Procida",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 127,
+  "area_km2": 4.750601688631978,
+  "gshhg_area_km2": 4.750601688631978,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Procida",
+    "country": "IT",
+    "lon": 14.01457,
+    "lat": 40.75636,
+    "population": 10228,
+    "source": "https://www.geonames.org/3169807"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -16.020172119140625,
+  "max_land_elevation_m": 87.94566345214844,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2207/1539.tif"
+  ],
+  "resolution_m": 8.292964742741765,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.76122 +lon_0=14.01802 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1493.8013645153244,
+    -2590.885822948807,
+    1818.378270971601,
+    1018.2124330924091
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.073241185685441,
+  "artwork_print_scale_denominator": 24487.100618331984,
+  "color_mood": "Fjord Slate",
+  "background": "#2a4d57",
+  "background_name": "Nordic Teal South",
+  "color_family": "Blue",
+  "palette": [
+    "#263e4b",
+    "#517182",
+    "#91adb9",
+    "#d6e1df"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "0a63d18f1bd5800ef29892d0808d35c2edd00cf364f28d13f6b9b57d37250443",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

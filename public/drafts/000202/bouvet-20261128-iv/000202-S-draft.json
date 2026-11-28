@@ -1,0 +1,120 @@
+{
+  "id": "000202",
+  "letter": "X",
+  "name": "Xiaoliuqiu",
+  "slug": "xiaoliuqiu",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Pingtung",
+  "reference": [
+    120.37151,
+    22.34045
+  ],
+  "source_id": "geonames:1672751",
+  "source_name": "Liuqiu Yu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#61554b",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d2bfcd",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Soft Umber North",
+    "S": "Orchid Dust South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "name_evidence": "https://www.dbnsa.gov.tw/en/attraction/AttractionAreaPage?a=142",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 79,
+  "area_km2": 7.971450811794672,
+  "gshhg_area_km2": 7.971450811794672,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -28.327510833740234,
+  "max_land_elevation_m": 84.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3417/1786.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3417/1787.tif"
+  ],
+  "resolution_m": 9.124300450968471,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=22.34045 +lon_0=120.37151 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2948.6849919653446,
+    -2221.2789985425957,
+    1003.2925996903219,
+    1749.6165577188829
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.281075112742118,
+  "artwork_print_scale_denominator": 26941.832040261237,
+  "color_mood": "Smoked Pearl",
+  "background": "#d2bfcd",
+  "background_name": "Orchid Dust South",
+  "color_family": "Neutral",
+  "palette": [
+    "#55464e",
+    "#8c7b82",
+    "#bcadb1",
+    "#e6dbd8"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ea277d2562f506d9454dedda64c25fb65ebe167f2642a32a2f4623c8ec8d3c8b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

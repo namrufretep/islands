@@ -1,0 +1,133 @@
+{
+  "id": "000193",
+  "letter": "O",
+  "name": "Ocracoke",
+  "slug": "ocracoke",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Outer Banks",
+  "reference": [
+    -75.90517,
+    35.13212
+  ],
+  "source_id": "geonames:4483144",
+  "source_name": "Ocracoke Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#b89a74",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#473546",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Old Sandstone North",
+    "S": "Smoked Plum South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Ocracoke",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 493,
+  "area_km2": 31.85465988108527,
+  "gshhg_area_km2": 31.85465988108527,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ocracoke",
+    "country": "US",
+    "lon": -75.98101,
+    "lat": 35.11462,
+    "population": 948,
+    "source": "https://www.geonames.org/4483142"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -14.693817138671875,
+  "max_land_elevation_m": 7.287376403808594,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/591/809.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/591/810.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/591/811.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/592/809.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/592/810.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/592/811.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/593/809.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/593/810.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/593/811.tif"
+  ],
+  "resolution_m": 50.50916920578568,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=35.13212 +lon_0=-75.90517 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9604.63332362532,
+    -7398.728462506851,
+    12376.95711473261,
+    7540.187735634374
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 12.62729230144642,
+  "artwork_print_scale_denominator": 149141.24765487897,
+  "color_mood": "Fjord Slate",
+  "background": "#b89a74",
+  "background_name": "Old Sandstone North",
+  "color_family": "Blue",
+  "palette": [
+    "#263e4b",
+    "#517182",
+    "#91adb9",
+    "#d6e1df"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "de9ec3bdfc55730b64ca72c9d7a7c84b1fe067bf2cf325448235271ed6ae82dc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

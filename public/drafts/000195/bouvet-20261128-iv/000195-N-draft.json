@@ -1,0 +1,126 @@
+{
+  "id": "000195",
+  "letter": "Q",
+  "name": "Quinchao",
+  "slug": "quinchao",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Chiloé Archipelago",
+  "reference": [
+    -73.51465,
+    -42.46913
+  ],
+  "source_id": "geonames:3874040",
+  "source_name": "Isla Quinchao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Ancud",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#d1dccb",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#334d4b",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Lichen North",
+    "S": "Forest Shadow South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 683,
+  "area_km2": 130.7054853967447,
+  "gshhg_area_km2": 130.7054853967447,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -9.19156265258789,
+  "max_land_elevation_m": 193.68814086914062,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/604/1290.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/604/1291.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/604/1292.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/605/1290.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/605/1291.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/605/1292.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/606/1290.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/606/1291.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/606/1292.tif"
+  ],
+  "resolution_m": 52.33150625861797,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-42.46913 +lon_0=-73.51465 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12281.122844717243,
+    -13392.478405512922,
+    9854.104270392225,
+    9382.19311823762
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 13.082876564654493,
+  "artwork_print_scale_denominator": 154522.1641494625,
+  "color_mood": "Glacial Turquoise",
+  "background": "#d1dccb",
+  "background_name": "Pale Lichen North",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "756f002140bf5825e6f906f12f0260e70fdf812060784ef6b51f0e85756d5d4d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

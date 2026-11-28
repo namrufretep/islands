@@ -1,0 +1,74 @@
+{
+  "id": "000201",
+  "letter": "W",
+  "name": "Waiheke Island",
+  "slug": "waiheke-island",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "NZ",
+  "country": "New Zealand",
+  "region": "Hauraki Gulf",
+  "reference": [
+    175.07667,
+    -36.80439
+  ],
+  "source_id": "geonames:6232108",
+  "source_name": "Waiheke Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Hauraki Gulf",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d9c5b0",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#1d292f",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Travertine Sand North",
+    "S": "Coal Tide South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": "Oneroa",
+  "source_aliases": [
+    "geonames:2180399"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 727,
+  "area_km2": 99.5953245997361,
+  "gshhg_area_km2": 99.5953245997361,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Oneroa",
+    "country": "NZ",
+    "lon": 175.01019,
+    "lat": -36.77819,
+    "population": 1350,
+    "source": "https://www.geonames.org/6233785"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

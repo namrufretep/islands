@@ -1,0 +1,130 @@
+{
+  "id": "000184",
+  "letter": "F",
+  "name": "Formentera",
+  "slug": "formentera",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Balearic Islands",
+  "reference": [
+    1.46919,
+    38.69467
+  ],
+  "source_id": "geonames:2517690",
+  "source_name": "Isla de Formentera",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#592f43",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#ccdbdb",
+      "Blue Grey Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Garnet Shadow North",
+    "S": "Glacial Mist South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Blue"
+  },
+  "largest_settlement": "Sant Francesc de Formentera",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 427,
+  "area_km2": 84.10497639460417,
+  "gshhg_area_km2": 84.10497639460417,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sant Francesc de Formentera",
+    "country": "ES",
+    "lon": 1.42893,
+    "lat": 38.70566,
+    "population": 2656,
+    "source": "https://www.geonames.org/2511381"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -22.874828338623047,
+  "max_land_elevation_m": 190.93919372558594,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1031/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1031/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1032/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1032/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1033/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1033/785.tif"
+  ],
+  "resolution_m": 40.65920007378247,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.69467 +lon_0=1.46919 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7725.264309119744,
+    -5930.297966296629,
+    9969.619562990387,
+    8776.207066703368
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.164800018445618,
+  "artwork_print_scale_denominator": 120056.69313124746,
+  "color_mood": "Lilac Schist",
+  "background": "#592f43",
+  "background_name": "Garnet Shadow North",
+  "color_family": "Purple",
+  "palette": [
+    "#413344",
+    "#795f7f",
+    "#b09cba",
+    "#e2d5e4"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d835868c91cf1e5205595ee5bb00eef86d2b75a68b9a10fc2926b218a84c4a9f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

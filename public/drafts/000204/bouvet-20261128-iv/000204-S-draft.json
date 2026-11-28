@@ -1,0 +1,136 @@
+{
+  "id": "000204",
+  "letter": "Z",
+  "name": "Zanzibar (Unguja)",
+  "slug": "zanzibar-unguja",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TZ",
+  "country": "Tanzania",
+  "region": "Zanzibar Archipelago",
+  "reference": [
+    39.3417,
+    -6.15557
+  ],
+  "source_id": "geonames:148726",
+  "source_name": "Zanzibar Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#26364e",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#eadfc3",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Night North",
+    "S": "Ivory Light South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Zanzibar",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1828,
+  "area_km2": 1571.714779418156,
+  "gshhg_area_km2": 1571.714779418156,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zanzibar",
+    "country": "TZ",
+    "lon": 39.19793,
+    "lat": -6.16394,
+    "population": 709809,
+    "source": "https://www.geonames.org/148730"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -38.72138977050781,
+  "max_land_elevation_m": 123.7481460571289,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/622/528.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/622/529.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/622/530.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/623/528.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/623/529.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/623/530.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/624/528.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/624/529.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/624/530.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/625/528.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/625/529.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/625/530.tif"
+  ],
+  "resolution_m": 191.84924235946556,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-6.15557 +lon_0=39.3417 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -17950.214464635304,
+    -35926.956417132635,
+    26127.44316518221,
+    47565.83385770677
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 47.96231058986639,
+  "artwork_print_scale_denominator": 566483.9833448787,
+  "color_mood": "Dune Gold",
+  "background": "#eadfc3",
+  "background_name": "Ivory Light South",
+  "color_family": "Yellow",
+  "palette": [
+    "#685129",
+    "#a18645",
+    "#cdb675",
+    "#ecdfb3"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c258d57d4530f44c4894bcd048ff44e9f3f04eead3aae8c6920d2ae571acf1eb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

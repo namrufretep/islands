@@ -1,0 +1,71 @@
+{
+  "id": "000198",
+  "letter": "T",
+  "name": "Tilos",
+  "slug": "tilos",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.3683,
+    36.43339
+  ],
+  "source_id": "geonames:252863",
+  "source_name": "Nisí Tílos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#413d33",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#ba9c76",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Dark Bronze North",
+    "S": "Old Sandstone South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Brown"
+  },
+  "largest_settlement": "Megálo Chorió",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 392,
+  "area_km2": 65.23751794988593,
+  "gshhg_area_km2": 65.23751794988593,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Megálo Chorió",
+    "country": "GR",
+    "lon": 27.34563,
+    "lat": 36.45505,
+    "population": 0,
+    "source": "https://www.geonames.org/257400"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

@@ -19,9 +19,11 @@ for c in configs:
  v['registry']=[r for r in v['registry'] if r[0]!=name]+[[name,c['country'],c['region'],lat,lon]]
  v['draftIds'][name]=island_id
  v['draftTraits'][name]=[c['region'],c['island_type'],c['water_type'],c['ocean'],c['water_body'],c['color_families']['N'],c['color_families']['S'],c['background_names']['N'],c['background_names']['S'],c['largest_settlement']]
- if c['source_id'] not in v['curatedGeoNamesIds']:v['curatedGeoNamesIds'].append(c['source_id'])
+ for alias in [c['source_id'],*c.get('source_aliases',[])]:
+  if alias not in v['curatedGeoNamesIds']:v['curatedGeoNamesIds'].append(alias)
  review['curated'][name]=dict(areaKm2=c['area_km2'],areaSource='GSHHG 2.3.7 physical shoreline; geodesic polygon area; approximate')
- if c['source_id'] not in review['curatedAliases']:review['curatedAliases'].append(c['source_id'])
+ for alias in [c['source_id'],*c.get('source_aliases',[])]:
+  if alias not in review['curatedAliases']:review['curatedAliases'].append(alias)
 for key,value in v.items():source=re.sub('const '+key+'=.*?;',lambda m:'const '+key+'='+json.dumps(value,ensure_ascii=False,separators=(',',':'))+';',source,count=1)
 source=source.replace('any of the 100 original islands','any original island')
 p.write_text(source)

@@ -1,0 +1,71 @@
+{
+  "id": "000184",
+  "letter": "F",
+  "name": "Formentera",
+  "slug": "formentera",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Balearic Islands",
+  "reference": [
+    1.46919,
+    38.69467
+  ],
+  "source_id": "geonames:2517690",
+  "source_name": "Isla de Formentera",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#592f43",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#ccdbdb",
+      "Blue Grey Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Garnet Shadow North",
+    "S": "Glacial Mist South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Blue"
+  },
+  "largest_settlement": "Sant Francesc de Formentera",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 427,
+  "area_km2": 84.10497639460417,
+  "gshhg_area_km2": 84.10497639460417,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sant Francesc de Formentera",
+    "country": "ES",
+    "lon": 1.42893,
+    "lat": 38.70566,
+    "population": 2656,
+    "source": "https://www.geonames.org/2511381"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

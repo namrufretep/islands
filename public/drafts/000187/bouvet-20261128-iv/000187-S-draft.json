@@ -1,0 +1,123 @@
+{
+  "id": "000187",
+  "letter": "I",
+  "name": "Inishmore",
+  "slug": "inishmore",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "IE",
+  "country": "Ireland",
+  "region": "Aran Islands",
+  "reference": [
+    -9.71111,
+    53.12889
+  ],
+  "source_id": "geonames:2963626",
+  "source_name": "Inishmore",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#d7d6e1",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#24313c",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Violet Chalk North",
+    "S": "Midnight Slate South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 228,
+  "area_km2": 32.65650435125037,
+  "gshhg_area_km2": 32.65650435125037,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -10.937946319580078,
+  "max_land_elevation_m": 116.98670196533203,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/967/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/967/666.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/968/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/968/666.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/969/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/969/666.tif"
+  ],
+  "resolution_m": 30.765449715999864,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=53.12889 +lon_0=-9.71111 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8127.61684742959,
+    -4743.8662745610445,
+    5261.506868973551,
+    2397.017835337972
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.691362428999966,
+  "artwork_print_scale_denominator": 90842.86333464527,
+  "color_mood": "Volcanic Ash",
+  "background": "#24313c",
+  "background_name": "Midnight Slate South",
+  "color_family": "Brown",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "be8af23e723ab3ad58cdc6f9f8fd986d4c5a9672ba2583a9cb0135a1eba448bb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

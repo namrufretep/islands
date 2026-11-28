@@ -1,0 +1,123 @@
+{
+  "id": "000185",
+  "letter": "G",
+  "name": "Gaua",
+  "slug": "gaua",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Banks Islands",
+  "reference": [
+    167.5,
+    -14.28333
+  ],
+  "source_id": "geonames:2136974",
+  "source_name": "Gaua Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#e8dfcf",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#dbcb93",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Fossil Chalk North",
+    "S": "Faded Ochre South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 474,
+  "area_km2": 343.08864537228345,
+  "gshhg_area_km2": 343.08864537228345,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -57.70219421386719,
+  "max_land_elevation_m": 739.9263916015625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1976/1105.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1976/1106.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1977/1105.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1977/1106.tif"
+  ],
+  "resolution_m": 50.84101751431769,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-14.28333 +lon_0=167.5 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -10476.33790551724,
+    -6968.061304369438,
+    11649.672916713818,
+    13227.293469582035
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 12.710254378579423,
+  "artwork_print_scale_denominator": 150121.114707631,
+  "color_mood": "Lilac Schist",
+  "background": "#dbcb93",
+  "background_name": "Faded Ochre South",
+  "color_family": "Purple",
+  "palette": [
+    "#413344",
+    "#795f7f",
+    "#b09cba",
+    "#e2d5e4"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f3c699ebc0667c516a18d6b242a8ad56095c5538f91f7c3e783746293c946747",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

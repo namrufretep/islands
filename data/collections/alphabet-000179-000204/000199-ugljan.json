@@ -1,0 +1,71 @@
+{
+  "id": "000199",
+  "letter": "U",
+  "name": "Ugljan",
+  "slug": "ugljan",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    15.16528,
+    44.08639
+  ],
+  "source_id": "geonames:3188537",
+  "source_name": "Ugljan",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#e8ddc1",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#c79372",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Light North",
+    "S": "Clay Sand South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": "Kali",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 548,
+  "area_km2": 54.50434366636612,
+  "gshhg_area_km2": 54.50434366636612,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kali",
+    "country": "HR",
+    "lon": 15.20556,
+    "lat": 44.06278,
+    "population": 1585,
+    "source": "https://www.geonames.org/3198457"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

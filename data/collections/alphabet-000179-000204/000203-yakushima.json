@@ -1,0 +1,71 @@
+{
+  "id": "000203",
+  "letter": "Y",
+  "name": "Yakushima",
+  "slug": "yakushima",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Ōsumi Islands",
+  "reference": [
+    130.5,
+    30.33333
+  ],
+  "source_id": "geonames:1848730",
+  "source_name": "Yaku-shima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#a0afb0",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#433f35",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Silver Fog North",
+    "S": "Dark Bronze South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Brown"
+  },
+  "largest_settlement": "Koseda",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 751,
+  "area_km2": 509.5336148768212,
+  "gshhg_area_km2": 509.5336148768212,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Koseda",
+    "country": "JP",
+    "lon": 130.64924,
+    "lat": 30.38796,
+    "population": 11858,
+    "source": "https://www.geonames.org/1858740"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

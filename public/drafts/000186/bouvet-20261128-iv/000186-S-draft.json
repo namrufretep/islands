@@ -1,0 +1,133 @@
+{
+  "id": "000186",
+  "letter": "H",
+  "name": "Hiddensee",
+  "slug": "hiddensee",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "DE",
+  "country": "Germany",
+  "region": "Baltic Sea",
+  "reference": [
+    13.10123,
+    54.54063
+  ],
+  "source_id": "geonames:2904885",
+  "source_name": "Hiddensee",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#e4ded5",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#a2a78f",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Porcelain North",
+    "S": "Sage Dust South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Hiddensee",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 240,
+  "area_km2": 20.249050171664976,
+  "gshhg_area_km2": 20.249050171664976,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Hiddensee",
+    "country": "DE",
+    "lon": 13.10411,
+    "lat": 54.56689,
+    "population": 1094,
+    "source": "https://www.geonames.org/3209281"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -6.623169898986816,
+  "max_land_elevation_m": 71.44002532958984,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1097/651.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1097/652.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1097/653.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1098/651.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1098/652.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1098/653.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1099/651.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1099/652.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1099/653.tif"
+  ],
+  "resolution_m": 37.9546666800486,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=54.54063 +lon_0=13.10123 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2730.838472895497,
+    -9305.489932169041,
+    3530.3184811566985,
+    7212.381006988108
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.48866667001215,
+  "artwork_print_scale_denominator": 112070.86618124586,
+  "color_mood": "Smoked Pearl",
+  "background": "#a2a78f",
+  "background_name": "Sage Dust South",
+  "color_family": "Neutral",
+  "palette": [
+    "#55464e",
+    "#8c7b82",
+    "#bcadb1",
+    "#e6dbd8"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "04856dfb3c451575c4a204b722544a2e44876abbeeb5d9f5cff4c1a9373e5163",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

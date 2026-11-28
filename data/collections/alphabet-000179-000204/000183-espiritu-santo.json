@@ -1,0 +1,71 @@
+{
+  "id": "000183",
+  "letter": "E",
+  "name": "Espiritu Santo",
+  "slug": "espiritu-santo",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Vanuatu",
+  "reference": [
+    166.92232,
+    -15.3274
+  ],
+  "source_id": "geonames:2137067",
+  "source_name": "Espiritu Santo",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#33313c",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#283850",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Graphite Violet North",
+    "S": "Blue Night South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Orange"
+  },
+  "largest_settlement": "Luganville",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2636,
+  "area_km2": 4055.5787647137004,
+  "gshhg_area_km2": 4055.5787647137004,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Luganville",
+    "country": "VU",
+    "lon": 167.16235,
+    "lat": -15.51989,
+    "population": 13397,
+    "source": "https://www.geonames.org/2136150"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

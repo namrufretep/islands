@@ -18,7 +18,7 @@ from shapely.geometry import shape,mapping
 from shapely.ops import transform as shape_transform
 from pyproj import Transformer
 
-p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');p.add_argument('--source',type=Path,default=Path('public/drafts/africa-sources-20261126'));p.add_argument('--edition-dir',default='africa-20261126');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');p.add_argument('--source',type=Path,default=Path('public/drafts/africa-sources-20261126'));p.add_argument('--edition-dir',default='africa-20261126');p.add_argument('--style',choices=['rounded','bouvet-original'],default='rounded');a=p.parse_args()
 source=a.source
 configs=json.loads((source/'geography-validation.json').read_text())
 a.cache.mkdir(parents=True,exist_ok=True)
@@ -49,7 +49,7 @@ for c in configs:
    meta_file=existing_dir/(c['id']+'-'+e+'-draft.json');png_file=meta_file.with_suffix('.png')
    if meta_file.exists() and png_file.exists():
     meta=json.loads(meta_file.read_text())
-    if meta.get('source')==c['coastline_source'] and meta.get('water_count')==c['water_count'] and meta.get('background')==c['palettes'][e][1] and meta['artwork_sha256']==hashlib.sha256(png_file.read_bytes()).hexdigest():existing.append(meta)
+    if meta.get('source')==c['coastline_source'] and meta.get('water_count')==c['water_count'] and meta.get('background')==c['palettes'][e][1] and meta.get('render_style','rounded')==a.style and meta['artwork_sha256']==hashlib.sha256(png_file.read_bytes()).hexdigest():existing.append(meta)
   if len(existing)==2:
    validations.append({k:existing[0][k] for k in ['id','name','land_coverage_fraction','min_land_elevation_m','max_land_elevation_m','terrain_tiles','resolution_m']})
    print(c['id'],c['name'],'verified existing pair',flush=True);continue
@@ -84,6 +84,20 @@ for c in configs:
  rounded=1-np.exp(-inward/105)
  body=gaussian_filter(rounded*(.38+.62*elevation),6.5)
  dy,dx=np.gradient(body,4);dx*=220;dy*=220
+ if a.style=='bouvet-original':
+  # Bouvet 3.8: a single broad sculpted light field, evaluated in normalized
+  # artwork space so that island size does not change the visual softness.
+  coast_distance=gaussian_filter(distance_transform_edt(land),2)
+  distance=gaussian_filter(coast_distance,5)
+  distance/=max(float(distance.max()),1)
+  relief=gaussian_filter(gaussian_filter(terrain,8),13)
+  low,high=np.percentile(relief[land],[3,99])
+  relief=np.clip((relief-low)/max(float(high-low),1),0,1)
+  body=gaussian_filter((1-np.exp(-distance*5))*land*(.25+.75*relief),7)
+  # The original reference spans about 11.5 km including the canvas margins.
+  height=1400*full/11521
+  dy,dx=np.gradient(body*height,resolution)
+  edge_y,edge_x=np.gradient(coast_distance,resolution)
  # Rasterize the exact physical silhouette independently at final resolution.
  alpha=Image.fromarray(rasterize([(coast,255)],out_shape=(2048,2048),transform=from_bounds(*bounds,2048,2048),dtype='uint8'))
  water_mask=Image.fromarray(rasterize([(water,255)],out_shape=(2048,2048),transform=from_bounds(*bounds,2048,2048),dtype='uint8')) if not water.is_empty else None
@@ -93,9 +107,17 @@ for c in configs:
  for edition,angle,sign in [('N',0,1),('S',180,-1)]:
   palette,background,mood=c['palettes'][edition]
   hill=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(dx+dy)/math.sqrt(2))/np.sqrt(1+dx*dx+dy*dy)
-  lighting=gaussian_filter(.68*hill+.32*elevation,4)
-  lo,hi=np.percentile(lighting[land],[3,97]);tone=np.clip((lighting-lo)/max(hi-lo,.025),0,1)
-  tone=.10+.80*(.55*tone*tone*(3-2*tone)+.45*tone);tone=gaussian_filter(tone,.8)
+  if a.style=='bouvet-original':
+   lighting=np.clip(.15+.85*gaussian_filter(hill,9),0,1)
+   lighting+=.105*sign*(edge_x+edge_y)/math.sqrt(2)*np.exp(-coast_distance/9)
+   lo,hi=np.percentile(lighting[land],[3,97])
+   if hi-lo<.025:raise RuntimeError('Insufficient broad relief contrast: '+c['name'])
+   tone=np.clip((lighting-lo)/(hi-lo),0,1)
+   tone=tone*tone*(3-2*tone)
+  else:
+   lighting=gaussian_filter(.68*hill+.32*elevation,4)
+   lo,hi=np.percentile(lighting[land],[3,97]);tone=np.clip((lighting-lo)/max(hi-lo,.025),0,1)
+   tone=.10+.80*(.55*tone*tone*(3-2*tone)+.45*tone);tone=gaussian_filter(tone,.8)
   colors=np.array([hexrgb(color) for color in palette]);position=tone*3;index=np.minimum(position.astype(int),2);fraction=(position-index)[...,None]
   rgb=colors[index]*(1-fraction)+colors[index+1]*fraction
   art=Image.fromarray(np.clip(rgb,0,255).astype('uint8')).resize((2048,2048),Image.Resampling.LANCZOS)
@@ -107,14 +129,19 @@ for c in configs:
   base=hexrgb(background)[None,None,:]
   background_rgb=np.clip(base+(255-base)*np.maximum(wash,0)+base*np.minimum(wash,0),0,255).astype('uint8')
   canvas=Image.fromarray(background_rgb).resize((2048,2048),Image.Resampling.BILINEAR).convert('RGBA')
-  blurred=current_alpha.filter(ImageFilter.GaussianBlur(15)).point(lambda x:round(x*.20))
+  shadow_opacity=.08 if a.style=='bouvet-original' else .20
+  blurred=current_alpha.filter(ImageFilter.GaussianBlur(15)).point(lambda x:round(x*shadow_opacity))
   shadow=Image.new('RGBA',(2048,2048),tuple(np.maximum(hexrgb(background)*.36,8).astype('uint8'))+(0,));shadow.putalpha(blurred)
-  canvas.alpha_composite(shadow,dest=(11,19))
+  canvas.alpha_composite(shadow,dest=(4,7) if a.style=='bouvet-original' else (11,19))
   art=art.convert('RGBA');art.putalpha(current_alpha);canvas.alpha_composite(art)
   if current_water:
    surface=Image.new('RGBA',(2048,2048),tuple(np.clip(hexrgb(background)*.96,0,255).astype('uint8'))+(255,));surface.putalpha(current_water);canvas.alpha_composite(surface)
   stem=out/(c['id']+'-'+edition+'-draft');png=stem.with_suffix('.png');canvas.convert('RGB').save(png,dpi=(300,300),optimize=True)
   metadata={**c,**validation,'id':c['id'],'edition':edition,'orientation_degrees':angle,'status':'verified_coastline','source':c['coastline_source'],'projection':crs,'bounds_m':[x0,y0,x1,y1],'canvas_px':2048,'dpi_target':300,'artwork_extent_px':1740.8,'artwork_meters_per_pixel':full/2048,'artwork_print_scale_denominator':full/2048*300/.0254,'color_mood':mood,'background':background,'background_name':c['background_names'][edition],'color_family':c['color_families'][edition],'palette':palette,'art_version':'4.5-alphabet' if a.edition_dir.startswith('alphabet') else '4.4-africa','art_status':'experimental_draft','terrain_guided':True,'whole_island_terrain':True,'surface_finish':'bouvet_wash','surface_model':'Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation','lighting':{'screen_direction':'upper_left','elevation_degrees':45,'shared_surface':True},'political_boundaries':False,'attribution':('GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles'+('; © OpenStreetMap contributors, ODbL' if any('openstreetmap.org' in url for url in c.get('water_sources',[])) else '')) if a.edition_dir.startswith('alphabet') else '© OpenStreetMap contributors, ODbL; GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; Mapzen elevation tiles','artwork_sha256':hashlib.sha256(png.read_bytes()).hexdigest(),'geography_note':'Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.'}
+  metadata['render_style']=a.style
+  if a.style=='bouvet-original':
+   metadata.update(art_version='4.6-bouvet',surface_finish='bouvet_original',surface_model='Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome',style_reference={'island_id':'000001','art_version':'3.8','reference':'Bouvetøya original North-Up and South-Up'},shadow_opacity=shadow_opacity)
+   metadata['attribution']='GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles'
   stem.with_suffix('.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
   print(c['id'],c['name'],edition,'rendered',png.stat().st_size,'bytes',flush=True)
  del canvas,art,alpha,terrain,mosaic

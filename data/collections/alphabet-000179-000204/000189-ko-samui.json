@@ -1,0 +1,64 @@
+{
+  "id": "000189",
+  "letter": "K",
+  "name": "Ko Samui",
+  "slug": "ko-samui",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "TH",
+  "country": "Thailand",
+  "region": "Gulf of Thailand",
+  "reference": [
+    99.99357,
+    9.50376
+  ],
+  "source_id": "geonames:1606595",
+  "source_name": "Ko Samui Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Thailand",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#284b55",
+      "Quiet Malachite"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#5b3145",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Nordic Teal North",
+    "S": "Garnet Shadow South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 401,
+  "area_km2": 240.097594893515,
+  "gshhg_area_km2": 240.097594893515,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

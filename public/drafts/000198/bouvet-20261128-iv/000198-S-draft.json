@@ -1,0 +1,128 @@
+{
+  "id": "000198",
+  "letter": "T",
+  "name": "Tilos",
+  "slug": "tilos",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.3683,
+    36.43339
+  ],
+  "source_id": "geonames:252863",
+  "source_name": "Nisí Tílos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#413d33",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#ba9c76",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Dark Bronze North",
+    "S": "Old Sandstone South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Brown"
+  },
+  "largest_settlement": "Megálo Chorió",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 392,
+  "area_km2": 65.23751794988593,
+  "gshhg_area_km2": 65.23751794988593,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Megálo Chorió",
+    "country": "GR",
+    "lon": 27.34563,
+    "lat": 36.45505,
+    "population": 0,
+    "source": "https://www.geonames.org/257400"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -137.51881408691406,
+  "max_land_elevation_m": 614.2156372070312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/800.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/801.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1180/800.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1180/801.tif"
+  ],
+  "resolution_m": 32.967657011880725,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.43339 +lon_0=27.3683 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6834.651518995184,
+    -6432.770460565307,
+    7512.872812575305,
+    5677.920295039287
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.241914252970181,
+  "artwork_print_scale_denominator": 97345.44393271867,
+  "color_mood": "Warm Travertine",
+  "background": "#ba9c76",
+  "background_name": "Old Sandstone South",
+  "color_family": "Brown",
+  "palette": [
+    "#574335",
+    "#987754",
+    "#c9aa7d",
+    "#ead8b6"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "cfc250e065e2c4220dbb64b6a4a4fa3eb093b4e120dde001c5e4ce900d0c8fea",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

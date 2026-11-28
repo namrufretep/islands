@@ -1,0 +1,64 @@
+{
+  "id": "000182",
+  "letter": "D",
+  "name": "Dønna",
+  "slug": "donna",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Helgeland",
+  "reference": [
+    12.58333,
+    66.1
+  ],
+  "source_id": "geonames:3159095",
+  "source_name": "Dønna",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#222f3a",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#a2b1b2",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Midnight Slate North",
+    "S": "Silver Fog South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 960,
+  "area_km2": 146.9776330480177,
+  "gshhg_area_km2": 146.9776330480177,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

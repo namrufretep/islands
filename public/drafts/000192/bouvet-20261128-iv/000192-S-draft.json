@@ -1,0 +1,135 @@
+{
+  "id": "000192",
+  "letter": "N",
+  "name": "Navarino",
+  "slug": "navarino",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Tierra del Fuego Archipelago",
+  "reference": [
+    -67.6554,
+    -55.07553
+  ],
+  "source_id": "geonames:3878994",
+  "source_name": "Isla Navarino",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Beagle Channel",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#9e6b61",
+      "Basalt Mist"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#d9d8e3",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Mineral Rose North",
+    "S": "Violet Chalk South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Green"
+  },
+  "largest_settlement": "Puerto Williams",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2279,
+  "area_km2": 2516.541516848566,
+  "gshhg_area_km2": 2516.541516848566,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 2,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Puerto Williams",
+    "country": "CL",
+    "lon": -67.60963,
+    "lat": -54.93355,
+    "population": 2000,
+    "source": "https://www.geonames.org/3874926"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -77.0186996459961,
+  "max_land_elevation_m": 1359.4564208984375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/158/349.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/158/350.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/158/351.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/159/349.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/159/350.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/159/351.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/160/349.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/160/350.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/160/351.tif"
+  ],
+  "resolution_m": 197.9318680485461,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-55.07553 +lon_0=-67.6554 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -47357.493201419384,
+    -26601.325105743646,
+    38782.45577330788,
+    20279.727290429695
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 49.48296701213653,
+  "artwork_print_scale_denominator": 584444.4922693291,
+  "color_mood": "Olive Calcite",
+  "background": "#d9d8e3",
+  "background_name": "Violet Chalk South",
+  "color_family": "Green",
+  "palette": [
+    "#3e442e",
+    "#79805a",
+    "#b1b58d",
+    "#dfe0bd"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5a19255158100c3b57e48abf7c98313013dbdc7e8a7e67c3874a080b5d53506d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

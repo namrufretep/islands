@@ -1,0 +1,140 @@
+{
+  "id": "000179",
+  "letter": "A",
+  "name": "Arran",
+  "slug": "arran",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Firth of Clyde",
+  "reference": [
+    -5.25,
+    55.6
+  ],
+  "source_id": "geonames:2657023",
+  "source_name": "Isle of Arran",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Firth of Clyde",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#cad9d9",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#182f36",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Glacial Mist North",
+    "S": "Deep Petrol South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": "Isle of Arran",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 457,
+  "area_km2": 437.31803592659816,
+  "gshhg_area_km2": 437.31803592659816,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Isle of Arran",
+    "country": "GB",
+    "lon": -5.21233,
+    "lat": 55.58145,
+    "population": 5058,
+    "source": "https://www.geonames.org/8299836"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3.163724660873413,
+  "max_land_elevation_m": 833.0028076171875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/992/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/992/641.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/992/642.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/992/643.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/641.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/642.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/643.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/641.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/642.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/643.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/641.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/642.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/643.tif"
+  ],
+  "resolution_m": 73.76400337140372,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=55.6 +lon_0=-5.25 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9403.114779143969,
+    -18695.263757707642,
+    10700.36266801387,
+    13406.830509527257
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 18.44100084285093,
+  "artwork_print_scale_denominator": 217807.0965691055,
+  "color_mood": "Glacial Turquoise",
+  "background": "#cad9d9",
+  "background_name": "Glacial Mist North",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "77bff3acf641e6919675dbe9ad9b535d54adca5180127b5c1dc058a46cb70e11",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

@@ -1,0 +1,139 @@
+{
+  "id": "000200",
+  "letter": "V",
+  "name": "Viti Levu",
+  "slug": "viti-levu",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Fiji",
+  "reference": [
+    178.0,
+    -18.0
+  ],
+  "source_id": "geonames:2196625",
+  "source_name": "Viti Levu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#162d34",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#d3decd",
+      "Blue Grey Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Petrol North",
+    "S": "Pale Lichen South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Blue"
+  },
+  "largest_settlement": "Nasinu",
+  "source_aliases": [
+    "geonames:9881353"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4773,
+  "area_km2": 10724.064654989837,
+  "gshhg_area_km2": 10724.064654989837,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Nasinu",
+    "country": "FJ",
+    "lon": 178.51313,
+    "lat": -18.07051,
+    "population": 92043,
+    "source": "https://www.geonames.org/8740209"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -2124.37451171875,
+  "max_land_elevation_m": 1250.3692626953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/507/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/507/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/507/282.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/508/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/508/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/508/282.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/282.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/282.tif"
+  ],
+  "resolution_m": 354.5164702396668,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-18.0 +lon_0=178.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -79844.38248360883,
+    -30674.15507862992,
+    74441.18536469415,
+    76308.29907270164
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 88.6291175599167,
+  "artwork_print_scale_denominator": 1046800.6011013783,
+  "color_mood": "Lilac Schist",
+  "background": "#162d34",
+  "background_name": "Deep Petrol North",
+  "color_family": "Purple",
+  "palette": [
+    "#413344",
+    "#795f7f",
+    "#b09cba",
+    "#e2d5e4"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c9fcc21cb1e738042bba6fd8283688606f831ad01c6bf5d742650d2c44f18a54",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

@@ -1,0 +1,133 @@
+{
+  "id": "000203",
+  "letter": "Y",
+  "name": "Yakushima",
+  "slug": "yakushima",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Ōsumi Islands",
+  "reference": [
+    130.5,
+    30.33333
+  ],
+  "source_id": "geonames:1848730",
+  "source_name": "Yaku-shima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#a0afb0",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#433f35",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Silver Fog North",
+    "S": "Dark Bronze South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Brown"
+  },
+  "largest_settlement": "Koseda",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 751,
+  "area_km2": 509.5336148768212,
+  "gshhg_area_km2": 509.5336148768212,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Koseda",
+    "country": "JP",
+    "lon": 130.64924,
+    "lat": 30.38796,
+    "population": 11858,
+    "source": "https://www.geonames.org/1858740"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -96.30934143066406,
+  "max_land_elevation_m": 1910.552490234375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1765/841.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1765/842.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1765/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1766/841.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1766/842.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1766/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1767/841.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1767/842.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1767/843.tif"
+  ],
+  "resolution_m": 65.34454836877066,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=30.33333 +lon_0=130.5 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -11897.215380866823,
+    -11873.675469102112,
+    16540.73206922217,
+    15197.363836357468
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.336137092192665,
+  "artwork_print_scale_denominator": 192946.50108888978,
+  "color_mood": "Volcanic Ash",
+  "background": "#433f35",
+  "background_name": "Dark Bronze South",
+  "color_family": "Brown",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a5d879532b8d77c82a530018e972a410879ffeadff927b3719456d987d1f5151",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}

@@ -1,0 +1,71 @@
+{
+  "id": "000181",
+  "letter": "C",
+  "name": "Culebra",
+  "slug": "culebra",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "PR",
+  "country": "Puerto Rico",
+  "region": "Puerto Rican Archipelago",
+  "reference": [
+    -65.28294,
+    18.31468
+  ],
+  "source_id": "geonames:4564075",
+  "source_name": "Isla de Culebra",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#a0a58d",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#63574d",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Sage Dust North",
+    "S": "Soft Umber South"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Pink"
+  },
+  "largest_settlement": "Culebra",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 306,
+  "area_km2": 29.206860910888366,
+  "gshhg_area_km2": 29.206860910888366,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Culebra",
+    "country": "PR",
+    "lon": -65.30099,
+    "lat": 18.30301,
+    "population": 1486,
+    "source": "https://www.geonames.org/4564070"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water."
+}

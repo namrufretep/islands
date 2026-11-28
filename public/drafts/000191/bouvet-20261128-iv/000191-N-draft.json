@@ -1,0 +1,134 @@
+{
+  "id": "000191",
+  "letter": "M",
+  "name": "Miyajima",
+  "slug": "miyajima",
+  "collection": "A–Z Islands IV · Bouvet",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Hiroshima Bay",
+  "reference": [
+    132.30398,
+    34.27252
+  ],
+  "source_id": "geonames:1861253",
+  "source_name": "Itsuku Shima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Seto Inland Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#273d37",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#e6e0d7",
+      "Fossil Ivory"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Moss North",
+    "S": "Warm Porcelain South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "White"
+  },
+  "largest_settlement": "Miyajima",
+  "name_evidence": "https://www.japan.travel/en/destinations/chugoku/hiroshima/miyajima/",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 193,
+  "area_km2": 31.875269341048323,
+  "gshhg_area_km2": 31.875269341048323,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Miyajima",
+    "country": "JP",
+    "lon": 132.32186,
+    "lat": 34.29907,
+    "population": 2018,
+    "source": "https://www.geonames.org/1856798"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Mapped GSHHG L2 waters are a non-exhaustive baseline. Supplemental OSM services were unavailable on 2026-11-28; a zero count does not establish that an island has no inland water.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -27.38821029663086,
+  "max_land_elevation_m": 521.499267578125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3552/1631.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3552/1632.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3552/1633.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3553/1631.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3553/1632.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3553/1633.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3554/1631.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3554/1632.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3554/1633.tif"
+  ],
+  "resolution_m": 20.61053206226175,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=34.27252 +lon_0=132.30398 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3782.3362502619593,
+    -4488.168033573101,
+    4198.528072037162,
+    4481.535519923213
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.152633015565438,
+  "artwork_print_scale_denominator": 60857.870262583914,
+  "color_mood": "Olive Calcite",
+  "background": "#273d37",
+  "background_name": "Deep Moss North",
+  "color_family": "Green",
+  "palette": [
+    "#3e442e",
+    "#79805a",
+    "#b1b58d",
+    "#dfe0bd"
+  ],
+  "art_version": "4.6-bouvet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "347c129420ddccb778ace021d164159f27f97cb54e54aacf0f66527a64489c42",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08
+}
