@@ -1,0 +1,112 @@
+{
+  "id": "000148",
+  "letter": "V",
+  "name": "Vulcano",
+  "slug": "vulcano",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Aeolian Islands",
+  "reference": [
+    14.97453,
+    38.39332
+  ],
+  "source_id": "geonames:2522705",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#375466",
+        "#5e8998",
+        "#94b5bb",
+        "#cfddd6"
+      ],
+      "#312c28",
+      "Slate Larimar II"
+    ],
+    "S": [
+      [
+        "#2a514d",
+        "#557f78",
+        "#89aea3",
+        "#c2d9c7"
+      ],
+      "#d67650",
+      "Patina Jade II"
+    ]
+  },
+  "background_names": {
+    "N": "Charcoal Umber II North",
+    "S": "Burnt Apricot II South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 183,
+  "area_km2": 23.20263319714143,
+  "gshhg_area_km2": 23.20263319714143,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -255.54847717285156,
+  "max_land_elevation_m": 476.6980895996094,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2217/1573.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2217/1574.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2218/1573.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2218/1574.tif"
+  ],
+  "resolution_m": 17.004466805268738,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.39332 +lon_0=14.97453 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3343.7296464716087,
+    -3007.925678677748,
+    2987.8446078987545,
+    4392.418274975206
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.251116701317184,
+  "artwork_print_scale_denominator": 50210.039779336825,
+  "color_mood": "Slate Larimar II",
+  "background": "#312c28",
+  "background_name": "Charcoal Umber II North",
+  "color_family": "Turquoise",
+  "palette": [
+    "#375466",
+    "#5e8998",
+    "#94b5bb",
+    "#cfddd6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ca66b4dc7cc2e06131f7a8e7e4093fcaea1f5cb5db71b6518869e65e64cda478",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

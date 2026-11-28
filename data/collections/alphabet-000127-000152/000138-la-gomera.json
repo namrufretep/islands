@@ -1,0 +1,69 @@
+{
+  "id": "000138",
+  "letter": "L",
+  "name": "La Gomera",
+  "slug": "la-gomera",
+  "collection": "A–Z Islands II",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.13333,
+    28.1
+  ],
+  "source_id": "geonames:2517187",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#524d47",
+        "#8f8477",
+        "#bfb5a1",
+        "#ede6d4"
+      ],
+      "#20282b",
+      "Fossil Dolomite"
+    ],
+    "S": [
+      [
+        "#292f30",
+        "#4a504f",
+        "#767c75",
+        "#acb0a2"
+      ],
+      "#161f24",
+      "Graphite Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide North",
+    "S": "Petrol Black South"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Gray"
+  },
+  "largest_settlement": "San Sebastián de la Gomera",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 539,
+  "area_km2": 374.40458547311226,
+  "gshhg_area_km2": 374.40458547311226,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "San Sebastián de la Gomera",
+    "country": "ES",
+    "lon": -17.11331,
+    "lat": 28.09163,
+    "population": 8964,
+    "source": "https://www.geonames.org/2511230"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

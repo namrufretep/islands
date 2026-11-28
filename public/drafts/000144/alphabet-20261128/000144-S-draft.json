@@ -1,0 +1,124 @@
+{
+  "id": "000144",
+  "letter": "R",
+  "name": "Rishiri",
+  "slug": "rishiri",
+  "collection": "A–Z Islands II",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Northern Hokkaidō",
+  "reference": [
+    141.24306,
+    45.18056
+  ],
+  "source_id": "geonames:2128403",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sea of Japan",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#303637",
+        "#515756",
+        "#7d837c",
+        "#b3b7a9"
+      ],
+      "#1d262b",
+      "Graphite Serpentine II"
+    ],
+    "S": [
+      [
+        "#3e5d2b",
+        "#738f4d",
+        "#aaba7b",
+        "#dfe4ab"
+      ],
+      "#505c7a",
+      "Olive Peridot II"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Black II North",
+    "S": "Storm Blue II South"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Green"
+  },
+  "largest_settlement": "Rishiri Town",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 386,
+  "area_km2": 184.75263093781675,
+  "gshhg_area_km2": 184.75263093781675,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Rishiri Town",
+    "country": "JP",
+    "lon": 141.19629,
+    "lat": 45.15928,
+    "population": 2684,
+    "source": "https://www.geonames.org/7303387"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -164.5364532470703,
+  "max_land_elevation_m": 1677.2091064453125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1826/734.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1826/735.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1826/736.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1827/734.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1827/735.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1827/736.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1828/734.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1828/735.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1828/736.tif"
+  ],
+  "resolution_m": 41.71888623752287,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=45.18056 +lon_0=141.24306 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8918.334075202689,
+    -9280.163577028343,
+    6930.933789982682,
+    8875.89571354161
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.429721559380717,
+  "artwork_print_scale_denominator": 123185.68770922108,
+  "color_mood": "Olive Peridot II",
+  "background": "#505c7a",
+  "background_name": "Storm Blue II South",
+  "color_family": "Green",
+  "palette": [
+    "#3e5d2b",
+    "#738f4d",
+    "#aaba7b",
+    "#dfe4ab"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "87ae4a2591949b692164666f96100f1ed97da974404c5e6c930f2d3c9d331bad",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

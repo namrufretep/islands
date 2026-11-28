@@ -1,0 +1,69 @@
+{
+  "id": "000143",
+  "letter": "Q",
+  "name": "Quadra",
+  "slug": "quadra",
+  "collection": "A–Z Islands II",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Discovery Islands",
+  "reference": [
+    -125.2529,
+    50.19965
+  ],
+  "source_id": "geonames:6114781",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Salish Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a445e",
+        "#707a96",
+        "#aeb3c6",
+        "#e4e2f0"
+      ],
+      "#e9e1cf",
+      "Porcelain Kyanite II"
+    ],
+    "S": [
+      [
+        "#5c4351",
+        "#91697c",
+        "#c59aa9",
+        "#f1cfd5"
+      ],
+      "#77845f",
+      "Rose Garnet II"
+    ]
+  },
+  "background_names": {
+    "N": "Oat Chalk II North",
+    "S": "Lichen Olive II South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Heriot Bay",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 802,
+  "area_km2": 284.2965145514925,
+  "gshhg_area_km2": 284.2965145514925,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Heriot Bay",
+    "country": "CA",
+    "lon": -125.2135,
+    "lat": 50.10072,
+    "population": 594,
+    "source": "https://www.geonames.org/5974149"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,124 @@
+{
+  "id": "000149",
+  "letter": "W",
+  "name": "Weno",
+  "slug": "weno",
+  "collection": "A–Z Islands II",
+  "country_code": "FM",
+  "country": "Micronesia",
+  "region": "Chuuk Lagoon",
+  "reference": [
+    151.85334347704958,
+    7.4358195
+  ],
+  "source_id": "geonames:2081240",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5a414f",
+        "#8f677a",
+        "#c398a7",
+        "#efcdd3"
+      ],
+      "#75825d",
+      "Rose Garnet II"
+    ],
+    "S": [
+      [
+        "#543126",
+        "#8d5841",
+        "#c38862",
+        "#f0c293"
+      ],
+      "#314574",
+      "Copper Jasper II"
+    ]
+  },
+  "background_names": {
+    "N": "Lichen Olive II North",
+    "S": "Ink Ultramarine II South"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Weno",
+  "gazetteer_reference": [
+    151.882,
+    7.44
+  ],
+  "reference_note": "GeoNames point is about 220 m outside GSHHG land; use an interior point of the uniquely nearest physical island, GSHHG L1 feature 3815. Original gazetteer point is retained.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 136,
+  "area_km2": 20.705975190671577,
+  "gshhg_area_km2": 20.705975190671577,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Weno",
+    "country": "FM",
+    "lon": 151.84135,
+    "lat": 7.44648,
+    "population": 13856,
+    "source": "https://www.geonames.org/2081114"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -12.0,
+  "max_land_elevation_m": 362.8270263671875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3775/1962.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3775/1963.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3776/1962.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3776/1963.tif"
+  ],
+  "resolution_m": 16.480121535719604,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=7.4358195 +lon_0=151.85334347704958 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2159.848230687472,
+    -2996.7635743790065,
+    5012.3006616576995,
+    3181.0507905315553
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.120030383929901,
+  "artwork_print_scale_denominator": 48661.77618814843,
+  "color_mood": "Rose Garnet II",
+  "background": "#75825d",
+  "background_name": "Lichen Olive II North",
+  "color_family": "Pink",
+  "palette": [
+    "#5a414f",
+    "#8f677a",
+    "#c398a7",
+    "#efcdd3"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "fccbd761a328defd11203470b1974839a0cfbcc000b9b5bde9908e2eb2f24d8d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

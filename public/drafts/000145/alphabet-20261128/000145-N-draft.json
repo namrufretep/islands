@@ -1,0 +1,117 @@
+{
+  "id": "000145",
+  "letter": "S",
+  "name": "Stromboli",
+  "slug": "stromboli",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Aeolian Islands",
+  "reference": [
+    15.21533,
+    38.79357
+  ],
+  "source_id": "geonames:2522991",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#713a32",
+        "#ac604b",
+        "#d99171",
+        "#f6c1a6"
+      ],
+      "#e7deeb",
+      "Ember Carnelian II"
+    ],
+    "S": [
+      [
+        "#5d5852",
+        "#9a8f82",
+        "#cac0ac",
+        "#f8f1df"
+      ],
+      "#2b3336",
+      "Fossil Dolomite II"
+    ]
+  },
+  "background_names": {
+    "N": "Lilac Mist II North",
+    "S": "Coal Tide II South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "White"
+  },
+  "largest_settlement": "Stromboli",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 87,
+  "area_km2": 13.064422458012894,
+  "gshhg_area_km2": 13.064422458012894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Stromboli",
+    "country": "IT",
+    "lon": 15.23812,
+    "lat": 38.80303,
+    "population": 639,
+    "source": "https://www.geonames.org/6691846"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -348.7074279785156,
+  "max_land_elevation_m": 895.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2220/1568.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2221/1568.tif"
+  ],
+  "resolution_m": 11.161798333143551,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.79357 +lon_0=15.21533 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2458.9033908123793,
+    -2477.7728827837996,
+    2398.711243771694,
+    2055.190214761938
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.7904495832858878,
+  "artwork_print_scale_denominator": 32958.06594432151,
+  "color_mood": "Ember Carnelian II",
+  "background": "#e7deeb",
+  "background_name": "Lilac Mist II North",
+  "color_family": "Red",
+  "palette": [
+    "#713a32",
+    "#ac604b",
+    "#d99171",
+    "#f6c1a6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "674a9cee98b94a5b82eb9530ee15406411fc9f44312f4d8a925aabfac1590579",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

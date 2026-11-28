@@ -1,0 +1,135 @@
+{
+  "id": "000143",
+  "letter": "Q",
+  "name": "Quadra",
+  "slug": "quadra",
+  "collection": "A–Z Islands II",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Discovery Islands",
+  "reference": [
+    -125.2529,
+    50.19965
+  ],
+  "source_id": "geonames:6114781",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Salish Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3a445e",
+        "#707a96",
+        "#aeb3c6",
+        "#e4e2f0"
+      ],
+      "#e9e1cf",
+      "Porcelain Kyanite II"
+    ],
+    "S": [
+      [
+        "#5c4351",
+        "#91697c",
+        "#c59aa9",
+        "#f1cfd5"
+      ],
+      "#77845f",
+      "Rose Garnet II"
+    ]
+  },
+  "background_names": {
+    "N": "Oat Chalk II North",
+    "S": "Lichen Olive II South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Pink"
+  },
+  "largest_settlement": "Heriot Bay",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 802,
+  "area_km2": 284.2965145514925,
+  "gshhg_area_km2": 284.2965145514925,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Heriot Bay",
+    "country": "CA",
+    "lon": -125.2135,
+    "lat": 50.10072,
+    "population": 594,
+    "source": "https://www.geonames.org/5974149"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -0.3635110855102539,
+  "max_land_elevation_m": 606.6351928710938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/309/691.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/309/692.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/309/693.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/309/694.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/310/691.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/310/692.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/310/693.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/310/694.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/311/691.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/311/692.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/311/693.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/311/694.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/312/691.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/312/692.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/312/693.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/312/694.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/313/691.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/313/692.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/313/693.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/313/694.tif"
+  ],
+  "resolution_m": 80.07980300622232,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=50.19965 +lon_0=-125.2529 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9596.40842745334,
+    -22625.435757489016,
+    8361.570565348553,
+    12225.29451081894
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.01995075155558,
+  "artwork_print_scale_denominator": 236456.11123884545,
+  "color_mood": "Porcelain Kyanite II",
+  "background": "#e9e1cf",
+  "background_name": "Oat Chalk II North",
+  "color_family": "Blue",
+  "palette": [
+    "#3a445e",
+    "#707a96",
+    "#aeb3c6",
+    "#e4e2f0"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "99e0f148e862ca72353afba38ef267c528b8dd4b98bd3d218870af6f18068c59",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

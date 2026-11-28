@@ -1,0 +1,62 @@
+{
+  "id": "000152",
+  "letter": "Z",
+  "name": "Zlarin",
+  "slug": "zlarin",
+  "collection": "A–Z Islands II",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Šibenik Archipelago",
+  "reference": [
+    15.84611,
+    43.69056
+  ],
+  "source_id": "geonames:3186409",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#474663",
+        "#777390",
+        "#b0a8b9",
+        "#e4d9da"
+      ],
+      "#e2afaa",
+      "Dusk Fluorite II"
+    ],
+    "S": [
+      [
+        "#733c34",
+        "#ae624d",
+        "#db9373",
+        "#f8c3a8"
+      ],
+      "#e9e0ed",
+      "Ember Carnelian II"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Chalk II North",
+    "S": "Lilac Mist II South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 112,
+  "area_km2": 9.099204689571978,
+  "gshhg_area_km2": 9.099204689571978,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

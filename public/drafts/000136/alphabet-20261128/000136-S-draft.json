@@ -1,0 +1,135 @@
+{
+  "id": "000136",
+  "letter": "J",
+  "name": "Jolo",
+  "slug": "jolo",
+  "collection": "A–Z Islands II",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Sulu Archipelago",
+  "reference": [
+    121.10528,
+    6.015
+  ],
+  "source_id": "geonames:1710132",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sulu Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#513846",
+        "#865e71",
+        "#ba8f9e",
+        "#e6c4ca"
+      ],
+      "#6c7954",
+      "Rose Garnet"
+    ],
+    "S": [
+      [
+        "#4b281d",
+        "#844f38",
+        "#ba7f59",
+        "#e7b98a"
+      ],
+      "#283c6b",
+      "Copper Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Lichen Olive North",
+    "S": "Ink Ultramarine South"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Jolo",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1396,
+  "area_km2": 859.6248647925097,
+  "gshhg_area_km2": 859.6248647925097,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Jolo",
+    "country": "PH",
+    "lon": 121.00222,
+    "lat": 6.05222,
+    "population": 101002,
+    "source": "https://www.geonames.org/1710141"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -49.15086364746094,
+  "max_land_elevation_m": 775.8138427734375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1711/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1711/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1711/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1711/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1712/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1712/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1712/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1712/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1713/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1713/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1713/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1713/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1714/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1714/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1714/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1714/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1715/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1715/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1715/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1715/991.tif"
+  ],
+  "resolution_m": 140.77690178472102,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=6.015 +lon_0=121.10528 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -25727.956801903303,
+    -17463.145811418355,
+    35538.15085480728,
+    8893.25367789146
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 35.194225446180255,
+  "artwork_print_scale_denominator": 415679.82810449123,
+  "color_mood": "Copper Jasper",
+  "background": "#283c6b",
+  "background_name": "Ink Ultramarine South",
+  "color_family": "Orange",
+  "palette": [
+    "#4b281d",
+    "#844f38",
+    "#ba7f59",
+    "#e7b98a"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "87460e5412dcdc61d858f94dbc705a888b61fa16659ef5b5a716f2b6bc766bf4",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

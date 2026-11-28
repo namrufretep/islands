@@ -1,0 +1,109 @@
+{
+  "id": "000131",
+  "letter": "E",
+  "name": "Elephanta",
+  "slug": "elephanta",
+  "collection": "A–Z Islands II",
+  "country_code": "IN",
+  "country": "India",
+  "region": "Mumbai Harbour",
+  "reference": [
+    72.93402,
+    18.96237
+  ],
+  "source_id": "geonames:1272073",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Arabian Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#272d2e",
+        "#484e4d",
+        "#747a73",
+        "#aaaea0"
+      ],
+      "#141d22",
+      "Graphite Serpentine"
+    ],
+    "S": [
+      [
+        "#355422",
+        "#6a8644",
+        "#a1b172",
+        "#d6dba2"
+      ],
+      "#475371",
+      "Olive Peridot"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Black North",
+    "S": "Storm Blue South"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 41,
+  "area_km2": 3.133887850227594,
+  "gshhg_area_km2": 3.133887850227594,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -12.06637191772461,
+  "max_land_elevation_m": 154.88621520996094,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2877/1828.tif"
+  ],
+  "resolution_m": 5.518056141080618,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=18.96237 +lon_0=72.93402 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1084.561317995849,
+    -1233.9873564104173,
+    1021.7568039926672,
+    1167.4706761878674
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.3795140352701545,
+  "artwork_print_scale_denominator": 16293.47285752151,
+  "color_mood": "Olive Peridot",
+  "background": "#475371",
+  "background_name": "Storm Blue South",
+  "color_family": "Green",
+  "palette": [
+    "#355422",
+    "#6a8644",
+    "#a1b172",
+    "#d6dba2"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "92c701050f4fac3320327ae2173e64644a5fec1b414f5bc60358d852c8b1cc9b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

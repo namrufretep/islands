@@ -1,0 +1,69 @@
+{
+  "id": "000136",
+  "letter": "J",
+  "name": "Jolo",
+  "slug": "jolo",
+  "collection": "A–Z Islands II",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Sulu Archipelago",
+  "reference": [
+    121.10528,
+    6.015
+  ],
+  "source_id": "geonames:1710132",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sulu Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#513846",
+        "#865e71",
+        "#ba8f9e",
+        "#e6c4ca"
+      ],
+      "#6c7954",
+      "Rose Garnet"
+    ],
+    "S": [
+      [
+        "#4b281d",
+        "#844f38",
+        "#ba7f59",
+        "#e7b98a"
+      ],
+      "#283c6b",
+      "Copper Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Lichen Olive North",
+    "S": "Ink Ultramarine South"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Orange"
+  },
+  "largest_settlement": "Jolo",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1396,
+  "area_km2": 859.6248647925097,
+  "gshhg_area_km2": 859.6248647925097,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Jolo",
+    "country": "PH",
+    "lon": 121.00222,
+    "lat": 6.05222,
+    "population": 101002,
+    "source": "https://www.geonames.org/1710141"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

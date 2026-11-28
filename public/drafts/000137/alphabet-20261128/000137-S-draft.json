@@ -1,0 +1,119 @@
+{
+  "id": "000137",
+  "letter": "K",
+  "name": "Kikai",
+  "slug": "kikai",
+  "collection": "A–Z Islands II",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Amami Islands",
+  "reference": [
+    129.98337,
+    28.33171
+  ],
+  "source_id": "geonames:1859493",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#335220",
+        "#688442",
+        "#9faf70",
+        "#d4d9a0"
+      ],
+      "#45516f",
+      "Olive Peridot"
+    ],
+    "S": [
+      [
+        "#333d57",
+        "#69738f",
+        "#a7acbf",
+        "#dddbe9"
+      ],
+      "#e2dac8",
+      "Porcelain Kyanite"
+    ]
+  },
+  "background_names": {
+    "N": "Storm Blue North",
+    "S": "Oat Chalk South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Akaren",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 277,
+  "area_km2": 60.37712383353825,
+  "gshhg_area_km2": 60.37712383353825,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Akaren",
+    "country": "JP",
+    "lon": 129.93333,
+    "lat": 28.31667,
+    "population": 6629,
+    "source": "https://www.geonames.org/1865526"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -360.50341796875,
+  "max_land_elevation_m": 753.1994018554688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1762/855.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1762/856.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1763/855.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1763/856.tif"
+  ],
+  "resolution_m": 27.7960989682217,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=28.33171 +lon_0=129.98337 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6910.17076672433,
+    -6330.438936770092,
+    5186.691504245754,
+    5309.067125829212
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.949024742055425,
+  "artwork_print_scale_denominator": 82075.09537860738,
+  "color_mood": "Porcelain Kyanite",
+  "background": "#e2dac8",
+  "background_name": "Oat Chalk South",
+  "color_family": "Blue",
+  "palette": [
+    "#333d57",
+    "#69738f",
+    "#a7acbf",
+    "#dddbe9"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d400080b2749ddaec1dde0b4b3fc74925c3846ef3dff04e7faad13f277c4d39a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

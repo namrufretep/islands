@@ -1,0 +1,69 @@
+{
+  "id": "000150",
+  "letter": "X",
+  "name": "Xiachuan",
+  "slug": "xiachuan",
+  "collection": "A–Z Islands II",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Guangdong Islands",
+  "reference": [
+    112.60511,
+    21.6584
+  ],
+  "source_id": "geonames:1790781",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c5b29",
+        "#718d4b",
+        "#a8b879",
+        "#dde2a9"
+      ],
+      "#4e5a78",
+      "Olive Peridot II"
+    ],
+    "S": [
+      [
+        "#3c4660",
+        "#727c98",
+        "#b0b5c8",
+        "#e6e4f2"
+      ],
+      "#ebe3d1",
+      "Porcelain Kyanite II"
+    ]
+  },
+  "background_names": {
+    "N": "Storm Blue II North",
+    "S": "Oat Chalk II South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Xiachuan",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 402,
+  "area_km2": 88.06636199422913,
+  "gshhg_area_km2": 88.06636199422913,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Xiachuan",
+    "country": "CN",
+    "lon": 112.58129,
+    "lat": 21.65086,
+    "population": 0,
+    "source": "https://www.geonames.org/1913339"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

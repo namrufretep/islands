@@ -1,0 +1,112 @@
+{
+  "id": "000152",
+  "letter": "Z",
+  "name": "Zlarin",
+  "slug": "zlarin",
+  "collection": "A–Z Islands II",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Šibenik Archipelago",
+  "reference": [
+    15.84611,
+    43.69056
+  ],
+  "source_id": "geonames:3186409",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#474663",
+        "#777390",
+        "#b0a8b9",
+        "#e4d9da"
+      ],
+      "#e2afaa",
+      "Dusk Fluorite II"
+    ],
+    "S": [
+      [
+        "#733c34",
+        "#ae624d",
+        "#db9373",
+        "#f8c3a8"
+      ],
+      "#e9e0ed",
+      "Ember Carnelian II"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Chalk II North",
+    "S": "Lilac Mist II South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 112,
+  "area_km2": 9.099204689571978,
+  "gshhg_area_km2": 9.099204689571978,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -4.973494529724121,
+  "max_land_elevation_m": 162.55291748046875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2227/1493.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2227/1494.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2228/1493.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2228/1494.tif"
+  ],
+  "resolution_m": 12.77125563990768,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=43.69056 +lon_0=15.84611 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2207.6948603541505,
+    -3444.449842835936,
+    2023.2896191663867,
+    2113.600611651886
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.19281390997692,
+  "artwork_print_scale_denominator": 37710.40051153843,
+  "color_mood": "Ember Carnelian II",
+  "background": "#e9e0ed",
+  "background_name": "Lilac Mist II South",
+  "color_family": "Red",
+  "palette": [
+    "#733c34",
+    "#ae624d",
+    "#db9373",
+    "#f8c3a8"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "824bad420ea06755e34af94fdfeeb532bd2b3a0c8b2ec1c35047ad18618a548e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

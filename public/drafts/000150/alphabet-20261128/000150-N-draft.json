@@ -1,0 +1,117 @@
+{
+  "id": "000150",
+  "letter": "X",
+  "name": "Xiachuan",
+  "slug": "xiachuan",
+  "collection": "A–Z Islands II",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Guangdong Islands",
+  "reference": [
+    112.60511,
+    21.6584
+  ],
+  "source_id": "geonames:1790781",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3c5b29",
+        "#718d4b",
+        "#a8b879",
+        "#dde2a9"
+      ],
+      "#4e5a78",
+      "Olive Peridot II"
+    ],
+    "S": [
+      [
+        "#3c4660",
+        "#727c98",
+        "#b0b5c8",
+        "#e6e4f2"
+      ],
+      "#ebe3d1",
+      "Porcelain Kyanite II"
+    ]
+  },
+  "background_names": {
+    "N": "Storm Blue II North",
+    "S": "Oat Chalk II South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Xiachuan",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 402,
+  "area_km2": 88.06636199422913,
+  "gshhg_area_km2": 88.06636199422913,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Xiachuan",
+    "country": "CN",
+    "lon": 112.58129,
+    "lat": 21.65086,
+    "population": 0,
+    "source": "https://www.geonames.org/1913339"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -16.455158233642578,
+  "max_land_elevation_m": 519.4212646484375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1664/897.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1664/898.tif"
+  ],
+  "resolution_m": 34.49926096366541,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=21.6584 +lon_0=112.60511 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9204.75923400557,
+    -7805.114995233465,
+    5809.319137381616,
+    6590.5712443716975
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.624815240916352,
+  "artwork_print_scale_denominator": 101867.89654625613,
+  "color_mood": "Olive Peridot II",
+  "background": "#4e5a78",
+  "background_name": "Storm Blue II North",
+  "color_family": "Green",
+  "palette": [
+    "#3c5b29",
+    "#718d4b",
+    "#a8b879",
+    "#dde2a9"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "2db32ffe5a650b31c7ecb81c075308177290f95f0d68f89ed928461b8da8d7a1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "000132",
+  "letter": "F",
+  "name": "Floreana",
+  "slug": "floreana",
+  "collection": "A–Z Islands II",
+  "country_code": "EC",
+  "country": "Ecuador",
+  "region": "Galápagos Islands",
+  "reference": [
+    -90.43417,
+    -1.2975
+  ],
+  "source_id": "geonames:6940510",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#683129",
+        "#a35742",
+        "#d08868",
+        "#edb89d"
+      ],
+      "#ded5e2",
+      "Ember Carnelian"
+    ],
+    "S": [
+      [
+        "#544f49",
+        "#918679",
+        "#c1b7a3",
+        "#efe8d6"
+      ],
+      "#222a2d",
+      "Fossil Dolomite"
+    ]
+  },
+  "background_names": {
+    "N": "Lilac Mist North",
+    "S": "Coal Tide South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "White"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 327,
+  "area_km2": 177.75239072730187,
+  "gshhg_area_km2": 177.75239072730187,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -80.70133972167969,
+  "max_land_elevation_m": 565.1907348632812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/508/1030.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/508/1031.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/509/1030.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/509/1031.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/510/1030.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/510/1031.tif"
+  ],
+  "resolution_m": 41.349403343287264,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-1.2975 +lon_0=-90.43417 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8859.612532647056,
+    -6680.602288333055,
+    9135.647802351561,
+    8888.997722340557
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 10.337350835821816,
+  "artwork_print_scale_denominator": 122094.69491128129,
+  "color_mood": "Fossil Dolomite",
+  "background": "#222a2d",
+  "background_name": "Coal Tide South",
+  "color_family": "White",
+  "palette": [
+    "#544f49",
+    "#918679",
+    "#c1b7a3",
+    "#efe8d6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b034286dfe6bf003d7e6b831db444b4af06da1e5adb49857b54186d4f370ff7a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,119 @@
+{
+  "id": "000127",
+  "letter": "A",
+  "name": "Alderney",
+  "slug": "alderney",
+  "collection": "A–Z Islands II",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.19816,
+    49.71582
+  ],
+  "source_id": "geonames:3042422",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d2734",
+        "#624d5a",
+        "#a08389",
+        "#d9bdb3"
+      ],
+      "#d4a22f",
+      "Plum Basalt"
+    ],
+    "S": [
+      [
+        "#5a501e",
+        "#8f813d",
+        "#c1b176",
+        "#eddfb2"
+      ],
+      "#efe9d1",
+      "Honey Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Dust North",
+    "S": "Warm Ivory South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Yellow"
+  },
+  "largest_settlement": "St Anne",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 114,
+  "area_km2": 8.977705269240621,
+  "gshhg_area_km2": 8.977705269240621,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "St Anne",
+    "country": "GG",
+    "lon": -2.20757,
+    "lat": 49.71549,
+    "population": 0,
+    "source": "https://www.geonames.org/3042289"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -4.558291912078857,
+  "max_land_elevation_m": 87.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2022/1393.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2022/1394.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2023/1393.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2023/1394.tif"
+  ],
+  "resolution_m": 12.575053487516707,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=49.71582 +lon_0=-2.19816 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2685.3659673024845,
+    -1527.728426132697,
+    2787.297310464786,
+    1904.8177525396006
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.1437633718791766,
+  "artwork_print_scale_denominator": 37131.063447391854,
+  "color_mood": "Honey Calcite",
+  "background": "#efe9d1",
+  "background_name": "Warm Ivory South",
+  "color_family": "Yellow",
+  "palette": [
+    "#5a501e",
+    "#8f813d",
+    "#c1b176",
+    "#eddfb2"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5237dd11b26a1c9dffe21c33114dafd5a83182ec3fdf2b53d48ca04d85f1159e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

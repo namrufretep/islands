@@ -1,0 +1,127 @@
+{
+  "id": "000140",
+  "letter": "N",
+  "name": "Naxos",
+  "slug": "naxos",
+  "collection": "A–Z Islands II",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    25.48616,
+    37.07257
+  ],
+  "source_id": "geonames:256631",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#36303d",
+        "#6b5663",
+        "#a98c92",
+        "#e2c6bc"
+      ],
+      "#ddab38",
+      "Plum Basalt II"
+    ],
+    "S": [
+      [
+        "#635927",
+        "#988a46",
+        "#caba7f",
+        "#f6e8bb"
+      ],
+      "#f8f2da",
+      "Honey Calcite II"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Dust II North",
+    "S": "Warm Ivory II South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Náxos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 726,
+  "area_km2": 439.2304954408403,
+  "gshhg_area_km2": 439.2304954408403,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Náxos",
+    "country": "GR",
+    "lon": 25.37639,
+    "lat": 37.10556,
+    "population": 7070,
+    "source": "https://www.geonames.org/256632"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -28.91448211669922,
+  "max_land_elevation_m": 970.49072265625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1167/795.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1167/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1167/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1168/795.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1168/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1168/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/795.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1169/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/795.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1170/797.tif"
+  ],
+  "resolution_m": 73.74760433570495,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=37.07257 +lon_0=25.48616 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13557.614887040118,
+    -17535.416907433133,
+    10820.740235601697,
+    14559.54049946566
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 18.436901083926237,
+  "artwork_print_scale_denominator": 217758.67421960123,
+  "color_mood": "Plum Basalt II",
+  "background": "#ddab38",
+  "background_name": "Saffron Dust II North",
+  "color_family": "Purple",
+  "palette": [
+    "#36303d",
+    "#6b5663",
+    "#a98c92",
+    "#e2c6bc"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "30973f663e7a85c82cd4583f5968b45cde333a519565dd11b14efcba97ae8af1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

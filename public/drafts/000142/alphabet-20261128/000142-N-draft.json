@@ -1,0 +1,114 @@
+{
+  "id": "000142",
+  "letter": "P",
+  "name": "Porquerolles",
+  "slug": "porquerolles",
+  "collection": "A–Z Islands II",
+  "country_code": "FR",
+  "country": "France",
+  "region": "Îles d’Hyères",
+  "reference": [
+    6.20877,
+    42.99496
+  ],
+  "source_id": "geonames:2986056",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#522f24",
+        "#8b563f",
+        "#c18660",
+        "#eec091"
+      ],
+      "#2f4372",
+      "Copper Jasper II"
+    ],
+    "S": [
+      [
+        "#395668",
+        "#608b9a",
+        "#96b7bd",
+        "#d1dfd8"
+      ],
+      "#332e2a",
+      "Slate Larimar II"
+    ]
+  },
+  "background_names": {
+    "N": "Ink Ultramarine II North",
+    "S": "Charcoal Umber II South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Turquoise"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 181,
+  "area_km2": 15.11355231399193,
+  "gshhg_area_km2": 15.11355231399193,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -41.80428695678711,
+  "max_land_elevation_m": 137.75912475585938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2117/1504.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2117/1505.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2118/1504.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2118/1505.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2119/1504.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2119/1505.tif"
+  ],
+  "resolution_m": 17.340330894932865,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=42.99496 +lon_0=6.20877 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4083.0263505125836,
+    -1248.3961906534241,
+    3463.485654962198,
+    4028.951054249258
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.335082723733216,
+  "artwork_print_scale_denominator": 51201.764453541924,
+  "color_mood": "Copper Jasper II",
+  "background": "#2f4372",
+  "background_name": "Ink Ultramarine II North",
+  "color_family": "Orange",
+  "palette": [
+    "#522f24",
+    "#8b563f",
+    "#c18660",
+    "#eec091"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "4969fc1923785da858e5fe4408054f2dd9e76c9f92cd53075b286fad5423eccc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

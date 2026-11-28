@@ -1,0 +1,62 @@
+{
+  "id": "000131",
+  "letter": "E",
+  "name": "Elephanta",
+  "slug": "elephanta",
+  "collection": "A–Z Islands II",
+  "country_code": "IN",
+  "country": "India",
+  "region": "Mumbai Harbour",
+  "reference": [
+    72.93402,
+    18.96237
+  ],
+  "source_id": "geonames:1272073",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Arabian Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#272d2e",
+        "#484e4d",
+        "#747a73",
+        "#aaaea0"
+      ],
+      "#141d22",
+      "Graphite Serpentine"
+    ],
+    "S": [
+      [
+        "#355422",
+        "#6a8644",
+        "#a1b172",
+        "#d6dba2"
+      ],
+      "#475371",
+      "Olive Peridot"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Black North",
+    "S": "Storm Blue South"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 41,
+  "area_km2": 3.133887850227594,
+  "gshhg_area_km2": 3.133887850227594,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

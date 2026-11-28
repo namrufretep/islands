@@ -1,0 +1,112 @@
+{
+  "id": "000135",
+  "letter": "I",
+  "name": "Iona",
+  "slug": "iona",
+  "collection": "A–Z Islands II",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides",
+  "reference": [
+    -6.41667,
+    56.31667
+  ],
+  "source_id": "geonames:2646069",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2e4b5d",
+        "#55808f",
+        "#8bacb2",
+        "#c6d4cd"
+      ],
+      "#28231f",
+      "Slate Larimar"
+    ],
+    "S": [
+      [
+        "#214844",
+        "#4c766f",
+        "#80a59a",
+        "#b9d0be"
+      ],
+      "#cd6d47",
+      "Patina Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Charcoal Umber North",
+    "S": "Burnt Apricot South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 89,
+  "area_km2": 8.973124051088668,
+  "gshhg_area_km2": 8.973124051088668,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -4.0,
+  "max_land_elevation_m": 83.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1974/1268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1974/1269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1975/1268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1975/1269.tif"
+  ],
+  "resolution_m": 11.101873782813026,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=56.31667 +lon_0=-6.41667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2117.6661772173275,
+    -1256.0994591905924,
+    2107.6596566449266,
+    3575.436011089637
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.7754684457032566,
+  "artwork_print_scale_denominator": 32781.12337444792,
+  "color_mood": "Patina Jade",
+  "background": "#cd6d47",
+  "background_name": "Burnt Apricot South",
+  "color_family": "Green",
+  "palette": [
+    "#214844",
+    "#4c766f",
+    "#80a59a",
+    "#b9d0be"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ab6778938dd9988d6e57e468dab47d8bb8f73db79e1af6195c97dce779f0591c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

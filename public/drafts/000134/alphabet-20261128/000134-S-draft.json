@@ -1,0 +1,119 @@
+{
+  "id": "000134",
+  "letter": "H",
+  "name": "Huahine Nui",
+  "slug": "huahine-nui",
+  "collection": "A–Z Islands II",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Society Islands",
+  "reference": [
+    -151.02271,
+    -16.73979
+  ],
+  "source_id": "geonames:4034374",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#262953",
+        "#4f558a",
+        "#888eb7",
+        "#c3c6dc"
+      ],
+      "#825337",
+      "Indigo Iolite"
+    ],
+    "S": [
+      [
+        "#2f2936",
+        "#644f5c",
+        "#a2858b",
+        "#dbbfb5"
+      ],
+      "#d6a431",
+      "Plum Basalt"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Earth North",
+    "S": "Saffron Dust South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Purple"
+  },
+  "largest_settlement": "Fare",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 260,
+  "area_km2": 49.883567688102495,
+  "gshhg_area_km2": 49.883567688102495,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fare",
+    "country": "PF",
+    "lon": -151.03493,
+    "lat": -16.7123,
+    "population": 1540,
+    "source": "https://www.geonames.org/4034496"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -14.0,
+  "max_land_elevation_m": 772.1454467773438,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/329/2240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/329/2241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/330/2240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/330/2241.tif"
+  ],
+  "resolution_m": 22.892718122365395,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-16.73979 +lon_0=-151.02271 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2518.705541303551,
+    -3853.5692044261996,
+    5214.57411084746,
+    6109.34172242722
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.723179530591349,
+  "artwork_print_scale_denominator": 67596.60862903167,
+  "color_mood": "Plum Basalt",
+  "background": "#d6a431",
+  "background_name": "Saffron Dust South",
+  "color_family": "Purple",
+  "palette": [
+    "#2f2936",
+    "#644f5c",
+    "#a2858b",
+    "#dbbfb5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "fe9a524170d2d992fd3a4411a6968f13f86ecae31a46748f90aaf3dbcbd57f9f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

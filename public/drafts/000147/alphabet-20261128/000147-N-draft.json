@@ -1,0 +1,121 @@
+{
+  "id": "000147",
+  "letter": "U",
+  "name": "Ulleungdo",
+  "slug": "ulleungdo",
+  "collection": "A–Z Islands II",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Sea of Japan / East Sea",
+  "reference": [
+    130.86059,
+    37.5006
+  ],
+  "source_id": "geonames:1833754",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sea of Japan / East Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2f325c",
+        "#585e93",
+        "#9197c0",
+        "#cccfe5"
+      ],
+      "#8b5c40",
+      "Indigo Iolite II"
+    ],
+    "S": [
+      [
+        "#38323f",
+        "#6d5865",
+        "#ab8e94",
+        "#e4c8be"
+      ],
+      "#dfad3a",
+      "Plum Basalt II"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Earth II North",
+    "S": "Saffron Dust II South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Purple"
+  },
+  "largest_settlement": "Dodong-ri",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 241,
+  "area_km2": 75.86267774913057,
+  "gshhg_area_km2": 75.86267774913057,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Dodong-ri",
+    "country": "KR",
+    "lon": 130.90434,
+    "lat": 37.49505,
+    "population": 9169,
+    "source": "https://www.geonames.org/13286589"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -349.88604736328125,
+  "max_land_elevation_m": 970.9918823242188,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3536/1586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3536/1587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3536/1588.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3537/1586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3537/1587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3537/1588.tif"
+  ],
+  "resolution_m": 26.415512684009197,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=37.5006 +lon_0=130.86059 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5246.290729814307,
+    -5846.860866025812,
+    6249.7403902664955,
+    4697.883653316438
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.603878171002299,
+  "artwork_print_scale_denominator": 77998.56107483032,
+  "color_mood": "Indigo Iolite II",
+  "background": "#8b5c40",
+  "background_name": "Ochre Earth II North",
+  "color_family": "Blue",
+  "palette": [
+    "#2f325c",
+    "#585e93",
+    "#9197c0",
+    "#cccfe5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "867afad20c7a7368b1c5a33863cc7ff007bb26d666a2f487eb59aed0a00692ad",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "000138",
+  "letter": "L",
+  "name": "La Gomera",
+  "slug": "la-gomera",
+  "collection": "A–Z Islands II",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.13333,
+    28.1
+  ],
+  "source_id": "geonames:2517187",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#524d47",
+        "#8f8477",
+        "#bfb5a1",
+        "#ede6d4"
+      ],
+      "#20282b",
+      "Fossil Dolomite"
+    ],
+    "S": [
+      [
+        "#292f30",
+        "#4a504f",
+        "#767c75",
+        "#acb0a2"
+      ],
+      "#161f24",
+      "Graphite Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide North",
+    "S": "Petrol Black South"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Gray"
+  },
+  "largest_settlement": "San Sebastián de la Gomera",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 539,
+  "area_km2": 374.40458547311226,
+  "gshhg_area_km2": 374.40458547311226,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "San Sebastián de la Gomera",
+    "country": "ES",
+    "lon": -17.11331,
+    "lat": 28.09163,
+    "population": 8964,
+    "source": "https://www.geonames.org/2511230"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -310.8628234863281,
+  "max_land_elevation_m": 1461.4124755859375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/925/856.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/925/857.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/925/858.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/926/856.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/926/857.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/926/858.tif"
+  ],
+  "resolution_m": 57.022153977692106,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=28.1 +lon_0=-17.13333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -20847.055659806218,
+    -9276.540040540714,
+    3968.9857512853855,
+    12892.226829527359
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 14.255538494423027,
+  "artwork_print_scale_denominator": 168372.5019026342,
+  "color_mood": "Fossil Dolomite",
+  "background": "#20282b",
+  "background_name": "Coal Tide North",
+  "color_family": "White",
+  "palette": [
+    "#524d47",
+    "#8f8477",
+    "#bfb5a1",
+    "#ede6d4"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "7e5b95991568fc93d1bbb38ef575e2c53e3d25d9d8e295bcdd1c3e14fbb2a89b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

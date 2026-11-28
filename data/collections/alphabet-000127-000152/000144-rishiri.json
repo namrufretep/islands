@@ -1,0 +1,69 @@
+{
+  "id": "000144",
+  "letter": "R",
+  "name": "Rishiri",
+  "slug": "rishiri",
+  "collection": "A–Z Islands II",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Northern Hokkaidō",
+  "reference": [
+    141.24306,
+    45.18056
+  ],
+  "source_id": "geonames:2128403",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sea of Japan",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#303637",
+        "#515756",
+        "#7d837c",
+        "#b3b7a9"
+      ],
+      "#1d262b",
+      "Graphite Serpentine II"
+    ],
+    "S": [
+      [
+        "#3e5d2b",
+        "#738f4d",
+        "#aaba7b",
+        "#dfe4ab"
+      ],
+      "#505c7a",
+      "Olive Peridot II"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol Black II North",
+    "S": "Storm Blue II South"
+  },
+  "color_families": {
+    "N": "Gray",
+    "S": "Green"
+  },
+  "largest_settlement": "Rishiri Town",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 386,
+  "area_km2": 184.75263093781675,
+  "gshhg_area_km2": 184.75263093781675,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Rishiri Town",
+    "country": "JP",
+    "lon": 141.19629,
+    "lat": 45.15928,
+    "population": 2684,
+    "source": "https://www.geonames.org/7303387"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

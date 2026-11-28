@@ -1,0 +1,124 @@
+{
+  "id": "000141",
+  "letter": "O",
+  "name": "O‘ahu",
+  "slug": "oahu",
+  "collection": "A–Z Islands II",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Hawaiian Islands",
+  "reference": [
+    -157.96667,
+    21.43333
+  ],
+  "source_id": "geonames:5851609",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#284f4b",
+        "#537d76",
+        "#87aca1",
+        "#c0d7c5"
+      ],
+      "#d4744e",
+      "Patina Jade II"
+    ],
+    "S": [
+      [
+        "#31345e",
+        "#5a6095",
+        "#9399c2",
+        "#ced1e7"
+      ],
+      "#8d5e42",
+      "Indigo Iolite II"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Apricot II North",
+    "S": "Ochre Earth II South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Honolulu",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1574,
+  "area_km2": 1572.2471185917404,
+  "gshhg_area_km2": 1572.2471185917404,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Honolulu",
+    "country": "US",
+    "lon": -157.85833,
+    "lat": 21.30694,
+    "population": 350964,
+    "source": "https://www.geonames.org/5856195"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -13.912585258483887,
+  "max_land_elevation_m": 1211.3687744140625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/61/448.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/61/449.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/61/450.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/62/448.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/62/449.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/62/450.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/63/448.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/63/449.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/63/450.tif"
+  ],
+  "resolution_m": 150.9259387070472,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=21.43333 +lon_0=-157.96667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -32732.101638125703,
+    -19660.43915770144,
+    32950.86688718124,
+    31157.12299737728
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 37.7314846767618,
+  "artwork_print_scale_denominator": 445647.45681214734,
+  "color_mood": "Indigo Iolite II",
+  "background": "#8d5e42",
+  "background_name": "Ochre Earth II South",
+  "color_family": "Blue",
+  "palette": [
+    "#31345e",
+    "#5a6095",
+    "#9399c2",
+    "#ced1e7"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "6e135fad3b2210323697706ca87d5587f722533b292ca615d568268f96e44a8e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

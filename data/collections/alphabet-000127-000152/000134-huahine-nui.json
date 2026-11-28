@@ -1,0 +1,69 @@
+{
+  "id": "000134",
+  "letter": "H",
+  "name": "Huahine Nui",
+  "slug": "huahine-nui",
+  "collection": "A–Z Islands II",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Society Islands",
+  "reference": [
+    -151.02271,
+    -16.73979
+  ],
+  "source_id": "geonames:4034374",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#262953",
+        "#4f558a",
+        "#888eb7",
+        "#c3c6dc"
+      ],
+      "#825337",
+      "Indigo Iolite"
+    ],
+    "S": [
+      [
+        "#2f2936",
+        "#644f5c",
+        "#a2858b",
+        "#dbbfb5"
+      ],
+      "#d6a431",
+      "Plum Basalt"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Earth North",
+    "S": "Saffron Dust South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Purple"
+  },
+  "largest_settlement": "Fare",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 260,
+  "area_km2": 49.883567688102495,
+  "gshhg_area_km2": 49.883567688102495,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fare",
+    "country": "PF",
+    "lon": -151.03493,
+    "lat": -16.7123,
+    "population": 1540,
+    "source": "https://www.geonames.org/4034496"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,13 @@
+# A–Z Islands II · 000127–000152
+
+26 new geographic islands, one for each initial A–Z, with 52 separately coloured and lit North-Up/South-Up previews. Originals are 2048×2048 PNG at nominal 300 dpi. This batch extends the preceding 126 islands; it does not replace the earlier A–Z group.
+
+Coastlines: GSHHG 2.3.7 full-resolution physical L1 outlines, Wessel and Smith, LGPL-3.0-or-later; no administrative polygons. Inland-water baseline: GSHHG L2. Names, stable geographic IDs and qualified settlement evidence: GeoNames CC BY 4.0. Whole-island elevation: public Mapzen elevation tile service; tile URLs and land coverage are recorded per artwork. Optional OpenStreetMap water queries, when available, contribute captured geometry and carry © OpenStreetMap contributors, ODbL attribution. Mapped water is not exhaustive; unavailable queries are never evidence that an island has no lakes.
+
+Reference points were checked against the physical outlines. The GeoNames Weno point lies approximately 220 m outside the nearest GSHHG land polygon; an interior anchor of the uniquely nearest physical island (GSHHG L1 feature 3815) is used for projection. The original GeoNames point and correction note are retained in its metadata. Huahine Nui refers to the northern physical island, not both Huahine islands. Gorgona is the Colombian island; Quadra is the Canadian island; O‘ahu is the Hawaiian island, not the same-named island in New York.
+
+Areas are WGS84 geodesic polygon estimates, not surveyed current-day land areas. The 2017 shoreline dataset may predate erosion, reclamation or new infrastructure. Settlement entries use the largest recorded population among GeoNames cities500 points inside the physical outline. This is qualified source evidence, not an independently exhaustive census; unsupported entries remain unknown. Artistic relief is interpreted from elevation, not a geological survey.
+
+Render model: locally centered azimuthal-equidistant projection; longest dimension fitted to 85% of a 2048-pixel canvas. Metric and nominal print scales are recorded. Elevation is resampled at 512 pixels; the physical silhouette is rasterized independently at full resolution. North-Up and South-Up use different palettes, backgrounds and recalculated upper-left lighting. The new palette group emphasizes copper, graphite, indigo, patina, fossil ivory, mineral rose and ochre, mixed with stronger contrasts.
+
+These remain previews. App registration and deterministic token-ID preparation do not mint or release an NFT. The public gallery contains verified minted editions; the administrator view includes these unreleased artworks.

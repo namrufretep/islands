@@ -1,0 +1,119 @@
+{
+  "id": "000129",
+  "letter": "C",
+  "name": "Capri",
+  "slug": "capri",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Bay of Naples",
+  "reference": [
+    14.22652,
+    40.54997
+  ],
+  "source_id": "geonames:3180629",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#49261b",
+        "#824d36",
+        "#b87d57",
+        "#e5b788"
+      ],
+      "#263a69",
+      "Copper Jasper"
+    ],
+    "S": [
+      [
+        "#304d5f",
+        "#578291",
+        "#8daeb4",
+        "#c8d6cf"
+      ],
+      "#2a2521",
+      "Slate Larimar"
+    ]
+  },
+  "background_names": {
+    "N": "Ink Ultramarine North",
+    "S": "Charcoal Umber South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Capri",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 139,
+  "area_km2": 11.482916583941883,
+  "gshhg_area_km2": 11.482916583941883,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Capri",
+    "country": "IT",
+    "lon": 14.24263,
+    "lat": 40.55073,
+    "population": 6770,
+    "source": "https://www.geonames.org/3180630"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -150.72903442382812,
+  "max_land_elevation_m": 579.8656616210938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2209/1541.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2209/1542.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2210/1541.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2210/1542.tif"
+  ],
+  "resolution_m": 14.116384606152872,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.54997 +lon_0=14.22652 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2634.8987254200288,
+    -1526.3503292688135,
+    3508.5518551777013,
+    1437.8100789317411
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.529096151538218,
+  "artwork_print_scale_denominator": 41682.23801029391,
+  "color_mood": "Copper Jasper",
+  "background": "#263a69",
+  "background_name": "Ink Ultramarine North",
+  "color_family": "Orange",
+  "palette": [
+    "#49261b",
+    "#824d36",
+    "#b87d57",
+    "#e5b788"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "53795edb24ea4fff78bfd7a7de8597334198697bd8cf285bae2d7e99fe2aee2a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

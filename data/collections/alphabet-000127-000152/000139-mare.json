@@ -1,0 +1,69 @@
+{
+  "id": "000139",
+  "letter": "M",
+  "name": "Maré",
+  "slug": "mare",
+  "collection": "A–Z Islands II",
+  "country_code": "NC",
+  "country": "New Caledonia",
+  "region": "Loyalty Islands",
+  "reference": [
+    167.98997,
+    -21.52904
+  ],
+  "source_id": "geonames:2140298",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e3d5a",
+        "#6e6a87",
+        "#a79fb0",
+        "#dbd0d1"
+      ],
+      "#d9a6a1",
+      "Dusk Fluorite"
+    ],
+    "S": [
+      [
+        "#6a332b",
+        "#a55944",
+        "#d28a6a",
+        "#efba9f"
+      ],
+      "#e0d7e4",
+      "Ember Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Chalk North",
+    "S": "Lilac Mist South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Tadine",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 778,
+  "area_km2": 664.0630261370087,
+  "gshhg_area_km2": 664.0630261370087,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Tadine",
+    "country": "NC",
+    "lon": 167.88019,
+    "lat": -21.54751,
+    "population": 7492,
+    "source": "https://www.geonames.org/2138285"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

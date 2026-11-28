@@ -1,0 +1,128 @@
+{
+  "id": "000151",
+  "letter": "Y",
+  "name": "Yell",
+  "slug": "yell",
+  "collection": "A–Z Islands II",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Shetland Islands",
+  "reference": [
+    -1.1,
+    60.6
+  ],
+  "source_id": "geonames:2633387",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5b5650",
+        "#988d80",
+        "#c8beaa",
+        "#f6efdd"
+      ],
+      "#293134",
+      "Fossil Dolomite II"
+    ],
+    "S": [
+      [
+        "#323839",
+        "#535958",
+        "#7f857e",
+        "#b5b9ab"
+      ],
+      "#1f282d",
+      "Graphite Serpentine II"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide II North",
+    "S": "Petrol Black II South"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Gray"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 852,
+  "area_km2": 221.34602631909394,
+  "gshhg_area_km2": 221.34602631909394,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -39.99909210205078,
+  "max_land_elevation_m": 194.1937713623047,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1016/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1016/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1016/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1016/588.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1016/589.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/588.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/589.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/588.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/589.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/588.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/589.tif"
+  ],
+  "resolution_m": 65.09045846317213,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=60.6 +lon_0=-1.1 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5891.249777189927,
+    -12958.90777877342,
+    6521.816868945931,
+    15368.45974439909
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.27261461579303,
+  "artwork_print_scale_denominator": 192196.23561960275,
+  "color_mood": "Fossil Dolomite II",
+  "background": "#293134",
+  "background_name": "Coal Tide II North",
+  "color_family": "White",
+  "palette": [
+    "#5b5650",
+    "#988d80",
+    "#c8beaa",
+    "#f6efdd"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c440ccb0c3f49785d9ad1514d50018bb6ee811b89cab50c4d93a87d813e73917",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

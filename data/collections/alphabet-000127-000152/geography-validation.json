@@ -1,0 +1,1745 @@
+[
+  {
+    "id": "000127",
+    "letter": "A",
+    "name": "Alderney",
+    "slug": "alderney",
+    "collection": "A–Z Islands II",
+    "country_code": "GG",
+    "country": "Guernsey",
+    "region": "Channel Islands",
+    "reference": [
+      -2.19816,
+      49.71582
+    ],
+    "source_id": "geonames:3042422",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "English Channel",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2d2734",
+          "#624d5a",
+          "#a08389",
+          "#d9bdb3"
+        ],
+        "#d4a22f",
+        "Plum Basalt"
+      ],
+      "S": [
+        [
+          "#5a501e",
+          "#8f813d",
+          "#c1b176",
+          "#eddfb2"
+        ],
+        "#efe9d1",
+        "Honey Calcite"
+      ]
+    },
+    "background_names": {
+      "N": "Saffron Dust North",
+      "S": "Warm Ivory South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Yellow"
+    },
+    "largest_settlement": "St Anne",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 114,
+    "area_km2": 8.977705269240621,
+    "gshhg_area_km2": 8.977705269240621,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "St Anne",
+      "country": "GG",
+      "lon": -2.20757,
+      "lat": 49.71549,
+      "population": 0,
+      "source": "https://www.geonames.org/3042289"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000128",
+    "letter": "B",
+    "name": "Bornholm",
+    "slug": "bornholm",
+    "collection": "A–Z Islands II",
+    "country_code": "DK",
+    "country": "Denmark",
+    "region": "Baltic Sea",
+    "reference": [
+      14.91394,
+      55.12551
+    ],
+    "source_id": "geonames:2623664",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Baltic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#1f4642",
+          "#4a746d",
+          "#7ea398",
+          "#b7cebc"
+        ],
+        "#cb6b45",
+        "Patina Jade"
+      ],
+      "S": [
+        [
+          "#282b55",
+          "#51578c",
+          "#8a90b9",
+          "#c5c8de"
+        ],
+        "#845539",
+        "Indigo Iolite"
+      ]
+    },
+    "background_names": {
+      "N": "Burnt Apricot North",
+      "S": "Ochre Earth South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Rønne",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 523,
+    "area_km2": 600.0212341123155,
+    "gshhg_area_km2": 600.0212341123155,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Rønne",
+      "country": "DK",
+      "lon": 14.70664,
+      "lat": 55.10091,
+      "population": 13807,
+      "source": "https://www.geonames.org/2614553"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000129",
+    "letter": "C",
+    "name": "Capri",
+    "slug": "capri",
+    "collection": "A–Z Islands II",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Bay of Naples",
+    "reference": [
+      14.22652,
+      40.54997
+    ],
+    "source_id": "geonames:3180629",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#49261b",
+          "#824d36",
+          "#b87d57",
+          "#e5b788"
+        ],
+        "#263a69",
+        "Copper Jasper"
+      ],
+      "S": [
+        [
+          "#304d5f",
+          "#578291",
+          "#8daeb4",
+          "#c8d6cf"
+        ],
+        "#2a2521",
+        "Slate Larimar"
+      ]
+    },
+    "background_names": {
+      "N": "Ink Ultramarine North",
+      "S": "Charcoal Umber South"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Turquoise"
+    },
+    "largest_settlement": "Capri",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 139,
+    "area_km2": 11.482916583941883,
+    "gshhg_area_km2": 11.482916583941883,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Capri",
+      "country": "IT",
+      "lon": 14.24263,
+      "lat": 40.55073,
+      "population": 6770,
+      "source": "https://www.geonames.org/3180630"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000130",
+    "letter": "D",
+    "name": "Djerba",
+    "slug": "djerba",
+    "collection": "A–Z Islands II",
+    "country_code": "TN",
+    "country": "Tunisia",
+    "region": "Gulf of Gabès",
+    "reference": [
+      10.9,
+      33.8
+    ],
+    "source_id": "geonames:2470181",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#313b55",
+          "#67718d",
+          "#a5aabd",
+          "#dbd9e7"
+        ],
+        "#e0d8c6",
+        "Porcelain Kyanite"
+      ],
+      "S": [
+        [
+          "#533a48",
+          "#886073",
+          "#bc91a0",
+          "#e8c6cc"
+        ],
+        "#6e7b56",
+        "Rose Garnet"
+      ]
+    },
+    "background_names": {
+      "N": "Oat Chalk North",
+      "S": "Lichen Olive South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Houmt Souk",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 752,
+    "area_km2": 513.7245422956418,
+    "gshhg_area_km2": 513.7245422956418,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Houmt Souk",
+      "country": "TN",
+      "lon": 10.85745,
+      "lat": 33.87576,
+      "population": 89228,
+      "source": "https://www.geonames.org/2470384"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000131",
+    "letter": "E",
+    "name": "Elephanta",
+    "slug": "elephanta",
+    "collection": "A–Z Islands II",
+    "country_code": "IN",
+    "country": "India",
+    "region": "Mumbai Harbour",
+    "reference": [
+      72.93402,
+      18.96237
+    ],
+    "source_id": "geonames:1272073",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Arabian Sea",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#272d2e",
+          "#484e4d",
+          "#747a73",
+          "#aaaea0"
+        ],
+        "#141d22",
+        "Graphite Serpentine"
+      ],
+      "S": [
+        [
+          "#355422",
+          "#6a8644",
+          "#a1b172",
+          "#d6dba2"
+        ],
+        "#475371",
+        "Olive Peridot"
+      ]
+    },
+    "background_names": {
+      "N": "Petrol Black North",
+      "S": "Storm Blue South"
+    },
+    "color_families": {
+      "N": "Gray",
+      "S": "Green"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 41,
+    "area_km2": 3.133887850227594,
+    "gshhg_area_km2": 3.133887850227594,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000132",
+    "letter": "F",
+    "name": "Floreana",
+    "slug": "floreana",
+    "collection": "A–Z Islands II",
+    "country_code": "EC",
+    "country": "Ecuador",
+    "region": "Galápagos Islands",
+    "reference": [
+      -90.43417,
+      -1.2975
+    ],
+    "source_id": "geonames:6940510",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#683129",
+          "#a35742",
+          "#d08868",
+          "#edb89d"
+        ],
+        "#ded5e2",
+        "Ember Carnelian"
+      ],
+      "S": [
+        [
+          "#544f49",
+          "#918679",
+          "#c1b7a3",
+          "#efe8d6"
+        ],
+        "#222a2d",
+        "Fossil Dolomite"
+      ]
+    },
+    "background_names": {
+      "N": "Lilac Mist North",
+      "S": "Coal Tide South"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "White"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 327,
+    "area_km2": 177.75239072730187,
+    "gshhg_area_km2": 177.75239072730187,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000133",
+    "letter": "G",
+    "name": "Gorgona",
+    "slug": "gorgona",
+    "collection": "A–Z Islands II",
+    "country_code": "CO",
+    "country": "Colombia",
+    "region": "Pacific Colombia",
+    "reference": [
+      -78.18249,
+      2.9688
+    ],
+    "source_id": "geonames:3681978",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#584e1c",
+          "#8d7f3b",
+          "#bfaf74",
+          "#ebddb0"
+        ],
+        "#ede7cf",
+        "Honey Calcite"
+      ],
+      "S": [
+        [
+          "#403f5c",
+          "#706c89",
+          "#a9a1b2",
+          "#ddd2d3"
+        ],
+        "#dba8a3",
+        "Dusk Fluorite"
+      ]
+    },
+    "background_names": {
+      "N": "Warm Ivory North",
+      "S": "Coral Chalk South"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 90,
+    "area_km2": 14.14504879738459,
+    "gshhg_area_km2": 14.14504879738459,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000134",
+    "letter": "H",
+    "name": "Huahine Nui",
+    "slug": "huahine-nui",
+    "collection": "A–Z Islands II",
+    "country_code": "PF",
+    "country": "French Polynesia",
+    "region": "Society Islands",
+    "reference": [
+      -151.02271,
+      -16.73979
+    ],
+    "source_id": "geonames:4034374",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#262953",
+          "#4f558a",
+          "#888eb7",
+          "#c3c6dc"
+        ],
+        "#825337",
+        "Indigo Iolite"
+      ],
+      "S": [
+        [
+          "#2f2936",
+          "#644f5c",
+          "#a2858b",
+          "#dbbfb5"
+        ],
+        "#d6a431",
+        "Plum Basalt"
+      ]
+    },
+    "background_names": {
+      "N": "Ochre Earth North",
+      "S": "Saffron Dust South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Purple"
+    },
+    "largest_settlement": "Fare",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 260,
+    "area_km2": 49.883567688102495,
+    "gshhg_area_km2": 49.883567688102495,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Fare",
+      "country": "PF",
+      "lon": -151.03493,
+      "lat": -16.7123,
+      "population": 1540,
+      "source": "https://www.geonames.org/4034496"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000135",
+    "letter": "I",
+    "name": "Iona",
+    "slug": "iona",
+    "collection": "A–Z Islands II",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Inner Hebrides",
+    "reference": [
+      -6.41667,
+      56.31667
+    ],
+    "source_id": "geonames:2646069",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2e4b5d",
+          "#55808f",
+          "#8bacb2",
+          "#c6d4cd"
+        ],
+        "#28231f",
+        "Slate Larimar"
+      ],
+      "S": [
+        [
+          "#214844",
+          "#4c766f",
+          "#80a59a",
+          "#b9d0be"
+        ],
+        "#cd6d47",
+        "Patina Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Charcoal Umber North",
+      "S": "Burnt Apricot South"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Green"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 89,
+    "area_km2": 8.973124051088668,
+    "gshhg_area_km2": 8.973124051088668,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000136",
+    "letter": "J",
+    "name": "Jolo",
+    "slug": "jolo",
+    "collection": "A–Z Islands II",
+    "country_code": "PH",
+    "country": "Philippines",
+    "region": "Sulu Archipelago",
+    "reference": [
+      121.10528,
+      6.015
+    ],
+    "source_id": "geonames:1710132",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Sulu Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#513846",
+          "#865e71",
+          "#ba8f9e",
+          "#e6c4ca"
+        ],
+        "#6c7954",
+        "Rose Garnet"
+      ],
+      "S": [
+        [
+          "#4b281d",
+          "#844f38",
+          "#ba7f59",
+          "#e7b98a"
+        ],
+        "#283c6b",
+        "Copper Jasper"
+      ]
+    },
+    "background_names": {
+      "N": "Lichen Olive North",
+      "S": "Ink Ultramarine South"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Orange"
+    },
+    "largest_settlement": "Jolo",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1396,
+    "area_km2": 859.6248647925097,
+    "gshhg_area_km2": 859.6248647925097,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Jolo",
+      "country": "PH",
+      "lon": 121.00222,
+      "lat": 6.05222,
+      "population": 101002,
+      "source": "https://www.geonames.org/1710141"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000137",
+    "letter": "K",
+    "name": "Kikai",
+    "slug": "kikai",
+    "collection": "A–Z Islands II",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Amami Islands",
+    "reference": [
+      129.98337,
+      28.33171
+    ],
+    "source_id": "geonames:1859493",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#335220",
+          "#688442",
+          "#9faf70",
+          "#d4d9a0"
+        ],
+        "#45516f",
+        "Olive Peridot"
+      ],
+      "S": [
+        [
+          "#333d57",
+          "#69738f",
+          "#a7acbf",
+          "#dddbe9"
+        ],
+        "#e2dac8",
+        "Porcelain Kyanite"
+      ]
+    },
+    "background_names": {
+      "N": "Storm Blue North",
+      "S": "Oat Chalk South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Akaren",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 277,
+    "area_km2": 60.37712383353825,
+    "gshhg_area_km2": 60.37712383353825,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Akaren",
+      "country": "JP",
+      "lon": 129.93333,
+      "lat": 28.31667,
+      "population": 6629,
+      "source": "https://www.geonames.org/1865526"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000138",
+    "letter": "L",
+    "name": "La Gomera",
+    "slug": "la-gomera",
+    "collection": "A–Z Islands II",
+    "country_code": "ES",
+    "country": "Spain",
+    "region": "Canary Islands",
+    "reference": [
+      -17.13333,
+      28.1
+    ],
+    "source_id": "geonames:2517187",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#524d47",
+          "#8f8477",
+          "#bfb5a1",
+          "#ede6d4"
+        ],
+        "#20282b",
+        "Fossil Dolomite"
+      ],
+      "S": [
+        [
+          "#292f30",
+          "#4a504f",
+          "#767c75",
+          "#acb0a2"
+        ],
+        "#161f24",
+        "Graphite Serpentine"
+      ]
+    },
+    "background_names": {
+      "N": "Coal Tide North",
+      "S": "Petrol Black South"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Gray"
+    },
+    "largest_settlement": "San Sebastián de la Gomera",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 539,
+    "area_km2": 374.40458547311226,
+    "gshhg_area_km2": 374.40458547311226,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "San Sebastián de la Gomera",
+      "country": "ES",
+      "lon": -17.11331,
+      "lat": 28.09163,
+      "population": 8964,
+      "source": "https://www.geonames.org/2511230"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000139",
+    "letter": "M",
+    "name": "Maré",
+    "slug": "mare",
+    "collection": "A–Z Islands II",
+    "country_code": "NC",
+    "country": "New Caledonia",
+    "region": "Loyalty Islands",
+    "reference": [
+      167.98997,
+      -21.52904
+    ],
+    "source_id": "geonames:2140298",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Coral Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3e3d5a",
+          "#6e6a87",
+          "#a79fb0",
+          "#dbd0d1"
+        ],
+        "#d9a6a1",
+        "Dusk Fluorite"
+      ],
+      "S": [
+        [
+          "#6a332b",
+          "#a55944",
+          "#d28a6a",
+          "#efba9f"
+        ],
+        "#e0d7e4",
+        "Ember Carnelian"
+      ]
+    },
+    "background_names": {
+      "N": "Coral Chalk North",
+      "S": "Lilac Mist South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Red"
+    },
+    "largest_settlement": "Tadine",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 778,
+    "area_km2": 664.0630261370087,
+    "gshhg_area_km2": 664.0630261370087,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Tadine",
+      "country": "NC",
+      "lon": 167.88019,
+      "lat": -21.54751,
+      "population": 7492,
+      "source": "https://www.geonames.org/2138285"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000140",
+    "letter": "N",
+    "name": "Naxos",
+    "slug": "naxos",
+    "collection": "A–Z Islands II",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      25.48616,
+      37.07257
+    ],
+    "source_id": "geonames:256631",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#36303d",
+          "#6b5663",
+          "#a98c92",
+          "#e2c6bc"
+        ],
+        "#ddab38",
+        "Plum Basalt II"
+      ],
+      "S": [
+        [
+          "#635927",
+          "#988a46",
+          "#caba7f",
+          "#f6e8bb"
+        ],
+        "#f8f2da",
+        "Honey Calcite II"
+      ]
+    },
+    "background_names": {
+      "N": "Saffron Dust II North",
+      "S": "Warm Ivory II South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Yellow"
+    },
+    "largest_settlement": "Náxos",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 726,
+    "area_km2": 439.2304954408403,
+    "gshhg_area_km2": 439.2304954408403,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Náxos",
+      "country": "GR",
+      "lon": 25.37639,
+      "lat": 37.10556,
+      "population": 7070,
+      "source": "https://www.geonames.org/256632"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000141",
+    "letter": "O",
+    "name": "O‘ahu",
+    "slug": "oahu",
+    "collection": "A–Z Islands II",
+    "country_code": "US",
+    "country": "United States",
+    "region": "Hawaiian Islands",
+    "reference": [
+      -157.96667,
+      21.43333
+    ],
+    "source_id": "geonames:5851609",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#284f4b",
+          "#537d76",
+          "#87aca1",
+          "#c0d7c5"
+        ],
+        "#d4744e",
+        "Patina Jade II"
+      ],
+      "S": [
+        [
+          "#31345e",
+          "#5a6095",
+          "#9399c2",
+          "#ced1e7"
+        ],
+        "#8d5e42",
+        "Indigo Iolite II"
+      ]
+    },
+    "background_names": {
+      "N": "Burnt Apricot II North",
+      "S": "Ochre Earth II South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Honolulu",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1574,
+    "area_km2": 1572.2471185917404,
+    "gshhg_area_km2": 1572.2471185917404,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Honolulu",
+      "country": "US",
+      "lon": -157.85833,
+      "lat": 21.30694,
+      "population": 350964,
+      "source": "https://www.geonames.org/5856195"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000142",
+    "letter": "P",
+    "name": "Porquerolles",
+    "slug": "porquerolles",
+    "collection": "A–Z Islands II",
+    "country_code": "FR",
+    "country": "France",
+    "region": "Îles d’Hyères",
+    "reference": [
+      6.20877,
+      42.99496
+    ],
+    "source_id": "geonames:2986056",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#522f24",
+          "#8b563f",
+          "#c18660",
+          "#eec091"
+        ],
+        "#2f4372",
+        "Copper Jasper II"
+      ],
+      "S": [
+        [
+          "#395668",
+          "#608b9a",
+          "#96b7bd",
+          "#d1dfd8"
+        ],
+        "#332e2a",
+        "Slate Larimar II"
+      ]
+    },
+    "background_names": {
+      "N": "Ink Ultramarine II North",
+      "S": "Charcoal Umber II South"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Turquoise"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 181,
+    "area_km2": 15.11355231399193,
+    "gshhg_area_km2": 15.11355231399193,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000143",
+    "letter": "Q",
+    "name": "Quadra",
+    "slug": "quadra",
+    "collection": "A–Z Islands II",
+    "country_code": "CA",
+    "country": "Canada",
+    "region": "Discovery Islands",
+    "reference": [
+      -125.2529,
+      50.19965
+    ],
+    "source_id": "geonames:6114781",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Salish Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3a445e",
+          "#707a96",
+          "#aeb3c6",
+          "#e4e2f0"
+        ],
+        "#e9e1cf",
+        "Porcelain Kyanite II"
+      ],
+      "S": [
+        [
+          "#5c4351",
+          "#91697c",
+          "#c59aa9",
+          "#f1cfd5"
+        ],
+        "#77845f",
+        "Rose Garnet II"
+      ]
+    },
+    "background_names": {
+      "N": "Oat Chalk II North",
+      "S": "Lichen Olive II South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Pink"
+    },
+    "largest_settlement": "Heriot Bay",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 802,
+    "area_km2": 284.2965145514925,
+    "gshhg_area_km2": 284.2965145514925,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Heriot Bay",
+      "country": "CA",
+      "lon": -125.2135,
+      "lat": 50.10072,
+      "population": 594,
+      "source": "https://www.geonames.org/5974149"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000144",
+    "letter": "R",
+    "name": "Rishiri",
+    "slug": "rishiri",
+    "collection": "A–Z Islands II",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Northern Hokkaidō",
+    "reference": [
+      141.24306,
+      45.18056
+    ],
+    "source_id": "geonames:2128403",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Sea of Japan",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#303637",
+          "#515756",
+          "#7d837c",
+          "#b3b7a9"
+        ],
+        "#1d262b",
+        "Graphite Serpentine II"
+      ],
+      "S": [
+        [
+          "#3e5d2b",
+          "#738f4d",
+          "#aaba7b",
+          "#dfe4ab"
+        ],
+        "#505c7a",
+        "Olive Peridot II"
+      ]
+    },
+    "background_names": {
+      "N": "Petrol Black II North",
+      "S": "Storm Blue II South"
+    },
+    "color_families": {
+      "N": "Gray",
+      "S": "Green"
+    },
+    "largest_settlement": "Rishiri Town",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 386,
+    "area_km2": 184.75263093781675,
+    "gshhg_area_km2": 184.75263093781675,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Rishiri Town",
+      "country": "JP",
+      "lon": 141.19629,
+      "lat": 45.15928,
+      "population": 2684,
+      "source": "https://www.geonames.org/7303387"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000145",
+    "letter": "S",
+    "name": "Stromboli",
+    "slug": "stromboli",
+    "collection": "A–Z Islands II",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Aeolian Islands",
+    "reference": [
+      15.21533,
+      38.79357
+    ],
+    "source_id": "geonames:2522991",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#713a32",
+          "#ac604b",
+          "#d99171",
+          "#f6c1a6"
+        ],
+        "#e7deeb",
+        "Ember Carnelian II"
+      ],
+      "S": [
+        [
+          "#5d5852",
+          "#9a8f82",
+          "#cac0ac",
+          "#f8f1df"
+        ],
+        "#2b3336",
+        "Fossil Dolomite II"
+      ]
+    },
+    "background_names": {
+      "N": "Lilac Mist II North",
+      "S": "Coal Tide II South"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "White"
+    },
+    "largest_settlement": "Stromboli",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 87,
+    "area_km2": 13.064422458012894,
+    "gshhg_area_km2": 13.064422458012894,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Stromboli",
+      "country": "IT",
+      "lon": 15.23812,
+      "lat": 38.80303,
+      "population": 639,
+      "source": "https://www.geonames.org/6691846"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000146",
+    "letter": "T",
+    "name": "Texel",
+    "slug": "texel",
+    "collection": "A–Z Islands II",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "region": "West Frisian Islands",
+    "reference": [
+      4.83333,
+      53.08333
+    ],
+    "source_id": "geonames:2746385",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#615725",
+          "#968844",
+          "#c8b87d",
+          "#f4e6b9"
+        ],
+        "#f6f0d8",
+        "Honey Calcite II"
+      ],
+      "S": [
+        [
+          "#494865",
+          "#797592",
+          "#b2aabb",
+          "#e6dbdc"
+        ],
+        "#e4b1ac",
+        "Dusk Fluorite II"
+      ]
+    },
+    "background_names": {
+      "N": "Warm Ivory II North",
+      "S": "Coral Chalk II South"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": "Den Burg",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 334,
+    "area_km2": 164.5748161563673,
+    "gshhg_area_km2": 164.5748161563673,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Den Burg",
+      "country": "NL",
+      "lon": 4.79722,
+      "lat": 53.05417,
+      "population": 6485,
+      "source": "https://www.geonames.org/2757244"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000147",
+    "letter": "U",
+    "name": "Ulleungdo",
+    "slug": "ulleungdo",
+    "collection": "A–Z Islands II",
+    "country_code": "KR",
+    "country": "South Korea",
+    "region": "Sea of Japan / East Sea",
+    "reference": [
+      130.86059,
+      37.5006
+    ],
+    "source_id": "geonames:1833754",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Sea of Japan / East Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2f325c",
+          "#585e93",
+          "#9197c0",
+          "#cccfe5"
+        ],
+        "#8b5c40",
+        "Indigo Iolite II"
+      ],
+      "S": [
+        [
+          "#38323f",
+          "#6d5865",
+          "#ab8e94",
+          "#e4c8be"
+        ],
+        "#dfad3a",
+        "Plum Basalt II"
+      ]
+    },
+    "background_names": {
+      "N": "Ochre Earth II North",
+      "S": "Saffron Dust II South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Purple"
+    },
+    "largest_settlement": "Dodong-ri",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 241,
+    "area_km2": 75.86267774913057,
+    "gshhg_area_km2": 75.86267774913057,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Dodong-ri",
+      "country": "KR",
+      "lon": 130.90434,
+      "lat": 37.49505,
+      "population": 9169,
+      "source": "https://www.geonames.org/13286589"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000148",
+    "letter": "V",
+    "name": "Vulcano",
+    "slug": "vulcano",
+    "collection": "A–Z Islands II",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Aeolian Islands",
+    "reference": [
+      14.97453,
+      38.39332
+    ],
+    "source_id": "geonames:2522705",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#375466",
+          "#5e8998",
+          "#94b5bb",
+          "#cfddd6"
+        ],
+        "#312c28",
+        "Slate Larimar II"
+      ],
+      "S": [
+        [
+          "#2a514d",
+          "#557f78",
+          "#89aea3",
+          "#c2d9c7"
+        ],
+        "#d67650",
+        "Patina Jade II"
+      ]
+    },
+    "background_names": {
+      "N": "Charcoal Umber II North",
+      "S": "Burnt Apricot II South"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Green"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 183,
+    "area_km2": 23.20263319714143,
+    "gshhg_area_km2": 23.20263319714143,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000149",
+    "letter": "W",
+    "name": "Weno",
+    "slug": "weno",
+    "collection": "A–Z Islands II",
+    "country_code": "FM",
+    "country": "Micronesia",
+    "region": "Chuuk Lagoon",
+    "reference": [
+      151.85334347704958,
+      7.4358195
+    ],
+    "source_id": "geonames:2081240",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5a414f",
+          "#8f677a",
+          "#c398a7",
+          "#efcdd3"
+        ],
+        "#75825d",
+        "Rose Garnet II"
+      ],
+      "S": [
+        [
+          "#543126",
+          "#8d5841",
+          "#c38862",
+          "#f0c293"
+        ],
+        "#314574",
+        "Copper Jasper II"
+      ]
+    },
+    "background_names": {
+      "N": "Lichen Olive II North",
+      "S": "Ink Ultramarine II South"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Orange"
+    },
+    "largest_settlement": "Weno",
+    "gazetteer_reference": [
+      151.882,
+      7.44
+    ],
+    "reference_note": "GeoNames point is about 220 m outside GSHHG land; use an interior point of the uniquely nearest physical island, GSHHG L1 feature 3815. Original gazetteer point is retained.",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 136,
+    "area_km2": 20.705975190671577,
+    "gshhg_area_km2": 20.705975190671577,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Weno",
+      "country": "FM",
+      "lon": 151.84135,
+      "lat": 7.44648,
+      "population": 13856,
+      "source": "https://www.geonames.org/2081114"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000150",
+    "letter": "X",
+    "name": "Xiachuan",
+    "slug": "xiachuan",
+    "collection": "A–Z Islands II",
+    "country_code": "CN",
+    "country": "China",
+    "region": "Guangdong Islands",
+    "reference": [
+      112.60511,
+      21.6584
+    ],
+    "source_id": "geonames:1790781",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3c5b29",
+          "#718d4b",
+          "#a8b879",
+          "#dde2a9"
+        ],
+        "#4e5a78",
+        "Olive Peridot II"
+      ],
+      "S": [
+        [
+          "#3c4660",
+          "#727c98",
+          "#b0b5c8",
+          "#e6e4f2"
+        ],
+        "#ebe3d1",
+        "Porcelain Kyanite II"
+      ]
+    },
+    "background_names": {
+      "N": "Storm Blue II North",
+      "S": "Oat Chalk II South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": "Xiachuan",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 402,
+    "area_km2": 88.06636199422913,
+    "gshhg_area_km2": 88.06636199422913,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Xiachuan",
+      "country": "CN",
+      "lon": 112.58129,
+      "lat": 21.65086,
+      "population": 0,
+      "source": "https://www.geonames.org/1913339"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000151",
+    "letter": "Y",
+    "name": "Yell",
+    "slug": "yell",
+    "collection": "A–Z Islands II",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Shetland Islands",
+    "reference": [
+      -1.1,
+      60.6
+    ],
+    "source_id": "geonames:2633387",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5b5650",
+          "#988d80",
+          "#c8beaa",
+          "#f6efdd"
+        ],
+        "#293134",
+        "Fossil Dolomite II"
+      ],
+      "S": [
+        [
+          "#323839",
+          "#535958",
+          "#7f857e",
+          "#b5b9ab"
+        ],
+        "#1f282d",
+        "Graphite Serpentine II"
+      ]
+    },
+    "background_names": {
+      "N": "Coal Tide II North",
+      "S": "Petrol Black II South"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Gray"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 852,
+    "area_km2": 221.34602631909394,
+    "gshhg_area_km2": 221.34602631909394,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  },
+  {
+    "id": "000152",
+    "letter": "Z",
+    "name": "Zlarin",
+    "slug": "zlarin",
+    "collection": "A–Z Islands II",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Šibenik Archipelago",
+    "reference": [
+      15.84611,
+      43.69056
+    ],
+    "source_id": "geonames:3186409",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Mediterranean Sea",
+    "palettes": {
+      "N": [
+        [
+          "#474663",
+          "#777390",
+          "#b0a8b9",
+          "#e4d9da"
+        ],
+        "#e2afaa",
+        "Dusk Fluorite II"
+      ],
+      "S": [
+        [
+          "#733c34",
+          "#ae624d",
+          "#db9373",
+          "#f8c3a8"
+        ],
+        "#e9e0ed",
+        "Ember Carnelian II"
+      ]
+    },
+    "background_names": {
+      "N": "Coral Chalk II North",
+      "S": "Lilac Mist II South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Red"
+    },
+    "largest_settlement": null,
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 112,
+    "area_km2": 9.099204689571978,
+    "gshhg_area_km2": 9.099204689571978,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+  }
+]

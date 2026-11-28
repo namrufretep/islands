@@ -1,0 +1,62 @@
+{
+  "id": "000133",
+  "letter": "G",
+  "name": "Gorgona",
+  "slug": "gorgona",
+  "collection": "A–Z Islands II",
+  "country_code": "CO",
+  "country": "Colombia",
+  "region": "Pacific Colombia",
+  "reference": [
+    -78.18249,
+    2.9688
+  ],
+  "source_id": "geonames:3681978",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#584e1c",
+        "#8d7f3b",
+        "#bfaf74",
+        "#ebddb0"
+      ],
+      "#ede7cf",
+      "Honey Calcite"
+    ],
+    "S": [
+      [
+        "#403f5c",
+        "#706c89",
+        "#a9a1b2",
+        "#ddd2d3"
+      ],
+      "#dba8a3",
+      "Dusk Fluorite"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Ivory North",
+    "S": "Coral Chalk South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 90,
+  "area_km2": 14.14504879738459,
+  "gshhg_area_km2": 14.14504879738459,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

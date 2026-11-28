@@ -1,0 +1,62 @@
+{
+  "id": "000142",
+  "letter": "P",
+  "name": "Porquerolles",
+  "slug": "porquerolles",
+  "collection": "A–Z Islands II",
+  "country_code": "FR",
+  "country": "France",
+  "region": "Îles d’Hyères",
+  "reference": [
+    6.20877,
+    42.99496
+  ],
+  "source_id": "geonames:2986056",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#522f24",
+        "#8b563f",
+        "#c18660",
+        "#eec091"
+      ],
+      "#2f4372",
+      "Copper Jasper II"
+    ],
+    "S": [
+      [
+        "#395668",
+        "#608b9a",
+        "#96b7bd",
+        "#d1dfd8"
+      ],
+      "#332e2a",
+      "Slate Larimar II"
+    ]
+  },
+  "background_names": {
+    "N": "Ink Ultramarine II North",
+    "S": "Charcoal Umber II South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Turquoise"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 181,
+  "area_km2": 15.11355231399193,
+  "gshhg_area_km2": 15.11355231399193,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

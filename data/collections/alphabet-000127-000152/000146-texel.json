@@ -1,0 +1,69 @@
+{
+  "id": "000146",
+  "letter": "T",
+  "name": "Texel",
+  "slug": "texel",
+  "collection": "A–Z Islands II",
+  "country_code": "NL",
+  "country": "Netherlands",
+  "region": "West Frisian Islands",
+  "reference": [
+    4.83333,
+    53.08333
+  ],
+  "source_id": "geonames:2746385",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#615725",
+        "#968844",
+        "#c8b87d",
+        "#f4e6b9"
+      ],
+      "#f6f0d8",
+      "Honey Calcite II"
+    ],
+    "S": [
+      [
+        "#494865",
+        "#797592",
+        "#b2aabb",
+        "#e6dbdc"
+      ],
+      "#e4b1ac",
+      "Dusk Fluorite II"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Ivory II North",
+    "S": "Coral Chalk II South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Den Burg",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 334,
+  "area_km2": 164.5748161563673,
+  "gshhg_area_km2": 164.5748161563673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Den Burg",
+    "country": "NL",
+    "lon": 4.79722,
+    "lat": 53.05417,
+    "population": 6485,
+    "source": "https://www.geonames.org/2757244"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,124 @@
+{
+  "id": "000146",
+  "letter": "T",
+  "name": "Texel",
+  "slug": "texel",
+  "collection": "A–Z Islands II",
+  "country_code": "NL",
+  "country": "Netherlands",
+  "region": "West Frisian Islands",
+  "reference": [
+    4.83333,
+    53.08333
+  ],
+  "source_id": "geonames:2746385",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#615725",
+        "#968844",
+        "#c8b87d",
+        "#f4e6b9"
+      ],
+      "#f6f0d8",
+      "Honey Calcite II"
+    ],
+    "S": [
+      [
+        "#494865",
+        "#797592",
+        "#b2aabb",
+        "#e6dbdc"
+      ],
+      "#e4b1ac",
+      "Dusk Fluorite II"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Ivory II North",
+    "S": "Coral Chalk II South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Den Burg",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 334,
+  "area_km2": 164.5748161563673,
+  "gshhg_area_km2": 164.5748161563673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Den Burg",
+    "country": "NL",
+    "lon": 4.79722,
+    "lat": 53.05417,
+    "population": 6485,
+    "source": "https://www.geonames.org/2757244"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -14.230766296386719,
+  "max_land_elevation_m": 19.099185943603516,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1050/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1050/666.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1050/667.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1051/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1051/666.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1051/667.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1052/665.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1052/666.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1052/667.tif"
+  ],
+  "resolution_m": 50.28634665116568,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=53.08333 +lon_0=4.83333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8559.297302201823,
+    -10708.869298627564,
+    5075.68829862279,
+    11175.748763959738
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 12.57158666279142,
+  "artwork_print_scale_denominator": 148483.30704084353,
+  "color_mood": "Honey Calcite II",
+  "background": "#f6f0d8",
+  "background_name": "Warm Ivory II North",
+  "color_family": "Yellow",
+  "palette": [
+    "#615725",
+    "#968844",
+    "#c8b87d",
+    "#f4e6b9"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e13fe20a50b13f218f08c7a7506a27eeca5c2285f4633defb118af59f3998865",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

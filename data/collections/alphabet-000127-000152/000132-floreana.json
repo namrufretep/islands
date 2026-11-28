@@ -1,0 +1,62 @@
+{
+  "id": "000132",
+  "letter": "F",
+  "name": "Floreana",
+  "slug": "floreana",
+  "collection": "A–Z Islands II",
+  "country_code": "EC",
+  "country": "Ecuador",
+  "region": "Galápagos Islands",
+  "reference": [
+    -90.43417,
+    -1.2975
+  ],
+  "source_id": "geonames:6940510",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#683129",
+        "#a35742",
+        "#d08868",
+        "#edb89d"
+      ],
+      "#ded5e2",
+      "Ember Carnelian"
+    ],
+    "S": [
+      [
+        "#544f49",
+        "#918679",
+        "#c1b7a3",
+        "#efe8d6"
+      ],
+      "#222a2d",
+      "Fossil Dolomite"
+    ]
+  },
+  "background_names": {
+    "N": "Lilac Mist North",
+    "S": "Coal Tide South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "White"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 327,
+  "area_km2": 177.75239072730187,
+  "gshhg_area_km2": 177.75239072730187,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

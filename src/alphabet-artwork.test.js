@@ -5,8 +5,9 @@ import {createHash} from 'node:crypto';
 const source=readFileSync(new URL('./main.js',import.meta.url),'utf8');
 const value=name=>JSON.parse(source.match(new RegExp('const '+name+'=(.*?);'))[1]);
 const editions=value('previewEditions');
-const config=JSON.parse(readFileSync(new URL('../data/collections/alphabet-000101-000126/geography-validation.json',import.meta.url)));
-test('the new 26 islands cover A–Z exactly once and preserve 52 independently rendered editions',()=>{
+for(const batch of ['000101-000126','000127-000152']){
+const config=JSON.parse(readFileSync(new URL(`../data/collections/alphabet-${batch}/geography-validation.json`,import.meta.url)));
+test(`A–Z batch ${batch} covers every initial once and preserves 52 independently rendered editions`,()=>{
  assert.deepEqual(config.map(c=>c.letter),'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''));
  const backgrounds=new Set();
  for(const c of config){
@@ -28,3 +29,4 @@ test('the new 26 islands cover A–Z exactly once and preserve 52 independently 
  }
  assert.equal(backgrounds.size,52);
 });
+}

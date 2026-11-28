@@ -1,0 +1,69 @@
+{
+  "id": "000137",
+  "letter": "K",
+  "name": "Kikai",
+  "slug": "kikai",
+  "collection": "A–Z Islands II",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Amami Islands",
+  "reference": [
+    129.98337,
+    28.33171
+  ],
+  "source_id": "geonames:1859493",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#335220",
+        "#688442",
+        "#9faf70",
+        "#d4d9a0"
+      ],
+      "#45516f",
+      "Olive Peridot"
+    ],
+    "S": [
+      [
+        "#333d57",
+        "#69738f",
+        "#a7acbf",
+        "#dddbe9"
+      ],
+      "#e2dac8",
+      "Porcelain Kyanite"
+    ]
+  },
+  "background_names": {
+    "N": "Storm Blue North",
+    "S": "Oat Chalk South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Akaren",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 277,
+  "area_km2": 60.37712383353825,
+  "gshhg_area_km2": 60.37712383353825,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Akaren",
+    "country": "JP",
+    "lon": 129.93333,
+    "lat": 28.31667,
+    "population": 6629,
+    "source": "https://www.geonames.org/1865526"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

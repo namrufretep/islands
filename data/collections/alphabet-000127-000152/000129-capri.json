@@ -1,0 +1,69 @@
+{
+  "id": "000129",
+  "letter": "C",
+  "name": "Capri",
+  "slug": "capri",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Bay of Naples",
+  "reference": [
+    14.22652,
+    40.54997
+  ],
+  "source_id": "geonames:3180629",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#49261b",
+        "#824d36",
+        "#b87d57",
+        "#e5b788"
+      ],
+      "#263a69",
+      "Copper Jasper"
+    ],
+    "S": [
+      [
+        "#304d5f",
+        "#578291",
+        "#8daeb4",
+        "#c8d6cf"
+      ],
+      "#2a2521",
+      "Slate Larimar"
+    ]
+  },
+  "background_names": {
+    "N": "Ink Ultramarine North",
+    "S": "Charcoal Umber South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Capri",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 139,
+  "area_km2": 11.482916583941883,
+  "gshhg_area_km2": 11.482916583941883,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Capri",
+    "country": "IT",
+    "lon": 14.24263,
+    "lat": 40.55073,
+    "population": 6770,
+    "source": "https://www.geonames.org/3180630"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

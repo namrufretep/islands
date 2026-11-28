@@ -1,0 +1,135 @@
+{
+  "id": "000128",
+  "letter": "B",
+  "name": "Bornholm",
+  "slug": "bornholm",
+  "collection": "A–Z Islands II",
+  "country_code": "DK",
+  "country": "Denmark",
+  "region": "Baltic Sea",
+  "reference": [
+    14.91394,
+    55.12551
+  ],
+  "source_id": "geonames:2623664",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1f4642",
+        "#4a746d",
+        "#7ea398",
+        "#b7cebc"
+      ],
+      "#cb6b45",
+      "Patina Jade"
+    ],
+    "S": [
+      [
+        "#282b55",
+        "#51578c",
+        "#8a90b9",
+        "#c5c8de"
+      ],
+      "#845539",
+      "Indigo Iolite"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Apricot North",
+    "S": "Ochre Earth South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Rønne",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 523,
+  "area_km2": 600.0212341123155,
+  "gshhg_area_km2": 600.0212341123155,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Rønne",
+    "country": "DK",
+    "lon": 14.70664,
+    "lat": 55.10091,
+    "population": 13807,
+    "source": "https://www.geonames.org/2614553"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -16.752899169921875,
+  "max_land_elevation_m": 165.5673370361328,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/644.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/645.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/646.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/647.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/648.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/644.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/645.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/646.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/647.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/648.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/644.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/645.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/646.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/647.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/648.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/644.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/645.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/646.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/647.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/648.tif"
+  ],
+  "resolution_m": 80.15433175264405,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=55.12551 +lon_0=14.91394 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14883.001732770093,
+    -15405.53767950002,
+    15762.601912065249,
+    19477.627499250673
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.038582938161014,
+  "artwork_print_scale_denominator": 236676.1764349726,
+  "color_mood": "Patina Jade",
+  "background": "#cb6b45",
+  "background_name": "Burnt Apricot North",
+  "color_family": "Green",
+  "palette": [
+    "#1f4642",
+    "#4a746d",
+    "#7ea398",
+    "#b7cebc"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "3a2d138fd1f0664ef052855c079a33bb4d2fa8c67c1596eb4ed7192630c20d60",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

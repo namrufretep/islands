@@ -1,0 +1,69 @@
+{
+  "id": "000147",
+  "letter": "U",
+  "name": "Ulleungdo",
+  "slug": "ulleungdo",
+  "collection": "A–Z Islands II",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Sea of Japan / East Sea",
+  "reference": [
+    130.86059,
+    37.5006
+  ],
+  "source_id": "geonames:1833754",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sea of Japan / East Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2f325c",
+        "#585e93",
+        "#9197c0",
+        "#cccfe5"
+      ],
+      "#8b5c40",
+      "Indigo Iolite II"
+    ],
+    "S": [
+      [
+        "#38323f",
+        "#6d5865",
+        "#ab8e94",
+        "#e4c8be"
+      ],
+      "#dfad3a",
+      "Plum Basalt II"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Earth II North",
+    "S": "Saffron Dust II South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Purple"
+  },
+  "largest_settlement": "Dodong-ri",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 241,
+  "area_km2": 75.86267774913057,
+  "gshhg_area_km2": 75.86267774913057,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Dodong-ri",
+    "country": "KR",
+    "lon": 130.90434,
+    "lat": 37.49505,
+    "population": 9169,
+    "source": "https://www.geonames.org/13286589"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

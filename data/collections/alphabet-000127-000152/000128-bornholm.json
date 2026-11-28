@@ -1,0 +1,69 @@
+{
+  "id": "000128",
+  "letter": "B",
+  "name": "Bornholm",
+  "slug": "bornholm",
+  "collection": "A–Z Islands II",
+  "country_code": "DK",
+  "country": "Denmark",
+  "region": "Baltic Sea",
+  "reference": [
+    14.91394,
+    55.12551
+  ],
+  "source_id": "geonames:2623664",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1f4642",
+        "#4a746d",
+        "#7ea398",
+        "#b7cebc"
+      ],
+      "#cb6b45",
+      "Patina Jade"
+    ],
+    "S": [
+      [
+        "#282b55",
+        "#51578c",
+        "#8a90b9",
+        "#c5c8de"
+      ],
+      "#845539",
+      "Indigo Iolite"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Apricot North",
+    "S": "Ochre Earth South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Rønne",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 523,
+  "area_km2": 600.0212341123155,
+  "gshhg_area_km2": 600.0212341123155,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Rønne",
+    "country": "DK",
+    "lon": 14.70664,
+    "lat": 55.10091,
+    "population": 13807,
+    "source": "https://www.geonames.org/2614553"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

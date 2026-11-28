@@ -1,0 +1,62 @@
+{
+  "id": "000135",
+  "letter": "I",
+  "name": "Iona",
+  "slug": "iona",
+  "collection": "A–Z Islands II",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides",
+  "reference": [
+    -6.41667,
+    56.31667
+  ],
+  "source_id": "geonames:2646069",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2e4b5d",
+        "#55808f",
+        "#8bacb2",
+        "#c6d4cd"
+      ],
+      "#28231f",
+      "Slate Larimar"
+    ],
+    "S": [
+      [
+        "#214844",
+        "#4c766f",
+        "#80a59a",
+        "#b9d0be"
+      ],
+      "#cd6d47",
+      "Patina Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Charcoal Umber North",
+    "S": "Burnt Apricot South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 89,
+  "area_km2": 8.973124051088668,
+  "gshhg_area_km2": 8.973124051088668,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

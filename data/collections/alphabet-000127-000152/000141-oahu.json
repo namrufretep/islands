@@ -1,0 +1,69 @@
+{
+  "id": "000141",
+  "letter": "O",
+  "name": "O‘ahu",
+  "slug": "oahu",
+  "collection": "A–Z Islands II",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Hawaiian Islands",
+  "reference": [
+    -157.96667,
+    21.43333
+  ],
+  "source_id": "geonames:5851609",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#284f4b",
+        "#537d76",
+        "#87aca1",
+        "#c0d7c5"
+      ],
+      "#d4744e",
+      "Patina Jade II"
+    ],
+    "S": [
+      [
+        "#31345e",
+        "#5a6095",
+        "#9399c2",
+        "#ced1e7"
+      ],
+      "#8d5e42",
+      "Indigo Iolite II"
+    ]
+  },
+  "background_names": {
+    "N": "Burnt Apricot II North",
+    "S": "Ochre Earth II South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Honolulu",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1574,
+  "area_km2": 1572.2471185917404,
+  "gshhg_area_km2": 1572.2471185917404,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Honolulu",
+    "country": "US",
+    "lon": -157.85833,
+    "lat": 21.30694,
+    "population": 350964,
+    "source": "https://www.geonames.org/5856195"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

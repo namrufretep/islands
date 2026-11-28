@@ -1,0 +1,124 @@
+{
+  "id": "000139",
+  "letter": "M",
+  "name": "Maré",
+  "slug": "mare",
+  "collection": "A–Z Islands II",
+  "country_code": "NC",
+  "country": "New Caledonia",
+  "region": "Loyalty Islands",
+  "reference": [
+    167.98997,
+    -21.52904
+  ],
+  "source_id": "geonames:2140298",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e3d5a",
+        "#6e6a87",
+        "#a79fb0",
+        "#dbd0d1"
+      ],
+      "#d9a6a1",
+      "Dusk Fluorite"
+    ],
+    "S": [
+      [
+        "#6a332b",
+        "#a55944",
+        "#d28a6a",
+        "#efba9f"
+      ],
+      "#e0d7e4",
+      "Ember Carnelian"
+    ]
+  },
+  "background_names": {
+    "N": "Coral Chalk North",
+    "S": "Lilac Mist South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Red"
+  },
+  "largest_settlement": "Tadine",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 778,
+  "area_km2": 664.0630261370087,
+  "gshhg_area_km2": 664.0630261370087,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Tadine",
+    "country": "NC",
+    "lon": 167.88019,
+    "lat": -21.54751,
+    "population": 7492,
+    "source": "https://www.geonames.org/2138285"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -134.19496154785156,
+  "max_land_elevation_m": 131.5778045654297,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1978/1148.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1978/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1978/1150.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1979/1148.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1979/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1979/1150.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1148.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1149.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1980/1150.tif"
+  ],
+  "resolution_m": 79.94451819065466,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-21.52904 +lon_0=167.98997 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -19481.82282242545,
+    -14368.341780603467,
+    15251.988584165252,
+    20423.512535969443
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 19.986129547663666,
+  "artwork_print_scale_denominator": 236056.64820075195,
+  "color_mood": "Ember Carnelian",
+  "background": "#e0d7e4",
+  "background_name": "Lilac Mist South",
+  "color_family": "Red",
+  "palette": [
+    "#6a332b",
+    "#a55944",
+    "#d28a6a",
+    "#efba9f"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "2ed16b788d09ba8b5a3f87db2753d570a1e7b9668698cccee4f98d9a638316d2",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation."
+}

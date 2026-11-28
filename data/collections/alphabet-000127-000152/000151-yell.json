@@ -1,0 +1,62 @@
+{
+  "id": "000151",
+  "letter": "Y",
+  "name": "Yell",
+  "slug": "yell",
+  "collection": "A–Z Islands II",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Shetland Islands",
+  "reference": [
+    -1.1,
+    60.6
+  ],
+  "source_id": "geonames:2633387",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5b5650",
+        "#988d80",
+        "#c8beaa",
+        "#f6efdd"
+      ],
+      "#293134",
+      "Fossil Dolomite II"
+    ],
+    "S": [
+      [
+        "#323839",
+        "#535958",
+        "#7f857e",
+        "#b5b9ab"
+      ],
+      "#1f282d",
+      "Graphite Serpentine II"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide II North",
+    "S": "Petrol Black II South"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Gray"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 852,
+  "area_km2": 221.34602631909394,
+  "gshhg_area_km2": 221.34602631909394,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

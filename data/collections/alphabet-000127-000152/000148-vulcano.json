@@ -1,0 +1,62 @@
+{
+  "id": "000148",
+  "letter": "V",
+  "name": "Vulcano",
+  "slug": "vulcano",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Aeolian Islands",
+  "reference": [
+    14.97453,
+    38.39332
+  ],
+  "source_id": "geonames:2522705",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#375466",
+        "#5e8998",
+        "#94b5bb",
+        "#cfddd6"
+      ],
+      "#312c28",
+      "Slate Larimar II"
+    ],
+    "S": [
+      [
+        "#2a514d",
+        "#557f78",
+        "#89aea3",
+        "#c2d9c7"
+      ],
+      "#d67650",
+      "Patina Jade II"
+    ]
+  },
+  "background_names": {
+    "N": "Charcoal Umber II North",
+    "S": "Burnt Apricot II South"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 183,
+  "area_km2": 23.20263319714143,
+  "gshhg_area_km2": 23.20263319714143,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

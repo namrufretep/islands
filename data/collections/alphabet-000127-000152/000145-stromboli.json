@@ -1,0 +1,69 @@
+{
+  "id": "000145",
+  "letter": "S",
+  "name": "Stromboli",
+  "slug": "stromboli",
+  "collection": "A–Z Islands II",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Aeolian Islands",
+  "reference": [
+    15.21533,
+    38.79357
+  ],
+  "source_id": "geonames:2522991",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#713a32",
+        "#ac604b",
+        "#d99171",
+        "#f6c1a6"
+      ],
+      "#e7deeb",
+      "Ember Carnelian II"
+    ],
+    "S": [
+      [
+        "#5d5852",
+        "#9a8f82",
+        "#cac0ac",
+        "#f8f1df"
+      ],
+      "#2b3336",
+      "Fossil Dolomite II"
+    ]
+  },
+  "background_names": {
+    "N": "Lilac Mist II North",
+    "S": "Coal Tide II South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "White"
+  },
+  "largest_settlement": "Stromboli",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 87,
+  "area_km2": 13.064422458012894,
+  "gshhg_area_km2": 13.064422458012894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Stromboli",
+    "country": "IT",
+    "lon": 15.23812,
+    "lat": 38.80303,
+    "population": 639,
+    "source": "https://www.geonames.org/6691846"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "000140",
+  "letter": "N",
+  "name": "Naxos",
+  "slug": "naxos",
+  "collection": "A–Z Islands II",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    25.48616,
+    37.07257
+  ],
+  "source_id": "geonames:256631",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Mediterranean Sea",
+  "palettes": {
+    "N": [
+      [
+        "#36303d",
+        "#6b5663",
+        "#a98c92",
+        "#e2c6bc"
+      ],
+      "#ddab38",
+      "Plum Basalt II"
+    ],
+    "S": [
+      [
+        "#635927",
+        "#988a46",
+        "#caba7f",
+        "#f6e8bb"
+      ],
+      "#f8f2da",
+      "Honey Calcite II"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Dust II North",
+    "S": "Warm Ivory II South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Náxos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 726,
+  "area_km2": 439.2304954408403,
+  "gshhg_area_km2": 439.2304954408403,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Náxos",
+    "country": "GR",
+    "lon": 25.37639,
+    "lat": 37.10556,
+    "population": 7070,
+    "source": "https://www.geonames.org/256632"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}

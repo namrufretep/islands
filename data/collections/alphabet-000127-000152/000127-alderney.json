@@ -1,0 +1,69 @@
+{
+  "id": "000127",
+  "letter": "A",
+  "name": "Alderney",
+  "slug": "alderney",
+  "collection": "A–Z Islands II",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.19816,
+    49.71582
+  ],
+  "source_id": "geonames:3042422",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2d2734",
+        "#624d5a",
+        "#a08389",
+        "#d9bdb3"
+      ],
+      "#d4a22f",
+      "Plum Basalt"
+    ],
+    "S": [
+      [
+        "#5a501e",
+        "#8f813d",
+        "#c1b176",
+        "#eddfb2"
+      ],
+      "#efe9d1",
+      "Honey Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Saffron Dust North",
+    "S": "Warm Ivory South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Yellow"
+  },
+  "largest_settlement": "St Anne",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 114,
+  "area_km2": 8.977705269240621,
+  "gshhg_area_km2": 8.977705269240621,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "St Anne",
+    "country": "GG",
+    "lon": -2.20757,
+    "lat": 49.71549,
+    "population": 0,
+    "source": "https://www.geonames.org/3042289"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive."
+}
