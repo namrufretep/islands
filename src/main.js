@@ -200,8 +200,18 @@ function islandDetails(name,record=registry.find(r=>r[0]===name)){
  };
  enrich();return details;
 }
-const worldMap=L.map('worldMap',{worldCopyJump:true,minZoom:1,maxZoom:18}).setView([10,5],1);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(worldMap);
+const atlasBounds=L.latLngBounds([[-85.0511287798,-180],[85.0511287798,180]]);
+const worldMap=L.map('worldMap',{maxBounds:atlasBounds,maxBoundsViscosity:1,minZoom:1,maxZoom:18,zoomSnap:.25}).setView([10,5],1);
+function fitAtlasViewport(){
+ const size=worldMap.getSize();if(!size.x||!size.y)return;
+ const world=worldMap.getPixelWorldBounds(0).getSize();
+ // Keep the viewport inside the tile world, including on tall phones and after resizing.
+ const zoom=Math.ceil(Math.log2(Math.max(size.x/world.x,size.y/world.y))*4)/4;
+ worldMap.setMinZoom(Math.max(1,zoom));
+ worldMap.panInsideBounds(atlasBounds,{animate:false});
+}
+worldMap.on('resize',fitAtlasViewport);fitAtlasViewport();
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{noWrap:true,maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(worldMap);
 const islandMarkers=L.layerGroup().addTo(worldMap);
 function mapRows(){
  const q=$('atlasSearch').value.toLowerCase().trim(),filter=$('atlasFilter').value;
