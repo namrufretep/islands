@@ -1,0 +1,194 @@
+{
+  "id": "000262",
+  "letter": "F",
+  "name": "Flinders Island",
+  "slug": "flinders-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "Furneaux Group",
+  "reference": [
+    148.03333,
+    -40.01667
+  ],
+  "source_id": "geonames:2166445",
+  "source_name": "Flinders Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bass Strait",
+  "ocean": "Southern Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae865c",
+        "#6c8ac0",
+        "#8faada",
+        "#e4b07c",
+        "#97d44a",
+        "#b3dd8c",
+        "#afc7e5",
+        "#d1a06d",
+        "#bbdb90"
+      ],
+      "#277939",
+      "Tangerine / Cobalt / Acid Lime"
+    ],
+    "S": [
+      [
+        "#532716",
+        "#ad592c",
+        "#de63a9",
+        "#4fe739",
+        "#ac086c",
+        "#e33ca1",
+        "#8cf583",
+        "#e38a61",
+        "#2cad23",
+        "#f0bea9"
+      ],
+      "#4d8ae9",
+      "Tangerine / Fuchsia / Leaf"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 011",
+    "S": "Chromatic 012"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Electric Contrast",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 263.254,
+    "phase": 4.6269,
+    "centre_x": 0.3098,
+    "centre_y": -0.4237,
+    "hue_families": [
+      "Tangerine",
+      "Fuchsia",
+      "Leaf"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "name_note": "Furneaux Group, Tasmania; not the same-named islands in South Australia or Queensland.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1817,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1346.815324844952,
+  "gshhg_area_km2": 1346.815324844952,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -97.5398941040039,
+  "max_land_elevation_m": 741.8603515625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/931/635.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/931/636.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/931/637.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/932/635.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/932/636.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/932/637.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/933/635.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/933/636.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/933/637.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/934/635.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/934/636.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/934/637.tif"
+  ],
+  "resolution_m": 142.03787341885862,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-40.01667 +lon_0=148.03333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -24413.68596839975,
+    -28829.868491535555,
+    25719.149683382057,
+    32985.01402035172
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 35.509468354714656,
+  "artwork_print_scale_denominator": 419403.1695438739,
+  "color_mood": "Tangerine / Fuchsia / Leaf",
+  "background": "#4d8ae9",
+  "background_name": "Chromatic 012",
+  "color_family": "Multicolor",
+  "palette": [
+    "#532716",
+    "#ad592c",
+    "#de63a9",
+    "#4fe739",
+    "#ac086c",
+    "#e33ca1",
+    "#8cf583",
+    "#e38a61",
+    "#2cad23",
+    "#f0bea9"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "8ace549dcefbe91524bdf92f17c85f61a3b1fe05debbbfb3aec407f0df9bdb2c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

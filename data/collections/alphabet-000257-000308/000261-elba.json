@@ -1,0 +1,125 @@
+{
+  "id": "000261",
+  "letter": "E",
+  "name": "Elba",
+  "slug": "elba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Tuscan Archipelago",
+  "reference": [
+    10.27788,
+    42.77663
+  ],
+  "source_id": "geonames:3177426",
+  "source_name": "Isola d'Elba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#42592f",
+        "#6a963e",
+        "#b56d60",
+        "#b3250b",
+        "#497f99",
+        "#75aec9",
+        "#95b574"
+      ],
+      "#521713",
+      "Acid Lime / Vermilion / Ice Blue"
+    ],
+    "S": [
+      [
+        "#6b123e",
+        "#c7116e",
+        "#2155e3",
+        "#183a8f",
+        "#35b91e",
+        "#51f332",
+        "#2d5bcd",
+        "#e15894"
+      ],
+      "#e5b5bc",
+      "Fuchsia / Cobalt / Leaf"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 009",
+    "S": "Chromatic 010"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Portoferraio",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 203.794,
+      "phase": 6.2011,
+      "centre_x": 0.596,
+      "centre_y": 0.3912,
+      "hue_families": [
+        "Acid Lime",
+        "Vermilion",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "halo",
+      "field_angle_degrees": 195.948,
+      "phase": 0.1866,
+      "centre_x": -0.6406,
+      "centre_y": 0.6305,
+      "hue_families": [
+        "Fuchsia",
+        "Cobalt",
+        "Leaf"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 749,
+  "antimeridian_split_parts": 1,
+  "area_km2": 233.99778947813894,
+  "gshhg_area_km2": 233.99778947813894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Portoferraio",
+    "country": "IT",
+    "lon": 10.31297,
+    "lat": 42.81233,
+    "population": 8296,
+    "source": "https://www.geonames.org/3170094"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

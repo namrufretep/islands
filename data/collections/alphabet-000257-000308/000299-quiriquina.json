@@ -1,0 +1,118 @@
+{
+  "id": "000299",
+  "letter": "Q",
+  "name": "Quiriquina",
+  "slug": "quiriquina",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CL",
+  "country": "Chile",
+  "region": "Biobío",
+  "reference": [
+    -73.06031,
+    -36.62575
+  ],
+  "source_id": "geonames:3873953",
+  "source_name": "Isla Quiriquina",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#084f65",
+        "#17aad1",
+        "#d67046",
+        "#c64306",
+        "#6630c0",
+        "#a172f8",
+        "#5ac8e9"
+      ],
+      "#250708",
+      "Ice Blue / Tangerine / Violet"
+    ],
+    "S": [
+      [
+        "#0e0f32",
+        "#20224d",
+        "#712e19",
+        "#422118",
+        "#c940fb",
+        "#db57fc",
+        "#5e2b1c",
+        "#232778"
+      ],
+      "#7620cf",
+      "Ultramarine / Tangerine / Orchid"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 085",
+    "S": "Chromatic 086"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "confluence",
+      "field_angle_degrees": 215.666,
+      "phase": 0.9024,
+      "centre_x": -0.5847,
+      "centre_y": 0.1083,
+      "hue_families": [
+        "Ice Blue",
+        "Tangerine",
+        "Violet"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 50.154,
+      "phase": 3.0616,
+      "centre_x": -0.5243,
+      "centre_y": 0.5885,
+      "hue_families": [
+        "Ultramarine",
+        "Tangerine",
+        "Orchid"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 79,
+  "antimeridian_split_parts": 1,
+  "area_km2": 5.037901381717302,
+  "gshhg_area_km2": 5.037901381717302,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

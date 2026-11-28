@@ -1,0 +1,190 @@
+{
+  "id": "000285",
+  "letter": "C",
+  "name": "Cozumel",
+  "slug": "cozumel",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "MX",
+  "country": "Mexico",
+  "region": "Quintana Roo",
+  "reference": [
+    -86.90048,
+    20.46152
+  ],
+  "source_id": "geonames:3530102",
+  "source_name": "Isla Cozumel",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#056159",
+        "#1fc4b4",
+        "#bcd749",
+        "#90b30b",
+        "#b51eda",
+        "#de7ef7",
+        "#4ef7d5"
+      ],
+      "#474e12",
+      "Turquoise / Citron / Orchid"
+    ],
+    "S": [
+      [
+        "#441432",
+        "#5e1b40",
+        "#6d5e2c",
+        "#473c1b",
+        "#417afb",
+        "#5b90fc",
+        "#63542e",
+        "#722d50"
+      ],
+      "#e7bacd",
+      "Fuchsia / Amber / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 057",
+    "S": "Chromatic 058"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Cozumel",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Electric Contrast",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 333.894,
+    "phase": 5.9204,
+    "centre_x": -0.1631,
+    "centre_y": 0.0037,
+    "hue_families": [
+      "Turquoise",
+      "Citron",
+      "Orchid"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 826,
+  "antimeridian_split_parts": 1,
+  "area_km2": 505.15020507824903,
+  "gshhg_area_km2": 505.15020507824903,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Cozumel",
+    "country": "MX",
+    "lon": -86.94272,
+    "lat": 20.50038,
+    "population": 77236,
+    "source": "https://www.geonames.org/3530103"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -193.10531616210938,
+  "max_land_elevation_m": 35.050575256347656,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/528/904.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/528/905.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/528/906.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/529/904.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/529/905.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/529/906.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/530/904.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/530/905.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/530/906.tif"
+  ],
+  "resolution_m": 85.01577941574861,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=20.46152 +lon_0=-86.90048 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13522.74429506514,
+    -21480.092622742497,
+    18123.239582189846,
+    15518.774578991299
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 21.253944853937153,
+  "artwork_print_scale_denominator": 251030.84473154118,
+  "color_mood": "Turquoise / Citron / Orchid",
+  "background": "#474e12",
+  "background_name": "Chromatic 057",
+  "color_family": "Multicolor",
+  "palette": [
+    "#056159",
+    "#1fc4b4",
+    "#bcd749",
+    "#90b30b",
+    "#b51eda",
+    "#de7ef7",
+    "#4ef7d5"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "282b8c918719ff19621aa93b00d7e62fe19a4a95e36b1619af474f77ad1ff3cb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

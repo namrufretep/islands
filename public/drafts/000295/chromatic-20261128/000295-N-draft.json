@@ -1,0 +1,197 @@
+{
+  "id": "000295",
+  "letter": "M",
+  "name": "Martinique",
+  "slug": "martinique",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "MQ",
+  "country": "Martinique",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.00416,
+    14.66281
+  ],
+  "source_id": "geonames:3570312",
+  "source_name": "Martinique",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5d066c",
+        "#ac10b8",
+        "#2abfbf",
+        "#1c918e",
+        "#0c40c6",
+        "#416fdd",
+        "#c925db"
+      ],
+      "#736025",
+      "Orchid / Turquoise / Cobalt"
+    ],
+    "S": [
+      [
+        "#62276a",
+        "#a83cb5",
+        "#4075f5",
+        "#384f8a",
+        "#a5b23b",
+        "#c5d46b",
+        "#234df3",
+        "#cb8bd0"
+      ],
+      "#41e78e",
+      "Orchid / Cobalt / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 077",
+    "S": "Chromatic 078"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Fort-de-France",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Jewel Colour",
+    "field_mode": "confluence",
+    "field_angle_degrees": 2.907,
+    "phase": 3.1975,
+    "centre_x": -0.4067,
+    "centre_y": -0.5615,
+    "hue_families": [
+      "Orchid",
+      "Turquoise",
+      "Cobalt"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2054,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1136.5154949421442,
+  "gshhg_area_km2": 1136.5154949421442,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fort-de-France",
+    "country": "MQ",
+    "lon": -61.07418,
+    "lat": 14.60365,
+    "population": 89995,
+    "source": "https://www.geonames.org/3570675"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -155.83172607421875,
+  "max_land_elevation_m": 1363.9898681640625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/939.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/940.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/675/941.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/939.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/940.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/676/941.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/939.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/940.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/941.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/938.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/939.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/940.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/941.tif"
+  ],
+  "resolution_m": 123.57831546968902,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=14.66281 +lon_0=-61.00416 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -24871.44505604234,
+    -30097.932391326343,
+    20301.99167209178,
+    23683.350501082314
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 30.894578867422254,
+  "artwork_print_scale_denominator": 364896.60079632583,
+  "color_mood": "Orchid / Turquoise / Cobalt",
+  "background": "#736025",
+  "background_name": "Chromatic 077",
+  "color_family": "Multicolor",
+  "palette": [
+    "#5d066c",
+    "#ac10b8",
+    "#2abfbf",
+    "#1c918e",
+    "#0c40c6",
+    "#416fdd",
+    "#c925db"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e62dbbc8be0daf04802858673da750d3e105e6c610f13a31e8dd757f00770c63",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

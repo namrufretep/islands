@@ -1,0 +1,129 @@
+{
+  "id": "000284",
+  "letter": "B",
+  "name": "Bintan",
+  "slug": "bintan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Riau Islands",
+  "reference": [
+    104.525,
+    1.1
+  ],
+  "source_id": "geonames:1648710",
+  "source_name": "Pulau Bintan",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#443111",
+        "#184a1a",
+        "#256828",
+        "#6a4e26",
+        "#30bafb",
+        "#4bbefb",
+        "#307430",
+        "#4e3f23",
+        "#1a5879"
+      ],
+      "#0a2136",
+      "Amber / Leaf / Ice Blue"
+    ],
+    "S": [
+      [
+        "#152851",
+        "#124097",
+        "#c7145c",
+        "#965938",
+        "#6b183d",
+        "#952057",
+        "#cd6631",
+        "#4065aa",
+        "#943610",
+        "#3f68d2"
+      ],
+      "#571fc9",
+      "Cobalt / Fuchsia / Tangerine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 055",
+    "S": "Chromatic 056"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Tanjung Pinang",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "halo",
+      "field_angle_degrees": 83.919,
+      "phase": 2.6098,
+      "centre_x": 0.1862,
+      "centre_y": -0.6436,
+      "hue_families": [
+        "Amber",
+        "Leaf",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "confluence",
+      "field_angle_degrees": 300.995,
+      "phase": 4.3961,
+      "centre_x": -0.5023,
+      "centre_y": -0.5932,
+      "hue_families": [
+        "Cobalt",
+        "Fuchsia",
+        "Tangerine"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1454,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1214.214547101644,
+  "gshhg_area_km2": 1214.214547101644,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Tanjung Pinang",
+    "country": "ID",
+    "lon": 104.45833,
+    "lat": 0.91667,
+    "population": 227663,
+    "source": "https://www.geonames.org/1624863"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,127 @@
+{
+  "id": "000280",
+  "letter": "X",
+  "name": "Xiji Yu",
+  "slug": "xiji-yu",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Penghu Islands",
+  "reference": [
+    119.60709025,
+    23.252486
+  ],
+  "source_id": "geonames:1675385",
+  "source_name": "Xiji Yu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#652c6e",
+        "#b13429",
+        "#f55641",
+        "#c74dca",
+        "#2b6383",
+        "#4797cc",
+        "#dd8e81",
+        "#c90bd0",
+        "#67a3c4"
+      ],
+      "#727225",
+      "Orchid / Vermilion / Ice Blue"
+    ],
+    "S": [
+      [
+        "#592962",
+        "#824487",
+        "#b1a06f",
+        "#539ead",
+        "#83733f",
+        "#eaac0f",
+        "#7cbccd",
+        "#b85fc4",
+        "#3a7e8a",
+        "#bf80cb"
+      ],
+      "#3ae75f",
+      "Orchid / Amber / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 047",
+    "S": "Chromatic 048"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "halo",
+      "field_angle_degrees": 150.119,
+      "phase": 2.6148,
+      "centre_x": 0.2565,
+      "centre_y": 0.2527,
+      "hue_families": [
+        "Orchid",
+        "Vermilion",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "confluence",
+      "field_angle_degrees": 203.74,
+      "phase": 5.8693,
+      "centre_x": -0.1379,
+      "centre_y": -0.1903,
+      "hue_families": [
+        "Orchid",
+        "Amber",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "gazetteer_reference": [
+    119.61556,
+    23.24917
+  ],
+  "reference_note": "Gazetteer point lies about 110 m outside the GSHHG shoreline; use the representative interior point of the nearest physical island polygon (about 1 km²). Original gazetteer coordinates retained.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 19,
+  "antimeridian_split_parts": 1,
+  "area_km2": 0.9994424220457487,
+  "gshhg_area_km2": 0.9994424220457487,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

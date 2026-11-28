@@ -1,0 +1,184 @@
+{
+  "id": "000266",
+  "letter": "J",
+  "name": "Juan de Nova",
+  "slug": "juan-de-nova",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "TF",
+  "country": "French Southern Territories",
+  "region": "Scattered Islands",
+  "reference": [
+    42.7248,
+    -17.05449
+  ],
+  "source_id": "geonames:1024028",
+  "source_name": "Île Juan de Nova",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#622726",
+        "#6f9e31",
+        "#9ef540",
+        "#be4b4b",
+        "#6b2686",
+        "#a53dc6",
+        "#a7ce81",
+        "#ca0b11",
+        "#b265c6"
+      ],
+      "#082a1f",
+      "Vermilion / Acid Lime / Orchid"
+    ],
+    "S": [
+      [
+        "#59302b",
+        "#8b4641",
+        "#9353c2",
+        "#b2b059",
+        "#5a3b73",
+        "#790ee1",
+        "#bcbf80",
+        "#bd6d65",
+        "#858442",
+        "#ca9690"
+      ],
+      "#c78e1f",
+      "Vermilion / Violet / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 019",
+    "S": "Chromatic 020"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 238.848,
+    "phase": 4.5631,
+    "centre_x": 0.2385,
+    "centre_y": -0.5722,
+    "hue_families": [
+      "Vermilion",
+      "Acid Lime",
+      "Orchid"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 75,
+  "antimeridian_split_parts": 1,
+  "area_km2": 6.146128661647512,
+  "gshhg_area_km2": 6.146128661647512,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -29.241910934448242,
+  "max_land_elevation_m": 33.298072814941406,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2533/2244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2533/2245.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2534/2244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2534/2245.tif"
+  ],
+  "resolution_m": 13.249853895150068,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-17.05449 +lon_0=42.7248 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3305.521214751374,
+    -1581.2546861631786,
+    2460.8152004179356,
+    727.2166327499133
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.312463473787517,
+  "artwork_print_scale_denominator": 39123.584336073036,
+  "color_mood": "Vermilion / Acid Lime / Orchid",
+  "background": "#082a1f",
+  "background_name": "Chromatic 019",
+  "color_family": "Multicolor",
+  "palette": [
+    "#622726",
+    "#6f9e31",
+    "#9ef540",
+    "#be4b4b",
+    "#6b2686",
+    "#a53dc6",
+    "#a7ce81",
+    "#ca0b11",
+    "#b265c6"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "bc66f2a8627922806ad8695d1fe536c1cc502a330e305b6f01910d09564e2347",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

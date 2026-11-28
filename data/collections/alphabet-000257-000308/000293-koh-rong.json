@@ -1,0 +1,118 @@
+{
+  "id": "000293",
+  "letter": "K",
+  "name": "Koh Rong",
+  "slug": "koh-rong",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "KH",
+  "country": "Cambodia",
+  "region": "Gulf of Thailand",
+  "reference": [
+    103.24351,
+    10.72218
+  ],
+  "source_id": "geonames:1822396",
+  "source_name": "Koh Rong",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Thailand",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4a171b",
+        "#831b1d",
+        "#849a2b",
+        "#6f7e1f",
+        "#119895",
+        "#2ac9ce",
+        "#a82f2c"
+      ],
+      "#0a3637",
+      "Vermilion / Citron / Turquoise"
+    ],
+    "S": [
+      [
+        "#414682",
+        "#343ef1",
+        "#8cb8a2",
+        "#4f9770",
+        "#9e917d",
+        "#c5bba4",
+        "#4ff3aa",
+        "#aaadd2"
+      ],
+      "#9e21d3",
+      "Ultramarine / Emerald / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 073",
+    "S": "Chromatic 074"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 238.833,
+      "phase": 1.3986,
+      "centre_x": -0.5041,
+      "centre_y": -0.0999,
+      "hue_families": [
+        "Vermilion",
+        "Citron",
+        "Turquoise"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Mist and Fluorescence",
+      "field_mode": "halo",
+      "field_angle_degrees": 318.621,
+      "phase": 3.0389,
+      "centre_x": -0.153,
+      "centre_y": -0.1968,
+      "hue_families": [
+        "Ultramarine",
+        "Emerald",
+        "Amber"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 346,
+  "antimeridian_split_parts": 1,
+  "area_km2": 81.79606295047866,
+  "gshhg_area_km2": 81.79606295047866,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

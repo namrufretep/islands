@@ -1,0 +1,122 @@
+{
+  "id": "000260",
+  "letter": "D",
+  "name": "Dassen Island",
+  "slug": "dassen-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ZA",
+  "country": "South Africa",
+  "region": "Western Cape",
+  "reference": [
+    18.08755,
+    -33.42459
+  ],
+  "source_id": "geonames:3368950",
+  "source_name": "Dasseneiland",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2b0d78",
+        "#1e719a",
+        "#229ff2",
+        "#5510e7",
+        "#088b4a",
+        "#11d580",
+        "#4da5d9",
+        "#4210a6",
+        "#45d88e"
+      ],
+      "#222c08",
+      "Violet / Ice Blue / Emerald"
+    ],
+    "S": [
+      [
+        "#2b5c27",
+        "#4d8845",
+        "#f43e37",
+        "#b59a59",
+        "#7b3a35",
+        "#bf4e47",
+        "#d7c671",
+        "#6fc95f",
+        "#bc9e0a",
+        "#81d87a"
+      ],
+      "#21d3b0",
+      "Leaf / Vermilion / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 007",
+    "S": "Chromatic 008"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "halo",
+      "field_angle_degrees": 251.138,
+      "phase": 4.3313,
+      "centre_x": -0.3106,
+      "centre_y": 0.2703,
+      "hue_families": [
+        "Violet",
+        "Ice Blue",
+        "Emerald"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "confluence",
+      "field_angle_degrees": 271.247,
+      "phase": 5.2564,
+      "centre_x": -0.4555,
+      "centre_y": 0.3905,
+      "hue_families": [
+        "Leaf",
+        "Vermilion",
+        "Amber"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 66,
+  "antimeridian_split_parts": 1,
+  "area_km2": 2.983962461437611,
+  "gshhg_area_km2": 2.983962461437611,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,204 @@
+{
+  "id": "000288",
+  "letter": "F",
+  "name": "Flores (Indonesia)",
+  "slug": "flores-indonesia",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    121.12899,
+    -8.62354
+  ],
+  "source_id": "geonames:9062332",
+  "source_name": "Flores",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Flores Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#73260c",
+        "#b31051",
+        "#dc3479",
+        "#c25f27",
+        "#0d8481",
+        "#2bccbc",
+        "#dd5193",
+        "#b23e12",
+        "#2ee7e7"
+      ],
+      "#38124e",
+      "Tangerine / Fuchsia / Turquoise"
+    ],
+    "S": [
+      [
+        "#681d73",
+        "#92429d",
+        "#f5af3a",
+        "#5775af",
+        "#926b2c",
+        "#c79138",
+        "#6998d9",
+        "#be58ca",
+        "#0a58c3",
+        "#cb7ad4"
+      ],
+      "#e7b9e1",
+      "Orchid / Amber / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 063",
+    "S": "Chromatic 064"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Labuan Bajo",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "confluence",
+    "field_angle_degrees": 175.571,
+    "phase": 4.8809,
+    "centre_x": 0.5917,
+    "centre_y": 0.0849,
+    "hue_families": [
+      "Orchid",
+      "Amber",
+      "Cobalt"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 7260,
+  "antimeridian_split_parts": 1,
+  "area_km2": 14121.415561927271,
+  "gshhg_area_km2": 14121.415561927271,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Labuan Bajo",
+    "country": "ID",
+    "lon": 119.8877,
+    "lat": -8.4964,
+    "population": 188724,
+    "source": "https://www.geonames.org/1638868"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1104.7110595703125,
+  "max_land_elevation_m": 2090.133056640625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/212/132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/212/133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/212/134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/212/135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/213/132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/213/133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/213/134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/213/135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/214/132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/214/133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/214/134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/214/135.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/215/132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/215/133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/215/134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/215/135.tif"
+  ],
+  "resolution_m": 816.5229729308693,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-8.62354 +lon_0=121.12899 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -146445.41078497595,
+    -37267.67153071993,
+    208905.38703453838,
+    60929.53253746314
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 204.13074323271732,
+  "artwork_print_scale_denominator": 2410993.030307685,
+  "color_mood": "Orchid / Amber / Cobalt",
+  "background": "#e7b9e1",
+  "background_name": "Chromatic 064",
+  "color_family": "Multicolor",
+  "palette": [
+    "#681d73",
+    "#92429d",
+    "#f5af3a",
+    "#5775af",
+    "#926b2c",
+    "#c79138",
+    "#6998d9",
+    "#be58ca",
+    "#0a58c3",
+    "#cb7ad4"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "3c24eddee341ff796759454553880ac0be8ce5cff37541a84aa851518db2f75a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

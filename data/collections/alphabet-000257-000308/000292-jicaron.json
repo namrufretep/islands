@@ -1,0 +1,122 @@
+{
+  "id": "000292",
+  "letter": "J",
+  "name": "Jicarón",
+  "slug": "jicaron",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "PA",
+  "country": "Panama",
+  "region": "Coiba National Park",
+  "reference": [
+    -81.8,
+    7.27056
+  ],
+  "source_id": "geonames:3708386",
+  "source_name": "Isla Jicarón",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Chiriquí",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#733611",
+        "#ca0a76",
+        "#ea71c1",
+        "#e58e3e",
+        "#778b14",
+        "#c5d45b",
+        "#f4a2d1",
+        "#d76611",
+        "#d4ed6c"
+      ],
+      "#25713c",
+      "Tangerine / Fuchsia / Citron"
+    ],
+    "S": [
+      [
+        "#103842",
+        "#204954",
+        "#6b3924",
+        "#575921",
+        "#4d2818",
+        "#fc865a",
+        "#f0fc6c",
+        "#1d6173",
+        "#3f431b",
+        "#32687b"
+      ],
+      "#e88f45",
+      "Ice Blue / Tangerine / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 071",
+    "S": "Chromatic 072"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "halo",
+      "field_angle_degrees": 347.362,
+      "phase": 1.3838,
+      "centre_x": -0.237,
+      "centre_y": 0.5095,
+      "hue_families": [
+        "Tangerine",
+        "Fuchsia",
+        "Citron"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "confluence",
+      "field_angle_degrees": 168.232,
+      "phase": 2.3301,
+      "centre_x": -0.1343,
+      "centre_y": -0.1957,
+      "hue_families": [
+        "Ice Blue",
+        "Tangerine",
+        "Citron"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 173,
+  "antimeridian_split_parts": 1,
+  "area_km2": 22.11927949760244,
+  "gshhg_area_km2": 22.11927949760244,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

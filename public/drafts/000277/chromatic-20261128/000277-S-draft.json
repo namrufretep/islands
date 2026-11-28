@@ -1,0 +1,178 @@
+{
+  "id": "000277",
+  "letter": "U",
+  "name": "Udo",
+  "slug": "udo",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Jeju Islands",
+  "reference": [
+    126.95472,
+    33.505
+  ],
+  "source_id": "geonames:1833833",
+  "source_name": "U-do",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Korea Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#143240",
+        "#184351",
+        "#262957",
+        "#3840fb",
+        "#fb4599",
+        "#672a46",
+        "#2b5668"
+      ],
+      "#712568",
+      "Ice Blue / Ultramarine / Fuchsia"
+    ],
+    "S": [
+      [
+        "#54561c",
+        "#8fa11c",
+        "#c22d24",
+        "#7b2d22",
+        "#243a83",
+        "#1c52de",
+        "#b42817",
+        "#b6ba3f"
+      ],
+      "#9241e8",
+      "Citron / Vermilion / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 041",
+    "S": "Chromatic 042"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "halo",
+    "field_angle_degrees": 104.007,
+    "phase": 0.9557,
+    "centre_x": 0.2361,
+    "centre_y": 0.0002,
+    "hue_families": [
+      "Citron",
+      "Vermilion",
+      "Cobalt"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "name_note": "Udo east of Jeju, not the same-named islands elsewhere in South Korea.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 87,
+  "antimeridian_split_parts": 1,
+  "area_km2": 7.001644874369366,
+  "gshhg_area_km2": 7.001644874369366,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -17.0,
+  "max_land_elevation_m": 118.52190399169922,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3492/1642.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3492/1643.tif"
+  ],
+  "resolution_m": 9.146509541060043,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=33.505 +lon_0=126.95472 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1406.4881217879586,
+    -1716.0345964037158,
+    1383.6835172041683,
+    2264.5263558656143
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.2866273852650107,
+  "artwork_print_scale_denominator": 27007.41006218517,
+  "color_mood": "Citron / Vermilion / Cobalt",
+  "background": "#9241e8",
+  "background_name": "Chromatic 042",
+  "color_family": "Multicolor",
+  "palette": [
+    "#54561c",
+    "#8fa11c",
+    "#c22d24",
+    "#7b2d22",
+    "#243a83",
+    "#1c52de",
+    "#b42817",
+    "#b6ba3f"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -7,
+      7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5939b4f0cc568c864c1087cc58d93a8c4a14b4dbf75dde1fc0403c96f777c86d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

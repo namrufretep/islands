@@ -1,0 +1,129 @@
+{
+  "id": "000258",
+  "letter": "B",
+  "name": "Bioko",
+  "slug": "bioko",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GQ",
+  "country": "Equatorial Guinea",
+  "region": "Gulf of Guinea",
+  "reference": [
+    8.7,
+    3.5
+  ],
+  "source_id": "geonames:2309792",
+  "source_name": "Isla de Bioko",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#381863",
+        "#7e1c1d",
+        "#c72d31",
+        "#5f3197",
+        "#4a850d",
+        "#649534",
+        "#e92418",
+        "#521c8e",
+        "#76cd24"
+      ],
+      "#124c3b",
+      "Violet / Vermilion / Acid Lime"
+    ],
+    "S": [
+      [
+        "#3f6a78",
+        "#14adef",
+        "#9a9cbc",
+        "#baa87f",
+        "#62628b",
+        "#7278ab",
+        "#bdb6a6",
+        "#92bac4",
+        "#efa91a",
+        "#b1c2c6"
+      ],
+      "#bbd2e7",
+      "Ice Blue / Ultramarine / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 003",
+    "S": "Chromatic 004"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Luba",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 314.035,
+      "phase": 2.6746,
+      "centre_x": -0.6042,
+      "centre_y": 0.4566,
+      "hue_families": [
+        "Violet",
+        "Vermilion",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Mist and Fluorescence",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 352.697,
+      "phase": 2.2647,
+      "centre_x": -0.1025,
+      "centre_y": 0.1774,
+      "hue_families": [
+        "Ice Blue",
+        "Ultramarine",
+        "Amber"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1341,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1948.099032701261,
+  "gshhg_area_km2": 1948.099032701261,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Luba",
+    "country": "GQ",
+    "lon": 8.55465,
+    "lat": 3.45683,
+    "population": 8655,
+    "source": "https://www.geonames.org/2309528"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,131 @@
+{
+  "id": "000264",
+  "letter": "H",
+  "name": "Hainan",
+  "slug": "hainan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Southern China",
+  "reference": [
+    109.7,
+    19.2
+  ],
+  "source_id": "geonames:1809055",
+  "source_name": "Hainan Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#447607",
+        "#c61a76",
+        "#e970bc",
+        "#99d854",
+        "#53199a",
+        "#8439e6",
+        "#eea3cb",
+        "#79c129",
+        "#9d69f7"
+      ],
+      "#4f1323",
+      "Acid Lime / Fuchsia / Violet"
+    ],
+    "S": [
+      [
+        "#193429",
+        "#13543a",
+        "#1e216f",
+        "#3c621b",
+        "#1e1d47",
+        "#5b54fc",
+        "#9dfc58",
+        "#1c6e50",
+        "#304419",
+        "#337658"
+      ],
+      "#afe3d7",
+      "Emerald / Ultramarine / Acid Lime"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 015",
+    "S": "Chromatic 016"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Haikou",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "halo",
+      "field_angle_degrees": 308.159,
+      "phase": 4.0443,
+      "centre_x": -0.6266,
+      "centre_y": 0.5951,
+      "hue_families": [
+        "Acid Lime",
+        "Fuchsia",
+        "Violet"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "confluence",
+      "field_angle_degrees": 314.5,
+      "phase": 2.7602,
+      "centre_x": -0.2818,
+      "centre_y": -0.2622,
+      "hue_families": [
+        "Emerald",
+        "Ultramarine",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 8375,
+  "antimeridian_split_parts": 1,
+  "area_km2": 33979.3736463726,
+  "gshhg_area_km2": 33979.3736463726,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 2,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Haikou",
+    "country": "CN",
+    "lon": 110.34651,
+    "lat": 20.03421,
+    "population": 3001600,
+    "source": "https://www.geonames.org/1809078"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

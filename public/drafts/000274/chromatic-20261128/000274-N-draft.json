@@ -1,0 +1,196 @@
+{
+  "id": "000274",
+  "letter": "R",
+  "name": "Rote",
+  "slug": "rote",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    123.16667,
+    -10.75
+  ],
+  "source_id": "geonames:2056960",
+  "source_name": "Pulau Roti",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Savu Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6a340b",
+        "#13809a",
+        "#1eb4e5",
+        "#cc682b",
+        "#1a8b22",
+        "#1bc427",
+        "#45b5e3",
+        "#b45615",
+        "#1fec30"
+      ],
+      "#246f2e",
+      "Tangerine / Ice Blue / Leaf"
+    ],
+    "S": [
+      [
+        "#412f5f",
+        "#664194",
+        "#f4bc30",
+        "#56b288",
+        "#796239",
+        "#bc8d43",
+        "#6fd0ab",
+        "#8868bf",
+        "#0abf6e",
+        "#a67ed4"
+      ],
+      "#6ae846",
+      "Violet / Amber / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 035",
+    "S": "Chromatic 036"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Baa",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Jewel Colour",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 184.726,
+    "phase": 4.3699,
+    "centre_x": 0.1217,
+    "centre_y": -0.4467,
+    "hue_families": [
+      "Tangerine",
+      "Ice Blue",
+      "Leaf"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1680,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1244.2441268259274,
+  "gshhg_area_km2": 1244.2441268259274,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Baa",
+    "country": "ID",
+    "lon": 123.0492,
+    "lat": -10.7263,
+    "population": 1263,
+    "source": "https://www.geonames.org/2057166"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -66.20912170410156,
+  "max_land_elevation_m": 441.0030822753906,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/861/541.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/861/542.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/861/543.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/862/541.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/862/542.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/862/543.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/863/541.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/863/542.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/863/543.tif"
+  ],
+  "resolution_m": 157.08007361956476,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-10.75 +lon_0=123.16667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -39689.35230497299,
+    -20900.02561811372,
+    28671.89573426159,
+    35431.32611215419
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 39.27001840489119,
+  "artwork_print_scale_denominator": 463819.1150183999,
+  "color_mood": "Tangerine / Ice Blue / Leaf",
+  "background": "#246f2e",
+  "background_name": "Chromatic 035",
+  "color_family": "Multicolor",
+  "palette": [
+    "#6a340b",
+    "#13809a",
+    "#1eb4e5",
+    "#cc682b",
+    "#1a8b22",
+    "#1bc427",
+    "#45b5e3",
+    "#b45615",
+    "#1fec30"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "be706c03cb61b7736fa16f3446ca297c2f41fdfb820b0f8305cdc12fcd4460c9",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

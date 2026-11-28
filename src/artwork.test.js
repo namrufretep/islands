@@ -28,7 +28,7 @@ test('latest approved islands each appear once as a pair in the gallery',()=>{
  }
 });
 test('approved batch through Rapa Nui is complete and uses reviewed assets',()=>{
- assert.equal(editions.length,512);
+ assert.equal(editions.length,616);
  for(let n=15;n<=25;n++){
   const id=String(n).padStart(6,'0'),pair=editions.filter(x=>x.islandId===id);
   assert.equal(pair.length,2);
@@ -60,7 +60,7 @@ test('freshwater collection preserves each island type and 26 distinct backgroun
 test('freshwater aliases collapse into their curated island without hiding nearby islands',()=>{
  const aliases=value('curatedGeoNamesIds');
  const global=JSON.parse(readFileSync(new URL('../public/data/world-islands.json',import.meta.url)));
- assert.equal(new Set(aliases).size,212);
+ assert.equal(new Set(aliases).size,265);
  for(const id of aliases){
   const item=global.find(x=>x.sourceId===id);assert.ok(item,id);
   assert.ok(registry.some(r=>Number(ids[r[0]])>=51&&Math.abs(r[3]-item.latitude)<.3&&Math.abs(r[4]-item.longitude)<.3),id);

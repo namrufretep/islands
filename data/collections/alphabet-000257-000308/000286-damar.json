@@ -1,0 +1,123 @@
+{
+  "id": "000286",
+  "letter": "D",
+  "name": "Damar",
+  "slug": "damar",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Maluku Islands",
+  "reference": [
+    128.6182,
+    -7.1398
+  ],
+  "source_id": "geonames:1645775",
+  "source_name": "Pulau Damar",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Banda Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#505f12",
+        "#883913",
+        "#b96434",
+        "#8c9738",
+        "#0f7540",
+        "#369c5f",
+        "#cd5f28",
+        "#748919",
+        "#25bf5e"
+      ],
+      "#287c76",
+      "Citron / Tangerine / Emerald"
+    ],
+    "S": [
+      [
+        "#7b4045",
+        "#ea101c",
+        "#b09ab5",
+        "#ada28d",
+        "#856189",
+        "#a986ae",
+        "#c4bb9e",
+        "#c19697",
+        "#efa916",
+        "#d5b1b5"
+      ],
+      "#4ec3e9",
+      "Vermilion / Orchid / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 059",
+    "S": "Chromatic 060"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 188.9,
+      "phase": 4.4076,
+      "centre_x": -0.2132,
+      "centre_y": 0.0402,
+      "hue_families": [
+        "Citron",
+        "Tangerine",
+        "Emerald"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Mist and Fluorescence",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 117.343,
+      "phase": 1.8811,
+      "centre_x": 0.0968,
+      "centre_y": 0.5357,
+      "hue_families": [
+        "Vermilion",
+        "Orchid",
+        "Amber"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "name_note": "Damar in the Maluku Islands at 7.14°S, 128.62°E.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 356,
+  "antimeridian_split_parts": 1,
+  "area_km2": 200.34283172385764,
+  "gshhg_area_km2": 200.34283172385764,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

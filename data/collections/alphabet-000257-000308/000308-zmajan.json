@@ -1,0 +1,122 @@
+{
+  "id": "000308",
+  "letter": "Z",
+  "name": "Zmajan",
+  "slug": "zmajan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Šibenik Archipelago",
+  "reference": [
+    15.75528,
+    43.69472
+  ],
+  "source_id": "geonames:3186379",
+  "source_name": "Otok Zmajan",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#227c4b",
+        "#6b8f41",
+        "#9cf543",
+        "#37c975",
+        "#713a74",
+        "#c250c2",
+        "#9fd376",
+        "#0bd36f",
+        "#c07bc0"
+      ],
+      "#310927",
+      "Emerald / Acid Lime / Orchid"
+    ],
+    "S": [
+      [
+        "#543347",
+        "#8a4569",
+        "#98bb72",
+        "#5fa789",
+        "#5d9231",
+        "#7be80f",
+        "#7bd1ad",
+        "#bf6197",
+        "#428b6d",
+        "#c988a8"
+      ],
+      "#c34c1e",
+      "Fuchsia / Acid Lime / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 103",
+    "S": "Chromatic 104"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "halo",
+      "field_angle_degrees": 335.197,
+      "phase": 5.9309,
+      "centre_x": -0.1202,
+      "centre_y": -0.0912,
+      "hue_families": [
+        "Emerald",
+        "Acid Lime",
+        "Orchid"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "confluence",
+      "field_angle_degrees": 78.066,
+      "phase": 4.4277,
+      "centre_x": 0.2351,
+      "centre_y": -0.4178,
+      "hue_families": [
+        "Fuchsia",
+        "Acid Lime",
+        "Emerald"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 78,
+  "antimeridian_split_parts": 1,
+  "area_km2": 3.665000408670435,
+  "gshhg_area_km2": 3.665000408670435,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

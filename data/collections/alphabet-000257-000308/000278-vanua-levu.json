@@ -1,0 +1,130 @@
+{
+  "id": "000278",
+  "letter": "V",
+  "name": "Vanua Levu",
+  "slug": "vanua-levu",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Northern Division",
+  "reference": [
+    179.25,
+    -16.55
+  ],
+  "source_id": "geonames:2197138",
+  "source_name": "Vanua Levu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#077847",
+        "#bc8f12",
+        "#eacd7d",
+        "#53e1a1",
+        "#157d9e",
+        "#38bbe1",
+        "#f1e19f",
+        "#0ad56d",
+        "#7cc2e0"
+      ],
+      "#290821",
+      "Emerald / Amber / Ice Blue"
+    ],
+    "S": [
+      [
+        "#11301d",
+        "#1e5934",
+        "#442660",
+        "#686f1f",
+        "#301a4d",
+        "#9e52fb",
+        "#e9fc6d",
+        "#21683b",
+        "#454d1b",
+        "#2a794d"
+      ],
+      "#20cac1",
+      "Emerald / Violet / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 043",
+    "S": "Chromatic 044"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Labasa",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 264.592,
+      "phase": 1.2744,
+      "centre_x": 0.5405,
+      "centre_y": -0.0558,
+      "hue_families": [
+        "Emerald",
+        "Amber",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 22.169,
+      "phase": 5.543,
+      "centre_x": -0.2052,
+      "centre_y": -0.2752,
+      "hue_families": [
+        "Emerald",
+        "Violet",
+        "Citron"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "name_note": "The large northern Fiji island; not the small same-named island in the Mamanuca group.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5713,
+  "antimeridian_split_parts": 2,
+  "area_km2": 5774.167315296697,
+  "gshhg_area_km2": 5774.167315296697,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Labasa",
+    "country": "FJ",
+    "lon": 179.36451,
+    "lat": -16.4332,
+    "population": 27949,
+    "source": "https://www.geonames.org/2204582"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

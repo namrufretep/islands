@@ -1,0 +1,129 @@
+{
+  "id": "000270",
+  "letter": "N",
+  "name": "Nantucket",
+  "slug": "nantucket",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Massachusetts",
+  "reference": [
+    -70.04325,
+    41.27363
+  ],
+  "source_id": "geonames:4944923",
+  "source_name": "Nantucket Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#171737",
+        "#4b4c20",
+        "#707127",
+        "#191b6c",
+        "#d346fb",
+        "#d955fc",
+        "#7a7f29",
+        "#151851",
+        "#572964"
+      ],
+      "#124c20",
+      "Ultramarine / Citron / Orchid"
+    ],
+    "S": [
+      [
+        "#60420c",
+        "#735b26",
+        "#6dc01c",
+        "#34498a",
+        "#46820d",
+        "#619f22",
+        "#3e5eb2",
+        "#ba8d30",
+        "#0f2d8b",
+        "#c4903d"
+      ],
+      "#e2d5ac",
+      "Amber / Acid Lime / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 027",
+    "S": "Chromatic 028"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Nantucket",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 189.264,
+      "phase": 3.2111,
+      "centre_x": 0.3151,
+      "centre_y": 0.4003,
+      "hue_families": [
+        "Ultramarine",
+        "Citron",
+        "Orchid"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 3.814,
+      "phase": 1.4663,
+      "centre_x": 0.2069,
+      "centre_y": -0.5572,
+      "hue_families": [
+        "Amber",
+        "Acid Lime",
+        "Cobalt"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 525,
+  "antimeridian_split_parts": 1,
+  "area_km2": 131.95948001643512,
+  "gshhg_area_km2": 131.95948001643512,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Nantucket",
+    "country": "US",
+    "lon": -70.09946,
+    "lat": 41.28346,
+    "population": 7446,
+    "source": "https://www.geonames.org/4944903"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

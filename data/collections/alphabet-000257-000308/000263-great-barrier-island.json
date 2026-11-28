@@ -1,0 +1,118 @@
+{
+  "id": "000263",
+  "letter": "G",
+  "name": "Great Barrier Island",
+  "slug": "great-barrier-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "NZ",
+  "country": "New Zealand",
+  "region": "Hauraki Gulf",
+  "reference": [
+    175.41561,
+    -36.19608
+  ],
+  "source_id": "geonames:2190504",
+  "source_name": "Great Barrier Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0e302d",
+        "#17504e",
+        "#586025",
+        "#d7fb46",
+        "#823efb",
+        "#3e1c79",
+        "#25615d"
+      ],
+      "#29080a",
+      "Turquoise / Citron / Violet"
+    ],
+    "S": [
+      [
+        "#5f0c0e",
+        "#a41f23",
+        "#2f39a7",
+        "#1e1d72",
+        "#1d7390",
+        "#3a96ac",
+        "#2624a7",
+        "#bb554b"
+      ],
+      "#cb7b20",
+      "Vermilion / Ultramarine / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 013",
+    "S": "Chromatic 014"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "confluence",
+      "field_angle_degrees": 42.815,
+      "phase": 0.9573,
+      "centre_x": 0.3718,
+      "centre_y": 0.3259,
+      "hue_families": [
+        "Turquoise",
+        "Citron",
+        "Violet"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 238.808,
+      "phase": 0.916,
+      "centre_x": -0.0834,
+      "centre_y": -0.1893,
+      "hue_families": [
+        "Vermilion",
+        "Ultramarine",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1033,
+  "antimeridian_split_parts": 1,
+  "area_km2": 306.94598563109014,
+  "gshhg_area_km2": 306.94598563109014,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

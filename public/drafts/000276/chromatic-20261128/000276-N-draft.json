@@ -1,0 +1,196 @@
+{
+  "id": "000276",
+  "letter": "T",
+  "name": "Thassos",
+  "slug": "thassos",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "North Aegean Islands",
+  "reference": [
+    24.66118,
+    40.69417
+  ],
+  "source_id": "geonames:734093",
+  "source_name": "Thassos Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6e44cf",
+        "#d5a560",
+        "#d7c1a2",
+        "#ac9cce",
+        "#5dceb9",
+        "#7dd4c6",
+        "#e2cba8",
+        "#9569df",
+        "#a9dbd2"
+      ],
+      "#124b40",
+      "Violet / Amber / Turquoise"
+    ],
+    "S": [
+      [
+        "#104868",
+        "#1685bf",
+        "#6f65e5",
+        "#2bed7f",
+        "#1508b7",
+        "#2d23e5",
+        "#91e5ba",
+        "#64b8e5",
+        "#0dc764",
+        "#9edbfb"
+      ],
+      "#b2d2e4",
+      "Ice Blue / Ultramarine / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 039",
+    "S": "Chromatic 040"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Thásos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Pale Chromatic Stone",
+    "field_mode": "halo",
+    "field_angle_degrees": 278.865,
+    "phase": 6.1047,
+    "centre_x": -0.3576,
+    "centre_y": 0.1046,
+    "hue_families": [
+      "Violet",
+      "Amber",
+      "Turquoise"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 659,
+  "antimeridian_split_parts": 1,
+  "area_km2": 390.3782571976019,
+  "gshhg_area_km2": 390.3782571976019,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Thásos",
+    "country": "GR",
+    "lon": 24.70944,
+    "lat": 40.77806,
+    "population": 3234,
+    "source": "https://www.geonames.org/734094"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -133.23182678222656,
+  "max_land_elevation_m": 1169.7520751953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/769.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/771.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/769.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/771.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/769.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/770.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/771.tif"
+  ],
+  "resolution_m": 59.5385930629381,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.69417 +lon_0=24.66118 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12679.46528949152,
+    -13930.507006726595,
+    10632.768560857001,
+    11980.688694264063
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 14.884648265734524,
+  "artwork_print_scale_denominator": 175802.93227245504,
+  "color_mood": "Violet / Amber / Turquoise",
+  "background": "#124b40",
+  "background_name": "Chromatic 039",
+  "color_family": "Multicolor",
+  "palette": [
+    "#6e44cf",
+    "#d5a560",
+    "#d7c1a2",
+    "#ac9cce",
+    "#5dceb9",
+    "#7dd4c6",
+    "#e2cba8",
+    "#9569df",
+    "#a9dbd2"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_right",
+    "azimuth_degrees": 135,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    "shadow_offset_px": [
+      -4,
+      -4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ef70bbfdc734da64eda945b13f4ad5bdc6e925dd597cd2eee28c2aa54ce45650",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

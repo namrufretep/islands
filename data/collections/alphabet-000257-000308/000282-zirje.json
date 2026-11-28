@@ -1,0 +1,123 @@
+{
+  "id": "000282",
+  "letter": "Z",
+  "name": "Zirje",
+  "slug": "zirje",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Šibenik Archipelago",
+  "reference": [
+    15.66053,
+    43.65206
+  ],
+  "source_id": "geonames:3186447",
+  "source_name": "Otok Žirje",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#313459",
+        "#875e4a",
+        "#c98864",
+        "#5f60a7",
+        "#539c0a",
+        "#79c346",
+        "#c59d8f",
+        "#3b40a7",
+        "#97c06f"
+      ],
+      "#114620",
+      "Ultramarine / Tangerine / Acid Lime"
+    ],
+    "S": [
+      [
+        "#145d18",
+        "#1b9728",
+        "#1be1ce",
+        "#bbc929",
+        "#198882",
+        "#10cbb3",
+        "#d0e736",
+        "#36d335",
+        "#889910",
+        "#37f43b"
+      ],
+      "#abe1b2",
+      "Leaf / Turquoise / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 051",
+    "S": "Chromatic 052"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 79.633,
+      "phase": 2.7632,
+      "centre_x": -0.0122,
+      "centre_y": -0.6423,
+      "hue_families": [
+        "Ultramarine",
+        "Tangerine",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 25.679,
+      "phase": 3.7081,
+      "centre_x": 0.4863,
+      "centre_y": -0.3259,
+      "hue_families": [
+        "Leaf",
+        "Turquoise",
+        "Citron"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "name_note": "Žirje, Croatia; ASCII display name Zirje for alphabetic indexing.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 260,
+  "antimeridian_split_parts": 1,
+  "area_km2": 16.10069496571316,
+  "gshhg_area_km2": 16.10069496571316,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,197 @@
+{
+  "id": "000287",
+  "letter": "E",
+  "name": "Euboea",
+  "slug": "euboea",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Central Greece",
+  "reference": [
+    24.0,
+    38.5
+  ],
+  "source_id": "geonames:262565",
+  "source_name": "Euboea",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#632522",
+        "#8f3d3c",
+        "#d61cf3",
+        "#782d90",
+        "#939b47",
+        "#ecf64b",
+        "#bc6160"
+      ],
+      "#0a332c",
+      "Vermilion / Orchid / Citron"
+    ],
+    "S": [
+      [
+        "#6a6b30",
+        "#929855",
+        "#696cc0",
+        "#40418a",
+        "#0e7ed5",
+        "#80a0b5",
+        "#625fb5",
+        "#c5cc77"
+      ],
+      "#5bc51f",
+      "Citron / Ultramarine / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 061",
+    "S": "Chromatic 062"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Chalkída",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "confluence",
+    "field_angle_degrees": 189.314,
+    "phase": 3.325,
+    "centre_x": -0.6482,
+    "centre_y": 0.3437,
+    "hue_families": [
+      "Vermilion",
+      "Orchid",
+      "Citron"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4134,
+  "antimeridian_split_parts": 1,
+  "area_km2": 3691.2180798897966,
+  "gshhg_area_km2": 3691.2180798897966,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Chalkída",
+    "country": "GR",
+    "lon": 23.60284,
+    "lat": 38.46354,
+    "population": 59125,
+    "source": "https://www.geonames.org/260133"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -170.1626739501953,
+  "max_land_elevation_m": 1667.943115234375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/195.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/196.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/197.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/288/198.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/195.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/196.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/197.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/289/198.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/290/195.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/290/196.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/290/197.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/290/198.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/291/195.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/291/196.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/291/197.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/291/198.tif"
+  ],
+  "resolution_m": 353.6311953369935,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.5 +lon_0=24.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -101784.35582063855,
+    -60975.20014454758,
+    52115.94039002102,
+    60132.00377275414
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 88.40779883424838,
+  "artwork_print_scale_denominator": 1044186.6004045085,
+  "color_mood": "Vermilion / Orchid / Citron",
+  "background": "#0a332c",
+  "background_name": "Chromatic 061",
+  "color_family": "Multicolor",
+  "palette": [
+    "#632522",
+    "#8f3d3c",
+    "#d61cf3",
+    "#782d90",
+    "#939b47",
+    "#ecf64b",
+    "#bc6160"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5e02d16358ee138dc306515941c248bdf3fe03510b8d577b9e1e1f48f0c58c2a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

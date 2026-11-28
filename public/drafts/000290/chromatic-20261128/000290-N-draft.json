@@ -1,0 +1,182 @@
+{
+  "id": "000290",
+  "letter": "H",
+  "name": "Herm",
+  "slug": "herm",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.44832,
+    49.47214
+  ],
+  "source_id": "geonames:3042359",
+  "source_name": "Herm",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#b7bf55",
+        "#6dcd72",
+        "#99d897",
+        "#d1d68a",
+        "#c48f60",
+        "#d4a88c",
+        "#a8e4aa",
+        "#ccdc69",
+        "#e2b79c"
+      ],
+      "#0b0727",
+      "Citron / Leaf / Tangerine"
+    ],
+    "S": [
+      [
+        "#5b420a",
+        "#b08920",
+        "#59f7b8",
+        "#ef3a9a",
+        "#139f6a",
+        "#34eaab",
+        "#eb95c3",
+        "#dec479",
+        "#c2146d",
+        "#f1dfae"
+      ],
+      "#9dd020",
+      "Amber / Emerald / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 067",
+    "S": "Chromatic 068"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Pale Chromatic Stone",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 315.009,
+    "phase": 5.4603,
+    "centre_x": -0.1912,
+    "centre_y": 0.4744,
+    "hue_families": [
+      "Citron",
+      "Leaf",
+      "Tangerine"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 46,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1.594176069271259,
+  "gshhg_area_km2": 1.594176069271259,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": 0.0,
+  "max_land_elevation_m": 63.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2019/1398.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2020/1398.tif"
+  ],
+  "resolution_m": 5.544065875236517,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=49.47214 +lon_0=-2.44832 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -757.8497551169205,
+    -1121.524680712541,
+    454.0276022766361,
+    1291.2527881903911
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.3860164688091292,
+  "artwork_print_scale_denominator": 16370.273253651132,
+  "color_mood": "Citron / Leaf / Tangerine",
+  "background": "#0b0727",
+  "background_name": "Chromatic 067",
+  "color_family": "Multicolor",
+  "palette": [
+    "#b7bf55",
+    "#6dcd72",
+    "#99d897",
+    "#d1d68a",
+    "#c48f60",
+    "#d4a88c",
+    "#a8e4aa",
+    "#ccdc69",
+    "#e2b79c"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "503388e0aa507b40646258ece7ccbf3a2783c7261ee1edf18dca9f3d350228e9",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

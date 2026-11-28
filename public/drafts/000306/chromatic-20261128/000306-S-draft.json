@@ -1,0 +1,192 @@
+{
+  "id": "000306",
+  "letter": "X",
+  "name": "Xiaochangshan Dao",
+  "slug": "xiaochangshan-dao",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Changhai Islands",
+  "reference": [
+    122.71972,
+    39.23472
+  ],
+  "source_id": "geonames:1790307",
+  "source_name": "Xiaochangshan Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Yellow Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0c680d",
+        "#aa0ec7",
+        "#d57bdf",
+        "#59dd57",
+        "#9f6b06",
+        "#d2a045",
+        "#e2a1eb",
+        "#21be2a",
+        "#eac378"
+      ],
+      "#532513",
+      "Leaf / Orchid / Amber"
+    ],
+    "S": [
+      [
+        "#200f3a",
+        "#351f55",
+        "#27721e",
+        "#196059",
+        "#21401b",
+        "#63fb45",
+        "#60fcf3",
+        "#4b336a",
+        "#244c49",
+        "#4f3578"
+      ],
+      "#d7bce7",
+      "Violet / Leaf / Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 099",
+    "S": "Chromatic 100"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Xiaochangshan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 97.813,
+    "phase": 2.4807,
+    "centre_x": -0.0775,
+    "centre_y": -0.4972,
+    "hue_families": [
+      "Violet",
+      "Leaf",
+      "Turquoise"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 251,
+  "antimeridian_split_parts": 1,
+  "area_km2": 21.33144920570248,
+  "gshhg_area_km2": 21.33144920570248,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Xiaochangshan",
+    "country": "CN",
+    "lon": 122.72361,
+    "lat": 39.23583,
+    "population": 16071,
+    "source": "https://www.geonames.org/1921495"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -7.5938801765441895,
+  "max_land_elevation_m": 134.79129028320312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3443/1561.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3443/1562.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3444/1561.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3444/1562.tif"
+  ],
+  "resolution_m": 25.125268369710245,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=39.23472 +lon_0=122.71972 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8214.435520637437,
+    -4085.4337462971184,
+    2720.081273860462,
+    2017.213182378466
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.281317092427561,
+  "artwork_print_scale_denominator": 74188.78455623104,
+  "color_mood": "Violet / Leaf / Turquoise",
+  "background": "#d7bce7",
+  "background_name": "Chromatic 100",
+  "color_family": "Multicolor",
+  "palette": [
+    "#200f3a",
+    "#351f55",
+    "#27721e",
+    "#196059",
+    "#21401b",
+    "#63fb45",
+    "#60fcf3",
+    "#4b336a",
+    "#244c49",
+    "#4f3578"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a8a4c6e418776e5ab0df3a9b52a94efc97c1cee180273220d34c8c612278a4d5",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

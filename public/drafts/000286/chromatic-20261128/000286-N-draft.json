@@ -1,0 +1,185 @@
+{
+  "id": "000286",
+  "letter": "D",
+  "name": "Damar",
+  "slug": "damar",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Maluku Islands",
+  "reference": [
+    128.6182,
+    -7.1398
+  ],
+  "source_id": "geonames:1645775",
+  "source_name": "Pulau Damar",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Banda Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#505f12",
+        "#883913",
+        "#b96434",
+        "#8c9738",
+        "#0f7540",
+        "#369c5f",
+        "#cd5f28",
+        "#748919",
+        "#25bf5e"
+      ],
+      "#287c76",
+      "Citron / Tangerine / Emerald"
+    ],
+    "S": [
+      [
+        "#7b4045",
+        "#ea101c",
+        "#b09ab5",
+        "#ada28d",
+        "#856189",
+        "#a986ae",
+        "#c4bb9e",
+        "#c19697",
+        "#efa916",
+        "#d5b1b5"
+      ],
+      "#4ec3e9",
+      "Vermilion / Orchid / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 059",
+    "S": "Chromatic 060"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 188.9,
+    "phase": 4.4076,
+    "centre_x": -0.2132,
+    "centre_y": 0.0402,
+    "hue_families": [
+      "Citron",
+      "Tangerine",
+      "Emerald"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "name_note": "Damar in the Maluku Islands at 7.14°S, 128.62°E.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 356,
+  "antimeridian_split_parts": 1,
+  "area_km2": 200.34283172385764,
+  "gshhg_area_km2": 200.34283172385764,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -418.338623046875,
+  "max_land_elevation_m": 861.2102661132812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1755/1064.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1755/1065.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1756/1064.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1756/1065.tif"
+  ],
+  "resolution_m": 46.52708273539342,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-7.1398 +lon_0=128.6182 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -11353.550459709793,
+    -9287.325552615937,
+    8895.035946733424,
+    8133.98174806557
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.631770683848355,
+  "artwork_print_scale_denominator": 137383.11831316954,
+  "color_mood": "Citron / Tangerine / Emerald",
+  "background": "#287c76",
+  "background_name": "Chromatic 059",
+  "color_family": "Multicolor",
+  "palette": [
+    "#505f12",
+    "#883913",
+    "#b96434",
+    "#8c9738",
+    "#0f7540",
+    "#369c5f",
+    "#cd5f28",
+    "#748919",
+    "#25bf5e"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -7,
+      7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "2235c1fa34df59e31200c3888097f46225ff19bb079b276b874b392566b3fae8",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

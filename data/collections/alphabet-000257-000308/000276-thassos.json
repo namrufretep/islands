@@ -1,0 +1,129 @@
+{
+  "id": "000276",
+  "letter": "T",
+  "name": "Thassos",
+  "slug": "thassos",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "North Aegean Islands",
+  "reference": [
+    24.66118,
+    40.69417
+  ],
+  "source_id": "geonames:734093",
+  "source_name": "Thassos Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#6e44cf",
+        "#d5a560",
+        "#d7c1a2",
+        "#ac9cce",
+        "#5dceb9",
+        "#7dd4c6",
+        "#e2cba8",
+        "#9569df",
+        "#a9dbd2"
+      ],
+      "#124b40",
+      "Violet / Amber / Turquoise"
+    ],
+    "S": [
+      [
+        "#104868",
+        "#1685bf",
+        "#6f65e5",
+        "#2bed7f",
+        "#1508b7",
+        "#2d23e5",
+        "#91e5ba",
+        "#64b8e5",
+        "#0dc764",
+        "#9edbfb"
+      ],
+      "#b2d2e4",
+      "Ice Blue / Ultramarine / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 039",
+    "S": "Chromatic 040"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Thásos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Pale Chromatic Stone",
+      "field_mode": "halo",
+      "field_angle_degrees": 278.865,
+      "phase": 6.1047,
+      "centre_x": -0.3576,
+      "centre_y": 0.1046,
+      "hue_families": [
+        "Violet",
+        "Amber",
+        "Turquoise"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "confluence",
+      "field_angle_degrees": 236.012,
+      "phase": 1.1694,
+      "centre_x": -0.1296,
+      "centre_y": 0.4608,
+      "hue_families": [
+        "Ice Blue",
+        "Ultramarine",
+        "Emerald"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 659,
+  "antimeridian_split_parts": 1,
+  "area_km2": 390.3782571976019,
+  "gshhg_area_km2": 390.3782571976019,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Thásos",
+    "country": "GR",
+    "lon": 24.70944,
+    "lat": 40.77806,
+    "population": 3234,
+    "source": "https://www.geonames.org/734094"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

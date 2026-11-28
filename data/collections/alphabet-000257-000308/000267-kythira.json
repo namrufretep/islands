@@ -1,0 +1,125 @@
+{
+  "id": "000267",
+  "letter": "K",
+  "name": "Kythira",
+  "slug": "kythira",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "reference": [
+    22.99337,
+    36.24072
+  ],
+  "source_id": "geonames:259709",
+  "source_name": "Cythera",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0e1071",
+        "#141ea0",
+        "#bbd41e",
+        "#8e931f",
+        "#1caaa7",
+        "#37dbd7",
+        "#0d24e9"
+      ],
+      "#124d29",
+      "Ultramarine / Citron / Turquoise"
+    ],
+    "S": [
+      [
+        "#2e6345",
+        "#31bf7c",
+        "#f57138",
+        "#87563a",
+        "#3764c2",
+        "#6e90d0",
+        "#f36d13",
+        "#83e0b4"
+      ],
+      "#ace2cf",
+      "Emerald / Tangerine / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 021",
+    "S": "Chromatic 022"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Kýthira",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "confluence",
+      "field_angle_degrees": 123.611,
+      "phase": 3.8531,
+      "centre_x": 0.225,
+      "centre_y": 0.0829,
+      "hue_families": [
+        "Ultramarine",
+        "Citron",
+        "Turquoise"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 55.266,
+      "phase": 3.1439,
+      "centre_x": 0.3296,
+      "centre_y": -0.3547,
+      "hue_families": [
+        "Emerald",
+        "Tangerine",
+        "Cobalt"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 684,
+  "antimeridian_split_parts": 1,
+  "area_km2": 281.73182481803605,
+  "gshhg_area_km2": 281.73182481803605,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kýthira",
+    "country": "GR",
+    "lon": 22.98979,
+    "lat": 36.14955,
+    "population": 281,
+    "source": "https://www.geonames.org/259710"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

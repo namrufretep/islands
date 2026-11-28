@@ -1,0 +1,118 @@
+{
+  "id": "000271",
+  "letter": "O",
+  "name": "Olib",
+  "slug": "olib",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Zadar Archipelago",
+  "reference": [
+    14.79028,
+    44.38028
+  ],
+  "source_id": "geonames:3194140",
+  "source_name": "Otok Olib",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#062962",
+        "#1a55b7",
+        "#e88839",
+        "#b15d09",
+        "#6c0cdb",
+        "#b485f2",
+        "#5c8adf"
+      ],
+      "#6f244e",
+      "Cobalt / Tangerine / Violet"
+    ],
+    "S": [
+      [
+        "#103a38",
+        "#25504e",
+        "#297a23",
+        "#1f441b",
+        "#f056fc",
+        "#ee5ffc",
+        "#325f2e",
+        "#327e73"
+      ],
+      "#e9924e",
+      "Turquoise / Leaf / Orchid"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 029",
+    "S": "Chromatic 030"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "confluence",
+      "field_angle_degrees": 274.985,
+      "phase": 4.5673,
+      "centre_x": 0.3014,
+      "centre_y": 0.5893,
+      "hue_families": [
+        "Cobalt",
+        "Tangerine",
+        "Violet"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 215.628,
+      "phase": 1.3062,
+      "centre_x": 0.0591,
+      "centre_y": -0.4749,
+      "hue_families": [
+        "Turquoise",
+        "Leaf",
+        "Orchid"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 244,
+  "antimeridian_split_parts": 1,
+  "area_km2": 27.178138003692194,
+  "gshhg_area_km2": 27.178138003692194,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

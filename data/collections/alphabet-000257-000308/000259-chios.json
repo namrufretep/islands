@@ -1,0 +1,125 @@
+{
+  "id": "000259",
+  "letter": "C",
+  "name": "Chios",
+  "slug": "chios",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "North Aegean Islands",
+  "reference": [
+    26.06161,
+    38.41102
+  ],
+  "source_id": "geonames:259972",
+  "source_name": "Nisí Chíos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#421a66",
+        "#683f99",
+        "#f2f31b",
+        "#8c8d3b",
+        "#4e7f98",
+        "#4bc1f6",
+        "#9469b4"
+      ],
+      "#80562a",
+      "Violet / Citron / Ice Blue"
+    ],
+    "S": [
+      [
+        "#296346",
+        "#4da377",
+        "#8168b1",
+        "#513781",
+        "#d90e66",
+        "#b97b98",
+        "#8254bf",
+        "#90bda8"
+      ],
+      "#e84841",
+      "Emerald / Violet / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 005",
+    "S": "Chromatic 006"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Chios",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "confluence",
+      "field_angle_degrees": 311.339,
+      "phase": 0.2128,
+      "centre_x": 0.1583,
+      "centre_y": 0.4904,
+      "hue_families": [
+        "Violet",
+        "Citron",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 257.669,
+      "phase": 3.8643,
+      "centre_x": 0.5979,
+      "centre_y": -0.2812,
+      "hue_families": [
+        "Emerald",
+        "Violet",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1196,
+  "antimeridian_split_parts": 1,
+  "area_km2": 855.12334732597,
+  "gshhg_area_km2": 855.12334732597,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Chios",
+    "country": "GR",
+    "lon": 26.13718,
+    "lat": 38.36875,
+    "population": 23953,
+    "source": "https://www.geonames.org/259973"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

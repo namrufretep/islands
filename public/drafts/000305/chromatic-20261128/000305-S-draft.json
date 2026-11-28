@@ -1,0 +1,191 @@
+{
+  "id": "000305",
+  "letter": "W",
+  "name": "Westray",
+  "slug": "westray",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Orkney",
+  "reference": [
+    -2.95704,
+    59.2985
+  ],
+  "source_id": "geonames:2634285",
+  "source_name": "Westray",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#392f0f",
+        "#614917",
+        "#60203d",
+        "#fb3c99",
+        "#4cc9fb",
+        "#2a5d78",
+        "#786320"
+      ],
+      "#0a2336",
+      "Amber / Fuchsia / Ice Blue"
+    ],
+    "S": [
+      [
+        "#5b4114",
+        "#86652c",
+        "#c1171b",
+        "#622624",
+        "#151195",
+        "#2e17d2",
+        "#9b2d2a",
+        "#c19b47"
+      ],
+      "#75d321",
+      "Amber / Vermilion / Ultramarine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 097",
+    "S": "Chromatic 098"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Pierowall",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "halo",
+    "field_angle_degrees": 102.637,
+    "phase": 1.8512,
+    "centre_x": -0.5389,
+    "centre_y": -0.0431,
+    "hue_families": [
+      "Amber",
+      "Vermilion",
+      "Ultramarine"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 372,
+  "antimeridian_split_parts": 1,
+  "area_km2": 51.85208541999419,
+  "gshhg_area_km2": 51.85208541999419,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Pierowall",
+    "country": "GB",
+    "lon": -2.99051,
+    "lat": 59.31944,
+    "population": 563,
+    "source": "https://www.geonames.org/2640298"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -16.59677505493164,
+  "max_land_elevation_m": 161.62527465820312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/601.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/602.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/603.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1007/601.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1007/602.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1007/603.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/601.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/602.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/603.tif"
+  ],
+  "resolution_m": 33.69878982201071,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=59.2985 +lon_0=-2.95704 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6481.580117230994,
+    -7864.025478544615,
+    6810.320078314641,
+    6801.687851994445
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.424697455502677,
+  "artwork_print_scale_denominator": 99504.30065554344,
+  "color_mood": "Amber / Vermilion / Ultramarine",
+  "background": "#75d321",
+  "background_name": "Chromatic 098",
+  "color_family": "Multicolor",
+  "palette": [
+    "#5b4114",
+    "#86652c",
+    "#c1171b",
+    "#622624",
+    "#151195",
+    "#2e17d2",
+    "#9b2d2a",
+    "#c19b47"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ae88f69497563c9df405030256f63dd712619d2c77a148e62efe18f07541378d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

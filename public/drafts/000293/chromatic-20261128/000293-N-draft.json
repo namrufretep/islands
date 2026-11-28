@@ -1,0 +1,178 @@
+{
+  "id": "000293",
+  "letter": "K",
+  "name": "Koh Rong",
+  "slug": "koh-rong",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "KH",
+  "country": "Cambodia",
+  "region": "Gulf of Thailand",
+  "reference": [
+    103.24351,
+    10.72218
+  ],
+  "source_id": "geonames:1822396",
+  "source_name": "Koh Rong",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Thailand",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4a171b",
+        "#831b1d",
+        "#849a2b",
+        "#6f7e1f",
+        "#119895",
+        "#2ac9ce",
+        "#a82f2c"
+      ],
+      "#0a3637",
+      "Vermilion / Citron / Turquoise"
+    ],
+    "S": [
+      [
+        "#414682",
+        "#343ef1",
+        "#8cb8a2",
+        "#4f9770",
+        "#9e917d",
+        "#c5bba4",
+        "#4ff3aa",
+        "#aaadd2"
+      ],
+      "#9e21d3",
+      "Ultramarine / Emerald / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 073",
+    "S": "Chromatic 074"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 238.833,
+    "phase": 1.3986,
+    "centre_x": -0.5041,
+    "centre_y": -0.0999,
+    "hue_families": [
+      "Vermilion",
+      "Citron",
+      "Turquoise"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 346,
+  "antimeridian_split_parts": 1,
+  "area_km2": 81.79606295047866,
+  "gshhg_area_km2": 81.79606295047866,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -232.572265625,
+  "max_land_elevation_m": 324.57568359375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1610/962.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1610/963.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1611/962.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1611/963.tif"
+  ],
+  "resolution_m": 33.940157728564074,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=10.72218 +lon_0=103.24351 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6354.393325710165,
+    -7845.640159239105,
+    8416.363317760919,
+    6349.5291737755115
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.485039432141019,
+  "artwork_print_scale_denominator": 100217.00116701992,
+  "color_mood": "Vermilion / Citron / Turquoise",
+  "background": "#0a3637",
+  "background_name": "Chromatic 073",
+  "color_family": "Multicolor",
+  "palette": [
+    "#4a171b",
+    "#831b1d",
+    "#849a2b",
+    "#6f7e1f",
+    "#119895",
+    "#2ac9ce",
+    "#a82f2c"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "73bb2695228353c8b14b7ad67534675e5681b5fa43e6a04df08c3398147b9725",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

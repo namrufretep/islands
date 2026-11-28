@@ -1,0 +1,176 @@
+{
+  "id": "000273",
+  "letter": "Q",
+  "name": "Quirimba",
+  "slug": "quirimba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Quirimbas Islands",
+  "reference": [
+    40.60694,
+    -12.42639
+  ],
+  "source_id": "geonames:1028330",
+  "source_name": "Ilha Quirimba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#682c18",
+        "#905745",
+        "#0e5df2",
+        "#2a4fa0",
+        "#4c9c9f",
+        "#50f5f6",
+        "#ca775d"
+      ],
+      "#461454",
+      "Tangerine / Cobalt / Turquoise"
+    ],
+    "S": [
+      [
+        "#2f4069",
+        "#4e65a1",
+        "#57c4ba",
+        "#308478",
+        "#5b0ede",
+        "#8d6bc4",
+        "#65a99e",
+        "#8c9ec0"
+      ],
+      "#afb0e3",
+      "Cobalt / Turquoise / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 033",
+    "S": "Chromatic 034"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 178.034,
+    "phase": 0.0021,
+    "centre_x": -0.1647,
+    "centre_y": 0.5012,
+    "hue_families": [
+      "Tangerine",
+      "Cobalt",
+      "Turquoise"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 89,
+  "antimeridian_split_parts": 1,
+  "area_km2": 15.786689199415449,
+  "gshhg_area_km2": 15.786689199415449,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -21.0,
+  "max_land_elevation_m": 28.4678955078125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2509/2190.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2510/2190.tif"
+  ],
+  "resolution_m": 14.842194020219424,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-12.42639 +lon_0=40.60694 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -984.0973035663062,
+    -4046.91826549596,
+    2640.058079919224,
+    2412.404572103533
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.710548505054856,
+  "artwork_print_scale_denominator": 43825.376043954995,
+  "color_mood": "Tangerine / Cobalt / Turquoise",
+  "background": "#461454",
+  "background_name": "Chromatic 033",
+  "color_family": "Multicolor",
+  "palette": [
+    "#682c18",
+    "#905745",
+    "#0e5df2",
+    "#2a4fa0",
+    "#4c9c9f",
+    "#50f5f6",
+    "#ca775d"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d22a367691ae6ee189a4e003660b4fb4ecdd5e0035c73ce8bc1dfe71691fe76f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

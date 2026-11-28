@@ -1,0 +1,129 @@
+{
+  "id": "000298",
+  "letter": "P",
+  "name": "Ponza",
+  "slug": "ponza",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Pontine Islands",
+  "reference": [
+    12.95691,
+    40.91137
+  ],
+  "source_id": "geonames:3170187",
+  "source_name": "Isola di Ponza",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#111c3e",
+        "#195637",
+        "#266346",
+        "#273566",
+        "#fb2f8c",
+        "#fb49a1",
+        "#25804a",
+        "#15254f",
+        "#70274a"
+      ],
+      "#73253d",
+      "Cobalt / Emerald / Fuchsia"
+    ],
+    "S": [
+      [
+        "#550d57",
+        "#7f1384",
+        "#2d1cce",
+        "#75a41c",
+        "#211776",
+        "#413496",
+        "#8bbe39",
+        "#b215cc",
+        "#5e890f",
+        "#c126d5"
+      ],
+      "#3fe762",
+      "Orchid / Ultramarine / Acid Lime"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 083",
+    "S": "Chromatic 084"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Ponza",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 27.747,
+      "phase": 2.5913,
+      "centre_x": -0.2359,
+      "centre_y": 0.3599,
+      "hue_families": [
+        "Cobalt",
+        "Emerald",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 342.978,
+      "phase": 3.2976,
+      "centre_x": 0.5333,
+      "centre_y": 0.4287,
+      "hue_families": [
+        "Orchid",
+        "Ultramarine",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 130,
+  "antimeridian_split_parts": 1,
+  "area_km2": 9.097572560360174,
+  "gshhg_area_km2": 9.097572560360174,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ponza",
+    "country": "IT",
+    "lon": 12.95889,
+    "lat": 40.89541,
+    "population": 1831,
+    "source": "https://www.geonames.org/3170189"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

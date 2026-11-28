@@ -1,0 +1,190 @@
+{
+  "id": "000291",
+  "letter": "I",
+  "name": "Iriomote",
+  "slug": "iriomote",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Yaeyama Islands",
+  "reference": [
+    123.83333,
+    24.33333
+  ],
+  "source_id": "geonames:1861484",
+  "source_name": "Iriomote Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3d1026",
+        "#53122e",
+        "#28225c",
+        "#5542fb",
+        "#44fb3f",
+        "#2c692b",
+        "#7b1d47"
+      ],
+      "#15114a",
+      "Fuchsia / Ultramarine / Leaf"
+    ],
+    "S": [
+      [
+        "#0f5d12",
+        "#17991b",
+        "#a13a70",
+        "#6a224c",
+        "#54218f",
+        "#742dd0",
+        "#aa236b",
+        "#30cc3b"
+      ],
+      "#bbe7bd",
+      "Leaf / Fuchsia / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 069",
+    "S": "Chromatic 070"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Shirahama",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "confluence",
+    "field_angle_degrees": 258.768,
+    "phase": 5.0018,
+    "centre_x": 0.2804,
+    "centre_y": 0.4654,
+    "hue_families": [
+      "Fuchsia",
+      "Ultramarine",
+      "Leaf"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 952,
+  "antimeridian_split_parts": 1,
+  "area_km2": 290.6837645113578,
+  "gshhg_area_km2": 290.6837645113578,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Shirahama",
+    "country": "JP",
+    "lon": 123.74836,
+    "lat": 24.36097,
+    "population": 3942,
+    "source": "https://www.geonames.org/1851939"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -70.86824035644531,
+  "max_land_elevation_m": 455.336669921875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1727/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1727/881.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1727/882.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1728/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1728/881.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1728/882.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/881.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/882.tif"
+  ],
+  "resolution_m": 64.90611517754839,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=24.33333 +lon_0=123.83333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -17296.42122821345,
+    -9462.969043566254,
+    10950.720097055606,
+    10757.750897877579
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.226528794387097,
+  "artwork_print_scale_denominator": 191651.9148943358,
+  "color_mood": "Fuchsia / Ultramarine / Leaf",
+  "background": "#15114a",
+  "background_name": "Chromatic 069",
+  "color_family": "Multicolor",
+  "palette": [
+    "#3d1026",
+    "#53122e",
+    "#28225c",
+    "#5542fb",
+    "#44fb3f",
+    "#2c692b",
+    "#7b1d47"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "19f189992d1db13118b5604f92b0d00c1a66b790f41527475ea3948d4a67a285",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

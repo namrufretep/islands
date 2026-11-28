@@ -1,0 +1,125 @@
+{
+  "id": "000305",
+  "letter": "W",
+  "name": "Westray",
+  "slug": "westray",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Orkney",
+  "reference": [
+    -2.95704,
+    59.2985
+  ],
+  "source_id": "geonames:2634285",
+  "source_name": "Westray",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#392f0f",
+        "#614917",
+        "#60203d",
+        "#fb3c99",
+        "#4cc9fb",
+        "#2a5d78",
+        "#786320"
+      ],
+      "#0a2336",
+      "Amber / Fuchsia / Ice Blue"
+    ],
+    "S": [
+      [
+        "#5b4114",
+        "#86652c",
+        "#c1171b",
+        "#622624",
+        "#151195",
+        "#2e17d2",
+        "#9b2d2a",
+        "#c19b47"
+      ],
+      "#75d321",
+      "Amber / Vermilion / Ultramarine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 097",
+    "S": "Chromatic 098"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Pierowall",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 30.392,
+      "phase": 2.4302,
+      "centre_x": 0.3653,
+      "centre_y": -0.0091,
+      "hue_families": [
+        "Amber",
+        "Fuchsia",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "halo",
+      "field_angle_degrees": 102.637,
+      "phase": 1.8512,
+      "centre_x": -0.5389,
+      "centre_y": -0.0431,
+      "hue_families": [
+        "Amber",
+        "Vermilion",
+        "Ultramarine"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 372,
+  "antimeridian_split_parts": 1,
+  "area_km2": 51.85208541999419,
+  "gshhg_area_km2": 51.85208541999419,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Pierowall",
+    "country": "GB",
+    "lon": -2.99051,
+    "lat": 59.31944,
+    "population": 563,
+    "source": "https://www.geonames.org/2640298"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,191 @@
+{
+  "id": "000259",
+  "letter": "C",
+  "name": "Chios",
+  "slug": "chios",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "North Aegean Islands",
+  "reference": [
+    26.06161,
+    38.41102
+  ],
+  "source_id": "geonames:259972",
+  "source_name": "Nisí Chíos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#421a66",
+        "#683f99",
+        "#f2f31b",
+        "#8c8d3b",
+        "#4e7f98",
+        "#4bc1f6",
+        "#9469b4"
+      ],
+      "#80562a",
+      "Violet / Citron / Ice Blue"
+    ],
+    "S": [
+      [
+        "#296346",
+        "#4da377",
+        "#8168b1",
+        "#513781",
+        "#d90e66",
+        "#b97b98",
+        "#8254bf",
+        "#90bda8"
+      ],
+      "#e84841",
+      "Emerald / Violet / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 005",
+    "S": "Chromatic 006"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Chios",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Smoky Pigment",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 257.669,
+    "phase": 3.8643,
+    "centre_x": 0.5979,
+    "centre_y": -0.2812,
+    "hue_families": [
+      "Emerald",
+      "Violet",
+      "Fuchsia"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1196,
+  "antimeridian_split_parts": 1,
+  "area_km2": 855.12334732597,
+  "gshhg_area_km2": 855.12334732597,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Chios",
+    "country": "GR",
+    "lon": 26.13718,
+    "lat": 38.36875,
+    "population": 23953,
+    "source": "https://www.geonames.org/259973"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -83.05498504638672,
+  "max_land_elevation_m": 1240.9532470703125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/584/392.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/584/393.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/584/394.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/585/392.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/585/393.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/585/394.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/586/392.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/586/393.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/586/394.tif"
+  ],
+  "resolution_m": 116.90534812976182,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.41102 +lon_0=26.06161 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -20086.49042907584,
+    -29481.253355202105,
+    8978.383223079521,
+    21395.954150870235
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 29.226337032440455,
+  "artwork_print_scale_denominator": 345192.9570760684,
+  "color_mood": "Emerald / Violet / Fuchsia",
+  "background": "#e84841",
+  "background_name": "Chromatic 006",
+  "color_family": "Multicolor",
+  "palette": [
+    "#296346",
+    "#4da377",
+    "#8168b1",
+    "#513781",
+    "#d90e66",
+    "#b97b98",
+    "#8254bf",
+    "#90bda8"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_right",
+    "azimuth_degrees": 135,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    "shadow_offset_px": [
+      -4,
+      -4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f6bfdaf5c6045bb64188b381f1c4fe600d14cb6f161439d4191c74568d8050ea",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

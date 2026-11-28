@@ -1,0 +1,190 @@
+{
+  "id": "000263",
+  "letter": "G",
+  "name": "Great Barrier Island",
+  "slug": "great-barrier-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "NZ",
+  "country": "New Zealand",
+  "region": "Hauraki Gulf",
+  "reference": [
+    175.41561,
+    -36.19608
+  ],
+  "source_id": "geonames:2190504",
+  "source_name": "Great Barrier Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0e302d",
+        "#17504e",
+        "#586025",
+        "#d7fb46",
+        "#823efb",
+        "#3e1c79",
+        "#25615d"
+      ],
+      "#29080a",
+      "Turquoise / Citron / Violet"
+    ],
+    "S": [
+      [
+        "#5f0c0e",
+        "#a41f23",
+        "#2f39a7",
+        "#1e1d72",
+        "#1d7390",
+        "#3a96ac",
+        "#2624a7",
+        "#bb554b"
+      ],
+      "#cb7b20",
+      "Vermilion / Ultramarine / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 013",
+    "S": "Chromatic 014"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "confluence",
+    "field_angle_degrees": 42.815,
+    "phase": 0.9573,
+    "centre_x": 0.3718,
+    "centre_y": 0.3259,
+    "hue_families": [
+      "Turquoise",
+      "Citron",
+      "Violet"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1033,
+  "antimeridian_split_parts": 1,
+  "area_km2": 306.94598563109014,
+  "gshhg_area_km2": 306.94598563109014,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -290.2986755371094,
+  "max_land_elevation_m": 2665.03857421875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2020/1243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2020/1244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2020/1245.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2020/1246.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2021/1243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2021/1244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2021/1245.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2021/1246.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2022/1243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2022/1244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2022/1245.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2022/1246.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2023/1243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2023/1244.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2023/1245.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2023/1246.tif"
+  ],
+  "resolution_m": 78.84087100474959,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-36.19608 +lon_0=175.41561 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -10059.856746888614,
+    -16949.69955689599,
+    11881.283020148187,
+    17361.847504371028
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 19.710217751187397,
+  "artwork_print_scale_denominator": 232797.84745496925,
+  "color_mood": "Turquoise / Citron / Violet",
+  "background": "#29080a",
+  "background_name": "Chromatic 013",
+  "color_family": "Multicolor",
+  "palette": [
+    "#0e302d",
+    "#17504e",
+    "#586025",
+    "#d7fb46",
+    "#823efb",
+    "#3e1c79",
+    "#25615d"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "7efdd6dfc54ed3dbddca27bad36c84b2d134e68d6d912aa553d7ffee1810549e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

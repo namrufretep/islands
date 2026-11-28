@@ -1,0 +1,190 @@
+{
+  "id": "000282",
+  "letter": "Z",
+  "name": "Zirje",
+  "slug": "zirje",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Šibenik Archipelago",
+  "reference": [
+    15.66053,
+    43.65206
+  ],
+  "source_id": "geonames:3186447",
+  "source_name": "Otok Žirje",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#313459",
+        "#875e4a",
+        "#c98864",
+        "#5f60a7",
+        "#539c0a",
+        "#79c346",
+        "#c59d8f",
+        "#3b40a7",
+        "#97c06f"
+      ],
+      "#114620",
+      "Ultramarine / Tangerine / Acid Lime"
+    ],
+    "S": [
+      [
+        "#145d18",
+        "#1b9728",
+        "#1be1ce",
+        "#bbc929",
+        "#198882",
+        "#10cbb3",
+        "#d0e736",
+        "#36d335",
+        "#889910",
+        "#37f43b"
+      ],
+      "#abe1b2",
+      "Leaf / Turquoise / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 051",
+    "S": "Chromatic 052"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Smoky Pigment",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 79.633,
+    "phase": 2.7632,
+    "centre_x": -0.0122,
+    "centre_y": -0.6423,
+    "hue_families": [
+      "Ultramarine",
+      "Tangerine",
+      "Acid Lime"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "name_note": "Žirje, Croatia; ASCII display name Zirje for alphabetic indexing.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 260,
+  "antimeridian_split_parts": 1,
+  "area_km2": 16.10069496571316,
+  "gshhg_area_km2": 16.10069496571316,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1.2982397079467773,
+  "max_land_elevation_m": 123.4759292602539,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2225/1493.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2225/1494.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2225/1495.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2226/1493.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2226/1494.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2226/1495.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2227/1493.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2227/1494.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2227/1495.tif"
+  ],
+  "resolution_m": 23.645373197732923,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=43.65206 +lon_0=15.66053 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4650.455518035779,
+    -2684.211291477727,
+    5640.010897617588,
+    2970.023497298861
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.911343299433231,
+  "artwork_print_scale_denominator": 69819.01534763658,
+  "color_mood": "Ultramarine / Tangerine / Acid Lime",
+  "background": "#114620",
+  "background_name": "Chromatic 051",
+  "color_family": "Multicolor",
+  "palette": [
+    "#313459",
+    "#875e4a",
+    "#c98864",
+    "#5f60a7",
+    "#539c0a",
+    "#79c346",
+    "#c59d8f",
+    "#3b40a7",
+    "#97c06f"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "41becf6e081ab39698ae55e7e659feea2b724ea34ed4c4bb90f083333ec57b6d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

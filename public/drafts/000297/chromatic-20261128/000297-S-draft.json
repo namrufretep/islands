@@ -1,0 +1,184 @@
+{
+  "id": "000297",
+  "letter": "O",
+  "name": "Ouvéa",
+  "slug": "ouvea",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "NC",
+  "country": "New Caledonia",
+  "region": "Loyalty Islands",
+  "reference": [
+    166.56166,
+    -20.6225
+  ],
+  "source_id": "geonames:2139032",
+  "source_name": "Ouvéa Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ab5885",
+        "#c778a3",
+        "#88d380",
+        "#82bd77",
+        "#c5cf81",
+        "#d9e29c",
+        "#d6a2bb"
+      ],
+      "#131950",
+      "Fuchsia / Leaf / Citron"
+    ],
+    "S": [
+      [
+        "#62540e",
+        "#efc716",
+        "#f264c0",
+        "#9c296a",
+        "#1810e6",
+        "#877af1",
+        "#ea32a1",
+        "#e6d49d"
+      ],
+      "#e5dbb4",
+      "Amber / Fuchsia / Ultramarine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 081",
+    "S": "Chromatic 082"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Electric Contrast",
+    "field_mode": "halo",
+    "field_angle_degrees": 26.0,
+    "phase": 0.8873,
+    "centre_x": -0.63,
+    "centre_y": 0.1367,
+    "hue_families": [
+      "Amber",
+      "Fuchsia",
+      "Ultramarine"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 741,
+  "antimeridian_split_parts": 1,
+  "area_km2": 140.72973297719153,
+  "gshhg_area_km2": 140.72973297719153,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -962.7880249023438,
+  "max_land_elevation_m": 220.9011993408203,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1970/1142.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1970/1143.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1970/1144.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1971/1142.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1971/1143.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1971/1144.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1972/1142.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1972/1143.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1972/1144.tif"
+  ],
+  "resolution_m": 83.52177978680545,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-20.6225 +lon_0=166.56166 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8553.000180178266,
+    -10381.202647826853,
+    11698.251579504124,
+    25967.47591539088
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.880444946701363,
+  "artwork_print_scale_denominator": 246619.4285043468,
+  "color_mood": "Amber / Fuchsia / Ultramarine",
+  "background": "#e5dbb4",
+  "background_name": "Chromatic 082",
+  "color_family": "Multicolor",
+  "palette": [
+    "#62540e",
+    "#efc716",
+    "#f264c0",
+    "#9c296a",
+    "#1810e6",
+    "#877af1",
+    "#ea32a1",
+    "#e6d49d"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "eed8afd45e35f2082edd4eb44011cf6c3ad1fa24d2df42de96179dfd38b32038",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

@@ -1,0 +1,190 @@
+{
+  "id": "000289",
+  "letter": "G",
+  "name": "Grande Comore",
+  "slug": "grande-comore",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "KM",
+  "country": "Comoros",
+  "region": "Comoro Islands",
+  "reference": [
+    43.33306,
+    -11.58611
+  ],
+  "source_id": "geonames:921881",
+  "source_name": "Grande Comore",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2b3658",
+        "#4f628f",
+        "#c34241",
+        "#b10b1a",
+        "#713ead",
+        "#9572be",
+        "#5374c2"
+      ],
+      "#7f2951",
+      "Cobalt / Vermilion / Violet"
+    ],
+    "S": [
+      [
+        "#3c790a",
+        "#68c11a",
+        "#e72880",
+        "#9f1553",
+        "#ae791e",
+        "#e5a840",
+        "#c52072",
+        "#93ef42"
+      ],
+      "#e94ce4",
+      "Acid Lime / Fuchsia / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 065",
+    "S": "Chromatic 066"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Moroni",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Smoky Pigment",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 150.005,
+    "phase": 2.5946,
+    "centre_x": -0.1094,
+    "centre_y": -0.076,
+    "hue_families": [
+      "Cobalt",
+      "Vermilion",
+      "Violet"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 978,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1030.1561247354014,
+  "gshhg_area_km2": 1030.1561247354014,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Moroni",
+    "country": "KM",
+    "lon": 43.25506,
+    "lat": -11.70216,
+    "population": 74749,
+    "source": "https://www.geonames.org/921772"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -546.6074829101562,
+  "max_land_elevation_m": 2345.345947265625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/634/544.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/634/545.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/634/546.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/635/544.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/635/545.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/635/546.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/636/544.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/636/545.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/636/546.tif"
+  ],
+  "resolution_m": 146.16804337489225,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-11.58611 +lon_0=43.33306 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12372.91781284884,
+    -38830.866226623555,
+    19231.784473212174,
+    24781.466250129553
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 36.54201084372306,
+  "artwork_print_scale_denominator": 431598.55327231967,
+  "color_mood": "Cobalt / Vermilion / Violet",
+  "background": "#7f2951",
+  "background_name": "Chromatic 065",
+  "color_family": "Multicolor",
+  "palette": [
+    "#2b3658",
+    "#4f628f",
+    "#c34241",
+    "#b10b1a",
+    "#713ead",
+    "#9572be",
+    "#5374c2"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c2945293364f1f5a5f5a1d1377b1e27acb547c915a007a46129d1af6442ef653",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

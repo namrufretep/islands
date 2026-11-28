@@ -1,0 +1,129 @@
+{
+  "id": "000272",
+  "letter": "P",
+  "name": "Palawan",
+  "slug": "palawan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Mimaropa",
+  "reference": [
+    118.46149,
+    9.53153
+  ],
+  "source_id": "geonames:1696180",
+  "source_name": "Palawan Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#341951",
+        "#763c20",
+        "#d75715",
+        "#633596",
+        "#710c43",
+        "#a91b60",
+        "#d36230",
+        "#4e2971",
+        "#b6336e"
+      ],
+      "#192f09",
+      "Violet / Tangerine / Fuchsia"
+    ],
+    "S": [
+      [
+        "#736443",
+        "#efb619",
+        "#a697be",
+        "#ae7596",
+        "#65489a",
+        "#8c74b3",
+        "#bea5b5",
+        "#c1ae82",
+        "#e2109b",
+        "#c4bfb0"
+      ],
+      "#78c31e",
+      "Amber / Violet / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 031",
+    "S": "Chromatic 032"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Puerto Princesa",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "halo",
+      "field_angle_degrees": 88.318,
+      "phase": 4.168,
+      "centre_x": 0.3611,
+      "centre_y": -0.3846,
+      "hue_families": [
+        "Violet",
+        "Tangerine",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Mist and Fluorescence",
+      "field_mode": "confluence",
+      "field_angle_degrees": 168.456,
+      "phase": 2.5891,
+      "centre_x": 0.0876,
+      "centre_y": 0.4117,
+      "hue_families": [
+        "Amber",
+        "Violet",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 10367,
+  "antimeridian_split_parts": 1,
+  "area_km2": 11518.104374852184,
+  "gshhg_area_km2": 11518.104374852184,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Puerto Princesa",
+    "country": "PH",
+    "lon": 118.73528,
+    "lat": 9.73917,
+    "population": 222673,
+    "source": "https://www.geonames.org/1692685"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,122 @@
+{
+  "id": "000268",
+  "letter": "L",
+  "name": "Lord Howe Island",
+  "slug": "lord-howe-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "Tasman Sea",
+  "reference": [
+    159.08579,
+    -31.55281
+  ],
+  "source_id": "geonames:2159558",
+  "source_name": "Lord Howe Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tasman Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#612470",
+        "#6d8347",
+        "#9cb36d",
+        "#a95db8",
+        "#0a339f",
+        "#4a64be",
+        "#b3cf89",
+        "#88488d",
+        "#7c8bb7"
+      ],
+      "#747426",
+      "Orchid / Acid Lime / Cobalt"
+    ],
+    "S": [
+      [
+        "#066d06",
+        "#26a623",
+        "#eeb90d",
+        "#e50c7c",
+        "#9f830e",
+        "#b09226",
+        "#f12f98",
+        "#21f31f",
+        "#a5175c",
+        "#56f246"
+      ],
+      "#e740a8",
+      "Leaf / Amber / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 023",
+    "S": "Chromatic 024"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "halo",
+      "field_angle_degrees": 313.349,
+      "phase": 3.012,
+      "centre_x": 0.1828,
+      "centre_y": -0.6063,
+      "hue_families": [
+        "Orchid",
+        "Acid Lime",
+        "Cobalt"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "confluence",
+      "field_angle_degrees": 264.898,
+      "phase": 3.7935,
+      "centre_x": -0.185,
+      "centre_y": 0.5387,
+      "hue_families": [
+        "Leaf",
+        "Amber",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 236,
+  "antimeridian_split_parts": 1,
+  "area_km2": 18.257241994366478,
+  "gshhg_area_km2": 18.257241994366478,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

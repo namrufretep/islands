@@ -1,0 +1,191 @@
+{
+  "id": "000265",
+  "letter": "I",
+  "name": "Ishigaki",
+  "slug": "ishigaki",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Yaeyama Islands",
+  "reference": [
+    124.2,
+    24.4
+  ],
+  "source_id": "geonames:1861417",
+  "source_name": "Ishigaki Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5b3e16",
+        "#865a10",
+        "#2196af",
+        "#22667e",
+        "#961814",
+        "#cd2e30",
+        "#cb841c"
+      ],
+      "#246f5a",
+      "Amber / Ice Blue / Vermilion"
+    ],
+    "S": [
+      [
+        "#457f43",
+        "#2af025",
+        "#8bb2bb",
+        "#4b8b9e",
+        "#99a06f",
+        "#c5c79e",
+        "#3fc6f2",
+        "#b1ccb0"
+      ],
+      "#e73f96",
+      "Leaf / Ice Blue / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 017",
+    "S": "Chromatic 018"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Ishigaki",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Mist and Fluorescence",
+    "field_mode": "halo",
+    "field_angle_degrees": 1.728,
+    "phase": 2.1498,
+    "centre_x": 0.4002,
+    "centre_y": -0.2012,
+    "hue_families": [
+      "Leaf",
+      "Ice Blue",
+      "Citron"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 820,
+  "antimeridian_split_parts": 1,
+  "area_km2": 229.04518494383217,
+  "gshhg_area_km2": 229.04518494383217,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ishigaki",
+    "country": "JP",
+    "lon": 124.15717,
+    "lat": 24.34478,
+    "population": 47637,
+    "source": "https://www.geonames.org/1861416"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -61.0,
+  "max_land_elevation_m": 522.0821533203125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/879.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1729/881.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1730/879.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1730/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1730/881.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1731/879.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1731/880.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1731/881.tif"
+  ],
+  "resolution_m": 71.92559675650898,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=24.4 +lon_0=124.2 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13138.900358793004,
+    -8451.641816583924,
+    14394.522308199648,
+    22850.37789184878
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 17.981399189127245,
+  "artwork_print_scale_denominator": 212378.73058024305,
+  "color_mood": "Leaf / Ice Blue / Citron",
+  "background": "#e73f96",
+  "background_name": "Chromatic 018",
+  "color_family": "Multicolor",
+  "palette": [
+    "#457f43",
+    "#2af025",
+    "#8bb2bb",
+    "#4b8b9e",
+    "#99a06f",
+    "#c5c79e",
+    "#3fc6f2",
+    "#b1ccb0"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ffb8327b5a799b8e2d24a0e76d1134157510b9f1ca1071dd50d08ab1f1e6d5c1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

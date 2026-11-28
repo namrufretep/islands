@@ -1,0 +1,200 @@
+{
+  "id": "000302",
+  "letter": "T",
+  "name": "Terschelling",
+  "slug": "terschelling",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "NL",
+  "country": "Netherlands",
+  "region": "West Frisian Islands",
+  "reference": [
+    5.36489,
+    53.40807
+  ],
+  "source_id": "geonames:2746414",
+  "source_name": "Terschelling",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3d1179",
+        "#a22523",
+        "#f02828",
+        "#7f2bcb",
+        "#0b914b",
+        "#27c469",
+        "#e95042",
+        "#581cad",
+        "#30da81"
+      ],
+      "#1c2407",
+      "Violet / Vermilion / Emerald"
+    ],
+    "S": [
+      [
+        "#4a6822",
+        "#73b42e",
+        "#d629f4",
+        "#c07149",
+        "#7e328c",
+        "#a346ac",
+        "#d48f70",
+        "#9db96f",
+        "#bb480a",
+        "#abd284"
+      ],
+      "#21d355",
+      "Acid Lime / Orchid / Tangerine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 091",
+    "S": "Chromatic 092"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "West-Terschelling",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 117.399,
+    "phase": 5.5549,
+    "centre_x": -0.1934,
+    "centre_y": -0.1567,
+    "hue_families": [
+      "Acid Lime",
+      "Orchid",
+      "Tangerine"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 342,
+  "antimeridian_split_parts": 1,
+  "area_km2": 91.40329941957008,
+  "gshhg_area_km2": 91.40329941957008,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "West-Terschelling",
+    "country": "NL",
+    "lon": 5.21482,
+    "lat": 53.35911,
+    "population": 2525,
+    "source": "https://www.geonames.org/2744608"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -17.360076904296875,
+  "max_land_elevation_m": 24.931516647338867,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1053/661.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1053/662.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1053/663.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1053/664.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1054/661.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1054/662.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1054/663.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1054/664.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1055/661.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1055/662.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1055/663.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1055/664.tif"
+  ],
+  "resolution_m": 64.445777885419,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=53.40807 +lon_0=5.36489 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14141.422240154881,
+    -7332.903972818502,
+    13905.380295579469,
+    5101.038879011759
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.11144447135475,
+  "artwork_print_scale_denominator": 190292.65123647347,
+  "color_mood": "Acid Lime / Orchid / Tangerine",
+  "background": "#21d355",
+  "background_name": "Chromatic 092",
+  "color_family": "Multicolor",
+  "palette": [
+    "#4a6822",
+    "#73b42e",
+    "#d629f4",
+    "#c07149",
+    "#7e328c",
+    "#a346ac",
+    "#d48f70",
+    "#9db96f",
+    "#bb480a",
+    "#abd284"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e1e51bd7964e395120c250338ab309e0ad01af320d0f0115ef0a1642fff628da",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

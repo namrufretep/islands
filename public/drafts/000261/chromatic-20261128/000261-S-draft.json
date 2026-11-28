@@ -1,0 +1,194 @@
+{
+  "id": "000261",
+  "letter": "E",
+  "name": "Elba",
+  "slug": "elba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Tuscan Archipelago",
+  "reference": [
+    10.27788,
+    42.77663
+  ],
+  "source_id": "geonames:3177426",
+  "source_name": "Isola d'Elba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#42592f",
+        "#6a963e",
+        "#b56d60",
+        "#b3250b",
+        "#497f99",
+        "#75aec9",
+        "#95b574"
+      ],
+      "#521713",
+      "Acid Lime / Vermilion / Ice Blue"
+    ],
+    "S": [
+      [
+        "#6b123e",
+        "#c7116e",
+        "#2155e3",
+        "#183a8f",
+        "#35b91e",
+        "#51f332",
+        "#2d5bcd",
+        "#e15894"
+      ],
+      "#e5b5bc",
+      "Fuchsia / Cobalt / Leaf"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 009",
+    "S": "Chromatic 010"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Portoferraio",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Jewel Colour",
+    "field_mode": "halo",
+    "field_angle_degrees": 195.948,
+    "phase": 0.1866,
+    "centre_x": -0.6406,
+    "centre_y": 0.6305,
+    "hue_families": [
+      "Fuchsia",
+      "Cobalt",
+      "Leaf"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 749,
+  "antimeridian_split_parts": 1,
+  "area_km2": 233.99778947813894,
+  "gshhg_area_km2": 233.99778947813894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Portoferraio",
+    "country": "IT",
+    "lon": 10.31297,
+    "lat": 42.81233,
+    "population": 8296,
+    "source": "https://www.geonames.org/3170094"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -186.25711059570312,
+  "max_land_elevation_m": 977.3762817382812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1081/752.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1081/753.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1081/754.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1081/755.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1082/752.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1082/753.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1082/754.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1082/755.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1083/752.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1083/753.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1083/754.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1083/755.tif"
+  ],
+  "resolution_m": 64.2163800225296,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=42.77663 +lon_0=10.27788 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14388.190617818009,
+    -7441.303591220082,
+    13558.777967986876,
+    10980.065352524456
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.0540950056324,
+  "artwork_print_scale_denominator": 189615.295342115,
+  "color_mood": "Fuchsia / Cobalt / Leaf",
+  "background": "#e5b5bc",
+  "background_name": "Chromatic 010",
+  "color_family": "Multicolor",
+  "palette": [
+    "#6b123e",
+    "#c7116e",
+    "#2155e3",
+    "#183a8f",
+    "#35b91e",
+    "#51f332",
+    "#2d5bcd",
+    "#e15894"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -7,
+      7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ad65d914a03365d729cbcacde86879dc536c43f03823b7426adc18616678ddfc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

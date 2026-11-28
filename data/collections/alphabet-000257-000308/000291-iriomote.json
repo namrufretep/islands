@@ -1,0 +1,125 @@
+{
+  "id": "000291",
+  "letter": "I",
+  "name": "Iriomote",
+  "slug": "iriomote",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Yaeyama Islands",
+  "reference": [
+    123.83333,
+    24.33333
+  ],
+  "source_id": "geonames:1861484",
+  "source_name": "Iriomote Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3d1026",
+        "#53122e",
+        "#28225c",
+        "#5542fb",
+        "#44fb3f",
+        "#2c692b",
+        "#7b1d47"
+      ],
+      "#15114a",
+      "Fuchsia / Ultramarine / Leaf"
+    ],
+    "S": [
+      [
+        "#0f5d12",
+        "#17991b",
+        "#a13a70",
+        "#6a224c",
+        "#54218f",
+        "#742dd0",
+        "#aa236b",
+        "#30cc3b"
+      ],
+      "#bbe7bd",
+      "Leaf / Fuchsia / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 069",
+    "S": "Chromatic 070"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Shirahama",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "confluence",
+      "field_angle_degrees": 258.768,
+      "phase": 5.0018,
+      "centre_x": 0.2804,
+      "centre_y": 0.4654,
+      "hue_families": [
+        "Fuchsia",
+        "Ultramarine",
+        "Leaf"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 234.595,
+      "phase": 5.2949,
+      "centre_x": 0.6404,
+      "centre_y": 0.5001,
+      "hue_families": [
+        "Leaf",
+        "Fuchsia",
+        "Violet"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 952,
+  "antimeridian_split_parts": 1,
+  "area_km2": 290.6837645113578,
+  "gshhg_area_km2": 290.6837645113578,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Shirahama",
+    "country": "JP",
+    "lon": 123.74836,
+    "lat": 24.36097,
+    "population": 3942,
+    "source": "https://www.geonames.org/1851939"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

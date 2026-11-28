@@ -1,0 +1,118 @@
+{
+  "id": "000257",
+  "letter": "A",
+  "name": "Atiu",
+  "slug": "atiu",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CK",
+  "country": "Cook Islands",
+  "region": "Southern Cook Islands",
+  "reference": [
+    -158.11944,
+    -19.99167
+  ],
+  "source_id": "geonames:4035722",
+  "source_name": "Atiu Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0e6e42",
+        "#19b77c",
+        "#ccd753",
+        "#b3b606",
+        "#ea1d0f",
+        "#e4847d",
+        "#57f0b2"
+      ],
+      "#370b27",
+      "Emerald / Citron / Vermilion"
+    ],
+    "S": [
+      [
+        "#2e3e12",
+        "#456224",
+        "#2b586c",
+        "#143447",
+        "#6456fc",
+        "#7761fc",
+        "#20475c",
+        "#5c841f"
+      ],
+      "#1ec124",
+      "Acid Lime / Ice Blue / Ultramarine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 001",
+    "S": "Chromatic 002"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 210.947,
+      "phase": 2.7418,
+      "centre_x": -0.1736,
+      "centre_y": -0.6084,
+      "hue_families": [
+        "Emerald",
+        "Citron",
+        "Vermilion"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "halo",
+      "field_angle_degrees": 334.889,
+      "phase": 4.9656,
+      "centre_x": 0.511,
+      "centre_y": 0.167,
+      "hue_families": [
+        "Acid Lime",
+        "Ice Blue",
+        "Ultramarine"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 92,
+  "antimeridian_split_parts": 1,
+  "area_km2": 29.528766382373554,
+  "gshhg_area_km2": 29.528766382373554,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

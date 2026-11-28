@@ -1,0 +1,125 @@
+{
+  "id": "000275",
+  "letter": "S",
+  "name": "San Cristóbal",
+  "slug": "san-cristobal",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "EC",
+  "country": "Ecuador",
+  "region": "Galápagos Islands",
+  "reference": [
+    -89.42442,
+    -0.82532
+  ],
+  "source_id": "geonames:3651946",
+  "source_name": "San Cristóbal Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#346429",
+        "#4c8842",
+        "#7058a9",
+        "#480cb5",
+        "#a18844",
+        "#baa776",
+        "#68bb60"
+      ],
+      "#2a082b",
+      "Leaf / Violet / Amber"
+    ],
+    "S": [
+      [
+        "#750845",
+        "#be157a",
+        "#bed73e",
+        "#82941d",
+        "#198eba",
+        "#39b0db",
+        "#bbd113",
+        "#df5cb2"
+      ],
+      "#d52721",
+      "Fuchsia / Citron / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 037",
+    "S": "Chromatic 038"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Puerto Baquerizo Moreno",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "confluence",
+      "field_angle_degrees": 114.845,
+      "phase": 4.5031,
+      "centre_x": 0.286,
+      "centre_y": 0.1752,
+      "hue_families": [
+        "Leaf",
+        "Violet",
+        "Amber"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 62.272,
+      "phase": 3.2411,
+      "centre_x": 0.5834,
+      "centre_y": 0.1206,
+      "hue_families": [
+        "Fuchsia",
+        "Citron",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 805,
+  "antimeridian_split_parts": 1,
+  "area_km2": 565.5520824593141,
+  "gshhg_area_km2": 565.5520824593141,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Puerto Baquerizo Moreno",
+    "country": "EC",
+    "lon": -89.61021,
+    "lat": -0.90172,
+    "population": 7290,
+    "source": "https://www.geonames.org/3652758"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

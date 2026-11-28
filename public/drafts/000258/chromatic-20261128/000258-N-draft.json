@@ -1,0 +1,196 @@
+{
+  "id": "000258",
+  "letter": "B",
+  "name": "Bioko",
+  "slug": "bioko",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GQ",
+  "country": "Equatorial Guinea",
+  "region": "Gulf of Guinea",
+  "reference": [
+    8.7,
+    3.5
+  ],
+  "source_id": "geonames:2309792",
+  "source_name": "Isla de Bioko",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Guinea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#381863",
+        "#7e1c1d",
+        "#c72d31",
+        "#5f3197",
+        "#4a850d",
+        "#649534",
+        "#e92418",
+        "#521c8e",
+        "#76cd24"
+      ],
+      "#124c3b",
+      "Violet / Vermilion / Acid Lime"
+    ],
+    "S": [
+      [
+        "#3f6a78",
+        "#14adef",
+        "#9a9cbc",
+        "#baa87f",
+        "#62628b",
+        "#7278ab",
+        "#bdb6a6",
+        "#92bac4",
+        "#efa91a",
+        "#b1c2c6"
+      ],
+      "#bbd2e7",
+      "Ice Blue / Ultramarine / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 003",
+    "S": "Chromatic 004"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Luba",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 314.035,
+    "phase": 2.6746,
+    "centre_x": -0.6042,
+    "centre_y": 0.4566,
+    "hue_families": [
+      "Violet",
+      "Vermilion",
+      "Acid Lime"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1341,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1948.099032701261,
+  "gshhg_area_km2": 1948.099032701261,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Luba",
+    "country": "GQ",
+    "lon": 8.55465,
+    "lat": 3.45683,
+    "population": 8655,
+    "source": "https://www.geonames.org/2309528"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -140.89077758789062,
+  "max_land_elevation_m": 2972.503662109375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/501.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/502.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/503.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/501.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/502.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/503.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/501.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/502.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/503.tif"
+  ],
+  "resolution_m": 147.1513398842467,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=3.5 +lon_0=8.7 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -31168.85372217785,
+    -32297.945550459397,
+    26711.86289896546,
+    31742.317567164773
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 36.78783497106168,
+  "artwork_print_scale_denominator": 434501.98784718517,
+  "color_mood": "Violet / Vermilion / Acid Lime",
+  "background": "#124c3b",
+  "background_name": "Chromatic 003",
+  "color_family": "Multicolor",
+  "palette": [
+    "#381863",
+    "#7e1c1d",
+    "#c72d31",
+    "#5f3197",
+    "#4a850d",
+    "#649534",
+    "#e92418",
+    "#521c8e",
+    "#76cd24"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "9bde265b4da4a0938157800bb59a8228d1ac8e3cad077af12d428c887deb287c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

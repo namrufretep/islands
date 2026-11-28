@@ -1,0 +1,201 @@
+{
+  "id": "000301",
+  "letter": "S",
+  "name": "Sumba",
+  "slug": "sumba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    119.9659,
+    -9.69823
+  ],
+  "source_id": "geonames:2056940",
+  "source_name": "Pulau Sumba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1e1f6a",
+        "#2e2bb6",
+        "#20f3cb",
+        "#3a8a79",
+        "#9a8545",
+        "#f5ca47",
+        "#4f54d0"
+      ],
+      "#762d26",
+      "Ultramarine / Turquoise / Amber"
+    ],
+    "S": [
+      [
+        "#665834",
+        "#a98c45",
+        "#9e6bb3",
+        "#78368d",
+        "#78e60f",
+        "#9cc777",
+        "#965da8",
+        "#cdb385"
+      ],
+      "#503fe7",
+      "Amber / Orchid / Acid Lime"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 089",
+    "S": "Chromatic 090"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Waingapu",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 143.277,
+    "phase": 1.9942,
+    "centre_x": 0.2899,
+    "centre_y": 0.6262,
+    "hue_families": [
+      "Ultramarine",
+      "Turquoise",
+      "Amber"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3605,
+  "antimeridian_split_parts": 1,
+  "area_km2": 10774.800113145951,
+  "gshhg_area_km2": 10774.800113145951,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Waingapu",
+    "country": "ID",
+    "lon": 120.2641,
+    "lat": -9.6567,
+    "population": 35932,
+    "source": "https://www.geonames.org/1622318"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -579.75830078125,
+  "max_land_elevation_m": 1146.301513671875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/424/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/424/269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/424/270.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/424/271.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/425/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/425/269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/425/270.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/425/271.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/426/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/426/269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/426/270.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/426/271.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/427/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/427/269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/427/270.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/427/271.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/428/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/428/269.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/428/270.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/428/271.tif"
+  ],
+  "resolution_m": 477.74403693557156,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-9.69823 +lon_0=119.9659 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -113593.99287679681,
+    -68584.14708296362,
+    94320.21199756392,
+    46854.052076462016
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 119.43600923389289,
+  "artwork_print_scale_denominator": 1410661.5263845618,
+  "color_mood": "Ultramarine / Turquoise / Amber",
+  "background": "#762d26",
+  "background_name": "Chromatic 089",
+  "color_family": "Multicolor",
+  "palette": [
+    "#1e1f6a",
+    "#2e2bb6",
+    "#20f3cb",
+    "#3a8a79",
+    "#9a8545",
+    "#f5ca47",
+    "#4f54d0"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "cb65158d9162065862975e7d57bd2f44cf51268fd3ad3cbfb547113580ee226c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

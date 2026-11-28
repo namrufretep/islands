@@ -1,0 +1,206 @@
+{
+  "id": "000296",
+  "letter": "N",
+  "name": "Negros",
+  "slug": "negros",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Visayas",
+  "reference": [
+    123.04179,
+    10.09568
+  ],
+  "source_id": "geonames:1697809",
+  "source_name": "Negros Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Sulu Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4a5a34",
+        "#34936f",
+        "#7abba2",
+        "#8aa75c",
+        "#0b36ab",
+        "#4c6daf",
+        "#8cc2ab",
+        "#6b884e",
+        "#6982ca"
+      ],
+      "#1c0b37",
+      "Acid Lime / Emerald / Cobalt"
+    ],
+    "S": [
+      [
+        "#76090e",
+        "#9b222a",
+        "#1bef1e",
+        "#101ad4",
+        "#1a8c16",
+        "#31be22",
+        "#383eec",
+        "#e22a30",
+        "#27219b",
+        "#ec4549"
+      ],
+      "#cb7f20",
+      "Vermilion / Leaf / Ultramarine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 079",
+    "S": "Chromatic 080"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Bacolod City",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Jewel Colour",
+    "field_mode": "confluence",
+    "field_angle_degrees": 17.34,
+    "phase": 3.0038,
+    "centre_x": -0.2129,
+    "centre_y": -0.0044,
+    "hue_families": [
+      "Vermilion",
+      "Leaf",
+      "Ultramarine"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4687,
+  "antimeridian_split_parts": 1,
+  "area_km2": 12725.481616175039,
+  "gshhg_area_km2": 12725.481616175039,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 3,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Bacolod City",
+    "country": "PH",
+    "lon": 122.95,
+    "lat": 10.66667,
+    "population": 454898,
+    "source": "https://www.geonames.org/1729564"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -94.59463500976562,
+  "max_land_elevation_m": 2294.35986328125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/429/240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/429/241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/429/242.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/429/243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/430/240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/430/241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/430/242.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/430/243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/431/240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/431/241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/431/242.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/431/243.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/432/240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/432/241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/432/242.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/432/243.tif"
+  ],
+  "resolution_m": 499.40887780544176,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=10.09568 +lon_0=123.04179 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -73096.54638352145,
+    -116809.4996326104,
+    57266.94374225995,
+    100533.24398831786
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 124.85221945136044,
+  "artwork_print_scale_denominator": 1474632.5132050444,
+  "color_mood": "Vermilion / Leaf / Ultramarine",
+  "background": "#cb7f20",
+  "background_name": "Chromatic 080",
+  "color_family": "Multicolor",
+  "palette": [
+    "#76090e",
+    "#9b222a",
+    "#1bef1e",
+    "#101ad4",
+    "#1a8c16",
+    "#31be22",
+    "#383eec",
+    "#e22a30",
+    "#27219b",
+    "#ec4549"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ce511ac2ef35015539b51f88f52de16a62660b2b07f0407545e49e6a9c1286d6",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

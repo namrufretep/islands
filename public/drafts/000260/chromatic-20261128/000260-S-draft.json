@@ -1,0 +1,182 @@
+{
+  "id": "000260",
+  "letter": "D",
+  "name": "Dassen Island",
+  "slug": "dassen-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ZA",
+  "country": "South Africa",
+  "region": "Western Cape",
+  "reference": [
+    18.08755,
+    -33.42459
+  ],
+  "source_id": "geonames:3368950",
+  "source_name": "Dasseneiland",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2b0d78",
+        "#1e719a",
+        "#229ff2",
+        "#5510e7",
+        "#088b4a",
+        "#11d580",
+        "#4da5d9",
+        "#4210a6",
+        "#45d88e"
+      ],
+      "#222c08",
+      "Violet / Ice Blue / Emerald"
+    ],
+    "S": [
+      [
+        "#2b5c27",
+        "#4d8845",
+        "#f43e37",
+        "#b59a59",
+        "#7b3a35",
+        "#bf4e47",
+        "#d7c671",
+        "#6fc95f",
+        "#bc9e0a",
+        "#81d87a"
+      ],
+      "#21d3b0",
+      "Leaf / Vermilion / Amber"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 007",
+    "S": "Chromatic 008"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "confluence",
+    "field_angle_degrees": 271.247,
+    "phase": 5.2564,
+    "centre_x": -0.4555,
+    "centre_y": 0.3905,
+    "hue_families": [
+      "Leaf",
+      "Vermilion",
+      "Amber"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 66,
+  "antimeridian_split_parts": 1,
+  "area_km2": 2.983962461437611,
+  "gshhg_area_km2": 2.983962461437611,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3.0,
+  "max_land_elevation_m": 12.857762336730957,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2253/2451.tif"
+  ],
+  "resolution_m": 5.528639169863787,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-33.42459 +lon_0=18.08755 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1286.2974926044749,
+    -372.0016933371322,
+    1116.5888198392342,
+    2034.0620733875878
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.3821597924659468,
+  "artwork_print_scale_denominator": 16324.721958259215,
+  "color_mood": "Leaf / Vermilion / Amber",
+  "background": "#21d3b0",
+  "background_name": "Chromatic 008",
+  "color_family": "Multicolor",
+  "palette": [
+    "#2b5c27",
+    "#4d8845",
+    "#f43e37",
+    "#b59a59",
+    "#7b3a35",
+    "#bf4e47",
+    "#d7c671",
+    "#6fc95f",
+    "#bc9e0a",
+    "#81d87a"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e1332688b043baea736664f4cd6f97f149a9215f9956818033aceeb6a029ef38",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

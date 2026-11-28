@@ -1,0 +1,198 @@
+{
+  "id": "000264",
+  "letter": "H",
+  "name": "Hainan",
+  "slug": "hainan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Southern China",
+  "reference": [
+    109.7,
+    19.2
+  ],
+  "source_id": "geonames:1809055",
+  "source_name": "Hainan Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#447607",
+        "#c61a76",
+        "#e970bc",
+        "#99d854",
+        "#53199a",
+        "#8439e6",
+        "#eea3cb",
+        "#79c129",
+        "#9d69f7"
+      ],
+      "#4f1323",
+      "Acid Lime / Fuchsia / Violet"
+    ],
+    "S": [
+      [
+        "#193429",
+        "#13543a",
+        "#1e216f",
+        "#3c621b",
+        "#1e1d47",
+        "#5b54fc",
+        "#9dfc58",
+        "#1c6e50",
+        "#304419",
+        "#337658"
+      ],
+      "#afe3d7",
+      "Emerald / Ultramarine / Acid Lime"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 015",
+    "S": "Chromatic 016"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Haikou",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Electric Contrast",
+    "field_mode": "halo",
+    "field_angle_degrees": 308.159,
+    "phase": 4.0443,
+    "centre_x": -0.6266,
+    "centre_y": 0.5951,
+    "hue_families": [
+      "Acid Lime",
+      "Fuchsia",
+      "Violet"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 8375,
+  "antimeridian_split_parts": 1,
+  "area_km2": 33979.3736463726,
+  "gshhg_area_km2": 33979.3736463726,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 2,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Haikou",
+    "country": "CN",
+    "lon": 110.34651,
+    "lat": 20.03421,
+    "population": 3001600,
+    "source": "https://www.geonames.org/1809078"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -107.79512786865234,
+  "max_land_elevation_m": 1720.1246337890625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/205/113.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/205/114.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/205/115.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/206/113.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/206/114.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/206/115.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/207/113.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/207/114.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/207/115.tif"
+  ],
+  "resolution_m": 586.7077253500363,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=19.2 +lon_0=109.7 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -114485.47004392692,
+    -115067.9209673202,
+    140849.73202840888,
+    107076.0030668872
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 146.67693133750907,
+  "artwork_print_scale_denominator": 1732404.7008367216,
+  "color_mood": "Acid Lime / Fuchsia / Violet",
+  "background": "#4f1323",
+  "background_name": "Chromatic 015",
+  "color_family": "Multicolor",
+  "palette": [
+    "#447607",
+    "#c61a76",
+    "#e970bc",
+    "#99d854",
+    "#53199a",
+    "#8439e6",
+    "#eea3cb",
+    "#79c129",
+    "#9d69f7"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      4,
+      4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ea752730359b5c8d38da82477f13d0c1dfa70472b6fc7bba514f565e649e3f85",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

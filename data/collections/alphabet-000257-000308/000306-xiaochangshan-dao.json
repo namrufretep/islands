@@ -1,0 +1,129 @@
+{
+  "id": "000306",
+  "letter": "X",
+  "name": "Xiaochangshan Dao",
+  "slug": "xiaochangshan-dao",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Changhai Islands",
+  "reference": [
+    122.71972,
+    39.23472
+  ],
+  "source_id": "geonames:1790307",
+  "source_name": "Xiaochangshan Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Yellow Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0c680d",
+        "#aa0ec7",
+        "#d57bdf",
+        "#59dd57",
+        "#9f6b06",
+        "#d2a045",
+        "#e2a1eb",
+        "#21be2a",
+        "#eac378"
+      ],
+      "#532513",
+      "Leaf / Orchid / Amber"
+    ],
+    "S": [
+      [
+        "#200f3a",
+        "#351f55",
+        "#27721e",
+        "#196059",
+        "#21401b",
+        "#63fb45",
+        "#60fcf3",
+        "#4b336a",
+        "#244c49",
+        "#4f3578"
+      ],
+      "#d7bce7",
+      "Violet / Leaf / Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 099",
+    "S": "Chromatic 100"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Xiaochangshan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 207.091,
+      "phase": 2.835,
+      "centre_x": 0.0505,
+      "centre_y": 0.2139,
+      "hue_families": [
+        "Leaf",
+        "Orchid",
+        "Amber"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 97.813,
+      "phase": 2.4807,
+      "centre_x": -0.0775,
+      "centre_y": -0.4972,
+      "hue_families": [
+        "Violet",
+        "Leaf",
+        "Turquoise"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 251,
+  "antimeridian_split_parts": 1,
+  "area_km2": 21.33144920570248,
+  "gshhg_area_km2": 21.33144920570248,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Xiaochangshan",
+    "country": "CN",
+    "lon": 122.72361,
+    "lat": 39.23583,
+    "population": 16071,
+    "source": "https://www.geonames.org/1921495"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -21,5 +21,5 @@ test('all area shards contain finite sourced estimates; report matches actual co
   }
  }
  assert.equal(count,read('docs/index-data-review.json').approximate_areas_published);
- assert.ok(count>30000);assert.equal(Object.keys(review.curated).length,264);
+ assert.ok(count>30000);assert.equal(Object.keys(review.curated).length,316);
 });

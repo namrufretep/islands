@@ -1,0 +1,185 @@
+{
+  "id": "000292",
+  "letter": "J",
+  "name": "Jicarón",
+  "slug": "jicaron",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "PA",
+  "country": "Panama",
+  "region": "Coiba National Park",
+  "reference": [
+    -81.8,
+    7.27056
+  ],
+  "source_id": "geonames:3708386",
+  "source_name": "Isla Jicarón",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of Chiriquí",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#733611",
+        "#ca0a76",
+        "#ea71c1",
+        "#e58e3e",
+        "#778b14",
+        "#c5d45b",
+        "#f4a2d1",
+        "#d76611",
+        "#d4ed6c"
+      ],
+      "#25713c",
+      "Tangerine / Fuchsia / Citron"
+    ],
+    "S": [
+      [
+        "#103842",
+        "#204954",
+        "#6b3924",
+        "#575921",
+        "#4d2818",
+        "#fc865a",
+        "#f0fc6c",
+        "#1d6173",
+        "#3f431b",
+        "#32687b"
+      ],
+      "#e88f45",
+      "Ice Blue / Tangerine / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 071",
+    "S": "Chromatic 072"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "confluence",
+    "field_angle_degrees": 168.232,
+    "phase": 2.3301,
+    "centre_x": -0.1343,
+    "centre_y": -0.1957,
+    "hue_families": [
+      "Ice Blue",
+      "Tangerine",
+      "Citron"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 173,
+  "antimeridian_split_parts": 1,
+  "area_km2": 22.11927949760244,
+  "gshhg_area_km2": 22.11927949760244,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -15.057475090026855,
+  "max_land_elevation_m": 403.5832214355469,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1116/1964.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1116/1965.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1117/1964.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1117/1965.tif"
+  ],
+  "resolution_m": 17.59777711829485,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=7.27056 +lon_0=-81.8 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2938.6225421359554,
+    -4682.240687798017,
+    3515.209432318966,
+    2976.3119140839012
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.3994442795737125,
+  "artwork_print_scale_denominator": 51961.94030992574,
+  "color_mood": "Ice Blue / Tangerine / Citron",
+  "background": "#e88f45",
+  "background_name": "Chromatic 072",
+  "color_family": "Multicolor",
+  "palette": [
+    "#103842",
+    "#204954",
+    "#6b3924",
+    "#575921",
+    "#4d2818",
+    "#fc865a",
+    "#f0fc6c",
+    "#1d6173",
+    "#3f431b",
+    "#32687b"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a2e7158bd5d20bb81d8c91c2db774328f983a3c248c21dd4b94b1e0e465c8bab",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

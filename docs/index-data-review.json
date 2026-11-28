@@ -570,9 +570,9 @@
   "approximate_areas_published": 31818,
   "area_withheld_ambiguous_named_subfeatures": 14879,
   "area_unresolved_no_unique_match": 120222,
-  "curated_registry_entries_checked": 264,
-  "curated_entries_with_areas": 263,
-  "curated_alias_ids": 235,
+  "curated_registry_entries_checked": 316,
+  "curated_entries_with_areas": 315,
+  "curated_alias_ids": 288,
   "area_method": "GSHHG 2.3.7; point-in-polygon match; approximate; not a survey",
   "limitations": [
     "Gazetteer points and 2017 shorelines can be imprecise or outdated.",

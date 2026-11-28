@@ -1,0 +1,125 @@
+{
+  "id": "000287",
+  "letter": "E",
+  "name": "Euboea",
+  "slug": "euboea",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Central Greece",
+  "reference": [
+    24.0,
+    38.5
+  ],
+  "source_id": "geonames:262565",
+  "source_name": "Euboea",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#632522",
+        "#8f3d3c",
+        "#d61cf3",
+        "#782d90",
+        "#939b47",
+        "#ecf64b",
+        "#bc6160"
+      ],
+      "#0a332c",
+      "Vermilion / Orchid / Citron"
+    ],
+    "S": [
+      [
+        "#6a6b30",
+        "#929855",
+        "#696cc0",
+        "#40418a",
+        "#0e7ed5",
+        "#80a0b5",
+        "#625fb5",
+        "#c5cc77"
+      ],
+      "#5bc51f",
+      "Citron / Ultramarine / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 061",
+    "S": "Chromatic 062"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Chalkída",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "confluence",
+      "field_angle_degrees": 189.314,
+      "phase": 3.325,
+      "centre_x": -0.6482,
+      "centre_y": 0.3437,
+      "hue_families": [
+        "Vermilion",
+        "Orchid",
+        "Citron"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 65.588,
+      "phase": 2.7457,
+      "centre_x": -0.4766,
+      "centre_y": -0.2691,
+      "hue_families": [
+        "Citron",
+        "Ultramarine",
+        "Ice Blue"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4134,
+  "antimeridian_split_parts": 1,
+  "area_km2": 3691.2180798897966,
+  "gshhg_area_km2": 3691.2180798897966,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Chalkída",
+    "country": "GR",
+    "lon": 23.60284,
+    "lat": 38.46354,
+    "population": 59125,
+    "source": "https://www.geonames.org/260133"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

@@ -1,0 +1,194 @@
+{
+  "id": "000279",
+  "letter": "W",
+  "name": "Wrangel Island",
+  "slug": "wrangel-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "RU",
+  "country": "Russia",
+  "region": "Chukotka",
+  "reference": [
+    -179.38477,
+    71.24436
+  ],
+  "source_id": "geonames:4031503",
+  "source_name": "Wrangel Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Arctic Ocean",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0c2b58",
+        "#123986",
+        "#a41c28",
+        "#7e121a",
+        "#15a25d",
+        "#22d169",
+        "#246abc"
+      ],
+      "#145113",
+      "Cobalt / Vermilion / Emerald"
+    ],
+    "S": [
+      [
+        "#8b4442",
+        "#f02323",
+        "#9aafb9",
+        "#5395a6",
+        "#72af91",
+        "#9dceb8",
+        "#3ac3f1",
+        "#caa2a3"
+      ],
+      "#e4c1b2",
+      "Vermilion / Ice Blue / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 045",
+    "S": "Chromatic 046"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "confluence",
+    "field_angle_degrees": 208.464,
+    "phase": 0.865,
+    "centre_x": -0.6467,
+    "centre_y": -0.2581,
+    "hue_families": [
+      "Cobalt",
+      "Vermilion",
+      "Emerald"
+    ],
+    "palette_stop_count": 7,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4018,
+  "antimeridian_split_parts": 2,
+  "area_km2": 7837.86805474481,
+  "gshhg_area_km2": 7837.86805474481,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -39.82444381713867,
+  "max_land_elevation_m": 1030.060302734375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/254/53.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/254/54.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/254/55.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/254/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/255/53.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/255/54.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/255/55.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/255/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/0/53.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/0/54.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/0/55.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/0/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/1/53.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/1/54.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/1/55.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/1/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/2/53.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/2/54.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/2/55.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/2/56.tif"
+  ],
+  "resolution_m": 327.89510273006874,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=71.24436 +lon_0=-179.38477 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -71278.8968162453,
+    -51174.78492333886,
+    71421.05189188063,
+    40151.82083253157
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 81.97377568251719,
+  "artwork_print_scale_denominator": 968194.2009746125,
+  "color_mood": "Cobalt / Vermilion / Emerald",
+  "background": "#145113",
+  "background_name": "Chromatic 045",
+  "color_family": "Multicolor",
+  "palette": [
+    "#0c2b58",
+    "#123986",
+    "#a41c28",
+    "#7e121a",
+    "#15a25d",
+    "#22d169",
+    "#246abc"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "9705a7de7ec45cf6896f26075364f384c937a25a6cad2aa489a9ad9dccec770a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 7,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

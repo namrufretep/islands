@@ -1,0 +1,205 @@
+{
+  "id": "000278",
+  "letter": "V",
+  "name": "Vanua Levu",
+  "slug": "vanua-levu",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Northern Division",
+  "reference": [
+    179.25,
+    -16.55
+  ],
+  "source_id": "geonames:2197138",
+  "source_name": "Vanua Levu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#077847",
+        "#bc8f12",
+        "#eacd7d",
+        "#53e1a1",
+        "#157d9e",
+        "#38bbe1",
+        "#f1e19f",
+        "#0ad56d",
+        "#7cc2e0"
+      ],
+      "#290821",
+      "Emerald / Amber / Ice Blue"
+    ],
+    "S": [
+      [
+        "#11301d",
+        "#1e5934",
+        "#442660",
+        "#686f1f",
+        "#301a4d",
+        "#9e52fb",
+        "#e9fc6d",
+        "#21683b",
+        "#454d1b",
+        "#2a794d"
+      ],
+      "#20cac1",
+      "Emerald / Violet / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 043",
+    "S": "Chromatic 044"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Labasa",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "sweeping",
+    "field_angle_degrees": 22.169,
+    "phase": 5.543,
+    "centre_x": -0.2052,
+    "centre_y": -0.2752,
+    "hue_families": [
+      "Emerald",
+      "Violet",
+      "Citron"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "name_note": "The large northern Fiji island; not the small same-named island in the Mamanuca group.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 5713,
+  "antimeridian_split_parts": 2,
+  "area_km2": 5774.167315296697,
+  "gshhg_area_km2": 5774.167315296697,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Labasa",
+    "country": "FJ",
+    "lon": 179.36451,
+    "lat": -16.4332,
+    "population": 27949,
+    "source": "https://www.geonames.org/2204582"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -2729.18505859375,
+  "max_land_elevation_m": 934.6704711914062,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/509/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/510/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/511/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/511/279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/511/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/511/281.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/0/278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/0/279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/0/280.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/0/281.tif"
+  ],
+  "resolution_m": 391.2093856464525,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-16.55 +lon_0=179.25 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -81881.12281656542,
+    -52043.90591853425,
+    88373.20181677071,
+    46342.065493682756
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 97.80234641161313,
+  "artwork_print_scale_denominator": 1155145.8237592103,
+  "color_mood": "Emerald / Violet / Citron",
+  "background": "#20cac1",
+  "background_name": "Chromatic 044",
+  "color_family": "Multicolor",
+  "palette": [
+    "#11301d",
+    "#1e5934",
+    "#442660",
+    "#686f1f",
+    "#301a4d",
+    "#9e52fb",
+    "#e9fc6d",
+    "#21683b",
+    "#454d1b",
+    "#2a794d"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 50,
+    "shadow_distance_px": 8,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "39ae314efdaaa0947e7f067bdb88269661ea0f39c4ed2213b679207c414ba45c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

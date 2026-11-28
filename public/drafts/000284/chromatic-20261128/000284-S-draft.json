@@ -1,0 +1,204 @@
+{
+  "id": "000284",
+  "letter": "B",
+  "name": "Bintan",
+  "slug": "bintan",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Riau Islands",
+  "reference": [
+    104.525,
+    1.1
+  ],
+  "source_id": "geonames:1648710",
+  "source_name": "Pulau Bintan",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#443111",
+        "#184a1a",
+        "#256828",
+        "#6a4e26",
+        "#30bafb",
+        "#4bbefb",
+        "#307430",
+        "#4e3f23",
+        "#1a5879"
+      ],
+      "#0a2136",
+      "Amber / Leaf / Ice Blue"
+    ],
+    "S": [
+      [
+        "#152851",
+        "#124097",
+        "#c7145c",
+        "#965938",
+        "#6b183d",
+        "#952057",
+        "#cd6631",
+        "#4065aa",
+        "#943610",
+        "#3f68d2"
+      ],
+      "#571fc9",
+      "Cobalt / Fuchsia / Tangerine"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 055",
+    "S": "Chromatic 056"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Tanjung Pinang",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Dark Iridescence",
+    "field_mode": "confluence",
+    "field_angle_degrees": 300.995,
+    "phase": 4.3961,
+    "centre_x": -0.5023,
+    "centre_y": -0.5932,
+    "hue_families": [
+      "Cobalt",
+      "Fuchsia",
+      "Tangerine"
+    ],
+    "palette_stop_count": 10,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1454,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1214.214547101644,
+  "gshhg_area_km2": 1214.214547101644,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Tanjung Pinang",
+    "country": "ID",
+    "lon": 104.45833,
+    "lat": 0.91667,
+    "population": 227663,
+    "source": "https://www.geonames.org/1624863"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -42.432674407958984,
+  "max_land_elevation_m": 334.6661376953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1616/1016.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1616/1017.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1616/1018.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1616/1019.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1617/1016.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1617/1017.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1617/1018.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1617/1019.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1618/1016.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1618/1017.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1618/1018.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1618/1019.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1619/1016.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1619/1017.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1619/1018.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1619/1019.tif"
+  ],
+  "resolution_m": 114.89361807205816,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=1.1 +lon_0=104.525 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -34280.38182268775,
+    -32392.0897124295,
+    15721.320762271967,
+    14979.830939742007
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 28.72340451801454,
+  "artwork_print_scale_denominator": 339252.8092678883,
+  "color_mood": "Cobalt / Fuchsia / Tangerine",
+  "background": "#571fc9",
+  "background_name": "Chromatic 056",
+  "color_family": "Multicolor",
+  "palette": [
+    "#152851",
+    "#124097",
+    "#c7145c",
+    "#965938",
+    "#6b183d",
+    "#952057",
+    "#cd6631",
+    "#4065aa",
+    "#943610",
+    "#3f68d2"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "29a3916104f9a4d28e9f8cebaeaffe6d08a91646ebbb84a94b08c3109a394104",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 10,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

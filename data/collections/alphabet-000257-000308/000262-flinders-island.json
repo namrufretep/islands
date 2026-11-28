@@ -1,0 +1,123 @@
+{
+  "id": "000262",
+  "letter": "F",
+  "name": "Flinders Island",
+  "slug": "flinders-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "Furneaux Group",
+  "reference": [
+    148.03333,
+    -40.01667
+  ],
+  "source_id": "geonames:2166445",
+  "source_name": "Flinders Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bass Strait",
+  "ocean": "Southern Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ae865c",
+        "#6c8ac0",
+        "#8faada",
+        "#e4b07c",
+        "#97d44a",
+        "#b3dd8c",
+        "#afc7e5",
+        "#d1a06d",
+        "#bbdb90"
+      ],
+      "#277939",
+      "Tangerine / Cobalt / Acid Lime"
+    ],
+    "S": [
+      [
+        "#532716",
+        "#ad592c",
+        "#de63a9",
+        "#4fe739",
+        "#ac086c",
+        "#e33ca1",
+        "#8cf583",
+        "#e38a61",
+        "#2cad23",
+        "#f0bea9"
+      ],
+      "#4d8ae9",
+      "Tangerine / Fuchsia / Leaf"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 011",
+    "S": "Chromatic 012"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Pale Chromatic Stone",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 161.167,
+      "phase": 2.0806,
+      "centre_x": -0.0251,
+      "centre_y": 0.2574,
+      "hue_families": [
+        "Tangerine",
+        "Cobalt",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 263.254,
+      "phase": 4.6269,
+      "centre_x": 0.3098,
+      "centre_y": -0.4237,
+      "hue_families": [
+        "Tangerine",
+        "Fuchsia",
+        "Leaf"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "name_note": "Furneaux Group, Tasmania; not the same-named islands in South Australia or Queensland.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1817,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1346.815324844952,
+  "gshhg_area_km2": 1346.815324844952,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

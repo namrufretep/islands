@@ -1,0 +1,122 @@
+{
+  "id": "000290",
+  "letter": "H",
+  "name": "Herm",
+  "slug": "herm",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.44832,
+    49.47214
+  ],
+  "source_id": "geonames:3042359",
+  "source_name": "Herm",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#b7bf55",
+        "#6dcd72",
+        "#99d897",
+        "#d1d68a",
+        "#c48f60",
+        "#d4a88c",
+        "#a8e4aa",
+        "#ccdc69",
+        "#e2b79c"
+      ],
+      "#0b0727",
+      "Citron / Leaf / Tangerine"
+    ],
+    "S": [
+      [
+        "#5b420a",
+        "#b08920",
+        "#59f7b8",
+        "#ef3a9a",
+        "#139f6a",
+        "#34eaab",
+        "#eb95c3",
+        "#dec479",
+        "#c2146d",
+        "#f1dfae"
+      ],
+      "#9dd020",
+      "Amber / Emerald / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 067",
+    "S": "Chromatic 068"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Pale Chromatic Stone",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 315.009,
+      "phase": 5.4603,
+      "centre_x": -0.1912,
+      "centre_y": 0.4744,
+      "hue_families": [
+        "Citron",
+        "Leaf",
+        "Tangerine"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 124.156,
+      "phase": 4.414,
+      "centre_x": 0.0108,
+      "centre_y": 0.512,
+      "hue_families": [
+        "Amber",
+        "Emerald",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 46,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1.594176069271259,
+  "gshhg_area_km2": 1.594176069271259,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

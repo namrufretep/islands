@@ -1,0 +1,118 @@
+{
+  "id": "000273",
+  "letter": "Q",
+  "name": "Quirimba",
+  "slug": "quirimba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "MZ",
+  "country": "Mozambique",
+  "region": "Quirimbas Islands",
+  "reference": [
+    40.60694,
+    -12.42639
+  ],
+  "source_id": "geonames:1028330",
+  "source_name": "Ilha Quirimba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mozambique Channel",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#682c18",
+        "#905745",
+        "#0e5df2",
+        "#2a4fa0",
+        "#4c9c9f",
+        "#50f5f6",
+        "#ca775d"
+      ],
+      "#461454",
+      "Tangerine / Cobalt / Turquoise"
+    ],
+    "S": [
+      [
+        "#2f4069",
+        "#4e65a1",
+        "#57c4ba",
+        "#308478",
+        "#5b0ede",
+        "#8d6bc4",
+        "#65a99e",
+        "#8c9ec0"
+      ],
+      "#afb0e3",
+      "Cobalt / Turquoise / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 033",
+    "S": "Chromatic 034"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 178.034,
+      "phase": 0.0021,
+      "centre_x": -0.1647,
+      "centre_y": 0.5012,
+      "hue_families": [
+        "Tangerine",
+        "Cobalt",
+        "Turquoise"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "halo",
+      "field_angle_degrees": 297.538,
+      "phase": 0.7023,
+      "centre_x": -0.4854,
+      "centre_y": -0.0129,
+      "hue_families": [
+        "Cobalt",
+        "Turquoise",
+        "Violet"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 89,
+  "antimeridian_split_parts": 1,
+  "area_km2": 15.786689199415449,
+  "gshhg_area_km2": 15.786689199415449,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

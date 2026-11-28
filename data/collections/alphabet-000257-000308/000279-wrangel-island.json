@@ -1,0 +1,118 @@
+{
+  "id": "000279",
+  "letter": "W",
+  "name": "Wrangel Island",
+  "slug": "wrangel-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "RU",
+  "country": "Russia",
+  "region": "Chukotka",
+  "reference": [
+    -179.38477,
+    71.24436
+  ],
+  "source_id": "geonames:4031503",
+  "source_name": "Wrangel Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Arctic Ocean",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#0c2b58",
+        "#123986",
+        "#a41c28",
+        "#7e121a",
+        "#15a25d",
+        "#22d169",
+        "#246abc"
+      ],
+      "#145113",
+      "Cobalt / Vermilion / Emerald"
+    ],
+    "S": [
+      [
+        "#8b4442",
+        "#f02323",
+        "#9aafb9",
+        "#5395a6",
+        "#72af91",
+        "#9dceb8",
+        "#3ac3f1",
+        "#caa2a3"
+      ],
+      "#e4c1b2",
+      "Vermilion / Ice Blue / Emerald"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 045",
+    "S": "Chromatic 046"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "confluence",
+      "field_angle_degrees": 208.464,
+      "phase": 0.865,
+      "centre_x": -0.6467,
+      "centre_y": -0.2581,
+      "hue_families": [
+        "Cobalt",
+        "Vermilion",
+        "Emerald"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Mist and Fluorescence",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 184.904,
+      "phase": 4.3194,
+      "centre_x": -0.2793,
+      "centre_y": 0.4612,
+      "hue_families": [
+        "Vermilion",
+        "Ice Blue",
+        "Emerald"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4018,
+  "antimeridian_split_parts": 2,
+  "area_km2": 7837.86805474481,
+  "gshhg_area_km2": 7837.86805474481,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

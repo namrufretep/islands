@@ -1,0 +1,129 @@
+{
+  "id": "000294",
+  "letter": "L",
+  "name": "Lombok",
+  "slug": "lombok",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    116.33286,
+    -8.67697
+  ],
+  "source_id": "geonames:7869837",
+  "source_name": "Lombok Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#775b22",
+        "#8b4091",
+        "#f13af5",
+        "#d0a048",
+        "#3a8180",
+        "#54b8ba",
+        "#c58eca",
+        "#db890c",
+        "#59d1d9"
+      ],
+      "#49134f",
+      "Amber / Orchid / Turquoise"
+    ],
+    "S": [
+      [
+        "#602120",
+        "#993c42",
+        "#5d65c1",
+        "#44c4bb",
+        "#42457a",
+        "#0f0fee",
+        "#7ebab5",
+        "#ba5f66",
+        "#4e837d",
+        "#c5999a"
+      ],
+      "#e5bab6",
+      "Vermilion / Ultramarine / Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 075",
+    "S": "Chromatic 076"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Mataram",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 241.566,
+      "phase": 4.479,
+      "centre_x": 0.5836,
+      "centre_y": 0.5908,
+      "hue_families": [
+        "Amber",
+        "Orchid",
+        "Turquoise"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 3.966,
+      "phase": 5.9147,
+      "centre_x": 0.5554,
+      "centre_y": -0.6163,
+      "hue_families": [
+        "Vermilion",
+        "Ultramarine",
+        "Turquoise"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2577,
+  "antimeridian_split_parts": 1,
+  "area_km2": 4661.514226515433,
+  "gshhg_area_km2": 4661.514226515433,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Mataram",
+    "country": "ID",
+    "lon": 116.11667,
+    "lat": -8.58333,
+    "population": 441147,
+    "source": "https://www.geonames.org/1635882"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

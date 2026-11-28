@@ -1,0 +1,119 @@
+{
+  "id": "000277",
+  "letter": "U",
+  "name": "Udo",
+  "slug": "udo",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "Jeju Islands",
+  "reference": [
+    126.95472,
+    33.505
+  ],
+  "source_id": "geonames:1833833",
+  "source_name": "U-do",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Korea Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#143240",
+        "#184351",
+        "#262957",
+        "#3840fb",
+        "#fb4599",
+        "#672a46",
+        "#2b5668"
+      ],
+      "#712568",
+      "Ice Blue / Ultramarine / Fuchsia"
+    ],
+    "S": [
+      [
+        "#54561c",
+        "#8fa11c",
+        "#c22d24",
+        "#7b2d22",
+        "#243a83",
+        "#1c52de",
+        "#b42817",
+        "#b6ba3f"
+      ],
+      "#9241e8",
+      "Citron / Vermilion / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 041",
+    "S": "Chromatic 042"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Ink and Acid",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 48.824,
+      "phase": 2.379,
+      "centre_x": -0.1496,
+      "centre_y": -0.1273,
+      "hue_families": [
+        "Ice Blue",
+        "Ultramarine",
+        "Fuchsia"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Dark Iridescence",
+      "field_mode": "halo",
+      "field_angle_degrees": 104.007,
+      "phase": 0.9557,
+      "centre_x": 0.2361,
+      "centre_y": 0.0002,
+      "hue_families": [
+        "Citron",
+        "Vermilion",
+        "Cobalt"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "name_note": "Udo east of Jeju, not the same-named islands elsewhere in South Korea.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 87,
+  "antimeridian_split_parts": 1,
+  "area_km2": 7.001644874369366,
+  "gshhg_area_km2": 7.001644874369366,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

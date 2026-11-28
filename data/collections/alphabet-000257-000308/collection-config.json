@@ -1,0 +1,5527 @@
+[
+  {
+    "id": "000257",
+    "letter": "A",
+    "name": "Atiu",
+    "slug": "atiu",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "CK",
+    "country": "Cook Islands",
+    "region": "Southern Cook Islands",
+    "reference": [
+      -158.11944,
+      -19.99167
+    ],
+    "source_id": "geonames:4035722",
+    "source_name": "Atiu Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0e6e42",
+          "#19b77c",
+          "#ccd753",
+          "#b3b606",
+          "#ea1d0f",
+          "#e4847d",
+          "#57f0b2"
+        ],
+        "#370b27",
+        "Emerald / Citron / Vermilion"
+      ],
+      "S": [
+        [
+          "#2e3e12",
+          "#456224",
+          "#2b586c",
+          "#143447",
+          "#6456fc",
+          "#7761fc",
+          "#20475c",
+          "#5c841f"
+        ],
+        "#1ec124",
+        "Acid Lime / Ice Blue / Ultramarine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 001",
+      "S": "Chromatic 002"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 210.947,
+        "phase": 2.7418,
+        "centre_x": -0.1736,
+        "centre_y": -0.6084,
+        "hue_families": [
+          "Emerald",
+          "Citron",
+          "Vermilion"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "halo",
+        "field_angle_degrees": 334.889,
+        "phase": 4.9656,
+        "centre_x": 0.511,
+        "centre_y": 0.167,
+        "hue_families": [
+          "Acid Lime",
+          "Ice Blue",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000258",
+    "letter": "B",
+    "name": "Bioko",
+    "slug": "bioko",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GQ",
+    "country": "Equatorial Guinea",
+    "region": "Gulf of Guinea",
+    "reference": [
+      8.7,
+      3.5
+    ],
+    "source_id": "geonames:2309792",
+    "source_name": "Isla de Bioko",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Guinea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#381863",
+          "#7e1c1d",
+          "#c72d31",
+          "#5f3197",
+          "#4a850d",
+          "#649534",
+          "#e92418",
+          "#521c8e",
+          "#76cd24"
+        ],
+        "#124c3b",
+        "Violet / Vermilion / Acid Lime"
+      ],
+      "S": [
+        [
+          "#3f6a78",
+          "#14adef",
+          "#9a9cbc",
+          "#baa87f",
+          "#62628b",
+          "#7278ab",
+          "#bdb6a6",
+          "#92bac4",
+          "#efa91a",
+          "#b1c2c6"
+        ],
+        "#bbd2e7",
+        "Ice Blue / Ultramarine / Amber"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 003",
+      "S": "Chromatic 004"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 314.035,
+        "phase": 2.6746,
+        "centre_x": -0.6042,
+        "centre_y": 0.4566,
+        "hue_families": [
+          "Violet",
+          "Vermilion",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 352.697,
+        "phase": 2.2647,
+        "centre_x": -0.1025,
+        "centre_y": 0.1774,
+        "hue_families": [
+          "Ice Blue",
+          "Ultramarine",
+          "Amber"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000259",
+    "letter": "C",
+    "name": "Chios",
+    "slug": "chios",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "North Aegean Islands",
+    "reference": [
+      26.06161,
+      38.41102
+    ],
+    "source_id": "geonames:259972",
+    "source_name": "Nisí Chíos",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#421a66",
+          "#683f99",
+          "#f2f31b",
+          "#8c8d3b",
+          "#4e7f98",
+          "#4bc1f6",
+          "#9469b4"
+        ],
+        "#80562a",
+        "Violet / Citron / Ice Blue"
+      ],
+      "S": [
+        [
+          "#296346",
+          "#4da377",
+          "#8168b1",
+          "#513781",
+          "#d90e66",
+          "#b97b98",
+          "#8254bf",
+          "#90bda8"
+        ],
+        "#e84841",
+        "Emerald / Violet / Fuchsia"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 005",
+      "S": "Chromatic 006"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "confluence",
+        "field_angle_degrees": 311.339,
+        "phase": 0.2128,
+        "centre_x": 0.1583,
+        "centre_y": 0.4904,
+        "hue_families": [
+          "Violet",
+          "Citron",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 257.669,
+        "phase": 3.8643,
+        "centre_x": 0.5979,
+        "centre_y": -0.2812,
+        "hue_families": [
+          "Emerald",
+          "Violet",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000260",
+    "letter": "D",
+    "name": "Dassen Island",
+    "slug": "dassen-island",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ZA",
+    "country": "South Africa",
+    "region": "Western Cape",
+    "reference": [
+      18.08755,
+      -33.42459
+    ],
+    "source_id": "geonames:3368950",
+    "source_name": "Dasseneiland",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2b0d78",
+          "#1e719a",
+          "#229ff2",
+          "#5510e7",
+          "#088b4a",
+          "#11d580",
+          "#4da5d9",
+          "#4210a6",
+          "#45d88e"
+        ],
+        "#222c08",
+        "Violet / Ice Blue / Emerald"
+      ],
+      "S": [
+        [
+          "#2b5c27",
+          "#4d8845",
+          "#f43e37",
+          "#b59a59",
+          "#7b3a35",
+          "#bf4e47",
+          "#d7c671",
+          "#6fc95f",
+          "#bc9e0a",
+          "#81d87a"
+        ],
+        "#21d3b0",
+        "Leaf / Vermilion / Amber"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 007",
+      "S": "Chromatic 008"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "halo",
+        "field_angle_degrees": 251.138,
+        "phase": 4.3313,
+        "centre_x": -0.3106,
+        "centre_y": 0.2703,
+        "hue_families": [
+          "Violet",
+          "Ice Blue",
+          "Emerald"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "confluence",
+        "field_angle_degrees": 271.247,
+        "phase": 5.2564,
+        "centre_x": -0.4555,
+        "centre_y": 0.3905,
+        "hue_families": [
+          "Leaf",
+          "Vermilion",
+          "Amber"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000261",
+    "letter": "E",
+    "name": "Elba",
+    "slug": "elba",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Tuscan Archipelago",
+    "reference": [
+      10.27788,
+      42.77663
+    ],
+    "source_id": "geonames:3177426",
+    "source_name": "Isola d'Elba",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#42592f",
+          "#6a963e",
+          "#b56d60",
+          "#b3250b",
+          "#497f99",
+          "#75aec9",
+          "#95b574"
+        ],
+        "#521713",
+        "Acid Lime / Vermilion / Ice Blue"
+      ],
+      "S": [
+        [
+          "#6b123e",
+          "#c7116e",
+          "#2155e3",
+          "#183a8f",
+          "#35b91e",
+          "#51f332",
+          "#2d5bcd",
+          "#e15894"
+        ],
+        "#e5b5bc",
+        "Fuchsia / Cobalt / Leaf"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 009",
+      "S": "Chromatic 010"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 203.794,
+        "phase": 6.2011,
+        "centre_x": 0.596,
+        "centre_y": 0.3912,
+        "hue_families": [
+          "Acid Lime",
+          "Vermilion",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "halo",
+        "field_angle_degrees": 195.948,
+        "phase": 0.1866,
+        "centre_x": -0.6406,
+        "centre_y": 0.6305,
+        "hue_families": [
+          "Fuchsia",
+          "Cobalt",
+          "Leaf"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000262",
+    "letter": "F",
+    "name": "Flinders Island",
+    "slug": "flinders-island",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "AU",
+    "country": "Australia",
+    "region": "Furneaux Group",
+    "reference": [
+      148.03333,
+      -40.01667
+    ],
+    "source_id": "geonames:2166445",
+    "source_name": "Flinders Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Bass Strait",
+    "ocean": "Southern Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ae865c",
+          "#6c8ac0",
+          "#8faada",
+          "#e4b07c",
+          "#97d44a",
+          "#b3dd8c",
+          "#afc7e5",
+          "#d1a06d",
+          "#bbdb90"
+        ],
+        "#277939",
+        "Tangerine / Cobalt / Acid Lime"
+      ],
+      "S": [
+        [
+          "#532716",
+          "#ad592c",
+          "#de63a9",
+          "#4fe739",
+          "#ac086c",
+          "#e33ca1",
+          "#8cf583",
+          "#e38a61",
+          "#2cad23",
+          "#f0bea9"
+        ],
+        "#4d8ae9",
+        "Tangerine / Fuchsia / Leaf"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 011",
+      "S": "Chromatic 012"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 161.167,
+        "phase": 2.0806,
+        "centre_x": -0.0251,
+        "centre_y": 0.2574,
+        "hue_families": [
+          "Tangerine",
+          "Cobalt",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 263.254,
+        "phase": 4.6269,
+        "centre_x": 0.3098,
+        "centre_y": -0.4237,
+        "hue_families": [
+          "Tangerine",
+          "Fuchsia",
+          "Leaf"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "name_note": "Furneaux Group, Tasmania; not the same-named islands in South Australia or Queensland."
+  },
+  {
+    "id": "000263",
+    "letter": "G",
+    "name": "Great Barrier Island",
+    "slug": "great-barrier-island",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "NZ",
+    "country": "New Zealand",
+    "region": "Hauraki Gulf",
+    "reference": [
+      175.41561,
+      -36.19608
+    ],
+    "source_id": "geonames:2190504",
+    "source_name": "Great Barrier Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0e302d",
+          "#17504e",
+          "#586025",
+          "#d7fb46",
+          "#823efb",
+          "#3e1c79",
+          "#25615d"
+        ],
+        "#29080a",
+        "Turquoise / Citron / Violet"
+      ],
+      "S": [
+        [
+          "#5f0c0e",
+          "#a41f23",
+          "#2f39a7",
+          "#1e1d72",
+          "#1d7390",
+          "#3a96ac",
+          "#2624a7",
+          "#bb554b"
+        ],
+        "#cb7b20",
+        "Vermilion / Ultramarine / Ice Blue"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 013",
+      "S": "Chromatic 014"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "confluence",
+        "field_angle_degrees": 42.815,
+        "phase": 0.9573,
+        "centre_x": 0.3718,
+        "centre_y": 0.3259,
+        "hue_families": [
+          "Turquoise",
+          "Citron",
+          "Violet"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 238.808,
+        "phase": 0.916,
+        "centre_x": -0.0834,
+        "centre_y": -0.1893,
+        "hue_families": [
+          "Vermilion",
+          "Ultramarine",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000264",
+    "letter": "H",
+    "name": "Hainan",
+    "slug": "hainan",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "CN",
+    "country": "China",
+    "region": "Southern China",
+    "reference": [
+      109.7,
+      19.2
+    ],
+    "source_id": "geonames:1809055",
+    "source_name": "Hainan Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#447607",
+          "#c61a76",
+          "#e970bc",
+          "#99d854",
+          "#53199a",
+          "#8439e6",
+          "#eea3cb",
+          "#79c129",
+          "#9d69f7"
+        ],
+        "#4f1323",
+        "Acid Lime / Fuchsia / Violet"
+      ],
+      "S": [
+        [
+          "#193429",
+          "#13543a",
+          "#1e216f",
+          "#3c621b",
+          "#1e1d47",
+          "#5b54fc",
+          "#9dfc58",
+          "#1c6e50",
+          "#304419",
+          "#337658"
+        ],
+        "#afe3d7",
+        "Emerald / Ultramarine / Acid Lime"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 015",
+      "S": "Chromatic 016"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "halo",
+        "field_angle_degrees": 308.159,
+        "phase": 4.0443,
+        "centre_x": -0.6266,
+        "centre_y": 0.5951,
+        "hue_families": [
+          "Acid Lime",
+          "Fuchsia",
+          "Violet"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "confluence",
+        "field_angle_degrees": 314.5,
+        "phase": 2.7602,
+        "centre_x": -0.2818,
+        "centre_y": -0.2622,
+        "hue_families": [
+          "Emerald",
+          "Ultramarine",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000265",
+    "letter": "I",
+    "name": "Ishigaki",
+    "slug": "ishigaki",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Yaeyama Islands",
+    "reference": [
+      124.2,
+      24.4
+    ],
+    "source_id": "geonames:1861417",
+    "source_name": "Ishigaki Jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5b3e16",
+          "#865a10",
+          "#2196af",
+          "#22667e",
+          "#961814",
+          "#cd2e30",
+          "#cb841c"
+        ],
+        "#246f5a",
+        "Amber / Ice Blue / Vermilion"
+      ],
+      "S": [
+        [
+          "#457f43",
+          "#2af025",
+          "#8bb2bb",
+          "#4b8b9e",
+          "#99a06f",
+          "#c5c79e",
+          "#3fc6f2",
+          "#b1ccb0"
+        ],
+        "#e73f96",
+        "Leaf / Ice Blue / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 017",
+      "S": "Chromatic 018"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 182.7,
+        "phase": 5.7222,
+        "centre_x": -0.4982,
+        "centre_y": 0.4673,
+        "hue_families": [
+          "Amber",
+          "Ice Blue",
+          "Vermilion"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 1.728,
+        "phase": 2.1498,
+        "centre_x": 0.4002,
+        "centre_y": -0.2012,
+        "hue_families": [
+          "Leaf",
+          "Ice Blue",
+          "Citron"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000266",
+    "letter": "J",
+    "name": "Juan de Nova",
+    "slug": "juan-de-nova",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "TF",
+    "country": "French Southern Territories",
+    "region": "Scattered Islands",
+    "reference": [
+      42.7248,
+      -17.05449
+    ],
+    "source_id": "geonames:1024028",
+    "source_name": "Île Juan de Nova",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#622726",
+          "#6f9e31",
+          "#9ef540",
+          "#be4b4b",
+          "#6b2686",
+          "#a53dc6",
+          "#a7ce81",
+          "#ca0b11",
+          "#b265c6"
+        ],
+        "#082a1f",
+        "Vermilion / Acid Lime / Orchid"
+      ],
+      "S": [
+        [
+          "#59302b",
+          "#8b4641",
+          "#9353c2",
+          "#b2b059",
+          "#5a3b73",
+          "#790ee1",
+          "#bcbf80",
+          "#bd6d65",
+          "#858442",
+          "#ca9690"
+        ],
+        "#c78e1f",
+        "Vermilion / Violet / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 019",
+      "S": "Chromatic 020"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 238.848,
+        "phase": 4.5631,
+        "centre_x": 0.2385,
+        "centre_y": -0.5722,
+        "hue_families": [
+          "Vermilion",
+          "Acid Lime",
+          "Orchid"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 212.292,
+        "phase": 5.6168,
+        "centre_x": 0.1394,
+        "centre_y": 0.616,
+        "hue_families": [
+          "Vermilion",
+          "Violet",
+          "Citron"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000267",
+    "letter": "K",
+    "name": "Kythira",
+    "slug": "kythira",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Ionian Islands",
+    "reference": [
+      22.99337,
+      36.24072
+    ],
+    "source_id": "geonames:259709",
+    "source_name": "Cythera",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0e1071",
+          "#141ea0",
+          "#bbd41e",
+          "#8e931f",
+          "#1caaa7",
+          "#37dbd7",
+          "#0d24e9"
+        ],
+        "#124d29",
+        "Ultramarine / Citron / Turquoise"
+      ],
+      "S": [
+        [
+          "#2e6345",
+          "#31bf7c",
+          "#f57138",
+          "#87563a",
+          "#3764c2",
+          "#6e90d0",
+          "#f36d13",
+          "#83e0b4"
+        ],
+        "#ace2cf",
+        "Emerald / Tangerine / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 021",
+      "S": "Chromatic 022"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "confluence",
+        "field_angle_degrees": 123.611,
+        "phase": 3.8531,
+        "centre_x": 0.225,
+        "centre_y": 0.0829,
+        "hue_families": [
+          "Ultramarine",
+          "Citron",
+          "Turquoise"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 55.266,
+        "phase": 3.1439,
+        "centre_x": 0.3296,
+        "centre_y": -0.3547,
+        "hue_families": [
+          "Emerald",
+          "Tangerine",
+          "Cobalt"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000268",
+    "letter": "L",
+    "name": "Lord Howe Island",
+    "slug": "lord-howe-island",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "AU",
+    "country": "Australia",
+    "region": "Tasman Sea",
+    "reference": [
+      159.08579,
+      -31.55281
+    ],
+    "source_id": "geonames:2159558",
+    "source_name": "Lord Howe Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tasman Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#612470",
+          "#6d8347",
+          "#9cb36d",
+          "#a95db8",
+          "#0a339f",
+          "#4a64be",
+          "#b3cf89",
+          "#88488d",
+          "#7c8bb7"
+        ],
+        "#747426",
+        "Orchid / Acid Lime / Cobalt"
+      ],
+      "S": [
+        [
+          "#066d06",
+          "#26a623",
+          "#eeb90d",
+          "#e50c7c",
+          "#9f830e",
+          "#b09226",
+          "#f12f98",
+          "#21f31f",
+          "#a5175c",
+          "#56f246"
+        ],
+        "#e740a8",
+        "Leaf / Amber / Fuchsia"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 023",
+      "S": "Chromatic 024"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "halo",
+        "field_angle_degrees": 313.349,
+        "phase": 3.012,
+        "centre_x": 0.1828,
+        "centre_y": -0.6063,
+        "hue_families": [
+          "Orchid",
+          "Acid Lime",
+          "Cobalt"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "confluence",
+        "field_angle_degrees": 264.898,
+        "phase": 3.7935,
+        "centre_x": -0.185,
+        "centre_y": 0.5387,
+        "hue_families": [
+          "Leaf",
+          "Amber",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000269",
+    "letter": "M",
+    "name": "Moloka‘i",
+    "slug": "molokai",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "US",
+    "country": "United States",
+    "region": "Hawaiian Islands",
+    "reference": [
+      -157.01248,
+      21.13831
+    ],
+    "source_id": "geonames:5851218",
+    "source_name": "Moloka‘i",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#805cb1",
+          "#9870c5",
+          "#88e087",
+          "#61d367",
+          "#cd9378",
+          "#e3ac99",
+          "#b591e1"
+        ],
+        "#2d3209",
+        "Violet / Leaf / Tangerine"
+      ],
+      "S": [
+        [
+          "#050f69",
+          "#2b2ddc",
+          "#f55157",
+          "#991828",
+          "#c928d5",
+          "#db84ec",
+          "#e04456",
+          "#9e9df7"
+        ],
+        "#881fc5",
+        "Ultramarine / Vermilion / Orchid"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 025",
+      "S": "Chromatic 026"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 159.789,
+        "phase": 5.2707,
+        "centre_x": 0.5573,
+        "centre_y": -0.6298,
+        "hue_families": [
+          "Violet",
+          "Leaf",
+          "Tangerine"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "halo",
+        "field_angle_degrees": 300.27,
+        "phase": 1.2219,
+        "centre_x": 0.5623,
+        "centre_y": -0.1586,
+        "hue_families": [
+          "Ultramarine",
+          "Vermilion",
+          "Orchid"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000270",
+    "letter": "N",
+    "name": "Nantucket",
+    "slug": "nantucket",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "US",
+    "country": "United States",
+    "region": "Massachusetts",
+    "reference": [
+      -70.04325,
+      41.27363
+    ],
+    "source_id": "geonames:4944923",
+    "source_name": "Nantucket Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#171737",
+          "#4b4c20",
+          "#707127",
+          "#191b6c",
+          "#d346fb",
+          "#d955fc",
+          "#7a7f29",
+          "#151851",
+          "#572964"
+        ],
+        "#124c20",
+        "Ultramarine / Citron / Orchid"
+      ],
+      "S": [
+        [
+          "#60420c",
+          "#735b26",
+          "#6dc01c",
+          "#34498a",
+          "#46820d",
+          "#619f22",
+          "#3e5eb2",
+          "#ba8d30",
+          "#0f2d8b",
+          "#c4903d"
+        ],
+        "#e2d5ac",
+        "Amber / Acid Lime / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 027",
+      "S": "Chromatic 028"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 189.264,
+        "phase": 3.2111,
+        "centre_x": 0.3151,
+        "centre_y": 0.4003,
+        "hue_families": [
+          "Ultramarine",
+          "Citron",
+          "Orchid"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 3.814,
+        "phase": 1.4663,
+        "centre_x": 0.2069,
+        "centre_y": -0.5572,
+        "hue_families": [
+          "Amber",
+          "Acid Lime",
+          "Cobalt"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000271",
+    "letter": "O",
+    "name": "Olib",
+    "slug": "olib",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Zadar Archipelago",
+    "reference": [
+      14.79028,
+      44.38028
+    ],
+    "source_id": "geonames:3194140",
+    "source_name": "Otok Olib",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#062962",
+          "#1a55b7",
+          "#e88839",
+          "#b15d09",
+          "#6c0cdb",
+          "#b485f2",
+          "#5c8adf"
+        ],
+        "#6f244e",
+        "Cobalt / Tangerine / Violet"
+      ],
+      "S": [
+        [
+          "#103a38",
+          "#25504e",
+          "#297a23",
+          "#1f441b",
+          "#f056fc",
+          "#ee5ffc",
+          "#325f2e",
+          "#327e73"
+        ],
+        "#e9924e",
+        "Turquoise / Leaf / Orchid"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 029",
+      "S": "Chromatic 030"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "confluence",
+        "field_angle_degrees": 274.985,
+        "phase": 4.5673,
+        "centre_x": 0.3014,
+        "centre_y": 0.5893,
+        "hue_families": [
+          "Cobalt",
+          "Tangerine",
+          "Violet"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 215.628,
+        "phase": 1.3062,
+        "centre_x": 0.0591,
+        "centre_y": -0.4749,
+        "hue_families": [
+          "Turquoise",
+          "Leaf",
+          "Orchid"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000272",
+    "letter": "P",
+    "name": "Palawan",
+    "slug": "palawan",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "PH",
+    "country": "Philippines",
+    "region": "Mimaropa",
+    "reference": [
+      118.46149,
+      9.53153
+    ],
+    "source_id": "geonames:1696180",
+    "source_name": "Palawan Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#341951",
+          "#763c20",
+          "#d75715",
+          "#633596",
+          "#710c43",
+          "#a91b60",
+          "#d36230",
+          "#4e2971",
+          "#b6336e"
+        ],
+        "#192f09",
+        "Violet / Tangerine / Fuchsia"
+      ],
+      "S": [
+        [
+          "#736443",
+          "#efb619",
+          "#a697be",
+          "#ae7596",
+          "#65489a",
+          "#8c74b3",
+          "#bea5b5",
+          "#c1ae82",
+          "#e2109b",
+          "#c4bfb0"
+        ],
+        "#78c31e",
+        "Amber / Violet / Fuchsia"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 031",
+      "S": "Chromatic 032"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 88.318,
+        "phase": 4.168,
+        "centre_x": 0.3611,
+        "centre_y": -0.3846,
+        "hue_families": [
+          "Violet",
+          "Tangerine",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "confluence",
+        "field_angle_degrees": 168.456,
+        "phase": 2.5891,
+        "centre_x": 0.0876,
+        "centre_y": 0.4117,
+        "hue_families": [
+          "Amber",
+          "Violet",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000273",
+    "letter": "Q",
+    "name": "Quirimba",
+    "slug": "quirimba",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "MZ",
+    "country": "Mozambique",
+    "region": "Quirimbas Islands",
+    "reference": [
+      40.60694,
+      -12.42639
+    ],
+    "source_id": "geonames:1028330",
+    "source_name": "Ilha Quirimba",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#682c18",
+          "#905745",
+          "#0e5df2",
+          "#2a4fa0",
+          "#4c9c9f",
+          "#50f5f6",
+          "#ca775d"
+        ],
+        "#461454",
+        "Tangerine / Cobalt / Turquoise"
+      ],
+      "S": [
+        [
+          "#2f4069",
+          "#4e65a1",
+          "#57c4ba",
+          "#308478",
+          "#5b0ede",
+          "#8d6bc4",
+          "#65a99e",
+          "#8c9ec0"
+        ],
+        "#afb0e3",
+        "Cobalt / Turquoise / Violet"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 033",
+      "S": "Chromatic 034"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 178.034,
+        "phase": 0.0021,
+        "centre_x": -0.1647,
+        "centre_y": 0.5012,
+        "hue_families": [
+          "Tangerine",
+          "Cobalt",
+          "Turquoise"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "halo",
+        "field_angle_degrees": 297.538,
+        "phase": 0.7023,
+        "centre_x": -0.4854,
+        "centre_y": -0.0129,
+        "hue_families": [
+          "Cobalt",
+          "Turquoise",
+          "Violet"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000274",
+    "letter": "R",
+    "name": "Rote",
+    "slug": "rote",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Lesser Sunda Islands",
+    "reference": [
+      123.16667,
+      -10.75
+    ],
+    "source_id": "geonames:2056960",
+    "source_name": "Pulau Roti",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Savu Sea",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#6a340b",
+          "#13809a",
+          "#1eb4e5",
+          "#cc682b",
+          "#1a8b22",
+          "#1bc427",
+          "#45b5e3",
+          "#b45615",
+          "#1fec30"
+        ],
+        "#246f2e",
+        "Tangerine / Ice Blue / Leaf"
+      ],
+      "S": [
+        [
+          "#412f5f",
+          "#664194",
+          "#f4bc30",
+          "#56b288",
+          "#796239",
+          "#bc8d43",
+          "#6fd0ab",
+          "#8868bf",
+          "#0abf6e",
+          "#a67ed4"
+        ],
+        "#6ae846",
+        "Violet / Amber / Emerald"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 035",
+      "S": "Chromatic 036"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 184.726,
+        "phase": 4.3699,
+        "centre_x": 0.1217,
+        "centre_y": -0.4467,
+        "hue_families": [
+          "Tangerine",
+          "Ice Blue",
+          "Leaf"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 244.499,
+        "phase": 3.2148,
+        "centre_x": -0.0939,
+        "centre_y": -0.6357,
+        "hue_families": [
+          "Violet",
+          "Amber",
+          "Emerald"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000275",
+    "letter": "S",
+    "name": "San Cristóbal",
+    "slug": "san-cristobal",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "EC",
+    "country": "Ecuador",
+    "region": "Galápagos Islands",
+    "reference": [
+      -89.42442,
+      -0.82532
+    ],
+    "source_id": "geonames:3651946",
+    "source_name": "San Cristóbal Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#346429",
+          "#4c8842",
+          "#7058a9",
+          "#480cb5",
+          "#a18844",
+          "#baa776",
+          "#68bb60"
+        ],
+        "#2a082b",
+        "Leaf / Violet / Amber"
+      ],
+      "S": [
+        [
+          "#750845",
+          "#be157a",
+          "#bed73e",
+          "#82941d",
+          "#198eba",
+          "#39b0db",
+          "#bbd113",
+          "#df5cb2"
+        ],
+        "#d52721",
+        "Fuchsia / Citron / Ice Blue"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 037",
+      "S": "Chromatic 038"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "confluence",
+        "field_angle_degrees": 114.845,
+        "phase": 4.5031,
+        "centre_x": 0.286,
+        "centre_y": 0.1752,
+        "hue_families": [
+          "Leaf",
+          "Violet",
+          "Amber"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 62.272,
+        "phase": 3.2411,
+        "centre_x": 0.5834,
+        "centre_y": 0.1206,
+        "hue_families": [
+          "Fuchsia",
+          "Citron",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000276",
+    "letter": "T",
+    "name": "Thassos",
+    "slug": "thassos",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "North Aegean Islands",
+    "reference": [
+      24.66118,
+      40.69417
+    ],
+    "source_id": "geonames:734093",
+    "source_name": "Thassos Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#6e44cf",
+          "#d5a560",
+          "#d7c1a2",
+          "#ac9cce",
+          "#5dceb9",
+          "#7dd4c6",
+          "#e2cba8",
+          "#9569df",
+          "#a9dbd2"
+        ],
+        "#124b40",
+        "Violet / Amber / Turquoise"
+      ],
+      "S": [
+        [
+          "#104868",
+          "#1685bf",
+          "#6f65e5",
+          "#2bed7f",
+          "#1508b7",
+          "#2d23e5",
+          "#91e5ba",
+          "#64b8e5",
+          "#0dc764",
+          "#9edbfb"
+        ],
+        "#b2d2e4",
+        "Ice Blue / Ultramarine / Emerald"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 039",
+      "S": "Chromatic 040"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "halo",
+        "field_angle_degrees": 278.865,
+        "phase": 6.1047,
+        "centre_x": -0.3576,
+        "centre_y": 0.1046,
+        "hue_families": [
+          "Violet",
+          "Amber",
+          "Turquoise"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "confluence",
+        "field_angle_degrees": 236.012,
+        "phase": 1.1694,
+        "centre_x": -0.1296,
+        "centre_y": 0.4608,
+        "hue_families": [
+          "Ice Blue",
+          "Ultramarine",
+          "Emerald"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000277",
+    "letter": "U",
+    "name": "Udo",
+    "slug": "udo",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "KR",
+    "country": "South Korea",
+    "region": "Jeju Islands",
+    "reference": [
+      126.95472,
+      33.505
+    ],
+    "source_id": "geonames:1833833",
+    "source_name": "U-do",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Korea Strait",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#143240",
+          "#184351",
+          "#262957",
+          "#3840fb",
+          "#fb4599",
+          "#672a46",
+          "#2b5668"
+        ],
+        "#712568",
+        "Ice Blue / Ultramarine / Fuchsia"
+      ],
+      "S": [
+        [
+          "#54561c",
+          "#8fa11c",
+          "#c22d24",
+          "#7b2d22",
+          "#243a83",
+          "#1c52de",
+          "#b42817",
+          "#b6ba3f"
+        ],
+        "#9241e8",
+        "Citron / Vermilion / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 041",
+      "S": "Chromatic 042"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 48.824,
+        "phase": 2.379,
+        "centre_x": -0.1496,
+        "centre_y": -0.1273,
+        "hue_families": [
+          "Ice Blue",
+          "Ultramarine",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 104.007,
+        "phase": 0.9557,
+        "centre_x": 0.2361,
+        "centre_y": 0.0002,
+        "hue_families": [
+          "Citron",
+          "Vermilion",
+          "Cobalt"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "name_note": "Udo east of Jeju, not the same-named islands elsewhere in South Korea."
+  },
+  {
+    "id": "000278",
+    "letter": "V",
+    "name": "Vanua Levu",
+    "slug": "vanua-levu",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "FJ",
+    "country": "Fiji",
+    "region": "Northern Division",
+    "reference": [
+      179.25,
+      -16.55
+    ],
+    "source_id": "geonames:2197138",
+    "source_name": "Vanua Levu",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#077847",
+          "#bc8f12",
+          "#eacd7d",
+          "#53e1a1",
+          "#157d9e",
+          "#38bbe1",
+          "#f1e19f",
+          "#0ad56d",
+          "#7cc2e0"
+        ],
+        "#290821",
+        "Emerald / Amber / Ice Blue"
+      ],
+      "S": [
+        [
+          "#11301d",
+          "#1e5934",
+          "#442660",
+          "#686f1f",
+          "#301a4d",
+          "#9e52fb",
+          "#e9fc6d",
+          "#21683b",
+          "#454d1b",
+          "#2a794d"
+        ],
+        "#20cac1",
+        "Emerald / Violet / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 043",
+      "S": "Chromatic 044"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 264.592,
+        "phase": 1.2744,
+        "centre_x": 0.5405,
+        "centre_y": -0.0558,
+        "hue_families": [
+          "Emerald",
+          "Amber",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 22.169,
+        "phase": 5.543,
+        "centre_x": -0.2052,
+        "centre_y": -0.2752,
+        "hue_families": [
+          "Emerald",
+          "Violet",
+          "Citron"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "name_note": "The large northern Fiji island; not the small same-named island in the Mamanuca group."
+  },
+  {
+    "id": "000279",
+    "letter": "W",
+    "name": "Wrangel Island",
+    "slug": "wrangel-island",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "RU",
+    "country": "Russia",
+    "region": "Chukotka",
+    "reference": [
+      -179.38477,
+      71.24436
+    ],
+    "source_id": "geonames:4031503",
+    "source_name": "Wrangel Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Arctic Ocean",
+    "ocean": "Arctic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0c2b58",
+          "#123986",
+          "#a41c28",
+          "#7e121a",
+          "#15a25d",
+          "#22d169",
+          "#246abc"
+        ],
+        "#145113",
+        "Cobalt / Vermilion / Emerald"
+      ],
+      "S": [
+        [
+          "#8b4442",
+          "#f02323",
+          "#9aafb9",
+          "#5395a6",
+          "#72af91",
+          "#9dceb8",
+          "#3ac3f1",
+          "#caa2a3"
+        ],
+        "#e4c1b2",
+        "Vermilion / Ice Blue / Emerald"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 045",
+      "S": "Chromatic 046"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "confluence",
+        "field_angle_degrees": 208.464,
+        "phase": 0.865,
+        "centre_x": -0.6467,
+        "centre_y": -0.2581,
+        "hue_families": [
+          "Cobalt",
+          "Vermilion",
+          "Emerald"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 184.904,
+        "phase": 4.3194,
+        "centre_x": -0.2793,
+        "centre_y": 0.4612,
+        "hue_families": [
+          "Vermilion",
+          "Ice Blue",
+          "Emerald"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000280",
+    "letter": "X",
+    "name": "Xiji Yu",
+    "slug": "xiji-yu",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "TW",
+    "country": "Taiwan",
+    "region": "Penghu Islands",
+    "reference": [
+      119.60709025,
+      23.252486
+    ],
+    "source_id": "geonames:1675385",
+    "source_name": "Xiji Yu",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Taiwan Strait",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#652c6e",
+          "#b13429",
+          "#f55641",
+          "#c74dca",
+          "#2b6383",
+          "#4797cc",
+          "#dd8e81",
+          "#c90bd0",
+          "#67a3c4"
+        ],
+        "#727225",
+        "Orchid / Vermilion / Ice Blue"
+      ],
+      "S": [
+        [
+          "#592962",
+          "#824487",
+          "#b1a06f",
+          "#539ead",
+          "#83733f",
+          "#eaac0f",
+          "#7cbccd",
+          "#b85fc4",
+          "#3a7e8a",
+          "#bf80cb"
+        ],
+        "#3ae75f",
+        "Orchid / Amber / Ice Blue"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 047",
+      "S": "Chromatic 048"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "halo",
+        "field_angle_degrees": 150.119,
+        "phase": 2.6148,
+        "centre_x": 0.2565,
+        "centre_y": 0.2527,
+        "hue_families": [
+          "Orchid",
+          "Vermilion",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "confluence",
+        "field_angle_degrees": 203.74,
+        "phase": 5.8693,
+        "centre_x": -0.1379,
+        "centre_y": -0.1903,
+        "hue_families": [
+          "Orchid",
+          "Amber",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "gazetteer_reference": [
+      119.61556,
+      23.24917
+    ],
+    "reference_note": "Gazetteer point lies about 110 m outside the GSHHG shoreline; use the representative interior point of the nearest physical island polygon (about 1 km²). Original gazetteer coordinates retained."
+  },
+  {
+    "id": "000281",
+    "letter": "Y",
+    "name": "Yapen",
+    "slug": "yapen",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Papua",
+    "reference": [
+      136.15425,
+      -1.74381
+    ],
+    "source_id": "geonames:1642777",
+    "source_name": "Yapen Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Cenderawasih Bay",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#620e44",
+          "#9f196d",
+          "#c9d525",
+          "#8c9419",
+          "#1f1da0",
+          "#3936f0",
+          "#e02997"
+        ],
+        "#0a351e",
+        "Fuchsia / Citron / Ultramarine"
+      ],
+      "S": [
+        [
+          "#486923",
+          "#77aa42",
+          "#3273f4",
+          "#41567f",
+          "#6849a6",
+          "#9577c6",
+          "#256ff4",
+          "#afd481"
+        ],
+        "#20cb26",
+        "Acid Lime / Cobalt / Violet"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 049",
+      "S": "Chromatic 050"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 339.638,
+        "phase": 0.9069,
+        "centre_x": -0.0983,
+        "centre_y": 0.1363,
+        "hue_families": [
+          "Fuchsia",
+          "Citron",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "halo",
+        "field_angle_degrees": 54.99,
+        "phase": 3.3442,
+        "centre_x": 0.3381,
+        "centre_y": -0.1885,
+        "hue_families": [
+          "Acid Lime",
+          "Cobalt",
+          "Violet"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000282",
+    "letter": "Z",
+    "name": "Zirje",
+    "slug": "zirje",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Šibenik Archipelago",
+    "reference": [
+      15.66053,
+      43.65206
+    ],
+    "source_id": "geonames:3186447",
+    "source_name": "Otok Žirje",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#313459",
+          "#875e4a",
+          "#c98864",
+          "#5f60a7",
+          "#539c0a",
+          "#79c346",
+          "#c59d8f",
+          "#3b40a7",
+          "#97c06f"
+        ],
+        "#114620",
+        "Ultramarine / Tangerine / Acid Lime"
+      ],
+      "S": [
+        [
+          "#145d18",
+          "#1b9728",
+          "#1be1ce",
+          "#bbc929",
+          "#198882",
+          "#10cbb3",
+          "#d0e736",
+          "#36d335",
+          "#889910",
+          "#37f43b"
+        ],
+        "#abe1b2",
+        "Leaf / Turquoise / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 051",
+      "S": "Chromatic 052"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 79.633,
+        "phase": 2.7632,
+        "centre_x": -0.0122,
+        "centre_y": -0.6423,
+        "hue_families": [
+          "Ultramarine",
+          "Tangerine",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 25.679,
+        "phase": 3.7081,
+        "centre_x": 0.4863,
+        "centre_y": -0.3259,
+        "hue_families": [
+          "Leaf",
+          "Turquoise",
+          "Citron"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "name_note": "Žirje, Croatia; ASCII display name Zirje for alphabetic indexing."
+  },
+  {
+    "id": "000283",
+    "letter": "A",
+    "name": "Aguni",
+    "slug": "aguni",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Okinawa Islands",
+    "reference": [
+      127.22639,
+      26.58861
+    ],
+    "source_id": "geonames:1865706",
+    "source_name": "Aguni Jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ba4a8a",
+          "#d36ba3",
+          "#8ed8d2",
+          "#62d7d7",
+          "#9b7acb",
+          "#baa0e1",
+          "#d88fb9"
+        ],
+        "#5a7626",
+        "Fuchsia / Turquoise / Violet"
+      ],
+      "S": [
+        [
+          "#77080b",
+          "#f41113",
+          "#f4bd62",
+          "#ac7a18",
+          "#0fe7e6",
+          "#89e8ec",
+          "#eea22e",
+          "#edaeab"
+        ],
+        "#4b80e9",
+        "Vermilion / Amber / Turquoise"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 053",
+      "S": "Chromatic 054"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "confluence",
+        "field_angle_degrees": 107.433,
+        "phase": 3.911,
+        "centre_x": -0.2362,
+        "centre_y": 0.3387,
+        "hue_families": [
+          "Fuchsia",
+          "Turquoise",
+          "Violet"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 352.592,
+        "phase": 4.4842,
+        "centre_x": 0.0745,
+        "centre_y": -0.6401,
+        "hue_families": [
+          "Vermilion",
+          "Amber",
+          "Turquoise"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000284",
+    "letter": "B",
+    "name": "Bintan",
+    "slug": "bintan",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Riau Islands",
+    "reference": [
+      104.525,
+      1.1
+    ],
+    "source_id": "geonames:1648710",
+    "source_name": "Pulau Bintan",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#443111",
+          "#184a1a",
+          "#256828",
+          "#6a4e26",
+          "#30bafb",
+          "#4bbefb",
+          "#307430",
+          "#4e3f23",
+          "#1a5879"
+        ],
+        "#0a2136",
+        "Amber / Leaf / Ice Blue"
+      ],
+      "S": [
+        [
+          "#152851",
+          "#124097",
+          "#c7145c",
+          "#965938",
+          "#6b183d",
+          "#952057",
+          "#cd6631",
+          "#4065aa",
+          "#943610",
+          "#3f68d2"
+        ],
+        "#571fc9",
+        "Cobalt / Fuchsia / Tangerine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 055",
+      "S": "Chromatic 056"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "halo",
+        "field_angle_degrees": 83.919,
+        "phase": 2.6098,
+        "centre_x": 0.1862,
+        "centre_y": -0.6436,
+        "hue_families": [
+          "Amber",
+          "Leaf",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "confluence",
+        "field_angle_degrees": 300.995,
+        "phase": 4.3961,
+        "centre_x": -0.5023,
+        "centre_y": -0.5932,
+        "hue_families": [
+          "Cobalt",
+          "Fuchsia",
+          "Tangerine"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000285",
+    "letter": "C",
+    "name": "Cozumel",
+    "slug": "cozumel",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "MX",
+    "country": "Mexico",
+    "region": "Quintana Roo",
+    "reference": [
+      -86.90048,
+      20.46152
+    ],
+    "source_id": "geonames:3530102",
+    "source_name": "Isla Cozumel",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#056159",
+          "#1fc4b4",
+          "#bcd749",
+          "#90b30b",
+          "#b51eda",
+          "#de7ef7",
+          "#4ef7d5"
+        ],
+        "#474e12",
+        "Turquoise / Citron / Orchid"
+      ],
+      "S": [
+        [
+          "#441432",
+          "#5e1b40",
+          "#6d5e2c",
+          "#473c1b",
+          "#417afb",
+          "#5b90fc",
+          "#63542e",
+          "#722d50"
+        ],
+        "#e7bacd",
+        "Fuchsia / Amber / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 057",
+      "S": "Chromatic 058"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 333.894,
+        "phase": 5.9204,
+        "centre_x": -0.1631,
+        "centre_y": 0.0037,
+        "hue_families": [
+          "Turquoise",
+          "Citron",
+          "Orchid"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "halo",
+        "field_angle_degrees": 111.911,
+        "phase": 1.525,
+        "centre_x": -0.0368,
+        "centre_y": -0.4755,
+        "hue_families": [
+          "Fuchsia",
+          "Amber",
+          "Cobalt"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000286",
+    "letter": "D",
+    "name": "Damar",
+    "slug": "damar",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Maluku Islands",
+    "reference": [
+      128.6182,
+      -7.1398
+    ],
+    "source_id": "geonames:1645775",
+    "source_name": "Pulau Damar",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Banda Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#505f12",
+          "#883913",
+          "#b96434",
+          "#8c9738",
+          "#0f7540",
+          "#369c5f",
+          "#cd5f28",
+          "#748919",
+          "#25bf5e"
+        ],
+        "#287c76",
+        "Citron / Tangerine / Emerald"
+      ],
+      "S": [
+        [
+          "#7b4045",
+          "#ea101c",
+          "#b09ab5",
+          "#ada28d",
+          "#856189",
+          "#a986ae",
+          "#c4bb9e",
+          "#c19697",
+          "#efa916",
+          "#d5b1b5"
+        ],
+        "#4ec3e9",
+        "Vermilion / Orchid / Amber"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 059",
+      "S": "Chromatic 060"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 188.9,
+        "phase": 4.4076,
+        "centre_x": -0.2132,
+        "centre_y": 0.0402,
+        "hue_families": [
+          "Citron",
+          "Tangerine",
+          "Emerald"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 117.343,
+        "phase": 1.8811,
+        "centre_x": 0.0968,
+        "centre_y": 0.5357,
+        "hue_families": [
+          "Vermilion",
+          "Orchid",
+          "Amber"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "name_note": "Damar in the Maluku Islands at 7.14°S, 128.62°E."
+  },
+  {
+    "id": "000287",
+    "letter": "E",
+    "name": "Euboea",
+    "slug": "euboea",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Central Greece",
+    "reference": [
+      24.0,
+      38.5
+    ],
+    "source_id": "geonames:262565",
+    "source_name": "Euboea",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#632522",
+          "#8f3d3c",
+          "#d61cf3",
+          "#782d90",
+          "#939b47",
+          "#ecf64b",
+          "#bc6160"
+        ],
+        "#0a332c",
+        "Vermilion / Orchid / Citron"
+      ],
+      "S": [
+        [
+          "#6a6b30",
+          "#929855",
+          "#696cc0",
+          "#40418a",
+          "#0e7ed5",
+          "#80a0b5",
+          "#625fb5",
+          "#c5cc77"
+        ],
+        "#5bc51f",
+        "Citron / Ultramarine / Ice Blue"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 061",
+      "S": "Chromatic 062"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "confluence",
+        "field_angle_degrees": 189.314,
+        "phase": 3.325,
+        "centre_x": -0.6482,
+        "centre_y": 0.3437,
+        "hue_families": [
+          "Vermilion",
+          "Orchid",
+          "Citron"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 65.588,
+        "phase": 2.7457,
+        "centre_x": -0.4766,
+        "centre_y": -0.2691,
+        "hue_families": [
+          "Citron",
+          "Ultramarine",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000288",
+    "letter": "F",
+    "name": "Flores (Indonesia)",
+    "slug": "flores-indonesia",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Lesser Sunda Islands",
+    "reference": [
+      121.12899,
+      -8.62354
+    ],
+    "source_id": "geonames:9062332",
+    "source_name": "Flores",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Flores Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#73260c",
+          "#b31051",
+          "#dc3479",
+          "#c25f27",
+          "#0d8481",
+          "#2bccbc",
+          "#dd5193",
+          "#b23e12",
+          "#2ee7e7"
+        ],
+        "#38124e",
+        "Tangerine / Fuchsia / Turquoise"
+      ],
+      "S": [
+        [
+          "#681d73",
+          "#92429d",
+          "#f5af3a",
+          "#5775af",
+          "#926b2c",
+          "#c79138",
+          "#6998d9",
+          "#be58ca",
+          "#0a58c3",
+          "#cb7ad4"
+        ],
+        "#e7b9e1",
+        "Orchid / Amber / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 063",
+      "S": "Chromatic 064"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "halo",
+        "field_angle_degrees": 328.421,
+        "phase": 1.2571,
+        "centre_x": 0.0249,
+        "centre_y": 0.4184,
+        "hue_families": [
+          "Tangerine",
+          "Fuchsia",
+          "Turquoise"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "confluence",
+        "field_angle_degrees": 175.571,
+        "phase": 4.8809,
+        "centre_x": 0.5917,
+        "centre_y": 0.0849,
+        "hue_families": [
+          "Orchid",
+          "Amber",
+          "Cobalt"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000289",
+    "letter": "G",
+    "name": "Grande Comore",
+    "slug": "grande-comore",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "KM",
+    "country": "Comoros",
+    "region": "Comoro Islands",
+    "reference": [
+      43.33306,
+      -11.58611
+    ],
+    "source_id": "geonames:921881",
+    "source_name": "Grande Comore",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mozambique Channel",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2b3658",
+          "#4f628f",
+          "#c34241",
+          "#b10b1a",
+          "#713ead",
+          "#9572be",
+          "#5374c2"
+        ],
+        "#7f2951",
+        "Cobalt / Vermilion / Violet"
+      ],
+      "S": [
+        [
+          "#3c790a",
+          "#68c11a",
+          "#e72880",
+          "#9f1553",
+          "#ae791e",
+          "#e5a840",
+          "#c52072",
+          "#93ef42"
+        ],
+        "#e94ce4",
+        "Acid Lime / Fuchsia / Amber"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 065",
+      "S": "Chromatic 066"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 150.005,
+        "phase": 2.5946,
+        "centre_x": -0.1094,
+        "centre_y": -0.076,
+        "hue_families": [
+          "Cobalt",
+          "Vermilion",
+          "Violet"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "halo",
+        "field_angle_degrees": 56.9,
+        "phase": 2.3419,
+        "centre_x": -0.4173,
+        "centre_y": 0.6342,
+        "hue_families": [
+          "Acid Lime",
+          "Fuchsia",
+          "Amber"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000290",
+    "letter": "H",
+    "name": "Herm",
+    "slug": "herm",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GG",
+    "country": "Guernsey",
+    "region": "Channel Islands",
+    "reference": [
+      -2.44832,
+      49.47214
+    ],
+    "source_id": "geonames:3042359",
+    "source_name": "Herm",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "English Channel",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#b7bf55",
+          "#6dcd72",
+          "#99d897",
+          "#d1d68a",
+          "#c48f60",
+          "#d4a88c",
+          "#a8e4aa",
+          "#ccdc69",
+          "#e2b79c"
+        ],
+        "#0b0727",
+        "Citron / Leaf / Tangerine"
+      ],
+      "S": [
+        [
+          "#5b420a",
+          "#b08920",
+          "#59f7b8",
+          "#ef3a9a",
+          "#139f6a",
+          "#34eaab",
+          "#eb95c3",
+          "#dec479",
+          "#c2146d",
+          "#f1dfae"
+        ],
+        "#9dd020",
+        "Amber / Emerald / Fuchsia"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 067",
+      "S": "Chromatic 068"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 315.009,
+        "phase": 5.4603,
+        "centre_x": -0.1912,
+        "centre_y": 0.4744,
+        "hue_families": [
+          "Citron",
+          "Leaf",
+          "Tangerine"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 124.156,
+        "phase": 4.414,
+        "centre_x": 0.0108,
+        "centre_y": 0.512,
+        "hue_families": [
+          "Amber",
+          "Emerald",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000291",
+    "letter": "I",
+    "name": "Iriomote",
+    "slug": "iriomote",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Yaeyama Islands",
+    "reference": [
+      123.83333,
+      24.33333
+    ],
+    "source_id": "geonames:1861484",
+    "source_name": "Iriomote Jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3d1026",
+          "#53122e",
+          "#28225c",
+          "#5542fb",
+          "#44fb3f",
+          "#2c692b",
+          "#7b1d47"
+        ],
+        "#15114a",
+        "Fuchsia / Ultramarine / Leaf"
+      ],
+      "S": [
+        [
+          "#0f5d12",
+          "#17991b",
+          "#a13a70",
+          "#6a224c",
+          "#54218f",
+          "#742dd0",
+          "#aa236b",
+          "#30cc3b"
+        ],
+        "#bbe7bd",
+        "Leaf / Fuchsia / Violet"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 069",
+      "S": "Chromatic 070"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "confluence",
+        "field_angle_degrees": 258.768,
+        "phase": 5.0018,
+        "centre_x": 0.2804,
+        "centre_y": 0.4654,
+        "hue_families": [
+          "Fuchsia",
+          "Ultramarine",
+          "Leaf"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 234.595,
+        "phase": 5.2949,
+        "centre_x": 0.6404,
+        "centre_y": 0.5001,
+        "hue_families": [
+          "Leaf",
+          "Fuchsia",
+          "Violet"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000292",
+    "letter": "J",
+    "name": "Jicarón",
+    "slug": "jicaron",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "PA",
+    "country": "Panama",
+    "region": "Coiba National Park",
+    "reference": [
+      -81.8,
+      7.27056
+    ],
+    "source_id": "geonames:3708386",
+    "source_name": "Isla Jicarón",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Chiriquí",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#733611",
+          "#ca0a76",
+          "#ea71c1",
+          "#e58e3e",
+          "#778b14",
+          "#c5d45b",
+          "#f4a2d1",
+          "#d76611",
+          "#d4ed6c"
+        ],
+        "#25713c",
+        "Tangerine / Fuchsia / Citron"
+      ],
+      "S": [
+        [
+          "#103842",
+          "#204954",
+          "#6b3924",
+          "#575921",
+          "#4d2818",
+          "#fc865a",
+          "#f0fc6c",
+          "#1d6173",
+          "#3f431b",
+          "#32687b"
+        ],
+        "#e88f45",
+        "Ice Blue / Tangerine / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 071",
+      "S": "Chromatic 072"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "halo",
+        "field_angle_degrees": 347.362,
+        "phase": 1.3838,
+        "centre_x": -0.237,
+        "centre_y": 0.5095,
+        "hue_families": [
+          "Tangerine",
+          "Fuchsia",
+          "Citron"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "confluence",
+        "field_angle_degrees": 168.232,
+        "phase": 2.3301,
+        "centre_x": -0.1343,
+        "centre_y": -0.1957,
+        "hue_families": [
+          "Ice Blue",
+          "Tangerine",
+          "Citron"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000293",
+    "letter": "K",
+    "name": "Koh Rong",
+    "slug": "koh-rong",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "KH",
+    "country": "Cambodia",
+    "region": "Gulf of Thailand",
+    "reference": [
+      103.24351,
+      10.72218
+    ],
+    "source_id": "geonames:1822396",
+    "source_name": "Koh Rong",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of Thailand",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4a171b",
+          "#831b1d",
+          "#849a2b",
+          "#6f7e1f",
+          "#119895",
+          "#2ac9ce",
+          "#a82f2c"
+        ],
+        "#0a3637",
+        "Vermilion / Citron / Turquoise"
+      ],
+      "S": [
+        [
+          "#414682",
+          "#343ef1",
+          "#8cb8a2",
+          "#4f9770",
+          "#9e917d",
+          "#c5bba4",
+          "#4ff3aa",
+          "#aaadd2"
+        ],
+        "#9e21d3",
+        "Ultramarine / Emerald / Amber"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 073",
+      "S": "Chromatic 074"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 238.833,
+        "phase": 1.3986,
+        "centre_x": -0.5041,
+        "centre_y": -0.0999,
+        "hue_families": [
+          "Vermilion",
+          "Citron",
+          "Turquoise"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 318.621,
+        "phase": 3.0389,
+        "centre_x": -0.153,
+        "centre_y": -0.1968,
+        "hue_families": [
+          "Ultramarine",
+          "Emerald",
+          "Amber"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000294",
+    "letter": "L",
+    "name": "Lombok",
+    "slug": "lombok",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Lesser Sunda Islands",
+    "reference": [
+      116.33286,
+      -8.67697
+    ],
+    "source_id": "geonames:7869837",
+    "source_name": "Lombok Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#775b22",
+          "#8b4091",
+          "#f13af5",
+          "#d0a048",
+          "#3a8180",
+          "#54b8ba",
+          "#c58eca",
+          "#db890c",
+          "#59d1d9"
+        ],
+        "#49134f",
+        "Amber / Orchid / Turquoise"
+      ],
+      "S": [
+        [
+          "#602120",
+          "#993c42",
+          "#5d65c1",
+          "#44c4bb",
+          "#42457a",
+          "#0f0fee",
+          "#7ebab5",
+          "#ba5f66",
+          "#4e837d",
+          "#c5999a"
+        ],
+        "#e5bab6",
+        "Vermilion / Ultramarine / Turquoise"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 075",
+      "S": "Chromatic 076"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 241.566,
+        "phase": 4.479,
+        "centre_x": 0.5836,
+        "centre_y": 0.5908,
+        "hue_families": [
+          "Amber",
+          "Orchid",
+          "Turquoise"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 3.966,
+        "phase": 5.9147,
+        "centre_x": 0.5554,
+        "centre_y": -0.6163,
+        "hue_families": [
+          "Vermilion",
+          "Ultramarine",
+          "Turquoise"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000295",
+    "letter": "M",
+    "name": "Martinique",
+    "slug": "martinique",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "MQ",
+    "country": "Martinique",
+    "region": "Lesser Antilles",
+    "reference": [
+      -61.00416,
+      14.66281
+    ],
+    "source_id": "geonames:3570312",
+    "source_name": "Martinique",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#5d066c",
+          "#ac10b8",
+          "#2abfbf",
+          "#1c918e",
+          "#0c40c6",
+          "#416fdd",
+          "#c925db"
+        ],
+        "#736025",
+        "Orchid / Turquoise / Cobalt"
+      ],
+      "S": [
+        [
+          "#62276a",
+          "#a83cb5",
+          "#4075f5",
+          "#384f8a",
+          "#a5b23b",
+          "#c5d46b",
+          "#234df3",
+          "#cb8bd0"
+        ],
+        "#41e78e",
+        "Orchid / Cobalt / Citron"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 077",
+      "S": "Chromatic 078"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "confluence",
+        "field_angle_degrees": 2.907,
+        "phase": 3.1975,
+        "centre_x": -0.4067,
+        "centre_y": -0.5615,
+        "hue_families": [
+          "Orchid",
+          "Turquoise",
+          "Cobalt"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 354.957,
+        "phase": 4.8633,
+        "centre_x": 0.2728,
+        "centre_y": -0.0619,
+        "hue_families": [
+          "Orchid",
+          "Cobalt",
+          "Citron"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000296",
+    "letter": "N",
+    "name": "Negros",
+    "slug": "negros",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "PH",
+    "country": "Philippines",
+    "region": "Visayas",
+    "reference": [
+      123.04179,
+      10.09568
+    ],
+    "source_id": "geonames:1697809",
+    "source_name": "Negros Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Sulu Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4a5a34",
+          "#34936f",
+          "#7abba2",
+          "#8aa75c",
+          "#0b36ab",
+          "#4c6daf",
+          "#8cc2ab",
+          "#6b884e",
+          "#6982ca"
+        ],
+        "#1c0b37",
+        "Acid Lime / Emerald / Cobalt"
+      ],
+      "S": [
+        [
+          "#76090e",
+          "#9b222a",
+          "#1bef1e",
+          "#101ad4",
+          "#1a8c16",
+          "#31be22",
+          "#383eec",
+          "#e22a30",
+          "#27219b",
+          "#ec4549"
+        ],
+        "#cb7f20",
+        "Vermilion / Leaf / Ultramarine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 079",
+      "S": "Chromatic 080"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "halo",
+        "field_angle_degrees": 74.267,
+        "phase": 4.2937,
+        "centre_x": -0.4978,
+        "centre_y": -0.3604,
+        "hue_families": [
+          "Acid Lime",
+          "Emerald",
+          "Cobalt"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "confluence",
+        "field_angle_degrees": 17.34,
+        "phase": 3.0038,
+        "centre_x": -0.2129,
+        "centre_y": -0.0044,
+        "hue_families": [
+          "Vermilion",
+          "Leaf",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000297",
+    "letter": "O",
+    "name": "Ouvéa",
+    "slug": "ouvea",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "NC",
+    "country": "New Caledonia",
+    "region": "Loyalty Islands",
+    "reference": [
+      166.56166,
+      -20.6225
+    ],
+    "source_id": "geonames:2139032",
+    "source_name": "Ouvéa Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Coral Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#ab5885",
+          "#c778a3",
+          "#88d380",
+          "#82bd77",
+          "#c5cf81",
+          "#d9e29c",
+          "#d6a2bb"
+        ],
+        "#131950",
+        "Fuchsia / Leaf / Citron"
+      ],
+      "S": [
+        [
+          "#62540e",
+          "#efc716",
+          "#f264c0",
+          "#9c296a",
+          "#1810e6",
+          "#877af1",
+          "#ea32a1",
+          "#e6d49d"
+        ],
+        "#e5dbb4",
+        "Amber / Fuchsia / Ultramarine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 081",
+      "S": "Chromatic 082"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 344.131,
+        "phase": 3.8036,
+        "centre_x": -0.4151,
+        "centre_y": -0.2854,
+        "hue_families": [
+          "Fuchsia",
+          "Leaf",
+          "Citron"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "halo",
+        "field_angle_degrees": 26.0,
+        "phase": 0.8873,
+        "centre_x": -0.63,
+        "centre_y": 0.1367,
+        "hue_families": [
+          "Amber",
+          "Fuchsia",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000298",
+    "letter": "P",
+    "name": "Ponza",
+    "slug": "ponza",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Pontine Islands",
+    "reference": [
+      12.95691,
+      40.91137
+    ],
+    "source_id": "geonames:3170187",
+    "source_name": "Isola di Ponza",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Tyrrhenian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#111c3e",
+          "#195637",
+          "#266346",
+          "#273566",
+          "#fb2f8c",
+          "#fb49a1",
+          "#25804a",
+          "#15254f",
+          "#70274a"
+        ],
+        "#73253d",
+        "Cobalt / Emerald / Fuchsia"
+      ],
+      "S": [
+        [
+          "#550d57",
+          "#7f1384",
+          "#2d1cce",
+          "#75a41c",
+          "#211776",
+          "#413496",
+          "#8bbe39",
+          "#b215cc",
+          "#5e890f",
+          "#c126d5"
+        ],
+        "#3fe762",
+        "Orchid / Ultramarine / Acid Lime"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 083",
+      "S": "Chromatic 084"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 27.747,
+        "phase": 2.5913,
+        "centre_x": -0.2359,
+        "centre_y": 0.3599,
+        "hue_families": [
+          "Cobalt",
+          "Emerald",
+          "Fuchsia"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 342.978,
+        "phase": 3.2976,
+        "centre_x": 0.5333,
+        "centre_y": 0.4287,
+        "hue_families": [
+          "Orchid",
+          "Ultramarine",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000299",
+    "letter": "Q",
+    "name": "Quiriquina",
+    "slug": "quiriquina",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "CL",
+    "country": "Chile",
+    "region": "Biobío",
+    "reference": [
+      -73.06031,
+      -36.62575
+    ],
+    "source_id": "geonames:3873953",
+    "source_name": "Isla Quiriquina",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#084f65",
+          "#17aad1",
+          "#d67046",
+          "#c64306",
+          "#6630c0",
+          "#a172f8",
+          "#5ac8e9"
+        ],
+        "#250708",
+        "Ice Blue / Tangerine / Violet"
+      ],
+      "S": [
+        [
+          "#0e0f32",
+          "#20224d",
+          "#712e19",
+          "#422118",
+          "#c940fb",
+          "#db57fc",
+          "#5e2b1c",
+          "#232778"
+        ],
+        "#7620cf",
+        "Ultramarine / Tangerine / Orchid"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 085",
+      "S": "Chromatic 086"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "confluence",
+        "field_angle_degrees": 215.666,
+        "phase": 0.9024,
+        "centre_x": -0.5847,
+        "centre_y": 0.1083,
+        "hue_families": [
+          "Ice Blue",
+          "Tangerine",
+          "Violet"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 50.154,
+        "phase": 3.0616,
+        "centre_x": -0.5243,
+        "centre_y": 0.5885,
+        "hue_families": [
+          "Ultramarine",
+          "Tangerine",
+          "Orchid"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000300",
+    "letter": "R",
+    "name": "Rebun",
+    "slug": "rebun",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Northern Hokkaidō",
+    "reference": [
+      141.03306,
+      45.36444
+    ],
+    "source_id": "geonames:2128416",
+    "source_name": "Rebun Tō",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Sea of Japan",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#541666",
+          "#867519",
+          "#bf981f",
+          "#901ba5",
+          "#262072",
+          "#382ba4",
+          "#d7bb35",
+          "#771093",
+          "#3830c2"
+        ],
+        "#123d4c",
+        "Orchid / Amber / Ultramarine"
+      ],
+      "S": [
+        [
+          "#50596e",
+          "#124def",
+          "#b3bd87",
+          "#957cb0",
+          "#868a61",
+          "#b0b97c",
+          "#b8a2cd",
+          "#8a94c3",
+          "#6b10e2",
+          "#b2b6cb"
+        ],
+        "#acb9e2",
+        "Cobalt / Citron / Violet"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 087",
+      "S": "Chromatic 088"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 213.169,
+        "phase": 0.6964,
+        "centre_x": -0.251,
+        "centre_y": 0.5444,
+        "hue_families": [
+          "Orchid",
+          "Amber",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "confluence",
+        "field_angle_degrees": 151.98,
+        "phase": 3.9543,
+        "centre_x": -0.5975,
+        "centre_y": 0.6402,
+        "hue_families": [
+          "Cobalt",
+          "Citron",
+          "Violet"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    },
+    "source_aliases": [
+      "geonames:2131652"
+    ]
+  },
+  {
+    "id": "000301",
+    "letter": "S",
+    "name": "Sumba",
+    "slug": "sumba",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Lesser Sunda Islands",
+    "reference": [
+      119.9659,
+      -9.69823
+    ],
+    "source_id": "geonames:2056940",
+    "source_name": "Pulau Sumba",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#1e1f6a",
+          "#2e2bb6",
+          "#20f3cb",
+          "#3a8a79",
+          "#9a8545",
+          "#f5ca47",
+          "#4f54d0"
+        ],
+        "#762d26",
+        "Ultramarine / Turquoise / Amber"
+      ],
+      "S": [
+        [
+          "#665834",
+          "#a98c45",
+          "#9e6bb3",
+          "#78368d",
+          "#78e60f",
+          "#9cc777",
+          "#965da8",
+          "#cdb385"
+        ],
+        "#503fe7",
+        "Amber / Orchid / Acid Lime"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 089",
+      "S": "Chromatic 090"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 143.277,
+        "phase": 1.9942,
+        "centre_x": 0.2899,
+        "centre_y": 0.6262,
+        "hue_families": [
+          "Ultramarine",
+          "Turquoise",
+          "Amber"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "halo",
+        "field_angle_degrees": 345.278,
+        "phase": 4.7426,
+        "centre_x": -0.5545,
+        "centre_y": 0.4807,
+        "hue_families": [
+          "Amber",
+          "Orchid",
+          "Acid Lime"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000302",
+    "letter": "T",
+    "name": "Terschelling",
+    "slug": "terschelling",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "region": "West Frisian Islands",
+    "reference": [
+      5.36489,
+      53.40807
+    ],
+    "source_id": "geonames:2746414",
+    "source_name": "Terschelling",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3d1179",
+          "#a22523",
+          "#f02828",
+          "#7f2bcb",
+          "#0b914b",
+          "#27c469",
+          "#e95042",
+          "#581cad",
+          "#30da81"
+        ],
+        "#1c2407",
+        "Violet / Vermilion / Emerald"
+      ],
+      "S": [
+        [
+          "#4a6822",
+          "#73b42e",
+          "#d629f4",
+          "#c07149",
+          "#7e328c",
+          "#a346ac",
+          "#d48f70",
+          "#9db96f",
+          "#bb480a",
+          "#abd284"
+        ],
+        "#21d355",
+        "Acid Lime / Orchid / Tangerine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 091",
+      "S": "Chromatic 092"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 34.765,
+        "phase": 4.1331,
+        "centre_x": -0.4981,
+        "centre_y": 0.2434,
+        "hue_families": [
+          "Violet",
+          "Vermilion",
+          "Emerald"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 117.399,
+        "phase": 5.5549,
+        "centre_x": -0.1934,
+        "centre_y": -0.1567,
+        "hue_families": [
+          "Acid Lime",
+          "Orchid",
+          "Tangerine"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000303",
+    "letter": "U",
+    "name": "Uvea (Wallis)",
+    "slug": "uvea-wallis",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "WF",
+    "country": "Wallis and Futuna",
+    "region": "Wallis Islands",
+    "reference": [
+      -176.20663,
+      -13.28188
+    ],
+    "source_id": "geonames:4034758",
+    "source_name": "Wallis Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#345330",
+          "#409534",
+          "#4748c5",
+          "#110cc2",
+          "#95a436",
+          "#b2b47f",
+          "#69c55f"
+        ],
+        "#522a13",
+        "Leaf / Ultramarine / Citron"
+      ],
+      "S": [
+        [
+          "#165f36",
+          "#15c268",
+          "#25b4e8",
+          "#117c94",
+          "#be5417",
+          "#e47c2d",
+          "#259dc4",
+          "#46e092"
+        ],
+        "#bae7dd",
+        "Emerald / Ice Blue / Tangerine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 093",
+      "S": "Chromatic 094"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "confluence",
+        "field_angle_degrees": 178.24,
+        "phase": 4.5976,
+        "centre_x": 0.2569,
+        "centre_y": 0.3985,
+        "hue_families": [
+          "Leaf",
+          "Ultramarine",
+          "Citron"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Jewel Colour",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 108.213,
+        "phase": 2.5556,
+        "centre_x": -0.0765,
+        "centre_y": 0.133,
+        "hue_families": [
+          "Emerald",
+          "Ice Blue",
+          "Tangerine"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000304",
+    "letter": "V",
+    "name": "Vannøya",
+    "slug": "vannya",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "NO",
+    "country": "Norway",
+    "region": "Troms",
+    "reference": [
+      19.70079,
+      70.18191
+    ],
+    "source_id": "geonames:3132724",
+    "source_name": "Vannøya",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Norwegian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#a8bf4f",
+          "#67ca66",
+          "#abd6af",
+          "#c5d78a",
+          "#b86563",
+          "#e0737c",
+          "#aadeab",
+          "#c4de67",
+          "#dca5a8"
+        ],
+        "#297c80",
+        "Citron / Leaf / Vermilion"
+      ],
+      "S": [
+        [
+          "#571a14",
+          "#ce1509",
+          "#e7ce6c",
+          "#2766ed",
+          "#a27e08",
+          "#e2ae25",
+          "#90b3ed",
+          "#e18074",
+          "#2254ac",
+          "#f7a192"
+        ],
+        "#4e7ce9",
+        "Vermilion / Amber / Cobalt"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 095",
+      "S": "Chromatic 096"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Pale Chromatic Stone",
+        "field_mode": "halo",
+        "field_angle_degrees": 261.324,
+        "phase": 1.0111,
+        "centre_x": 0.5531,
+        "centre_y": -0.0596,
+        "hue_families": [
+          "Citron",
+          "Leaf",
+          "Vermilion"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "confluence",
+        "field_angle_degrees": 86.73,
+        "phase": 1.9505,
+        "centre_x": 0.5542,
+        "centre_y": -0.4473,
+        "hue_families": [
+          "Vermilion",
+          "Amber",
+          "Cobalt"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000305",
+    "letter": "W",
+    "name": "Westray",
+    "slug": "westray",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Orkney",
+    "reference": [
+      -2.95704,
+      59.2985
+    ],
+    "source_id": "geonames:2634285",
+    "source_name": "Westray",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#392f0f",
+          "#614917",
+          "#60203d",
+          "#fb3c99",
+          "#4cc9fb",
+          "#2a5d78",
+          "#786320"
+        ],
+        "#0a2336",
+        "Amber / Fuchsia / Ice Blue"
+      ],
+      "S": [
+        [
+          "#5b4114",
+          "#86652c",
+          "#c1171b",
+          "#622624",
+          "#151195",
+          "#2e17d2",
+          "#9b2d2a",
+          "#c19b47"
+        ],
+        "#75d321",
+        "Amber / Vermilion / Ultramarine"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 097",
+      "S": "Chromatic 098"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 30.392,
+        "phase": 2.4302,
+        "centre_x": 0.3653,
+        "centre_y": -0.0091,
+        "hue_families": [
+          "Amber",
+          "Fuchsia",
+          "Ice Blue"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "halo",
+        "field_angle_degrees": 102.637,
+        "phase": 1.8512,
+        "centre_x": -0.5389,
+        "centre_y": -0.0431,
+        "hue_families": [
+          "Amber",
+          "Vermilion",
+          "Ultramarine"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000306",
+    "letter": "X",
+    "name": "Xiaochangshan Dao",
+    "slug": "xiaochangshan-dao",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "CN",
+    "country": "China",
+    "region": "Changhai Islands",
+    "reference": [
+      122.71972,
+      39.23472
+    ],
+    "source_id": "geonames:1790307",
+    "source_name": "Xiaochangshan Dao",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Yellow Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#0c680d",
+          "#aa0ec7",
+          "#d57bdf",
+          "#59dd57",
+          "#9f6b06",
+          "#d2a045",
+          "#e2a1eb",
+          "#21be2a",
+          "#eac378"
+        ],
+        "#532513",
+        "Leaf / Orchid / Amber"
+      ],
+      "S": [
+        [
+          "#200f3a",
+          "#351f55",
+          "#27721e",
+          "#196059",
+          "#21401b",
+          "#63fb45",
+          "#60fcf3",
+          "#4b336a",
+          "#244c49",
+          "#4f3578"
+        ],
+        "#d7bce7",
+        "Violet / Leaf / Turquoise"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 099",
+      "S": "Chromatic 100"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 42,
+        "shadow_distance_px": 10
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Electric Contrast",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 207.091,
+        "phase": 2.835,
+        "centre_x": 0.0505,
+        "centre_y": 0.2139,
+        "hue_families": [
+          "Leaf",
+          "Orchid",
+          "Amber"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Ink and Acid",
+        "field_mode": "sweeping",
+        "field_angle_degrees": 97.813,
+        "phase": 2.4807,
+        "centre_x": -0.0775,
+        "centre_y": -0.4972,
+        "hue_families": [
+          "Violet",
+          "Leaf",
+          "Turquoise"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000307",
+    "letter": "Y",
+    "name": "Yonaguni",
+    "slug": "yonaguni",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Yaeyama Islands",
+    "reference": [
+      122.99069,
+      24.45543
+    ],
+    "source_id": "geonames:1848275",
+    "source_name": "Yonaguni-jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2b4719",
+          "#4e8d1b",
+          "#ab7723",
+          "#7e560f",
+          "#1e9a61",
+          "#1dda7e",
+          "#67ba1b"
+        ],
+        "#28457c",
+        "Acid Lime / Amber / Emerald"
+      ],
+      "S": [
+        [
+          "#765666",
+          "#f0229d",
+          "#928ec2",
+          "#6255a5",
+          "#75ae96",
+          "#91c8ae",
+          "#433af1",
+          "#d3a3ba"
+        ],
+        "#3de7ce",
+        "Fuchsia / Ultramarine / Emerald"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 101",
+      "S": "Chromatic 102"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 50,
+        "shadow_distance_px": 8
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Dark Iridescence",
+        "field_mode": "confluence",
+        "field_angle_degrees": 19.381,
+        "phase": 4.5096,
+        "centre_x": 0.1059,
+        "centre_y": -0.0704,
+        "hue_families": [
+          "Acid Lime",
+          "Amber",
+          "Emerald"
+        ],
+        "palette_stop_count": 7,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Mist and Fluorescence",
+        "field_mode": "crossflow",
+        "field_angle_degrees": 129.63,
+        "phase": 0.8337,
+        "centre_x": 0.2136,
+        "centre_y": 0.4352,
+        "hue_families": [
+          "Fuchsia",
+          "Ultramarine",
+          "Emerald"
+        ],
+        "palette_stop_count": 8,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  },
+  {
+    "id": "000308",
+    "letter": "Z",
+    "name": "Zmajan",
+    "slug": "zmajan",
+    "collection": "Chromatic Islands · A–Z VII–VIII",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Šibenik Archipelago",
+    "reference": [
+      15.75528,
+      43.69472
+    ],
+    "source_id": "geonames:3186379",
+    "source_name": "Otok Zmajan",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#227c4b",
+          "#6b8f41",
+          "#9cf543",
+          "#37c975",
+          "#713a74",
+          "#c250c2",
+          "#9fd376",
+          "#0bd36f",
+          "#c07bc0"
+        ],
+        "#310927",
+        "Emerald / Acid Lime / Orchid"
+      ],
+      "S": [
+        [
+          "#543347",
+          "#8a4569",
+          "#98bb72",
+          "#5fa789",
+          "#5d9231",
+          "#7be80f",
+          "#7bd1ad",
+          "#bf6197",
+          "#428b6d",
+          "#c988a8"
+        ],
+        "#c34c1e",
+        "Fuchsia / Acid Lime / Emerald"
+      ]
+    },
+    "background_names": {
+      "N": "Chromatic 103",
+      "S": "Chromatic 104"
+    },
+    "color_families": {
+      "N": "Multicolor",
+      "S": "Multicolor"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 57,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "chromatic_design": {
+      "N": {
+        "colour_profile": "Oxidised Accents",
+        "field_mode": "halo",
+        "field_angle_degrees": 335.197,
+        "phase": 5.9309,
+        "centre_x": -0.1202,
+        "centre_y": -0.0912,
+        "hue_families": [
+          "Emerald",
+          "Acid Lime",
+          "Orchid"
+        ],
+        "palette_stop_count": 9,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      },
+      "S": {
+        "colour_profile": "Smoky Pigment",
+        "field_mode": "confluence",
+        "field_angle_degrees": 78.066,
+        "phase": 4.4277,
+        "centre_x": 0.2351,
+        "centre_y": -0.4178,
+        "hue_families": [
+          "Fuchsia",
+          "Acid Lime",
+          "Emerald"
+        ],
+        "palette_stop_count": 10,
+        "colour_placement": "artistic; not geological or land-cover classification"
+      }
+    }
+  }
+]

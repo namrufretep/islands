@@ -1,0 +1,181 @@
+{
+  "id": "000271",
+  "letter": "O",
+  "name": "Olib",
+  "slug": "olib",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Zadar Archipelago",
+  "reference": [
+    14.79028,
+    44.38028
+  ],
+  "source_id": "geonames:3194140",
+  "source_name": "Otok Olib",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#062962",
+        "#1a55b7",
+        "#e88839",
+        "#b15d09",
+        "#6c0cdb",
+        "#b485f2",
+        "#5c8adf"
+      ],
+      "#6f244e",
+      "Cobalt / Tangerine / Violet"
+    ],
+    "S": [
+      [
+        "#103a38",
+        "#25504e",
+        "#297a23",
+        "#1f441b",
+        "#f056fc",
+        "#ee5ffc",
+        "#325f2e",
+        "#327e73"
+      ],
+      "#e9924e",
+      "Turquoise / Leaf / Orchid"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 029",
+    "S": "Chromatic 030"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Ink and Acid",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 215.628,
+    "phase": 1.3062,
+    "centre_x": 0.0591,
+    "centre_y": -0.4749,
+    "hue_families": [
+      "Turquoise",
+      "Leaf",
+      "Orchid"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 244,
+  "antimeridian_split_parts": 1,
+  "area_km2": 27.178138003692194,
+  "gshhg_area_km2": 27.178138003692194,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -6.0,
+  "max_land_elevation_m": 71.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2215/1482.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2215/1483.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2215/1484.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2216/1482.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2216/1483.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2216/1484.tif"
+  ],
+  "resolution_m": 20.652647796995335,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=44.38028 +lon_0=14.79028 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3777.352182301718,
+    -4342.850099694514,
+    2535.5751089567975,
+    4645.182221557854
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.163161949248834,
+  "artwork_print_scale_denominator": 60982.22774703348,
+  "color_mood": "Turquoise / Leaf / Orchid",
+  "background": "#e9924e",
+  "background_name": "Chromatic 030",
+  "color_family": "Multicolor",
+  "palette": [
+    "#103a38",
+    "#25504e",
+    "#297a23",
+    "#1f441b",
+    "#f056fc",
+    "#ee5ffc",
+    "#325f2e",
+    "#327e73"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      4,
+      4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e24cae02a93fe41531db14de7b73127d3b5c2b8c14be9b6e952f5b9cbb465f9b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

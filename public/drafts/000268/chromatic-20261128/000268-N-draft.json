@@ -1,0 +1,186 @@
+{
+  "id": "000268",
+  "letter": "L",
+  "name": "Lord Howe Island",
+  "slug": "lord-howe-island",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "Tasman Sea",
+  "reference": [
+    159.08579,
+    -31.55281
+  ],
+  "source_id": "geonames:2159558",
+  "source_name": "Lord Howe Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tasman Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#612470",
+        "#6d8347",
+        "#9cb36d",
+        "#a95db8",
+        "#0a339f",
+        "#4a64be",
+        "#b3cf89",
+        "#88488d",
+        "#7c8bb7"
+      ],
+      "#747426",
+      "Orchid / Acid Lime / Cobalt"
+    ],
+    "S": [
+      [
+        "#066d06",
+        "#26a623",
+        "#eeb90d",
+        "#e50c7c",
+        "#9f830e",
+        "#b09226",
+        "#f12f98",
+        "#21f31f",
+        "#a5175c",
+        "#56f246"
+      ],
+      "#e740a8",
+      "Leaf / Amber / Fuchsia"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 023",
+    "S": "Chromatic 024"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Smoky Pigment",
+    "field_mode": "halo",
+    "field_angle_degrees": 313.349,
+    "phase": 3.012,
+    "centre_x": 0.1828,
+    "centre_y": -0.6063,
+    "hue_families": [
+      "Orchid",
+      "Acid Lime",
+      "Cobalt"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 236,
+  "antimeridian_split_parts": 1,
+  "area_km2": 18.257241994366478,
+  "gshhg_area_km2": 18.257241994366478,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -189.79591369628906,
+  "max_land_elevation_m": 831.1581420898438,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3857/2425.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3857/2426.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3857/2427.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3858/2425.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3858/2426.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3858/2427.tif"
+  ],
+  "resolution_m": 22.94255649953777,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-31.55281 +lon_0=159.08579 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4307.209820792865,
+    -5377.267394728286,
+    2100.6788162968314,
+    4607.3331938705505
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.735639124884442,
+  "artwork_print_scale_denominator": 67743.76919154853,
+  "color_mood": "Orchid / Acid Lime / Cobalt",
+  "background": "#747426",
+  "background_name": "Chromatic 023",
+  "color_family": "Multicolor",
+  "palette": [
+    "#612470",
+    "#6d8347",
+    "#9cb36d",
+    "#a95db8",
+    "#0a339f",
+    "#4a64be",
+    "#b3cf89",
+    "#88488d",
+    "#7c8bb7"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_right",
+    "azimuth_degrees": 135,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    "shadow_offset_px": [
+      -4,
+      -4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "600b95d1ae2f549e5c6f5106d8fea0a1fdbb78f2661f43dbfc8e39000e5acb4a",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

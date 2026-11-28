@@ -1,0 +1,125 @@
+{
+  "id": "000295",
+  "letter": "M",
+  "name": "Martinique",
+  "slug": "martinique",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "MQ",
+  "country": "Martinique",
+  "region": "Lesser Antilles",
+  "reference": [
+    -61.00416,
+    14.66281
+  ],
+  "source_id": "geonames:3570312",
+  "source_name": "Martinique",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#5d066c",
+        "#ac10b8",
+        "#2abfbf",
+        "#1c918e",
+        "#0c40c6",
+        "#416fdd",
+        "#c925db"
+      ],
+      "#736025",
+      "Orchid / Turquoise / Cobalt"
+    ],
+    "S": [
+      [
+        "#62276a",
+        "#a83cb5",
+        "#4075f5",
+        "#384f8a",
+        "#a5b23b",
+        "#c5d46b",
+        "#234df3",
+        "#cb8bd0"
+      ],
+      "#41e78e",
+      "Orchid / Cobalt / Citron"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 077",
+    "S": "Chromatic 078"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Fort-de-France",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "confluence",
+      "field_angle_degrees": 2.907,
+      "phase": 3.1975,
+      "centre_x": -0.4067,
+      "centre_y": -0.5615,
+      "hue_families": [
+        "Orchid",
+        "Turquoise",
+        "Cobalt"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "crossflow",
+      "field_angle_degrees": 354.957,
+      "phase": 4.8633,
+      "centre_x": 0.2728,
+      "centre_y": -0.0619,
+      "hue_families": [
+        "Orchid",
+        "Cobalt",
+        "Citron"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2054,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1136.5154949421442,
+  "gshhg_area_km2": 1136.5154949421442,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fort-de-France",
+    "country": "MQ",
+    "lon": -61.07418,
+    "lat": 14.60365,
+    "population": 89995,
+    "source": "https://www.geonames.org/3570675"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

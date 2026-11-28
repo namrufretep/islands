@@ -1,0 +1,186 @@
+{
+  "id": "000280",
+  "letter": "X",
+  "name": "Xiji Yu",
+  "slug": "xiji-yu",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "TW",
+  "country": "Taiwan",
+  "region": "Penghu Islands",
+  "reference": [
+    119.60709025,
+    23.252486
+  ],
+  "source_id": "geonames:1675385",
+  "source_name": "Xiji Yu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#652c6e",
+        "#b13429",
+        "#f55641",
+        "#c74dca",
+        "#2b6383",
+        "#4797cc",
+        "#dd8e81",
+        "#c90bd0",
+        "#67a3c4"
+      ],
+      "#727225",
+      "Orchid / Vermilion / Ice Blue"
+    ],
+    "S": [
+      [
+        "#592962",
+        "#824487",
+        "#b1a06f",
+        "#539ead",
+        "#83733f",
+        "#eaac0f",
+        "#7cbccd",
+        "#b85fc4",
+        "#3a7e8a",
+        "#bf80cb"
+      ],
+      "#3ae75f",
+      "Orchid / Amber / Ice Blue"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 047",
+    "S": "Chromatic 048"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "halo",
+    "field_angle_degrees": 150.119,
+    "phase": 2.6148,
+    "centre_x": 0.2565,
+    "centre_y": 0.2527,
+    "hue_families": [
+      "Orchid",
+      "Vermilion",
+      "Ice Blue"
+    ],
+    "palette_stop_count": 9,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "gazetteer_reference": [
+    119.61556,
+    23.24917
+  ],
+  "reference_note": "Gazetteer point lies about 110 m outside the GSHHG shoreline; use the representative interior point of the nearest physical island polygon (about 1 km²). Original gazetteer coordinates retained.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 19,
+  "antimeridian_split_parts": 1,
+  "area_km2": 0.9994424220457487,
+  "gshhg_area_km2": 0.9994424220457487,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -10.554057121276855,
+  "max_land_elevation_m": 24.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3408/1775.tif"
+  ],
+  "resolution_m": 3.330949689974532,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=23.252486 +lon_0=119.60709025 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -682.875379339238,
+    -512.2067483520653,
+    766.7539257376785,
+    416.8643133191075
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 0.832737422493633,
+  "artwork_print_scale_denominator": 9835.481368035036,
+  "color_mood": "Orchid / Vermilion / Ice Blue",
+  "background": "#727225",
+  "background_name": "Chromatic 047",
+  "color_family": "Multicolor",
+  "palette": [
+    "#652c6e",
+    "#b13429",
+    "#f55641",
+    "#c74dca",
+    "#2b6383",
+    "#4797cc",
+    "#dd8e81",
+    "#c90bd0",
+    "#67a3c4"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      4,
+      4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a80abf1a3e8db72fe2624c644fd0efd56ce122ce9cb94dea698256f2dab1ca45",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 9,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

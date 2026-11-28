@@ -1,0 +1,125 @@
+{
+  "id": "000301",
+  "letter": "S",
+  "name": "Sumba",
+  "slug": "sumba",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    119.9659,
+    -9.69823
+  ],
+  "source_id": "geonames:2056940",
+  "source_name": "Pulau Sumba",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#1e1f6a",
+        "#2e2bb6",
+        "#20f3cb",
+        "#3a8a79",
+        "#9a8545",
+        "#f5ca47",
+        "#4f54d0"
+      ],
+      "#762d26",
+      "Ultramarine / Turquoise / Amber"
+    ],
+    "S": [
+      [
+        "#665834",
+        "#a98c45",
+        "#9e6bb3",
+        "#78368d",
+        "#78e60f",
+        "#9cc777",
+        "#965da8",
+        "#cdb385"
+      ],
+      "#503fe7",
+      "Amber / Orchid / Acid Lime"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 089",
+    "S": "Chromatic 090"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Waingapu",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 143.277,
+      "phase": 1.9942,
+      "centre_x": 0.2899,
+      "centre_y": 0.6262,
+      "hue_families": [
+        "Ultramarine",
+        "Turquoise",
+        "Amber"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Smoky Pigment",
+      "field_mode": "halo",
+      "field_angle_degrees": 345.278,
+      "phase": 4.7426,
+      "centre_x": -0.5545,
+      "centre_y": 0.4807,
+      "hue_families": [
+        "Amber",
+        "Orchid",
+        "Acid Lime"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3605,
+  "antimeridian_split_parts": 1,
+  "area_km2": 10774.800113145951,
+  "gshhg_area_km2": 10774.800113145951,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Waingapu",
+    "country": "ID",
+    "lon": 120.2641,
+    "lat": -9.6567,
+    "population": 35932,
+    "source": "https://www.geonames.org/1622318"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

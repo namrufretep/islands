@@ -1,0 +1,184 @@
+{
+  "id": "000283",
+  "letter": "A",
+  "name": "Aguni",
+  "slug": "aguni",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Okinawa Islands",
+  "reference": [
+    127.22639,
+    26.58861
+  ],
+  "source_id": "geonames:1865706",
+  "source_name": "Aguni Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#ba4a8a",
+        "#d36ba3",
+        "#8ed8d2",
+        "#62d7d7",
+        "#9b7acb",
+        "#baa0e1",
+        "#d88fb9"
+      ],
+      "#5a7626",
+      "Fuchsia / Turquoise / Violet"
+    ],
+    "S": [
+      [
+        "#77080b",
+        "#f41113",
+        "#f4bd62",
+        "#ac7a18",
+        "#0fe7e6",
+        "#89e8ec",
+        "#eea22e",
+        "#edaeab"
+      ],
+      "#4b80e9",
+      "Vermilion / Amber / Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 053",
+    "S": "Chromatic 054"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Higashi",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 50,
+      "shadow_distance_px": 8
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Electric Contrast",
+    "field_mode": "crossflow",
+    "field_angle_degrees": 352.592,
+    "phase": 4.4842,
+    "centre_x": 0.0745,
+    "centre_y": -0.6401,
+    "hue_families": [
+      "Vermilion",
+      "Amber",
+      "Turquoise"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 77,
+  "antimeridian_split_parts": 1,
+  "area_km2": 8.45999552439157,
+  "gshhg_area_km2": 8.45999552439157,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Higashi",
+    "country": "JP",
+    "lon": 127.2291,
+    "lat": 26.58317,
+    "population": 683,
+    "source": "https://www.geonames.org/1862855"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -215.71934509277344,
+  "max_land_elevation_m": 105.40483093261719,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3495/1733.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3495/1734.tif"
+  ],
+  "resolution_m": 10.109782095136108,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=26.58861 +lon_0=127.22639 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2003.649921573235,
+    -1557.0018303803367,
+    2396.1272462299994,
+    1582.1206718524809
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.527445523784027,
+  "artwork_print_scale_denominator": 29851.718784850713,
+  "color_mood": "Vermilion / Amber / Turquoise",
+  "background": "#4b80e9",
+  "background_name": "Chromatic 054",
+  "color_family": "Multicolor",
+  "palette": [
+    "#77080b",
+    "#f41113",
+    "#f4bd62",
+    "#ac7a18",
+    "#0fe7e6",
+    "#89e8ec",
+    "#eea22e",
+    "#edaeab"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_right",
+    "azimuth_degrees": 135,
+    "elevation_degrees": 57,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    "shadow_offset_px": [
+      -4,
+      -4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "367894502dd80780e4e143c23721667666980d33dabefd19c2f64946ed7f53bb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

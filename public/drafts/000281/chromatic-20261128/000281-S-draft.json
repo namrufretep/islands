@@ -1,0 +1,191 @@
+{
+  "id": "000281",
+  "letter": "Y",
+  "name": "Yapen",
+  "slug": "yapen",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Papua",
+  "reference": [
+    136.15425,
+    -1.74381
+  ],
+  "source_id": "geonames:1642777",
+  "source_name": "Yapen Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Cenderawasih Bay",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#620e44",
+        "#9f196d",
+        "#c9d525",
+        "#8c9419",
+        "#1f1da0",
+        "#3936f0",
+        "#e02997"
+      ],
+      "#0a351e",
+      "Fuchsia / Citron / Ultramarine"
+    ],
+    "S": [
+      [
+        "#486923",
+        "#77aa42",
+        "#3273f4",
+        "#41567f",
+        "#6849a6",
+        "#9577c6",
+        "#256ff4",
+        "#afd481"
+      ],
+      "#20cb26",
+      "Acid Lime / Cobalt / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 049",
+    "S": "Chromatic 050"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Serui",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "colour_profile": "Oxidised Accents",
+    "field_mode": "halo",
+    "field_angle_degrees": 54.99,
+    "phase": 3.3442,
+    "centre_x": 0.3381,
+    "centre_y": -0.1885,
+    "hue_families": [
+      "Acid Lime",
+      "Cobalt",
+      "Violet"
+    ],
+    "palette_stop_count": 8,
+    "colour_placement": "artistic; not geological or land-cover classification"
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3014,
+  "antimeridian_split_parts": 1,
+  "area_km2": 2312.62866187247,
+  "gshhg_area_km2": 2312.62866187247,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Serui",
+    "country": "ID",
+    "lon": 136.2426,
+    "lat": -1.8802,
+    "population": 13568,
+    "source": "https://www.geonames.org/1627453"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -23.076887130737305,
+  "max_land_elevation_m": 1415.0948486328125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/448/257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/448/258.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/448/259.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/258.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/259.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/257.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/258.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/259.tif"
+  ],
+  "resolution_m": 381.80561614437653,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-1.74381 +lon_0=136.15425 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -83234.81657181692,
+    -18699.432739806944,
+    82926.98757421575,
+    16576.447645090324
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 95.45140403609413,
+  "artwork_print_scale_denominator": 1127378.7878278836,
+  "color_mood": "Acid Lime / Cobalt / Violet",
+  "background": "#20cb26",
+  "background_name": "Chromatic 050",
+  "color_family": "Multicolor",
+  "palette": [
+    "#486923",
+    "#77aa42",
+    "#3273f4",
+    "#41567f",
+    "#6849a6",
+    "#9577c6",
+    "#256ff4",
+    "#afd481"
+  ],
+  "art_version": "4.8-bouvet-chromatic",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 42,
+    "shadow_distance_px": 10,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      7,
+      -7
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "467c26e9e3687a8e8bad0d5b3a37c42c6489749534b01b11b9d58b7d10b0fce8",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "chromatic_model_revision": 3,
+  "palette_stop_count": 8,
+  "colour_model": "Continuous spatial/terrain colour field; directional sculptural light applied independently",
+  "chromatic_artistic_field": true
+}

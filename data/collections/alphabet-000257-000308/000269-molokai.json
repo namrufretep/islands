@@ -1,0 +1,125 @@
+{
+  "id": "000269",
+  "letter": "M",
+  "name": "Moloka‘i",
+  "slug": "molokai",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Hawaiian Islands",
+  "reference": [
+    -157.01248,
+    21.13831
+  ],
+  "source_id": "geonames:5851218",
+  "source_name": "Moloka‘i",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#805cb1",
+        "#9870c5",
+        "#88e087",
+        "#61d367",
+        "#cd9378",
+        "#e3ac99",
+        "#b591e1"
+      ],
+      "#2d3209",
+      "Violet / Leaf / Tangerine"
+    ],
+    "S": [
+      [
+        "#050f69",
+        "#2b2ddc",
+        "#f55157",
+        "#991828",
+        "#c928d5",
+        "#db84ec",
+        "#e04456",
+        "#9e9df7"
+      ],
+      "#881fc5",
+      "Ultramarine / Vermilion / Orchid"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 025",
+    "S": "Chromatic 026"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Waialua",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Pale Chromatic Stone",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 159.789,
+      "phase": 5.2707,
+      "centre_x": 0.5573,
+      "centre_y": -0.6298,
+      "hue_families": [
+        "Violet",
+        "Leaf",
+        "Tangerine"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "halo",
+      "field_angle_degrees": 300.27,
+      "phase": 1.2219,
+      "centre_x": 0.5623,
+      "centre_y": -0.1586,
+      "hue_families": [
+        "Ultramarine",
+        "Vermilion",
+        "Orchid"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1187,
+  "antimeridian_split_parts": 1,
+  "area_km2": 696.4364317960009,
+  "gshhg_area_km2": 696.4364317960009,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Waialua",
+    "country": "US",
+    "lon": -156.76139,
+    "lat": 21.10028,
+    "population": 3751,
+    "source": "https://www.geonames.org/5854173"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

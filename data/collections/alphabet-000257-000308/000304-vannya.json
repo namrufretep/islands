@@ -1,0 +1,122 @@
+{
+  "id": "000304",
+  "letter": "V",
+  "name": "Vannøya",
+  "slug": "vannya",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Troms",
+  "reference": [
+    19.70079,
+    70.18191
+  ],
+  "source_id": "geonames:3132724",
+  "source_name": "Vannøya",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#a8bf4f",
+        "#67ca66",
+        "#abd6af",
+        "#c5d78a",
+        "#b86563",
+        "#e0737c",
+        "#aadeab",
+        "#c4de67",
+        "#dca5a8"
+      ],
+      "#297c80",
+      "Citron / Leaf / Vermilion"
+    ],
+    "S": [
+      [
+        "#571a14",
+        "#ce1509",
+        "#e7ce6c",
+        "#2766ed",
+        "#a27e08",
+        "#e2ae25",
+        "#90b3ed",
+        "#e18074",
+        "#2254ac",
+        "#f7a192"
+      ],
+      "#4e7ce9",
+      "Vermilion / Amber / Cobalt"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 095",
+    "S": "Chromatic 096"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 57,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Pale Chromatic Stone",
+      "field_mode": "halo",
+      "field_angle_degrees": 261.324,
+      "phase": 1.0111,
+      "centre_x": 0.5531,
+      "centre_y": -0.0596,
+      "hue_families": [
+        "Citron",
+        "Leaf",
+        "Vermilion"
+      ],
+      "palette_stop_count": 9,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Electric Contrast",
+      "field_mode": "confluence",
+      "field_angle_degrees": 86.73,
+      "phase": 1.9505,
+      "centre_x": 0.5542,
+      "centre_y": -0.4473,
+      "hue_families": [
+        "Vermilion",
+        "Amber",
+        "Cobalt"
+      ],
+      "palette_stop_count": 10,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 527,
+  "antimeridian_split_parts": 1,
+  "area_km2": 232.19967327818716,
+  "gshhg_area_km2": 232.19967327818716,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}

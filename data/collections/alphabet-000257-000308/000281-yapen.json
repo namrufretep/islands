@@ -1,0 +1,125 @@
+{
+  "id": "000281",
+  "letter": "Y",
+  "name": "Yapen",
+  "slug": "yapen",
+  "collection": "Chromatic Islands · A–Z VII–VIII",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Papua",
+  "reference": [
+    136.15425,
+    -1.74381
+  ],
+  "source_id": "geonames:1642777",
+  "source_name": "Yapen Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Cenderawasih Bay",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#620e44",
+        "#9f196d",
+        "#c9d525",
+        "#8c9419",
+        "#1f1da0",
+        "#3936f0",
+        "#e02997"
+      ],
+      "#0a351e",
+      "Fuchsia / Citron / Ultramarine"
+    ],
+    "S": [
+      [
+        "#486923",
+        "#77aa42",
+        "#3273f4",
+        "#41567f",
+        "#6849a6",
+        "#9577c6",
+        "#256ff4",
+        "#afd481"
+      ],
+      "#20cb26",
+      "Acid Lime / Cobalt / Violet"
+    ]
+  },
+  "background_names": {
+    "N": "Chromatic 049",
+    "S": "Chromatic 050"
+  },
+  "color_families": {
+    "N": "Multicolor",
+    "S": "Multicolor"
+  },
+  "largest_settlement": "Serui",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 42,
+      "shadow_distance_px": 10
+    }
+  },
+  "chromatic_design": {
+    "N": {
+      "colour_profile": "Jewel Colour",
+      "field_mode": "sweeping",
+      "field_angle_degrees": 339.638,
+      "phase": 0.9069,
+      "centre_x": -0.0983,
+      "centre_y": 0.1363,
+      "hue_families": [
+        "Fuchsia",
+        "Citron",
+        "Ultramarine"
+      ],
+      "palette_stop_count": 7,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    },
+    "S": {
+      "colour_profile": "Oxidised Accents",
+      "field_mode": "halo",
+      "field_angle_degrees": 54.99,
+      "phase": 3.3442,
+      "centre_x": 0.3381,
+      "centre_y": -0.1885,
+      "hue_families": [
+        "Acid Lime",
+        "Cobalt",
+        "Violet"
+      ],
+      "palette_stop_count": 8,
+      "colour_placement": "artistic; not geological or land-cover classification"
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3014,
+  "antimeridian_split_parts": 1,
+  "area_km2": 2312.62866187247,
+  "gshhg_area_km2": 2312.62866187247,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Serui",
+    "country": "ID",
+    "lon": 136.2426,
+    "lat": -1.8802,
+    "population": 13568,
+    "source": "https://www.geonames.org/1627453"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive; a zero mapped-water count is not evidence that an island has no lakes."
+}
