@@ -210,7 +210,21 @@ function fitAtlasViewport(){
  worldMap.setMinZoom(Math.max(1,zoom));
  worldMap.panInsideBounds(atlasBounds,{animate:false});
 }
-worldMap.on('resize',fitAtlasViewport);fitAtlasViewport();
+function sizeAtlasViewport(){
+ if($('atlas').hidden)return;
+ const map=$('worldMap'),top=map.getBoundingClientRect().top;
+ const viewportHeight=Math.min(window.innerHeight,window.visualViewport?.height??window.innerHeight);
+ const navigationHeight=document.querySelector('nav').getBoundingClientRect().height;
+ // The entire bounded map must sit above the fixed navigation, not behind it.
+ map.style.maxHeight=Math.max(1,Math.floor(viewportHeight-navigationHeight-top-12))+'px';
+ worldMap.invalidateSize({pan:false});fitAtlasViewport();
+}
+worldMap.on('resize',fitAtlasViewport);sizeAtlasViewport();
+window.addEventListener('resize',sizeAtlasViewport);
+window.addEventListener('scroll',sizeAtlasViewport,{passive:true});
+window.visualViewport?.addEventListener('resize',sizeAtlasViewport);
+const atlasLayoutObserver=new ResizeObserver(sizeAtlasViewport);
+for(const element of [document.querySelector('header'),$('status'),document.querySelector('nav')])atlasLayoutObserver.observe(element);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{noWrap:true,maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(worldMap);
 const islandMarkers=L.layerGroup().addTo(worldMap);
 function mapRows(){
@@ -303,7 +317,7 @@ function artworkMystery(caption){
 $('backIndex').onclick=()=>show('index');$('indexSearch').oninput=()=>{indexLimit=100;renderIndex()};$('indexSort').onchange=renderIndex;$('indexStatus').onchange=renderIndex;renderIndex();
 
 function rotateIsland(angle){angle=((Number(angle)%360)+360)%360;$('rotation').value=angle;$('islandRotation').style.transform=`rotate(${angle}deg)`;$('northArrow').style.transform=`rotate(${angle}deg)`;$('degrees').textContent=angle+'°';$('orientation').textContent=angle===0?'North up':angle===180?'South up':angle+'° clockwise';} $('rotation').oninput=e=>rotateIsland(e.target.value);$('north').onclick=()=>rotateIsland(0);$('south').onclick=()=>rotateIsland(180);$('resetRotation').onclick=()=>rotateIsland(0);
-function show(page){if(page==='cheers')updateLeaderboards();if(page==='index')loadGlobalIslands();if(page!=='islandDetail'&&new URLSearchParams(location.search).has('edition')){const url=new URL(location.href);url.searchParams.delete('edition');url.searchParams.delete('view');history.replaceState(null,'',url);}if(page!=='discover'&&new URLSearchParams(location.search).has('mint')){const url=new URL(location.href);url.searchParams.delete('mint');url.searchParams.delete('destination');history.replaceState(null,'',url);}for(const el of document.querySelectorAll('.page'))el.hidden=el.id!==page;for(const el of document.querySelectorAll('nav button')){el.classList.toggle('active',el.dataset.page===(page==='islandDetail'?'index':page));el.setAttribute('aria-current',el.dataset.page===page?'page':'false')}window.scrollTo(0,0);if(page==='atlas')requestAnimationFrame(()=>worldMap.invalidateSize())}
+function show(page){if(page==='cheers')updateLeaderboards();if(page==='index')loadGlobalIslands();if(page!=='islandDetail'&&new URLSearchParams(location.search).has('edition')){const url=new URL(location.href);url.searchParams.delete('edition');url.searchParams.delete('view');history.replaceState(null,'',url);}if(page!=='discover'&&new URLSearchParams(location.search).has('mint')){const url=new URL(location.href);url.searchParams.delete('mint');url.searchParams.delete('destination');history.replaceState(null,'',url);}for(const el of document.querySelectorAll('.page'))el.hidden=el.id!==page;for(const el of document.querySelectorAll('nav button')){el.classList.toggle('active',el.dataset.page===(page==='islandDetail'?'index':page));el.setAttribute('aria-current',el.dataset.page===page?'page':'false')}window.scrollTo(0,0);if(page==='atlas')requestAnimationFrame(sizeAtlasViewport)}
 document.querySelectorAll('[data-page]').forEach(el=>el.onclick=()=>show(el.dataset.page));
 function render(){const k=Number($('keysRange').value);$('price').textContent=k+' keys · '+discount(k)+'% off · '+mintPrice('500000',k).toLocaleString('en-US')+' KEY'}$('keysRange').oninput=render;render();
 $('paykey').onclick=()=>{$('paykey').classList.add('selected');$('paycheers').classList.remove('selected');$('paymentnote').textContent='Stake Creator Keys to unlock up to 25% off. Your verified discount is not yet available.'};
