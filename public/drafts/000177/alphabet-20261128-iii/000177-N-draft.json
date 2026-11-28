@@ -1,0 +1,116 @@
+{
+  "id": "000177",
+  "letter": "Y",
+  "name": "Yttygran",
+  "slug": "yttygran",
+  "collection": "A–Z Islands III",
+  "country_code": "RU",
+  "country": "Russia",
+  "region": "Chukotka",
+  "reference": [
+    -172.5775,
+    64.61602
+  ],
+  "source_id": "geonames:4031489",
+  "source_name": "Ostrov Yttygran",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bering Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#20272d",
+        "#485969",
+        "#8096a5",
+        "#c3d2d5"
+      ],
+      "#66543f",
+      "Storm Slate"
+    ],
+    "S": [
+      [
+        "#4b2d2a",
+        "#96564c",
+        "#cb8d78",
+        "#efd0b7"
+      ],
+      "#dad7e1",
+      "Red Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Tobacco North",
+    "S": "Lavender Ash South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 230,
+  "area_km2": 65.13378301368527,
+  "gshhg_area_km2": 65.13378301368527,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -11.731342315673828,
+  "max_land_elevation_m": 530.3858032226562,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/41/537.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/41/538.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/42/537.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/42/538.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/43/537.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/43/538.tif"
+  ],
+  "resolution_m": 32.066595407616724,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=64.61602 +lon_0=-172.5775 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7736.345605060782,
+    -3043.1105934425,
+    6219.036716334016,
+    4586.630239659331
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.016648851904181,
+  "artwork_print_scale_denominator": 94684.8289594982,
+  "color_mood": "Storm Slate",
+  "background": "#66543f",
+  "background_name": "Tobacco North",
+  "color_family": "Blue",
+  "palette": [
+    "#20272d",
+    "#485969",
+    "#8096a5",
+    "#c3d2d5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "6fed68ede039c91cf12a6d6174267e4bae87ce048207bce573c6d18a3b669264",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

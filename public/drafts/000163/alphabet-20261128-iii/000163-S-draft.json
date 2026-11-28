@@ -1,0 +1,129 @@
+{
+  "id": "000163",
+  "letter": "K",
+  "name": "Kangaroo Island",
+  "slug": "kangaroo-island",
+  "collection": "A–Z Islands III",
+  "country_code": "AU",
+  "country": "Australia",
+  "region": "South Australia",
+  "reference": [
+    137.20526,
+    -35.8117
+  ],
+  "source_id": "geonames:2068768",
+  "source_name": "Kangaroo Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Southern Ocean",
+  "ocean": "Southern Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#26372f",
+        "#4d7160",
+        "#8aac8d",
+        "#d0d9b5"
+      ],
+      "#28252d",
+      "Forest Serpentine"
+    ],
+    "S": [
+      [
+        "#31292a",
+        "#665455",
+        "#a18d89",
+        "#dac4b9"
+      ],
+      "#4c2b39",
+      "Smoky Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Obsidian North",
+    "S": "Aubergine South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Kingscote",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3040,
+  "area_km2": 4417.1275502630915,
+  "gshhg_area_km2": 4417.1275502630915,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kingscote",
+    "country": "AU",
+    "lon": 137.6393,
+    "lat": -35.6559,
+    "population": 1915,
+    "source": "https://www.geonames.org/2068429"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -183.80528259277344,
+  "max_land_elevation_m": 311.2574462890625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/309.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/310.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/449/311.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/309.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/310.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/450/311.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/451/309.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/451/310.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/451/311.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/452/309.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/452/310.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/452/311.tif"
+  ],
+  "resolution_m": 332.6089286037005,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-35.8117 +lon_0=137.20526 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -60493.99120088591,
+    -29295.58503316237,
+    84257.41452744455,
+    27431.591729422536
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 83.15223215092513,
+  "artwork_print_scale_denominator": 982112.9781605331,
+  "color_mood": "Smoky Quartz",
+  "background": "#4c2b39",
+  "background_name": "Aubergine South",
+  "color_family": "Neutral",
+  "palette": [
+    "#31292a",
+    "#665455",
+    "#a18d89",
+    "#dac4b9"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "792fc246f813613355e9aa3b4c77d841ab0030b9822a02e90d28e6f522496292",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "000160",
+  "letter": "H",
+  "name": "Hachijō-jima",
+  "slug": "hachijo-jima",
+  "collection": "A–Z Islands III",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Izu Islands",
+  "reference": [
+    139.79452,
+    33.11166
+  ],
+  "source_id": "geonames:1863455",
+  "source_name": "Hachijō Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Philippine Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#d8d5df",
+      "Amethyst Ash"
+    ],
+    "S": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#586e72",
+      "Deep Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Lavender Ash North",
+    "S": "Atlantic Slate South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Cyan"
+  },
+  "largest_settlement": "Hachijō",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 214,
+  "area_km2": 71.91916497435912,
+  "gshhg_area_km2": 71.91916497435912,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Hachijō",
+    "country": "JP",
+    "lon": 139.7788,
+    "lat": 33.10276,
+    "population": 7211,
+    "source": "https://www.geonames.org/11611619"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

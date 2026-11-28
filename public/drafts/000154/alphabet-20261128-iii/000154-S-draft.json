@@ -1,0 +1,129 @@
+{
+  "id": "000154",
+  "letter": "B",
+  "name": "Borkum",
+  "slug": "borkum",
+  "collection": "A–Z Islands III",
+  "country_code": "DE",
+  "country": "Germany",
+  "region": "East Frisian Islands",
+  "reference": [
+    6.69127,
+    53.58114
+  ],
+  "source_id": "geonames:2946207",
+  "source_name": "Borkum",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#272d50",
+        "#505c87",
+        "#949ec2",
+        "#d6d9e6"
+      ],
+      "#352e27",
+      "Moonstone Indigo"
+    ],
+    "S": [
+      [
+        "#20272d",
+        "#485969",
+        "#8096a5",
+        "#c3d2d5"
+      ],
+      "#2a272f",
+      "Storm Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Dark Umber North",
+    "S": "Obsidian South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Blue"
+  },
+  "largest_settlement": "Borkum",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 153,
+  "area_km2": 33.22743287200894,
+  "gshhg_area_km2": 33.22743287200894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Borkum",
+    "country": "DE",
+    "lon": 6.69153,
+    "lat": 53.58094,
+    "population": 5186,
+    "source": "https://www.geonames.org/2946206"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -24.651037216186523,
+  "max_land_elevation_m": 17.433488845825195,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2123/1321.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2123/1322.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2123/1323.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2123/1324.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2124/1321.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2124/1322.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2124/1323.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2124/1324.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2125/1321.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2125/1322.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2125/1323.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2125/1324.tif"
+  ],
+  "resolution_m": 23.826303817049297,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=53.58114 +lon_0=6.69127 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2235.888657131019,
+    -2586.0698815803166,
+    8133.318764048835,
+    4744.378983243401
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.956575954262324,
+  "artwork_print_scale_denominator": 70353.25930231092,
+  "color_mood": "Storm Slate",
+  "background": "#2a272f",
+  "background_name": "Obsidian South",
+  "color_family": "Blue",
+  "palette": [
+    "#20272d",
+    "#485969",
+    "#8096a5",
+    "#c3d2d5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "07a810acdd14f55f20109a7015d731a28063da99a57bc2ab4f6be71207b6966c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

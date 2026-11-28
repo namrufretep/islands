@@ -1,0 +1,126 @@
+{
+  "id": "000172",
+  "letter": "T",
+  "name": "Tobago",
+  "slug": "tobago",
+  "collection": "A–Z Islands III",
+  "country_code": "TT",
+  "country": "Trinidad and Tobago",
+  "region": "Caribbean",
+  "reference": [
+    -60.66667,
+    11.25
+  ],
+  "source_id": "geonames:3573607",
+  "source_name": "Tobago",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#4a2937",
+      "Amethyst Ash"
+    ],
+    "S": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#2e3d47",
+      "Deep Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Aubergine North",
+    "S": "Steel Night South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Cyan"
+  },
+  "largest_settlement": "Scarborough",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 757,
+  "area_km2": 313.0396669630051,
+  "gshhg_area_km2": 313.0396669630051,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Scarborough",
+    "country": "TT",
+    "lon": -60.73525,
+    "lat": 11.18229,
+    "population": 17000,
+    "source": "https://www.geonames.org/3573703"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -20.745901107788086,
+  "max_land_elevation_m": 571.828857421875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/677/960.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/678/960.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/679/958.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/679/959.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/679/960.tif"
+  ],
+  "resolution_m": 82.65226301132829,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=11.25 +lon_0=-60.66667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -19885.87902637428,
+    -12816.354613403448,
+    16084.38583615579,
+    10902.215694040735
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.663065752832072,
+  "artwork_print_scale_denominator": 244051.95771061504,
+  "color_mood": "Deep Amazonite",
+  "background": "#2e3d47",
+  "background_name": "Steel Night South",
+  "color_family": "Cyan",
+  "palette": [
+    "#283c3e",
+    "#477b7b",
+    "#86b3b1",
+    "#c8ded5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "2b7f2a1cace953350d9d49ccb911f7ca961a64c150a4278e9fb31eeb7851e93c",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

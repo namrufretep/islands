@@ -1,0 +1,1329 @@
+[
+  {
+    "id": "000153",
+    "letter": "A",
+    "name": "Anticosti",
+    "slug": "anticosti",
+    "collection": "A–Z Islands III",
+    "country_code": "CA",
+    "country": "Canada",
+    "region": "Gulf of St Lawrence",
+    "reference": [
+      -62.99859,
+      49.50014
+    ],
+    "source_id": "geonames:5886180",
+    "source_name": "Anticosti Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Gulf of St Lawrence",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#161d27",
+        "Storm Slate"
+      ],
+      "S": [
+        [
+          "#4b2d2a",
+          "#96564c",
+          "#cb8d78",
+          "#efd0b7"
+        ],
+        "#423844",
+        "Red Jasper"
+      ]
+    },
+    "background_names": {
+      "N": "Midnight Ink North",
+      "S": "Plum Shadow South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Red"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000154",
+    "letter": "B",
+    "name": "Borkum",
+    "slug": "borkum",
+    "collection": "A–Z Islands III",
+    "country_code": "DE",
+    "country": "Germany",
+    "region": "East Frisian Islands",
+    "reference": [
+      6.69127,
+      53.58114
+    ],
+    "source_id": "geonames:2946207",
+    "source_name": "Borkum",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#272d50",
+          "#505c87",
+          "#949ec2",
+          "#d6d9e6"
+        ],
+        "#352e27",
+        "Moonstone Indigo"
+      ],
+      "S": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#2a272f",
+        "Storm Slate"
+      ]
+    },
+    "background_names": {
+      "N": "Dark Umber North",
+      "S": "Obsidian South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000155",
+    "letter": "C",
+    "name": "Cres",
+    "slug": "cres",
+    "collection": "A–Z Islands III",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Adriatic Sea",
+    "reference": [
+      14.41611,
+      44.79111
+    ],
+    "source_id": "geonames:3202521",
+    "source_name": "Otok Cres",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#30362c",
+          "#657452",
+          "#a1b181",
+          "#d6dfb6"
+        ],
+        "#2c3b45",
+        "Olive Jade"
+      ],
+      "S": [
+        [
+          "#272d50",
+          "#505c87",
+          "#949ec2",
+          "#d6d9e6"
+        ],
+        "#b39d7a",
+        "Moonstone Indigo"
+      ]
+    },
+    "background_names": {
+      "N": "Steel Night North",
+      "S": "Warm Stone South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000156",
+    "letter": "D",
+    "name": "Dugi Otok",
+    "slug": "dugi-otok",
+    "collection": "A–Z Islands III",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Dalmatian Islands",
+    "reference": [
+      15.07472,
+      43.9775
+    ],
+    "source_id": "geonames:3201022",
+    "source_name": "Dugi Otok",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3b283a",
+          "#76516b",
+          "#b687a0",
+          "#e3bed0"
+        ],
+        "#d0b974",
+        "Rhodonite"
+      ],
+      "S": [
+        [
+          "#30362c",
+          "#657452",
+          "#a1b181",
+          "#d6dfb6"
+        ],
+        "#e5d9cf",
+        "Olive Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Old Brass North",
+      "S": "Pearl Dust South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000157",
+    "letter": "E",
+    "name": "El Hierro",
+    "slug": "el-hierro",
+    "collection": "A–Z Islands III",
+    "country_code": "ES",
+    "country": "Spain",
+    "region": "Canary Islands",
+    "reference": [
+      -17.9993,
+      27.74196
+    ],
+    "source_id": "geonames:2516747",
+    "source_name": "El Hierro",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#393a36",
+          "#77796b",
+          "#b9b6a1",
+          "#eee6ce"
+        ],
+        "#273f38",
+        "Fossil Limestone"
+      ],
+      "S": [
+        [
+          "#3b283a",
+          "#76516b",
+          "#b687a0",
+          "#e3bed0"
+        ],
+        "#e0e1d0",
+        "Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Pine North",
+      "S": "Chalk South"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000158",
+    "letter": "F",
+    "name": "Faial",
+    "slug": "faial",
+    "collection": "A–Z Islands III",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores",
+    "reference": [
+      -28.69994,
+      38.57736
+    ],
+    "source_id": "geonames:3373109",
+    "source_name": "Ilha do Faial",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#382b29",
+          "#785044",
+          "#bc8566",
+          "#ebc6a3"
+        ],
+        "#182c2f",
+        "Burnished Copper"
+      ],
+      "S": [
+        [
+          "#393a36",
+          "#77796b",
+          "#b9b6a1",
+          "#eee6ce"
+        ],
+        "#263f52",
+        "Fossil Limestone"
+      ]
+    },
+    "background_names": {
+      "N": "Petrol North",
+      "S": "Deep Marine South"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Neutral"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000159",
+    "letter": "G",
+    "name": "Guernsey",
+    "slug": "guernsey",
+    "collection": "A–Z Islands III",
+    "country_code": "GG",
+    "country": "Guernsey",
+    "region": "Channel Islands",
+    "reference": [
+      -2.5787,
+      49.45853
+    ],
+    "source_id": "geonames:3042363",
+    "source_name": "Guernsey",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "English Channel",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#283c3e",
+          "#477b7b",
+          "#86b3b1",
+          "#c8ded5"
+        ],
+        "#32443e",
+        "Deep Amazonite"
+      ],
+      "S": [
+        [
+          "#382b29",
+          "#785044",
+          "#bc8566",
+          "#ebc6a3"
+        ],
+        "#f1ead5",
+        "Burnished Copper"
+      ]
+    },
+    "background_names": {
+      "N": "Spruce North",
+      "S": "Linen South"
+    },
+    "color_families": {
+      "N": "Cyan",
+      "S": "Orange"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000160",
+    "letter": "H",
+    "name": "Hachijō-jima",
+    "slug": "hachijo-jima",
+    "collection": "A–Z Islands III",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Izu Islands",
+    "reference": [
+      139.79452,
+      33.11166
+    ],
+    "source_id": "geonames:1863455",
+    "source_name": "Hachijō Jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Philippine Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#352b43",
+          "#6b587e",
+          "#a697b6",
+          "#ddd2df"
+        ],
+        "#d8d5df",
+        "Amethyst Ash"
+      ],
+      "S": [
+        [
+          "#283c3e",
+          "#477b7b",
+          "#86b3b1",
+          "#c8ded5"
+        ],
+        "#586e72",
+        "Deep Amazonite"
+      ]
+    },
+    "background_names": {
+      "N": "Lavender Ash North",
+      "S": "Atlantic Slate South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Cyan"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000161",
+    "letter": "I",
+    "name": "Ikaria",
+    "slug": "ikaria",
+    "collection": "A–Z Islands III",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Aegean Sea",
+    "reference": [
+      26.17033,
+      37.59904
+    ],
+    "source_id": "geonames:261804",
+    "source_name": "Nisí Ikaría",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3b3822",
+          "#807342",
+          "#b7a76c",
+          "#e5d5a5"
+        ],
+        "#bc6e42",
+        "Old Gold"
+      ],
+      "S": [
+        [
+          "#352b43",
+          "#6b587e",
+          "#a697b6",
+          "#ddd2df"
+        ],
+        "#9f5749",
+        "Amethyst Ash"
+      ]
+    },
+    "background_names": {
+      "N": "Ochre Clay North",
+      "S": "Brick South"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000162",
+    "letter": "J",
+    "name": "Jersey",
+    "slug": "jersey",
+    "collection": "A–Z Islands III",
+    "country_code": "JE",
+    "country": "Jersey",
+    "region": "Channel Islands",
+    "reference": [
+      -2.13753,
+      49.2167
+    ],
+    "source_id": "geonames:3042143",
+    "source_name": "Jersey",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "English Channel",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#31292a",
+          "#665455",
+          "#a18d89",
+          "#dac4b9"
+        ],
+        "#403642",
+        "Smoky Quartz"
+      ],
+      "S": [
+        [
+          "#3b3822",
+          "#807342",
+          "#b7a76c",
+          "#e5d5a5"
+        ],
+        "#4f3b47",
+        "Old Gold"
+      ]
+    },
+    "background_names": {
+      "N": "Plum Shadow North",
+      "S": "Mulberry South"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Yellow"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000163",
+    "letter": "K",
+    "name": "Kangaroo Island",
+    "slug": "kangaroo-island",
+    "collection": "A–Z Islands III",
+    "country_code": "AU",
+    "country": "Australia",
+    "region": "South Australia",
+    "reference": [
+      137.20526,
+      -35.8117
+    ],
+    "source_id": "geonames:2068768",
+    "source_name": "Kangaroo Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Southern Ocean",
+    "ocean": "Southern Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#26372f",
+          "#4d7160",
+          "#8aac8d",
+          "#d0d9b5"
+        ],
+        "#28252d",
+        "Forest Serpentine"
+      ],
+      "S": [
+        [
+          "#31292a",
+          "#665455",
+          "#a18d89",
+          "#dac4b9"
+        ],
+        "#4c2b39",
+        "Smoky Quartz"
+      ]
+    },
+    "background_names": {
+      "N": "Obsidian North",
+      "S": "Aubergine South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Neutral"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000164",
+    "letter": "L",
+    "name": "Lifou",
+    "slug": "lifou",
+    "collection": "A–Z Islands III",
+    "country_code": "NC",
+    "country": "New Caledonia",
+    "region": "Loyalty Islands",
+    "reference": [
+      167.21667,
+      -20.88333
+    ],
+    "source_id": "geonames:2140392",
+    "source_name": "Lifou Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Coral Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4b2d2a",
+          "#96564c",
+          "#cb8d78",
+          "#efd0b7"
+        ],
+        "#b19b78",
+        "Red Jasper"
+      ],
+      "S": [
+        [
+          "#26372f",
+          "#4d7160",
+          "#8aac8d",
+          "#d0d9b5"
+        ],
+        "#d9bf9a",
+        "Forest Serpentine"
+      ]
+    },
+    "background_names": {
+      "N": "Warm Stone North",
+      "S": "Sandstone South"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000165",
+    "letter": "M",
+    "name": "Milos",
+    "slug": "milos",
+    "collection": "A–Z Islands III",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      24.44778,
+      36.67556
+    ],
+    "source_id": "geonames:256951",
+    "source_name": "Milos Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#e3d7cd",
+        "Storm Slate"
+      ],
+      "S": [
+        [
+          "#4b2d2a",
+          "#96564c",
+          "#cb8d78",
+          "#efd0b7"
+        ],
+        "#e4c8c4",
+        "Red Jasper"
+      ]
+    },
+    "background_names": {
+      "N": "Pearl Dust North",
+      "S": "Rose Chalk South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Red"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000166",
+    "letter": "N",
+    "name": "Norderney",
+    "slug": "norderney",
+    "collection": "A–Z Islands III",
+    "country_code": "DE",
+    "country": "Germany",
+    "region": "East Frisian Islands",
+    "reference": [
+      7.2415,
+      53.71417
+    ],
+    "source_id": "geonames:2862042",
+    "source_name": "Norderney",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#272d50",
+          "#505c87",
+          "#949ec2",
+          "#d6d9e6"
+        ],
+        "#dedfce",
+        "Moonstone Indigo"
+      ],
+      "S": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#353c33",
+        "Storm Slate"
+      ]
+    },
+    "background_names": {
+      "N": "Chalk North",
+      "S": "Olivine Dark South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000167",
+    "letter": "O",
+    "name": "Ouessant",
+    "slug": "ouessant",
+    "collection": "A–Z Islands III",
+    "country_code": "FR",
+    "country": "France",
+    "region": "Brittany",
+    "reference": [
+      -5.08615,
+      48.45938
+    ],
+    "source_id": "geonames:2989046",
+    "source_name": "Île d'Ouessant",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Celtic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#30362c",
+          "#657452",
+          "#a1b181",
+          "#d6dfb6"
+        ],
+        "#243d50",
+        "Olive Jade"
+      ],
+      "S": [
+        [
+          "#272d50",
+          "#505c87",
+          "#949ec2",
+          "#d6d9e6"
+        ],
+        "#222f44",
+        "Moonstone Indigo"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Marine North",
+      "S": "Prussian Night South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000168",
+    "letter": "P",
+    "name": "Pantelleria",
+    "slug": "pantelleria",
+    "collection": "A–Z Islands III",
+    "country_code": "IT",
+    "country": "Italy",
+    "region": "Strait of Sicily",
+    "reference": [
+      12.0,
+      36.78333
+    ],
+    "source_id": "geonames:2523889",
+    "source_name": "Isola di Pantelleria",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3b283a",
+          "#76516b",
+          "#b687a0",
+          "#e3bed0"
+        ],
+        "#efe8d3",
+        "Rhodonite"
+      ],
+      "S": [
+        [
+          "#30362c",
+          "#657452",
+          "#a1b181",
+          "#d6dfb6"
+        ],
+        "#685641",
+        "Olive Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Linen North",
+      "S": "Tobacco South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000169",
+    "letter": "Q",
+    "name": "Qeqertarsuaq",
+    "slug": "qeqertarsuaq",
+    "collection": "A–Z Islands III",
+    "country_code": "GL",
+    "country": "Greenland",
+    "region": "Disko Bay",
+    "reference": [
+      -53.44012,
+      69.82586
+    ],
+    "source_id": "geonames:3420645",
+    "source_name": "Qeqertarsuaq",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Baffin Bay",
+    "ocean": "Arctic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#393a36",
+          "#77796b",
+          "#b9b6a1",
+          "#eee6ce"
+        ],
+        "#566c70",
+        "Fossil Limestone"
+      ],
+      "S": [
+        [
+          "#3b283a",
+          "#76516b",
+          "#b687a0",
+          "#e3bed0"
+        ],
+        "#747251",
+        "Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Atlantic Slate North",
+      "S": "Lichen South"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Purple"
+    },
+    "largest_settlement": null,
+    "name_note": "Disko Island, Greenland; GeoNames 3420645, not the other same-named islands or the settlement."
+  },
+  {
+    "id": "000170",
+    "letter": "R",
+    "name": "Rügen",
+    "slug": "rugen",
+    "collection": "A–Z Islands III",
+    "country_code": "DE",
+    "country": "Germany",
+    "region": "Baltic Sea",
+    "reference": [
+      13.4,
+      54.41667
+    ],
+    "source_id": "geonames:2843325",
+    "source_name": "Rügen Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Baltic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#382b29",
+          "#785044",
+          "#bc8566",
+          "#ebc6a3"
+        ],
+        "#9d5547",
+        "Burnished Copper"
+      ],
+      "S": [
+        [
+          "#393a36",
+          "#77796b",
+          "#b9b6a1",
+          "#eee6ce"
+        ],
+        "#181f29",
+        "Fossil Limestone"
+      ]
+    },
+    "background_names": {
+      "N": "Brick North",
+      "S": "Midnight Ink South"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "Neutral"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000171",
+    "letter": "S",
+    "name": "São Jorge",
+    "slug": "sao-jorge",
+    "collection": "A–Z Islands III",
+    "country_code": "PT",
+    "country": "Portugal",
+    "region": "Azores",
+    "reference": [
+      -28.03694,
+      38.64101
+    ],
+    "source_id": "geonames:3372606",
+    "source_name": "Ilha de São Jorge",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#283c3e",
+          "#477b7b",
+          "#86b3b1",
+          "#c8ded5"
+        ],
+        "#4d3945",
+        "Deep Amazonite"
+      ],
+      "S": [
+        [
+          "#382b29",
+          "#785044",
+          "#bc8566",
+          "#ebc6a3"
+        ],
+        "#373029",
+        "Burnished Copper"
+      ]
+    },
+    "background_names": {
+      "N": "Mulberry North",
+      "S": "Dark Umber South"
+    },
+    "color_families": {
+      "N": "Cyan",
+      "S": "Orange"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000172",
+    "letter": "T",
+    "name": "Tobago",
+    "slug": "tobago",
+    "collection": "A–Z Islands III",
+    "country_code": "TT",
+    "country": "Trinidad and Tobago",
+    "region": "Caribbean",
+    "reference": [
+      -60.66667,
+      11.25
+    ],
+    "source_id": "geonames:3573607",
+    "source_name": "Tobago",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Caribbean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#352b43",
+          "#6b587e",
+          "#a697b6",
+          "#ddd2df"
+        ],
+        "#4a2937",
+        "Amethyst Ash"
+      ],
+      "S": [
+        [
+          "#283c3e",
+          "#477b7b",
+          "#86b3b1",
+          "#c8ded5"
+        ],
+        "#2e3d47",
+        "Deep Amazonite"
+      ]
+    },
+    "background_names": {
+      "N": "Aubergine North",
+      "S": "Steel Night South"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Cyan"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000173",
+    "letter": "U",
+    "name": "Unst",
+    "slug": "unst",
+    "collection": "A–Z Islands III",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Shetland",
+    "reference": [
+      -0.88333,
+      60.75
+    ],
+    "source_id": "geonames:2635166",
+    "source_name": "Unst",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3b3822",
+          "#807342",
+          "#b7a76c",
+          "#e5d5a5"
+        ],
+        "#d7bd98",
+        "Old Gold"
+      ],
+      "S": [
+        [
+          "#352b43",
+          "#6b587e",
+          "#a697b6",
+          "#ddd2df"
+        ],
+        "#d2bb76",
+        "Amethyst Ash"
+      ]
+    },
+    "background_names": {
+      "N": "Sandstone North",
+      "S": "Old Brass South"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000174",
+    "letter": "V",
+    "name": "Værøy",
+    "slug": "vry",
+    "collection": "A–Z Islands III",
+    "country_code": "NO",
+    "country": "Norway",
+    "region": "Lofoten",
+    "reference": [
+      12.664,
+      67.6778
+    ],
+    "source_id": "geonames:3133074",
+    "source_name": "Værøya",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Norwegian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#31292a",
+          "#665455",
+          "#a18d89",
+          "#dac4b9"
+        ],
+        "#e2c6c2",
+        "Smoky Quartz"
+      ],
+      "S": [
+        [
+          "#3b3822",
+          "#807342",
+          "#b7a76c",
+          "#e5d5a5"
+        ],
+        "#29413a",
+        "Old Gold"
+      ]
+    },
+    "background_names": {
+      "N": "Rose Chalk North",
+      "S": "Deep Pine South"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Yellow"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000175",
+    "letter": "W",
+    "name": "Whidbey Island",
+    "slug": "whidbey-island",
+    "collection": "A–Z Islands III",
+    "country_code": "US",
+    "country": "United States",
+    "region": "Washington",
+    "reference": [
+      -122.67628,
+      48.2926
+    ],
+    "source_id": "geonames:5815711",
+    "source_name": "Whidbey Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Salish Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#26372f",
+          "#4d7160",
+          "#8aac8d",
+          "#d0d9b5"
+        ],
+        "#333a31",
+        "Forest Serpentine"
+      ],
+      "S": [
+        [
+          "#31292a",
+          "#665455",
+          "#a18d89",
+          "#dac4b9"
+        ],
+        "#1a2e31",
+        "Smoky Quartz"
+      ]
+    },
+    "background_names": {
+      "N": "Olivine Dark North",
+      "S": "Petrol South"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Neutral"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000176",
+    "letter": "X",
+    "name": "Xi Dao",
+    "slug": "xi-dao",
+    "collection": "A–Z Islands III",
+    "country_code": "CN",
+    "country": "China",
+    "region": "Hainan",
+    "reference": [
+      109.36972,
+      18.23528
+    ],
+    "source_id": "geonames:1789293",
+    "source_name": "Xi Dao",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4b2d2a",
+          "#96564c",
+          "#cb8d78",
+          "#efd0b7"
+        ],
+        "#202d42",
+        "Red Jasper"
+      ],
+      "S": [
+        [
+          "#26372f",
+          "#4d7160",
+          "#8aac8d",
+          "#d0d9b5"
+        ],
+        "#344640",
+        "Forest Serpentine"
+      ]
+    },
+    "background_names": {
+      "N": "Prussian Night North",
+      "S": "Spruce South"
+    },
+    "color_families": {
+      "N": "Red",
+      "S": "Green"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000177",
+    "letter": "Y",
+    "name": "Yttygran",
+    "slug": "yttygran",
+    "collection": "A–Z Islands III",
+    "country_code": "RU",
+    "country": "Russia",
+    "region": "Chukotka",
+    "reference": [
+      -172.5775,
+      64.61602
+    ],
+    "source_id": "geonames:4031489",
+    "source_name": "Ostrov Yttygran",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Bering Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#66543f",
+        "Storm Slate"
+      ],
+      "S": [
+        [
+          "#4b2d2a",
+          "#96564c",
+          "#cb8d78",
+          "#efd0b7"
+        ],
+        "#dad7e1",
+        "Red Jasper"
+      ]
+    },
+    "background_names": {
+      "N": "Tobacco North",
+      "S": "Lavender Ash South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Red"
+    },
+    "largest_settlement": null
+  },
+  {
+    "id": "000178",
+    "letter": "Z",
+    "name": "Zembra",
+    "slug": "zembra",
+    "collection": "A–Z Islands III",
+    "country_code": "TN",
+    "country": "Tunisia",
+    "region": "Gulf of Tunis",
+    "reference": [
+      10.8043,
+      37.12682
+    ],
+    "source_id": "geonames:2464019",
+    "source_name": "Zembra Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Mediterranean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#272d50",
+          "#505c87",
+          "#949ec2",
+          "#d6d9e6"
+        ],
+        "#72704f",
+        "Moonstone Indigo"
+      ],
+      "S": [
+        [
+          "#20272d",
+          "#485969",
+          "#8096a5",
+          "#c3d2d5"
+        ],
+        "#be7044",
+        "Storm Slate"
+      ]
+    },
+    "background_names": {
+      "N": "Lichen North",
+      "S": "Ochre Clay South"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Blue"
+    },
+    "largest_settlement": null
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "id": "000156",
+  "letter": "D",
+  "name": "Dugi Otok",
+  "slug": "dugi-otok",
+  "collection": "A–Z Islands III",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    15.07472,
+    43.9775
+  ],
+  "source_id": "geonames:3201022",
+  "source_name": "Dugi Otok",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#d0b974",
+      "Rhodonite"
+    ],
+    "S": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#e5d9cf",
+      "Olive Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Old Brass North",
+    "S": "Pearl Dust South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Sali",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1153,
+  "area_km2": 122.28845676298265,
+  "gshhg_area_km2": 122.28845676298265,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sali",
+    "country": "HR",
+    "lon": 15.16333,
+    "lat": 43.93972,
+    "population": 726,
+    "source": "https://www.geonames.org/3191335"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -14.973936080932617,
+  "max_land_elevation_m": 303.22540283203125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/743.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/744.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1107/745.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/743.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/744.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1108/745.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/743.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/744.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1109/745.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/743.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/744.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1110/745.tif"
+  ],
+  "resolution_m": 80.03555071107606,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=43.9775 +lon_0=15.07472 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -20612.37006223341,
+    -12538.952024571317,
+    12172.301481338733,
+    22292.519644888976
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.008887677769014,
+  "artwork_print_scale_denominator": 236325.44501301987,
+  "color_mood": "Olive Jade",
+  "background": "#e5d9cf",
+  "background_name": "Pearl Dust South",
+  "color_family": "Green",
+  "palette": [
+    "#30362c",
+    "#657452",
+    "#a1b181",
+    "#d6dfb6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "897e935ba0271f5237174f37f94259b62b022fb3cc119270bf47634304439473",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

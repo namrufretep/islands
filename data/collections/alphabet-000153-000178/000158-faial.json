@@ -1,0 +1,71 @@
+{
+  "id": "000158",
+  "letter": "F",
+  "name": "Faial",
+  "slug": "faial",
+  "collection": "A–Z Islands III",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores",
+  "reference": [
+    -28.69994,
+    38.57736
+  ],
+  "source_id": "geonames:3373109",
+  "source_name": "Ilha do Faial",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#382b29",
+        "#785044",
+        "#bc8566",
+        "#ebc6a3"
+      ],
+      "#182c2f",
+      "Burnished Copper"
+    ],
+    "S": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#263f52",
+      "Fossil Limestone"
+    ]
+  },
+  "background_names": {
+    "N": "Petrol North",
+    "S": "Deep Marine South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Angústias",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 364,
+  "area_km2": 178.46796551136825,
+  "gshhg_area_km2": 178.46796551136825,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Angústias",
+    "country": "PT",
+    "lon": -28.63132,
+    "lat": 38.52547,
+    "population": 2418,
+    "source": "https://www.geonames.org/3373347"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

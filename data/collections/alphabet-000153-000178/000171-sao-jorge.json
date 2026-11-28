@@ -1,0 +1,71 @@
+{
+  "id": "000171",
+  "letter": "S",
+  "name": "São Jorge",
+  "slug": "sao-jorge",
+  "collection": "A–Z Islands III",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores",
+  "reference": [
+    -28.03694,
+    38.64101
+  ],
+  "source_id": "geonames:3372606",
+  "source_name": "Ilha de São Jorge",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#4d3945",
+      "Deep Amazonite"
+    ],
+    "S": [
+      [
+        "#382b29",
+        "#785044",
+        "#bc8566",
+        "#ebc6a3"
+      ],
+      "#373029",
+      "Burnished Copper"
+    ]
+  },
+  "background_names": {
+    "N": "Mulberry North",
+    "S": "Dark Umber South"
+  },
+  "color_families": {
+    "N": "Cyan",
+    "S": "Orange"
+  },
+  "largest_settlement": "Calheta",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 853,
+  "area_km2": 255.06725079360044,
+  "gshhg_area_km2": 255.06725079360044,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Calheta",
+    "country": "PT",
+    "lon": -28.01792,
+    "lat": 38.60186,
+    "population": 3773,
+    "source": "https://www.geonames.org/3373251"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

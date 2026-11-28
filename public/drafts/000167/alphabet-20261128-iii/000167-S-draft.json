@@ -1,0 +1,121 @@
+{
+  "id": "000167",
+  "letter": "O",
+  "name": "Ouessant",
+  "slug": "ouessant",
+  "collection": "A–Z Islands III",
+  "country_code": "FR",
+  "country": "France",
+  "region": "Brittany",
+  "reference": [
+    -5.08615,
+    48.45938
+  ],
+  "source_id": "geonames:2989046",
+  "source_name": "Île d'Ouessant",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Celtic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#243d50",
+      "Olive Jade"
+    ],
+    "S": [
+      [
+        "#272d50",
+        "#505c87",
+        "#949ec2",
+        "#d6d9e6"
+      ],
+      "#222f44",
+      "Moonstone Indigo"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Marine North",
+    "S": "Prussian Night South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Ouessant",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 207,
+  "area_km2": 16.765068187833975,
+  "gshhg_area_km2": 16.765068187833975,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ouessant",
+    "country": "FR",
+    "lon": -5.08615,
+    "lat": 48.45969,
+    "population": 883,
+    "source": "https://www.geonames.org/6620083"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -9.148459434509277,
+  "max_land_elevation_m": 63.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1989/1415.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1989/1416.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1990/1415.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1990/1416.tif"
+  ],
+  "resolution_m": 17.99172849470764,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=48.45938 +lon_0=-5.08615 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4080.11523646028,
+    -2574.7432660125373,
+    3749.885004436485,
+    2710.0320475624026
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.49793212367691,
+  "artwork_print_scale_denominator": 53125.182563113114,
+  "color_mood": "Moonstone Indigo",
+  "background": "#222f44",
+  "background_name": "Prussian Night South",
+  "color_family": "Blue",
+  "palette": [
+    "#272d50",
+    "#505c87",
+    "#949ec2",
+    "#d6d9e6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "8660859296589d6e867073ccd21316744ea3ce9350a22acd79fc63e254f4bfbe",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

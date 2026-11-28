@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 
 const read=name=>JSON.parse(readFileSync(new URL(`../public/nft/${name}.json`,import.meta.url)));
 test('every prepared NFT metadata URI resolves to the intended original and its traits',()=>{
- const manifest=read('manifest');assert.equal(manifest.editions.length,304);assert.equal(manifest.release_status,'not_released');
+ const manifest=read('manifest');assert.equal(manifest.editions.length,356);assert.equal(manifest.release_status,'not_released');
  for(const entry of manifest.editions){
   const metadata=read(entry.artwork_id),image=new URL(metadata.image);
   assert.equal(image.protocol,'https:');assert.equal(image.origin,'https://islands-kappa.vercel.app');

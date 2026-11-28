@@ -1,0 +1,72 @@
+{
+  "id": "000169",
+  "letter": "Q",
+  "name": "Qeqertarsuaq",
+  "slug": "qeqertarsuaq",
+  "collection": "A–Z Islands III",
+  "country_code": "GL",
+  "country": "Greenland",
+  "region": "Disko Bay",
+  "reference": [
+    -53.44012,
+    69.82586
+  ],
+  "source_id": "geonames:3420645",
+  "source_name": "Qeqertarsuaq",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baffin Bay",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#566c70",
+      "Fossil Limestone"
+    ],
+    "S": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#747251",
+      "Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Atlantic Slate North",
+    "S": "Lichen South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": "Qeqertarsuaq",
+  "name_note": "Disko Island, Greenland; GeoNames 3420645, not the other same-named islands or the settlement.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4179,
+  "area_km2": 8594.545038360877,
+  "gshhg_area_km2": 8594.545038360877,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Qeqertarsuaq",
+    "country": "GL",
+    "lon": -53.53682,
+    "lat": 69.24721,
+    "population": 839,
+    "source": "https://www.geonames.org/3420635"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

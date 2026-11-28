@@ -1,0 +1,71 @@
+{
+  "id": "000174",
+  "letter": "V",
+  "name": "Værøy",
+  "slug": "vry",
+  "collection": "A–Z Islands III",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Lofoten",
+  "reference": [
+    12.664,
+    67.6778
+  ],
+  "source_id": "geonames:3133074",
+  "source_name": "Værøya",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31292a",
+        "#665455",
+        "#a18d89",
+        "#dac4b9"
+      ],
+      "#e2c6c2",
+      "Smoky Quartz"
+    ],
+    "S": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#29413a",
+      "Old Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Chalk North",
+    "S": "Deep Pine South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Sørland",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 272,
+  "area_km2": 18.66544026596398,
+  "gshhg_area_km2": 18.66544026596398,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sørland",
+    "country": "NO",
+    "lon": 12.69784,
+    "lat": 67.66564,
+    "population": 640,
+    "source": "https://www.geonames.org/3137469"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

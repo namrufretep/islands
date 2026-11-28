@@ -175,3 +175,5 @@ public/launch/release-plan.json
 
 # Optional raw OSM query caches; captured water geometry is tracked
 /data/collections/alphabet-000101-000126/osm-water/
+
+/data/collections/alphabet-000153-000178/osm-water/

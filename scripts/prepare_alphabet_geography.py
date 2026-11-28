@@ -10,8 +10,8 @@ from shapely.geometry import Point,mapping,Polygon
 from shapely.ops import unary_union
 from pyproj import Geod
 
-p=argparse.ArgumentParser();p.add_argument('--source-dir',type=Path,required=True);p.add_argument('--cities',type=Path,required=True);a=p.parse_args()
-out=Path('data/collections/alphabet-000101-000126')
+p=argparse.ArgumentParser();p.add_argument('--source-dir',type=Path,required=True);p.add_argument('--cities',type=Path,required=True);p.add_argument('--source',type=Path,default=Path('data/collections/alphabet-000101-000126'));a=p.parse_args()
+out=a.source
 configs=json.loads((out/'collection-config.json').read_text())
 geod=Geod(ellps='WGS84')
 area=lambda g:abs(geod.geometry_area_perimeter(g)[0])/1e6

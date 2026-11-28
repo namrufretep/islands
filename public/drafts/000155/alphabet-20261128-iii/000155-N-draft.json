@@ -1,0 +1,135 @@
+{
+  "id": "000155",
+  "letter": "C",
+  "name": "Cres",
+  "slug": "cres",
+  "collection": "A–Z Islands III",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Adriatic Sea",
+  "reference": [
+    14.41611,
+    44.79111
+  ],
+  "source_id": "geonames:3202521",
+  "source_name": "Otok Cres",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#2c3b45",
+      "Olive Jade"
+    ],
+    "S": [
+      [
+        "#272d50",
+        "#505c87",
+        "#949ec2",
+        "#d6d9e6"
+      ],
+      "#b39d7a",
+      "Moonstone Indigo"
+    ]
+  },
+  "background_names": {
+    "N": "Steel Night North",
+    "S": "Warm Stone South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Cres",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1588,
+  "area_km2": 412.5939028999975,
+  "gshhg_area_km2": 412.5939028999975,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Cres",
+    "country": "HR",
+    "lon": 14.41246,
+    "lat": 44.96092,
+    "population": 2185,
+    "source": "https://www.geonames.org/3202523"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -24.136823654174805,
+  "max_land_elevation_m": 608.3054809570312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/551/367.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/551/368.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/551/369.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/551/370.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/552/367.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/552/368.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/552/369.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/552/370.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/553/367.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/553/368.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/553/369.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/553/370.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/554/367.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/554/368.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/554/369.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/554/370.tif"
+  ],
+  "resolution_m": 145.7734727200828,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=44.79111 +lon_0=14.41611 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -11268.81823697733,
+    -20728.068616867695,
+    10121.5585805871,
+    42712.546710912335
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 36.4433681800207,
+  "artwork_print_scale_denominator": 430433.48244118935,
+  "color_mood": "Olive Jade",
+  "background": "#2c3b45",
+  "background_name": "Steel Night North",
+  "color_family": "Green",
+  "palette": [
+    "#30362c",
+    "#657452",
+    "#a1b181",
+    "#d6dfb6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "51e4727050a1355868568c031f3d0ad64a8e3af2ed9cb961da3c68117f294755",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

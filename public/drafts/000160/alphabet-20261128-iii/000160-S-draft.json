@@ -1,0 +1,121 @@
+{
+  "id": "000160",
+  "letter": "H",
+  "name": "Hachijō-jima",
+  "slug": "hachijo-jima",
+  "collection": "A–Z Islands III",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Izu Islands",
+  "reference": [
+    139.79452,
+    33.11166
+  ],
+  "source_id": "geonames:1863455",
+  "source_name": "Hachijō Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Philippine Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#d8d5df",
+      "Amethyst Ash"
+    ],
+    "S": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#586e72",
+      "Deep Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Lavender Ash North",
+    "S": "Atlantic Slate South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Cyan"
+  },
+  "largest_settlement": "Hachijō",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 214,
+  "area_km2": 71.91916497435912,
+  "gshhg_area_km2": 71.91916497435912,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Hachijō",
+    "country": "JP",
+    "lon": 139.7788,
+    "lat": 33.10276,
+    "population": 7211,
+    "source": "https://www.geonames.org/11611619"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -521.0878295898438,
+  "max_land_elevation_m": 961.4865112304688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1818/823.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1818/824.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1819/823.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1819/824.tif"
+  ],
+  "resolution_m": 29.327785679376788,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=33.11166 +lon_0=139.79452 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5286.539097666413,
+    -7259.864660729309,
+    6149.9363388125375,
+    5503.5876669354675
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.331946419844197,
+  "artwork_print_scale_denominator": 86597.79236036453,
+  "color_mood": "Deep Amazonite",
+  "background": "#586e72",
+  "background_name": "Atlantic Slate South",
+  "color_family": "Cyan",
+  "palette": [
+    "#283c3e",
+    "#477b7b",
+    "#86b3b1",
+    "#c8ded5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ff8234928eb9a9e8b260c56bd9227c97d0ec9ae4179f803f262df2d5b9fcc618",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

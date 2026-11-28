@@ -1,0 +1,71 @@
+{
+  "id": "000159",
+  "letter": "G",
+  "name": "Guernsey",
+  "slug": "guernsey",
+  "collection": "A–Z Islands III",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.5787,
+    49.45853
+  ],
+  "source_id": "geonames:3042363",
+  "source_name": "Guernsey",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#32443e",
+      "Deep Amazonite"
+    ],
+    "S": [
+      [
+        "#382b29",
+        "#785044",
+        "#bc8566",
+        "#ebc6a3"
+      ],
+      "#f1ead5",
+      "Burnished Copper"
+    ]
+  },
+  "background_names": {
+    "N": "Spruce North",
+    "S": "Linen South"
+  },
+  "color_families": {
+    "N": "Cyan",
+    "S": "Orange"
+  },
+  "largest_settlement": "Saint Peter Port",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 431,
+  "area_km2": 66.4467164214862,
+  "gshhg_area_km2": 66.4467164214862,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Saint Peter Port",
+    "country": "GG",
+    "lon": -2.53527,
+    "lat": 49.45981,
+    "population": 16488,
+    "source": "https://www.geonames.org/3042287"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

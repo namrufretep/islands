@@ -1,0 +1,71 @@
+{
+  "id": "000175",
+  "letter": "W",
+  "name": "Whidbey Island",
+  "slug": "whidbey-island",
+  "collection": "A–Z Islands III",
+  "country_code": "US",
+  "country": "United States",
+  "region": "Washington",
+  "reference": [
+    -122.67628,
+    48.2926
+  ],
+  "source_id": "geonames:5815711",
+  "source_name": "Whidbey Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Salish Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#26372f",
+        "#4d7160",
+        "#8aac8d",
+        "#d0d9b5"
+      ],
+      "#333a31",
+      "Forest Serpentine"
+    ],
+    "S": [
+      [
+        "#31292a",
+        "#665455",
+        "#a18d89",
+        "#dac4b9"
+      ],
+      "#1a2e31",
+      "Smoky Quartz"
+    ]
+  },
+  "background_names": {
+    "N": "Olivine Dark North",
+    "S": "Petrol South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Oak Harbor",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1466,
+  "area_km2": 455.2618508266639,
+  "gshhg_area_km2": 455.2618508266639,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Oak Harbor",
+    "country": "US",
+    "lon": -122.64322,
+    "lat": 48.29316,
+    "population": 22693,
+    "source": "https://www.geonames.org/5805441"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

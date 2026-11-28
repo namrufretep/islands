@@ -1,0 +1,73 @@
+{
+  "id": "000170",
+  "letter": "R",
+  "name": "Rügen",
+  "slug": "rugen",
+  "collection": "A–Z Islands III",
+  "country_code": "DE",
+  "country": "Germany",
+  "region": "Baltic Sea",
+  "reference": [
+    13.4,
+    54.41667
+  ],
+  "source_id": "geonames:2843325",
+  "source_name": "Rügen Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baltic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#382b29",
+        "#785044",
+        "#bc8566",
+        "#ebc6a3"
+      ],
+      "#9d5547",
+      "Burnished Copper"
+    ],
+    "S": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#181f29",
+      "Fossil Limestone"
+    ]
+  },
+  "background_names": {
+    "N": "Brick North",
+    "S": "Midnight Ink South"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Bergen auf Rügen",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2225,
+  "area_km2": 972.6366634890212,
+  "gshhg_area_km2": 972.6366634890212,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Bergen auf Rügen",
+    "country": "DE",
+    "lon": 13.43349,
+    "lat": 54.41823,
+    "population": 13457,
+    "source": "https://www.geonames.org/2950620"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

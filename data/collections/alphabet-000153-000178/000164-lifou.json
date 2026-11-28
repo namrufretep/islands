@@ -1,0 +1,71 @@
+{
+  "id": "000164",
+  "letter": "L",
+  "name": "Lifou",
+  "slug": "lifou",
+  "collection": "A–Z Islands III",
+  "country_code": "NC",
+  "country": "New Caledonia",
+  "region": "Loyalty Islands",
+  "reference": [
+    167.21667,
+    -20.88333
+  ],
+  "source_id": "geonames:2140392",
+  "source_name": "Lifou Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4b2d2a",
+        "#96564c",
+        "#cb8d78",
+        "#efd0b7"
+      ],
+      "#b19b78",
+      "Red Jasper"
+    ],
+    "S": [
+      [
+        "#26372f",
+        "#4d7160",
+        "#8aac8d",
+        "#d0d9b5"
+      ],
+      "#d9bf9a",
+      "Forest Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Stone North",
+    "S": "Sandstone South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Green"
+  },
+  "largest_settlement": "Wé",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1252,
+  "area_km2": 1152.7318760386825,
+  "gshhg_area_km2": 1152.7318760386825,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Wé",
+    "country": "NC",
+    "lon": 167.26461,
+    "lat": -20.91687,
+    "population": 10375,
+    "source": "https://www.geonames.org/2137690"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

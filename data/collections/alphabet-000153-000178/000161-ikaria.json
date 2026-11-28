@@ -1,0 +1,71 @@
+{
+  "id": "000161",
+  "letter": "I",
+  "name": "Ikaria",
+  "slug": "ikaria",
+  "collection": "A–Z Islands III",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Aegean Sea",
+  "reference": [
+    26.17033,
+    37.59904
+  ],
+  "source_id": "geonames:261804",
+  "source_name": "Nisí Ikaría",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#bc6e42",
+      "Old Gold"
+    ],
+    "S": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#9f5749",
+      "Amethyst Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Clay North",
+    "S": "Brick South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Agios Kirykos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 612,
+  "area_km2": 259.9277582468152,
+  "gshhg_area_km2": 259.9277582468152,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Agios Kirykos",
+    "country": "GR",
+    "lon": 26.29444,
+    "lat": 37.61472,
+    "population": 1908,
+    "source": "https://www.geonames.org/263870"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

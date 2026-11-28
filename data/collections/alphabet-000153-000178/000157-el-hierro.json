@@ -1,0 +1,71 @@
+{
+  "id": "000157",
+  "letter": "E",
+  "name": "El Hierro",
+  "slug": "el-hierro",
+  "collection": "A–Z Islands III",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.9993,
+    27.74196
+  ],
+  "source_id": "geonames:2516747",
+  "source_name": "El Hierro",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#273f38",
+      "Fossil Limestone"
+    ],
+    "S": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#e0e1d0",
+      "Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Pine North",
+    "S": "Chalk South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": "Valverde",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 597,
+  "area_km2": 292.9516174276258,
+  "gshhg_area_km2": 292.9516174276258,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Valverde",
+    "country": "ES",
+    "lon": -17.91578,
+    "lat": 27.80628,
+    "population": 5000,
+    "source": "https://www.geonames.org/2509841"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

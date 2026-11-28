@@ -1,0 +1,64 @@
+{
+  "id": "000176",
+  "letter": "X",
+  "name": "Xi Dao",
+  "slug": "xi-dao",
+  "collection": "A–Z Islands III",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Hainan",
+  "reference": [
+    109.36972,
+    18.23528
+  ],
+  "source_id": "geonames:1789293",
+  "source_name": "Xi Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4b2d2a",
+        "#96564c",
+        "#cb8d78",
+        "#efd0b7"
+      ],
+      "#202d42",
+      "Red Jasper"
+    ],
+    "S": [
+      [
+        "#26372f",
+        "#4d7160",
+        "#8aac8d",
+        "#d0d9b5"
+      ],
+      "#344640",
+      "Forest Serpentine"
+    ]
+  },
+  "background_names": {
+    "N": "Prussian Night North",
+    "S": "Spruce South"
+  },
+  "color_families": {
+    "N": "Red",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 39,
+  "area_km2": 2.4163453782197406,
+  "gshhg_area_km2": 2.4163453782197406,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

@@ -1,0 +1,123 @@
+{
+  "id": "000162",
+  "letter": "J",
+  "name": "Jersey",
+  "slug": "jersey",
+  "collection": "A–Z Islands III",
+  "country_code": "JE",
+  "country": "Jersey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.13753,
+    49.2167
+  ],
+  "source_id": "geonames:3042143",
+  "source_name": "Jersey",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31292a",
+        "#665455",
+        "#a18d89",
+        "#dac4b9"
+      ],
+      "#403642",
+      "Smoky Quartz"
+    ],
+    "S": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#4f3b47",
+      "Old Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Plum Shadow North",
+    "S": "Mulberry South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Saint Helier",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 505,
+  "area_km2": 121.54213026828472,
+  "gshhg_area_km2": 121.54213026828472,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Saint Helier",
+    "country": "JE",
+    "lon": -2.10491,
+    "lat": 49.18804,
+    "population": 28000,
+    "source": "https://www.geonames.org/3042091"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -162.60537719726562,
+  "max_land_elevation_m": 133.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1011/700.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1011/701.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1011/702.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1012/700.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1012/701.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1012/702.tif"
+  ],
+  "resolution_m": 39.617910171059606,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=49.2167 +lon_0=-2.13753 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8399.25534332843,
+    -5979.558765889979,
+    8842.45916311671,
+    4964.717231504556
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.904477542764901,
+  "artwork_print_scale_denominator": 116982.0182216327,
+  "color_mood": "Smoky Quartz",
+  "background": "#403642",
+  "background_name": "Plum Shadow North",
+  "color_family": "Neutral",
+  "palette": [
+    "#31292a",
+    "#665455",
+    "#a18d89",
+    "#dac4b9"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "bbce6d962696fac75c3712a2671dc1edd1c42f6ec95c9958ccdfd6921ca47ea1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

@@ -1,0 +1,126 @@
+{
+  "id": "000168",
+  "letter": "P",
+  "name": "Pantelleria",
+  "slug": "pantelleria",
+  "collection": "A–Z Islands III",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Strait of Sicily",
+  "reference": [
+    12.0,
+    36.78333
+  ],
+  "source_id": "geonames:2523889",
+  "source_name": "Isola di Pantelleria",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#efe8d3",
+      "Rhodonite"
+    ],
+    "S": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#685641",
+      "Olive Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Linen North",
+    "S": "Tobacco South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Pantelleria",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 280,
+  "area_km2": 86.02186104905552,
+  "gshhg_area_km2": 86.02186104905552,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Pantelleria",
+    "country": "IT",
+    "lon": 11.94611,
+    "lat": 36.82836,
+    "population": 6044,
+    "source": "https://www.geonames.org/2523890"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -50.831703186035156,
+  "max_land_elevation_m": 814.954345703125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2183/1596.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2183/1597.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2183/1598.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2184/1596.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2184/1597.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2184/1598.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2185/1596.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2185/1597.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2185/1598.tif"
+  ],
+  "resolution_m": 27.000022329029196,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.78333 +lon_0=12.0 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6510.711293906637,
+    -5603.499975498094,
+    5239.698423686869,
+    6058.458346930487
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 6.750005582257299,
+  "artwork_print_scale_denominator": 79724.47538099172,
+  "color_mood": "Olive Jade",
+  "background": "#685641",
+  "background_name": "Tobacco South",
+  "color_family": "Green",
+  "palette": [
+    "#30362c",
+    "#657452",
+    "#a1b181",
+    "#d6dfb6"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "87d676bf99002de93a137160bd764e95ef3adeb097835013334ceb253e897f34",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

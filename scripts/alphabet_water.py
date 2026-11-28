@@ -7,8 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 from shapely.geometry import shape,Polygon,LineString,mapping
 from shapely.ops import polygonize,unary_union
 stop=threading.Event()
-p=argparse.ArgumentParser();p.add_argument('mode',choices=['fetch','apply']);a=p.parse_args()
-source=Path('data/collections/alphabet-000101-000126');configs=json.loads((source/'geography-validation.json').read_text());cache=source/'osm-water';cache.mkdir(exist_ok=True)
+p=argparse.ArgumentParser();p.add_argument('mode',choices=['fetch','apply']);p.add_argument('--source',type=Path,default=Path('data/collections/alphabet-000101-000126'));p.add_argument('--only',default='');a=p.parse_args()
+source=a.source;configs=json.loads((source/'geography-validation.json').read_text());cache=source/'osm-water';cache.mkdir(exist_ok=True)
 def geometry(e):
  if e['type']=='way':
   points=[(p['lon'],p['lat']) for p in e.get('geometry',[]) if 'lon' in p]
@@ -40,7 +40,7 @@ def fetch(c):
   print(c['name'],'water fetch unavailable:',error,flush=True)
  except Exception as error:print(c['name'],'water fetch unavailable:',error,flush=True)
 if a.mode=='fetch':
- with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(fetch,configs))
+ with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(fetch,[c for c in configs if not a.only or c['id'] in a.only.split(',')]))
 else:
  for c in configs:
   target=cache/(c['id']+'.json')

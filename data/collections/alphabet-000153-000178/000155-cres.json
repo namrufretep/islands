@@ -1,0 +1,73 @@
+{
+  "id": "000155",
+  "letter": "C",
+  "name": "Cres",
+  "slug": "cres",
+  "collection": "A–Z Islands III",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Adriatic Sea",
+  "reference": [
+    14.41611,
+    44.79111
+  ],
+  "source_id": "geonames:3202521",
+  "source_name": "Otok Cres",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#2c3b45",
+      "Olive Jade"
+    ],
+    "S": [
+      [
+        "#272d50",
+        "#505c87",
+        "#949ec2",
+        "#d6d9e6"
+      ],
+      "#b39d7a",
+      "Moonstone Indigo"
+    ]
+  },
+  "background_names": {
+    "N": "Steel Night North",
+    "S": "Warm Stone South"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Cres",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1588,
+  "area_km2": 412.5939028999975,
+  "gshhg_area_km2": 412.5939028999975,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Cres",
+    "country": "HR",
+    "lon": 14.41246,
+    "lat": 44.96092,
+    "population": 2185,
+    "source": "https://www.geonames.org/3202523"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

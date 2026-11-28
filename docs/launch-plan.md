@@ -1,6 +1,6 @@
 # ISLANDS launch preparation — 27 November 2026
 
-The agreed initial launch target remains **500 islands / 1,000 independent North-Up and South-Up editions**. Currently **126 islands / 252 artworks** are prepared. These are candidate artworks, not released mint inventory. The next 374 islands remain to be produced and reviewed.
+The agreed initial launch target remains **500 islands / 1,000 independent North-Up and South-Up editions**. Currently **178 islands / 356 artworks** are prepared. These are candidate artworks, not released mint inventory. The next 322 islands remain to be produced and reviewed.
 
 The user completed the separate Base Sepolia test flow through Farcaster. The displayed confirmation reports test KEY payment, NFT ownership and metadata verification. This did not mint an original island and does not constitute a Base-mainnet mint or OpenSea check.
 
@@ -19,7 +19,7 @@ The user completed the separate Base Sepolia test flow through Farcaster. The di
 
 ## Concrete review artifacts
 
-`/launch/` provides a read-only price/edition review. Its in-app entry is visible in the signed administrator view. As with the existing artwork assets, the URL itself is public and is not private storage. `/launch/release-plan.json` is regenerated from the current metadata and original image bytes at build time. It contains all 252 allocations and hashes, with `not_released` on every entry. `/launch/artifacts.json` contains actual optimized compiled ABI/bytecode plus source-file hashes. `/launch/mainnet-check.json` records a dated, read-only Base RPC check; it is not proof of deployment or an audit.
+`/launch/` provides a read-only price/edition review. Its in-app entry is visible in the signed administrator view. As with the existing artwork assets, the URL itself is public and is not private storage. `/launch/release-plan.json` is regenerated from the current metadata and original image bytes at build time. It contains all 356 allocations and hashes, with `not_released` on every entry. `/launch/artifacts.json` contains actual optimized compiled ABI/bytecode plus source-file hashes. `/launch/mainnet-check.json` records a dated, read-only Base RPC check; it is not proof of deployment or an audit.
 
 ## Checks and remaining work
 

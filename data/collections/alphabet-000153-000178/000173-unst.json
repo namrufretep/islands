@@ -1,0 +1,64 @@
+{
+  "id": "000173",
+  "letter": "U",
+  "name": "Unst",
+  "slug": "unst",
+  "collection": "A–Z Islands III",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Shetland",
+  "reference": [
+    -0.88333,
+    60.75
+  ],
+  "source_id": "geonames:2635166",
+  "source_name": "Unst",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#d7bd98",
+      "Old Gold"
+    ],
+    "S": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#d2bb76",
+      "Amethyst Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Sandstone North",
+    "S": "Old Brass South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 579,
+  "area_km2": 125.05480788973546,
+  "gshhg_area_km2": 125.05480788973546,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

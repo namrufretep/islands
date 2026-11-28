@@ -1,0 +1,134 @@
+{
+  "id": "000169",
+  "letter": "Q",
+  "name": "Qeqertarsuaq",
+  "slug": "qeqertarsuaq",
+  "collection": "A–Z Islands III",
+  "country_code": "GL",
+  "country": "Greenland",
+  "region": "Disko Bay",
+  "reference": [
+    -53.44012,
+    69.82586
+  ],
+  "source_id": "geonames:3420645",
+  "source_name": "Qeqertarsuaq",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Baffin Bay",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#566c70",
+      "Fossil Limestone"
+    ],
+    "S": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#747251",
+      "Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Atlantic Slate North",
+    "S": "Lichen South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": "Qeqertarsuaq",
+  "name_note": "Disko Island, Greenland; GeoNames 3420645, not the other same-named islands or the settlement.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 4179,
+  "area_km2": 8594.545038360877,
+  "gshhg_area_km2": 8594.545038360877,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Qeqertarsuaq",
+    "country": "GL",
+    "lon": -53.53682,
+    "lat": 69.24721,
+    "population": 839,
+    "source": "https://www.geonames.org/3420635"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -116.24359893798828,
+  "max_land_elevation_m": 1438.3446044921875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/88/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/88/57.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/88/58.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/88/59.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/89/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/89/57.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/89/58.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/89/59.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/90/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/90/57.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/90/58.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/90/59.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/91/56.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/91/57.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/91/58.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/8/91/59.tif"
+  ],
+  "resolution_m": 282.1617856614037,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=69.82586 +lon_0=-53.44012 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -59651.99922208629,
+    -66144.55323498446,
+    61645.77192671239,
+    56652.255884858445
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 70.54044641535093,
+  "artwork_print_scale_denominator": 833154.8789214677,
+  "color_mood": "Fossil Limestone",
+  "background": "#566c70",
+  "background_name": "Atlantic Slate North",
+  "color_family": "Neutral",
+  "palette": [
+    "#393a36",
+    "#77796b",
+    "#b9b6a1",
+    "#eee6ce"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e7e8ca10efbebde176a5d0877c775aab10dc61e2ae2f39ab0ded66d0bebb9772",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

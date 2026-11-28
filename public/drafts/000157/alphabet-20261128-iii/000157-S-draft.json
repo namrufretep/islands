@@ -1,0 +1,126 @@
+{
+  "id": "000157",
+  "letter": "E",
+  "name": "El Hierro",
+  "slug": "el-hierro",
+  "collection": "A–Z Islands III",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.9993,
+    27.74196
+  ],
+  "source_id": "geonames:2516747",
+  "source_name": "El Hierro",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#393a36",
+        "#77796b",
+        "#b9b6a1",
+        "#eee6ce"
+      ],
+      "#273f38",
+      "Fossil Limestone"
+    ],
+    "S": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#e0e1d0",
+      "Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Pine North",
+    "S": "Chalk South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Purple"
+  },
+  "largest_settlement": "Valverde",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 597,
+  "area_km2": 292.9516174276258,
+  "gshhg_area_km2": 292.9516174276258,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Valverde",
+    "country": "ES",
+    "lon": -17.91578,
+    "lat": 27.80628,
+    "population": 5000,
+    "source": "https://www.geonames.org/2509841"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -684.6692504882812,
+  "max_land_elevation_m": 1483.8184814453125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/858.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/860.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/858.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/860.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/858.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/859.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/860.tif"
+  ],
+  "resolution_m": 65.88756630915461,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=27.74196 +lon_0=-17.9993 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -16549.67421077977,
+    -11717.186304387082,
+    12124.594646964319,
+    12203.04309948886
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.471891577288652,
+  "artwork_print_scale_denominator": 194549.90051915732,
+  "color_mood": "Rhodonite",
+  "background": "#e0e1d0",
+  "background_name": "Chalk South",
+  "color_family": "Purple",
+  "palette": [
+    "#3b283a",
+    "#76516b",
+    "#b687a0",
+    "#e3bed0"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "25eb91fa4cad00c8b30d01d6fbd61fc46cdc9d387e36c11ac6aa4670571efa2f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

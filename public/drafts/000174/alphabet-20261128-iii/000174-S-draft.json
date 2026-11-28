@@ -1,0 +1,129 @@
+{
+  "id": "000174",
+  "letter": "V",
+  "name": "Værøy",
+  "slug": "vry",
+  "collection": "A–Z Islands III",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Lofoten",
+  "reference": [
+    12.664,
+    67.6778
+  ],
+  "source_id": "geonames:3133074",
+  "source_name": "Værøya",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31292a",
+        "#665455",
+        "#a18d89",
+        "#dac4b9"
+      ],
+      "#e2c6c2",
+      "Smoky Quartz"
+    ],
+    "S": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#29413a",
+      "Old Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Chalk North",
+    "S": "Deep Pine South"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Sørland",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 272,
+  "area_km2": 18.66544026596398,
+  "gshhg_area_km2": 18.66544026596398,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sørland",
+    "country": "NO",
+    "lon": 12.69784,
+    "lat": 67.66564,
+    "population": 640,
+    "source": "https://www.geonames.org/3137469"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -3.036370277404785,
+  "max_land_elevation_m": 446.3912658691406,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2190/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2191/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2192/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2192/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2192/991.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2193/989.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2193/990.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2193/991.tif"
+  ],
+  "resolution_m": 16.877443792028345,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=67.6778 +lon_0=12.664 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4096.076277029709,
+    -5286.534472847369,
+    2902.750402164292,
+    2058.5290654433666
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 4.219360948007086,
+  "artwork_print_scale_denominator": 49834.97182685535,
+  "color_mood": "Old Gold",
+  "background": "#29413a",
+  "background_name": "Deep Pine South",
+  "color_family": "Yellow",
+  "palette": [
+    "#3b3822",
+    "#807342",
+    "#b7a76c",
+    "#e5d5a5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d2dd43405bf4adecced39f3f2a7e61619da70db9b068b56adc664ac1d8fe0047",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

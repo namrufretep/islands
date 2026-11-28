@@ -1,0 +1,64 @@
+{
+  "id": "000178",
+  "letter": "Z",
+  "name": "Zembra",
+  "slug": "zembra",
+  "collection": "A–Z Islands III",
+  "country_code": "TN",
+  "country": "Tunisia",
+  "region": "Gulf of Tunis",
+  "reference": [
+    10.8043,
+    37.12682
+  ],
+  "source_id": "geonames:2464019",
+  "source_name": "Zembra Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#272d50",
+        "#505c87",
+        "#949ec2",
+        "#d6d9e6"
+      ],
+      "#72704f",
+      "Moonstone Indigo"
+    ],
+    "S": [
+      [
+        "#20272d",
+        "#485969",
+        "#8096a5",
+        "#c3d2d5"
+      ],
+      "#be7044",
+      "Storm Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Lichen North",
+    "S": "Ochre Clay South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 73,
+  "area_km2": 4.4493931033111584,
+  "gshhg_area_km2": 4.4493931033111584,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

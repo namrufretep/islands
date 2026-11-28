@@ -1,0 +1,126 @@
+{
+  "id": "000173",
+  "letter": "U",
+  "name": "Unst",
+  "slug": "unst",
+  "collection": "A–Z Islands III",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Shetland",
+  "reference": [
+    -0.88333,
+    60.75
+  ],
+  "source_id": "geonames:2635166",
+  "source_name": "Unst",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#d7bd98",
+      "Old Gold"
+    ],
+    "S": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#d2bb76",
+      "Amethyst Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Sandstone North",
+    "S": "Old Brass South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 579,
+  "area_km2": 125.05480788973546,
+  "gshhg_area_km2": 125.05480788973546,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -45.8414306640625,
+  "max_land_elevation_m": 283.39239501953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/584.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1017/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/584.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1018/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/584.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1019/587.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1020/584.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1020/585.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1020/586.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1020/587.tif"
+  ],
+  "resolution_m": 44.38218386935855,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=60.75 +lon_0=-0.88333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5506.567444764525,
+    -8497.552065845977,
+    6937.900944477625,
+    10817.574354098866
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.095545967339637,
+  "artwork_print_scale_denominator": 131049.75551975949,
+  "color_mood": "Amethyst Ash",
+  "background": "#d2bb76",
+  "background_name": "Old Brass South",
+  "color_family": "Purple",
+  "palette": [
+    "#352b43",
+    "#6b587e",
+    "#a697b6",
+    "#ddd2df"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "0cffb86a4106978920d3423aeb99387f3cfdbf110fe95dd84be6e25991becce0",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "000165",
+  "letter": "M",
+  "name": "Milos",
+  "slug": "milos",
+  "collection": "A–Z Islands III",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    24.44778,
+    36.67556
+  ],
+  "source_id": "geonames:256951",
+  "source_name": "Milos Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#20272d",
+        "#485969",
+        "#8096a5",
+        "#c3d2d5"
+      ],
+      "#e3d7cd",
+      "Storm Slate"
+    ],
+    "S": [
+      [
+        "#4b2d2a",
+        "#96564c",
+        "#cb8d78",
+        "#efd0b7"
+      ],
+      "#e4c8c4",
+      "Red Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Pearl Dust North",
+    "S": "Rose Chalk South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "largest_settlement": "Adámas",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 648,
+  "area_km2": 165.8433836125198,
+  "gshhg_area_km2": 165.8433836125198,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Adámas",
+    "country": "GR",
+    "lon": 24.44685,
+    "lat": 36.72506,
+    "population": 1268,
+    "source": "https://www.geonames.org/265711"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -29.06881332397461,
+  "max_land_elevation_m": 730.536376953125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1162/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1162/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/799.tif"
+  ],
+  "resolution_m": 47.4168608840955,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.67556 +lon_0=24.44778 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -11687.562111537574,
+    -3529.2745549153747,
+    8948.255745220788,
+    10893.489597070846
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.854215221023875,
+  "artwork_print_scale_denominator": 140010.415996345,
+  "color_mood": "Storm Slate",
+  "background": "#e3d7cd",
+  "background_name": "Pearl Dust North",
+  "color_family": "Blue",
+  "palette": [
+    "#20272d",
+    "#485969",
+    "#8096a5",
+    "#c3d2d5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "95a1868f0b6655524433179773937d4abeb9bea5b42d301649649b6d05a9ed78",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

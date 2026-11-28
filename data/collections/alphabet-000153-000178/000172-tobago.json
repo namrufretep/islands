@@ -1,0 +1,71 @@
+{
+  "id": "000172",
+  "letter": "T",
+  "name": "Tobago",
+  "slug": "tobago",
+  "collection": "A–Z Islands III",
+  "country_code": "TT",
+  "country": "Trinidad and Tobago",
+  "region": "Caribbean",
+  "reference": [
+    -60.66667,
+    11.25
+  ],
+  "source_id": "geonames:3573607",
+  "source_name": "Tobago",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#4a2937",
+      "Amethyst Ash"
+    ],
+    "S": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#2e3d47",
+      "Deep Amazonite"
+    ]
+  },
+  "background_names": {
+    "N": "Aubergine North",
+    "S": "Steel Night South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Cyan"
+  },
+  "largest_settlement": "Scarborough",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 757,
+  "area_km2": 313.0396669630051,
+  "gshhg_area_km2": 313.0396669630051,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Scarborough",
+    "country": "TT",
+    "lon": -60.73525,
+    "lat": 11.18229,
+    "population": 17000,
+    "source": "https://www.geonames.org/3573703"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

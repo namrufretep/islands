@@ -1,0 +1,133 @@
+{
+  "id": "000161",
+  "letter": "I",
+  "name": "Ikaria",
+  "slug": "ikaria",
+  "collection": "A–Z Islands III",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Aegean Sea",
+  "reference": [
+    26.17033,
+    37.59904
+  ],
+  "source_id": "geonames:261804",
+  "source_name": "Nisí Ikaría",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b3822",
+        "#807342",
+        "#b7a76c",
+        "#e5d5a5"
+      ],
+      "#bc6e42",
+      "Old Gold"
+    ],
+    "S": [
+      [
+        "#352b43",
+        "#6b587e",
+        "#a697b6",
+        "#ddd2df"
+      ],
+      "#9f5749",
+      "Amethyst Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Ochre Clay North",
+    "S": "Brick South"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Agios Kirykos",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 612,
+  "area_km2": 259.9277582468152,
+  "gshhg_area_km2": 259.9277582468152,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Agios Kirykos",
+    "country": "GR",
+    "lon": 26.29444,
+    "lat": 37.61472,
+    "population": 1908,
+    "source": "https://www.geonames.org/263870"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -4.954179763793945,
+  "max_land_elevation_m": 1016.7177734375,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/793.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1171/794.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/793.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1172/794.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1173/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1173/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1173/793.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1173/794.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1174/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1174/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1174/793.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1174/794.tif"
+  ],
+  "resolution_m": 79.81116371629057,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=37.59904 +lon_0=26.17033 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -17382.21239987251,
+    -10008.488843543853,
+    17351.60604945714,
+    10247.869173943249
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 19.95279092907264,
+  "artwork_print_scale_denominator": 235662.88498904696,
+  "color_mood": "Old Gold",
+  "background": "#bc6e42",
+  "background_name": "Ochre Clay North",
+  "color_family": "Yellow",
+  "palette": [
+    "#3b3822",
+    "#807342",
+    "#b7a76c",
+    "#e5d5a5"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d1a9d68570cd35e61a855353602e7ca17873694a1cc5f6de7f36fdf8a296e74b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

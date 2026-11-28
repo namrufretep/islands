@@ -1,0 +1,66 @@
+{
+  "id": "000153",
+  "letter": "A",
+  "name": "Anticosti",
+  "slug": "anticosti",
+  "collection": "A–Z Islands III",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Gulf of St Lawrence",
+  "reference": [
+    -62.99859,
+    49.50014
+  ],
+  "source_id": "geonames:5886180",
+  "source_name": "Anticosti Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Gulf of St Lawrence",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#20272d",
+        "#485969",
+        "#8096a5",
+        "#c3d2d5"
+      ],
+      "#161d27",
+      "Storm Slate"
+    ],
+    "S": [
+      [
+        "#4b2d2a",
+        "#96564c",
+        "#cb8d78",
+        "#efd0b7"
+      ],
+      "#423844",
+      "Red Jasper"
+    ]
+  },
+  "background_names": {
+    "N": "Midnight Ink North",
+    "S": "Plum Shadow South"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Red"
+  },
+  "largest_settlement": null,
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 3494,
+  "area_km2": 7978.654364444229,
+  "gshhg_area_km2": 7978.654364444229,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [
+    "GSHHG 2.3.7 full-resolution L2"
+  ],
+  "water_count": 1,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "000159",
+  "letter": "G",
+  "name": "Guernsey",
+  "slug": "guernsey",
+  "collection": "A–Z Islands III",
+  "country_code": "GG",
+  "country": "Guernsey",
+  "region": "Channel Islands",
+  "reference": [
+    -2.5787,
+    49.45853
+  ],
+  "source_id": "geonames:3042363",
+  "source_name": "Guernsey",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#283c3e",
+        "#477b7b",
+        "#86b3b1",
+        "#c8ded5"
+      ],
+      "#32443e",
+      "Deep Amazonite"
+    ],
+    "S": [
+      [
+        "#382b29",
+        "#785044",
+        "#bc8566",
+        "#ebc6a3"
+      ],
+      "#f1ead5",
+      "Burnished Copper"
+    ]
+  },
+  "background_names": {
+    "N": "Spruce North",
+    "S": "Linen South"
+  },
+  "color_families": {
+    "N": "Cyan",
+    "S": "Orange"
+  },
+  "largest_settlement": "Saint Peter Port",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 431,
+  "area_km2": 66.4467164214862,
+  "gshhg_area_km2": 66.4467164214862,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Saint Peter Port",
+    "country": "GG",
+    "lon": -2.53527,
+    "lat": 49.45981,
+    "population": 16488,
+    "source": "https://www.geonames.org/3042287"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -31.649063110351562,
+  "max_land_elevation_m": 106.76200103759766,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/698.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/699.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1009/698.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1009/699.tif"
+  ],
+  "resolution_m": 29.016047654079454,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=49.45853 +lon_0=-2.5787 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7017.668394252021,
+    -4612.572099567801,
+    5610.115544803358,
+    5775.6300254449
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.2540119135198635,
+  "artwork_print_scale_denominator": 85677.30606519524,
+  "color_mood": "Burnished Copper",
+  "background": "#f1ead5",
+  "background_name": "Linen South",
+  "color_family": "Orange",
+  "palette": [
+    "#382b29",
+    "#785044",
+    "#bc8566",
+    "#ebc6a3"
+  ],
+  "art_version": "4.5-alphabet",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_wash",
+  "surface_model": "Soft Stone: continuous rounded mineral relief from physical shoreline and public elevation",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "elevation_degrees": 45,
+    "shared_surface": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c8574a787259c96bce3f73108a39c2e55cdb4791f430ecbfa01f112d89e96f8e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}

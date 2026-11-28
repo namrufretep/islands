@@ -1,0 +1,71 @@
+{
+  "id": "000156",
+  "letter": "D",
+  "name": "Dugi Otok",
+  "slug": "dugi-otok",
+  "collection": "A–Z Islands III",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Dalmatian Islands",
+  "reference": [
+    15.07472,
+    43.9775
+  ],
+  "source_id": "geonames:3201022",
+  "source_name": "Dugi Otok",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3b283a",
+        "#76516b",
+        "#b687a0",
+        "#e3bed0"
+      ],
+      "#d0b974",
+      "Rhodonite"
+    ],
+    "S": [
+      [
+        "#30362c",
+        "#657452",
+        "#a1b181",
+        "#d6dfb6"
+      ],
+      "#e5d9cf",
+      "Olive Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Old Brass North",
+    "S": "Pearl Dust South"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Sali",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1153,
+  "area_km2": 122.28845676298265,
+  "gshhg_area_km2": 122.28845676298265,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Sali",
+    "country": "HR",
+    "lon": 15.16333,
+    "lat": 43.93972,
+    "population": 726,
+    "source": "https://www.geonames.org/3191335"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "Inland-water baseline from GSHHG L2, not exhaustive. Supplemental OSM queries were unavailable on 2026-11-28; absence of mapped polygons is not evidence of no lakes."
+}
