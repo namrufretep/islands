@@ -1,0 +1,168 @@
+{
+  "id": "000242",
+  "letter": "L",
+  "name": "La Palma",
+  "slug": "la-palma",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.85287,
+    28.69503
+  ],
+  "source_id": "geonames:2515680",
+  "source_name": "La Palma",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#b39a58",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#5a727b",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Old Brass VI N",
+    "S": "Blue Slate VI S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Blue"
+  },
+  "largest_settlement": "Los Llanos de Aridane",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 731,
+  "area_km2": 715.3220815610476,
+  "gshhg_area_km2": 715.3220815610476,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Los Llanos de Aridane",
+    "country": "ES",
+    "lon": -17.91821,
+    "lat": 28.65851,
+    "population": 20171,
+    "source": "https://www.geonames.org/2514651"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -564.9719848632812,
+  "max_land_elevation_m": 2389.85546875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/852.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/853.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/854.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/920/855.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/852.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/853.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/854.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/921/855.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/852.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/853.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/854.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/922/855.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/923/852.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/923/853.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/923/854.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/923/855.tif"
+  ],
+  "resolution_m": 102.51979179213252,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=28.69503 +lon_0=-17.85287 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14575.578301662177,
+    -27020.869508092925,
+    13670.529576500432,
+    17595.743879843147
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 25.62994794803313,
+  "artwork_print_scale_denominator": 302715.9206460606,
+  "color_mood": "Glacial Lapis",
+  "background": "#5a727b",
+  "background_name": "Blue Slate VI S",
+  "color_family": "Blue",
+  "palette": [
+    "#333f68",
+    "#657aa1",
+    "#a1b1cf",
+    "#dce3ec"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "bce567e6be51584943450979e0586f048361578b6b4182540943292d39f2b419",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

@@ -1,0 +1,85 @@
+{
+  "id": "000208",
+  "letter": "D",
+  "name": "Dinagat",
+  "slug": "dinagat",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Dinagat Islands",
+  "reference": [
+    125.59472,
+    10.22472
+  ],
+  "source_id": "geonames:1714793",
+  "source_name": "Dinagat Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Philippine Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#283352",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#a1aa92",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Night V N",
+    "S": "Sage Dust V S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Yellow"
+  },
+  "largest_settlement": "San Jose",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1779,
+  "area_km2": 787.6401627650575,
+  "gshhg_area_km2": 787.6401627650575,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "San Jose",
+    "country": "PH",
+    "lon": 125.56833,
+    "lat": 10.18,
+    "population": 26735,
+    "source": "https://www.geonames.org/1689549"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

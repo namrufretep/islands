@@ -1,0 +1,155 @@
+{
+  "id": "000211",
+  "letter": "G",
+  "name": "Gozo",
+  "slug": "gozo",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "MT",
+  "country": "Malta",
+  "region": "Maltese Islands",
+  "reference": [
+    14.25,
+    36.04944
+  ],
+  "source_id": "geonames:2563049",
+  "source_name": "Gozo",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Mediterranean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#a3afb3",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#ddd898",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Silver Fog V N",
+    "S": "Faded Ochre V S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Brown"
+  },
+  "largest_settlement": "Victoria",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 280,
+  "area_km2": 68.44946605851229,
+  "gshhg_area_km2": 68.44946605851229,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Victoria",
+    "country": "MT",
+    "lon": 14.24118,
+    "lat": 36.04473,
+    "population": 6596,
+    "source": "https://www.geonames.org/2562619"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -128.2088623046875,
+  "max_land_elevation_m": 260.7936096191406,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1104/803.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1104/804.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1105/803.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1105/804.tif"
+  ],
+  "resolution_m": 31.764247131916356,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.04944 +lon_0=14.25 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6048.015569886139,
+    -4333.009601689244,
+    7775.784781923859,
+    3622.4041561505287
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.941061782979089,
+  "artwork_print_scale_denominator": 93792.06830290264,
+  "color_mood": "Volcanic Ash",
+  "background": "#ddd898",
+  "background_name": "Faded Ochre V S",
+  "color_family": "Brown",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      9,
+      9
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e271d60487d356d2377af31d6e06f88d4daf23d95132ef40deb262b0606c8262",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

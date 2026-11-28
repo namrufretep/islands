@@ -1,0 +1,78 @@
+{
+  "id": "000222",
+  "letter": "R",
+  "name": "Raasay",
+  "slug": "raasay",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides",
+  "reference": [
+    -6.06667,
+    57.38333
+  ],
+  "source_id": "geonames:2639745",
+  "source_name": "Island of Raasay",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Inner Sound",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#242e3e",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#ece7d5",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Midnight Slate V N",
+    "S": "Fossil Chalk V S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 281,
+  "area_km2": 66.41098078039941,
+  "gshhg_area_km2": 66.41098078039941,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

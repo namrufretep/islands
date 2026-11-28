@@ -1,0 +1,161 @@
+{
+  "id": "000233",
+  "letter": "C",
+  "name": "Corfu",
+  "slug": "corfu",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "reference": [
+    19.85231,
+    39.59828
+  ],
+  "source_id": "geonames:2463678",
+  "source_name": "Corfu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Ionian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#28232b",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#171b48",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Obsidian VI N",
+    "S": "Indigo Night VI S"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Corfu",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1329,
+  "area_km2": 604.0874391824142,
+  "gshhg_area_km2": 604.0874391824142,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Corfu",
+    "country": "GR",
+    "lon": 19.92016,
+    "lat": 39.62441,
+    "population": 40047,
+    "source": "https://www.geonames.org/2463679"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -14.87702751159668,
+  "max_land_elevation_m": 873.7145385742188,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/567/388.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/567/389.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/567/390.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/568/388.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/568/389.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/568/390.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/569/388.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/569/389.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/569/390.tif"
+  ],
+  "resolution_m": 117.30672188883489,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=39.59828 +lon_0=19.85231 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -19238.21859607918,
+    -26203.226711383617,
+    23239.802702558667,
+    24848.658654637326
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 29.32668047220872,
+  "artwork_print_scale_denominator": 346378.1158134889,
+  "color_mood": "Dune Gold",
+  "background": "#28232b",
+  "background_name": "Obsidian VI N",
+  "color_family": "Yellow",
+  "palette": [
+    "#685129",
+    "#a18645",
+    "#cdb675",
+    "#ecdfb3"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -13
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "1fafe99e0edf82f34ee63b4e007d941f42a0778c2b0480ff69ae64dbff24f74d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

@@ -1,0 +1,86 @@
+{
+  "id": "000241",
+  "letter": "K",
+  "name": "Kalymnos",
+  "slug": "kalymnos",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    26.98105,
+    36.97582
+  ],
+  "source_id": "geonames:261506",
+  "source_name": "Kalymnos Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#66533c",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#bdad81",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Earth Umber VI N",
+    "S": "Warm Stone VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": "Kálymnos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 599,
+  "antimeridian_split_parts": 1,
+  "area_km2": 114.70655884968228,
+  "gshhg_area_km2": 114.70655884968228,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kálymnos",
+    "country": "GR",
+    "lon": 26.98388,
+    "lat": 36.9503,
+    "population": 12324,
+    "source": "https://www.geonames.org/261507"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

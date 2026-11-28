@@ -1,0 +1,82 @@
+{
+  "id": "000234",
+  "letter": "D",
+  "name": "D’Urville Island",
+  "slug": "durville-island",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "NZ",
+  "country": "New Zealand",
+  "region": "Marlborough Sounds",
+  "reference": [
+    173.86667,
+    -40.83333
+  ],
+  "source_id": "geonames:2191538",
+  "source_name": "D'Urville Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Cook Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#e9e1d2",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#283845",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Limestone VI N",
+    "S": "Storm Night VI S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "source_aliases": [
+    "geonames:6248556"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1283,
+  "antimeridian_split_parts": 1,
+  "area_km2": 176.23849092199524,
+  "gshhg_area_km2": 176.23849092199524,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

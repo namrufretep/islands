@@ -1,0 +1,158 @@
+{
+  "id": "000241",
+  "letter": "K",
+  "name": "Kalymnos",
+  "slug": "kalymnos",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    26.98105,
+    36.97582
+  ],
+  "source_id": "geonames:261506",
+  "source_name": "Kalymnos Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#66533c",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#bdad81",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Earth Umber VI N",
+    "S": "Warm Stone VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Green"
+  },
+  "largest_settlement": "Kálymnos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 599,
+  "area_km2": 114.70655884968228,
+  "gshhg_area_km2": 114.70655884968228,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kálymnos",
+    "country": "GR",
+    "lon": 26.98388,
+    "lat": 36.9503,
+    "population": 12324,
+    "source": "https://www.geonames.org/261507"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -37.66941452026367,
+  "max_land_elevation_m": 642.3131103515625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/796.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/797.tif"
+  ],
+  "resolution_m": 39.752432047166046,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.97582 +lon_0=26.98105 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8949.002322678758,
+    -5688.473090594364,
+    6769.924154274272,
+    11611.785336332297
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.938108011791511,
+  "artwork_print_scale_denominator": 117379.22848572652,
+  "color_mood": "Olive Calcite",
+  "background": "#bdad81",
+  "background_name": "Warm Stone VI S",
+  "color_family": "Green",
+  "palette": [
+    "#3e442e",
+    "#79805a",
+    "#b1b58d",
+    "#dfe0bd"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      8,
+      -8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "690e7762129a3a3edb876de643d29dd85fc1f2ff329cf6b2f96d7070d4364fce",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

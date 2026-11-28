@@ -1,0 +1,160 @@
+{
+  "id": "000223",
+  "letter": "S",
+  "name": "Savai‘i",
+  "slug": "savaii",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "WS",
+  "country": "Samoa",
+  "region": "Samoan Islands",
+  "reference": [
+    -172.44128,
+    -13.61019
+  ],
+  "source_id": "geonames:4035036",
+  "source_name": "Savai’i",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#eae5c5",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#665d50",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Light V N",
+    "S": "Soft Umber V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Orange"
+  },
+  "largest_settlement": "Palauli",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1158,
+  "area_km2": 1723.1127446490025,
+  "gshhg_area_km2": 1723.1127446490025,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Palauli",
+    "country": "WS",
+    "lon": -172.29858,
+    "lat": -13.75859,
+    "population": 9300,
+    "source": "https://www.geonames.org/4035153"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1616.2845458984375,
+  "max_land_elevation_m": 1839.31640625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/20/550.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/20/551.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/20/552.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/21/550.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/21/551.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/21/552.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/22/550.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/22/551.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/22/552.tif"
+  ],
+  "resolution_m": 161.23825112568107,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-13.61019 +lon_0=-172.44128 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -42586.185138447436,
+    -21527.708407437472,
+    27584.701751448963,
+    18963.127447425853
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 40.30956278142027,
+  "artwork_print_scale_denominator": 476097.19820575125,
+  "color_mood": "Olive Calcite",
+  "background": "#eae5c5",
+  "background_name": "Ivory Light V N",
+  "color_family": "Green",
+  "palette": [
+    "#3e442e",
+    "#79805a",
+    "#b1b58d",
+    "#dfe0bd"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "0b79053ef937905b980eddacef7697788bb573fb023ecd6b25c15f66348742a3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

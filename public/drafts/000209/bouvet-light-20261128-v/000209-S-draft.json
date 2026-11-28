@@ -1,0 +1,160 @@
+{
+  "id": "000209",
+  "letter": "E",
+  "name": "Erromango",
+  "slug": "erromango",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Vanuatu",
+  "reference": [
+    169.08333,
+    -18.8
+  ],
+  "source_id": "geonames:2137075",
+  "source_name": "Erromango Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d2decf",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#464438",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Lichen V N",
+    "S": "Dark Bronze V S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 806,
+  "area_km2": 894.3886806259305,
+  "gshhg_area_km2": 894.3886806259305,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -357.8526916503906,
+  "max_land_elevation_m": 870.4652709960938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1984/1131.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1984/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1984/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1984/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1985/1131.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1985/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1985/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1985/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1131.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1986/1134.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1131.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1132.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1133.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1987/1134.tif"
+  ],
+  "resolution_m": 94.03809230140915,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-18.8 +lon_0=169.08333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12171.437680455652,
+    -22065.24376123441,
+    25502.31058134199,
+    18860.134008338853
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 23.509523075352288,
+  "artwork_print_scale_denominator": 277671.5323860506,
+  "color_mood": "Basalt Mist",
+  "background": "#464438",
+  "background_name": "Dark Bronze V S",
+  "color_family": "Neutral",
+  "palette": [
+    "#414340",
+    "#7c8078",
+    "#b4b9ac",
+    "#e2e6d8"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b8a5a5f4cea096c6a1833d53105a3000659c15cd90d6f071e3b32234cc2c6ae4",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

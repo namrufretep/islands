@@ -1,0 +1,85 @@
+{
+  "id": "000207",
+  "letter": "C",
+  "name": "Camiguin",
+  "slug": "camiguin",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Northern Mindanao",
+  "reference": [
+    124.71856,
+    9.17454
+  ],
+  "source_id": "geonames:1719692",
+  "source_name": "Camiguin Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bohol Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#dcdae4",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#354f51",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Violet Chalk V N",
+    "S": "Forest Shadow V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Orange"
+  },
+  "largest_settlement": "Mambajao",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 365,
+  "area_km2": 249.53391098742372,
+  "gshhg_area_km2": 249.53391098742372,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Mambajao",
+    "country": "PH",
+    "lon": 124.7156,
+    "lat": 9.2504,
+    "population": 10058,
+    "source": "https://www.geonames.org/1702348"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

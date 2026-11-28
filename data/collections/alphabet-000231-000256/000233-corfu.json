@@ -1,0 +1,86 @@
+{
+  "id": "000233",
+  "letter": "C",
+  "name": "Corfu",
+  "slug": "corfu",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "reference": [
+    19.85231,
+    39.59828
+  ],
+  "source_id": "geonames:2463678",
+  "source_name": "Corfu",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Ionian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#28232b",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#171b48",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Obsidian VI N",
+    "S": "Indigo Night VI S"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Corfu",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1329,
+  "antimeridian_split_parts": 1,
+  "area_km2": 604.0874391824142,
+  "gshhg_area_km2": 604.0874391824142,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Corfu",
+    "country": "GR",
+    "lon": 19.92016,
+    "lat": 39.62441,
+    "population": 40047,
+    "source": "https://www.geonames.org/2463679"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,160 @@
+{
+  "id": "000216",
+  "letter": "L",
+  "name": "Langkawi",
+  "slug": "langkawi",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "MY",
+  "country": "Malaysia",
+  "region": "Langkawi Archipelago",
+  "reference": [
+    99.80242,
+    6.37241
+  ],
+  "source_id": "geonames:1222392",
+  "source_name": "Pulau Langkawi",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Andaman Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#5d313f",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#dedce6",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Garnet Shadow V N",
+    "S": "Violet Chalk V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Kampung Baru Ulu Melaka",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 714,
+  "area_km2": 373.1998525846776,
+  "gshhg_area_km2": 373.1998525846776,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kampung Baru Ulu Melaka",
+    "country": "MY",
+    "lon": 99.78791,
+    "lat": 6.35196,
+    "population": 18898,
+    "source": "https://www.geonames.org/6804851"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -145.7477264404297,
+  "max_land_elevation_m": 866.2747192382812,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1590/986.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1590/987.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1590/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1591/986.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1591/987.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1591/988.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1592/986.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1592/987.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1592/988.tif"
+  ],
+  "resolution_m": 70.76259201103352,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=6.37241 +lon_0=99.80242 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -17924.67457387694,
+    -12661.058273194005,
+    12871.20546932485,
+    12033.419541505273
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 17.69064800275838,
+  "artwork_print_scale_denominator": 208944.66144990214,
+  "color_mood": "Glacial Lapis",
+  "background": "#dedce6",
+  "background_name": "Violet Chalk V S",
+  "color_family": "Blue",
+  "palette": [
+    "#333f68",
+    "#657aa1",
+    "#a1b1cf",
+    "#dce3ec"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      6,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b8458c00106ed64fa9c5355588dff2bc9437a3afd1aa83e364fd9cdeaad10fdf",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

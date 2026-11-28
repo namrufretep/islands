@@ -1,0 +1,78 @@
+{
+  "id": "000229",
+  "letter": "Y",
+  "name": "Yasawa",
+  "slug": "yasawa",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Yasawa Islands",
+  "reference": [
+    177.50689,
+    -16.79358
+  ],
+  "source_id": "geonames:2194239",
+  "source_name": "Yasawa Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#d3c1cb",
+      "Quiet Malachite"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#1a2e3a",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Dust V N",
+    "S": "Deep Petrol V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 493,
+  "area_km2": 34.685151718240974,
+  "gshhg_area_km2": 34.685151718240974,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

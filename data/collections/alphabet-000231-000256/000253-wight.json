@@ -1,0 +1,87 @@
+{
+  "id": "000253",
+  "letter": "W",
+  "name": "Wight",
+  "slug": "wight",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Southern England",
+  "reference": [
+    -1.28764,
+    50.67948
+  ],
+  "source_id": "geonames:2633939",
+  "source_name": "Isle of Wight",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#254739",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#4f2839",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Forest VI N",
+    "S": "Black Cherry VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Newport",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "name_note": "Isle of Wight, England; short display name Wight for alphabetic indexing.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 608,
+  "antimeridian_split_parts": 1,
+  "area_km2": 388.83475749244,
+  "gshhg_area_km2": 388.83475749244,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Newport",
+    "country": "GB",
+    "lon": -1.29124,
+    "lat": 50.70146,
+    "population": 24884,
+    "source": "https://www.geonames.org/2641599"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

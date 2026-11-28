@@ -17,8 +17,10 @@ from rasterio.features import rasterize
 from shapely.geometry import shape,mapping
 from shapely.ops import transform as shape_transform
 from pyproj import Transformer
+from island_lighting import hillshade, directional_component, horizontal_unit, shadow_offset, validate_design
 
-p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');p.add_argument('--source',type=Path,default=Path('public/drafts/africa-sources-20261126'));p.add_argument('--edition-dir',default='africa-20261126');p.add_argument('--style',choices=['rounded','bouvet-original'],default='rounded');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--id');p.add_argument('--resume',action='store_true');p.add_argument('--source',type=Path,default=Path('public/drafts/africa-sources-20261126'));p.add_argument('--edition-dir',default='africa-20261126');p.add_argument('--style',choices=['rounded','bouvet-original'],default='rounded');p.add_argument('--variable-lighting',action='store_true');a=p.parse_args()
+if a.variable_lighting and a.style!='bouvet-original':p.error('Variable lighting requires the Bouvet surface')
 source=a.source
 configs=json.loads((source/'geography-validation.json').read_text())
 a.cache.mkdir(parents=True,exist_ok=True)
@@ -41,6 +43,8 @@ def tile(lon,lat,z):return int((lon+180)/360*2**z),int((1-math.asinh(math.tan(ma
 validations=[]
 for c in configs:
  if a.id and c['id']!=a.id:continue
+ if a.variable_lighting:
+  for e in ['N','S']:validate_design(c['lighting_design'][e])
  prefix=c['id']+'-'+c['slug']
  existing_dir=Path('public/drafts')/c['id']/a.edition_dir
  existing=[]
@@ -49,7 +53,11 @@ for c in configs:
    meta_file=existing_dir/(c['id']+'-'+e+'-draft.json');png_file=meta_file.with_suffix('.png')
    if meta_file.exists() and png_file.exists():
     meta=json.loads(meta_file.read_text())
-    if meta.get('source')==c['coastline_source'] and meta.get('water_count')==c['water_count'] and meta.get('background')==c['palettes'][e][1] and meta.get('render_style','rounded')==a.style and meta['artwork_sha256']==hashlib.sha256(png_file.read_bytes()).hexdigest():existing.append(meta)
+    lighting_matches=meta.get('variable_lighting',False)==a.variable_lighting
+    if a.variable_lighting:
+     design=c['lighting_design'][e]
+     lighting_matches=lighting_matches and all(meta.get('lighting',{}).get(k)==design[k] for k in ['azimuth_degrees','elevation_degrees']) and meta.get('lighting',{}).get('shadow_offset_px')==list(shadow_offset(design['azimuth_degrees'],design['shadow_distance_px']))
+    if lighting_matches and meta.get('source')==c['coastline_source'] and meta.get('water_count')==c['water_count'] and meta.get('background')==c['palettes'][e][1] and meta.get('render_style','rounded')==a.style and meta['artwork_sha256']==hashlib.sha256(png_file.read_bytes()).hexdigest():existing.append(meta)
   if len(existing)==2:
    validations.append({k:existing[0][k] for k in ['id','name','land_coverage_fraction','min_land_elevation_m','max_land_elevation_m','terrain_tiles','resolution_m']})
    print(c['id'],c['name'],'verified existing pair',flush=True);continue
@@ -63,17 +71,26 @@ for c in configs:
  resolution=full/512;transform=from_bounds(*bounds,512,512)
  zoom=12 if extent<12000 else 11
  west,south,east,north=transform_bounds(crs,'EPSG:4326',*bounds,densify_pts=21)
- tx0,ty0=tile(west,north,zoom);tx1,ty1=tile(east,south,zoom)
- items=[(zoom,x,y) for x in range(tx0,tx1+1) for y in range(ty0,ty1+1)]
+ crosses_antimeridian=west>east
+ def tile_items(z):
+  tx0,ty0=tile(west,north,z);tx1,ty1=tile(east,south,z)
+  xs=list(range(tx0,2**z))+list(range(0,tx1+1)) if crosses_antimeridian else range(tx0,tx1+1)
+  return [(z,x,y) for x in xs for y in range(ty0,ty1+1)]
+ items=tile_items(zoom)
  while len(items)>20 and zoom>5:
-  zoom-=1;tx0,ty0=tile(west,north,zoom);tx1,ty1=tile(east,south,zoom)
-  items=[(zoom,x,y) for x in range(tx0,tx1+1) for y in range(ty0,ty1+1)]
+  zoom-=1;items=tile_items(zoom)
  if len(items)>20:raise RuntimeError('Unexpected terrain extent')
  with ThreadPoolExecutor(max_workers=3) as pool:tiles=list(pool.map(fetch_tile,items))
  datasets=[rasterio.open(path) for path,_ in tiles]
- mosaic,src_transform=merge(datasets)
+ mosaic=None
  terrain=np.full((512,512),np.nan,dtype=np.float32)
- reproject(mosaic[0],terrain,src_transform=src_transform,src_crs=datasets[0].crs,src_nodata=datasets[0].nodata,dst_transform=transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear)
+ if crosses_antimeridian:
+  # Reproject the two sides separately to avoid a world-wide Mercator mosaic.
+  for ds in datasets:
+   reproject(rasterio.band(ds,1),terrain,src_transform=ds.transform,src_crs=ds.crs,src_nodata=ds.nodata,dst_transform=transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear,init_dest_nodata=False)
+ else:
+  mosaic,src_transform=merge(datasets)
+  reproject(mosaic[0],terrain,src_transform=src_transform,src_crs=datasets[0].crs,src_nodata=datasets[0].nodata,dst_transform=transform,dst_crs=crs,dst_nodata=np.nan,resampling=Resampling.bilinear)
  for ds in datasets:ds.close()
  land=rasterize([(coast,1)],out_shape=(512,512),transform=transform,dtype='uint8').astype(bool)
  valid=np.isfinite(terrain);coverage=float(valid[land].mean())
@@ -107,9 +124,13 @@ for c in configs:
  for edition,angle,sign in [('N',0,1),('S',180,-1)]:
   palette,background,mood=c['palettes'][edition]
   hill=(math.sin(math.pi/4)+sign*math.cos(math.pi/4)*(dx+dy)/math.sqrt(2))/np.sqrt(1+dx*dx+dy*dy)
+  if a.variable_lighting:
+   design=c['lighting_design'][edition]
+   hill=hillshade(dx,dy,design['azimuth_degrees'],design['elevation_degrees'],angle)
   if a.style=='bouvet-original':
    lighting=np.clip(.15+.85*gaussian_filter(hill,9),0,1)
-   lighting+=.105*sign*(edge_x+edge_y)/math.sqrt(2)*np.exp(-coast_distance/9)
+   bevel=directional_component(edge_x,edge_y,design['azimuth_degrees'],angle) if a.variable_lighting else sign*(edge_x+edge_y)/math.sqrt(2)
+   lighting+=.105*bevel*np.exp(-coast_distance/9)
    lo,hi=np.percentile(lighting[land],[3,97])
    if hi-lo<.025:raise RuntimeError('Insufficient broad relief contrast: '+c['name'])
    tone=np.clip((lighting-lo)/(hi-lo),0,1)
@@ -126,13 +147,17 @@ for c in configs:
    art=art.rotate(angle);current_alpha=alpha.rotate(angle);current_water=water_mask.rotate(angle) if water_mask else None
   # A restrained broad wash and close, soft shadow; no height steps or outlines.
   yy,xx=np.mgrid[0:512,0:512];wash=(.5-(.6*xx+.4*yy)/511)[...,None]*.09
+  if a.variable_lighting:
+   lx,ly=horizontal_unit(design['azimuth_degrees'])
+   wash=(((xx-255.5)*lx+(yy-255.5)*ly)/(511*math.sqrt(2)))[...,None]*.09
   base=hexrgb(background)[None,None,:]
   background_rgb=np.clip(base+(255-base)*np.maximum(wash,0)+base*np.minimum(wash,0),0,255).astype('uint8')
   canvas=Image.fromarray(background_rgb).resize((2048,2048),Image.Resampling.BILINEAR).convert('RGBA')
   shadow_opacity=.08 if a.style=='bouvet-original' else .20
   blurred=current_alpha.filter(ImageFilter.GaussianBlur(15)).point(lambda x:round(x*shadow_opacity))
   shadow=Image.new('RGBA',(2048,2048),tuple(np.maximum(hexrgb(background)*.36,8).astype('uint8'))+(0,));shadow.putalpha(blurred)
-  canvas.alpha_composite(shadow,dest=(4,7) if a.style=='bouvet-original' else (11,19))
+  offset=shadow_offset(design['azimuth_degrees'],design['shadow_distance_px']) if a.variable_lighting else (4,7) if a.style=='bouvet-original' else (11,19)
+  canvas.alpha_composite(shadow,dest=offset)
   art=art.convert('RGBA');art.putalpha(current_alpha);canvas.alpha_composite(art)
   if current_water:
    surface=Image.new('RGBA',(2048,2048),tuple(np.clip(hexrgb(background)*.96,0,255).astype('uint8'))+(255,));surface.putalpha(current_water);canvas.alpha_composite(surface)
@@ -142,6 +167,9 @@ for c in configs:
   if a.style=='bouvet-original':
    metadata.update(art_version='4.6-bouvet',surface_finish='bouvet_original',surface_model='Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome',style_reference={'island_id':'000001','art_version':'3.8','reference':'Bouvetøya original North-Up and South-Up'},shadow_opacity=shadow_opacity)
    metadata['attribution']='GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles'
+  if a.variable_lighting:
+   metadata.update(art_version='4.7-bouvet-directional',variable_lighting=True)
+   metadata['lighting']={**design,'shared_surface':True,'azimuth_convention':'clockwise from screen top','horizontal_light_vector':[lx,ly],'shadow_offset_px':list(offset),'consistent_relief_and_cast_shadow':True}
   stem.with_suffix('.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
   print(c['id'],c['name'],edition,'rendered',png.stat().st_size,'bytes',flush=True)
  del canvas,art,alpha,terrain,mosaic

@@ -1,0 +1,86 @@
+{
+  "id": "000232",
+  "letter": "B",
+  "name": "Belle-Île",
+  "slug": "belle-ile",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "FR",
+  "country": "France",
+  "region": "Brittany",
+  "reference": [
+    -3.187,
+    47.33306
+  ],
+  "source_id": "geonames:3033682",
+  "source_name": "Belle-Île",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bay of Biscay",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#142f32",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#592e42",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Petrol VI N",
+    "S": "Mulberry VI S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Orange"
+  },
+  "largest_settlement": "Le Palais",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 536,
+  "antimeridian_split_parts": 1,
+  "area_km2": 86.57980000480138,
+  "gshhg_area_km2": 86.57980000480138,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Le Palais",
+    "country": "FR",
+    "lon": -3.15583,
+    "lat": 47.3463,
+    "population": 2645,
+    "source": "https://www.geonames.org/3003045"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

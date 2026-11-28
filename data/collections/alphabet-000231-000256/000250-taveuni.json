@@ -1,0 +1,82 @@
+{
+  "id": "000250",
+  "letter": "T",
+  "name": "Taveuni",
+  "slug": "taveuni",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Northern Division",
+  "reference": [
+    -179.95005,
+    -16.83842
+  ],
+  "source_id": "geonames:4035893",
+  "source_name": "Taveuni",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#975244",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#294038",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Iron Clay VI N",
+    "S": "Pine Shadow VI S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 678,
+  "antimeridian_split_parts": 2,
+  "area_km2": 434,
+  "gshhg_area_km2": 483.4935209046048,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "reported_area_km2": 434,
+  "area_source": "https://mcttt.gov.fj/wp-content/uploads/2023/10/TDPVL_SESA_TOR_Oct19.pdf",
+  "area_note": "434 km² reported by Fiji Ministry of Tourism and Civil Aviation, SESA Terms of Reference, 2023, p. 2. GSHHG polygon area is retained separately and differs from the published land area. Both physical dateline-split coastline pieces are included."
+}

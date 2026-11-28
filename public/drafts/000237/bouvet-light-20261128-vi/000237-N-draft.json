@@ -1,0 +1,150 @@
+{
+  "id": "000237",
+  "letter": "G",
+  "name": "Grímsey",
+  "slug": "grimsey",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "IS",
+  "country": "Iceland",
+  "region": "Northern Iceland",
+  "reference": [
+    -18.00038,
+    66.54419
+  ],
+  "source_id": "geonames:2631142",
+  "source_name": "Grímsey",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Greenland Sea",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#263b32",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#9c5e46",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Pine Shadow VI N",
+    "S": "Iron Clay VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "name_note": "Arctic Circle island north of Iceland, not the same-named islands in western Iceland.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 93,
+  "area_km2": 5.916102333636344,
+  "gshhg_area_km2": 5.916102333636344,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -18.0,
+  "max_land_elevation_m": 92.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1842/1022.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1842/1023.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1843/1022.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1843/1023.tif"
+  ],
+  "resolution_m": 11.103708253519358,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=66.54419 +lon_0=-18.00038 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1210.8529689043694,
+    -1814.5629897973915,
+    1387.9670349273124,
+    3017.7708421342327
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.7759270633798394,
+  "artwork_print_scale_denominator": 32786.54011865952,
+  "color_mood": "Fjord Slate",
+  "background": "#263b32",
+  "background_name": "Pine Shadow VI N",
+  "color_family": "Blue",
+  "palette": [
+    "#263e4b",
+    "#517182",
+    "#91adb9",
+    "#d6e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      13
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b630412af78f8e6b1e54da8d6477e35a253c490fe35d417300f5fb1ff6a2fe2b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

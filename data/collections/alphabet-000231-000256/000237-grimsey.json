@@ -1,0 +1,80 @@
+{
+  "id": "000237",
+  "letter": "G",
+  "name": "Grímsey",
+  "slug": "grimsey",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "IS",
+  "country": "Iceland",
+  "region": "Northern Iceland",
+  "reference": [
+    -18.00038,
+    66.54419
+  ],
+  "source_id": "geonames:2631142",
+  "source_name": "Grímsey",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Greenland Sea",
+  "ocean": "Arctic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#263b32",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#9c5e46",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Pine Shadow VI N",
+    "S": "Iron Clay VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "name_note": "Arctic Circle island north of Iceland, not the same-named islands in western Iceland.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 93,
+  "antimeridian_split_parts": 1,
+  "area_km2": 5.916102333636344,
+  "gshhg_area_km2": 5.916102333636344,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

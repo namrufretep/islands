@@ -1,0 +1,148 @@
+{
+  "id": "000229",
+  "letter": "Y",
+  "name": "Yasawa",
+  "slug": "yasawa",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Yasawa Islands",
+  "reference": [
+    177.50689,
+    -16.79358
+  ],
+  "source_id": "geonames:2194239",
+  "source_name": "Yasawa Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#d3c1cb",
+      "Quiet Malachite"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#1a2e3a",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Orchid Dust V N",
+    "S": "Deep Petrol V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 493,
+  "area_km2": 34.685151718240974,
+  "gshhg_area_km2": 34.685151718240974,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -130.56216430664062,
+  "max_land_elevation_m": 225.67039489746094,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2033/1120.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2033/1121.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2034/1120.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2034/1121.tif"
+  ],
+  "resolution_m": 38.58647463259581,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-16.79358 +lon_0=177.50689 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -6640.533445549617,
+    -5835.9400810850875,
+    10152.30031455608,
+    10862.08013446388
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.646618658148952,
+  "artwork_print_scale_denominator": 113936.44084427896,
+  "color_mood": "Quiet Malachite",
+  "background": "#d3c1cb",
+  "background_name": "Orchid Dust V N",
+  "color_family": "Green",
+  "palette": [
+    "#2c4b41",
+    "#568371",
+    "#94b6a0",
+    "#d0dfc7"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "011b58295fe3d85dd417b57c7377481082731c42d95c420e6b8f47b8eea6ed24",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

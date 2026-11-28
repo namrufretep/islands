@@ -1,0 +1,85 @@
+{
+  "id": "000216",
+  "letter": "L",
+  "name": "Langkawi",
+  "slug": "langkawi",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "MY",
+  "country": "Malaysia",
+  "region": "Langkawi Archipelago",
+  "reference": [
+    99.80242,
+    6.37241
+  ],
+  "source_id": "geonames:1222392",
+  "source_name": "Pulau Langkawi",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Andaman Sea",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#5d313f",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#dedce6",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Garnet Shadow V N",
+    "S": "Violet Chalk V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Blue"
+  },
+  "largest_settlement": "Kampung Baru Ulu Melaka",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 714,
+  "area_km2": 373.1998525846776,
+  "gshhg_area_km2": 373.1998525846776,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kampung Baru Ulu Melaka",
+    "country": "MY",
+    "lon": 99.78791,
+    "lat": 6.35196,
+    "population": 18898,
+    "source": "https://www.geonames.org/6804851"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

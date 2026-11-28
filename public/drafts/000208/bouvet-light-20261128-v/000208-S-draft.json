@@ -1,0 +1,160 @@
+{
+  "id": "000208",
+  "letter": "D",
+  "name": "Dinagat",
+  "slug": "dinagat",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Dinagat Islands",
+  "reference": [
+    125.59472,
+    10.22472
+  ],
+  "source_id": "geonames:1714793",
+  "source_name": "Dinagat Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Philippine Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#283352",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#a1aa92",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Night V N",
+    "S": "Sage Dust V S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Yellow"
+  },
+  "largest_settlement": "San Jose",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1779,
+  "area_km2": 787.6401627650575,
+  "gshhg_area_km2": 787.6401627650575,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "San Jose",
+    "country": "PH",
+    "lon": 125.56833,
+    "lat": 10.18,
+    "population": 26735,
+    "source": "https://www.geonames.org/1689549"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -40.13752365112305,
+  "max_land_elevation_m": 912.0572509765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/868/481.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/868/482.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/868/483.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/869/481.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/869/482.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/869/483.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/481.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/482.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/870/483.tif"
+  ],
+  "resolution_m": 156.94756675013812,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=10.22472 +lon_0=125.59472 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -13534.587171842757,
+    -40942.34030126151,
+    12235.215850190005,
+    27361.240748398595
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 39.23689168753453,
+  "artwork_print_scale_denominator": 463427.8545771795,
+  "color_mood": "Dune Gold",
+  "background": "#a1aa92",
+  "background_name": "Sage Dust V S",
+  "color_family": "Yellow",
+  "palette": [
+    "#685129",
+    "#a18645",
+    "#cdb675",
+    "#ecdfb3"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      9,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b48bd85bd97f688a0b0b81bdd410f1f4aeed7718d2e858ff555834729596d0e9",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

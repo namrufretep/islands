@@ -1,0 +1,86 @@
+{
+  "id": "000242",
+  "letter": "L",
+  "name": "La Palma",
+  "slug": "la-palma",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Canary Islands",
+  "reference": [
+    -17.85287,
+    28.69503
+  ],
+  "source_id": "geonames:2515680",
+  "source_name": "La Palma",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#b39a58",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#5a727b",
+      "Glacial Lapis"
+    ]
+  },
+  "background_names": {
+    "N": "Old Brass VI N",
+    "S": "Blue Slate VI S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Blue"
+  },
+  "largest_settlement": "Los Llanos de Aridane",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 731,
+  "antimeridian_split_parts": 1,
+  "area_km2": 715.3220815610476,
+  "gshhg_area_km2": 715.3220815610476,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Los Llanos de Aridane",
+    "country": "ES",
+    "lon": -17.91821,
+    "lat": 28.65851,
+    "population": 20171,
+    "source": "https://www.geonames.org/2514651"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

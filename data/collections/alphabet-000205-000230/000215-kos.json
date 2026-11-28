@@ -1,0 +1,85 @@
+{
+  "id": "000215",
+  "letter": "K",
+  "name": "Kos",
+  "slug": "kos",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.14665,
+    36.84452
+  ],
+  "source_id": "geonames:259244",
+  "source_name": "Nisí Kos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#baa778",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#1f2933",
+      "Fossil Ivory"
+    ]
+  },
+  "background_names": {
+    "N": "Old Sandstone V N",
+    "S": "Coal Tide V S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "White"
+  },
+  "largest_settlement": "Kos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 671,
+  "area_km2": 296.14020636941177,
+  "gshhg_area_km2": 296.14020636941177,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kos",
+    "country": "GR",
+    "lon": 27.28768,
+    "lat": 36.89295,
+    "population": 19244,
+    "source": "https://www.geonames.org/259245"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

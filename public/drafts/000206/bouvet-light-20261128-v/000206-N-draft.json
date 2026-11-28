@@ -1,0 +1,163 @@
+{
+  "id": "000206",
+  "letter": "B",
+  "name": "Bute",
+  "slug": "bute",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Firth of Clyde",
+  "reference": [
+    -5.1,
+    55.83333
+  ],
+  "source_id": "geonames:2654168",
+  "source_name": "Isle of Bute",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Firth of Clyde",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#1d2731",
+      "Volcanic Ash"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#ece7c8",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Coal Tide V N",
+    "S": "Ivory Light V S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Blue"
+  },
+  "largest_settlement": "Isle of Bute",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 350,
+  "area_km2": 127.63403032308827,
+  "gshhg_area_km2": 127.63403032308827,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Isle of Bute",
+    "country": "GB",
+    "lon": -5.05586,
+    "lat": 55.83663,
+    "population": 7228,
+    "source": "https://www.geonames.org/8299622"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -10.831311225891113,
+  "max_land_elevation_m": 271.9350280761719,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/638.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/639.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/993/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/638.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/639.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/994/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/638.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/639.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/995/640.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/996/638.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/996/639.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/996/640.tif"
+  ],
+  "resolution_m": 52.45619702228868,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=55.83333 +lon_0=-5.1 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7770.392244365761,
+    -12572.480843545156,
+    6222.7717845548905,
+    10256.456100554875
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 13.11404925557217,
+  "artwork_print_scale_denominator": 154890.34553825398,
+  "color_mood": "Volcanic Ash",
+  "background": "#1d2731",
+  "background_name": "Coal Tide V N",
+  "color_family": "Brown",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      6,
+      -6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "81ca4eea5062e92dce43b917b8e44a0499cbaf36e7f02de4743bd08a66a31d81",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

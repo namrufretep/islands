@@ -1,0 +1,80 @@
+{
+  "id": "000239",
+  "letter": "I",
+  "name": "Inishbofin",
+  "slug": "inishbofin",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "IE",
+  "country": "Ireland",
+  "region": "Connemara",
+  "reference": [
+    -10.20889,
+    53.62083
+  ],
+  "source_id": "geonames:2963663",
+  "source_name": "Inishbofin",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#18384a",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#3a2f25",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Marine VI N",
+    "S": "Brown Obsidian VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "name_note": "County Galway / Connemara island, not Inishbofin in County Donegal.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 112,
+  "antimeridian_split_parts": 1,
+  "area_km2": 10.368815131376518,
+  "gshhg_area_km2": 10.368815131376518,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

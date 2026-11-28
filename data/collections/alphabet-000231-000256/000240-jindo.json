@@ -1,0 +1,82 @@
+{
+  "id": "000240",
+  "letter": "J",
+  "name": "Jindo",
+  "slug": "jindo",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "KR",
+  "country": "South Korea",
+  "region": "South Jeolla",
+  "reference": [
+    126.25333,
+    34.4575
+  ],
+  "source_id": "geonames:1846091",
+  "source_name": "Jindo",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Yellow Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#4a2539",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#284c41",
+      "Quiet Malachite"
+    ]
+  },
+  "background_names": {
+    "N": "Black Cherry VI N",
+    "S": "Forest VI S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "source_aliases": [
+    "geonames:1846306"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1439,
+  "antimeridian_split_parts": 1,
+  "area_km2": 347.8509102374635,
+  "gshhg_area_km2": 347.8509102374635,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,158 @@
+{
+  "id": "000232",
+  "letter": "B",
+  "name": "Belle-Île",
+  "slug": "belle-ile",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "FR",
+  "country": "France",
+  "region": "Brittany",
+  "reference": [
+    -3.187,
+    47.33306
+  ],
+  "source_id": "geonames:3033682",
+  "source_name": "Belle-Île",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bay of Biscay",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#142f32",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#592e42",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Petrol VI N",
+    "S": "Mulberry VI S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Orange"
+  },
+  "largest_settlement": "Le Palais",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 536,
+  "area_km2": 86.57980000480138,
+  "gshhg_area_km2": 86.57980000480138,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Le Palais",
+    "country": "FR",
+    "lon": -3.15583,
+    "lat": 47.3463,
+    "population": 2645,
+    "source": "https://www.geonames.org/3003045"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -76.7693862915039,
+  "max_land_elevation_m": 69.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1005/716.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1005/717.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1005/718.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/716.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/717.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1006/718.tif"
+  ],
+  "resolution_m": 35.90728786181172,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=47.33306 +lon_0=-3.187 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5803.0256707714725,
+    -5941.517233533182,
+    9823.826006688985,
+    6100.656661639835
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.97682196545293,
+  "artwork_print_scale_denominator": 106025.45628487712,
+  "color_mood": "Warm Travertine",
+  "background": "#142f32",
+  "background_name": "Deep Petrol VI N",
+  "color_family": "Brown",
+  "palette": [
+    "#574335",
+    "#987754",
+    "#c9aa7d",
+    "#ead8b6"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -4,
+      4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ad6f2437914b393db6d7e2f6412e7d6aed503c7cd64a8d4e41ee4b41567c9c8f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

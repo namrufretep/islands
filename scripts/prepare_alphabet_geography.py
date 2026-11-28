@@ -8,6 +8,7 @@ from pathlib import Path
 import geopandas as gpd
 from shapely.geometry import Point,mapping,Polygon
 from shapely.ops import unary_union
+from shapely.affinity import translate
 from pyproj import Geod
 
 p=argparse.ArgumentParser();p.add_argument('--source-dir',type=Path,required=True);p.add_argument('--cities',type=Path,required=True);p.add_argument('--source',type=Path,default=Path('data/collections/alphabet-000101-000126'));a=p.parse_args()
@@ -27,15 +28,31 @@ for c in configs:
  candidates=[g for g in frame.geometry if g.is_valid and g.covers(ref)]
  if len(candidates)!=1:raise RuntimeError(c['name']+': expected exactly one physical island at reference, found '+str(len(candidates)))
  chosen=candidates[0]
+ # GSHHG clips islands at the antimeridian into separate physical polygons.
+ # Join only the touching opposite-edge part in unwrapped longitude space,
+ # then retain both canonical-longitude pieces for source GeoJSON.
+ parts=[chosen]
+ if chosen.bounds[0]<=-179.999999 or chosen.bounds[2]>=179.999999:
+  negative=chosen.bounds[0]<=-179.999999
+  edge=(179.95,chosen.bounds[1],180,chosen.bounds[3]) if negative else (-180,chosen.bounds[1],-179.95,chosen.bounds[3])
+  adjacent=gpd.read_file(a.source_dir/'GSHHS_shp/f/GSHHS_f_L1.shp',bbox=edge)
+  unwrapped=translate(chosen,xoff=360) if negative else chosen
+  for other in adjacent.geometry:
+   moved=other if negative else translate(other,xoff=360)
+   if other.is_valid and unwrapped.intersects(moved):parts.append(other)
+  chosen=unary_union(parts)
  if chosen.area>30:raise RuntimeError('Unexpected continent-sized outline: '+c['name'])
  waters=[]
- for g in gpd.read_file(a.source_dir/'GSHHS_shp/f/GSHHS_f_L2.shp',bbox=chosen.bounds).geometry:
-  if g.is_valid and chosen.covers(g.representative_point()):waters.append(g.intersection(chosen))
+ for part in parts:
+  for g in gpd.read_file(a.source_dir/'GSHHS_shp/f/GSHHS_f_L2.shp',bbox=part.bounds).geometry:
+   if g.is_valid and part.covers(g.representative_point()):waters.append(g.intersection(part))
  water=unary_union(waters)
  settlements=[s for s in cities if s['country']==c['country_code'] and chosen.covers(Point(s['lon'],s['lat']))]
  settlement=max(settlements,key=lambda s:s['population']) if settlements else None
  if settlement:c['largest_settlement']=settlement['name']
- meta={**c,'coastline_source':'https://www.soest.hawaii.edu/wessel/gshhg/','coastline_feature_type':'GSHHG 2.3.7 full-resolution L1','coastline_points':len(chosen.exterior.coords),'area_km2':area(chosen),'gshhg_area_km2':area(chosen),'gshhg_overlap_fraction':1.0,'water_sources':['GSHHG 2.3.7 full-resolution L2'] if waters else [],'water_count':len(waters),'reference_checked':True,'political_boundaries':False,'largest_settlement_evidence':settlement,'settlement_note':'Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.'}
+ meta={**c,'coastline_source':'https://www.soest.hawaii.edu/wessel/gshhg/','coastline_feature_type':'GSHHG 2.3.7 full-resolution L1','coastline_points':sum(len(g.exterior.coords) for g in parts),'antimeridian_split_parts':len(parts),'area_km2':area(chosen),'gshhg_area_km2':area(chosen),'gshhg_overlap_fraction':1.0,'water_sources':['GSHHG 2.3.7 full-resolution L2'] if waters else [],'water_count':len(waters),'reference_checked':True,'political_boundaries':False,'largest_settlement_evidence':settlement,'settlement_note':'Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.'}
+ if c.get('reported_area_km2') and c.get('area_source'):
+  meta['area_km2']=c['reported_area_km2']
  prefix=c['id']+'-'+c['slug']
  for suffix,g in [('coastline',chosen),('water',water)]:
   (out/(prefix+'-'+suffix+'.geojson')).write_text(json.dumps(mapping(g),separators=(',',':'))+'\n')

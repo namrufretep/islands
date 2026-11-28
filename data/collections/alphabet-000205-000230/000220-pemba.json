@@ -1,0 +1,85 @@
+{
+  "id": "000220",
+  "letter": "P",
+  "name": "Pemba",
+  "slug": "pemba",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "TZ",
+  "country": "Tanzania",
+  "region": "Zanzibar Archipelago",
+  "reference": [
+    39.8,
+    -5.16667
+  ],
+  "source_id": "geonames:150737",
+  "source_name": "Pemba Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#182c38",
+      "Basalt Mist"
+    ],
+    "S": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#a5b1b5",
+      "Blue Grey Marble"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Petrol V N",
+    "S": "Silver Fog V S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Blue"
+  },
+  "largest_settlement": "Wete",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2219,
+  "area_km2": 983.7609002174894,
+  "gshhg_area_km2": 983.7609002174894,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Wete",
+    "country": "TZ",
+    "lon": 39.72938,
+    "lat": -5.05589,
+    "population": 35951,
+    "source": "https://www.geonames.org/148842"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

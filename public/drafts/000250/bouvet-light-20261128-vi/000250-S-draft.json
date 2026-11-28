@@ -1,0 +1,157 @@
+{
+  "id": "000250",
+  "letter": "T",
+  "name": "Taveuni",
+  "slug": "taveuni",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Northern Division",
+  "reference": [
+    -179.95005,
+    -16.83842
+  ],
+  "source_id": "geonames:4035893",
+  "source_name": "Taveuni",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#975244",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#294038",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Iron Clay VI N",
+    "S": "Pine Shadow VI S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 678,
+  "antimeridian_split_parts": 2,
+  "area_km2": 434,
+  "gshhg_area_km2": 483.4935209046048,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1866.3892822265625,
+  "max_land_elevation_m": 185.66766357421875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2047/1120.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2047/1121.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2047/1122.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/0/1120.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/0/1121.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/0/1122.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1/1120.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1/1121.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1/1122.tif"
+  ],
+  "resolution_m": 82.6553100534606,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-16.83842 +lon_0=-179.95005 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -16729.061179939363,
+    -19133.867470859852,
+    15951.500871208662,
+    16837.723464406205
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.66382751336515,
+  "artwork_print_scale_denominator": 244060.95488226556,
+  "color_mood": "Fjord Slate",
+  "background": "#294038",
+  "background_name": "Pine Shadow VI S",
+  "color_family": "Blue",
+  "palette": [
+    "#263e4b",
+    "#517182",
+    "#91adb9",
+    "#d6e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "73524935134e1c4924bbc68d3d0d0df50fceaea78b178ec8d7221d1cb81ddfef",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "reported_area_km2": 434,
+  "area_source": "https://mcttt.gov.fj/wp-content/uploads/2023/10/TDPVL_SESA_TOR_Oct19.pdf",
+  "area_note": "434 km² reported by Fiji Ministry of Tourism and Civil Aviation, SESA Terms of Reference, 2023, p. 2. GSHHG polygon area is retained separately and differs from the published land area. Both physical dateline-split coastline pieces are included."
+}

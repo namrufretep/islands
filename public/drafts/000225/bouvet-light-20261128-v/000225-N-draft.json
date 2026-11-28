@@ -1,0 +1,146 @@
+{
+  "id": "000225",
+  "letter": "U",
+  "name": "Utila",
+  "slug": "utila",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "HN",
+  "country": "Honduras",
+  "region": "Bay Islands",
+  "reference": [
+    -86.93333,
+    16.1
+  ],
+  "source_id": "geonames:3600482",
+  "source_name": "Isla de Utila",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Caribbean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#9fa890",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#5f3341",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Sage Dust V N",
+    "S": "Garnet Shadow V S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 285,
+  "area_km2": 48.568417155371854,
+  "gshhg_area_km2": 48.568417155371854,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -20.768033981323242,
+  "max_land_elevation_m": 85.79823303222656,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/529/930.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/529/931.tif"
+  ],
+  "resolution_m": 29.2726255973277,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=16.1 +lon_0=-86.93333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7114.914617782053,
+    -2584.616499996538,
+    5624.532042174963,
+    3962.7064003140995
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.318156399331925,
+  "artwork_print_scale_denominator": 86434.91810234559,
+  "color_mood": "Smoked Pearl",
+  "background": "#9fa890",
+  "background_name": "Sage Dust V N",
+  "color_family": "Neutral",
+  "palette": [
+    "#55464e",
+    "#8c7b82",
+    "#bcadb1",
+    "#e6dbd8"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "1226144623dab0607fcd090f9e095f154dd84482fde7ba609228bff4947d329b",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

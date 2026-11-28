@@ -1,0 +1,163 @@
+{
+  "id": "000230",
+  "letter": "Z",
+  "name": "Zhoushan",
+  "slug": "zhoushan",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Zhoushan Archipelago",
+  "reference": [
+    122.13806,
+    30.05778
+  ],
+  "source_id": "geonames:1784108",
+  "source_name": "Zhoushan Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#493645",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#2b4340",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Smoked Plum V N",
+    "S": "Deep Moss V S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Zhoushan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 949,
+  "area_km2": 480.93542490616016,
+  "gshhg_area_km2": 480.93542490616016,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zhoushan",
+    "country": "CN",
+    "lon": 122.20488,
+    "lat": 29.98869,
+    "population": 882932,
+    "source": "https://www.geonames.org/1886762"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -48.65622329711914,
+  "max_land_elevation_m": 473.1302185058594,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1717/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1717/844.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1717/845.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1718/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1718/844.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1718/845.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1719/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1719/844.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1719/845.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1720/843.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1720/844.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1720/845.tif"
+  ],
+  "resolution_m": 90.63383293170851,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=30.05778 +lon_0=122.13806 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -19759.674651583613,
+    -12819.802868877667,
+    19684.169440295933,
+    14432.001255508667
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 22.658458232927128,
+  "artwork_print_scale_denominator": 267619.58542827313,
+  "color_mood": "Glacial Turquoise",
+  "background": "#493645",
+  "background_name": "Smoked Plum V N",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      6,
+      -6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "c9df3ed9aaeb751d45c66e99e012fa835a41ae4aef8cc2263efceddb8ceb5007",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

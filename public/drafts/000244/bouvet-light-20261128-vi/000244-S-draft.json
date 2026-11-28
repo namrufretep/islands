@@ -1,0 +1,156 @@
+{
+  "id": "000244",
+  "letter": "N",
+  "name": "Nusa Penida",
+  "slug": "nusa-penida",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    115.5378,
+    -8.7346
+  ],
+  "source_id": "geonames:1631470",
+  "source_name": "Nusa Penida",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#e8e6d9",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#121d2f",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Mist VI N",
+    "S": "Deep Ink VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Toyapakeh",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 378,
+  "area_km2": 198.21938228197197,
+  "gshhg_area_km2": 198.21938228197197,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Toyapakeh",
+    "country": "ID",
+    "lon": 115.488,
+    "lat": -8.682,
+    "population": 0,
+    "source": "https://www.geonames.org/1623273"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1511.2373046875,
+  "max_land_elevation_m": 522.539306640625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1680/1073.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1680/1074.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1681/1073.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1681/1074.tif"
+  ],
+  "resolution_m": 45.93128613137196,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-8.7346 +lon_0=115.5378 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -10162.627771932575,
+    -9313.556368798047,
+    9826.667952440504,
+    6914.3185440183415
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.48282153284299,
+  "artwork_print_scale_denominator": 135623.87637216132,
+  "color_mood": "Basalt Mist",
+  "background": "#121d2f",
+  "background_name": "Deep Ink VI S",
+  "color_family": "Neutral",
+  "palette": [
+    "#414340",
+    "#7c8078",
+    "#b4b9ac",
+    "#e2e6d8"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "left",
+    "azimuth_degrees": 270,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -1.0,
+      1.8369701987210297e-16
+    ],
+    "shadow_offset_px": [
+      9,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a78d5590537a9cdcb25e88566af9458d6db98613ccd7bd008024e87158d5b9bc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

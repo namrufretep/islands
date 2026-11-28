@@ -1,0 +1,85 @@
+{
+  "id": "000223",
+  "letter": "S",
+  "name": "Savai‘i",
+  "slug": "savaii",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "WS",
+  "country": "Samoa",
+  "region": "Samoan Islands",
+  "reference": [
+    -172.44128,
+    -13.61019
+  ],
+  "source_id": "geonames:4035036",
+  "source_name": "Savai’i",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#eae5c5",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#665d50",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Light V N",
+    "S": "Soft Umber V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Orange"
+  },
+  "largest_settlement": "Palauli",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1158,
+  "area_km2": 1723.1127446490025,
+  "gshhg_area_km2": 1723.1127446490025,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Palauli",
+    "country": "WS",
+    "lon": -172.29858,
+    "lat": -13.75859,
+    "population": 9300,
+    "source": "https://www.geonames.org/4035153"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "000245",
+  "letter": "O",
+  "name": "Ons",
+  "slug": "ons",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Galicia",
+  "reference": [
+    -8.93558,
+    42.38052
+  ],
+  "source_id": "geonames:3115045",
+  "source_name": "Illa de Ons",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#542b43",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#163137",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Mulberry VI N",
+    "S": "Deep Petrol VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 86,
+  "antimeridian_split_parts": 1,
+  "area_km2": 4.864048220449734,
+  "gshhg_area_km2": 4.864048220449734,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

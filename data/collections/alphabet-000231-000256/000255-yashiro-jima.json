@@ -1,0 +1,86 @@
+{
+  "id": "000255",
+  "letter": "Y",
+  "name": "Yashiro-jima",
+  "slug": "yashiro-jima",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Seto Inland Sea",
+  "reference": [
+    132.25,
+    33.91667
+  ],
+  "source_id": "geonames:1848494",
+  "source_name": "Yashiro-jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Seto Inland Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#577177",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#b5a75d",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Slate VI N",
+    "S": "Old Brass VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": "Ōshima",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 722,
+  "antimeridian_split_parts": 1,
+  "area_km2": 138.33715997270198,
+  "gshhg_area_km2": 138.33715997270198,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ōshima",
+    "country": "JP",
+    "lon": 132.19085,
+    "lat": 33.93975,
+    "population": 14798,
+    "source": "https://www.geonames.org/1896509"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

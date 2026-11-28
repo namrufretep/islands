@@ -16,7 +16,7 @@ test('staking tiers use the direct price, including exact threshold boundaries',
 });
 test('released-plan candidate hashes match every actual metadata file and artwork',()=>{
  const plan=JSON.parse(readFileSync(new URL('../public/launch/release-plan.json',import.meta.url)));
- assert.equal(plan.status,'preparation_only');assert.equal(plan.collection_address,null);assert.equal(plan.target_islands,500);assert.equal(plan.prepared_editions,408);
+ assert.equal(plan.status,'preparation_only');assert.equal(plan.collection_address,null);assert.equal(plan.target_islands,500);assert.equal(plan.prepared_editions,512);
  for(const e of plan.editions){
   assert.equal(e.release_status,'not_released');assert.equal(e.token_id,canonicalTokenId(e.artwork_id));
   const metadata=readFileSync(new URL('../public'+new URL(e.metadata_uri).pathname,import.meta.url));

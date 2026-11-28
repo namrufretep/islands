@@ -1,0 +1,85 @@
+{
+  "id": "000218",
+  "letter": "N",
+  "name": "Nuku Hiva",
+  "slug": "nuku-hiva",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PF",
+  "country": "French Polynesia",
+  "region": "Marquesas Islands",
+  "reference": [
+    -140.13221,
+    -8.86215
+  ],
+  "source_id": "geonames:4031013",
+  "source_name": "Nuku Hiva Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#a07765",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#d4e0d1",
+      "Quiet Malachite"
+    ]
+  },
+  "background_names": {
+    "N": "Mineral Rose V N",
+    "S": "Pale Lichen V S"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "Green"
+  },
+  "largest_settlement": "Taiohae",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 826,
+  "area_km2": 360.8098331472473,
+  "gshhg_area_km2": 360.8098331472473,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Taiohae",
+    "country": "PF",
+    "lon": -140.09972,
+    "lat": -8.91093,
+    "population": 1224,
+    "source": "https://www.geonames.org/8063344"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

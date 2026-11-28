@@ -1,0 +1,146 @@
+{
+  "id": "000228",
+  "letter": "X",
+  "name": "Xiaodeng Dao",
+  "slug": "xiaodeng-dao",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Fujian Islands",
+  "reference": [
+    118.38297,
+    24.55905
+  ],
+  "source_id": "geonames:1790283",
+  "source_name": "Xiaodeng Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Taiwan Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#dbd696",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#3a3641",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Faded Ochre V N",
+    "S": "Graphite Violet V S"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 45,
+  "area_km2": 1.3262594713281506,
+  "gshhg_area_km2": 1.3262594713281506,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -5.508941650390625,
+  "max_land_elevation_m": 31.784549713134766,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3394/1759.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3395/1759.tif"
+  ],
+  "resolution_m": 5.043761810910213,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=24.55905 +lon_0=118.38297 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1274.5729267147674,
+    -685.4982269649012,
+    920.4722133933569,
+    520.6027492898959
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.2609404527275532,
+  "artwork_print_scale_denominator": 14892.997473160078,
+  "color_mood": "Olive Calcite",
+  "background": "#3a3641",
+  "background_name": "Graphite Violet V S",
+  "color_family": "Green",
+  "palette": [
+    "#3e442e",
+    "#79805a",
+    "#b1b58d",
+    "#dfe0bd"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_right",
+    "azimuth_degrees": 135,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865476,
+      0.7071067811865475
+    ],
+    "shadow_offset_px": [
+      -6,
+      -6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a6085ae636a6023c5d9b8e8c00073bcfff2ad8ccc3b69fc8e4bc4c1744be58fc",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

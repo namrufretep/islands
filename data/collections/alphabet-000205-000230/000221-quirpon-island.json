@@ -1,0 +1,78 @@
+{
+  "id": "000221",
+  "letter": "Q",
+  "name": "Quirpon Island",
+  "slug": "quirpon-island",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Newfoundland and Labrador",
+  "reference": [
+    -55.43124,
+    51.61678
+  ],
+  "source_id": "geonames:6115379",
+  "source_name": "Quirpon Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Strait of Belle Isle",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#29413e",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#c9a376",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Moss V N",
+    "S": "Clay Sand V S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 117,
+  "area_km2": 10.852231096222832,
+  "gshhg_area_km2": 10.852231096222832,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,167 @@
+{
+  "id": "000215",
+  "letter": "K",
+  "name": "Kos",
+  "slug": "kos",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "reference": [
+    27.14665,
+    36.84452
+  ],
+  "source_id": "geonames:259244",
+  "source_name": "Nisí Kos",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#31445d",
+        "#667e9e",
+        "#a2b6cb",
+        "#d9e1e5"
+      ],
+      "#baa778",
+      "Blue Grey Marble"
+    ],
+    "S": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#1f2933",
+      "Fossil Ivory"
+    ]
+  },
+  "background_names": {
+    "N": "Old Sandstone V N",
+    "S": "Coal Tide V S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "White"
+  },
+  "largest_settlement": "Kos",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 671,
+  "area_km2": 296.14020636941177,
+  "gshhg_area_km2": 296.14020636941177,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Kos",
+    "country": "GR",
+    "lon": 27.28768,
+    "lat": 36.89295,
+    "population": 19244,
+    "source": "https://www.geonames.org/259245"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -313.21575927734375,
+  "max_land_elevation_m": 824.0416870117188,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1176/800.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1177/800.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1178/800.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/797.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/798.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/799.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1179/800.tif"
+  ],
+  "resolution_m": 90.24294779281439,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=36.84452 +lon_0=27.14665 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -20436.381603697882,
+    -19401.992485042752,
+    18837.349275734938,
+    8153.865992517574
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 22.560736948203598,
+  "artwork_print_scale_denominator": 266465.39702602674,
+  "color_mood": "Blue Grey Marble",
+  "background": "#baa778",
+  "background_name": "Old Sandstone V N",
+  "color_family": "Blue",
+  "palette": [
+    "#31445d",
+    "#667e9e",
+    "#a2b6cb",
+    "#d9e1e5"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b5bc2b5c14160c73b12da5e63986fb6c493c997731c66e108006368c418ca72e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

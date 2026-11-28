@@ -1,0 +1,78 @@
+{
+  "id": "000209",
+  "letter": "E",
+  "name": "Erromango",
+  "slug": "erromango",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "VU",
+  "country": "Vanuatu",
+  "region": "Vanuatu",
+  "reference": [
+    169.08333,
+    -18.8
+  ],
+  "source_id": "geonames:2137075",
+  "source_name": "Erromango Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Coral Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d2decf",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#464438",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Lichen V N",
+    "S": "Dark Bronze V S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 806,
+  "area_km2": 894.3886806259305,
+  "gshhg_area_km2": 894.3886806259305,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

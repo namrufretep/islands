@@ -1,0 +1,85 @@
+{
+  "id": "000226",
+  "letter": "V",
+  "name": "Ventotene",
+  "slug": "ventotene",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Pontine Islands",
+  "reference": [
+    13.42443,
+    40.7926
+  ],
+  "source_id": "geonames:3164576",
+  "source_name": "Isola Ventotene",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#444236",
+      "Fossil Ivory"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#ddd0b6",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Dark Bronze V N",
+    "S": "Travertine Sand V S"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Brown"
+  },
+  "largest_settlement": "Ventotene",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 56,
+  "area_km2": 1.8438815518136136,
+  "gshhg_area_km2": 1.8438815518136136,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ventotene",
+    "country": "IT",
+    "lon": 13.42777,
+    "lat": 40.79404,
+    "population": 530,
+    "source": "https://www.geonames.org/3164577"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

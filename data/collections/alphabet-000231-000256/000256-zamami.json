@@ -1,0 +1,86 @@
+{
+  "id": "000256",
+  "letter": "Z",
+  "name": "Zamami",
+  "slug": "zamami",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Kerama Islands",
+  "reference": [
+    127.30572,
+    26.23646
+  ],
+  "source_id": "geonames:1848001",
+  "source_name": "Zamami Jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#e1c5c5",
+      "Smoked Pearl"
+    ],
+    "S": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#ba8550",
+      "Quiet Malachite"
+    ]
+  },
+  "background_names": {
+    "N": "Rose Dust VI N",
+    "S": "Terracotta VI S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Green"
+  },
+  "largest_settlement": "Zamami",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 145,
+  "antimeridian_split_parts": 1,
+  "area_km2": 7.876450699556129,
+  "gshhg_area_km2": 7.876450699556129,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zamami",
+    "country": "JP",
+    "lon": 127.30329,
+    "lat": 26.22858,
+    "population": 924,
+    "source": "https://www.geonames.org/1863806"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "000205",
+  "letter": "A",
+  "name": "Ambon",
+  "slug": "ambon",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Maluku Islands",
+  "reference": [
+    128.1675,
+    -3.6175
+  ],
+  "source_id": "geonames:1651529",
+  "source_name": "Pulau Ambon",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Banda Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#ced9dc",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#263040",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Glacial Mist V N",
+    "S": "Midnight Slate V S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Green"
+  },
+  "largest_settlement": "Ambon",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1149,
+  "area_km2": 786.7413127474532,
+  "gshhg_area_km2": 786.7413127474532,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ambon",
+    "country": "ID",
+    "lon": 128.18333,
+    "lat": -3.69583,
+    "population": 347288,
+    "source": "https://www.geonames.org/1651531"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

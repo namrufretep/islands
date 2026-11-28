@@ -1,0 +1,86 @@
+{
+  "id": "000248",
+  "letter": "R",
+  "name": "Rab",
+  "slug": "rab",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "HR",
+  "country": "Croatia",
+  "region": "Kvarner Islands",
+  "reference": [
+    14.77417,
+    44.76944
+  ],
+  "source_id": "geonames:3192177",
+  "source_name": "Otok Rab",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Adriatic Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#d4d0e1",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#d9c79c",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Lavender Chalk VI N",
+    "S": "Warm Sand VI S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Orange"
+  },
+  "largest_settlement": "Banjol",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 699,
+  "antimeridian_split_parts": 1,
+  "area_km2": 90.76021939108817,
+  "gshhg_area_km2": 90.76021939108817,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Banjol",
+    "country": "HR",
+    "lon": 14.77378,
+    "lat": 44.75372,
+    "population": 1708,
+    "source": "https://www.geonames.org/3204530"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

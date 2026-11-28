@@ -1,0 +1,167 @@
+{
+  "id": "000212",
+  "letter": "H",
+  "name": "Hitra",
+  "slug": "hitra",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Trøndelag",
+  "reference": [
+    8.75618,
+    63.54391
+  ],
+  "source_id": "geonames:3152625",
+  "source_name": "Hitra",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#c7a174",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#d5c3cd",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Sand V N",
+    "S": "Orchid Dust V S"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Fillan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1695,
+  "area_km2": 638.7382183029291,
+  "gshhg_area_km2": 638.7382183029291,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fillan",
+    "country": "NO",
+    "lon": 8.96961,
+    "lat": 63.60638,
+    "population": 510,
+    "source": "https://www.geonames.org/3157656"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -0.45591771602630615,
+  "max_land_elevation_m": 332.6824645996094,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/274.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/275.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/535/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/274.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/275.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/536/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/274.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/275.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/537/277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/538/274.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/538/275.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/538/276.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/538/277.tif"
+  ],
+  "resolution_m": 110.16025687023394,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=63.54391 +lon_0=8.75618 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -25926.9623328125,
+    -13267.347279723625,
+    22014.781457113306,
+    13638.56902843183
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 27.540064217558484,
+  "artwork_print_scale_denominator": 325276.3490262813,
+  "color_mood": "Lilac Schist",
+  "background": "#c7a174",
+  "background_name": "Clay Sand V N",
+  "color_family": "Purple",
+  "palette": [
+    "#413344",
+    "#795f7f",
+    "#b09cba",
+    "#e2d5e4"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      8,
+      8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "573dd161b7ddf9f47269d4efac9d426cb326eba6978dc21a23eef33e3660ff6e",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

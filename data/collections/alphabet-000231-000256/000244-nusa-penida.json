@@ -1,0 +1,86 @@
+{
+  "id": "000244",
+  "letter": "N",
+  "name": "Nusa Penida",
+  "slug": "nusa-penida",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Lesser Sunda Islands",
+  "reference": [
+    115.5378,
+    -8.7346
+  ],
+  "source_id": "geonames:1631470",
+  "source_name": "Nusa Penida",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Indian Ocean",
+  "ocean": "Indian Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#e8e6d9",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#121d2f",
+      "Basalt Mist"
+    ]
+  },
+  "background_names": {
+    "N": "Ivory Mist VI N",
+    "S": "Deep Ink VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Toyapakeh",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 378,
+  "antimeridian_split_parts": 1,
+  "area_km2": 198.21938228197197,
+  "gshhg_area_km2": 198.21938228197197,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Toyapakeh",
+    "country": "ID",
+    "lon": 115.488,
+    "lat": -8.682,
+    "population": 0,
+    "source": "https://www.geonames.org/1623273"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

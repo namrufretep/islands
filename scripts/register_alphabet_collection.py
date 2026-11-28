@@ -21,7 +21,7 @@ for c in configs:
  v['draftTraits'][name]=[c['region'],c['island_type'],c['water_type'],c['ocean'],c['water_body'],c['color_families']['N'],c['color_families']['S'],c['background_names']['N'],c['background_names']['S'],c['largest_settlement']]
  for alias in [c['source_id'],*c.get('source_aliases',[])]:
   if alias not in v['curatedGeoNamesIds']:v['curatedGeoNamesIds'].append(alias)
- review['curated'][name]=dict(areaKm2=c['area_km2'],areaSource='GSHHG 2.3.7 physical shoreline; geodesic polygon area; approximate')
+ review['curated'][name]=dict(areaKm2=c['area_km2'],areaSource=c.get('area_source','GSHHG 2.3.7 physical shoreline; geodesic polygon area; approximate'))
  for alias in [c['source_id'],*c.get('source_aliases',[])]:
   if alias not in review['curatedAliases']:review['curatedAliases'].append(alias)
 for key,value in v.items():source=re.sub('const '+key+'=.*?;',lambda m:'const '+key+'='+json.dumps(value,ensure_ascii=False,separators=(',',':'))+';',source,count=1)

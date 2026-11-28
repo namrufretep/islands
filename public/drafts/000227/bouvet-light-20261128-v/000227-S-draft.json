@@ -1,0 +1,153 @@
+{
+  "id": "000227",
+  "letter": "W",
+  "name": "Wetar",
+  "slug": "wetar",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Maluku Islands",
+  "reference": [
+    126.3,
+    -7.8
+  ],
+  "source_id": "geonames:1621595",
+  "source_name": "Pulau Wetar",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Banda Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#2a4859",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#a27967",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Nordic Teal V N",
+    "S": "Mineral Rose V S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1823,
+  "area_km2": 2635.422402044783,
+  "gshhg_area_km2": 2635.422402044783,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -415.781494140625,
+  "max_land_elevation_m": 1350.8262939453125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/434/266.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/434/267.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/434/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/435/266.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/435/267.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/435/268.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/436/266.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/436/267.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/9/436/268.tif"
+  ],
+  "resolution_m": 269.4419976171058,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-7.8 +lon_0=126.3 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -57095.59137561998,
+    -24509.46029583214,
+    60165.56598734446,
+    26572.226403238816
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 67.36049940427645,
+  "artwork_print_scale_denominator": 795596.4496568085,
+  "color_mood": "Volcanic Ash",
+  "background": "#a27967",
+  "background_name": "Mineral Rose V S",
+  "color_family": "Brown",
+  "palette": [
+    "#493c39",
+    "#786052",
+    "#a48166",
+    "#d9be9b"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f76953f12d5fcfb07a17a6795aa2a9468aec094cc3ce30bccd7d27c1e86cfafa",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

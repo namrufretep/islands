@@ -1,0 +1,151 @@
+{
+  "id": "000247",
+  "letter": "Q",
+  "name": "Qamea",
+  "slug": "qamea",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "FJ",
+  "country": "Fiji",
+  "region": "Northern Division",
+  "reference": [
+    -179.75762,
+    -16.77038
+  ],
+  "source_id": "geonames:4035971",
+  "source_name": "Qamea",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#253740",
+      "Basalt Mist"
+    ],
+    "S": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#ece7d7",
+      "Glacial Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Storm Night VI N",
+    "S": "Pale Limestone VI S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Turquoise"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 290,
+  "area_km2": 37.6312477619385,
+  "gshhg_area_km2": 37.6312477619385,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -422.2824401855469,
+  "max_land_elevation_m": 97.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2/2240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2/2241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2/2242.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3/2240.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3/2241.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/3/2242.tif"
+  ],
+  "resolution_m": 23.689498822824742,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-16.77038 +lon_0=-179.75762 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2261.364846545186,
+    -4064.909420324019,
+    8048.305041148142,
+    3405.0469484541745
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.9223747057061855,
+  "artwork_print_scale_denominator": 69949.30754771085,
+  "color_mood": "Glacial Turquoise",
+  "background": "#ece7d7",
+  "background_name": "Pale Limestone VI S",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      9,
+      9
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "a9d74d5881e874220218208b3d92ddf0b6047873ec2a10688c9365713d77d25f",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

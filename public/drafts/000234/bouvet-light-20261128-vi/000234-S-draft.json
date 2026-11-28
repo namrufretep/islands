@@ -1,0 +1,157 @@
+{
+  "id": "000234",
+  "letter": "D",
+  "name": "D’Urville Island",
+  "slug": "durville-island",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "NZ",
+  "country": "New Zealand",
+  "region": "Marlborough Sounds",
+  "reference": [
+    173.86667,
+    -40.83333
+  ],
+  "source_id": "geonames:2191538",
+  "source_name": "D'Urville Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Cook Strait",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#e9e1d2",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#283845",
+      "Fjord Slate"
+    ]
+  },
+  "background_names": {
+    "N": "Pale Limestone VI N",
+    "S": "Storm Night VI S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Blue"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "source_aliases": [
+    "geonames:6248556"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1283,
+  "area_km2": 176.23849092199524,
+  "gshhg_area_km2": 176.23849092199524,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -215.36448669433594,
+  "max_land_elevation_m": 715.4313354492188,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2012/1277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2012/1278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2012/1279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2013/1277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2013/1278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2013/1279.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2014/1277.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2014/1278.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/2014/1279.tif"
+  ],
+  "resolution_m": 65.0768866391129,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-40.83333 +lon_0=173.86667 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -8034.849270148061,
+    -12547.193153853737,
+    8764.9949996226,
+    15774.267911488196
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.269221659778225,
+  "artwork_print_scale_denominator": 192156.1613359633,
+  "color_mood": "Fjord Slate",
+  "background": "#283845",
+  "background_name": "Storm Night VI S",
+  "color_family": "Blue",
+  "palette": [
+    "#263e4b",
+    "#517182",
+    "#91adb9",
+    "#d6e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "77cdb47ecaffe2f7e2320acfd894bdd26947ffd6b6a04c8568ca8bac087e7a55",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

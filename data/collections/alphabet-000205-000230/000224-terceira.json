@@ -1,0 +1,85 @@
+{
+  "id": "000224",
+  "letter": "T",
+  "name": "Terceira",
+  "slug": "terceira",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores",
+  "reference": [
+    -27.21849,
+    38.72805
+  ],
+  "source_id": "geonames:3372530",
+  "source_name": "Terceira Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#334d4f",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#bca97a",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Forest Shadow V N",
+    "S": "Old Sandstone V S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Angra do Heroísmo",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 597,
+  "area_km2": 409.90215469997673,
+  "gshhg_area_km2": 409.90215469997673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Angra do Heroísmo",
+    "country": "PT",
+    "lon": -27.21839,
+    "lat": 38.6539,
+    "population": 12045,
+    "source": "https://www.geonames.org/3373348"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

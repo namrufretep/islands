@@ -1,0 +1,168 @@
+{
+  "id": "000231",
+  "letter": "A",
+  "name": "Andros",
+  "slug": "andros",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    24.87029,
+    37.84391
+  ],
+  "source_id": "geonames:265039",
+  "source_name": "Nisí Ándros",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#101c29",
+      "Basalt Mist"
+    ],
+    "S": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#ebebde",
+      "Glacial Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Ink VI N",
+    "S": "Ivory Mist VI S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Andros",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 959,
+  "area_km2": 389.65761452580057,
+  "gshhg_area_km2": 389.65761452580057,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Andros",
+    "country": "GR",
+    "lon": 24.9367,
+    "lat": 37.8367,
+    "population": 3918,
+    "source": "https://www.geonames.org/265040"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -21.84386444091797,
+  "max_land_elevation_m": 985.6420288085938,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/789.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1163/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/789.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1164/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/789.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1165/792.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1166/789.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1166/790.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1166/791.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1166/792.tif"
+  ],
+  "resolution_m": 80.7622625266268,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=37.84391 +lon_0=24.87029 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -16695.685686050372,
+    -17957.710430869494,
+    11428.682625790274,
+    17190.026220718493
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.1905656316567,
+  "artwork_print_scale_denominator": 238471.24761799254,
+  "color_mood": "Glacial Turquoise",
+  "background": "#ebebde",
+  "background_name": "Ivory Mist VI S",
+  "color_family": "Turquoise",
+  "palette": [
+    "#205e68",
+    "#438e94",
+    "#78bfc0",
+    "#c1e1df"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      9,
+      9
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b618372168fc70c9493e9bb2c1e4132318148be2df7db087d7f5ad91f257d843",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

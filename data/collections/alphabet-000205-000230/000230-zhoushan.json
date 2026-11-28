@@ -1,0 +1,85 @@
+{
+  "id": "000230",
+  "letter": "Z",
+  "name": "Zhoushan",
+  "slug": "zhoushan",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "CN",
+  "country": "China",
+  "region": "Zhoushan Archipelago",
+  "reference": [
+    122.13806,
+    30.05778
+  ],
+  "source_id": "geonames:1784108",
+  "source_name": "Zhoushan Dao",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "East China Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#493645",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#2b4340",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Smoked Plum V N",
+    "S": "Deep Moss V S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Zhoushan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 949,
+  "area_km2": 480.93542490616016,
+  "gshhg_area_km2": 480.93542490616016,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Zhoushan",
+    "country": "CN",
+    "lon": 122.20488,
+    "lat": 29.98869,
+    "population": 882932,
+    "source": "https://www.geonames.org/1886762"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

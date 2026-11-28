@@ -1,0 +1,156 @@
+{
+  "id": "000214",
+  "letter": "J",
+  "name": "Jura",
+  "slug": "jura",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides",
+  "reference": [
+    -5.9,
+    56.0
+  ],
+  "source_id": "geonames:2645940",
+  "source_name": "Jura",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#645b4e",
+      "Glacial Turquoise"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#d0dbde",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Soft Umber V N",
+    "S": "Glacial Mist V S"
+  },
+  "color_families": {
+    "N": "Turquoise",
+    "S": "Neutral"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 819,
+  "area_km2": 374.0988379850633,
+  "gshhg_area_km2": 374.0988379850633,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -52.122833251953125,
+  "max_land_elevation_m": 748.0758056640625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/494/317.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/494/318.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/494/319.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/494/320.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/495/317.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/495/318.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/495/319.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/495/320.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/496/317.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/496/318.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/496/319.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/496/320.tif"
+  ],
+  "resolution_m": 91.92847609292167,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=56.0 +lon_0=-5.9 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -12475.203897455707,
+    -23243.410253105787,
+    13219.311481163993,
+    16763.862542533723
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 22.982119023230418,
+  "artwork_print_scale_denominator": 271442.3506680758,
+  "color_mood": "Smoked Pearl",
+  "background": "#d0dbde",
+  "background_name": "Glacial Mist V S",
+  "color_family": "Neutral",
+  "palette": [
+    "#55464e",
+    "#8c7b82",
+    "#bcadb1",
+    "#e6dbd8"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "top",
+    "azimuth_degrees": 0,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.0,
+      -1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      11
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b39238785c5a38f65f3d2f5df7e114c150d1cc54f112334467fd7714dd44d7ff",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

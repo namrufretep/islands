@@ -1,0 +1,78 @@
+{
+  "id": "000227",
+  "letter": "W",
+  "name": "Wetar",
+  "slug": "wetar",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "ID",
+  "country": "Indonesia",
+  "region": "Maluku Islands",
+  "reference": [
+    126.3,
+    -7.8
+  ],
+  "source_id": "geonames:1621595",
+  "source_name": "Pulau Wetar",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Banda Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#2a4859",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#493c39",
+        "#786052",
+        "#a48166",
+        "#d9be9b"
+      ],
+      "#a27967",
+      "Volcanic Ash"
+    ]
+  },
+  "background_names": {
+    "N": "Nordic Teal V N",
+    "S": "Mineral Rose V S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1823,
+  "area_km2": 2635.422402044783,
+  "gshhg_area_km2": 2635.422402044783,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

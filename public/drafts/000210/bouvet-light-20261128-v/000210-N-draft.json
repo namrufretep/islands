@@ -1,0 +1,155 @@
+{
+  "id": "000210",
+  "letter": "F",
+  "name": "Futuna",
+  "slug": "futuna",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "WF",
+  "country": "Wallis and Futuna",
+  "region": "Horn Islands",
+  "reference": [
+    -178.12511,
+    -14.28801
+  ],
+  "source_id": "geonames:4034861",
+  "source_name": "Futuna Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#e6e3d9",
+      "Fossil Ivory"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#2c4a5b",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Porcelain V N",
+    "S": "Nordic Teal V S"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Brown"
+  },
+  "largest_settlement": "Leava",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 229,
+  "area_km2": 64.3329394698429,
+  "gshhg_area_km2": 64.3329394698429,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Leava",
+    "country": "WF",
+    "lon": -178.15833,
+    "lat": -14.29333,
+    "population": 480,
+    "source": "https://www.geonames.org/4034778"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -282.691650390625,
+  "max_land_elevation_m": 527.4220581054688,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/10/1105.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/10/1106.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/11/1105.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/11/1106.tif"
+  ],
+  "resolution_m": 37.809288911812324,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=-14.28801 +lon_0=-178.12511 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7323.382224320653,
+    -3682.065194073334,
+    9131.22031010007,
+    6187.068790735476
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 9.452322227953081,
+  "artwork_print_scale_denominator": 111641.60111755607,
+  "color_mood": "Fossil Ivory",
+  "background": "#e6e3d9",
+  "background_name": "Warm Porcelain V N",
+  "color_family": "White",
+  "palette": [
+    "#4d4737",
+    "#8b8168",
+    "#bcb49a",
+    "#e6e1cd"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -6,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "940cbfa6fdb9a5e0806bb6ae53278ae8284ed0362f0f585adb46e0c721583620",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

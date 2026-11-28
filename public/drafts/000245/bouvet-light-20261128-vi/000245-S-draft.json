@@ -1,0 +1,149 @@
+{
+  "id": "000245",
+  "letter": "O",
+  "name": "Ons",
+  "slug": "ons",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "ES",
+  "country": "Spain",
+  "region": "Galicia",
+  "reference": [
+    -8.93558,
+    42.38052
+  ],
+  "source_id": "geonames:3115045",
+  "source_name": "Illa de Ons",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#333f68",
+        "#657aa1",
+        "#a1b1cf",
+        "#dce3ec"
+      ],
+      "#542b43",
+      "Glacial Lapis"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#163137",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Mulberry VI N",
+    "S": "Deep Petrol VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Brown"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 86,
+  "area_km2": 4.864048220449734,
+  "gshhg_area_km2": 4.864048220449734,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -10.848386764526367,
+  "max_land_elevation_m": 112.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1945/1514.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1945/1515.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1946/1514.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1946/1515.tif"
+  ],
+  "resolution_m": 11.705764635183073,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=42.38052 +lon_0=-8.93558 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1089.6010572000876,
+    -2890.289076323456,
+    1385.7045538935608,
+    2204.059692908217
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 2.926441158795768,
+  "artwork_print_scale_denominator": 34564.26565506813,
+  "color_mood": "Warm Travertine",
+  "background": "#163137",
+  "background_name": "Deep Petrol VI S",
+  "color_family": "Brown",
+  "palette": [
+    "#574335",
+    "#987754",
+    "#c9aa7d",
+    "#ead8b6"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -8,
+      8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "1ec1ba9c2b6ddde0086a87234732fcf2a7500923d8bcdd48c3e37f1a3851ab94",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

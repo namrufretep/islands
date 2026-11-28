@@ -1,0 +1,86 @@
+{
+  "id": "000231",
+  "letter": "A",
+  "name": "Andros",
+  "slug": "andros",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GR",
+  "country": "Greece",
+  "region": "Cyclades",
+  "reference": [
+    24.87029,
+    37.84391
+  ],
+  "source_id": "geonames:265039",
+  "source_name": "Nisí Ándros",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Aegean Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#414340",
+        "#7c8078",
+        "#b4b9ac",
+        "#e2e6d8"
+      ],
+      "#101c29",
+      "Basalt Mist"
+    ],
+    "S": [
+      [
+        "#205e68",
+        "#438e94",
+        "#78bfc0",
+        "#c1e1df"
+      ],
+      "#ebebde",
+      "Glacial Turquoise"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Ink VI N",
+    "S": "Ivory Mist VI S"
+  },
+  "color_families": {
+    "N": "Neutral",
+    "S": "Turquoise"
+  },
+  "largest_settlement": "Andros",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 959,
+  "antimeridian_split_parts": 1,
+  "area_km2": 389.65761452580057,
+  "gshhg_area_km2": 389.65761452580057,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Andros",
+    "country": "GR",
+    "lon": 24.9367,
+    "lat": 37.8367,
+    "population": 3918,
+    "source": "https://www.geonames.org/265040"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

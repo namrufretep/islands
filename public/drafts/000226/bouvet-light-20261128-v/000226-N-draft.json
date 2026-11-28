@@ -1,0 +1,152 @@
+{
+  "id": "000226",
+  "letter": "V",
+  "name": "Ventotene",
+  "slug": "ventotene",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Pontine Islands",
+  "reference": [
+    13.42443,
+    40.7926
+  ],
+  "source_id": "geonames:3164576",
+  "source_name": "Isola Ventotene",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#444236",
+      "Fossil Ivory"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#ddd0b6",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Dark Bronze V N",
+    "S": "Travertine Sand V S"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Brown"
+  },
+  "largest_settlement": "Ventotene",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 56,
+  "area_km2": 1.8438815518136136,
+  "gshhg_area_km2": 1.8438815518136136,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ventotene",
+    "country": "IT",
+    "lon": 13.42777,
+    "lat": 40.79404,
+    "population": 530,
+    "source": "https://www.geonames.org/3164577"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -6.876819610595703,
+  "max_land_elevation_m": 102.66101837158203,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2200/1538.tif"
+  ],
+  "resolution_m": 5.338495537437962,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.7926 +lon_0=13.42443 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1257.8174019850098,
+    -708.1756774796571,
+    1065.495855907991,
+    1420.2439636331412
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 1.3346238843594904,
+  "artwork_print_scale_denominator": 15763.27422471839,
+  "color_mood": "Fossil Ivory",
+  "background": "#444236",
+  "background_name": "Dark Bronze V N",
+  "color_family": "White",
+  "palette": [
+    "#4d4737",
+    "#8b8168",
+    "#bcb49a",
+    "#e6e1cd"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -6,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "452b497e8b6f9c7e9698752127ae936098979c078583e8bcdc6a4217f98235fb",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

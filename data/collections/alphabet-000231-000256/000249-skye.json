@@ -1,0 +1,89 @@
+{
+  "id": "000249",
+  "letter": "S",
+  "name": "Skye",
+  "slug": "skye",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Inner Hebrides",
+  "reference": [
+    -6.25,
+    57.3
+  ],
+  "source_id": "geonames:2637681",
+  "source_name": "Island of Skye",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#dce1d9",
+      "Dune Gold"
+    ],
+    "S": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#74774f",
+      "Lilac Schist"
+    ]
+  },
+  "background_names": {
+    "N": "Cool Chalk VI N",
+    "S": "Lichen VI S"
+  },
+  "color_families": {
+    "N": "Yellow",
+    "S": "Purple"
+  },
+  "largest_settlement": "Portree",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "source_aliases": [
+    "geonames:13285696"
+  ],
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 2812,
+  "antimeridian_split_parts": 1,
+  "area_km2": 1670.3032149638495,
+  "gshhg_area_km2": 1670.3032149638495,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Portree",
+    "country": "GB",
+    "lon": -6.19418,
+    "lat": 57.41288,
+    "population": 2310,
+    "source": "https://www.geonames.org/2640006"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

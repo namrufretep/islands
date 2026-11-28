@@ -1,0 +1,160 @@
+{
+  "id": "000224",
+  "letter": "T",
+  "name": "Terceira",
+  "slug": "terceira",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PT",
+  "country": "Portugal",
+  "region": "Azores",
+  "reference": [
+    -27.21849,
+    38.72805
+  ],
+  "source_id": "geonames:3372530",
+  "source_name": "Terceira Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#334d4f",
+      "Rose Rhodonite"
+    ],
+    "S": [
+      [
+        "#685129",
+        "#a18645",
+        "#cdb675",
+        "#ecdfb3"
+      ],
+      "#bca97a",
+      "Dune Gold"
+    ]
+  },
+  "background_names": {
+    "N": "Forest Shadow V N",
+    "S": "Old Sandstone V S"
+  },
+  "color_families": {
+    "N": "Pink",
+    "S": "Yellow"
+  },
+  "largest_settlement": "Angra do Heroísmo",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 597,
+  "area_km2": 409.90215469997673,
+  "gshhg_area_km2": 409.90215469997673,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Angra do Heroísmo",
+    "country": "PT",
+    "lon": -27.21839,
+    "lat": 38.6539,
+    "population": 12045,
+    "source": "https://www.geonames.org/3373348"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -61.62855911254883,
+  "max_land_elevation_m": 1016.4791259765625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/868/783.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/868/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/868/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/869/783.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/869/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/869/785.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/870/783.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/870/784.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/870/785.tif"
+  ],
+  "resolution_m": 67.7772559572567,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=38.72805 +lon_0=-27.21849 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -14152.569470129743,
+    -10008.683238424203,
+    15344.09232246837,
+    8401.24446810972
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.944313989314175,
+  "artwork_print_scale_denominator": 200129.6927871753,
+  "color_mood": "Dune Gold",
+  "background": "#bca97a",
+  "background_name": "Old Sandstone V S",
+  "color_family": "Yellow",
+  "palette": [
+    "#685129",
+    "#a18645",
+    "#cdb675",
+    "#ecdfb3"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 45,
+    "shadow_distance_px": 9,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -6,
+      6
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "ed930eae2332d75a1e41cc26b0ccc2c2d4fd2b4325f9d083badcd8ef35e7acaf",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

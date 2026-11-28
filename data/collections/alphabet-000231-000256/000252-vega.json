@@ -1,0 +1,86 @@
+{
+  "id": "000252",
+  "letter": "V",
+  "name": "Vega",
+  "slug": "vega",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Nordland",
+  "reference": [
+    11.85687,
+    65.66898
+  ],
+  "source_id": "geonames:3132343",
+  "source_name": "Vega",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#352922",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#1a3750",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Brown Obsidian VI N",
+    "S": "Deep Marine VI S"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Gladstad",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 602,
+  "antimeridian_split_parts": 1,
+  "area_km2": 116.36615613923406,
+  "gshhg_area_km2": 116.36615613923406,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Gladstad",
+    "country": "NO",
+    "lon": 11.96218,
+    "lat": 65.67683,
+    "population": 300,
+    "source": "https://www.geonames.org/3155536"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

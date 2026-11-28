@@ -20,6 +20,6 @@ with zipfile.ZipFile(a.output/(a.name+'.zip'),'w',zipfile.ZIP_DEFLATED) as z:
  for f in files:z.write(f,'artworks/'+f.name)
  for f in sorted(source.iterdir()):
   if f.is_file():z.write(f,'sources/'+f.name)
- for name in ['prepare_alphabet_geography.py','render_african_collection.py','alphabet_water.py','register_alphabet_collection.py','export_alphabet_collection.py']:z.write('scripts/'+name,'scripts/'+name)
+ for name in ['prepare_alphabet_geography.py','render_african_collection.py','island_lighting.py','test_island_lighting.py','alphabet_water.py','register_alphabet_collection.py','export_alphabet_collection.py']:z.write('scripts/'+name,'scripts/'+name)
  z.write(sheet,sheet.name)
 print('Exported 52 original artworks, metadata, source geometries, scripts and overview')

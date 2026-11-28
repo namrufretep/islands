@@ -1,0 +1,85 @@
+{
+  "id": "000212",
+  "letter": "H",
+  "name": "Hitra",
+  "slug": "hitra",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Trøndelag",
+  "reference": [
+    8.75618,
+    63.54391
+  ],
+  "source_id": "geonames:3152625",
+  "source_name": "Hitra",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#c7a174",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#d5c3cd",
+      "Olive Calcite"
+    ]
+  },
+  "background_names": {
+    "N": "Clay Sand V N",
+    "S": "Orchid Dust V S"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Fillan",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 1695,
+  "area_km2": 638.7382183029291,
+  "gshhg_area_km2": 638.7382183029291,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Fillan",
+    "country": "NO",
+    "lon": 8.96961,
+    "lat": 63.60638,
+    "population": 510,
+    "source": "https://www.geonames.org/3157656"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

@@ -1,0 +1,157 @@
+{
+  "id": "000207",
+  "letter": "C",
+  "name": "Camiguin",
+  "slug": "camiguin",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "PH",
+  "country": "Philippines",
+  "region": "Northern Mindanao",
+  "reference": [
+    124.71856,
+    9.17454
+  ],
+  "source_id": "geonames:1719692",
+  "source_name": "Camiguin Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Bohol Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#3e442e",
+        "#79805a",
+        "#b1b58d",
+        "#dfe0bd"
+      ],
+      "#dcdae4",
+      "Olive Calcite"
+    ],
+    "S": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#354f51",
+      "Terracotta Veil"
+    ]
+  },
+  "background_names": {
+    "N": "Violet Chalk V N",
+    "S": "Forest Shadow V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Orange"
+  },
+  "largest_settlement": "Mambajao",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "bottom",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 365,
+  "area_km2": 249.53391098742372,
+  "gshhg_area_km2": 249.53391098742372,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Mambajao",
+    "country": "PH",
+    "lon": 124.7156,
+    "lat": 9.2504,
+    "population": 10058,
+    "source": "https://www.geonames.org/1702348"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -244.39535522460938,
+  "max_land_elevation_m": 1619.3790283203125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1732/971.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1732/972.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1733/971.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1733/972.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1734/971.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1734/972.tif"
+  ],
+  "resolution_m": 46.17524431361578,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=9.17454 +lon_0=124.71856 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -9506.36759239024,
+    -10689.461504462426,
+    9638.950670206736,
+    9406.00482082316
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 11.543811078403944,
+  "artwork_print_scale_denominator": 136344.22533547966,
+  "color_mood": "Terracotta Veil",
+  "background": "#354f51",
+  "background_name": "Forest Shadow V S",
+  "color_family": "Orange",
+  "palette": [
+    "#693c32",
+    "#a06b51",
+    "#d1a17e",
+    "#eed6b9"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "bottom",
+    "azimuth_degrees": 180,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.2246467991473532e-16,
+      1.0
+    ],
+    "shadow_offset_px": [
+      0,
+      -13
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "26cb274183c95395f7e52fe6c4076a075b70aaa4d6c1b1299ee3f44b572dcced",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

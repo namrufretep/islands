@@ -1,0 +1,157 @@
+{
+  "id": "000213",
+  "letter": "I",
+  "name": "Ischia",
+  "slug": "ischia",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "IT",
+  "country": "Italy",
+  "region": "Bay of Naples",
+  "reference": [
+    13.90572,
+    40.72945
+  ],
+  "source_id": "geonames:3175455",
+  "source_name": "Isola d'Ischia",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Tyrrhenian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#2c4b41",
+        "#568371",
+        "#94b6a0",
+        "#d0dfc7"
+      ],
+      "#eae5d3",
+      "Quiet Malachite"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#4b3847",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Fossil Chalk V N",
+    "S": "Smoked Plum V S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": "Ischia",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 229,
+  "area_km2": 49.83353478333324,
+  "gshhg_area_km2": 49.83353478333324,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ischia",
+    "country": "IT",
+    "lon": 13.94862,
+    "lat": 40.73793,
+    "population": 18564,
+    "source": "https://www.geonames.org/3175458"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -253.58885192871094,
+  "max_land_elevation_m": 758.49267578125,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2205/1539.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2205/1540.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2206/1539.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2206/1540.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2207/1539.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/2207/1540.tif"
+  ],
+  "resolution_m": 22.49297265617379,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=40.72945 +lon_0=13.90572 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -4537.184325788232,
+    -4248.200334375617,
+    5251.757374178602,
+    3528.835615953075
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 5.623243164043448,
+  "artwork_print_scale_denominator": 66416.25784303284,
+  "color_mood": "Quiet Malachite",
+  "background": "#eae5d3",
+  "background_name": "Fossil Chalk V N",
+  "color_family": "Green",
+  "palette": [
+    "#2c4b41",
+    "#568371",
+    "#94b6a0",
+    "#d0dfc7"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "0f94d9bd60e8d779428929ed33b429ef4cb8b63fb142ecc965e09decd60c9f6d",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

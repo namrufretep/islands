@@ -1,0 +1,152 @@
+{
+  "id": "000239",
+  "letter": "I",
+  "name": "Inishbofin",
+  "slug": "inishbofin",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "IE",
+  "country": "Ireland",
+  "region": "Connemara",
+  "reference": [
+    -10.20889,
+    53.62083
+  ],
+  "source_id": "geonames:2963663",
+  "source_name": "Inishbofin",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Atlantic Ocean",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#18384a",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#3a2f25",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Marine VI N",
+    "S": "Brown Obsidian VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "name_note": "County Galway / Connemara island, not Inishbofin in County Donegal.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 112,
+  "area_km2": 10.368815131376518,
+  "gshhg_area_km2": 10.368815131376518,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -82.36178588867188,
+  "max_land_elevation_m": 73.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1931/1321.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1931/1322.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1931/1323.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1932/1321.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1932/1322.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1932/1323.tif"
+  ],
+  "resolution_m": 12.677867920003887,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=53.62083 +lon_0=-10.20889 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -3440.652055743173,
+    -1625.7859677484837,
+    2076.7560630425182,
+    1716.2674462611167
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.169466980000972,
+  "artwork_print_scale_denominator": 37434.64937009022,
+  "color_mood": "Rose Rhodonite",
+  "background": "#3a2f25",
+  "background_name": "Brown Obsidian VI S",
+  "color_family": "Pink",
+  "palette": [
+    "#493447",
+    "#8a5d7a",
+    "#bd91a8",
+    "#e8cbd6"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      9,
+      9
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "f83a77aeca65c70dafca65ad471d98d3cc9a6886f465a5e4ffdc96e60ce03fd8",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}

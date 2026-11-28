@@ -1,0 +1,161 @@
+{
+  "id": "000255",
+  "letter": "Y",
+  "name": "Yashiro-jima",
+  "slug": "yashiro-jima",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "JP",
+  "country": "Japan",
+  "region": "Seto Inland Sea",
+  "reference": [
+    132.25,
+    33.91667
+  ],
+  "source_id": "geonames:1848494",
+  "source_name": "Yashiro-jima",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Seto Inland Sea",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#577177",
+      "Pale Jade"
+    ],
+    "S": [
+      [
+        "#493447",
+        "#8a5d7a",
+        "#bd91a8",
+        "#e8cbd6"
+      ],
+      "#b5a75d",
+      "Rose Rhodonite"
+    ]
+  },
+  "background_names": {
+    "N": "Blue Slate VI N",
+    "S": "Old Brass VI S"
+  },
+  "color_families": {
+    "N": "Green",
+    "S": "Pink"
+  },
+  "largest_settlement": "Ōshima",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "upper_left",
+      "azimuth_degrees": 315,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 722,
+  "antimeridian_split_parts": 1,
+  "area_km2": 138.33715997270198,
+  "gshhg_area_km2": 138.33715997270198,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Ōshima",
+    "country": "JP",
+    "lon": 132.19085,
+    "lat": 33.93975,
+    "population": 14798,
+    "source": "https://www.geonames.org/1896509"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -757.1510009765625,
+  "max_land_elevation_m": 674.6463623046875,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1775/817.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1775/818.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1775/819.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1776/817.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1776/818.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1776/819.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1777/817.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1777/818.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1777/819.tif"
+  ],
+  "resolution_m": 64.08155244530947,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=33.91667 +lon_0=132.25 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -7207.0912933896,
+    -6704.10009207197,
+    20681.20033080908,
+    5773.768544313649
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 16.020388111327367,
+  "artwork_print_scale_denominator": 189217.1824172524,
+  "color_mood": "Rose Rhodonite",
+  "background": "#b5a75d",
+  "background_name": "Old Brass VI S",
+  "color_family": "Pink",
+  "palette": [
+    "#493447",
+    "#8a5d7a",
+    "#bd91a8",
+    "#e8cbd6"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_left",
+    "azimuth_degrees": 315,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865477,
+      -0.7071067811865474
+    ],
+    "shadow_offset_px": [
+      9,
+      9
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "5684cf6c73b823b2c004f16c39a4b9a208fc61704bee472fb5898e10793c0287",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

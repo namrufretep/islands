@@ -1,0 +1,85 @@
+{
+  "id": "000210",
+  "letter": "F",
+  "name": "Futuna",
+  "slug": "futuna",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "WF",
+  "country": "Wallis and Futuna",
+  "region": "Horn Islands",
+  "reference": [
+    -178.12511,
+    -14.28801
+  ],
+  "source_id": "geonames:4034861",
+  "source_name": "Futuna Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "South Pacific Ocean",
+  "ocean": "Pacific Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#e6e3d9",
+      "Fossil Ivory"
+    ],
+    "S": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#2c4a5b",
+      "Warm Travertine"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Porcelain V N",
+    "S": "Nordic Teal V S"
+  },
+  "color_families": {
+    "N": "White",
+    "S": "Brown"
+  },
+  "largest_settlement": "Leava",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    },
+    "S": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 229,
+  "area_km2": 64.3329394698429,
+  "gshhg_area_km2": 64.3329394698429,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Leava",
+    "country": "WF",
+    "lon": -178.15833,
+    "lat": -14.29333,
+    "population": 480,
+    "source": "https://www.geonames.org/4034778"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+}

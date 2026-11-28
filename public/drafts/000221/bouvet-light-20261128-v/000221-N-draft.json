@@ -1,0 +1,148 @@
+{
+  "id": "000221",
+  "letter": "Q",
+  "name": "Quirpon Island",
+  "slug": "quirpon-island",
+  "collection": "A–Z Islands V · Changing Light",
+  "country_code": "CA",
+  "country": "Canada",
+  "region": "Newfoundland and Labrador",
+  "reference": [
+    -55.43124,
+    51.61678
+  ],
+  "source_id": "geonames:6115379",
+  "source_name": "Quirpon Island",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Strait of Belle Isle",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#574335",
+        "#987754",
+        "#c9aa7d",
+        "#ead8b6"
+      ],
+      "#29413e",
+      "Warm Travertine"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#c9a376",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Deep Moss V N",
+    "S": "Clay Sand V S"
+  },
+  "color_families": {
+    "N": "Brown",
+    "S": "Green"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 117,
+  "area_km2": 10.852231096222832,
+  "gshhg_area_km2": 10.852231096222832,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1.3174495697021484,
+  "max_land_elevation_m": 155.6455535888672,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1416/1359.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1416/1360.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1417/1359.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/12/1417/1360.tif"
+  ],
+  "resolution_m": 15.132997421685321,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=51.61678 +lon_0=-55.43124 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -1934.6275069126996,
+    -3863.331304568484,
+    1182.0527142629253,
+    2722.549173348967
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 3.7832493554213302,
+  "artwork_print_scale_denominator": 44684.04750497634,
+  "color_mood": "Warm Travertine",
+  "background": "#29413e",
+  "background_name": "Deep Moss V N",
+  "color_family": "Brown",
+  "palette": [
+    "#574335",
+    "#987754",
+    "#c9aa7d",
+    "#ead8b6"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 35,
+    "shadow_distance_px": 13,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -13,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "1ffc85d7488ae49f919e4f1cdbffce57c890438c830b53a00c4fcbb7c01f95b3",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

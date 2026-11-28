@@ -1,0 +1,161 @@
+{
+  "id": "000252",
+  "letter": "V",
+  "name": "Vega",
+  "slug": "vega",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "NO",
+  "country": "Norway",
+  "region": "Nordland",
+  "reference": [
+    11.85687,
+    65.66898
+  ],
+  "source_id": "geonames:3132343",
+  "source_name": "Vega",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "Norwegian Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#413344",
+        "#795f7f",
+        "#b09cba",
+        "#e2d5e4"
+      ],
+      "#352922",
+      "Lilac Schist"
+    ],
+    "S": [
+      [
+        "#34564d",
+        "#6f9486",
+        "#acc3b1",
+        "#e1e7d5"
+      ],
+      "#1a3750",
+      "Pale Jade"
+    ]
+  },
+  "background_names": {
+    "N": "Brown Obsidian VI N",
+    "S": "Deep Marine VI S"
+  },
+  "color_families": {
+    "N": "Purple",
+    "S": "Green"
+  },
+  "largest_settlement": "Gladstad",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "lower_left",
+      "azimuth_degrees": 225,
+      "elevation_degrees": 55,
+      "shadow_distance_px": 6
+    },
+    "S": {
+      "screen_direction": "left",
+      "azimuth_degrees": 270,
+      "elevation_degrees": 45,
+      "shadow_distance_px": 9
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 602,
+  "antimeridian_split_parts": 1,
+  "area_km2": 116.36615613923406,
+  "gshhg_area_km2": 116.36615613923406,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Gladstad",
+    "country": "NO",
+    "lon": 11.96218,
+    "lat": 65.67683,
+    "population": 300,
+    "source": "https://www.geonames.org/3155536"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -1.427633285522461,
+  "max_land_elevation_m": 797.3064575195312,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1090/523.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1090/524.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1090/525.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1091/523.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1091/524.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1091/525.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1092/523.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1092/524.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1092/525.tif"
+  ],
+  "resolution_m": 34.72813894342237,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=65.66898 +lon_0=11.85687 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -5124.237070854087,
+    -9223.978694967629,
+    9989.44899732333,
+    5180.895811199389
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 8.682034735855593,
+  "artwork_print_scale_denominator": 102543.71735262511,
+  "color_mood": "Lilac Schist",
+  "background": "#352922",
+  "background_name": "Brown Obsidian VI N",
+  "color_family": "Purple",
+  "palette": [
+    "#413344",
+    "#795f7f",
+    "#b09cba",
+    "#e2d5e4"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "lower_left",
+    "azimuth_degrees": 225,
+    "elevation_degrees": 55,
+    "shadow_distance_px": 6,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      -0.7071067811865475,
+      0.7071067811865477
+    ],
+    "shadow_offset_px": [
+      4,
+      -4
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "b6d06c69f27fd0e18458974677eb94c3e99f81b5d1adc143779b309d16e23be8",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

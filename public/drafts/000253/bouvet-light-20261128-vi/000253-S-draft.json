@@ -1,0 +1,162 @@
+{
+  "id": "000253",
+  "letter": "W",
+  "name": "Wight",
+  "slug": "wight",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Southern England",
+  "reference": [
+    -1.28764,
+    50.67948
+  ],
+  "source_id": "geonames:2633939",
+  "source_name": "Isle of Wight",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "English Channel",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#263e4b",
+        "#517182",
+        "#91adb9",
+        "#d6e1df"
+      ],
+      "#254739",
+      "Fjord Slate"
+    ],
+    "S": [
+      [
+        "#55464e",
+        "#8c7b82",
+        "#bcadb1",
+        "#e6dbd8"
+      ],
+      "#4f2839",
+      "Smoked Pearl"
+    ]
+  },
+  "background_names": {
+    "N": "Forest VI N",
+    "S": "Black Cherry VI S"
+  },
+  "color_families": {
+    "N": "Blue",
+    "S": "Neutral"
+  },
+  "largest_settlement": "Newport",
+  "lighting_design": {
+    "N": {
+      "screen_direction": "top",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    },
+    "S": {
+      "screen_direction": "upper_right",
+      "azimuth_degrees": 45,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    }
+  },
+  "name_note": "Isle of Wight, England; short display name Wight for alphabetic indexing.",
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 608,
+  "antimeridian_split_parts": 1,
+  "area_km2": 388.83475749244,
+  "gshhg_area_km2": 388.83475749244,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": {
+    "name": "Newport",
+    "country": "GB",
+    "lon": -1.29124,
+    "lat": 50.70146,
+    "population": 24884,
+    "source": "https://www.geonames.org/2641599"
+  },
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -8.110213279724121,
+  "max_land_elevation_m": 239.6650390625,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/507/343.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/507/344.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/507/345.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/508/343.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/508/344.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/508/345.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/509/343.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/509/344.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/10/509/345.tif"
+  ],
+  "resolution_m": 83.66617208461317,
+  "edition": "S",
+  "orientation_degrees": 180,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=50.67948 +lon_0=-1.28764 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -21206.10511412337,
+    -11857.262151572288,
+    15205.412977100277,
+    9745.534757778687
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 20.91654302115329,
+  "artwork_print_scale_denominator": 247045.78371440896,
+  "color_mood": "Smoked Pearl",
+  "background": "#4f2839",
+  "background_name": "Black Cherry VI S",
+  "color_family": "Neutral",
+  "palette": [
+    "#55464e",
+    "#8c7b82",
+    "#bcadb1",
+    "#e6dbd8"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "upper_right",
+    "azimuth_degrees": 45,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      0.7071067811865475,
+      -0.7071067811865476
+    ],
+    "shadow_offset_px": [
+      -8,
+      8
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "e00e9919a3efd2374cd5f77017935f95236602c8fcc489768def350fdb011cf1",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true
+}

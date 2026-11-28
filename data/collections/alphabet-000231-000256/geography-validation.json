@@ -1,0 +1,2197 @@
+[
+  {
+    "id": "000231",
+    "letter": "A",
+    "name": "Andros",
+    "slug": "andros",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      24.87029,
+      37.84391
+    ],
+    "source_id": "geonames:265039",
+    "source_name": "Nisí Ándros",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#414340",
+          "#7c8078",
+          "#b4b9ac",
+          "#e2e6d8"
+        ],
+        "#101c29",
+        "Basalt Mist"
+      ],
+      "S": [
+        [
+          "#205e68",
+          "#438e94",
+          "#78bfc0",
+          "#c1e1df"
+        ],
+        "#ebebde",
+        "Glacial Turquoise"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Ink VI N",
+      "S": "Ivory Mist VI S"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Turquoise"
+    },
+    "largest_settlement": "Andros",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 959,
+    "antimeridian_split_parts": 1,
+    "area_km2": 389.65761452580057,
+    "gshhg_area_km2": 389.65761452580057,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Andros",
+      "country": "GR",
+      "lon": 24.9367,
+      "lat": 37.8367,
+      "population": 3918,
+      "source": "https://www.geonames.org/265040"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000232",
+    "letter": "B",
+    "name": "Belle-Île",
+    "slug": "belle-ile",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "FR",
+    "country": "France",
+    "region": "Brittany",
+    "reference": [
+      -3.187,
+      47.33306
+    ],
+    "source_id": "geonames:3033682",
+    "source_name": "Belle-Île",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Bay of Biscay",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#574335",
+          "#987754",
+          "#c9aa7d",
+          "#ead8b6"
+        ],
+        "#142f32",
+        "Warm Travertine"
+      ],
+      "S": [
+        [
+          "#693c32",
+          "#a06b51",
+          "#d1a17e",
+          "#eed6b9"
+        ],
+        "#592e42",
+        "Terracotta Veil"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Petrol VI N",
+      "S": "Mulberry VI S"
+    },
+    "color_families": {
+      "N": "Brown",
+      "S": "Orange"
+    },
+    "largest_settlement": "Le Palais",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 536,
+    "antimeridian_split_parts": 1,
+    "area_km2": 86.57980000480138,
+    "gshhg_area_km2": 86.57980000480138,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Le Palais",
+      "country": "FR",
+      "lon": -3.15583,
+      "lat": 47.3463,
+      "population": 2645,
+      "source": "https://www.geonames.org/3003045"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000233",
+    "letter": "C",
+    "name": "Corfu",
+    "slug": "corfu",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Ionian Islands",
+    "reference": [
+      19.85231,
+      39.59828
+    ],
+    "source_id": "geonames:2463678",
+    "source_name": "Corfu",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Ionian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#685129",
+          "#a18645",
+          "#cdb675",
+          "#ecdfb3"
+        ],
+        "#28232b",
+        "Dune Gold"
+      ],
+      "S": [
+        [
+          "#413344",
+          "#795f7f",
+          "#b09cba",
+          "#e2d5e4"
+        ],
+        "#171b48",
+        "Lilac Schist"
+      ]
+    },
+    "background_names": {
+      "N": "Obsidian VI N",
+      "S": "Indigo Night VI S"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": "Corfu",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1329,
+    "antimeridian_split_parts": 1,
+    "area_km2": 604.0874391824142,
+    "gshhg_area_km2": 604.0874391824142,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Corfu",
+      "country": "GR",
+      "lon": 19.92016,
+      "lat": 39.62441,
+      "population": 40047,
+      "source": "https://www.geonames.org/2463679"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000234",
+    "letter": "D",
+    "name": "D’Urville Island",
+    "slug": "durville-island",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "NZ",
+    "country": "New Zealand",
+    "region": "Marlborough Sounds",
+    "reference": [
+      173.86667,
+      -40.83333
+    ],
+    "source_id": "geonames:2191538",
+    "source_name": "D'Urville Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Cook Strait",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#205e68",
+          "#438e94",
+          "#78bfc0",
+          "#c1e1df"
+        ],
+        "#e9e1d2",
+        "Glacial Turquoise"
+      ],
+      "S": [
+        [
+          "#263e4b",
+          "#517182",
+          "#91adb9",
+          "#d6e1df"
+        ],
+        "#283845",
+        "Fjord Slate"
+      ]
+    },
+    "background_names": {
+      "N": "Pale Limestone VI N",
+      "S": "Storm Night VI S"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Blue"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "source_aliases": [
+      "geonames:6248556"
+    ],
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1283,
+    "antimeridian_split_parts": 1,
+    "area_km2": 176.23849092199524,
+    "gshhg_area_km2": 176.23849092199524,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000235",
+    "letter": "E",
+    "name": "Eday",
+    "slug": "eday",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Orkney",
+    "reference": [
+      -2.78333,
+      59.18333
+    ],
+    "source_id": "geonames:2650260",
+    "source_name": "Eday",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#693c32",
+          "#a06b51",
+          "#d1a17e",
+          "#eed6b9"
+        ],
+        "#d7bd96",
+        "Terracotta Veil"
+      ],
+      "S": [
+        [
+          "#4d4737",
+          "#8b8168",
+          "#bcb49a",
+          "#e6e1cd"
+        ],
+        "#dad5e4",
+        "Fossil Ivory"
+      ]
+    },
+    "background_names": {
+      "N": "Warm Sand VI N",
+      "S": "Lavender Chalk VI S"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "White"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 172,
+    "antimeridian_split_parts": 1,
+    "area_km2": 30.07687136755189,
+    "gshhg_area_km2": 30.07687136755189,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000236",
+    "letter": "F",
+    "name": "Folegandros",
+    "slug": "folegandros",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      24.90328,
+      36.62971
+    ],
+    "source_id": "geonames:262318",
+    "source_name": "Nisí Folégandros",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#413344",
+          "#795f7f",
+          "#b09cba",
+          "#e2d5e4"
+        ],
+        "#72704c",
+        "Lilac Schist"
+      ],
+      "S": [
+        [
+          "#34564d",
+          "#6f9486",
+          "#acc3b1",
+          "#e1e7d5"
+        ],
+        "#dfe4dd",
+        "Pale Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Lichen VI N",
+      "S": "Cool Chalk VI S"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Green"
+    },
+    "largest_settlement": "Folégandros",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 231,
+    "antimeridian_split_parts": 1,
+    "area_km2": 34.40311354855528,
+    "gshhg_area_km2": 34.40311354855528,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Folégandros",
+      "country": "GR",
+      "lon": 24.92021,
+      "lat": 36.62794,
+      "population": 667,
+      "source": "https://www.geonames.org/262319"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000237",
+    "letter": "G",
+    "name": "Grímsey",
+    "slug": "grimsey",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "IS",
+    "country": "Iceland",
+    "region": "Northern Iceland",
+    "reference": [
+      -18.00038,
+      66.54419
+    ],
+    "source_id": "geonames:2631142",
+    "source_name": "Grímsey",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Greenland Sea",
+    "ocean": "Arctic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#263e4b",
+          "#517182",
+          "#91adb9",
+          "#d6e1df"
+        ],
+        "#263b32",
+        "Fjord Slate"
+      ],
+      "S": [
+        [
+          "#55464e",
+          "#8c7b82",
+          "#bcadb1",
+          "#e6dbd8"
+        ],
+        "#9c5e46",
+        "Smoked Pearl"
+      ]
+    },
+    "background_names": {
+      "N": "Pine Shadow VI N",
+      "S": "Iron Clay VI S"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Neutral"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "name_note": "Arctic Circle island north of Iceland, not the same-named islands in western Iceland.",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 93,
+    "antimeridian_split_parts": 1,
+    "area_km2": 5.916102333636344,
+    "gshhg_area_km2": 5.916102333636344,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000238",
+    "letter": "H",
+    "name": "Hvar",
+    "slug": "hvar",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Dalmatian Islands",
+    "reference": [
+      16.72833,
+      43.14083
+    ],
+    "source_id": "geonames:3199177",
+    "source_name": "Otok Hvar",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4d4737",
+          "#8b8168",
+          "#bcb49a",
+          "#e6e1cd"
+        ],
+        "#392641",
+        "Fossil Ivory"
+      ],
+      "S": [
+        [
+          "#31445d",
+          "#667e9e",
+          "#a2b6cb",
+          "#d9e1e5"
+        ],
+        "#36402f",
+        "Blue Grey Marble"
+      ]
+    },
+    "background_names": {
+      "N": "Violet Shadow VI N",
+      "S": "Dark Olivine VI S"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Blue"
+    },
+    "largest_settlement": "Hvar",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1524,
+    "antimeridian_split_parts": 1,
+    "area_km2": 309.1795611629139,
+    "gshhg_area_km2": 309.1795611629139,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Hvar",
+      "country": "HR",
+      "lon": 16.44278,
+      "lat": 43.1725,
+      "population": 3519,
+      "source": "https://www.geonames.org/3199180"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000239",
+    "letter": "I",
+    "name": "Inishbofin",
+    "slug": "inishbofin",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "IE",
+    "country": "Ireland",
+    "region": "Connemara",
+    "reference": [
+      -10.20889,
+      53.62083
+    ],
+    "source_id": "geonames:2963663",
+    "source_name": "Inishbofin",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#34564d",
+          "#6f9486",
+          "#acc3b1",
+          "#e1e7d5"
+        ],
+        "#18384a",
+        "Pale Jade"
+      ],
+      "S": [
+        [
+          "#493447",
+          "#8a5d7a",
+          "#bd91a8",
+          "#e8cbd6"
+        ],
+        "#3a2f25",
+        "Rose Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Deep Marine VI N",
+      "S": "Brown Obsidian VI S"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Pink"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "name_note": "County Galway / Connemara island, not Inishbofin in County Donegal.",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 112,
+    "antimeridian_split_parts": 1,
+    "area_km2": 10.368815131376518,
+    "gshhg_area_km2": 10.368815131376518,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000240",
+    "letter": "J",
+    "name": "Jindo",
+    "slug": "jindo",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "KR",
+    "country": "South Korea",
+    "region": "South Jeolla",
+    "reference": [
+      126.25333,
+      34.4575
+    ],
+    "source_id": "geonames:1846091",
+    "source_name": "Jindo",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Yellow Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#55464e",
+          "#8c7b82",
+          "#bcadb1",
+          "#e6dbd8"
+        ],
+        "#4a2539",
+        "Smoked Pearl"
+      ],
+      "S": [
+        [
+          "#2c4b41",
+          "#568371",
+          "#94b6a0",
+          "#d0dfc7"
+        ],
+        "#284c41",
+        "Quiet Malachite"
+      ]
+    },
+    "background_names": {
+      "N": "Black Cherry VI N",
+      "S": "Forest VI S"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Green"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "source_aliases": [
+      "geonames:1846306"
+    ],
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1439,
+    "antimeridian_split_parts": 1,
+    "area_km2": 347.8509102374635,
+    "gshhg_area_km2": 347.8509102374635,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000241",
+    "letter": "K",
+    "name": "Kalymnos",
+    "slug": "kalymnos",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Dodecanese",
+    "reference": [
+      26.98105,
+      36.97582
+    ],
+    "source_id": "geonames:261506",
+    "source_name": "Kalymnos Island",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#31445d",
+          "#667e9e",
+          "#a2b6cb",
+          "#d9e1e5"
+        ],
+        "#66533c",
+        "Blue Grey Marble"
+      ],
+      "S": [
+        [
+          "#3e442e",
+          "#79805a",
+          "#b1b58d",
+          "#dfe0bd"
+        ],
+        "#bdad81",
+        "Olive Calcite"
+      ]
+    },
+    "background_names": {
+      "N": "Earth Umber VI N",
+      "S": "Warm Stone VI S"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Green"
+    },
+    "largest_settlement": "Kálymnos",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 599,
+    "antimeridian_split_parts": 1,
+    "area_km2": 114.70655884968228,
+    "gshhg_area_km2": 114.70655884968228,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Kálymnos",
+      "country": "GR",
+      "lon": 26.98388,
+      "lat": 36.9503,
+      "population": 12324,
+      "source": "https://www.geonames.org/261507"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000242",
+    "letter": "L",
+    "name": "La Palma",
+    "slug": "la-palma",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "ES",
+    "country": "Spain",
+    "region": "Canary Islands",
+    "reference": [
+      -17.85287,
+      28.69503
+    ],
+    "source_id": "geonames:2515680",
+    "source_name": "La Palma",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#493447",
+          "#8a5d7a",
+          "#bd91a8",
+          "#e8cbd6"
+        ],
+        "#b39a58",
+        "Rose Rhodonite"
+      ],
+      "S": [
+        [
+          "#333f68",
+          "#657aa1",
+          "#a1b1cf",
+          "#dce3ec"
+        ],
+        "#5a727b",
+        "Glacial Lapis"
+      ]
+    },
+    "background_names": {
+      "N": "Old Brass VI N",
+      "S": "Blue Slate VI S"
+    },
+    "color_families": {
+      "N": "Pink",
+      "S": "Blue"
+    },
+    "largest_settlement": "Los Llanos de Aridane",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 731,
+    "antimeridian_split_parts": 1,
+    "area_km2": 715.3220815610476,
+    "gshhg_area_km2": 715.3220815610476,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Los Llanos de Aridane",
+      "country": "ES",
+      "lon": -17.91821,
+      "lat": 28.65851,
+      "population": 20171,
+      "source": "https://www.geonames.org/2514651"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000243",
+    "letter": "M",
+    "name": "Maui",
+    "slug": "maui",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "US",
+    "country": "United States",
+    "region": "Hawaiian Islands",
+    "reference": [
+      -156.26816,
+      20.77024
+    ],
+    "source_id": "geonames:5850862",
+    "source_name": "Maui",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "North Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#2c4b41",
+          "#568371",
+          "#94b6a0",
+          "#d0dfc7"
+        ],
+        "#b8754b",
+        "Quiet Malachite"
+      ],
+      "S": [
+        [
+          "#493c39",
+          "#786052",
+          "#a48166",
+          "#d9be9b"
+        ],
+        "#e4cdca",
+        "Volcanic Ash"
+      ]
+    },
+    "background_names": {
+      "N": "Terracotta VI N",
+      "S": "Rose Dust VI S"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Brown"
+    },
+    "largest_settlement": "Kahului",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1775,
+    "antimeridian_split_parts": 1,
+    "area_km2": 1913.7629114800902,
+    "gshhg_area_km2": 1913.7629114800902,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Kahului",
+      "country": "US",
+      "lon": -156.47293,
+      "lat": 20.88933,
+      "population": 26337,
+      "source": "https://www.geonames.org/5847411"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000244",
+    "letter": "N",
+    "name": "Nusa Penida",
+    "slug": "nusa-penida",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "ID",
+    "country": "Indonesia",
+    "region": "Lesser Sunda Islands",
+    "reference": [
+      115.5378,
+      -8.7346
+    ],
+    "source_id": "geonames:1631470",
+    "source_name": "Nusa Penida",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Indian Ocean",
+    "ocean": "Indian Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#3e442e",
+          "#79805a",
+          "#b1b58d",
+          "#dfe0bd"
+        ],
+        "#e8e6d9",
+        "Olive Calcite"
+      ],
+      "S": [
+        [
+          "#414340",
+          "#7c8078",
+          "#b4b9ac",
+          "#e2e6d8"
+        ],
+        "#121d2f",
+        "Basalt Mist"
+      ]
+    },
+    "background_names": {
+      "N": "Ivory Mist VI N",
+      "S": "Deep Ink VI S"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Neutral"
+    },
+    "largest_settlement": "Toyapakeh",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 378,
+    "antimeridian_split_parts": 1,
+    "area_km2": 198.21938228197197,
+    "gshhg_area_km2": 198.21938228197197,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Toyapakeh",
+      "country": "ID",
+      "lon": 115.488,
+      "lat": -8.682,
+      "population": 0,
+      "source": "https://www.geonames.org/1623273"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000245",
+    "letter": "O",
+    "name": "Ons",
+    "slug": "ons",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "ES",
+    "country": "Spain",
+    "region": "Galicia",
+    "reference": [
+      -8.93558,
+      42.38052
+    ],
+    "source_id": "geonames:3115045",
+    "source_name": "Illa de Ons",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#333f68",
+          "#657aa1",
+          "#a1b1cf",
+          "#dce3ec"
+        ],
+        "#542b43",
+        "Glacial Lapis"
+      ],
+      "S": [
+        [
+          "#574335",
+          "#987754",
+          "#c9aa7d",
+          "#ead8b6"
+        ],
+        "#163137",
+        "Warm Travertine"
+      ]
+    },
+    "background_names": {
+      "N": "Mulberry VI N",
+      "S": "Deep Petrol VI S"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Brown"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 86,
+    "antimeridian_split_parts": 1,
+    "area_km2": 4.864048220449734,
+    "gshhg_area_km2": 4.864048220449734,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000246",
+    "letter": "P",
+    "name": "Paros",
+    "slug": "paros",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GR",
+    "country": "Greece",
+    "region": "Cyclades",
+    "reference": [
+      25.1875,
+      37.05722
+    ],
+    "source_id": "geonames:255720",
+    "source_name": "Nisí Páros",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Aegean Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#493c39",
+          "#786052",
+          "#a48166",
+          "#d9be9b"
+        ],
+        "#151e42",
+        "Volcanic Ash"
+      ],
+      "S": [
+        [
+          "#685129",
+          "#a18645",
+          "#cdb675",
+          "#ecdfb3"
+        ],
+        "#2d262f",
+        "Dune Gold"
+      ]
+    },
+    "background_names": {
+      "N": "Indigo Night VI N",
+      "S": "Obsidian VI S"
+    },
+    "color_families": {
+      "N": "Brown",
+      "S": "Yellow"
+    },
+    "largest_settlement": "Páros",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 685,
+    "antimeridian_split_parts": 1,
+    "area_km2": 204.7972725105598,
+    "gshhg_area_km2": 204.7972725105598,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Páros",
+      "country": "GR",
+      "lon": 25.15,
+      "lat": 37.08333,
+      "population": 5289,
+      "source": "https://www.geonames.org/255721"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000247",
+    "letter": "Q",
+    "name": "Qamea",
+    "slug": "qamea",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "FJ",
+    "country": "Fiji",
+    "region": "Northern Division",
+    "reference": [
+      -179.75762,
+      -16.77038
+    ],
+    "source_id": "geonames:4035971",
+    "source_name": "Qamea",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#414340",
+          "#7c8078",
+          "#b4b9ac",
+          "#e2e6d8"
+        ],
+        "#253740",
+        "Basalt Mist"
+      ],
+      "S": [
+        [
+          "#205e68",
+          "#438e94",
+          "#78bfc0",
+          "#c1e1df"
+        ],
+        "#ece7d7",
+        "Glacial Turquoise"
+      ]
+    },
+    "background_names": {
+      "N": "Storm Night VI N",
+      "S": "Pale Limestone VI S"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Turquoise"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 290,
+    "antimeridian_split_parts": 1,
+    "area_km2": 37.6312477619385,
+    "gshhg_area_km2": 37.6312477619385,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000248",
+    "letter": "R",
+    "name": "Rab",
+    "slug": "rab",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "HR",
+    "country": "Croatia",
+    "region": "Kvarner Islands",
+    "reference": [
+      14.77417,
+      44.76944
+    ],
+    "source_id": "geonames:3192177",
+    "source_name": "Otok Rab",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Adriatic Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#574335",
+          "#987754",
+          "#c9aa7d",
+          "#ead8b6"
+        ],
+        "#d4d0e1",
+        "Warm Travertine"
+      ],
+      "S": [
+        [
+          "#693c32",
+          "#a06b51",
+          "#d1a17e",
+          "#eed6b9"
+        ],
+        "#d9c79c",
+        "Terracotta Veil"
+      ]
+    },
+    "background_names": {
+      "N": "Lavender Chalk VI N",
+      "S": "Warm Sand VI S"
+    },
+    "color_families": {
+      "N": "Brown",
+      "S": "Orange"
+    },
+    "largest_settlement": "Banjol",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 699,
+    "antimeridian_split_parts": 1,
+    "area_km2": 90.76021939108817,
+    "gshhg_area_km2": 90.76021939108817,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Banjol",
+      "country": "HR",
+      "lon": 14.77378,
+      "lat": 44.75372,
+      "population": 1708,
+      "source": "https://www.geonames.org/3204530"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000249",
+    "letter": "S",
+    "name": "Skye",
+    "slug": "skye",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Inner Hebrides",
+    "reference": [
+      -6.25,
+      57.3
+    ],
+    "source_id": "geonames:2637681",
+    "source_name": "Island of Skye",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Atlantic Ocean",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#685129",
+          "#a18645",
+          "#cdb675",
+          "#ecdfb3"
+        ],
+        "#dce1d9",
+        "Dune Gold"
+      ],
+      "S": [
+        [
+          "#413344",
+          "#795f7f",
+          "#b09cba",
+          "#e2d5e4"
+        ],
+        "#74774f",
+        "Lilac Schist"
+      ]
+    },
+    "background_names": {
+      "N": "Cool Chalk VI N",
+      "S": "Lichen VI S"
+    },
+    "color_families": {
+      "N": "Yellow",
+      "S": "Purple"
+    },
+    "largest_settlement": "Portree",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "source_aliases": [
+      "geonames:13285696"
+    ],
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 2812,
+    "antimeridian_split_parts": 1,
+    "area_km2": 1670.3032149638495,
+    "gshhg_area_km2": 1670.3032149638495,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Portree",
+      "country": "GB",
+      "lon": -6.19418,
+      "lat": 57.41288,
+      "population": 2310,
+      "source": "https://www.geonames.org/2640006"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000250",
+    "letter": "T",
+    "name": "Taveuni",
+    "slug": "taveuni",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "FJ",
+    "country": "Fiji",
+    "region": "Northern Division",
+    "reference": [
+      -179.95005,
+      -16.83842
+    ],
+    "source_id": "geonames:4035893",
+    "source_name": "Taveuni",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#205e68",
+          "#438e94",
+          "#78bfc0",
+          "#c1e1df"
+        ],
+        "#975244",
+        "Glacial Turquoise"
+      ],
+      "S": [
+        [
+          "#263e4b",
+          "#517182",
+          "#91adb9",
+          "#d6e1df"
+        ],
+        "#294038",
+        "Fjord Slate"
+      ]
+    },
+    "background_names": {
+      "N": "Iron Clay VI N",
+      "S": "Pine Shadow VI S"
+    },
+    "color_families": {
+      "N": "Turquoise",
+      "S": "Blue"
+    },
+    "largest_settlement": null,
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 678,
+    "antimeridian_split_parts": 2,
+    "area_km2": 434,
+    "gshhg_area_km2": 483.4935209046048,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": null,
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+    "reported_area_km2": 434,
+    "area_source": "https://mcttt.gov.fj/wp-content/uploads/2023/10/TDPVL_SESA_TOR_Oct19.pdf",
+    "area_note": "434 km² reported by Fiji Ministry of Tourism and Civil Aviation, SESA Terms of Reference, 2023, p. 2. GSHHG polygon area is retained separately and differs from the published land area. Both physical dateline-split coastline pieces are included."
+  },
+  {
+    "id": "000251",
+    "letter": "U",
+    "name": "Upolu",
+    "slug": "upolu",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "WS",
+    "country": "Samoa",
+    "region": "Samoan Islands",
+    "reference": [
+      -171.7582,
+      -13.91893
+    ],
+    "source_id": "geonames:4034956",
+    "source_name": "Upolu",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "South Pacific Ocean",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#693c32",
+          "#a06b51",
+          "#d1a17e",
+          "#eed6b9"
+        ],
+        "#343c2c",
+        "Terracotta Veil"
+      ],
+      "S": [
+        [
+          "#4d4737",
+          "#8b8168",
+          "#bcb49a",
+          "#e6e1cd"
+        ],
+        "#402946",
+        "Fossil Ivory"
+      ]
+    },
+    "background_names": {
+      "N": "Dark Olivine VI N",
+      "S": "Violet Shadow VI S"
+    },
+    "color_families": {
+      "N": "Orange",
+      "S": "White"
+    },
+    "largest_settlement": "Apia",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 1219,
+    "antimeridian_split_parts": 1,
+    "area_km2": 1145.555042560042,
+    "gshhg_area_km2": 1145.555042560042,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Apia",
+      "country": "WS",
+      "lon": -171.76666,
+      "lat": -13.83333,
+      "population": 40407,
+      "source": "https://www.geonames.org/4035413"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000252",
+    "letter": "V",
+    "name": "Vega",
+    "slug": "vega",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "NO",
+    "country": "Norway",
+    "region": "Nordland",
+    "reference": [
+      11.85687,
+      65.66898
+    ],
+    "source_id": "geonames:3132343",
+    "source_name": "Vega",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Norwegian Sea",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#413344",
+          "#795f7f",
+          "#b09cba",
+          "#e2d5e4"
+        ],
+        "#352922",
+        "Lilac Schist"
+      ],
+      "S": [
+        [
+          "#34564d",
+          "#6f9486",
+          "#acc3b1",
+          "#e1e7d5"
+        ],
+        "#1a3750",
+        "Pale Jade"
+      ]
+    },
+    "background_names": {
+      "N": "Brown Obsidian VI N",
+      "S": "Deep Marine VI S"
+    },
+    "color_families": {
+      "N": "Purple",
+      "S": "Green"
+    },
+    "largest_settlement": "Gladstad",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_left",
+        "azimuth_degrees": 225,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 602,
+    "antimeridian_split_parts": 1,
+    "area_km2": 116.36615613923406,
+    "gshhg_area_km2": 116.36615613923406,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Gladstad",
+      "country": "NO",
+      "lon": 11.96218,
+      "lat": 65.67683,
+      "population": 300,
+      "source": "https://www.geonames.org/3155536"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000253",
+    "letter": "W",
+    "name": "Wight",
+    "slug": "wight",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "region": "Southern England",
+    "reference": [
+      -1.28764,
+      50.67948
+    ],
+    "source_id": "geonames:2633939",
+    "source_name": "Isle of Wight",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "English Channel",
+    "ocean": "Atlantic Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#263e4b",
+          "#517182",
+          "#91adb9",
+          "#d6e1df"
+        ],
+        "#254739",
+        "Fjord Slate"
+      ],
+      "S": [
+        [
+          "#55464e",
+          "#8c7b82",
+          "#bcadb1",
+          "#e6dbd8"
+        ],
+        "#4f2839",
+        "Smoked Pearl"
+      ]
+    },
+    "background_names": {
+      "N": "Forest VI N",
+      "S": "Black Cherry VI S"
+    },
+    "color_families": {
+      "N": "Blue",
+      "S": "Neutral"
+    },
+    "largest_settlement": "Newport",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "top",
+        "azimuth_degrees": 0,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      },
+      "S": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      }
+    },
+    "name_note": "Isle of Wight, England; short display name Wight for alphabetic indexing.",
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 608,
+    "antimeridian_split_parts": 1,
+    "area_km2": 388.83475749244,
+    "gshhg_area_km2": 388.83475749244,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Newport",
+      "country": "GB",
+      "lon": -1.29124,
+      "lat": 50.70146,
+      "population": 24884,
+      "source": "https://www.geonames.org/2641599"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000254",
+    "letter": "X",
+    "name": "Xiyang Dao",
+    "slug": "xiyang-dao",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "CN",
+    "country": "China",
+    "region": "Fujian Islands",
+    "reference": [
+      120.04716,
+      26.50978
+    ],
+    "source_id": "geonames:1788165",
+    "source_name": "Xiyang Dao",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#4d4737",
+          "#8b8168",
+          "#bcb49a",
+          "#e6e1cd"
+        ],
+        "#baa37c",
+        "Fossil Ivory"
+      ],
+      "S": [
+        [
+          "#31445d",
+          "#667e9e",
+          "#a2b6cb",
+          "#d9e1e5"
+        ],
+        "#6b5c3f",
+        "Blue Grey Marble"
+      ]
+    },
+    "background_names": {
+      "N": "Warm Stone VI N",
+      "S": "Earth Umber VI S"
+    },
+    "color_families": {
+      "N": "White",
+      "S": "Blue"
+    },
+    "largest_settlement": "Haidao",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "lower_right",
+        "azimuth_degrees": 135,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      },
+      "S": {
+        "screen_direction": "bottom",
+        "azimuth_degrees": 180,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 131,
+    "antimeridian_split_parts": 1,
+    "area_km2": 9.420921076325184,
+    "gshhg_area_km2": 9.420921076325184,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Haidao",
+      "country": "CN",
+      "lon": 120.04817,
+      "lat": 26.50443,
+      "population": 0,
+      "source": "https://www.geonames.org/1922253"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000255",
+    "letter": "Y",
+    "name": "Yashiro-jima",
+    "slug": "yashiro-jima",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Seto Inland Sea",
+    "reference": [
+      132.25,
+      33.91667
+    ],
+    "source_id": "geonames:1848494",
+    "source_name": "Yashiro-jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "Seto Inland Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#34564d",
+          "#6f9486",
+          "#acc3b1",
+          "#e1e7d5"
+        ],
+        "#577177",
+        "Pale Jade"
+      ],
+      "S": [
+        [
+          "#493447",
+          "#8a5d7a",
+          "#bd91a8",
+          "#e8cbd6"
+        ],
+        "#b5a75d",
+        "Rose Rhodonite"
+      ]
+    },
+    "background_names": {
+      "N": "Blue Slate VI N",
+      "S": "Old Brass VI S"
+    },
+    "color_families": {
+      "N": "Green",
+      "S": "Pink"
+    },
+    "largest_settlement": "Ōshima",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "left",
+        "azimuth_degrees": 270,
+        "elevation_degrees": 40,
+        "shadow_distance_px": 11
+      },
+      "S": {
+        "screen_direction": "upper_left",
+        "azimuth_degrees": 315,
+        "elevation_degrees": 35,
+        "shadow_distance_px": 13
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 722,
+    "antimeridian_split_parts": 1,
+    "area_km2": 138.33715997270198,
+    "gshhg_area_km2": 138.33715997270198,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Ōshima",
+      "country": "JP",
+      "lon": 132.19085,
+      "lat": 33.93975,
+      "population": 14798,
+      "source": "https://www.geonames.org/1896509"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  },
+  {
+    "id": "000256",
+    "letter": "Z",
+    "name": "Zamami",
+    "slug": "zamami",
+    "collection": "A–Z Islands VI · Changing Light",
+    "country_code": "JP",
+    "country": "Japan",
+    "region": "Kerama Islands",
+    "reference": [
+      127.30572,
+      26.23646
+    ],
+    "source_id": "geonames:1848001",
+    "source_name": "Zamami Jima",
+    "island_type": "Sea Island",
+    "water_type": "Saltwater",
+    "water_body": "East China Sea",
+    "ocean": "Pacific Ocean",
+    "palettes": {
+      "N": [
+        [
+          "#55464e",
+          "#8c7b82",
+          "#bcadb1",
+          "#e6dbd8"
+        ],
+        "#e1c5c5",
+        "Smoked Pearl"
+      ],
+      "S": [
+        [
+          "#2c4b41",
+          "#568371",
+          "#94b6a0",
+          "#d0dfc7"
+        ],
+        "#ba8550",
+        "Quiet Malachite"
+      ]
+    },
+    "background_names": {
+      "N": "Rose Dust VI N",
+      "S": "Terracotta VI S"
+    },
+    "color_families": {
+      "N": "Neutral",
+      "S": "Green"
+    },
+    "largest_settlement": "Zamami",
+    "lighting_design": {
+      "N": {
+        "screen_direction": "upper_right",
+        "azimuth_degrees": 45,
+        "elevation_degrees": 55,
+        "shadow_distance_px": 6
+      },
+      "S": {
+        "screen_direction": "right",
+        "azimuth_degrees": 90,
+        "elevation_degrees": 45,
+        "shadow_distance_px": 9
+      }
+    },
+    "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+    "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+    "coastline_points": 145,
+    "antimeridian_split_parts": 1,
+    "area_km2": 7.876450699556129,
+    "gshhg_area_km2": 7.876450699556129,
+    "gshhg_overlap_fraction": 1.0,
+    "water_sources": [],
+    "water_count": 0,
+    "reference_checked": true,
+    "political_boundaries": false,
+    "largest_settlement_evidence": {
+      "name": "Zamami",
+      "country": "JP",
+      "lon": 127.30329,
+      "lat": 26.22858,
+      "population": 924,
+      "source": "https://www.geonames.org/1863806"
+    },
+    "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+    "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes."
+  }
+]

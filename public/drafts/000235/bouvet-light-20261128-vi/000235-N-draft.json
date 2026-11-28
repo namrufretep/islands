@@ -1,0 +1,149 @@
+{
+  "id": "000235",
+  "letter": "E",
+  "name": "Eday",
+  "slug": "eday",
+  "collection": "A–Z Islands VI · Changing Light",
+  "country_code": "GB",
+  "country": "United Kingdom",
+  "region": "Orkney",
+  "reference": [
+    -2.78333,
+    59.18333
+  ],
+  "source_id": "geonames:2650260",
+  "source_name": "Eday",
+  "island_type": "Sea Island",
+  "water_type": "Saltwater",
+  "water_body": "North Sea",
+  "ocean": "Atlantic Ocean",
+  "palettes": {
+    "N": [
+      [
+        "#693c32",
+        "#a06b51",
+        "#d1a17e",
+        "#eed6b9"
+      ],
+      "#d7bd96",
+      "Terracotta Veil"
+    ],
+    "S": [
+      [
+        "#4d4737",
+        "#8b8168",
+        "#bcb49a",
+        "#e6e1cd"
+      ],
+      "#dad5e4",
+      "Fossil Ivory"
+    ]
+  },
+  "background_names": {
+    "N": "Warm Sand VI N",
+    "S": "Lavender Chalk VI S"
+  },
+  "color_families": {
+    "N": "Orange",
+    "S": "White"
+  },
+  "largest_settlement": null,
+  "lighting_design": {
+    "N": {
+      "screen_direction": "right",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 40,
+      "shadow_distance_px": 11
+    },
+    "S": {
+      "screen_direction": "lower_right",
+      "azimuth_degrees": 135,
+      "elevation_degrees": 35,
+      "shadow_distance_px": 13
+    }
+  },
+  "coastline_source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "coastline_feature_type": "GSHHG 2.3.7 full-resolution L1",
+  "coastline_points": 172,
+  "area_km2": 30.07687136755189,
+  "gshhg_area_km2": 30.07687136755189,
+  "gshhg_overlap_fraction": 1.0,
+  "water_sources": [],
+  "water_count": 0,
+  "reference_checked": true,
+  "political_boundaries": false,
+  "largest_settlement_evidence": null,
+  "settlement_note": "Highest population among GeoNames cities500 points inside the physical shoreline; not independently exhaustive.",
+  "water_note": "GSHHG L2 inland-water baseline is not exhaustive. Supplemental OSM requests were unavailable or rate limited on 2026-11-28. A zero mapped-water count does not mean an island has no lakes.",
+  "land_coverage_fraction": 1.0,
+  "min_land_elevation_m": -2.048689603805542,
+  "max_land_elevation_m": 98.0,
+  "terrain_tiles": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1007/603.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1007/604.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/603.tif",
+    "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/11/1008/604.tif"
+  ],
+  "resolution_m": 28.790387860414175,
+  "edition": "N",
+  "orientation_degrees": 0,
+  "status": "verified_coastline",
+  "source": "https://www.soest.hawaii.edu/wessel/gshhg/",
+  "projection": "+proj=aeqd +lat_0=59.18333 +lon_0=-2.78333 +datum=WGS84 +units=m +no_defs",
+  "bounds_m": [
+    -2625.7991954811714,
+    -5055.894344607463,
+    2807.7513357167036,
+    7473.682452244785
+  ],
+  "canvas_px": 2048,
+  "dpi_target": 300,
+  "artwork_extent_px": 1740.8,
+  "artwork_meters_per_pixel": 7.197596965103544,
+  "artwork_print_scale_denominator": 85010.98777681352,
+  "color_mood": "Terracotta Veil",
+  "background": "#d7bd96",
+  "background_name": "Warm Sand VI N",
+  "color_family": "Orange",
+  "palette": [
+    "#693c32",
+    "#a06b51",
+    "#d1a17e",
+    "#eed6b9"
+  ],
+  "art_version": "4.7-bouvet-directional",
+  "art_status": "experimental_draft",
+  "terrain_guided": true,
+  "whole_island_terrain": true,
+  "surface_finish": "bouvet_original",
+  "surface_model": "Soft Stone: broad continuous DEM-guided light fields and a normalized sculpted dome",
+  "lighting": {
+    "screen_direction": "right",
+    "azimuth_degrees": 90,
+    "elevation_degrees": 40,
+    "shadow_distance_px": 11,
+    "shared_surface": true,
+    "azimuth_convention": "clockwise from screen top",
+    "horizontal_light_vector": [
+      1.0,
+      -6.123233995736766e-17
+    ],
+    "shadow_offset_px": [
+      -11,
+      0
+    ],
+    "consistent_relief_and_cast_shadow": true
+  },
+  "attribution": "GSHHG 2.3.7 / Wessel and Smith, LGPL-3.0-or-later; GeoNames CC BY 4.0; Mapzen elevation tiles",
+  "artwork_sha256": "d27a2b37b89888f576a2f53d50f7ad6e81e6cb72ce6e37fa9e89dc1b70c89fe7",
+  "geography_note": "Physical shoreline cross-checked against GSHHG; areas are approximate polygon areas. Inland waters are mapped selections, not exhaustive. Relief is an artistic interpretation of elevation.",
+  "render_style": "bouvet-original",
+  "style_reference": {
+    "island_id": "000001",
+    "art_version": "3.8",
+    "reference": "Bouvetøya original North-Up and South-Up"
+  },
+  "shadow_opacity": 0.08,
+  "variable_lighting": true,
+  "antimeridian_split_parts": 1
+}
